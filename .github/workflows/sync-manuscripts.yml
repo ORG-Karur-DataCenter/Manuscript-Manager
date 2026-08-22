@@ -1,0 +1,47 @@
+name: Sync manuscript tracker
+
+on:
+  schedule:
+    # Every 3 hours. GitHub may delay scheduled runs slightly at busy times.
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-manuscripts
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm install --omit=dev
+
+      - name: Run Gmail sync
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN_SATHISH: ${{ secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
+          GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run sync
+
+      - name: Commit updated data
+        run: |
+          git config user.name "manuscript-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/manuscripts.json data/sync-state.json data/excluded-log.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Sync manuscript tracker $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

@@ -1,0 +1,15 @@
+{
+  "_comment": "One entry per Gmail inbox to poll. 'refreshTokenEnv' names the GitHub Actions secret holding that account's OAuth refresh token (generate with `npm run get-refresh-token`). Add/remove accounts here — no code changes needed.",
+  "accounts": [
+    {
+      "label": "Sathish Muthu",
+      "email": "drsathishmuthu@gmail.com",
+      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH"
+    },
+    {
+      "label": "Dhibin Vikash Kolarpatti Ponnusamy",
+      "email": "dhibinvikash1@gmail.com",
+      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_DHIBIN"
+    }
+  ]
+}
