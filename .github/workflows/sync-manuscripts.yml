@@ -55,5 +55,18 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Sync manuscript tracker $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            # Anything else pushed to this branch while the sync was running would
+            # otherwise make the push a fast-forward failure and discard a whole
+            # run's classification work. Rebase onto whatever landed, then retry.
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "Pushed on attempt $attempt."
+                exit 0
+              fi
+              echo "Push rejected; rebasing onto origin and retrying."
+              git pull --rebase --autostash origin "$GITHUB_REF_NAME" || exit 1
+              sleep $((attempt * 3))
+            done
+            echo "Could not push after 3 attempts." >&2
+            exit 1
           fi
