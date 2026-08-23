@@ -33,6 +33,10 @@ const MAX_CLASSIFICATIONS_PER_RUN = Number(
 // stall the account. After this many attempts it is set aside for a human instead.
 const MAX_CLASSIFY_ATTEMPTS = 3;
 
+// After this many rate limits in a row, treat the daily quota as spent and defer
+// the rest of the account's mail to the next run.
+const RATE_LIMIT_GIVE_UP = Number(process.env.RATE_LIMIT_GIVE_UP || 5);
+
 // Cheap keyword prefilter so we don't spend an LLM call on obvious non-candidates
 // (receipts, calendar invites, mailing lists, etc). Deliberately broad/generous.
 const PREFILTER = new RegExp(
@@ -116,6 +120,7 @@ async function main() {
   let totalReview = 0;
   let totalDeferred = 0;
   let totalClassified = 0;
+  let rateLimitedThisRun = 0;
   const activeAccounts =
     accounts.filter((a) => process.env[a.refreshTokenEnv]).length || 1;
 
@@ -158,6 +163,7 @@ async function main() {
     // Timestamp of the oldest message we did NOT reach a decision on this run.
     // The window is held back to it so the next run sees it again.
     let oldestUnprocessed = null;
+    let consecutiveRateLimits = 0;
     const defer = (msg) => {
       totalDeferred++;
       if (!oldestUnprocessed || msg.internalDate < oldestUnprocessed) {
@@ -173,7 +179,14 @@ async function main() {
       }
 
       if (accountBudget <= 0) {
-        defer(msg); // out of quota for this run; next run picks it up
+        defer(msg); // out of budget for this run; next run picks it up
+        continue;
+      }
+
+      // Consecutive rate limits mean the daily window is spent. Burning the rest
+      // of the run on calls that will also 429 just wastes the job's time.
+      if (consecutiveRateLimits >= RATE_LIMIT_GIVE_UP) {
+        defer(msg);
         continue;
       }
 
@@ -190,6 +203,17 @@ async function main() {
       } catch (err) {
         // Rate limit, outage, malformed response — usually transient. Leaving the
         // id out of seenIds is what makes the email retryable instead of lost.
+        // A quota ceiling says nothing about this email — it will classify fine
+        // once the window reopens. Defer it without spending an attempt, or a
+        // day of 429s would push perfectly good mail into the review queue.
+        if (err.rateLimited) {
+          rateLimitedThisRun++;
+          consecutiveRateLimits++;
+          console.error(`Rate limited on message ${msg.id}; deferring without penalty.`);
+          defer(msg);
+          continue;
+        }
+
         const attempts = (acctState.failedAttempts[msg.id] || 0) + 1;
         console.error(
           `Classification failed for message ${msg.id} (attempt ${attempts}): ${err.message}`
@@ -220,6 +244,7 @@ async function main() {
       }
 
       // From here the email has an answer, so it is settled either way.
+      consecutiveRateLimits = 0;
       seenIds.add(msg.id);
       delete acctState.failedAttempts[msg.id];
 
@@ -316,7 +341,8 @@ async function main() {
   console.log(
     `Done. Inspected ${totalFetched}, classified ${totalClassified}, ` +
       `filed ${totalRelevant} manuscript event(s), excluded ${totalExcluded}, ` +
-      `flagged ${totalReview} for review, deferred ${totalDeferred} to the next run.`
+      `flagged ${totalReview} for review, deferred ${totalDeferred} to the next run` +
+      (rateLimitedThisRun ? ` (${rateLimitedThisRun} of them rate limited).` : ".")
   );
 }
 

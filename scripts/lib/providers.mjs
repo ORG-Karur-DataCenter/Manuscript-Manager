@@ -10,15 +10,37 @@ import { STRICT_JSON_SCHEMA, toGeminiSchema } from "./schema.mjs";
  */
 
 class ProviderError extends Error {
-  constructor(message, { retryable = false, status = null } = {}) {
+  constructor(
+    message,
+    { retryable = false, status = null, rateLimited = false, retryAfterMs = null } = {}
+  ) {
     super(message);
     this.name = "ProviderError";
     this.retryable = retryable;
     this.status = status;
+    // A quota ceiling is not the email's fault: callers use this to retry the
+    // message later instead of counting it toward a give-up budget.
+    this.rateLimited = rateLimited;
+    this.retryAfterMs = retryAfterMs;
   }
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * How long a 429 wants us to wait. Providers say so in a Retry-After header;
+ * Gemini also embeds a RetryInfo duration in the error body.
+ */
+function parseRetryAfter(response, body) {
+  const header = response.headers?.get?.("retry-after");
+  if (header) {
+    const seconds = Number(header);
+    if (Number.isFinite(seconds)) return seconds * 1000;
+  }
+  const match = /"retryDelay"\s*:\s*"(\d+(?:\.\d+)?)s"/.exec(body || "");
+  if (match) return Number(match[1]) * 1000;
+  return null;
+}
 
 /** Free tiers are throttled per minute, so pace requests rather than eat 429s. */
 function createPacer(minIntervalMs) {
@@ -50,10 +72,16 @@ async function postJson(url, { headers, body, timeoutMs = 90000 }) {
   const text = await response.text();
   if (!response.ok) {
     // 429 = quota, 5xx = transient. Both are worth another provider or another try.
-    const retryable = response.status === 429 || response.status >= 500;
+    const rateLimited = response.status === 429;
+    const retryable = rateLimited || response.status >= 500;
     throw new ProviderError(
       `HTTP ${response.status}: ${text.slice(0, 300)}`,
-      { retryable, status: response.status }
+      {
+        retryable,
+        status: response.status,
+        rateLimited,
+        retryAfterMs: rateLimited ? parseRetryAfter(response, text) : null,
+      }
     );
   }
   try {
@@ -94,7 +122,12 @@ function parseModelJson(raw, providerName) {
 
 /* ------------------------------------------------------------------ Gemini */
 
-function geminiProvider({ id, model, apiKey, minIntervalMs = 4500 }) {
+function geminiProvider({
+  id,
+  model,
+  apiKey,
+  minIntervalMs = Number(process.env.GEMINI_MIN_INTERVAL_MS || 7000),
+}) {
   const pace = createPacer(minIntervalMs);
   const schema = toGeminiSchema();
 
@@ -337,6 +370,7 @@ export async function completeWithChain(
   }
 
   const failures = [];
+  let allRateLimited = true;
   for (const provider of usable) {
     for (let attempt = 1; attempt <= attemptsPerProvider; attempt++) {
       try {
@@ -344,16 +378,20 @@ export async function completeWithChain(
         return { raw, providerId: provider.id, model: provider.model };
       } catch (err) {
         failures.push(`${provider.id}: ${err.message}`);
+        if (!err.rateLimited) allRateLimited = false;
         const lastAttempt = attempt === attemptsPerProvider;
         if (!err.retryable || lastAttempt) break;
-        await sleep(2000 * attempt);
+        // Respect the provider's stated backoff when it gives one.
+        await sleep(Math.min(err.retryAfterMs ?? 2000 * attempt, 30000));
       }
     }
   }
 
+  // If every failure was a quota ceiling, say so: the caller should wait for the
+  // window to reopen rather than treat the email as unclassifiable.
   throw new ProviderError(
     `all providers failed — ${failures.join(" | ")}`,
-    { retryable: true }
+    { retryable: true, rateLimited: allRateLimited }
   );
 }
 
