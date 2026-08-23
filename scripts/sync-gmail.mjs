@@ -4,6 +4,7 @@ import path from "node:path";
 import { buildGmailClient, fetchNewMessages } from "./lib/gmail.mjs";
 import { classifyEmail } from "./lib/classify.mjs";
 import { applyEvent } from "./lib/registry.mjs";
+import { PREFILTER } from "./lib/prefilter.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const P = {
@@ -37,37 +38,6 @@ const MAX_CLASSIFY_ATTEMPTS = 3;
 // the rest of the account's mail to the next run.
 const RATE_LIMIT_GIVE_UP = Number(process.env.RATE_LIMIT_GIVE_UP || 5);
 
-// Cheap keyword prefilter so we don't spend an LLM call on obvious non-candidates
-// (receipts, calendar invites, mailing lists, etc). Deliberately broad/generous.
-const PREFILTER = new RegExp(
-  [
-    "manuscript",
-    "submission",
-    "submitted",
-    "editorial manager",
-    "scholarone",
-    "journal",
-    "peer.?review",
-    "reviewer",
-    "revis(e|ion)",
-    "accept(ed|ance)",
-    "reject(ed|ion)",
-    "decision on your",
-    "under review",
-    "proof(s)?\\b",
-    "galley",
-    "copyedit",
-    "editor.?in.?chief",
-    "corresponding author",
-    "doi\\.org",
-    "publish(ed|ing)?",
-    "transfer(red)? to",
-    "desk reject",
-    "invite you to submit",
-    "invited to review",
-  ].join("|"),
-  "i"
-);
 
 function gmailDateQuery(sinceDate) {
   const y = sinceDate.getUTCFullYear();

@@ -1,3 +1,32 @@
 {
-  "review": []
+  "review": [
+    {
+      "timestamp": "2026-07-26T17:41:34.000Z",
+      "reason": "Salutation reads 'Dear Dr Subramanian' but the mail arrived in Dhibin's inbox; worth confirming the co-author list is right before trusting this record.",
+      "relevant": true,
+      "eventType": "new_submission",
+      "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
+      "journal": "Clinical Spine Surgery",
+      "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+      "from": "em@editorialmanager.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-20T12:38:16.000Z",
+      "reason": "Springer's notification never names the journal, only the publisher. The journal field is a placeholder and should be corrected, since journal identity drives resubmission matching.",
+      "relevant": true,
+      "eventType": "new_submission",
+      "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
+      "journal": "Springer Nature",
+      "subject": "Track the status of your manuscript",
+      "from": "do-not-reply@springernature.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy",
+      "meta": {
+        "via": "offline-import"
+      }
+    }
+  ]
 }

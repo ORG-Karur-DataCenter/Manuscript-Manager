@@ -1,3 +1,53 @@
 {
-  "excluded": []
+  "excluded": [
+    {
+      "timestamp": "2026-07-23T08:31:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your personal space to enhance your Springer Nature author experience",
+      "from": "springernature@research.springernature.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
+    },
+    {
+      "timestamp": "2026-07-28T08:31:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Discover your author benefits at Springer Nature",
+      "from": "springernature@research.springernature.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
+    },
+    {
+      "timestamp": "2026-08-16T10:22:16.000Z",
+      "reason": "unrelated",
+      "subject": "Confirm your email",
+      "from": "identity@notification.elsevier.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
+    },
+    {
+      "timestamp": "2026-08-16T13:01:43.000Z",
+      "reason": "unrelated",
+      "subject": "Welcome to Elsevier",
+      "from": "identity@notification.elsevier.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
+    },
+    {
+      "timestamp": "2026-08-16T13:06:34.000Z",
+      "reason": "unrelated",
+      "subject": "Editorial Manager Registration",
+      "from": "em@editorialmanager.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
+    },
+    {
+      "timestamp": "2026-08-20T12:02:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Elevate your research: Find the right journal",
+      "from": "springernature@research.springernature.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
+    },
+    {
+      "timestamp": "2026-08-22T20:50:05.000Z",
+      "reason": "unrelated",
+      "subject": "[Manuscript Alert] Revision requested: Neural Correlates of Memory Consolidation",
+      "from": "dhibinvikash1@gmail.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
+    }
+  ]
 }

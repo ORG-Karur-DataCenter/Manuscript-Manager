@@ -1,3 +1,9 @@
 {
-  "accounts": {}
+  "accounts": {
+    "dhibinvikash1@gmail.com": {
+      "lastSyncedAt": "2026-08-20T08:02:49.798Z",
+      "seenIds": [],
+      "importedAt": "2026-08-23T08:02:49.798Z"
+    }
+  }
 }

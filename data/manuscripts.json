@@ -1,4 +1,330 @@
 {
-  "generatedAt": "2026-08-23T07:31:35.949Z",
-  "manuscripts": []
+  "generatedAt": "2026-08-23T08:02:49.798Z",
+  "manuscripts": [
+    {
+      "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",
+      "title": "Air-Normalised Vertebral Bone Quality (C-VBQair) Score: A Reproducible, Quantitative Imaging Biomarker for Opportunistic Osteoporosis Screening on Cervical Spine MRI",
+      "titleNormalized": "air normalised vertebral bone quality c vbqair score a reproducible quantitative imaging biomarker for opportunistic osteoporosis screening on cervical spine mri",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Meta-Radiology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Meta-Radiology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-20T13:06:29.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-20T13:06:29.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a01f47bc9dacb9b",
+                "messageId": "1a01f47bc9dacb9b",
+                "subject": "PDF for submission to Meta-Radiology requires approval",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-20T13:06:29.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
+          "source": {
+            "threadId": "1a01f47bc9dacb9b",
+            "messageId": "1a01f47bc9dacb9b",
+            "subject": "PDF for submission to Meta-Radiology requires approval",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-20T13:06:29.000Z",
+      "updatedAt": "2026-08-20T13:06:29.000Z"
+    },
+    {
+      "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
+      "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
+      "titleNormalized": "does anatomy outweigh biology in cervical spine giant cell tumours a systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": true,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-20T12:38:16.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-20T12:38:16.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Springer Nature acknowledged the submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a01f2de980f3d64",
+                "messageId": "1a01f2de980f3d64",
+                "subject": "Track the status of your manuscript",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-20T12:38:16.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Springer Nature acknowledged the submission.",
+          "source": {
+            "threadId": "1a01f2de980f3d64",
+            "messageId": "1a01f2de980f3d64",
+            "subject": "Track the status of your manuscript",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": true
+        }
+      ],
+      "createdAt": "2026-08-20T12:38:16.000Z",
+      "updatedAt": "2026-08-20T12:38:16.000Z"
+    },
+    {
+      "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop",
+      "title": "Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)",
+      "titleNormalized": "evaluating large language models for patient facing total knee arthroplasty information in knee osteoarthritis development and application of the composite clinical reliability score ccrs",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Orthopaedics",
+      "currentManuscriptNumber": "JOA-D-26-01135R4",
+      "currentStatus": "Under review",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Orthopaedics",
+          "manuscriptNumber": "JOA-D-26-01135R4",
+          "submittedDate": "2026-08-17T15:02:38.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-17T15:02:38.000Z",
+              "eventType": "under_review",
+              "revisionRound": 4,
+              "note": "Now in developmental editing prior to acceptance; the journal expects this to take up to 6 weeks.",
+              "manuscriptNumber": "JOA-D-26-01135R4",
+              "source": {
+                "threadId": "1a0103eff244d8fe",
+                "messageId": "1a0103eff244d8fe",
+                "subject": "Update on your JOA submission JOA-D-26-01135R4",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-17T15:02:38.000Z",
+          "journal": "Journal of Orthopaedics",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": 4,
+          "note": "Now in developmental editing prior to acceptance; the journal expects this to take up to 6 weeks.",
+          "source": {
+            "threadId": "1a0103eff244d8fe",
+            "messageId": "1a0103eff244d8fe",
+            "subject": "Update on your JOA submission JOA-D-26-01135R4",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-17T15:02:38.000Z",
+      "updatedAt": "2026-08-17T15:02:38.000Z"
+    },
+    {
+      "id": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
+      "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
+      "titleNormalized": "beyond body mass index obesity and adult spinal deformity surgery separating perception from evidence a systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": true,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Clinical Spine Surgery",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Clinical Spine Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-26T17:41:34.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-26T17:41:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Authorship and copyright confirmation requested for a submission by Sathish Muthu.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f9f849915b99cf",
+                "messageId": "19f9f849915b99cf",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-26T17:41:34.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Authorship and copyright confirmation requested for a submission by Sathish Muthu.",
+          "source": {
+            "threadId": "19f9f849915b99cf",
+            "messageId": "19f9f849915b99cf",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": true
+        }
+      ],
+      "createdAt": "2026-07-26T17:41:34.000Z",
+      "updatedAt": "2026-07-26T17:41:34.000Z"
+    },
+    {
+      "id": "convergence-and-divergence-of-disease-burden-across-the-states-of-indi",
+      "title": "Convergence and divergence of disease burden across the states of India, 1990-2023: a robustness-tested analysis of ten conditions spanning the epidemiological transition",
+      "titleNormalized": "convergence and divergence of disease burden across the states of india 1990 2023 a robustness tested analysis of ten conditions spanning the epidemiological transition",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "SSM - Population Health",
+      "currentManuscriptNumber": "SSMPH-D-26-01590",
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "SSM - Population Health",
+          "manuscriptNumber": "SSMPH-D-26-01590",
+          "submittedDate": "2026-07-24T12:09:30.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-24T12:09:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submitted by Sathish Muthu as corresponding author; co-authorship confirmation requested from Dhibin Vikash.",
+              "manuscriptNumber": "SSMPH-D-26-01590",
+              "source": {
+                "threadId": "19f9407de1a0f067",
+                "messageId": "19f9407de1a0f067",
+                "subject": "Confirm co-authorship of submission to SSM - Population Health",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-24T12:09:30.000Z",
+          "journal": "SSM - Population Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submitted by Sathish Muthu as corresponding author; co-authorship confirmation requested from Dhibin Vikash.",
+          "source": {
+            "threadId": "19f9407de1a0f067",
+            "messageId": "19f9407de1a0f067",
+            "subject": "Confirm co-authorship of submission to SSM - Population Health",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-24T12:09:30.000Z",
+      "updatedAt": "2026-07-24T12:09:30.000Z"
+    }
+  ]
 }
