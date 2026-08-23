@@ -280,7 +280,26 @@ export function buildProviderChain(env = process.env) {
     );
   }
 
-  return chain;
+  // CLASSIFIER_PROVIDERS restricts the chain to a comma-separated allowlist of
+  // provider ids, in the order given. Use it to exclude a provider whose data
+  // policy you don't want (e.g. CLASSIFIER_PROVIDERS=cerebras,groq keeps email
+  // text away from Gemini's free tier) without deleting its API key.
+  const allowlist = (env.CLASSIFIER_PROVIDERS || "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (!allowlist.length) return chain;
+
+  const filtered = allowlist
+    .map((id) => chain.find((p) => p.id === id))
+    .filter(Boolean);
+  if (!filtered.length) {
+    throw new ProviderError(
+      `CLASSIFIER_PROVIDERS="${env.CLASSIFIER_PROVIDERS}" matched no configured provider. ` +
+        `Available: ${chain.map((p) => p.id).join(", ") || "(none)"}`
+    );
+  }
+  return filtered;
 }
 
 /**

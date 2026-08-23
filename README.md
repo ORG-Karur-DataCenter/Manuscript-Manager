@@ -184,6 +184,22 @@ rate-limited or failing provider falls through to the next:
 Free-tier quotas move; treat the numbers as a starting point. Override any model with
 `GEMINI_MODEL`, `GEMINI_FALLBACK_MODEL`, `CEREBRAS_MODEL`, `GROQ_MODEL`.
 
+Set `CLASSIFIER_PROVIDERS` to restrict the chain to a comma-separated allowlist, in
+the order given — `CLASSIFIER_PROVIDERS=cerebras,groq` keeps email text away from
+Gemini's free tier without deleting the key.
+
+Verify the engine at any time, without needing Gmail access:
+
+```bash
+npm run check-classifier                          # full chain
+CLASSIFIER_PROVIDERS=cerebras,groq npm run check-classifier
+```
+
+It runs three realistic journal emails with known correct answers — including the
+reviewer-invitation case free models most often get wrong — and reports which
+provider answered, what the cross-check concluded, and whether each was right.
+The **Check classifier** workflow runs the same thing with the repository secrets.
+
 > **Privacy:** whichever provider you choose sees the full text of the journal
 > correspondence in both inboxes. On Google's free tier that content may be used to
 > improve their models. If that matters, set only `GROQ_API_KEY` and
