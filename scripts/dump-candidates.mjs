@@ -56,8 +56,14 @@ const messages = await fetchNewMessages(gmail, {
   maxResults: 400,
 });
 
+// Every id that was looked at, not just the ones worth classifying. The
+// prefilter rejects most of an inbox, and those decisions are just as final --
+// recording them stops the next sync re-fetching mail already ruled out, which
+// would otherwise consume the per-run fetch cap before reaching new mail.
+const inspectedIds = [];
 const candidates = [];
 for (const msg of messages) {
+  inspectedIds.push(msg.id);
   if (!PREFILTER.test(`${msg.subject} ${msg.from} ${msg.text}`)) continue;
   candidates.push({
     id: msg.id,
@@ -75,7 +81,13 @@ candidates.sort((a, b) => new Date(a.internalDate) - new Date(b.internalDate));
 await writeFile(
   OUT,
   JSON.stringify(
-    { generatedAt: new Date().toISOString(), account: account.email, days: DAYS, candidates },
+    {
+      generatedAt: new Date().toISOString(),
+      account: account.email,
+      days: DAYS,
+      inspectedIds,
+      candidates,
+    },
     null,
     2
   ) + "\n",

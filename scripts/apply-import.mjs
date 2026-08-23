@@ -53,7 +53,8 @@ const db = await loadJson(P.manuscripts, { generatedAt: null, manuscripts: [] })
 const state = await loadJson(P.state, { accounts: {} });
 const excludedLog = await loadJson(P.excluded, { excluded: [] });
 const reviewQueue = await loadJson(P.review, { review: [] });
-const { classified } = await loadJson(file, { classified: [] });
+const imported = await loadJson(file, { classified: [] });
+const { classified } = imported;
 
 if (!Array.isArray(classified) || !classified.length) {
   console.error(`No classifications found in ${file} (expected { "classified": [ ... ] }).`);
@@ -142,7 +143,12 @@ if (handoverEmails.length && targets.length !== handoverEmails.length) {
 // The sync window overlaps by design, so the handover date alone would let the
 // scheduled run re-fetch and re-classify everything this import already decided.
 // Recording the message ids keeps them out of the classifier entirely.
-const importedIds = classified.map((c) => c.id).filter(Boolean);
+// Prefer every id the dump inspected: the prefilter's rejections are decisions
+// too, and re-fetching them wastes the next run's fetch cap. Fall back to the
+// classified ids for a hand-written import that carries no inspection list.
+const importedIds = (
+  imported.inspectedIds?.length ? imported.inspectedIds : classified.map((c) => c.id)
+).filter(Boolean);
 
 for (const account of targets) {
   state.accounts[account.email] ||= { lastSyncedAt: null, seenIds: [] };
