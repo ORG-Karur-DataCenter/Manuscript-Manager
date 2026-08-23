@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:26:13.071Z",
+  "generatedAt": "2026-08-23T18:19:14.694Z",
   "manuscripts": [
     {
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
@@ -19,6 +19,31 @@
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "SSM - Population Health",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-20T07:04:48.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-20T07:04:48.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f7e5775312921c",
+                "messageId": "19f7e5775312921c",
+                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0635",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "Indian Spine Journal",
           "manuscriptNumber": "isj_110_26",
@@ -45,6 +70,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-07-20T07:04:48.000Z",
+          "journal": "SSM - Population Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19f7e5775312921c",
+            "messageId": "19f7e5775312921c",
+            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0635",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-23T10:35:04.000Z",
           "journal": "Indian Spine Journal",
@@ -834,6 +875,31 @@
           ]
         },
         {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-07T17:44:33.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-07T17:44:33.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected at European Spine Journal.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ea32fb8fd2d522",
+                "messageId": "19ea32fb8fd2d522",
+                "subject": "Decision on your submission to European Spine Journal",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
           "journal": "Springer Nature",
           "manuscriptNumber": null,
           "submittedDate": "2026-08-20T12:38:16.000Z",
@@ -902,6 +968,22 @@
           "needsReview": false
         },
         {
+          "timestamp": "2026-06-07T17:44:33.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected at European Spine Journal.",
+          "source": {
+            "threadId": "19ea32fb8fd2d522",
+            "messageId": "19ea32fb8fd2d522",
+            "subject": "Decision on your submission to European Spine Journal",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
           "timestamp": "2026-08-20T12:38:16.000Z",
           "journal": "Springer Nature",
           "eventType": "new_submission",
@@ -955,6 +1037,45 @@
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "Annals of Epidemiology",
+          "manuscriptNumber": "AEP-D-26-01182",
+          "submittedDate": "2026-07-14T14:39:35.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-14T14:39:35.000Z",
+              "eventType": "transferred",
+              "revisionRound": null,
+              "note": "Transfer confirmed.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f6111aafdccfd9",
+                "messageId": "19f6111aafdccfd9",
+                "subject": "Transfer Confirmed for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+                "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-18T02:33:29.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected after review by two editorial board members.",
+              "manuscriptNumber": "AEP-D-26-01182",
+              "source": {
+                "threadId": "19f731259f1aa685",
+                "messageId": "19f731259f1aa685",
+                "subject": "Decision on submission to Annals of Epidemiology",
+                "from": "Annals of Epidemiology <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "Journal of Epidemiology & Community Health",
           "manuscriptNumber": "jech-2026-227223",
@@ -1024,6 +1145,38 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-07-14T14:39:35.000Z",
+          "journal": "Annals of Epidemiology",
+          "eventType": "transferred",
+          "label": "Transferred to another journal",
+          "revisionRound": null,
+          "note": "Transfer confirmed.",
+          "source": {
+            "threadId": "19f6111aafdccfd9",
+            "messageId": "19f6111aafdccfd9",
+            "subject": "Transfer Confirmed for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+            "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-18T02:33:29.000Z",
+          "journal": "Annals of Epidemiology",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected after review by two editorial board members.",
+          "source": {
+            "threadId": "19f731259f1aa685",
+            "messageId": "19f731259f1aa685",
+            "subject": "Decision on submission to Annals of Epidemiology",
+            "from": "Annals of Epidemiology <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-17T11:02:23.000Z",
           "journal": "Journal of Epidemiology & Community Health",
@@ -1111,6 +1264,56 @@
       ],
       "submissions": [
         {
+          "journal": "Substance Use and Misuse",
+          "manuscriptNumber": "LSUM-2026-0597",
+          "submittedDate": "2026-07-18T20:35:24.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-18T20:35:24.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected as not competitive for the journal.",
+              "manuscriptNumber": "LSUM-2026-0597",
+              "source": {
+                "threadId": "19f76f0df480da9c",
+                "messageId": "19f76f0df480da9c",
+                "subject": "Substance Use and Misuse - Decision on Manuscript ID LSUM-2026-0597",
+                "from": "Substance Use and Misuse <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Clinical Psychologist",
+          "manuscriptNumber": "CPAPS-OA-2026-136",
+          "submittedDate": "2026-07-19T10:29:59.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-19T10:29:59.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Further changes required before acceptance.",
+              "manuscriptNumber": "CPAPS-OA-2026-136",
+              "source": {
+                "threadId": "19f79ecf39047dd9",
+                "messageId": "19f79ecf39047dd9",
+                "subject": "Clinical Psychologist - CPAPS-OA-2026-136 requires some revisions [ref: SE-1-a]",
+                "from": "Clinical Psychologist <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
           "journal": "Public Health",
           "manuscriptNumber": "PUHE-D-26-03801",
           "submittedDate": "2026-08-20T06:58:30.000Z",
@@ -1151,6 +1354,38 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-07-18T20:35:24.000Z",
+          "journal": "Substance Use and Misuse",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected as not competitive for the journal.",
+          "source": {
+            "threadId": "19f76f0df480da9c",
+            "messageId": "19f76f0df480da9c",
+            "subject": "Substance Use and Misuse - Decision on Manuscript ID LSUM-2026-0597",
+            "from": "Substance Use and Misuse <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-19T10:29:59.000Z",
+          "journal": "Clinical Psychologist",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Further changes required before acceptance.",
+          "source": {
+            "threadId": "19f79ecf39047dd9",
+            "messageId": "19f79ecf39047dd9",
+            "subject": "Clinical Psychologist - CPAPS-OA-2026-136 requires some revisions [ref: SE-1-a]",
+            "from": "Clinical Psychologist <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-20T06:58:30.000Z",
           "journal": "Public Health",
@@ -1879,15 +2114,16 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
         {
           "journal": "The Journal of Arthroplasty",
-          "manuscriptNumber": "JOA-D-26-01135R4",
+          "manuscriptNumber": "JOA-D-26-01135R1",
           "submittedDate": "2026-08-17T15:02:38.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -1918,6 +2154,48 @@
                 "from": "em@editorialmanager.com",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-05-30T23:57:32.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Revision requested on the original submission.",
+              "manuscriptNumber": "JOA-D-26-01135",
+              "source": {
+                "threadId": "19e7b5250bedacec",
+                "messageId": "19e7b5250bedacec",
+                "subject": "Decision on JOA-D-26-01135",
+                "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-16T16:08:42.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 2,
+              "note": "Further revision requested on R1.",
+              "manuscriptNumber": "JOA-D-26-01135R1",
+              "source": {
+                "threadId": "19f6baffd788110b",
+                "messageId": "19f6baffd788110b",
+                "subject": "Decision on JOA-D-26-01135R1",
+                "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-19T05:06:47.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 2,
+              "note": "Revision correspondence.",
+              "manuscriptNumber": "JOA-D-26-01135R1",
+              "source": {
+                "threadId": "19f78c50d31cccbc",
+                "messageId": "19f78c50d31cccbc",
+                "subject": "Revision of \"Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\" is due soon",
+                "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
@@ -1935,6 +2213,54 @@
             "messageId": "19dbb57e4592b944",
             "subject": "Confirm co-authorship of submission to The Journal of Arthroplasty",
             "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-30T23:57:32.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Revision requested on the original submission.",
+          "source": {
+            "threadId": "19e7b5250bedacec",
+            "messageId": "19e7b5250bedacec",
+            "subject": "Decision on JOA-D-26-01135",
+            "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-16T16:08:42.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 2,
+          "note": "Further revision requested on R1.",
+          "source": {
+            "threadId": "19f6baffd788110b",
+            "messageId": "19f6baffd788110b",
+            "subject": "Decision on JOA-D-26-01135R1",
+            "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-19T05:06:47.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 2,
+          "note": "Revision correspondence.",
+          "source": {
+            "threadId": "19f78c50d31cccbc",
+            "messageId": "19f78c50d31cccbc",
+            "subject": "Revision of \"Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\" is due soon",
+            "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
             "via": "offline-import"
           },
           "needsReview": false
@@ -1982,7 +2308,7 @@
           "manuscriptNumber": "4623523",
           "submittedDate": "2026-08-17T10:52:38.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "other",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -1999,11 +2325,41 @@
                 "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-07-22T22:30:20.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "Wiley suggested alternative journals for this submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f8bf38b7dc40fc",
+                "messageId": "19f8bf38b7dc40fc",
+                "subject": "Transfer recommendations for When do Bayesian ageperiodcohort forecasts of Global Burden of Disease estimates help, and when do they harm? An out-of-sample evaluation across four conditions and 31 Indian states",
+                "from": "Wiley Transfer Desk <transferdeskassistant@wileytda.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-07-22T22:30:20.000Z",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "eventType": "other",
+          "label": "Update",
+          "revisionRound": null,
+          "note": "Wiley suggested alternative journals for this submission.",
+          "source": {
+            "threadId": "19f8bf38b7dc40fc",
+            "messageId": "19f8bf38b7dc40fc",
+            "subject": "Transfer recommendations for When do Bayesian ageperiodcohort forecasts of Global Burden of Disease estimates help, and when do they harm? An out-of-sample evaluation across four conditions and 31 Indian states",
+            "from": "Wiley Transfer Desk <transferdeskassistant@wileytda.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-17T10:52:38.000Z",
           "journal": "Journal of Evaluation in Clinical Practice",
@@ -2090,6 +2446,645 @@
       "updatedAt": "2026-07-26T17:41:34.000Z"
     },
     {
+      "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
+      "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
+      "titleNormalized": "identification of therapeutic targets and gene expression profiling to unravel the underlying mechanisms and their comprehensive role in intervertebral disc degeneration",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Cartilage",
+      "currentManuscriptNumber": "CART-26-0147",
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Stem Cell Research & Therapy",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-14T15:04:57.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-14T15:04:57.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f6128e9a99ecb8",
+                "messageId": "19f6128e9a99ecb8",
+                "subject": "Decision on your submission to Stem Cell Research & Therapy",
+                "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Cartilage",
+          "manuscriptNumber": "CART-26-0147",
+          "submittedDate": "2026-07-23T07:16:14.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-23T07:16:14.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected as not suitable for Cartilage.",
+              "manuscriptNumber": "CART-26-0147",
+              "source": {
+                "threadId": "19f8dd505295c1ff",
+                "messageId": "19f8dd505295c1ff",
+                "subject": "Cartilage - Decision on Manuscript ID CART-26-0147",
+                "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-14T15:04:57.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19f6128e9a99ecb8",
+            "messageId": "19f6128e9a99ecb8",
+            "subject": "Decision on your submission to Stem Cell Research & Therapy",
+            "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-23T07:16:14.000Z",
+          "journal": "Cartilage",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected as not suitable for Cartilage.",
+          "source": {
+            "threadId": "19f8dd505295c1ff",
+            "messageId": "19f8dd505295c1ff",
+            "subject": "Cartilage - Decision on Manuscript ID CART-26-0147",
+            "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-14T15:04:57.000Z",
+      "updatedAt": "2026-07-23T07:16:14.000Z"
+    },
+    {
+      "id": "is-survival-in-primary-spinal-osteosarcoma-determined-by-surgical-marg",
+      "title": "Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review",
+      "titleNormalized": "is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology a systematic review",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-16T12:29:24.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-16T12:29:24.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Revision requested.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ed0686f1bba111",
+                "messageId": "19ed0686f1bba111",
+                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+                "from": "European Spine Journal <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-10T07:56:01.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Revision reminder.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f4b06c4074e857",
+                "messageId": "19f4b06c4074e857",
+                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+                "from": "European Spine Journal <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-19T17:23:02.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication; Sathish is a co-author.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f7b671ebcbcf51",
+                "messageId": "19f7b671ebcbcf51",
+                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+                "from": "European Spine Journal <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-16T12:29:24.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Revision requested.",
+          "source": {
+            "threadId": "19ed0686f1bba111",
+            "messageId": "19ed0686f1bba111",
+            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+            "from": "European Spine Journal <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-10T07:56:01.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Revision reminder.",
+          "source": {
+            "threadId": "19f4b06c4074e857",
+            "messageId": "19f4b06c4074e857",
+            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+            "from": "European Spine Journal <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-19T17:23:02.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication; Sathish is a co-author.",
+          "source": {
+            "threadId": "19f7b671ebcbcf51",
+            "messageId": "19f7b671ebcbcf51",
+            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+            "from": "European Spine Journal <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-16T12:29:24.000Z",
+      "updatedAt": "2026-07-19T17:23:02.000Z"
+    },
+    {
+      "id": "design-strategies-to-target-joint-resident-mesenchymal-stem-cells-for-",
+      "title": "Design Strategies to Target Joint Resident Mesenchymal Stem Cells for Osteochondral Regeneration",
+      "titleNormalized": "design strategies to target joint resident mesenchymal stem cells for osteochondral regeneration",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Cells",
+      "currentManuscriptNumber": "cells-4414133",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Advanced Healthcare Materials",
+          "manuscriptNumber": "4207230",
+          "submittedDate": "2026-06-10T19:03:40.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-10T19:03:40.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected; transfer to another journal offered.",
+              "manuscriptNumber": "4207230",
+              "source": {
+                "threadId": "19eb2eb3bc728872",
+                "messageId": "19eb2eb3bc728872",
+                "subject": "Decision on manuscript: 4207230",
+                "from": "Advanced Healthcare Materials <advhealthmat@wiley.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Cells",
+          "manuscriptNumber": "cells-4414133",
+          "submittedDate": "2026-06-23T04:42:06.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-23T04:42:06.000Z",
+              "eventType": "transferred",
+              "revisionRound": null,
+              "note": "Transferred from Journal of Functional Biomaterials to Cells.",
+              "manuscriptNumber": "cells-4414133",
+              "source": {
+                "threadId": "19ef2c91c787831c",
+                "messageId": "19ef2c91c787831c",
+                "subject": "Successful Transfer of Your Manuscript jfb-4414133 to Cells cells-4414133",
+                "from": "jfb@mdpi.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-08T07:34:08.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Major revision requested.",
+              "manuscriptNumber": "cells-4414133",
+              "source": {
+                "threadId": "19f40a603707f1ac",
+                "messageId": "19f40a603707f1ac",
+                "subject": "[Cells] Manuscript ID: cells-4414133 - Major Revision",
+                "from": "Cells Editorial Office <cells@mdpi.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-17T09:09:56.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication in Cells.",
+              "manuscriptNumber": "cells-4414133",
+              "source": {
+                "threadId": "19f6f56f1a9dc4ac",
+                "messageId": "19f6f56f1a9dc4ac",
+                "subject": "[Cells] Manuscript ID: cells-4414133 - Accepted for Publication",
+                "from": "Cells Editorial Office <cells@mdpi.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-10T19:03:40.000Z",
+          "journal": "Advanced Healthcare Materials",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected; transfer to another journal offered.",
+          "source": {
+            "threadId": "19eb2eb3bc728872",
+            "messageId": "19eb2eb3bc728872",
+            "subject": "Decision on manuscript: 4207230",
+            "from": "Advanced Healthcare Materials <advhealthmat@wiley.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-23T04:42:06.000Z",
+          "journal": "Cells",
+          "eventType": "transferred",
+          "label": "Transferred to another journal",
+          "revisionRound": null,
+          "note": "Transferred from Journal of Functional Biomaterials to Cells.",
+          "source": {
+            "threadId": "19ef2c91c787831c",
+            "messageId": "19ef2c91c787831c",
+            "subject": "Successful Transfer of Your Manuscript jfb-4414133 to Cells cells-4414133",
+            "from": "jfb@mdpi.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-08T07:34:08.000Z",
+          "journal": "Cells",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Major revision requested.",
+          "source": {
+            "threadId": "19f40a603707f1ac",
+            "messageId": "19f40a603707f1ac",
+            "subject": "[Cells] Manuscript ID: cells-4414133 - Major Revision",
+            "from": "Cells Editorial Office <cells@mdpi.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-17T09:09:56.000Z",
+          "journal": "Cells",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication in Cells.",
+          "source": {
+            "threadId": "19f6f56f1a9dc4ac",
+            "messageId": "19f6f56f1a9dc4ac",
+            "subject": "[Cells] Manuscript ID: cells-4414133 - Accepted for Publication",
+            "from": "Cells Editorial Office <cells@mdpi.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-10T19:03:40.000Z",
+      "updatedAt": "2026-07-17T09:09:56.000Z"
+    },
+    {
+      "id": "can-glucagon-like-peptide-1-receptor-agonists-affect-outcomes-after-sp",
+      "title": "Can Glucagon-Like Peptide-1 Receptor Agonists Affect Outcomes After Spine Surgery? A Systematic Review and Meta-Analysis",
+      "titleNormalized": "can glucagon like peptide 1 receptor agonists affect outcomes after spine surgery a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-25T19:50:03.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-25T19:50:03.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Revision invited, addressing reviewer comments.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f00551bd339cc1",
+                "messageId": "19f00551bd339cc1",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-12T21:49:19.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication; production formatting checks to follow.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f584e64965d6e0",
+                "messageId": "19f584e64965d6e0",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-25T19:50:03.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Revision invited, addressing reviewer comments.",
+          "source": {
+            "threadId": "19f00551bd339cc1",
+            "messageId": "19f00551bd339cc1",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-12T21:49:19.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication; production formatting checks to follow.",
+          "source": {
+            "threadId": "19f584e64965d6e0",
+            "messageId": "19f584e64965d6e0",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-25T19:50:03.000Z",
+      "updatedAt": "2026-07-12T21:49:19.000Z"
+    },
+    {
+      "id": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
+      "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
+      "titleNormalized": "the burden of knee osteoarthritis in older adults in india and south asia 1990 2023 a subnational analysis from the global burden of disease study 2023",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "SSM - Population Health",
+      "currentManuscriptNumber": "SSMPH-D-26-01425",
+      "currentStatus": "Transferred to another journal",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "BMJ Global Health",
+          "manuscriptNumber": "bmjgh-2026-025841",
+          "submittedDate": "2026-07-04T12:04:40.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-04T12:04:40.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected; transfer offered.",
+              "manuscriptNumber": "bmjgh-2026-025841",
+              "source": {
+                "threadId": "19f2d043c0ceac11",
+                "messageId": "19f2d043c0ceac11",
+                "subject": "BMJ Global Health - Decision on Manuscript ID bmjgh-2026-025841",
+                "from": "BMJ Global Health <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "SSM - Population Health",
+          "manuscriptNumber": "SSMPH-D-26-01425",
+          "submittedDate": "2026-07-08T08:14:44.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-08T08:14:44.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected; not enough theoretical framing for the journal.",
+              "manuscriptNumber": "SSMPH-D-26-01425",
+              "source": {
+                "threadId": "19f40cb2e970846a",
+                "messageId": "19f40cb2e970846a",
+                "subject": "Decision on submission to SSM - Population Health",
+                "from": "SSM - Population Health <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "SSM - Population Health",
+          "manuscriptNumber": "SSMPH-D-26-01425",
+          "submittedDate": "2026-07-08T09:12:33.000Z",
+          "outcome": "active",
+          "status": "transferred",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-08T09:12:33.000Z",
+              "eventType": "transferred",
+              "revisionRound": null,
+              "note": "Transfer confirmed to another Elsevier journal.",
+              "manuscriptNumber": "SSMPH-D-26-01425",
+              "source": {
+                "threadId": "19f41001d983e965",
+                "messageId": "19f41001d983e965",
+                "subject": "Transfer Confirmed for The burden of knee osteoarthritis in older adults in India and South Asia, 1990–2023: a subnational analysis from the Global Burden of Disease Study 2023",
+                "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-04T12:04:40.000Z",
+          "journal": "BMJ Global Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected; transfer offered.",
+          "source": {
+            "threadId": "19f2d043c0ceac11",
+            "messageId": "19f2d043c0ceac11",
+            "subject": "BMJ Global Health - Decision on Manuscript ID bmjgh-2026-025841",
+            "from": "BMJ Global Health <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-08T08:14:44.000Z",
+          "journal": "SSM - Population Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected; not enough theoretical framing for the journal.",
+          "source": {
+            "threadId": "19f40cb2e970846a",
+            "messageId": "19f40cb2e970846a",
+            "subject": "Decision on submission to SSM - Population Health",
+            "from": "SSM - Population Health <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-08T09:12:33.000Z",
+          "journal": "SSM - Population Health",
+          "eventType": "transferred",
+          "label": "Transferred to another journal",
+          "revisionRound": null,
+          "note": "Transfer confirmed to another Elsevier journal.",
+          "source": {
+            "threadId": "19f41001d983e965",
+            "messageId": "19f41001d983e965",
+            "subject": "Transfer Confirmed for The burden of knee osteoarthritis in older adults in India and South Asia, 1990–2023: a subnational analysis from the Global Burden of Disease Study 2023",
+            "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-04T12:04:40.000Z",
+      "updatedAt": "2026-07-08T09:12:33.000Z"
+    },
+    {
       "id": "can-atlantoaxial-stability-be-restored-without-fusion-outcomes-of-temp",
       "title": "Can Atlantoaxial Stability be Restored Without Fusion? Outcomes of Temporary C1-C2 Fixation with Implant Removal: Systematic Review and Meta-analysis",
       "titleNormalized": "can atlantoaxial stability be restored without fusion outcomes of temporary c1 c2 fixation with implant removal systematic review and meta analysis",
@@ -2104,9 +3099,35 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0331",
+          "submittedDate": "2026-06-08T21:42:11.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-08T21:42:11.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": "GSJ-26-0331",
+              "source": {
+                "threadId": "19ea92fa3710fb8e",
+                "messageId": "19ea92fa3710fb8e",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0331",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "Clinical Spine Surgery",
           "manuscriptNumber": null,
@@ -2148,6 +3169,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-06-08T21:42:11.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19ea92fa3710fb8e",
+            "messageId": "19ea92fa3710fb8e",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0331",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-22T10:50:30.000Z",
           "journal": "Clinical Spine Surgery",
@@ -2199,9 +3236,35 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0904",
+          "submittedDate": "2026-06-15T22:57:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-15T22:57:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": "GSJ-26-0904",
+              "source": {
+                "threadId": "19ecd80a7974b4b0",
+                "messageId": "19ecd80a7974b4b0",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0904",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "Clinical Spine Surgery",
           "manuscriptNumber": null,
@@ -2244,6 +3307,22 @@
       ],
       "timeline": [
         {
+          "timestamp": "2026-06-15T22:57:00.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19ecd80a7974b4b0",
+            "messageId": "19ecd80a7974b4b0",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0904",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
           "timestamp": "2026-06-21T16:30:33.000Z",
           "journal": "Clinical Spine Surgery",
           "eventType": "new_submission",
@@ -2280,6 +3359,263 @@
       "updatedAt": "2026-07-06T17:14:34.000Z"
     },
     {
+      "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
+      "title": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews: A PRISMA-trAIce Compliant Evaluation",
+      "titleNormalized": "a locally executed agentic ai framework for deduplication screening and structured data extraction in spine surgery systematic reviews a prisma traice compliant evaluation",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00102R2",
+      "currentStatus": "Update",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "MedComm",
+          "manuscriptNumber": "MCO2-2026-6988",
+          "submittedDate": "2026-03-12T11:59:46.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-12T11:59:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submitted to MedComm with Sathish Muthu as corresponding author.",
+              "manuscriptNumber": "MCO2-2026-6988",
+              "source": {
+                "threadId": "19ce1eacdec5d283",
+                "messageId": "19ce1eacdec5d283",
+                "subject": "MedComm - Manuscript ID MCO2-2026-6988",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": "JBJSOA-D-26-00102R2",
+          "submittedDate": "2026-06-11T13:56:31.000Z",
+          "outcome": "active",
+          "status": "other",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-11T13:56:31.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Considerable interest from consultant reviewers, but revisions required.",
+              "manuscriptNumber": "JBJSOA-D-26-00102",
+              "source": {
+                "threadId": "19eb6f860cbcf90f",
+                "messageId": "19eb6f860cbcf90f",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00102) - [EMID:19968c810e09f949]",
+                "from": "JBJS Open Access <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-15T18:29:34.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Revised submission returned to the author before review.",
+              "manuscriptNumber": "JBJSOA-D-26-00102R1",
+              "source": {
+                "threadId": "19ecc8bcf6ca9820",
+                "messageId": "19ecc8bcf6ca9820",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00102R1) - [EMID:050423f3326e5a1b]",
+                "from": "JBJS Open Access <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-17T19:56:34.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Revised submission returned to the author again.",
+              "manuscriptNumber": "JBJSOA-D-26-00102R1",
+              "source": {
+                "threadId": "19ed7282c5d68472",
+                "messageId": "19ed7282c5d68472",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00102R1) - [EMID:b6b1d8ba82a98630]",
+                "from": "JBJS Open Access <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-26T17:04:39.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 2,
+              "note": "Further revision requested on R1.",
+              "manuscriptNumber": "JBJSOA-D-26-00102R1",
+              "source": {
+                "threadId": "19f04e405d2876fe",
+                "messageId": "19f04e405d2876fe",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00102R1) - [EMID:3cd4a0ecb6db2b93]",
+                "from": "JBJS Open Access <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-29T20:48:33.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Second revised submission returned to the author.",
+              "manuscriptNumber": "JBJSOA-D-26-00102R2",
+              "source": {
+                "threadId": "19f152414ad8c185",
+                "messageId": "19f152414ad8c185",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00102R2) - [EMID:9397c478aff39afc]",
+                "from": "JBJS Open Access <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-06T13:09:37.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "Editorial decision correspondence on the second revision.",
+              "manuscriptNumber": "JBJSOA-D-26-00102R2",
+              "source": {
+                "threadId": "19f378c7193f3d04",
+                "messageId": "19f378c7193f3d04",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00102R2) - [EMID:bf8c7c82c795d0bb]",
+                "from": "JBJS Open Access <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-12T11:59:46.000Z",
+          "journal": "MedComm",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submitted to MedComm with Sathish Muthu as corresponding author.",
+          "source": {
+            "threadId": "19ce1eacdec5d283",
+            "messageId": "19ce1eacdec5d283",
+            "subject": "MedComm - Manuscript ID MCO2-2026-6988",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-11T13:56:31.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Considerable interest from consultant reviewers, but revisions required.",
+          "source": {
+            "threadId": "19eb6f860cbcf90f",
+            "messageId": "19eb6f860cbcf90f",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00102) - [EMID:19968c810e09f949]",
+            "from": "JBJS Open Access <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-15T18:29:34.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Revised submission returned to the author before review.",
+          "source": {
+            "threadId": "19ecc8bcf6ca9820",
+            "messageId": "19ecc8bcf6ca9820",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00102R1) - [EMID:050423f3326e5a1b]",
+            "from": "JBJS Open Access <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-17T19:56:34.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Revised submission returned to the author again.",
+          "source": {
+            "threadId": "19ed7282c5d68472",
+            "messageId": "19ed7282c5d68472",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00102R1) - [EMID:b6b1d8ba82a98630]",
+            "from": "JBJS Open Access <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-26T17:04:39.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 2,
+          "note": "Further revision requested on R1.",
+          "source": {
+            "threadId": "19f04e405d2876fe",
+            "messageId": "19f04e405d2876fe",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00102R1) - [EMID:3cd4a0ecb6db2b93]",
+            "from": "JBJS Open Access <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-29T20:48:33.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Second revised submission returned to the author.",
+          "source": {
+            "threadId": "19f152414ad8c185",
+            "messageId": "19f152414ad8c185",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00102R2) - [EMID:9397c478aff39afc]",
+            "from": "JBJS Open Access <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-06T13:09:37.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "label": "Update",
+          "revisionRound": null,
+          "note": "Editorial decision correspondence on the second revision.",
+          "source": {
+            "threadId": "19f378c7193f3d04",
+            "messageId": "19f378c7193f3d04",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00102R2) - [EMID:bf8c7c82c795d0bb]",
+            "from": "JBJS Open Access <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-12T11:59:46.000Z",
+      "updatedAt": "2026-07-06T13:09:37.000Z"
+    },
+    {
       "id": "proximal-junctional-odontoid-fracture-after-cervical-fusion-a-distinct",
       "title": "Proximal Junctional Odontoid Fracture After Cervical Fusion: A Distinct Failure Mechanism at the Craniovertebral Junction",
       "titleNormalized": "proximal junctional odontoid fracture after cervical fusion a distinct failure mechanism at the craniovertebral junction",
@@ -2294,7 +3630,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
         {
@@ -2302,7 +3639,7 @@
           "manuscriptNumber": null,
           "submittedDate": "2026-06-24T10:42:55.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -2333,6 +3670,20 @@
                 "from": "do-not-reply@springernature.com",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-07-03T04:35:20.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Preliminary assessment; editor queried whether the protocol was pre-registered.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f264284ff525ae",
+                "messageId": "19f264284ff525ae",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
@@ -2350,6 +3701,22 @@
             "messageId": "19ef939ce08cf6a8",
             "subject": "European Spine Journal - Receipt of Manuscript 'Proximal Junctional Odontoid...'",
             "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-03T04:35:20.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Preliminary assessment; editor queried whether the protocol was pre-registered.",
+          "source": {
+            "threadId": "19f264284ff525ae",
+            "messageId": "19f264284ff525ae",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
             "via": "offline-import"
           },
           "needsReview": false
@@ -2375,6 +3742,243 @@
       "updatedAt": "2026-07-03T04:50:21.000Z"
     },
     {
+      "id": "does-failure-to-restore-native-roussouly-alignment-increase-the-risk-o",
+      "title": "Does Failure to Restore Native Roussouly Alignment Increase the Risk of Adjacent Segment Degeneration (ASD) after Lumbar Fusion? Analysis of the Relationship between Sagittal Morphotype Discordance and ASD",
+      "titleNormalized": "does failure to restore native roussouly alignment increase the risk of adjacent segment degeneration asd after lumbar fusion analysis of the relationship between sagittal morphotype discordance and asd",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-26T16:56:28.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-26T16:56:28.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Editor asked for additional data before deciding whether to send it for full review.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f04dc88ab42419",
+                "messageId": "19f04dc88ab42419",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-26T16:56:28.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Editor asked for additional data before deciding whether to send it for full review.",
+          "source": {
+            "threadId": "19f04dc88ab42419",
+            "messageId": "19f04dc88ab42419",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-26T16:56:28.000Z",
+      "updatedAt": "2026-06-26T16:56:28.000Z"
+    },
+    {
+      "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
+      "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
+      "titleNormalized": "is three level hybrid cervical surgery as safe as three level acdf a systematic review and meta analysis",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "International Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-24T01:59:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-24T01:59:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ef75a2952bf673",
+                "messageId": "19ef75a2952bf673",
+                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0524",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-24T01:59:00.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19ef75a2952bf673",
+            "messageId": "19ef75a2952bf673",
+            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0524",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-24T01:59:00.000Z",
+      "updatedAt": "2026-06-24T01:59:00.000Z"
+    },
+    {
+      "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
+      "title": "Should spinal Ewing's sarcoma be managed differently from extremity disease? A systematic review of outcomes and treatment limitations",
+      "titleNormalized": "should spinal ewing s sarcoma be managed differently from extremity disease a systematic review of outcomes and treatment limitations",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Asian Spine Journal",
+      "currentManuscriptNumber": "ASJ-2026-0363",
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0701",
+          "submittedDate": "2026-04-15T21:54:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-15T21:54:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
+              "manuscriptNumber": "GSJ-26-0701",
+              "source": {
+                "threadId": "19d96259c79fc21d",
+                "messageId": "19d96259c79fc21d",
+                "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0363",
+          "submittedDate": "2026-06-23T08:15:03.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-23T08:15:03.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Denied publication in view of reviewer criticisms.",
+              "manuscriptNumber": "ASJ-2026-0363",
+              "source": {
+                "threadId": "19ef38c12ecb4816",
+                "messageId": "19ef38c12ecb4816",
+                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0363",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-15T21:54:00.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
+          "source": {
+            "threadId": "19d96259c79fc21d",
+            "messageId": "19d96259c79fc21d",
+            "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-23T08:15:03.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Denied publication in view of reviewer criticisms.",
+          "source": {
+            "threadId": "19ef38c12ecb4816",
+            "messageId": "19ef38c12ecb4816",
+            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0363",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-15T21:54:00.000Z",
+      "updatedAt": "2026-06-23T08:15:03.000Z"
+    },
+    {
       "id": "does-substance-use-shape-the-recovery-and-long-term-outcomes-after-spi",
       "title": "Does Substance Use shape the recovery and long-term outcomes after Spinal Cord Injury (SCI)? A systematic review and meta-analytic exploration of the spectrum of substance use disorder (SUD) in SCI patients",
       "titleNormalized": "does substance use shape the recovery and long term outcomes after spinal cord injury sci a systematic review and meta analytic exploration of the spectrum of substance use disorder sud in sci patients",
@@ -2389,7 +3993,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
         {
@@ -2430,6 +4035,31 @@
               }
             }
           ]
+        },
+        {
+          "journal": "BMJ Mental Health",
+          "manuscriptNumber": "bmjment-2026-302923",
+          "submittedDate": "2026-06-13T11:50:38.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-13T11:50:38.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected; onward transfer to BMJ Connections Mental Health offered.",
+              "manuscriptNumber": "bmjment-2026-302923",
+              "source": {
+                "threadId": "19ec0d1e08424d2a",
+                "messageId": "19ec0d1e08424d2a",
+                "subject": "BMJ Mental Health - Decision on Manuscript ID bmjment-2026-302923",
+                "from": "BMJ Mental Health <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -2464,10 +4094,416 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-13T11:50:38.000Z",
+          "journal": "BMJ Mental Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected; onward transfer to BMJ Connections Mental Health offered.",
+          "source": {
+            "threadId": "19ec0d1e08424d2a",
+            "messageId": "19ec0d1e08424d2a",
+            "subject": "BMJ Mental Health - Decision on Manuscript ID bmjment-2026-302923",
+            "from": "BMJ Mental Health <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-12T04:05:36.000Z",
       "updatedAt": "2026-06-13T11:50:38.000Z"
+    },
+    {
+      "id": "a-review-on-multifunctional-properties-and-processing-of-bioceramics-f",
+      "title": "A review on multifunctional properties and processing of Bioceramics for biomedical applications",
+      "titleNormalized": "a review on multifunctional properties and processing of bioceramics for biomedical applications",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Biomedical Science",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Biomedical Science",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-12T02:16:39.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-12T02:16:39.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eb99e09e3778d0",
+                "messageId": "19eb99e09e3778d0",
+                "subject": "Decision on your submission to Journal of Biomedical Science",
+                "from": "Journal of Biomedical Science <rosita.abasolo@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-12T02:16:39.000Z",
+          "journal": "Journal of Biomedical Science",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19eb99e09e3778d0",
+            "messageId": "19eb99e09e3778d0",
+            "subject": "Decision on your submission to Journal of Biomedical Science",
+            "from": "Journal of Biomedical Science <rosita.abasolo@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-12T02:16:39.000Z",
+      "updatedAt": "2026-06-12T02:16:39.000Z"
+    },
+    {
+      "id": "orthopaedics-at-the-frontier-of-industry-6-0-a-comprehensive-review",
+      "title": "Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review",
+      "titleNormalized": "orthopaedics at the frontier of industry 6 0 a comprehensive review",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "International Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-11T11:38:31.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-11T11:38:31.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eb67a0f7f7a446",
+                "messageId": "19eb67a0f7f7a446",
+                "subject": "Decision on your submission to International Orthopaedics",
+                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-11T11:38:31.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19eb67a0f7f7a446",
+            "messageId": "19eb67a0f7f7a446",
+            "subject": "Decision on your submission to International Orthopaedics",
+            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-11T11:38:31.000Z",
+      "updatedAt": "2026-06-11T11:38:31.000Z"
+    },
+    {
+      "id": "how-common-is-dysphagia-after-anterior-cervical-spine-surgery-what-dri",
+      "title": "How Common Is Dysphagia After Anterior Cervical Spine Surgery, What Drives It, and Can It Be Prevented? An Umbrella Review of Systematic Evidence",
+      "titleNormalized": "how common is dysphagia after anterior cervical spine surgery what drives it and can it be prevented an umbrella review of systematic evidence",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-25-2064.R4",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-25-2064.R4",
+          "submittedDate": "2026-06-10T14:44:53.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-10T14:44:53.000Z",
+              "eventType": "accepted",
+              "revisionRound": 4,
+              "note": "Accepted in its current form after four revisions.",
+              "manuscriptNumber": "GSJ-25-2064.R4",
+              "source": {
+                "threadId": "19eb1fe4c53161d6",
+                "messageId": "19eb1fe4c53161d6",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2064.R4",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-10T14:44:53.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": 4,
+          "note": "Accepted in its current form after four revisions.",
+          "source": {
+            "threadId": "19eb1fe4c53161d6",
+            "messageId": "19eb1fe4c53161d6",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2064.R4",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-10T14:44:53.000Z",
+      "updatedAt": "2026-06-10T14:44:53.000Z"
+    },
+    {
+      "id": "the-enigma-of-culture-negative-spondylodiscitis-comparable-outcomes-de",
+      "title": "The Enigma of Culture-Negative Spondylodiscitis: Comparable Outcomes Despite Diagnostic Uncertainty",
+      "titleNormalized": "the enigma of culture negative spondylodiscitis comparable outcomes despite diagnostic uncertainty",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-05T04:59:59.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-05T04:59:59.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e962707d80394c",
+                "messageId": "19e962707d80394c",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-05T04:59:59.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication.",
+          "source": {
+            "threadId": "19e962707d80394c",
+            "messageId": "19e962707d80394c",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-05T04:59:59.000Z",
+      "updatedAt": "2026-06-05T04:59:59.000Z"
+    },
+    {
+      "id": "orthobiologics-in-regenerative-orthopedics-a-scoping-review-of-current",
+      "title": "Orthobiologics in Regenerative Orthopedics: A Scoping Review of Current Trends, Challenges, and Future Directions",
+      "titleNormalized": "orthobiologics in regenerative orthopedics a scoping review of current trends challenges and future directions",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "International Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-01T08:38:09.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-01T08:38:09.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e82555ac9ab6b8",
+                "messageId": "19e82555ac9ab6b8",
+                "subject": "Decision on your submission to International Orthopaedics",
+                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-01T08:38:09.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19e82555ac9ab6b8",
+            "messageId": "19e82555ac9ab6b8",
+            "subject": "Decision on your submission to International Orthopaedics",
+            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-01T08:38:09.000Z",
+      "updatedAt": "2026-06-01T08:38:09.000Z"
+    },
+    {
+      "id": "does-obesity-reduce-the-value-of-spine-surgery-a-systematic-review-of-",
+      "title": "Does obesity reduce the value of spine surgery? A systematic review of cost-effectiveness across spinal procedures",
+      "titleNormalized": "does obesity reduce the value of spine surgery a systematic review of cost effectiveness across spinal procedures",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "International Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-31T03:41:59.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-31T03:41:59.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e7c1fd9ddc1396",
+                "messageId": "19e7c1fd9ddc1396",
+                "subject": "Decision on your submission to International Orthopaedics",
+                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-31T03:41:59.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19e7c1fd9ddc1396",
+            "messageId": "19e7c1fd9ddc1396",
+            "subject": "Decision on your submission to International Orthopaedics",
+            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-05-31T03:41:59.000Z",
+      "updatedAt": "2026-05-31T03:41:59.000Z"
     },
     {
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-anterior-cervical-di",
@@ -2533,136 +4569,6 @@
       ],
       "createdAt": "2026-05-03T09:29:19.000Z",
       "updatedAt": "2026-05-03T09:29:19.000Z"
-    },
-    {
-      "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
-      "title": "Should spinal Ewing's sarcoma be managed differently from extremity disease? A systematic review of outcomes and treatment limitations",
-      "titleNormalized": "should spinal ewing s sarcoma be managed differently from extremity disease a systematic review of outcomes and treatment limitations",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-0701",
-      "currentStatus": "Rejected",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0701",
-          "submittedDate": "2026-04-15T21:54:00.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-15T21:54:00.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
-              "manuscriptNumber": "GSJ-26-0701",
-              "source": {
-                "threadId": "19d96259c79fc21d",
-                "messageId": "19d96259c79fc21d",
-                "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
-                "from": "onbehalfof@manuscriptcentral.com",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-04-15T21:54:00.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
-          "source": {
-            "threadId": "19d96259c79fc21d",
-            "messageId": "19d96259c79fc21d",
-            "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
-            "from": "onbehalfof@manuscriptcentral.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-04-15T21:54:00.000Z",
-      "updatedAt": "2026-04-15T21:54:00.000Z"
-    },
-    {
-      "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
-      "title": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews",
-      "titleNormalized": "a locally executed agentic ai framework for deduplication screening and structured data extraction in spine surgery systematic reviews",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "MedComm",
-      "currentManuscriptNumber": "MCO2-2026-6988",
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "MedComm",
-          "manuscriptNumber": "MCO2-2026-6988",
-          "submittedDate": "2026-03-12T11:59:46.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-03-12T11:59:46.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submitted to MedComm with Sathish Muthu as corresponding author.",
-              "manuscriptNumber": "MCO2-2026-6988",
-              "source": {
-                "threadId": "19ce1eacdec5d283",
-                "messageId": "19ce1eacdec5d283",
-                "subject": "MedComm - Manuscript ID MCO2-2026-6988",
-                "from": "onbehalfof@manuscriptcentral.com",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-03-12T11:59:46.000Z",
-          "journal": "MedComm",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submitted to MedComm with Sathish Muthu as corresponding author.",
-          "source": {
-            "threadId": "19ce1eacdec5d283",
-            "messageId": "19ce1eacdec5d283",
-            "subject": "MedComm - Manuscript ID MCO2-2026-6988",
-            "from": "onbehalfof@manuscriptcentral.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-03-12T11:59:46.000Z",
-      "updatedAt": "2026-03-12T11:59:46.000Z"
     }
   ]
 }
