@@ -1,6 +1,104 @@
 {
   "review": [
     {
+      "timestamp": "2026-08-21T04:46:52.000Z",
+      "reason": "Springer's notification names only the publisher, not the journal. Correct the journal before relying on this record.",
+      "relevant": true,
+      "eventType": "new_submission",
+      "title": "Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis",
+      "journal": "Springer Nature",
+      "subject": "Track the status of your manuscript",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-21T04:45:31.000Z",
+      "reason": "Publisher offered a transfer to another journal after rejection. Not filed as an event: the rejection already sets the status, and filing it would open a phantom 'active' submission at the journal that just rejected it. Still worth acting on.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Journal recommendations for Is motion preservation with three-level hybrid cervical surgery achieved without compromising clinical outcomes? A systematic review and meta-analysis",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-20T12:04:23.000Z",
+      "reason": "Springer 'you started a submission' notice carries no manuscript title, so nothing can be filed. Check whether this submission was ever completed.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "You started a submission to International Orthopaedics",
+      "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-20T12:03:48.000Z",
+      "reason": "Springer 'you started a submission' notice carries no manuscript title, so nothing can be filed. Check whether this submission was ever completed.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "You started a submission to Archives of Orthopaedic and Trauma Surgery",
+      "from": "Archives of Orthopaedic and Trauma Surgery <vinothkumar.raji@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-20T07:05:23.000Z",
+      "reason": "Publisher offered a transfer to another journal after rejection. Not filed as an event: the rejection already sets the status, and filing it would open a phantom 'active' submission at the journal that just rejected it. Still worth acting on.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-18T07:14:27.000Z",
+      "reason": "World Journal of Radiology invited-title proposal (ID 05395420) acknowledged then declined. A title proposal, not a manuscript submission, so not filed.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Number ID: 05395420 World Journal of Radiology decline letter for the submitted manuscript title",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-17T13:22:21.000Z",
+      "reason": "World Journal of Radiology invited-title proposal (ID 05395420) acknowledged then declined. A title proposal, not a manuscript submission, so not filed.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Number ID: 05395420 World Journal of Radiology reply letter to confirm receipt of the submitted manuscript title",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
       "timestamp": "2026-07-26T17:41:34.000Z",
       "reason": "Salutation reads 'Dear Dr Subramanian' but the mail arrived in Dhibin's inbox; worth confirming the co-author list is right before trusting this record.",
       "relevant": true,
