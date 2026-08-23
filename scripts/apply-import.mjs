@@ -67,6 +67,22 @@ if (!Array.isArray(classified) || !classified.length) {
   process.exit(1);
 }
 
+/**
+ * Every identity a logged email may be stored under. Rows written before the
+ * message id was recorded only carry the natural key, so an entry has to be
+ * matched on both forms or the same email is logged twice.
+ */
+function logKeys(e) {
+  const keys = [[e.timestamp, e.subject, e.from].join(" ")];
+  if (e.messageId) keys.push(e.messageId);
+  return keys;
+}
+
+function logHas(list, item) {
+  const wanted = new Set(logKeys(item));
+  return list.some((e) => logKeys(e).some((k) => wanted.has(k)));
+}
+
 let filed = 0;
 let excluded = 0;
 let review = 0;
@@ -83,10 +99,16 @@ for (const item of classified) {
 
   // The registry dedupes events by message id; these logs must too, or a
   // replayed import inflates their counts without changing anything real.
-  const alreadyReviewed =
-    item.id && reviewQueue.review.some((r) => r.messageId === item.id);
-  const alreadyExcluded =
-    item.id && excludedLog.excluded.some((e) => e.messageId === item.id);
+  // Entries written before the id was recorded fall back to the natural key
+  // (timestamp + subject + sender), which identifies one email just as well.
+  const asLogged = {
+    messageId: item.id,
+    timestamp: item.internalDate,
+    subject: item.subject,
+    from: item.from,
+  };
+  const alreadyReviewed = logHas(reviewQueue.review, asLogged);
+  const alreadyExcluded = logHas(excludedLog.excluded, asLogged);
 
   if (item.needsReview && !alreadyReviewed) {
     review++;
