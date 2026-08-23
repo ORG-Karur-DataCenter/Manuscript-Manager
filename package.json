@@ -7,7 +7,8 @@
   "scripts": {
     "sync": "node scripts/sync-gmail.mjs",
     "get-refresh-token": "node scripts/get-refresh-token.mjs",
-    "check-classifier": "node scripts/check-classifier.mjs"
+    "check-classifier": "node scripts/check-classifier.mjs",
+    "dump-candidates": "node scripts/dump-candidates.mjs"
   },
   "dependencies": {
     "googleapis": "^144.0.0"

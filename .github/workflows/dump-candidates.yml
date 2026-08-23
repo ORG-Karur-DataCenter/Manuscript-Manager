@@ -1,0 +1,47 @@
+name: Dump candidates for offline backfill
+
+# Fetches one account's recent mail and uploads the prefiltered candidates for
+# offline classification. Makes no classifier API calls, so it is not subject to
+# free-tier quotas — this is how a first backfill is done without burning a day
+# of rate limit.
+on:
+  workflow_dispatch:
+    inputs:
+      account_email:
+        description: "Which account in config/accounts.json to dump"
+        required: true
+      days:
+        description: "How many days back to fetch"
+        required: false
+        default: "30"
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: npm install --omit=dev
+
+      - name: Fetch and prefilter
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN_SATHISH: ${{ secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
+          GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
+          ACCOUNT_EMAIL: ${{ inputs.account_email }}
+          DUMP_DAYS: ${{ inputs.days }}
+          DUMP_OUT: ${{ runner.temp }}/import-candidates.json
+        run: npm run dump-candidates
+
+      # Deliberately NOT committed: this file holds message bodies, and the
+      # repository is public. Kept for one day and deleted once consumed.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: import-candidates
+          path: ${{ runner.temp }}/import-candidates.json
+          retention-days: 1
