@@ -14,6 +14,10 @@ on:
         description: "How many days back to fetch"
         required: false
         default: "30"
+      until_days:
+        description: "Optional: stop at this many days back, to dump one slice of a long backfill (e.g. days=180 until_days=150)"
+        required: false
+        default: ""
 
 jobs:
   dump:
@@ -35,6 +39,7 @@ jobs:
           GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
           ACCOUNT_EMAIL: ${{ inputs.account_email }}
           DUMP_DAYS: ${{ inputs.days }}
+          DUMP_UNTIL_DAYS: ${{ inputs.until_days }}
           DUMP_OUT: ${{ runner.temp }}/import-candidates.json
         run: npm run dump-candidates
 

@@ -38,10 +38,24 @@ if (!refreshToken) {
   process.exit(1);
 }
 
+// A long backfill is dumped in slices: DUMP_DAYS is the far edge of the window
+// and DUMP_UNTIL_DAYS the near edge, so days=180 until_days=150 is one month of
+// history six months back. Each slice stays small enough to classify in one go.
+const UNTIL_DAYS = Number(process.env.DUMP_UNTIL_DAYS || 0);
+
 const since = new Date(Date.now() - DAYS * 86400000);
+const until = UNTIL_DAYS > 0 ? new Date(Date.now() - UNTIL_DAYS * 86400000) : null;
 const y = since.getUTCFullYear();
 const m = String(since.getUTCMonth() + 1).padStart(2, "0");
 const d = String(since.getUTCDate()).padStart(2, "0");
+
+function beforeClause(date) {
+  if (!date) return "";
+  const yy = date.getUTCFullYear();
+  const mm = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(date.getUTCDate()).padStart(2, "0");
+  return ` before:${yy}/${mm}/${dd}`;
+}
 
 const gmail = buildGmailClient({
   clientId: process.env.GMAIL_CLIENT_ID,
@@ -49,11 +63,16 @@ const gmail = buildGmailClient({
   refreshToken,
 });
 
-console.log(`Fetching ${account.email} since ${y}-${m}-${d} ...`);
+console.log(
+  `Fetching ${account.email} from ${y}-${m}-${d}` +
+    (until ? ` to ${until.toISOString().slice(0, 10)}` : " to now") +
+    " ..."
+);
 const messages = await fetchNewMessages(gmail, {
-  query: `-in:chats -in:drafts -in:spam -in:trash after:${y}/${m}/${d}`,
+  query: `-in:chats -in:drafts -in:spam -in:trash after:${y}/${m}/${d}${beforeClause(until)}`,
   seenIds: new Set(),
-  maxResults: 400,
+  // A 30-day window fits in a few hundred; a six-month backfill does not.
+  maxResults: Number(process.env.DUMP_MAX_RESULTS || 3000),
 });
 
 // Every id that was looked at, not just the ones worth classifying. The
@@ -85,6 +104,7 @@ await writeFile(
       generatedAt: new Date().toISOString(),
       account: account.email,
       days: DAYS,
+      untilDays: UNTIL_DAYS || null,
       inspectedIds,
       candidates,
     },
