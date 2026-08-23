@@ -72,12 +72,12 @@ a { color: var(--brand); }
 .topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 13px 22px; }
 .brand { display: flex; align-items: center; gap: 12px; }
 .brand-mark {
-  width: 40px; height: 40px; border-radius: 11px; flex: none;
+  height: 40px; padding: 0 12px; border-radius: 11px; flex: none;
   background: linear-gradient(135deg, var(--brand), var(--brand-deep));
   color: #fff; display: grid; place-items: center;
-  font-weight: 700; font-size: .92rem; letter-spacing: .02em;
+  font-weight: 700; font-size: .82rem; letter-spacing: .06em;
 }
-.brand-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.16rem; letter-spacing: -.01em; }
+.brand-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.16rem; letter-spacing: .01em; }
 .brand-sub { font-size: .74rem; color: var(--muted); }
 .topbar-actions { display: flex; align-items: center; gap: 10px; }
 .search-box {
@@ -95,6 +95,40 @@ a { color: var(--brand); }
   transition: border-color .2s, transform .2s;
 }
 .icon-btn:hover { border-color: var(--brand); }
+
+/* hero */
+.hero {
+  background:
+    radial-gradient(120% 140% at 12% -20%, var(--brand-wash), transparent 55%),
+    linear-gradient(180deg, var(--surface), var(--bg));
+  border-bottom: 1px solid var(--line);
+}
+html[data-theme="dark"] .hero {
+  background:
+    radial-gradient(120% 140% at 12% -20%, rgba(77,155,240,.12), transparent 55%),
+    linear-gradient(180deg, var(--surface-2), var(--bg));
+}
+.hero-inner { padding: 34px 0 30px; text-align: center; }
+.hero-eyebrow {
+  font-family: 'IBM Plex Mono', monospace; font-size: .74rem; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--brand); margin-bottom: 12px;
+}
+.hero-title { margin: 0; line-height: 1; }
+.hero-acronym {
+  font-family: 'Fraunces', serif; font-weight: 700;
+  font-size: clamp(2.3rem, 6vw, 3.6rem); letter-spacing: .01em;
+  background: linear-gradient(120deg, var(--brand-deep), var(--brand));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+html[data-theme="dark"] .hero-acronym {
+  background: linear-gradient(120deg, #7fb6f7, #4d9bf0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero-expand {
+  margin-top: 12px; font-size: .96rem; color: var(--ink-soft);
+  max-width: 40rem; margin-inline: auto;
+}
+.hero-expand b { color: var(--brand); font-weight: 700; }
 
 /* buckets */
 .buckets {
