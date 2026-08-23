@@ -16,6 +16,9 @@
   --submissions-wash: #e6eefb;
   --needs: #d5604a;
   --needs-wash: #fbe9e5;
+  --flag: #b7791f;
+  --flag-wash: #fdf3dd;
+  --flag-card: #fffdf7;
   --review: #d0912b;
   --review-wash: #fbf1de;
   --published: #2e9e6b;
@@ -42,6 +45,9 @@ html[data-theme="dark"] {
   --brand-wash: #12294510;
   --submissions-wash: #12294530;
   --needs-wash: #3a1c1830;
+  --flag: #d9a441;
+  --flag-wash: #3a2f1830;
+  --flag-card: transparent;
   --review-wash: #35290f30;
   --published-wash: #10301f40;
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, .3), 0 3px 10px rgba(0, 0, 0, .35);
@@ -280,3 +286,19 @@ html[data-theme="dark"] .hero-acronym {
   .search-box input { width: 110px; }
   .cards { grid-template-columns: 1fr; }
 }
+
+/* --- Needs review -------------------------------------------------------
+   Items the classifier declined to guess at. Deliberately amber rather than
+   red: this is uncertainty to resolve, not an overdue action. */
+.bucket-icon.review { background: var(--flag-wash); color: var(--flag); }
+.bucket-btn.review .bucket-count { color: var(--flag); }
+.card.b-review { border-left-color: var(--flag); }
+.pill.review { background: var(--flag-wash); color: var(--flag); }
+.review-flag {
+  font-size: .68rem; font-weight: 700; color: #fff; background: var(--flag);
+  padding: 3px 8px; border-radius: 999px; letter-spacing: .02em; white-space: nowrap;
+}
+/* Unfiled items are records to act on, not tracked submissions — keep them
+   visually quieter than a real manuscript card. */
+.review-card { background: var(--flag-card, transparent); }
+.review-card .card-title { font-size: .95rem; font-weight: 600; }

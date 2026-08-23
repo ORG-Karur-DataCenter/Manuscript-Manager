@@ -13,6 +13,7 @@ const BUCKET_HINTS = {
   needs_action: "Needs you: rejected papers to resubmit elsewhere, or manuscripts returned for edits before peer review.",
   in_review: "With the journal — under peer review, revision in progress, or accepted and awaiting publication.",
   published: "Published, with DOI and article link where available.",
+  review: "Emails the classifier would not guess at. Nothing here has been filed on a guess — check each one and correct the record.",
 };
 
 const NEEDS_ACTION_REASON = {
@@ -32,7 +33,10 @@ const EVENT_LABELS = {
   other: "Update",
 };
 
-let state = { manuscripts: [], bucket: "all", query: "" };
+// `review` holds the entries the classifier declined to guess at. Some
+// correspond to a filed manuscript (flagged on its card); the rest were never
+// filable at all and would otherwise be invisible.
+let state = { manuscripts: [], review: [], bucket: "all", query: "" };
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -77,13 +81,44 @@ async function load() {
     $("#generated-at").textContent = "Could not load data";
     console.error(err);
   }
+
+  // A missing or empty review queue is normal, not an error.
+  try {
+    const res = await fetch("data/review-queue.json?_=" + Date.now());
+    state.review = (await res.json()).review || [];
+  } catch {
+    state.review = [];
+  }
+
   renderCounts();
+  selectBucket(location.hash.replace("#", "") || "all");
+}
+
+/** Select a filter and sync the nav, so a bucket can be reached by URL hash too. */
+function selectBucket(bucket) {
+  if (!BUCKET_HINTS[bucket]) bucket = "all";
+  state.bucket = bucket;
+  $$(".bucket-btn").forEach((b) => b.classList.toggle("active", b.dataset.bucket === bucket));
   render();
+}
+
+/** Review items that never became a manuscript, so have no card of their own. */
+function unfiledReview() {
+  return state.review.filter((r) => r.relevant !== true);
+}
+
+/** Why a filed manuscript was flagged, matched back from the review queue. */
+function reviewReasonFor(m) {
+  const hit = state.review.find(
+    (r) => r.relevant === true && r.title && m.title && r.title.trim() === m.title.trim()
+  );
+  return hit?.reason || "Flagged during classification — verify this record.";
 }
 
 function counts() {
   const c = { all: state.manuscripts.length, submissions: 0, needs_action: 0, in_review: 0, published: 0 };
   for (const m of state.manuscripts) if (c[m.bucket] !== undefined) c[m.bucket]++;
+  c.review = state.manuscripts.filter((m) => m.needsReview).length + unfiledReview().length;
   return c;
 }
 
@@ -105,9 +140,48 @@ function matchesQuery(m, q) {
 }
 
 function filtered() {
-  return state.manuscripts.filter(
-    (m) => (state.bucket === "all" || m.bucket === state.bucket) && matchesQuery(m, state.query)
-  );
+  return state.manuscripts.filter((m) => {
+    const inBucket =
+      state.bucket === "all" ||
+      (state.bucket === "review" ? m.needsReview : m.bucket === state.bucket);
+    return inBucket && matchesQuery(m, state.query);
+  });
+}
+
+function matchesReviewQuery(r, q) {
+  if (!q) return true;
+  return [r.title, r.journal, r.subject, r.from, r.reason]
+    .join(" ")
+    .toLowerCase()
+    .includes(q.toLowerCase());
+}
+
+/**
+ * A review item with no manuscript behind it. Rendered plainly and marked
+ * "not filed" so it can never be mistaken for a tracked submission.
+ */
+function reviewCardHtml(r) {
+  return `
+  <article class="card b-review review-card" tabindex="0">
+    <div class="card-top">
+      <span class="pill review">Not filed</span>
+      <span class="action-flag">⚑ Needs review</span>
+    </div>
+    <h3 class="card-title">${esc(r.title || r.subject || "(no subject)")}</h3>
+    <div class="card-meta">
+      ${r.journal ? `<div class="row"><span class="lbl">Journal</span><span>${esc(r.journal)}</span></div>` : ""}
+      <div class="row"><span class="lbl">From</span><span>${esc(r.from || "—")}</span></div>
+      <div class="row"><span class="lbl">Why</span><span style="color:var(--needs)">${esc(r.reason || "")}</span></div>
+    </div>
+    <div class="card-foot">
+      <span class="card-when">${esc(fmtDate(r.timestamp))}</span>
+      <span class="card-accounts">${
+        r.account
+          ? `<span class="avatar" style="background:${avatarColor(r.account)}" title="${esc(r.account)}">${esc(initials(r.account))}</span>`
+          : ""
+      }</span>
+    </div>
+  </article>`;
 }
 
 function cardHtml(m) {
@@ -124,11 +198,13 @@ function cardHtml(m) {
     <div class="card-top">
       <span class="pill ${pill.pill}">${esc(pill.label)}</span>
       ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
+      ${m.needsReview ? `<span class="review-flag" title="${esc(reviewReasonFor(m))}">⚑ Check</span>` : ""}
     </div>
     <h3 class="card-title">${esc(m.title)}</h3>
     <div class="card-meta">
       <div class="row"><span class="lbl">Journal</span><span>${esc(m.currentJournal || "—")}</span></div>
       <div class="row"><span class="lbl">Status</span><span>${esc(m.currentStatus || "—")}</span></div>
+      ${m.needsReview ? `<div class="row"><span class="lbl">Check</span><span style="color:var(--needs)">${esc(reviewReasonFor(m))}</span></div>` : ""}
       ${attnReason ? `<div class="row"><span class="lbl">Action</span><span style="color:var(--needs);font-weight:600">${esc(attnReason)}</span></div>` : ""}
     </div>
     <div class="card-foot">
@@ -147,16 +223,24 @@ function render() {
   const empty = $("#empty");
   $("#bucket-hint").textContent = BUCKET_HINTS[state.bucket] || "";
 
-  if (!list.length) {
+  // The review view also surfaces items that never became a manuscript.
+  const extras =
+    state.bucket === "review"
+      ? unfiledReview().filter((r) => matchesReviewQuery(r, state.query))
+      : [];
+
+  if (!list.length && !extras.length) {
     cards.innerHTML = "";
     empty.hidden = false;
-    empty.innerHTML = state.manuscripts.length
+    empty.innerHTML = state.bucket === "review"
+      ? `<h3>Nothing to review</h3><p>Every email was classified confidently. Anything the classifier is unsure about lands here instead of being guessed at.</p>`
+      : state.manuscripts.length
       ? `<h3>Nothing here</h3><p>No manuscripts match this filter${state.query ? " and search" : ""}.</p>`
       : `<h3>No manuscripts yet</h3><p>Once the Gmail sync runs, your tracked manuscripts will appear here.</p>`;
     return;
   }
   empty.hidden = true;
-  cards.innerHTML = list.map(cardHtml).join("");
+  cards.innerHTML = list.map(cardHtml).join("") + extras.map(reviewCardHtml).join("");
 }
 
 function drawerHtml(m) {
@@ -264,9 +348,8 @@ function wire() {
   $("#buckets").addEventListener("click", (e) => {
     const btn = e.target.closest(".bucket-btn");
     if (!btn) return;
-    state.bucket = btn.dataset.bucket;
-    $$(".bucket-btn").forEach((b) => b.classList.toggle("active", b === btn));
-    render();
+    selectBucket(btn.dataset.bucket);
+    if (history.replaceState) history.replaceState(null, "", `#${btn.dataset.bucket}`);
   });
   $("#search").addEventListener("input", (e) => { state.query = e.target.value.trim(); render(); });
   $("#cards").addEventListener("click", (e) => {

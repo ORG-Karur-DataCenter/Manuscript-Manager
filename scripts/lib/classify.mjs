@@ -49,14 +49,7 @@ const FEW_SHOT = [
   {
     email: `Subject: Invitation to Review Manuscript JOR-2026-0417
 From: Journal of Orthopaedic Research <onbehalfof@manuscriptcentral.com>
-
-Dear Dr Muthu,
-
-Manuscript ID JOR-2026-0417 entitled "Platelet-Rich Plasma versus Corticosteroid Injection in Rotator Cuff Tendinopathy" has been submitted to the Journal of Orthopaedic Research. As an expert in this field, I would be grateful if you would agree to review it.
-
-Abstract: This randomised trial compared PRP with corticosteroid injection in 120 patients...
-
-Please click here to Agree or Decline. Reviews are due within 21 days.`,
+Manuscript ID JOR-2026-0417 entitled "Platelet-Rich Plasma versus Corticosteroid Injection in Rotator Cuff Tendinopathy" has been submitted to the Journal of Orthopaedic Research. As an expert in this field, I would be grateful if you would agree to review it. Abstract: This randomised trial compared PRP with corticosteroid injection in 120 patients... Please click here to Agree or Decline. Reviews are due within 21 days.`,
     answer: {
       relevant: false,
       exclude_reason: "peer_review_invitation_for_other_manuscript",
@@ -76,12 +69,7 @@ Please click here to Agree or Decline. Reviews are due within 21 days.`,
   {
     email: `Subject: Decision on JOR-2026-0388
 From: Journal of Orthopaedic Research <onbehalfof@manuscriptcentral.com>
-
-Dear Dr Muthu,
-
-Manuscript ID JOR-2026-0388 entitled "Outcomes of Arthroscopic Repair in Massive Rotator Cuff Tears: A Meta-Analysis" which you submitted to the Journal of Orthopaedic Research has been reviewed. The reviewers recommend major revision.
-
-Please submit your revised manuscript within 60 days. Reviewer comments are appended below.`,
+Manuscript ID JOR-2026-0388 entitled "Outcomes of Arthroscopic Repair in Massive Rotator Cuff Tears: A Meta-Analysis" which you submitted to the Journal of Orthopaedic Research has been reviewed. The reviewers recommend major revision. Please submit your revised manuscript within 60 days.`,
     answer: {
       relevant: true,
       exclude_reason: "none",
@@ -103,9 +91,6 @@ Please submit your revised manuscript within 60 days. Reviewer comments are appe
   {
     email: `Subject: Invitation to submit your esteemed research
 From: Global Journal of Medical Sciences <editor@gjms-publications.org>
-
-Dear Esteemed Dr. Muthu,
-
 Greetings of the day! Having read your reputed article on rotator cuff repair, we are highly impressed by your esteemed profile. We cordially invite you to contribute any type of article to our upcoming issue. Nominal processing charges apply. Rapid publication within 72 hours guaranteed.`,
     answer: {
       relevant: false,
@@ -125,19 +110,22 @@ Greetings of the day! Having read your reputed article on rotator cuff repair, w
   },
 ];
 
+// Journal systems put the decision, title, manuscript number and any DOI in the
+// opening of the message; the rest is reviewer comments, legal boilerplate and
+// unsubscribe footers. Sending 10k characters tripled the request size for no
+// accuracy gain and put a single classification over Groq's 8k tokens/minute.
+const MAX_EMAIL_CHARS = Number(process.env.MAX_EMAIL_CHARS || 3500);
+
 function buildUserPrompt({ subject, from, date, text }) {
-  return `Subject: ${subject}\nFrom: ${from}\nDate: ${date}\n\n${text}`.slice(0, 10000);
+  const body = (text || "").slice(0, MAX_EMAIL_CHARS);
+  return `Subject: ${subject}\nFrom: ${from}\nDate: ${date}\n\n${body}`;
 }
 
 /** Few-shot pairs are folded into the system prompt so every provider gets them. */
 function buildSystemPrompt() {
+  // Compact JSON: the indentation cost tokens without teaching the model anything.
   const examples = FEW_SHOT.map(
-    (ex, i) =>
-      `### Example ${i + 1}\n\n${ex.email}\n\nCorrect output:\n${JSON.stringify(
-        ex.answer,
-        null,
-        2
-      )}`
+    (ex, i) => `### Example ${i + 1}\n${ex.email}\nCorrect output:\n${JSON.stringify(ex.answer)}`
   ).join("\n\n");
 
   return `${SYSTEM_PROMPT}\n\n---\n\nWORKED EXAMPLES\n\n${examples}`;
