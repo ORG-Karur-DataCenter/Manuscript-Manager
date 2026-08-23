@@ -9,6 +9,10 @@ on:
         description: "Restrict to these provider ids, comma-separated (e.g. cerebras,groq). Blank = full chain."
         required: false
         default: ""
+      list_models:
+        description: "Set to 1 to list the model ids each key can reach, instead of classifying."
+        required: false
+        default: ""
 
 jobs:
   check:
@@ -28,4 +32,5 @@ jobs:
           CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           CLASSIFIER_PROVIDERS: ${{ inputs.providers }}
+          LIST_MODELS: ${{ inputs.list_models }}
         run: npm run check-classifier

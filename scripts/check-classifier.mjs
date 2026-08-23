@@ -79,6 +79,21 @@ if (!chain.length) {
   process.exit(1);
 }
 
+// Diagnostic mode: print the model ids each key can actually reach, then stop.
+if (process.env.LIST_MODELS) {
+  for (const provider of chain) {
+    try {
+      const models = await provider.listModels();
+      console.log(`${provider.id} — ${models.length} model(s) reachable:`);
+      for (const m of models) console.log(`    ${m}`);
+    } catch (err) {
+      console.log(`${provider.id} — could not list models: ${err.message}`);
+    }
+    console.log();
+  }
+  process.exit(0);
+}
+
 let failures = 0;
 for (const fixture of FIXTURES) {
   console.log(`--- ${fixture.name}`);

@@ -101,6 +101,16 @@ function geminiProvider({ id, model, apiKey, minIntervalMs = 4500 }) {
   return {
     id,
     model,
+    async listModels() {
+      const res = await fetch(
+        "https://generativelanguage.googleapis.com/v1beta/models",
+        { headers: { "x-goog-api-key": apiKey } }
+      );
+      const text = await res.text();
+      if (!res.ok) throw new ProviderError(`HTTP ${res.status}: ${text.slice(0, 300)}`);
+      const data = JSON.parse(text);
+      return (data.models || []).map((m) => (m.name || "").replace(/^models\//, ""));
+    },
     async complete({ system, user }) {
       await pace();
       const url =
@@ -191,6 +201,16 @@ function openAiCompatibleProvider({
   return {
     id,
     model,
+    /** Diagnostic: what model ids this key can actually reach. */
+    async listModels() {
+      const res = await fetch(`${baseUrl}/models`, {
+        headers: { authorization: `Bearer ${apiKey}` },
+      });
+      const text = await res.text();
+      if (!res.ok) throw new ProviderError(`HTTP ${res.status}: ${text.slice(0, 300)}`);
+      const data = JSON.parse(text);
+      return (data.data || []).map((m) => m.id);
+    },
     async complete({ system, user }) {
       await pace();
       const send = (useSchema) =>
