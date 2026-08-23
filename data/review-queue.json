@@ -1,104 +1,7 @@
 {
   "review": [
     {
-      "timestamp": "2026-08-21T04:46:52.000Z",
-      "reason": "Springer's notification names only the publisher, not the journal. Correct the journal before relying on this record.",
-      "relevant": true,
-      "eventType": "new_submission",
-      "title": "Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis",
-      "journal": "Springer Nature",
-      "subject": "Track the status of your manuscript",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
-      "timestamp": "2026-08-21T04:45:31.000Z",
-      "reason": "Publisher offered a transfer to another journal after rejection. Not filed as an event: the rejection already sets the status, and filing it would open a phantom 'active' submission at the journal that just rejected it. Still worth acting on.",
-      "relevant": false,
-      "eventType": null,
-      "title": null,
-      "journal": null,
-      "subject": "Journal recommendations for Is motion preservation with three-level hybrid cervical surgery achieved without compromising clinical outcomes? A systematic review and meta-analysis",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
-      "timestamp": "2026-08-20T12:04:23.000Z",
-      "reason": "Springer 'you started a submission' notice carries no manuscript title, so nothing can be filed. Check whether this submission was ever completed.",
-      "relevant": false,
-      "eventType": null,
-      "title": null,
-      "journal": null,
-      "subject": "You started a submission to International Orthopaedics",
-      "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-      "account": "Sathish Muthu",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
-      "timestamp": "2026-08-20T12:03:48.000Z",
-      "reason": "Springer 'you started a submission' notice carries no manuscript title, so nothing can be filed. Check whether this submission was ever completed.",
-      "relevant": false,
-      "eventType": null,
-      "title": null,
-      "journal": null,
-      "subject": "You started a submission to Archives of Orthopaedic and Trauma Surgery",
-      "from": "Archives of Orthopaedic and Trauma Surgery <vinothkumar.raji@springernature.com>",
-      "account": "Sathish Muthu",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
-      "timestamp": "2026-08-20T07:05:23.000Z",
-      "reason": "Publisher offered a transfer to another journal after rejection. Not filed as an event: the rejection already sets the status, and filing it would open a phantom 'active' submission at the journal that just rejected it. Still worth acting on.",
-      "relevant": false,
-      "eventType": null,
-      "title": null,
-      "journal": null,
-      "subject": "A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "Sathish Muthu",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
-      "timestamp": "2026-08-18T07:14:27.000Z",
-      "reason": "World Journal of Radiology invited-title proposal (ID 05395420) acknowledged then declined. A title proposal, not a manuscript submission, so not filed.",
-      "relevant": false,
-      "eventType": null,
-      "title": null,
-      "journal": null,
-      "subject": "Number ID: 05395420 World Journal of Radiology decline letter for the submitted manuscript title",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "Sathish Muthu",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
-      "timestamp": "2026-08-17T13:22:21.000Z",
-      "reason": "World Journal of Radiology invited-title proposal (ID 05395420) acknowledged then declined. A title proposal, not a manuscript submission, so not filed.",
-      "relevant": false,
-      "eventType": null,
-      "title": null,
-      "journal": null,
-      "subject": "Number ID: 05395420 World Journal of Radiology reply letter to confirm receipt of the submitted manuscript title",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "Sathish Muthu",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
+      "messageId": "19f5a27fcc2a7651",
       "timestamp": "2026-07-13T06:26:37.000Z",
       "reason": "Third reminder to complete the transfer of bmjment-2026-302923 (Substance Use / Spinal Cord Injury) to BMJ Connections Mental Health after its rejection on 13 Jun. Reminders on 23 Jun, 3 Jul and 13 Jul all went unanswered — the paper has been in limbo for over a month. Not filed as an event because the rejection already sets its status.",
       "relevant": false,
@@ -113,6 +16,7 @@
       }
     },
     {
+      "messageId": "19ded2bbc11ef9d9",
       "timestamp": "2026-05-03T09:29:19.000Z",
       "reason": "Springer truncated the title in the subject and the body gives no full title (it reads 'Is Is Three-Level...'). The title recorded here is a reconstruction — correct it, and check whether this is a companion to the GSJ-25-2098 three-level hybrid paper or a separate submission.",
       "relevant": true,
@@ -127,34 +31,7 @@
       }
     },
     {
-      "timestamp": "2026-07-13T06:26:37.000Z",
-      "reason": "Third reminder to complete the transfer of bmjment-2026-302923 (Substance Use / Spinal Cord Injury) to BMJ Connections Mental Health after its rejection on 13 Jun. Reminders on 23 Jun, 3 Jul and 13 Jul all went unanswered — the paper has been in limbo for over a month. Not filed as an event because the rejection already sets its status.",
-      "relevant": false,
-      "eventType": null,
-      "title": null,
-      "journal": null,
-      "subject": "Reminder: Complete your transfer to BMJ Connections Mental Health",
-      "from": "onbehalfof@manuscriptcentral.com",
-      "account": "Dhibin Vikash Kolarpatti Ponnusamy",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
-      "timestamp": "2026-05-03T09:29:19.000Z",
-      "reason": "Springer truncated the title in the subject and the body gives no full title (it reads 'Is Is Three-Level...'). The title recorded here is a reconstruction — correct it, and check whether this is a companion to the GSJ-25-2098 three-level hybrid paper or a separate submission.",
-      "relevant": true,
-      "eventType": "new_submission",
-      "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Anterior Cervical Discectomy and Fusion?",
-      "journal": "International Orthopaedics",
-      "subject": "International Orthopaedics - Receipt of Manuscript 'Is Is Three-Level...'",
-      "from": "do-not-reply@springernature.com",
-      "account": "Dhibin Vikash Kolarpatti Ponnusamy",
-      "meta": {
-        "via": "offline-import"
-      }
-    },
-    {
+      "messageId": "1a022a4afd0bc2f8",
       "timestamp": "2026-08-21T04:46:52.000Z",
       "reason": "Springer's notification names only the publisher, not the journal. Correct the journal before relying on this record.",
       "relevant": true,
@@ -169,6 +46,7 @@
       }
     },
     {
+      "messageId": "1a022a373ea9332c",
       "timestamp": "2026-08-21T04:45:31.000Z",
       "reason": "Publisher offered a transfer to another journal after rejection. Not filed as an event: the rejection already sets the status, and filing it would open a phantom 'active' submission at the journal that just rejected it. Still worth acting on.",
       "relevant": false,
@@ -183,6 +61,7 @@
       }
     },
     {
+      "messageId": "1a01f0ee0b793ada",
       "timestamp": "2026-08-20T12:04:23.000Z",
       "reason": "Springer 'you started a submission' notice carries no manuscript title, so nothing can be filed. Check whether this submission was ever completed.",
       "relevant": false,
@@ -197,6 +76,7 @@
       }
     },
     {
+      "messageId": "1a01f0e5727379ed",
       "timestamp": "2026-08-20T12:03:48.000Z",
       "reason": "Springer 'you started a submission' notice carries no manuscript title, so nothing can be filed. Check whether this submission was ever completed.",
       "relevant": false,
@@ -211,6 +91,7 @@
       }
     },
     {
+      "messageId": "1a01dfd205b6cb5e",
       "timestamp": "2026-08-20T07:05:23.000Z",
       "reason": "Publisher offered a transfer to another journal after rejection. Not filed as an event: the rejection already sets the status, and filing it would open a phantom 'active' submission at the journal that just rejected it. Still worth acting on.",
       "relevant": false,
@@ -225,6 +106,7 @@
       }
     },
     {
+      "messageId": "1a013b8b8dd577ac",
       "timestamp": "2026-08-18T07:14:27.000Z",
       "reason": "World Journal of Radiology invited-title proposal (ID 05395420) acknowledged then declined. A title proposal, not a manuscript submission, so not filed.",
       "relevant": false,
@@ -239,6 +121,7 @@
       }
     },
     {
+      "messageId": "1a00fe32e911f551",
       "timestamp": "2026-08-17T13:22:21.000Z",
       "reason": "World Journal of Radiology invited-title proposal (ID 05395420) acknowledged then declined. A title proposal, not a manuscript submission, so not filed.",
       "relevant": false,
@@ -253,6 +136,7 @@
       }
     },
     {
+      "messageId": "19f9f849915b99cf",
       "timestamp": "2026-07-26T17:41:34.000Z",
       "reason": "Salutation reads 'Dear Dr Subramanian' but the mail arrived in Dhibin's inbox; worth confirming the co-author list is right before trusting this record.",
       "relevant": true,
@@ -267,6 +151,7 @@
       }
     },
     {
+      "messageId": "1a01f2de980f3d64",
       "timestamp": "2026-08-20T12:38:16.000Z",
       "reason": "Springer's notification never names the journal, only the publisher. The journal field is a placeholder and should be corrected, since journal identity drives resubmission matching.",
       "relevant": true,

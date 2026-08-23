@@ -81,9 +81,17 @@ for (const item of classified) {
     via: "offline-import",
   };
 
-  if (item.needsReview) {
+  // The registry dedupes events by message id; these logs must too, or a
+  // replayed import inflates their counts without changing anything real.
+  const alreadyReviewed =
+    item.id && reviewQueue.review.some((r) => r.messageId === item.id);
+  const alreadyExcluded =
+    item.id && excludedLog.excluded.some((e) => e.messageId === item.id);
+
+  if (item.needsReview && !alreadyReviewed) {
     review++;
     reviewQueue.review.unshift({
+      messageId: item.id || null,
       timestamp: item.internalDate,
       reason: item.reviewReason || "flagged during offline import",
       relevant: item.relevant,
@@ -98,8 +106,10 @@ for (const item of classified) {
   }
 
   if (!item.relevant) {
+    if (alreadyExcluded) continue;
     excluded++;
     excludedLog.excluded.unshift({
+      messageId: item.id || null,
       timestamp: item.internalDate,
       reason: item.exclude_reason || "unrelated",
       subject: item.subject,
