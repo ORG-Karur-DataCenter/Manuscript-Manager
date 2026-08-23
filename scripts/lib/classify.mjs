@@ -1,6 +1,5 @@
-import Anthropic from "@anthropic-ai/sdk";
-
-const MODEL = "claude-haiku-4-5-20251001";
+import { buildProviderChain, completeWithChain } from "./providers.mjs";
+import { normalizeResult } from "./schema.mjs";
 
 const SYSTEM_PROMPT = `You are a triage classifier for a researcher's inbox. The researcher submits manuscripts to academic journals and needs every email that is genuinely about the STATUS of one of THEIR OWN submitted manuscripts pulled into a tracker, and everything else excluded.
 
@@ -12,6 +11,12 @@ EXCLUDE (relevant = false) and give exclude_reason:
 - "newsletter_or_cfp": journal newsletters, tables of contents, special-issue calls for papers, conference announcements.
 - "unrelated": anything else — personal mail, unrelated business, etc.
 - "none": use this value when relevant is true.
+
+THE DISTINCTION THAT MATTERS MOST
+A reviewer invitation and a decision on your own manuscript look almost identical: both come from an editor, both quote a manuscript number, a title and often an abstract. Separate them by WHAT THE EMAIL ASKS THE RECIPIENT TO DO:
+- It asks them to READ someone else's paper and give an opinion, offers Accept/Decline links, mentions a review deadline or an honorarium, or calls them "an expert in this field" -> peer_review_invitation_for_other_manuscript.
+- It tells them the outcome of THEIR submission, asks them to revise, upload files, check proofs, or approve a galley, or addresses them as the (corresponding) author -> relevant.
+If an email contains both an abstract and the phrase "would you be willing to review", it is a reviewer invitation no matter how much it looks like a decision letter.
 
 When relevant is true, extract:
 - title: the exact manuscript title (not the email subject line, unless the subject IS the title).
@@ -31,78 +36,247 @@ When relevant is true, extract:
 - doi: the DOI string if present (e.g. 10.1000/xyz123), else null.
 - publication_link: a direct URL to the published article, if present, else null.
 - summary: one sentence, plain language, of what happened.
+- reasoning: one short sentence naming the specific evidence that drove your decision.
+- confidence: "high" only when the evidence is unambiguous. Use "medium" or "low" whenever you are unsure — a second model double-checks anything below high, so an honest "low" costs nothing and a wrong "high" corrupts the tracker.
 
 Be conservative: if you are not confident this concerns the recipient's own manuscript, mark relevant = false.`;
 
-let client;
-function getClient() {
-  if (!client) {
-    client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-  }
-  return client;
+/**
+ * Worked examples of the cases that are genuinely hard to tell apart. These do
+ * far more for accuracy on a small model than any amount of extra instruction.
+ */
+const FEW_SHOT = [
+  {
+    email: `Subject: Invitation to Review Manuscript JOR-2026-0417
+From: Journal of Orthopaedic Research <onbehalfof@manuscriptcentral.com>
+
+Dear Dr Muthu,
+
+Manuscript ID JOR-2026-0417 entitled "Platelet-Rich Plasma versus Corticosteroid Injection in Rotator Cuff Tendinopathy" has been submitted to the Journal of Orthopaedic Research. As an expert in this field, I would be grateful if you would agree to review it.
+
+Abstract: This randomised trial compared PRP with corticosteroid injection in 120 patients...
+
+Please click here to Agree or Decline. Reviews are due within 21 days.`,
+    answer: {
+      relevant: false,
+      exclude_reason: "peer_review_invitation_for_other_manuscript",
+      confidence: "high",
+      reasoning:
+        'Asks the recipient to agree or decline to review someone else\'s submission, with a 21-day review deadline.',
+      title: null,
+      journal: null,
+      manuscript_number: null,
+      event_type: "other",
+      revision_round: null,
+      doi: null,
+      publication_link: null,
+      summary: "An editor invited the recipient to peer review another author's manuscript.",
+    },
+  },
+  {
+    email: `Subject: Decision on JOR-2026-0388
+From: Journal of Orthopaedic Research <onbehalfof@manuscriptcentral.com>
+
+Dear Dr Muthu,
+
+Manuscript ID JOR-2026-0388 entitled "Outcomes of Arthroscopic Repair in Massive Rotator Cuff Tears: A Meta-Analysis" which you submitted to the Journal of Orthopaedic Research has been reviewed. The reviewers recommend major revision.
+
+Please submit your revised manuscript within 60 days. Reviewer comments are appended below.`,
+    answer: {
+      relevant: true,
+      exclude_reason: "none",
+      confidence: "high",
+      reasoning:
+        'Says "which you submitted" and asks the recipient to submit a revised manuscript, so it is a decision on their own paper.',
+      title:
+        "Outcomes of Arthroscopic Repair in Massive Rotator Cuff Tears: A Meta-Analysis",
+      journal: "Journal of Orthopaedic Research",
+      manuscript_number: "JOR-2026-0388",
+      event_type: "revision_requested",
+      revision_round: 1,
+      doi: null,
+      publication_link: null,
+      summary:
+        "Reviewers recommended major revision; a revised manuscript is due within 60 days.",
+    },
+  },
+  {
+    email: `Subject: Invitation to submit your esteemed research
+From: Global Journal of Medical Sciences <editor@gjms-publications.org>
+
+Dear Esteemed Dr. Muthu,
+
+Greetings of the day! Having read your reputed article on rotator cuff repair, we are highly impressed by your esteemed profile. We cordially invite you to contribute any type of article to our upcoming issue. Nominal processing charges apply. Rapid publication within 72 hours guaranteed.`,
+    answer: {
+      relevant: false,
+      exclude_reason: "predatory_solicitation",
+      confidence: "high",
+      reasoning:
+        'Unsolicited cold-call flattery ("esteemed profile") with guaranteed 72-hour publication and processing charges, for no existing submission.',
+      title: null,
+      journal: null,
+      manuscript_number: null,
+      event_type: "other",
+      revision_round: null,
+      doi: null,
+      publication_link: null,
+      summary: "A predatory journal solicited a submission.",
+    },
+  },
+];
+
+function buildUserPrompt({ subject, from, date, text }) {
+  return `Subject: ${subject}\nFrom: ${from}\nDate: ${date}\n\n${text}`.slice(0, 10000);
 }
 
-const TOOL = {
-  name: "extract_manuscript_event",
-  description: "Record the triage classification and, if relevant, the manuscript event details.",
-  input_schema: {
-    type: "object",
-    properties: {
-      relevant: { type: "boolean" },
-      exclude_reason: {
-        type: "string",
-        enum: [
-          "predatory_solicitation",
-          "peer_review_invitation_for_other_manuscript",
-          "newsletter_or_cfp",
-          "unrelated",
-          "none",
-        ],
-      },
-      title: { type: "string" },
-      journal: { type: "string" },
-      manuscript_number: { type: "string" },
-      event_type: {
-        type: "string",
-        enum: [
-          "new_submission",
-          "under_review",
-          "revision_requested",
-          "sent_back",
-          "accepted",
-          "rejected",
-          "published",
-          "transferred",
-          "other",
-        ],
-      },
-      revision_round: { type: ["integer", "null"] },
-      doi: { type: ["string", "null"] },
-      publication_link: { type: ["string", "null"] },
-      summary: { type: "string" },
-    },
-    required: ["relevant", "exclude_reason", "event_type", "summary"],
-  },
-};
+/** Few-shot pairs are folded into the system prompt so every provider gets them. */
+function buildSystemPrompt() {
+  const examples = FEW_SHOT.map(
+    (ex, i) =>
+      `### Example ${i + 1}\n\n${ex.email}\n\nCorrect output:\n${JSON.stringify(
+        ex.answer,
+        null,
+        2
+      )}`
+  ).join("\n\n");
 
-export async function classifyEmail({ subject, from, date, text }) {
-  const userContent = `Subject: ${subject}\nFrom: ${from}\nDate: ${date}\n\n${text}`.slice(
-    0,
-    10000
-  );
+  return `${SYSTEM_PROMPT}\n\n---\n\nWORKED EXAMPLES\n\n${examples}`;
+}
 
-  const response = await getClient().messages.create({
-    model: MODEL,
-    max_tokens: 1024,
-    system: SYSTEM_PROMPT,
-    tools: [TOOL],
-    tool_choice: { type: "tool", name: "extract_manuscript_event" },
-    messages: [{ role: "user", content: userContent }],
-  });
+const SYSTEM = buildSystemPrompt();
 
-  const toolUse = response.content.find((c) => c.type === "tool_use");
-  if (!toolUse) {
-    return { relevant: false, exclude_reason: "unrelated", event_type: "other", summary: "" };
+let cachedChain;
+function getChain() {
+  if (!cachedChain) {
+    cachedChain = buildProviderChain();
+    if (!cachedChain.length) {
+      throw new Error(
+        "No classifier API key found. Set at least one of GEMINI_API_KEY, CEREBRAS_API_KEY, GROQ_API_KEY."
+      );
+    }
   }
-  return toolUse.input;
+  return cachedChain;
+}
+
+/** Prefer the primary's value, but let the cross-check fill in what it missed. */
+function mergeExtraction(primary, secondary) {
+  const merged = { ...primary };
+  for (const field of [
+    "title",
+    "journal",
+    "manuscript_number",
+    "revision_round",
+    "doi",
+    "publication_link",
+  ]) {
+    if (merged[field] === null && secondary[field] !== null) {
+      merged[field] = secondary[field];
+    }
+  }
+  return merged;
+}
+
+/**
+ * Classify one email.
+ *
+ * Two passes, both on free models. The first pass answers; anything it calls
+ * relevant, or answers with less than high confidence, is re-run on a DIFFERENT
+ * model. Agreement is filed. Disagreement is never guessed at — it comes back
+ * with needsReview set so the email surfaces for a human instead of silently
+ * entering or missing the dashboard.
+ */
+export async function classifyEmail({ subject, from, date, text }) {
+  const chain = getChain();
+  const user = buildUserPrompt({ subject, from, date, text });
+
+  const first = await completeWithChain(chain, { system: SYSTEM, user });
+  const primary = normalizeResult(first.raw);
+  if (!primary) {
+    throw new Error(`${first.providerId} returned an unusable object`);
+  }
+
+  const meta = {
+    primaryProvider: first.providerId,
+    primaryModel: first.model,
+    primaryConfidence: primary.confidence,
+    verifiedBy: null,
+    agreement: null,
+  };
+
+  // Verify the consequential answers: anything that would create a dashboard
+  // entry, and anything the model itself was unsure about.
+  const needsVerification = primary.relevant || primary.confidence !== "high";
+  if (!needsVerification) {
+    return { ...primary, needsReview: false, reviewReason: null, meta };
+  }
+
+  let second;
+  try {
+    second = await completeWithChain(chain, {
+      system: SYSTEM,
+      user,
+      skipIds: [first.providerId],
+    });
+  } catch (err) {
+    // Only one provider configured, or the rest are down. Trust a high-confidence
+    // answer; flag anything shakier rather than filing it unchecked.
+    meta.verificationError = err.message;
+    return {
+      ...primary,
+      needsReview: primary.confidence !== "high",
+      reviewReason:
+        primary.confidence !== "high"
+          ? `unverified ${primary.confidence}-confidence call (no second model available)`
+          : null,
+      meta,
+    };
+  }
+
+  const check = normalizeResult(second.raw);
+  meta.verifiedBy = second.providerId;
+  meta.verifiedModel = second.model;
+
+  if (!check) {
+    meta.agreement = "unusable_verification";
+    return {
+      ...primary,
+      needsReview: true,
+      reviewReason: `cross-check by ${second.providerId} returned an unusable object`,
+      meta,
+    };
+  }
+
+  // Disagreement on relevance is the expensive one: filing junk, or losing a
+  // paper. Never resolve it by picking a side.
+  if (check.relevant !== primary.relevant) {
+    meta.agreement = "relevance_conflict";
+    return {
+      ...primary,
+      needsReview: true,
+      reviewReason: `${first.providerId} said relevant=${primary.relevant}, ${second.providerId} said relevant=${check.relevant}`,
+      meta,
+    };
+  }
+
+  if (!primary.relevant) {
+    meta.agreement = "agreed_excluded";
+    return { ...primary, needsReview: false, reviewReason: null, meta };
+  }
+
+  const merged = mergeExtraction(primary, check);
+
+  // Both agree it is the author's own manuscript but disagree on what happened.
+  // File it — losing the paper would be worse — but flag the bucket as unsure.
+  if (check.event_type !== primary.event_type) {
+    meta.agreement = "event_type_conflict";
+    return {
+      ...merged,
+      needsReview: true,
+      reviewReason: `event type disputed: ${first.providerId} said ${primary.event_type}, ${second.providerId} said ${check.event_type}`,
+      meta,
+    };
+  }
+
+  meta.agreement = "agreed";
+  return { ...merged, needsReview: false, reviewReason: null, meta };
 }

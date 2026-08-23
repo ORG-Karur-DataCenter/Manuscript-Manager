@@ -31,14 +31,18 @@ jobs:
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_REFRESH_TOKEN_SATHISH: ${{ secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
           GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Any one of these is enough; supplying more than one gives the
+          # classifier a second opinion and a fallback when a free tier is capped.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: npm run sync
 
       - name: Commit updated data
         run: |
           git config user.name "manuscript-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/manuscripts.json data/sync-state.json data/excluded-log.json
+          git add data/manuscripts.json data/sync-state.json data/excluded-log.json data/review-queue.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

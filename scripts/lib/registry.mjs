@@ -119,7 +119,7 @@ function bucketForEvent(eventType) {
 /**
  * Applies one classified email event to the registry in place.
  * event: { title, journal, manuscriptNumber, eventType, revisionRound, doi,
- *          publicationLink, summary, timestamp, authorAccount, source }
+ *          publicationLink, summary, timestamp, authorAccount, source, needsReview }
  */
 export function applyEvent(registry, event) {
   let manuscript =
@@ -134,6 +134,7 @@ export function applyEvent(registry, event) {
       title: event.title,
       titleNormalized: normalizeTitle(event.title),
       bucket: "submissions",
+      needsReview: false,
       needsActionReason: null,
       actionFlag: false,
       actionLabel: null,
@@ -203,7 +204,12 @@ export function applyEvent(registry, event) {
     revisionRound: event.revisionRound || null,
     note: event.summary || "",
     source: event.source,
+    needsReview: event.needsReview || false,
   });
+
+  // Sticky: once the two classifiers disagreed about this manuscript, it stays
+  // flagged until a human clears it, even if later events land cleanly.
+  if (event.needsReview) manuscript.needsReview = true;
   manuscript.timeline.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
 
   // Title may be reformatted slightly journal to journal — keep the longest/most complete version.

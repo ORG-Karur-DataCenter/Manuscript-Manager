@@ -12,9 +12,9 @@ review* someone else's paper, newsletters, and calls for papers.
 
 - **Frontend:** a static dashboard (`index.html` + `assets/`), served by GitHub Pages.
 - **Backend:** a Node script (`scripts/sync-gmail.mjs`) run by GitHub Actions on a
-  schedule. It reads Gmail over the API, classifies each email with the Claude API,
-  updates a JSON registry (`data/manuscripts.json`), and commits the result. The
-  dashboard just reads that JSON.
+  schedule. It reads Gmail over the API, classifies each email with a **free-tier
+  LLM** (no paid API, no card), updates a JSON registry (`data/manuscripts.json`),
+  and commits the result. The dashboard just reads that JSON.
 
 There is no server and no database — the git repo *is* the database.
 
@@ -29,8 +29,11 @@ Gmail inbox(es)
 keyword prefilter  ──► obvious non-candidates dropped (no AI cost)
    │
    ▼
-Claude classifier  ──► relevant?  ──no──► logged in data/excluded-log.json with a reason
+free-tier LLM      ──► relevant?  ──no──► logged in data/excluded-log.json with a reason
    │ yes                                   (predatory / review-invite / newsletter / unrelated)
+   ▼
+second model       ──► do the two agree?  ──no──► data/review-queue.json (never guessed)
+cross-checks it    │ yes
    ▼
 extract { title, journal, manuscript no., event_type, revision round, DOI, link }
    │
@@ -71,8 +74,14 @@ disconnected entries.
 1. Go to <https://console.cloud.google.com/> and create a project (any name).
 2. **APIs & Services → Library →** enable the **Gmail API**.
 3. **APIs & Services → OAuth consent screen:** choose **External**, fill the
-   required fields. Add every Gmail address you'll track as a **Test user** (this
-   lets the app work without Google verification). You can leave it in "Testing".
+   required fields. Add every Gmail address you'll track as a **Test user**.
+
+   **Then publish it: click "Publish app" so the status reads "In production".**
+   Google expires refresh tokens after **7 days** for apps left in "Testing", which
+   would break the sync every week with an `invalid_grant` error. Publishing stops
+   that. You will see an "unverified app" warning once, during the authorisation in
+   step 2 — click through it (Advanced → Go to *app name*). No Google review is
+   needed for personal use.
 4. **APIs & Services → Credentials → Create credentials → OAuth client ID →
    Application type: Desktop app.** Note the **Client ID** and **Client secret**.
 
@@ -99,7 +108,13 @@ In the repo: **Settings → Secrets and variables → Actions → New repository
 | `GMAIL_CLIENT_SECRET` | OAuth client secret from step 1 |
 | `GMAIL_REFRESH_TOKEN_SATHISH` | refresh token for drsathishmuthu@gmail.com |
 | `GMAIL_REFRESH_TOKEN_DHIBIN` | refresh token for dhibinvikash1@gmail.com |
-| `ANTHROPIC_API_KEY` | a key from <https://console.anthropic.com/> |
+| **at least one** classifier key below | see [The classifier](#the-classifier) |
+
+| Classifier secret | Where to get it (all free, no card) |
+| --- | --- |
+| `GEMINI_API_KEY` | <https://aistudio.google.com/apikey> |
+| `CEREBRAS_API_KEY` | <https://cloud.cerebras.ai/> |
+| `GROQ_API_KEY` | <https://console.groq.com/keys> |
 
 Also enable Actions write access: **Settings → Actions → General → Workflow
 permissions → Read and write permissions.**
@@ -138,8 +153,56 @@ cp data/manuscripts.sample.json data/manuscripts.json   # preview only — don't
 python3 -m http.server 8099           # open http://localhost:8099
 ```
 
+## The classifier
+
+The engine costs nothing. It runs on permanently free API tiers, and it is built so
+that being free never means being less accurate.
+
+**Two models, not one.** The first model classifies the email. Anything it calls
+relevant — anything that would create a dashboard entry — plus anything it answers
+with less than high confidence is then re-run on a **different** model. If the two
+agree, the entry is filed. If they disagree, the email is written to
+`data/review-queue.json` with both verdicts rather than being guessed at. A paper is
+never silently lost, and junk never silently appears.
+
+**Worked examples, not keyword rules.** The hardest call in this inbox is telling a
+peer-review invitation for someone else's paper apart from a decision on your own —
+both quote a manuscript number, a title and an abstract. `scripts/lib/classify.mjs`
+teaches that distinction with worked examples of each, which is what actually moves a
+smaller model's accuracy.
+
+**Provider chain.** Configure one key or all three. They are tried in order and a
+rate-limited or failing provider falls through to the next:
+
+| Order | Provider | Free tier | Trains on your email? |
+| --- | --- | --- | --- |
+| 1 | `gemini-3.7-flash` | ~1,000 req/day (Flash-Lite tier); 1M context | **Yes** — Google may use free-tier content to improve its products |
+| 2 | `gemini-2.5-flash` | ~250 req/day | **Yes**, as above |
+| 3 | Cerebras `gpt-oss-120b` | ~1M tokens/day | Check current policy |
+| 4 | Groq `kimi-k2-instruct` | ~1,000 req/day, ~6K tokens/min | **No** — stated no-training policy |
+
+Free-tier quotas move; treat the numbers as a starting point. Override any model with
+`GEMINI_MODEL`, `GEMINI_FALLBACK_MODEL`, `CEREBRAS_MODEL`, `GROQ_MODEL`.
+
+> **Privacy:** whichever provider you choose sees the full text of the journal
+> correspondence in both inboxes. On Google's free tier that content may be used to
+> improve their models. If that matters, set only `GROQ_API_KEY` and
+> `CEREBRAS_API_KEY` and leave `GEMINI_API_KEY` unset — the chain works fine with a
+> subset. Since a second person's mail is in scope, this is their decision too.
+
+### Staying inside a free quota
+
+Each run classifies at most `MAX_CLASSIFICATIONS_PER_RUN` emails (default 100).
+Anything left over is **deferred, not dropped**: its Gmail ID stays out of the seen
+list and the sync window is held back to it, so the next run picks it up. The same
+holds for an email whose classification failed on a rate limit. A 30-day first
+backfill therefore spreads itself across several runs instead of blowing a daily
+quota in one go.
+
 ## Tuning classification
 
-The triage rules and the extraction schema live in `scripts/lib/classify.mjs`. The
-prefilter keywords are in `scripts/sync-gmail.mjs`. The fuzzy-title match threshold
-and bucket rules are in `scripts/lib/registry.mjs`.
+The triage prompt, worked examples and cross-check policy live in
+`scripts/lib/classify.mjs`. The output schema is in `scripts/lib/schema.mjs` and the
+provider adapters in `scripts/lib/providers.mjs`. The prefilter keywords are in
+`scripts/sync-gmail.mjs`. The fuzzy-title match threshold and bucket rules are in
+`scripts/lib/registry.mjs`.
