@@ -34,6 +34,12 @@ const handoverEmails = args
   .map((a, i) => (a === "--handover" ? args[i + 1] : null))
   .filter(Boolean);
 
+// Importing a historical window must not touch the forward sync window: those
+// emails are older than where the sync already is, and moving lastSyncedAt back
+// would make the next run re-fetch mail it has long since settled. Seen ids are
+// still recorded, since those decisions are final either way.
+const seenOnly = args.includes("--seen-only");
+
 if (!file) {
   console.error("Usage: node scripts/apply-import.mjs <classified.json> [--overlap-days 3]");
   process.exit(1);
@@ -153,8 +159,10 @@ const importedIds = (
 for (const account of targets) {
   state.accounts[account.email] ||= { lastSyncedAt: null, seenIds: [] };
   const acct = state.accounts[account.email];
-  acct.lastSyncedAt = handover;
-  acct.importedAt = new Date().toISOString();
+  if (!seenOnly) {
+    acct.lastSyncedAt = handover;
+    acct.importedAt = new Date().toISOString();
+  }
   acct.seenIds = Array.from(new Set([...(acct.seenIds || []), ...importedIds]));
 }
 const untouched = accounts.filter((a) => !targets.includes(a));
@@ -176,8 +184,14 @@ console.log(`Imported ${classified.length} classification(s):
   skipped      ${skipped} (relevant but missing title/journal)
 
 Registry now holds ${db.manuscripts.length} manuscript(s).
-Handed over: ${targets.map((a) => a.email).join(", ") || "(none)"}
-  window set to ${handover} (${OVERLAP_DAYS}-day overlap) — only NEW mail from here.
+${
+  seenOnly
+    ? `Historical import: sync window left untouched for ${targets
+        .map((a) => a.email)
+        .join(", ")}; ${importedIds.length} message id(s) recorded as seen.`
+    : `Handed over: ${targets.map((a) => a.email).join(", ") || "(none)"}
+  window set to ${handover} (${OVERLAP_DAYS}-day overlap) — only NEW mail from here.`
+}
 ${
   untouched.length
     ? `Still to backfill: ${untouched

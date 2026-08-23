@@ -227,23 +227,43 @@ export function applyEvent(registry, event) {
     manuscript.titleNormalized = normalizeTitle(event.title);
   }
 
-  const derived = bucketForEvent(event.eventType);
-  if (derived) {
-    manuscript.bucket = derived.bucket;
-    manuscript.needsActionReason = derived.needsActionReason;
-  }
-  manuscript.actionFlag = event.eventType === "revision_requested";
-  manuscript.actionLabel =
-    event.eventType === "revision_requested"
-      ? `Revision ${event.revisionRound || ""} requested`.trim()
-      : null;
+  // Submissions read as a chain, so keep them in the order they were made
+  // rather than the order the emails happened to be processed.
+  manuscript.submissions.sort(
+    (a, b) => new Date(a.submittedDate) - new Date(b.submittedDate)
+  );
 
-  manuscript.currentJournal = submission.journal;
-  manuscript.currentManuscriptNumber = submission.manuscriptNumber;
-  manuscript.currentStatus = STATUS_LABELS[event.eventType] || event.eventType;
+  // Where the manuscript stands *today* may only be set by its newest event.
+  // Events do arrive out of order — a historical backfill, an email deferred by
+  // a rate limit, a forwarded copy carrying the original date — and letting a
+  // stale one write current status is how a rejected paper ends up filed as
+  // "in review". Older events still join the timeline; they just don't get to
+  // speak for the present. The timeline is sorted, so the last entry is newest.
+  const newest = manuscript.timeline[manuscript.timeline.length - 1];
+  const isNewest = new Date(now).getTime() >= new Date(newest.timestamp).getTime();
+
+  if (isNewest) {
+    const derived = bucketForEvent(event.eventType);
+    if (derived) {
+      manuscript.bucket = derived.bucket;
+      manuscript.needsActionReason = derived.needsActionReason;
+    }
+    manuscript.actionFlag = event.eventType === "revision_requested";
+    manuscript.actionLabel =
+      event.eventType === "revision_requested"
+        ? `Revision ${event.revisionRound || ""} requested`.trim()
+        : null;
+
+    manuscript.currentJournal = submission.journal;
+    manuscript.currentManuscriptNumber = submission.manuscriptNumber;
+    manuscript.currentStatus = STATUS_LABELS[event.eventType] || event.eventType;
+  }
+
+  // A DOI or article link is a fact about the manuscript, not a status, so it
+  // is worth keeping whenever it turns up.
   if (event.doi) manuscript.doi = event.doi;
   if (event.publicationLink) manuscript.publicationLink = event.publicationLink;
-  manuscript.updatedAt = now;
+  manuscript.updatedAt = newest.timestamp;
 
   return manuscript;
 }

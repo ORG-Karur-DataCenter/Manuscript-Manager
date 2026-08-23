@@ -1,156 +1,6 @@
 {
-  "generatedAt": "2026-08-23T09:33:52.190Z",
+  "generatedAt": "2026-08-23T12:50:23.421Z",
   "manuscripts": [
-    {
-      "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",
-      "title": "Air-Normalised Vertebral Bone Quality (C-VBQair) Score: A Reproducible, Quantitative Imaging Biomarker for Opportunistic Osteoporosis Screening on Cervical Spine MRI",
-      "titleNormalized": "air normalised vertebral bone quality c vbqair score a reproducible quantitative imaging biomarker for opportunistic osteoporosis screening on cervical spine mri",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Meta-Radiology",
-      "currentManuscriptNumber": "METRAD-D-26-00215",
-      "currentStatus": "Update",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy",
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Meta-Radiology",
-          "manuscriptNumber": "METRAD-D-26-00215",
-          "submittedDate": "2026-08-20T13:06:29.000Z",
-          "outcome": "active",
-          "status": "other",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-20T13:06:29.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a01f47bc9dacb9b",
-                "messageId": "1a01f47bc9dacb9b",
-                "subject": "PDF for submission to Meta-Radiology requires approval",
-                "from": "em@editorialmanager.com",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-08-23T09:00:29.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "You have been listed as a co‑author on a newly submitted manuscript and are asked to confirm your co‑authorship.",
-              "manuscriptNumber": "METRAD-D-26-00215",
-              "source": {
-                "threadId": "1a02dd999917ffc9",
-                "messageId": "1a02dd999917ffc9",
-                "subject": "Confirm co-authorship of submission to Meta-Radiology",
-                "from": "Meta-Radiology <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-23T09:00:29.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The journal confirmed receipt of the submitted manuscript and provided the manuscript number.",
-              "manuscriptNumber": "METRAD-D-26-00215",
-              "source": {
-                "threadId": "1a02dd999342dc9d",
-                "messageId": "1a02dd999342dc9d",
-                "subject": "METRAD-D-26-00215 - Confirming your submission to Meta-Radiology",
-                "from": "Meta-Radiology <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-23T08:56:34.000Z",
-              "eventType": "other",
-              "revisionRound": null,
-              "note": "The author is requested to approve the PDF of their manuscript before final publication.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a02dd6000e5c815",
-                "messageId": "1a02dd6000e5c815",
-                "subject": "PDF for submission to Meta-Radiology requires approval",
-                "from": "Meta-Radiology <em@editorialmanager.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-20T13:06:29.000Z",
-          "journal": "Meta-Radiology",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
-          "source": {
-            "threadId": "1a01f47bc9dacb9b",
-            "messageId": "1a01f47bc9dacb9b",
-            "subject": "PDF for submission to Meta-Radiology requires approval",
-            "from": "em@editorialmanager.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-23T08:56:34.000Z",
-          "journal": "Meta-Radiology",
-          "eventType": "other",
-          "label": "Update",
-          "revisionRound": null,
-          "note": "The author is requested to approve the PDF of their manuscript before final publication.",
-          "source": {
-            "threadId": "1a02dd6000e5c815",
-            "messageId": "1a02dd6000e5c815",
-            "subject": "PDF for submission to Meta-Radiology requires approval",
-            "from": "Meta-Radiology <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-23T09:00:29.000Z",
-          "journal": "Meta-Radiology",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "You have been listed as a co‑author on a newly submitted manuscript and are asked to confirm your co‑authorship.",
-          "source": {
-            "threadId": "1a02dd999917ffc9",
-            "messageId": "1a02dd999917ffc9",
-            "subject": "Confirm co-authorship of submission to Meta-Radiology",
-            "from": "Meta-Radiology <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-23T09:00:29.000Z",
-          "journal": "Meta-Radiology",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "The journal confirmed receipt of the submitted manuscript and provided the manuscript number.",
-          "source": {
-            "threadId": "1a02dd999342dc9d",
-            "messageId": "1a02dd999342dc9d",
-            "subject": "METRAD-D-26-00215 - Confirming your submission to Meta-Radiology",
-            "from": "Meta-Radiology <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-20T13:06:29.000Z",
-      "updatedAt": "2026-08-23T08:56:34.000Z"
-    },
     {
       "id": "how-safe-are-s2-alar-iliac-screws-a-systematic-review-and-meta-analysi",
       "title": "How Safe Are S2 Alar-Iliac Screws? A Systematic Review and Meta-analysis of Cortical Breach, Prevention Strategies, and a Proposed Unified Breach Classification",
@@ -451,9 +301,35 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-25-2098.R2",
+          "submittedDate": "2026-04-15T20:28:00.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-15T20:28:00.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 3,
+              "note": "Major revision requested on the second revision; the deputy editor asked for fusion-assessment criteria and construct-nomenclature changes.",
+              "manuscriptNumber": "GSJ-25-2098.R2",
+              "source": {
+                "threadId": "19d96271b88e40ae",
+                "messageId": "19d96271b88e40ae",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2098.R2",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "Archives of Orthopaedic and Trauma Surgery",
           "manuscriptNumber": null,
@@ -481,6 +357,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-15T20:28:00.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 3,
+          "note": "Major revision requested on the second revision; the deputy editor asked for fusion-assessment criteria and construct-nomenclature changes.",
+          "source": {
+            "threadId": "19d96271b88e40ae",
+            "messageId": "19d96271b88e40ae",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2098.R2",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-21T04:43:35.000Z",
           "journal": "Archives of Orthopaedic and Trauma Surgery",
@@ -714,6 +606,71 @@
       "updatedAt": "2026-08-21T01:09:21.000Z"
     },
     {
+      "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",
+      "title": "Air-Normalised Vertebral Bone Quality (C-VBQair) Score: A Reproducible, Quantitative Imaging Biomarker for Opportunistic Osteoporosis Screening on Cervical Spine MRI",
+      "titleNormalized": "air normalised vertebral bone quality c vbqair score a reproducible quantitative imaging biomarker for opportunistic osteoporosis screening on cervical spine mri",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Meta-Radiology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Meta-Radiology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-20T13:06:29.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-20T13:06:29.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a01f47bc9dacb9b",
+                "messageId": "1a01f47bc9dacb9b",
+                "subject": "PDF for submission to Meta-Radiology requires approval",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-20T13:06:29.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
+          "source": {
+            "threadId": "1a01f47bc9dacb9b",
+            "messageId": "1a01f47bc9dacb9b",
+            "subject": "PDF for submission to Meta-Radiology requires approval",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-20T13:06:29.000Z",
+      "updatedAt": "2026-08-20T13:06:29.000Z"
+    },
+    {
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
       "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
       "titleNormalized": "does anatomy outweigh biology in cervical spine giant cell tumours a systematic review and meta analysis",
@@ -732,6 +689,31 @@
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0171",
+          "submittedDate": "2026-04-15T20:29:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-15T20:29:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected after review; both reviewers were broadly positive but flagged an implausible confidence interval and over-strong claims for the evidence grade.",
+              "manuscriptNumber": "GSJ-26-0171",
+              "source": {
+                "threadId": "19d96250099324a9",
+                "messageId": "19d96250099324a9",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0171",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "Springer Nature",
           "manuscriptNumber": null,
@@ -784,6 +766,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-15T20:29:00.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected after review; both reviewers were broadly positive but flagged an implausible confidence interval and over-strong claims for the evidence grade.",
+          "source": {
+            "threadId": "19d96250099324a9",
+            "messageId": "19d96250099324a9",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0171",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-20T12:38:16.000Z",
           "journal": "Springer Nature",
@@ -1770,7 +1768,7 @@
           "manuscriptNumber": "JOA-D-26-01135R4",
           "submittedDate": "2026-08-17T15:02:38.000Z",
           "outcome": "active",
-          "status": "under_review",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -1787,11 +1785,41 @@
                 "from": "em@editorialmanager.com",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-04-23T17:16:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Original submission to The Journal of Arthroplasty; co-authorship confirmation requested.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dbb57e4592b944",
+                "messageId": "19dbb57e4592b944",
+                "subject": "Confirm co-authorship of submission to The Journal of Arthroplasty",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-23T17:16:32.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Original submission to The Journal of Arthroplasty; co-authorship confirmation requested.",
+          "source": {
+            "threadId": "19dbb57e4592b944",
+            "messageId": "19dbb57e4592b944",
+            "subject": "Confirm co-authorship of submission to The Journal of Arthroplasty",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-17T15:02:38.000Z",
           "journal": "The Journal of Arthroplasty",
@@ -1941,6 +1969,581 @@
       ],
       "createdAt": "2026-07-26T17:41:34.000Z",
       "updatedAt": "2026-07-26T17:41:34.000Z"
+    },
+    {
+      "id": "can-atlantoaxial-stability-be-restored-without-fusion-outcomes-of-temp",
+      "title": "Can Atlantoaxial Stability be Restored Without Fusion? Outcomes of Temporary C1-C2 Fixation with Implant Removal: Systematic Review and Meta-analysis",
+      "titleNormalized": "can atlantoaxial stability be restored without fusion outcomes of temporary c1 c2 fixation with implant removal systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Clinical Spine Surgery",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Update",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Clinical Spine Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-22T10:50:30.000Z",
+          "outcome": "active",
+          "status": "other",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-22T10:50:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Authorship and copyright confirmation requested for a new submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eeef40c0d9f68e",
+                "messageId": "19eeef40c0d9f68e",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-06T17:14:40.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "Repeat authorship and copyright verification request.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f386cc74a76880",
+                "messageId": "19f386cc74a76880",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-22T10:50:30.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Authorship and copyright confirmation requested for a new submission.",
+          "source": {
+            "threadId": "19eeef40c0d9f68e",
+            "messageId": "19eeef40c0d9f68e",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-06T17:14:40.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "other",
+          "label": "Update",
+          "revisionRound": null,
+          "note": "Repeat authorship and copyright verification request.",
+          "source": {
+            "threadId": "19f386cc74a76880",
+            "messageId": "19f386cc74a76880",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-22T10:50:30.000Z",
+      "updatedAt": "2026-07-06T17:14:40.000Z"
+    },
+    {
+      "id": "does-obesity-really-worsen-outcomes-after-cervical-spine-surgery-or-is",
+      "title": "Does Obesity really worsen Outcomes after Cervical Spine Surgery, or is there an Obesity Paradox? A Systematic Review & Meta-analysis",
+      "titleNormalized": "does obesity really worsen outcomes after cervical spine surgery or is there an obesity paradox a systematic review meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Clinical Spine Surgery",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Update",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Clinical Spine Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-21T16:30:33.000Z",
+          "outcome": "active",
+          "status": "other",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-21T16:30:33.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Authorship and copyright confirmation requested for a new submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eeb0500a739ffe",
+                "messageId": "19eeb0500a739ffe",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-06T17:14:34.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "Repeat authorship and copyright verification request.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f386cb1f5996df",
+                "messageId": "19f386cb1f5996df",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-21T16:30:33.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Authorship and copyright confirmation requested for a new submission.",
+          "source": {
+            "threadId": "19eeb0500a739ffe",
+            "messageId": "19eeb0500a739ffe",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-06T17:14:34.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "other",
+          "label": "Update",
+          "revisionRound": null,
+          "note": "Repeat authorship and copyright verification request.",
+          "source": {
+            "threadId": "19f386cb1f5996df",
+            "messageId": "19f386cb1f5996df",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-21T16:30:33.000Z",
+      "updatedAt": "2026-07-06T17:14:34.000Z"
+    },
+    {
+      "id": "proximal-junctional-odontoid-fracture-after-cervical-fusion-a-distinct",
+      "title": "Proximal Junctional Odontoid Fracture After Cervical Fusion: A Distinct Failure Mechanism at the Craniovertebral Junction",
+      "titleNormalized": "proximal junctional odontoid fracture after cervical fusion a distinct failure mechanism at the craniovertebral junction",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Revision requested",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-24T10:42:55.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-24T10:42:55.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Receipt of a co-authored manuscript at European Spine Journal.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ef939ce08cf6a8",
+                "messageId": "19ef939ce08cf6a8",
+                "subject": "European Spine Journal - Receipt of Manuscript 'Proximal Junctional Odontoid...'",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-03T04:50:21.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The corresponding author was asked to revise; co-authors asked to verify author details.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f265044230a459",
+                "messageId": "19f265044230a459",
+                "subject": "European Spine Journal: Decision on 'Proximal Junctional Odontoid Fracture After Cervical Fusion'",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-24T10:42:55.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Receipt of a co-authored manuscript at European Spine Journal.",
+          "source": {
+            "threadId": "19ef939ce08cf6a8",
+            "messageId": "19ef939ce08cf6a8",
+            "subject": "European Spine Journal - Receipt of Manuscript 'Proximal Junctional Odontoid...'",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-03T04:50:21.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "The corresponding author was asked to revise; co-authors asked to verify author details.",
+          "source": {
+            "threadId": "19f265044230a459",
+            "messageId": "19f265044230a459",
+            "subject": "European Spine Journal: Decision on 'Proximal Junctional Odontoid Fracture After Cervical Fusion'",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-24T10:42:55.000Z",
+      "updatedAt": "2026-07-03T04:50:21.000Z"
+    },
+    {
+      "id": "does-substance-use-shape-the-recovery-and-long-term-outcomes-after-spi",
+      "title": "Does Substance Use shape the recovery and long-term outcomes after Spinal Cord Injury (SCI)? A systematic review and meta-analytic exploration of the spectrum of substance use disorder (SUD) in SCI patients",
+      "titleNormalized": "does substance use shape the recovery and long term outcomes after spinal cord injury sci a systematic review and meta analytic exploration of the spectrum of substance use disorder sud in sci patients",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "BMJ Mental Health",
+      "currentManuscriptNumber": "bmjment-2026-302923",
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "BMJ Mental Health",
+          "manuscriptNumber": "bmjment-2026-302923",
+          "submittedDate": "2026-06-12T04:05:36.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-12T04:05:36.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "bmjment-2026-302923",
+              "source": {
+                "threadId": "19eba01c11e9df91",
+                "messageId": "19eba01c11e9df91",
+                "subject": "BMJ Mental Health - Manuscript ID bmjment-2026-302923",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-13T11:50:38.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected by the Editor-in-Chief; an onward transfer to BMJ Connections Mental Health was elected at submission but has not been completed.",
+              "manuscriptNumber": "bmjment-2026-302923",
+              "source": {
+                "threadId": "19ec0d1e18bcd1c9",
+                "messageId": "19ec0d1e18bcd1c9",
+                "subject": "BMJ Mental Health - Decision on Manuscript ID bmjment-2026-302923",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-12T04:05:36.000Z",
+          "journal": "BMJ Mental Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19eba01c11e9df91",
+            "messageId": "19eba01c11e9df91",
+            "subject": "BMJ Mental Health - Manuscript ID bmjment-2026-302923",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-13T11:50:38.000Z",
+          "journal": "BMJ Mental Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected by the Editor-in-Chief; an onward transfer to BMJ Connections Mental Health was elected at submission but has not been completed.",
+          "source": {
+            "threadId": "19ec0d1e18bcd1c9",
+            "messageId": "19ec0d1e18bcd1c9",
+            "subject": "BMJ Mental Health - Decision on Manuscript ID bmjment-2026-302923",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-12T04:05:36.000Z",
+      "updatedAt": "2026-06-13T11:50:38.000Z"
+    },
+    {
+      "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-anterior-cervical-di",
+      "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Anterior Cervical Discectomy and Fusion?",
+      "titleNormalized": "is three level hybrid cervical surgery as safe as anterior cervical discectomy and fusion",
+      "bucket": "submissions",
+      "needsReview": true,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "International Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-03T09:29:19.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-03T09:29:19.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Receipt of a co-authored manuscript at International Orthopaedics.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ded2bbc11ef9d9",
+                "messageId": "19ded2bbc11ef9d9",
+                "subject": "International Orthopaedics - Receipt of Manuscript 'Is Is Three-Level...'",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-03T09:29:19.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Receipt of a co-authored manuscript at International Orthopaedics.",
+          "source": {
+            "threadId": "19ded2bbc11ef9d9",
+            "messageId": "19ded2bbc11ef9d9",
+            "subject": "International Orthopaedics - Receipt of Manuscript 'Is Is Three-Level...'",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": true
+        }
+      ],
+      "createdAt": "2026-05-03T09:29:19.000Z",
+      "updatedAt": "2026-05-03T09:29:19.000Z"
+    },
+    {
+      "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
+      "title": "Should spinal Ewing's sarcoma be managed differently from extremity disease? A systematic review of outcomes and treatment limitations",
+      "titleNormalized": "should spinal ewing s sarcoma be managed differently from extremity disease a systematic review of outcomes and treatment limitations",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0701",
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0701",
+          "submittedDate": "2026-04-15T21:54:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-15T21:54:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
+              "manuscriptNumber": "GSJ-26-0701",
+              "source": {
+                "threadId": "19d96259c79fc21d",
+                "messageId": "19d96259c79fc21d",
+                "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-15T21:54:00.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
+          "source": {
+            "threadId": "19d96259c79fc21d",
+            "messageId": "19d96259c79fc21d",
+            "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-15T21:54:00.000Z",
+      "updatedAt": "2026-04-15T21:54:00.000Z"
+    },
+    {
+      "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
+      "title": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews",
+      "titleNormalized": "a locally executed agentic ai framework for deduplication screening and structured data extraction in spine surgery systematic reviews",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "MedComm",
+      "currentManuscriptNumber": "MCO2-2026-6988",
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "MedComm",
+          "manuscriptNumber": "MCO2-2026-6988",
+          "submittedDate": "2026-03-12T11:59:46.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-12T11:59:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submitted to MedComm with Sathish Muthu as corresponding author.",
+              "manuscriptNumber": "MCO2-2026-6988",
+              "source": {
+                "threadId": "19ce1eacdec5d283",
+                "messageId": "19ce1eacdec5d283",
+                "subject": "MedComm - Manuscript ID MCO2-2026-6988",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-12T11:59:46.000Z",
+          "journal": "MedComm",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submitted to MedComm with Sathish Muthu as corresponding author.",
+          "source": {
+            "threadId": "19ce1eacdec5d283",
+            "messageId": "19ce1eacdec5d283",
+            "subject": "MedComm - Manuscript ID MCO2-2026-6988",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-12T11:59:46.000Z",
+      "updatedAt": "2026-03-12T11:59:46.000Z"
     }
   ]
 }
