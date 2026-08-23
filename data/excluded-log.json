@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-21T17:17:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Navigating Cancer Screening – Without the USPSTF",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-21T23:55:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "This week in Claude Code: /design, Concise output style, and more",
+      "from": "Lydia from Claude Code <no-reply@email.claude.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-22T02:24:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI: Brazil launches AI supercomputer push, splits projects between Chinese, US firms",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T09:27:22.000Z",
+      "reason": "unrelated",
+      "subject": "[drsathishmuthu/Manuscript-Manager] Run failed: Sync manuscript tracker - claude/manuscript-tracking-app-jhj4p7 (f085f3f)",
+      "from": "Sathish Muthu <notifications@github.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T12:39:39.000Z",
+      "reason": "unrelated",
+      "subject": "[drsathishmuthu/Manuscript-Manager] Run failed: Sync manuscript tracker - claude/manuscript-tracking-app-jhj4p7 (f085f3f)",
+      "from": "Sathish Muthu <notifications@github.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T13:21:05.000Z",
+      "reason": "unrelated",
+      "subject": "Not selected [2/3]: Your application for ICMR-NIE and DME&R led Tamil Nadu State-level OR Course (2026-27)",
+      "from": "Hemant Deepak Shewade <hemant@nie.gov.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T15:22:32.000Z",
+      "reason": "unrelated",
+      "subject": "[drsathishmuthu/Manuscript-Manager] Run failed: Sync manuscript tracker - claude/manuscript-tracking-app-jhj4p7 (f085f3f)",
+      "from": "Sathish Muthu <notifications@github.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-23T07:05:23.000Z",
       "reason": "unrelated",
       "subject": "Reminder: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
@@ -2049,55 +2098,6 @@
       "reason": "unrelated",
       "subject": "Fwd: Manuscript jech-2026-227223 - returned to Author Centre",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-08-18T11:14:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Sathish, you were recently cited by an author from Southern Medical University",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-08-18T10:02:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-08-18T09:31:28.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "AO | Clinical research",
-      "from": "AboutOpen <mailings@aboutscience.eu>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-08-18T09:29:31.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Re: We would love to feature your research",
-      "from": "The Science <hello@thesciencematters.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-08-18T09:04:12.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Introducing UTTHAN 2.0 - Exploring Research Ethics? Register for our upcoming session!",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-08-18T07:14:27.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 World Journal of Radiology decline letter for the submitted manuscript title",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-08-18T07:02:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
       "account": "Sathish Muthu"
     }
   ]
