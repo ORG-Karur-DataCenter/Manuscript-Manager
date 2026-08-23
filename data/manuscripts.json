@@ -1,6 +1,156 @@
 {
-  "generatedAt": "2026-08-23T09:03:14.175Z",
+  "generatedAt": "2026-08-23T09:15:29.890Z",
   "manuscripts": [
+    {
+      "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",
+      "title": "Air-Normalised Vertebral Bone Quality (C-VBQair) Score: A Reproducible, Quantitative Imaging Biomarker for Opportunistic Osteoporosis Screening on Cervical Spine MRI",
+      "titleNormalized": "air normalised vertebral bone quality c vbqair score a reproducible quantitative imaging biomarker for opportunistic osteoporosis screening on cervical spine mri",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Meta-Radiology",
+      "currentManuscriptNumber": "METRAD-D-26-00215",
+      "currentStatus": "Update",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Meta-Radiology",
+          "manuscriptNumber": "METRAD-D-26-00215",
+          "submittedDate": "2026-08-20T13:06:29.000Z",
+          "outcome": "active",
+          "status": "other",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-20T13:06:29.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a01f47bc9dacb9b",
+                "messageId": "1a01f47bc9dacb9b",
+                "subject": "PDF for submission to Meta-Radiology requires approval",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-23T09:00:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "You have been listed as a co‑author on a newly submitted manuscript and are asked to confirm your co‑authorship.",
+              "manuscriptNumber": "METRAD-D-26-00215",
+              "source": {
+                "threadId": "1a02dd999917ffc9",
+                "messageId": "1a02dd999917ffc9",
+                "subject": "Confirm co-authorship of submission to Meta-Radiology",
+                "from": "Meta-Radiology <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-23T09:00:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript and provided the manuscript number.",
+              "manuscriptNumber": "METRAD-D-26-00215",
+              "source": {
+                "threadId": "1a02dd999342dc9d",
+                "messageId": "1a02dd999342dc9d",
+                "subject": "METRAD-D-26-00215 - Confirming your submission to Meta-Radiology",
+                "from": "Meta-Radiology <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-23T08:56:34.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The author is requested to approve the PDF of their manuscript before final publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a02dd6000e5c815",
+                "messageId": "1a02dd6000e5c815",
+                "subject": "PDF for submission to Meta-Radiology requires approval",
+                "from": "Meta-Radiology <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-20T13:06:29.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
+          "source": {
+            "threadId": "1a01f47bc9dacb9b",
+            "messageId": "1a01f47bc9dacb9b",
+            "subject": "PDF for submission to Meta-Radiology requires approval",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-23T08:56:34.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "other",
+          "label": "Update",
+          "revisionRound": null,
+          "note": "The author is requested to approve the PDF of their manuscript before final publication.",
+          "source": {
+            "threadId": "1a02dd6000e5c815",
+            "messageId": "1a02dd6000e5c815",
+            "subject": "PDF for submission to Meta-Radiology requires approval",
+            "from": "Meta-Radiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-23T09:00:29.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "You have been listed as a co‑author on a newly submitted manuscript and are asked to confirm your co‑authorship.",
+          "source": {
+            "threadId": "1a02dd999917ffc9",
+            "messageId": "1a02dd999917ffc9",
+            "subject": "Confirm co-authorship of submission to Meta-Radiology",
+            "from": "Meta-Radiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-23T09:00:29.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The journal confirmed receipt of the submitted manuscript and provided the manuscript number.",
+          "source": {
+            "threadId": "1a02dd999342dc9d",
+            "messageId": "1a02dd999342dc9d",
+            "subject": "METRAD-D-26-00215 - Confirming your submission to Meta-Radiology",
+            "from": "Meta-Radiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-20T13:06:29.000Z",
+      "updatedAt": "2026-08-23T08:56:34.000Z"
+    },
     {
       "id": "how-safe-are-s2-alar-iliac-screws-a-systematic-review-and-meta-analysi",
       "title": "How Safe Are S2 Alar-Iliac Screws? A Systematic Review and Meta-analysis of Cortical Breach, Prevention Strategies, and a Proposed Unified Breach Classification",
@@ -562,71 +712,6 @@
       ],
       "createdAt": "2026-08-19T13:56:10.000Z",
       "updatedAt": "2026-08-21T01:09:21.000Z"
-    },
-    {
-      "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",
-      "title": "Air-Normalised Vertebral Bone Quality (C-VBQair) Score: A Reproducible, Quantitative Imaging Biomarker for Opportunistic Osteoporosis Screening on Cervical Spine MRI",
-      "titleNormalized": "air normalised vertebral bone quality c vbqair score a reproducible quantitative imaging biomarker for opportunistic osteoporosis screening on cervical spine mri",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Meta-Radiology",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Sent back for edits",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "Meta-Radiology",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-08-20T13:06:29.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-20T13:06:29.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a01f47bc9dacb9b",
-                "messageId": "1a01f47bc9dacb9b",
-                "subject": "PDF for submission to Meta-Radiology requires approval",
-                "from": "em@editorialmanager.com",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-20T13:06:29.000Z",
-          "journal": "Meta-Radiology",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "The built PDF is waiting for the author to approve it in Editorial Manager; the submission does not proceed until approved.",
-          "source": {
-            "threadId": "1a01f47bc9dacb9b",
-            "messageId": "1a01f47bc9dacb9b",
-            "subject": "PDF for submission to Meta-Radiology requires approval",
-            "from": "em@editorialmanager.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-20T13:06:29.000Z",
-      "updatedAt": "2026-08-20T13:06:29.000Z"
     },
     {
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",

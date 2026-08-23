@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-19T00:08:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Has Point-of-Care Ultrasound Become the Stethoscope?",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-21T17:17:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Navigating Cancer Screening – Without the USPSTF",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-22T02:24:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI: Brazil launches AI supercomputer push, splits projects between Chinese, US firms",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
       "timestamp": "2026-07-23T08:31:04.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Your personal space to enhance your Springer Nature author experience",
@@ -2078,27 +2099,6 @@
       "subject": "Your personal eBook: Platelet Rich Plasma in Veterinary Regenerative Medicine",
       "from": "alerts@springernature.com",
       "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-07-23T14:38:15.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Google boosts capex again on AI push",
-      "from": "newsletter@economictimesnews.com",
-      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
-    },
-    {
-      "timestamp": "2026-08-08T09:56:20.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Give Your Child an Academic Edge with AI",
-      "from": "newsletter@economictimesnews.com",
-      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
-    },
-    {
-      "timestamp": "2026-07-29T12:46:25.000Z",
-      "reason": "unrelated",
-      "subject": "I had one day to finish it",
-      "from": "riandoris@flowstate.com",
-      "account": "Dhibin Vikash Kolarpatti Ponnusamy"
     }
   ]
 }
