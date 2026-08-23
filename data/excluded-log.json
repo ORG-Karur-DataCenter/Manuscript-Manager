@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-23T09:27:22.000Z",
+      "reason": "unrelated",
+      "subject": "[drsathishmuthu/Manuscript-Manager] Run failed: Sync manuscript tracker - claude/manuscript-tracking-app-jhj4p7 (f085f3f)",
+      "from": "Sathish Muthu <notifications@github.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-19T00:08:53.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Has Point-of-Care Ultrasound Become the Stethoscope?",
@@ -2091,13 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Your MDPI publication discount vouchers will expire in 90 days.",
       "from": "MDPI Office <noreply@mdpi.net>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "timestamp": "2026-08-17T11:15:26.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your personal eBook: Platelet Rich Plasma in Veterinary Regenerative Medicine",
-      "from": "alerts@springernature.com",
       "account": "Sathish Muthu"
     }
   ]
