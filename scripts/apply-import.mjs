@@ -139,10 +139,17 @@ if (handoverEmails.length && targets.length !== handoverEmails.length) {
   process.exit(1);
 }
 
+// The sync window overlaps by design, so the handover date alone would let the
+// scheduled run re-fetch and re-classify everything this import already decided.
+// Recording the message ids keeps them out of the classifier entirely.
+const importedIds = classified.map((c) => c.id).filter(Boolean);
+
 for (const account of targets) {
   state.accounts[account.email] ||= { lastSyncedAt: null, seenIds: [] };
-  state.accounts[account.email].lastSyncedAt = handover;
-  state.accounts[account.email].importedAt = new Date().toISOString();
+  const acct = state.accounts[account.email];
+  acct.lastSyncedAt = handover;
+  acct.importedAt = new Date().toISOString();
+  acct.seenIds = Array.from(new Set([...(acct.seenIds || []), ...importedIds]));
 }
 const untouched = accounts.filter((a) => !targets.includes(a));
 

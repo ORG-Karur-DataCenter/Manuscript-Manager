@@ -126,6 +126,15 @@ export function applyEvent(registry, event) {
     findByManuscriptNumber(registry, event.journal, event.manuscriptNumber) ||
     findByTitle(registry, event.title);
 
+  // One email describes one event. The sync window deliberately overlaps and a
+  // re-import or a replayed run can present the same message twice, so filing
+  // by message id keeps the timeline honest instead of accumulating duplicates.
+  const messageId = event.source?.messageId;
+  if (manuscript && messageId) {
+    const seen = (manuscript.timeline || []).some((t) => t.source?.messageId === messageId);
+    if (seen) return manuscript;
+  }
+
   const now = event.timestamp;
 
   if (!manuscript) {
