@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:40:38.355Z",
+  "generatedAt": "2026-08-23T21:27:11.211Z",
   "manuscripts": [
     {
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
@@ -9,7 +9,7 @@
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionLabel": "Revision  requested",
       "currentJournal": "Indian Spine Journal",
       "currentManuscriptNumber": "isj_110_26",
       "currentStatus": "Revision requested",
@@ -65,6 +65,19 @@
                 "subject": "isj Manuscript for revision: isj_110_26",
                 "from": "Indian Spine Journal <editor@isjonline.com>"
               }
+            },
+            {
+              "timestamp": "2026-08-23T16:19:37.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The Indian Spine Journal requested a revised manuscript within four weeks addressing the referees' comments.",
+              "manuscriptNumber": "isj_110_26",
+              "source": {
+                "threadId": "1a02e303118796db",
+                "messageId": "1a02f6b9465f1107",
+                "subject": "Fwd: isj Manuscript for revision: isj_110_26",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
             }
           ]
         }
@@ -100,10 +113,25 @@
             "from": "Indian Spine Journal <editor@isjonline.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-23T16:19:37.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "note": "The Indian Spine Journal requested a revised manuscript within four weeks addressing the referees' comments.",
+          "source": {
+            "threadId": "1a02e303118796db",
+            "messageId": "1a02f6b9465f1107",
+            "subject": "Fwd: isj Manuscript for revision: isj_110_26",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-08-23T10:35:04.000Z"
+      "updatedAt": "2026-08-23T16:19:37.000Z"
     },
     {
       "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",
