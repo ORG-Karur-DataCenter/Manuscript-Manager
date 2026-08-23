@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-19T00:08:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Has Point-of-Care Ultrasound Become the Stethoscope?",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T10:34:29.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a recent article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T11:30:46.000Z",
+      "reason": "unrelated",
+      "subject": "Your MDPI publication discount vouchers will expire in 90 days.",
+      "from": "MDPI Office <noreply@mdpi.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T13:39:19.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Manuscript JME-2026-0197-RT - Journal of Medical Economics",
+      "from": "Journal of Medical Economics <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T15:54:13.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "Aazad Abbas <aazad.abbas@mail.utoronto.ca>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T16:18:48.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T16:48:17.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T17:18:27.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "Aazad Abbas <aazad.abbas@mail.utoronto.ca>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T17:20:31.000Z",
+      "reason": "unrelated",
+      "subject": "Editorial Manager Registration",
+      "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "messageId": "19f8d9d20b49334d",
       "timestamp": "2026-07-23T06:15:12.000Z",
       "reason": "unrelated",

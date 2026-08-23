@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:19:14.694Z",
+  "generatedAt": "2026-08-23T18:40:38.355Z",
   "manuscripts": [
     {
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
@@ -120,7 +120,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
         {
@@ -128,7 +129,7 @@
           "manuscriptNumber": "METRAD-D-26-00215",
           "submittedDate": "2026-08-20T13:06:29.000Z",
           "outcome": "active",
-          "status": "other",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -169,6 +170,19 @@
                 "threadId": "1a02dd6000e5c815",
                 "messageId": "1a02dd6000e5c815",
                 "subject": "PDF for submission to Meta-Radiology requires approval",
+                "from": "Meta-Radiology <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-23T09:00:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "You have been listed as a co‑author on a newly submitted manuscript and are asked to confirm your co‑authorship.",
+              "manuscriptNumber": "METRAD-D-26-00215",
+              "source": {
+                "threadId": "1a02dd999917ffc9",
+                "messageId": "1a02dd999917ffc9",
+                "subject": "Confirm co-authorship of submission to Meta-Radiology",
                 "from": "Meta-Radiology <em@editorialmanager.com>"
               }
             }
@@ -218,6 +232,21 @@
             "threadId": "1a02dd999342dc9d",
             "messageId": "1a02dd999342dc9d",
             "subject": "METRAD-D-26-00215 - Confirming your submission to Meta-Radiology",
+            "from": "Meta-Radiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-23T09:00:29.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "You have been listed as a co‑author on a newly submitted manuscript and are asked to confirm your co‑authorship.",
+          "source": {
+            "threadId": "1a02dd999917ffc9",
+            "messageId": "1a02dd999917ffc9",
+            "subject": "Confirm co-authorship of submission to Meta-Radiology",
             "from": "Meta-Radiology <em@editorialmanager.com>"
           },
           "needsReview": false
