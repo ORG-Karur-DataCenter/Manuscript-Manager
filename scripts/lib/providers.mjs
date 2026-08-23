@@ -326,7 +326,7 @@ export function buildProviderChain(env = process.env) {
     chain.push(
       openAiCompatibleProvider({
         id: "groq",
-        model: env.GROQ_MODEL || "moonshotai/kimi-k2-instruct-0905",
+        model: env.GROQ_MODEL || "openai/gpt-oss-120b",
         apiKey: env.GROQ_API_KEY,
         baseUrl: "https://api.groq.com/openai/v1",
       })
