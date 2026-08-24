@@ -8,6 +8,7 @@
     "sync": "node scripts/sync-gmail.mjs",
     "get-refresh-token": "node scripts/get-refresh-token.mjs",
     "check-classifier": "node scripts/check-classifier.mjs",
+    "check-registry": "node scripts/check-registry.mjs",
     "dump-candidates": "node scripts/dump-candidates.mjs"
   },
   "dependencies": {

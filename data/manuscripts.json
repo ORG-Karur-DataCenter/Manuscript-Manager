@@ -6515,7 +6515,7 @@
       "actionLabel": null,
       "currentJournal": "Clinical Spine Surgery",
       "currentManuscriptNumber": null,
-      "currentStatus": "Update",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6682,7 +6682,7 @@
       "actionLabel": null,
       "currentJournal": "Clinical Spine Surgery",
       "currentManuscriptNumber": null,
-      "currentStatus": "Update",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6920,7 +6920,7 @@
       "actionLabel": null,
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00102R2",
-      "currentStatus": "Update",
+      "currentStatus": "Sent back for edits",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6997,7 +6997,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00102R2",
           "submittedDate": "2026-06-11T13:56:31.000Z",
           "outcome": "active",
-          "status": "other",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [

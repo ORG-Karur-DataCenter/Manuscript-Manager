@@ -175,7 +175,19 @@ export function applyEvent(registry, event) {
   }
 
   let submission = findActiveSubmission(manuscript, event.journal);
-  if (!submission) {
+
+  // "other" is the classifier's shrug: a manuscript-status mail it could not
+  // place. Opening a fresh live submission from one is how a transfer OFFER
+  // from a journal that already rejected the paper becomes a phantom active
+  // submission there, lifting a dead paper out of needs_action. Attach it to
+  // the last submission at that journal instead, or to the timeline alone.
+  if (!submission && event.eventType === "other") {
+    const j = event.journal.trim().toLowerCase();
+    const prior = manuscript.submissions.filter((s) => s.journal.trim().toLowerCase() === j);
+    submission = prior[prior.length - 1] || null;
+  }
+
+  if (!submission && event.eventType !== "other") {
     submission = {
       journal: event.journal,
       manuscriptNumber: event.manuscriptNumber || null,
@@ -189,21 +201,23 @@ export function applyEvent(registry, event) {
     manuscript.submissions.push(submission);
   }
 
-  submission.manuscriptNumber = event.manuscriptNumber || submission.manuscriptNumber;
-  submission.status = event.eventType;
-  if (event.doi) submission.doi = event.doi;
-  if (event.publicationLink) submission.publicationLink = event.publicationLink;
-  if (event.eventType === "rejected") submission.outcome = "rejected";
-  if (event.eventType === "published") submission.outcome = "published";
+  if (submission) {
+    submission.manuscriptNumber = event.manuscriptNumber || submission.manuscriptNumber;
+    if (event.eventType !== "other") submission.status = event.eventType;
+    if (event.doi) submission.doi = event.doi;
+    if (event.publicationLink) submission.publicationLink = event.publicationLink;
+    if (event.eventType === "rejected") submission.outcome = "rejected";
+    if (event.eventType === "published") submission.outcome = "published";
 
-  submission.statusHistory.push({
-    timestamp: now,
-    eventType: event.eventType,
-    revisionRound: event.revisionRound || null,
-    note: event.summary || "",
-    manuscriptNumber: event.manuscriptNumber || null,
-    source: event.source,
-  });
+    submission.statusHistory.push({
+      timestamp: now,
+      eventType: event.eventType,
+      revisionRound: event.revisionRound || null,
+      note: event.summary || "",
+      manuscriptNumber: event.manuscriptNumber || null,
+      source: event.source,
+    });
+  }
 
   manuscript.timeline.push({
     timestamp: now,
@@ -229,9 +243,11 @@ export function applyEvent(registry, event) {
 
   // A backfilled event can land after later ones were already recorded, so
   // sort here too rather than relying on arrival order.
-  submission.statusHistory.sort(
-    (a, b) => new Date(a.timestamp) - new Date(b.timestamp)
-  );
+  if (submission) {
+    submission.statusHistory.sort(
+      (a, b) => new Date(a.timestamp) - new Date(b.timestamp)
+    );
+  }
 
   // Submissions read as a chain, so keep them in the order they were made
   // rather than the order the emails happened to be processed.
@@ -260,9 +276,14 @@ export function applyEvent(registry, event) {
         ? `Revision ${event.revisionRound || ""} requested`.trim()
         : null;
 
-    manuscript.currentJournal = submission.journal;
-    manuscript.currentManuscriptNumber = submission.manuscriptNumber;
-    manuscript.currentStatus = STATUS_LABELS[event.eventType] || event.eventType;
+    // "other" means the classifier could not place the email. bucketForEvent
+    // already refuses to move the bucket for it; current status follows the
+    // same principle, or a real "Rejected" gets overwritten with "Update".
+    if (submission && event.eventType !== "other") {
+      manuscript.currentJournal = submission.journal;
+      manuscript.currentManuscriptNumber = submission.manuscriptNumber;
+      manuscript.currentStatus = STATUS_LABELS[event.eventType] || event.eventType;
+    }
   }
 
   // A DOI or article link is a fact about the manuscript, not a status, so it

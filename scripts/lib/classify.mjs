@@ -3,12 +3,13 @@ import { normalizeResult } from "./schema.mjs";
 
 const SYSTEM_PROMPT = `You are a triage classifier for a researcher's inbox. The researcher submits manuscripts to academic journals and needs every email that is genuinely about the STATUS of one of THEIR OWN submitted manuscripts pulled into a tracker, and everything else excluded.
 
-INCLUDE (relevant = true) only emails that are a journal/publisher system (Editorial Manager, ScholarOne, OJS, Elsevier EES, Springer Nature, Wiley, MDPI susy, Frontiers, BMJ, Taylor & Francis, etc.) reporting on the lifecycle of a manuscript THIS PERSON authored/submitted: submission acknowledgement, technical/desk check returning it for correction before review, assignment to peer review, a reviewer decision (revision requested, accepted, rejected), transfer to a sister journal, proofs, or final publication with DOI.
+INCLUDE (relevant = true) only emails that are a journal/publisher system (Editorial Manager, ScholarOne, OJS, Elsevier EES, Springer Nature, Wiley, MDPI susy, Frontiers, BMJ, Taylor & Francis, etc.) reporting on the lifecycle of a manuscript THIS PERSON authored/submitted: submission acknowledgement, technical/desk check returning it for correction before review, assignment to peer review, a reviewer decision (revision requested, accepted, rejected), an EXECUTED transfer to another journal, proofs, or final publication with DOI.
 
 EXCLUDE (relevant = false) and give exclude_reason:
 - "predatory_solicitation": unsolicited cold-call invitations to submit a paper, praising the author's "esteemed profile" or a past publication, from a journal that did not receive a submission from them — classic predatory-journal spam.
 - "peer_review_invitation_for_other_manuscript": the email invites THIS PERSON to act as a PEER REVIEWER for someone else's manuscript (even though it includes a manuscript number, title and abstract) — this is a request FROM an editor asking them to review, not a status update on their own paper.
 - "editorial_role_for_other_manuscript": the recipient is an EDITOR at this journal and the email is about running someone else's manuscript through the workflow — invitations to handle or take an editorial assignment, reminders of active assignments, "Reviewer accepts/declines assignment", "reviewer un-invited", "one review complete", "more reviews required", "new manuscript received", editor summaries and digests. These quote a manuscript number and title just like a decision letter, but the paper is not theirs.
+- "unrelated" (for transfer offers): an email OFFERING to transfer a rejected manuscript elsewhere, listing "recommended journals", or reporting "Transfer Not Completed". Nothing has happened to the paper — it is still rejected, still where it was. Mark these relevant = false. They are the single most damaging false positive this tracker has: filing one opens a live submission at the journal that just rejected the paper.
 - "newsletter_or_cfp": journal newsletters, tables of contents, special-issue calls for papers, conference announcements.
 - "unrelated": anything else — personal mail, unrelated business, etc.
 - "none": use this value when relevant is true.
@@ -89,6 +90,26 @@ Manuscript ID JOR-2026-0388 entitled "Outcomes of Arthroscopic Repair in Massive
       publication_link: null,
       summary:
         "Reviewers recommended major revision; a revised manuscript is due within 60 days.",
+    },
+  },
+  {
+    email: `Subject: Transfer recommendations for your submission
+From: Springer Nature <notifications@springernature.com>
+Based on an analysis of your recent submission "Orthobiologics in Regenerative Orthopedics: A Scoping Review" to International Orthopaedics, we have identified alternative journals that may be a good fit. Review the recommended journals and, if you wish, transfer your manuscript with one click. No further action is required if you would rather not.`,
+    answer: {
+      relevant: false,
+      exclude_reason: "unrelated",
+      confidence: "high",
+      reasoning:
+        'Offers a list of alternative journals after a rejection; the manuscript has not moved and no action is required, so nothing about its status changed.',
+      title: null,
+      journal: null,
+      manuscript_number: null,
+      event_type: "other",
+      revision_round: null,
+      doi: null,
+      publication_link: null,
+      summary: "A publisher offered to transfer a rejected manuscript to other journals.",
     },
   },
   {
