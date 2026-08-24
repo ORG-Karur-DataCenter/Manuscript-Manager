@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-24T10:29:04.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4500501 - Reminder for Invitation to Review for JCM",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T12:46:40.000Z",
+      "reason": "unrelated",
+      "subject": "SLCKAD - Submitted",
+      "from": "Denise Di Salvo <ddisalv1@jh.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-24T08:32:18.000Z",
       "reason": "predatory_solicitation",
       "subject": "Reg: Follow up-for Manuscript Submission",
@@ -2376,22 +2390,6 @@
       "reason": "unrelated",
       "subject": "World Journal of Stem Cells Notification that your Authors Evaluation has not been submitted yet-Manuscript NO: 117271",
       "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19ddfda87e6d09bb",
-      "timestamp": "2026-04-30T19:25:33.000Z",
-      "reason": "unrelated",
-      "subject": "RHEI-D-26-00768 - Submission Notification to co-author - [EMID:8865ad6a222e5025]",
-      "from": "\"Rheumatology International (RHEI)\" <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19ddfb8f7939221a",
-      "timestamp": "2026-04-30T18:48:52.000Z",
-      "reason": "unrelated",
-      "subject": "European Spine Journal - Receipt of Manuscript 'Identification of Therapeutic...'",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
       "account": "Sathish Muthu"
     }
   ]
