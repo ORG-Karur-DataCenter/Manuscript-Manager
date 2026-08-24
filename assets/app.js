@@ -47,6 +47,37 @@ function fmtDate(iso) {
   if (isNaN(d)) return "—";
   return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
 }
+// The sync runs every three hours, so the card-level "today / 3d ago" scale is
+// far too coarse to tell a healthy tracker from a stalled one. This one reads
+// in minutes and hours.
+const SYNC_EVERY_HOURS = 3;
+function fmtAge(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return null;
+  const mins = Math.round((Date.now() - d.getTime()) / 60000);
+  if (mins < 0) return "just now";           // clock skew between runner and viewer
+  if (mins < 2) return "just now";
+  if (mins < 60) return `${mins} min ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs === 1 ? "1 hour ago" : `${hrs} hours ago`;
+  const days = Math.floor(hrs / 24);
+  return days === 1 ? "1 day ago" : `${days} days ago`;
+}
+
+/**
+ * Judge the age against the schedule rather than against a fixed clock: one
+ * missed run is worth a warning, several means the sync has stopped -- most
+ * likely an expired Gmail token, which is the failure this is here to catch.
+ */
+function syncHealth(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return "unknown";
+  const hrs = (Date.now() - d.getTime()) / 3600000;
+  if (hrs <= SYNC_EVERY_HOURS + 1) return "fresh";
+  if (hrs <= SYNC_EVERY_HOURS * 3) return "late";
+  return "stale";
+}
+
 function fmtRelative(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -70,15 +101,54 @@ function avatarColor(name) {
   return `hsl(${h}, 55%, 45%)`;
 }
 
+function renderSyncStatus(iso, failure) {
+  const el = $("#generated-at");
+  if (!el) return;
+  const dot = el.querySelector(".sync-dot");
+  const text = el.querySelector(".sync-text");
+  el.classList.remove("fresh", "late", "stale");
+
+  if (failure || !iso) {
+    if (text) text.textContent = failure || "Not yet synced";
+    el.title = failure ? "The dashboard could not read its data file." : "No sync has run yet.";
+    return;
+  }
+
+  const health = syncHealth(iso);
+  el.classList.add(health);
+  const age = fmtAge(iso);
+  if (text) text.textContent = `Last synced ${age}`;
+
+  const exact = new Date(iso).toLocaleString(undefined, {
+    weekday: "short", day: "numeric", month: "short",
+    hour: "2-digit", minute: "2-digit",
+  });
+  const note =
+    health === "fresh" ? `Checked ${exact}. Running on schedule, every ${SYNC_EVERY_HOURS} hours.`
+    : health === "late" ? `Checked ${exact}. A scheduled run looks to have been missed.`
+    : `Checked ${exact}. The sync appears to have stopped — check the Gmail token and the workflow runs.`;
+  el.title = note;
+  if (dot) dot.setAttribute("title", note);
+}
+
+// Kept ticking so a tab left open overnight does not keep claiming the data is
+// minutes old.
+let syncTicker = null;
+function startSyncTicker(iso) {
+  if (syncTicker) clearInterval(syncTicker);
+  if (!iso) return;
+  syncTicker = setInterval(() => renderSyncStatus(iso), 60000);
+}
+
 async function load() {
   try {
     const res = await fetch("data/manuscripts.json?_=" + Date.now());
     const data = await res.json();
     state.manuscripts = data.manuscripts || [];
-    const gen = data.generatedAt ? `Last synced ${fmtRelative(data.generatedAt)}` : "Not yet synced";
-    $("#generated-at").textContent = gen;
+    renderSyncStatus(data.generatedAt);
+    startSyncTicker(data.generatedAt);
   } catch (err) {
-    $("#generated-at").textContent = "Could not load data";
+    renderSyncStatus(null, "Could not load data");
     console.error(err);
   }
 

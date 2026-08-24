@@ -85,6 +85,36 @@ a { color: var(--brand); }
 }
 .brand-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.16rem; letter-spacing: .01em; }
 .brand-sub { font-size: .74rem; color: var(--muted); }
+
+/* --- Sync status --------------------------------------------------------
+   The sync runs unattended every three hours, so the only way anyone learns
+   it has stopped -- an expired token, a failed run -- is by noticing the
+   timestamp going stale. A plain line of grey text is too easy to skip past,
+   so the age is colour-coded against the schedule: green while it is on time,
+   amber once a run has been missed, red when it has clearly stopped. */
+.sync-status {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: .74rem; color: var(--muted); cursor: default;
+}
+.sync-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--muted); flex: 0 0 auto;
+}
+.sync-status.fresh { color: var(--published); }
+.sync-status.fresh .sync-dot { background: var(--published); }
+.sync-status.late { color: var(--flag); }
+.sync-status.late .sync-dot { background: var(--flag); }
+.sync-status.stale { color: var(--needs); }
+.sync-status.stale .sync-dot { background: var(--needs); }
+/* A live sync is worth a glance; a stalled one is worth a stare. */
+.sync-status.fresh .sync-dot { animation: sync-pulse 2.4s ease-in-out infinite; }
+@keyframes sync-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--published) 55%, transparent); }
+  70% { box-shadow: 0 0 0 5px transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sync-status.fresh .sync-dot { animation: none; }
+}
 .topbar-actions { display: flex; align-items: center; gap: 10px; }
 .search-box {
   display: flex; align-items: center; gap: 8px;
@@ -283,6 +313,8 @@ html[data-theme="dark"] .hero-acronym {
 @media (max-width: 560px) {
   .buckets { grid-template-columns: 1fr 1fr; }
   .brand-sub { display: none; }
+  /* Never hidden: on a phone this is the only sign the sync is still alive. */
+  .sync-status { font-size: .7rem; gap: 5px; }
   .search-box input { width: 110px; }
   .cards { grid-template-columns: 1fr; }
 }
