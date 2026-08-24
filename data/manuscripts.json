@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:29:36.305Z",
+  "generatedAt": "2026-08-24T02:44:39.435Z",
   "manuscripts": [
     {
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
@@ -1181,6 +1181,31 @@
       ],
       "submissions": [
         {
+          "journal": "British Journal of Sports Medicine",
+          "manuscriptNumber": "bjsports-2026-112514",
+          "submittedDate": "2026-07-18T13:20:30.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-18T13:20:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "bjsports-2026-112514",
+              "source": {
+                "threadId": "19f7562b4234421b",
+                "messageId": "19f7562b4234421b",
+                "subject": "British Journal of Sports Medicine - bjsports-2026-112514",
+                "from": "British Journal of Sports Medicine <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
           "journal": "The American Journal of Sports Medicine",
           "manuscriptNumber": "AJSM-26-1699",
           "submittedDate": "2026-08-19T13:56:10.000Z",
@@ -1232,6 +1257,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-07-18T13:20:30.000Z",
+          "journal": "British Journal of Sports Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19f7562b4234421b",
+            "messageId": "19f7562b4234421b",
+            "subject": "British Journal of Sports Medicine - bjsports-2026-112514",
+            "from": "British Journal of Sports Medicine <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-19T13:56:10.000Z",
           "journal": "The American Journal of Sports Medicine",
@@ -1599,7 +1640,7 @@
           "manuscriptNumber": null,
           "submittedDate": "2026-07-04T11:53:52.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -1614,6 +1655,20 @@
                 "messageId": "19f2cfa5fd960fc2",
                 "subject": "Track the status of your submission to International Journal of Mental Health Systems",
                 "from": "info@researchsquare.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-07T01:40:18.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f3a3bb6cb3a09b",
+                "messageId": "19f3a3bb6cb3a09b",
+                "subject": "Re: International Journal of Mental Health Systems-Amendment required",
+                "from": "Springer Nature Submissions <mildred.antonio@springernature.com>",
                 "via": "offline-import"
               }
             }
@@ -1722,6 +1777,22 @@
             "messageId": "19f2cfa5fd960fc2",
             "subject": "Track the status of your submission to International Journal of Mental Health Systems",
             "from": "info@researchsquare.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-07T01:40:18.000Z",
+          "journal": "International Journal of Mental Health Systems",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19f3a3bb6cb3a09b",
+            "messageId": "19f3a3bb6cb3a09b",
+            "subject": "Re: International Journal of Mental Health Systems-Amendment required",
+            "from": "Springer Nature Submissions <mildred.antonio@springernature.com>",
             "via": "offline-import"
           },
           "needsReview": false
@@ -2878,6 +2949,161 @@
       "updatedAt": "2026-07-26T17:41:34.000Z"
     },
     {
+      "id": "is-survival-in-primary-spinal-osteosarcoma-determined-by-surgical-marg",
+      "title": "Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review",
+      "titleNormalized": "is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology a systematic review",
+      "bucket": "published",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Published",
+      "doi": "10.1007/s00586-026-10225-7",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-16T12:29:24.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1007/s00586-026-10225-7",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-16T12:29:24.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Revision requested.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ed0686f1bba111",
+                "messageId": "19ed0686f1bba111",
+                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+                "from": "European Spine Journal <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-10T07:56:01.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Revision reminder.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f4b06c4074e857",
+                "messageId": "19f4b06c4074e857",
+                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+                "from": "European Spine Journal <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-19T17:23:02.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication; Sathish is a co-author.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f7b671ebcbcf51",
+                "messageId": "19f7b671ebcbcf51",
+                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+                "from": "European Spine Journal <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-23T09:04:32.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Published online.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f8e382b9528e4f",
+                "messageId": "19f8e382b9528e4f",
+                "subject": "Sharing Information for \"Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+                "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-16T12:29:24.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Revision requested.",
+          "source": {
+            "threadId": "19ed0686f1bba111",
+            "messageId": "19ed0686f1bba111",
+            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+            "from": "European Spine Journal <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-10T07:56:01.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Revision reminder.",
+          "source": {
+            "threadId": "19f4b06c4074e857",
+            "messageId": "19f4b06c4074e857",
+            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+            "from": "European Spine Journal <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-19T17:23:02.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication; Sathish is a co-author.",
+          "source": {
+            "threadId": "19f7b671ebcbcf51",
+            "messageId": "19f7b671ebcbcf51",
+            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+            "from": "European Spine Journal <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-23T09:04:32.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "published",
+          "label": "Published",
+          "revisionRound": null,
+          "note": "Published online.",
+          "source": {
+            "threadId": "19f8e382b9528e4f",
+            "messageId": "19f8e382b9528e4f",
+            "subject": "Sharing Information for \"Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
+            "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-16T12:29:24.000Z",
+      "updatedAt": "2026-07-23T09:04:32.000Z"
+    },
+    {
       "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
       "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
       "titleNormalized": "identification of therapeutic targets and gene expression profiling to unravel the underlying mechanisms and their comprehensive role in intervertebral disc degeneration",
@@ -2915,6 +3141,56 @@
                 "messageId": "19f6128e9a99ecb8",
                 "subject": "Decision on your submission to Stem Cell Research & Therapy",
                 "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Cell and Tissue Research",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-15T13:09:21.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-15T13:09:21.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f65e56d81b7297",
+                "messageId": "19f65e56d81b7297",
+                "subject": "Re: Cell and Tissue Research-Amendment required",
+                "from": "Springer Nature Submissions <ric.carandang@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Cartilage",
+          "manuscriptNumber": "CART-26-0147",
+          "submittedDate": "2026-07-22T17:30:17.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-22T17:30:17.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "CART-26-0147",
+              "source": {
+                "threadId": "19f8ae0d76e4e1d2",
+                "messageId": "19f8ae0d76e4e1d2",
+                "subject": "Cartilage  CART-26-0147",
+                "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
             }
@@ -2959,6 +3235,38 @@
             "messageId": "19f6128e9a99ecb8",
             "subject": "Decision on your submission to Stem Cell Research & Therapy",
             "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-15T13:09:21.000Z",
+          "journal": "Cell and Tissue Research",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19f65e56d81b7297",
+            "messageId": "19f65e56d81b7297",
+            "subject": "Re: Cell and Tissue Research-Amendment required",
+            "from": "Springer Nature Submissions <ric.carandang@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-22T17:30:17.000Z",
+          "journal": "Cartilage",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19f8ae0d76e4e1d2",
+            "messageId": "19f8ae0d76e4e1d2",
+            "subject": "Cartilage  CART-26-0147",
+            "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
           },
           "needsReview": false
@@ -3049,17 +3357,17 @@
       "updatedAt": "2026-07-23T07:16:09.000Z"
     },
     {
-      "id": "is-survival-in-primary-spinal-osteosarcoma-determined-by-surgical-marg",
-      "title": "Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review",
-      "titleNormalized": "is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology a systematic review",
-      "bucket": "in_review",
+      "id": "perioperative-bleeding-risk-associated-with-ssris-in-spinal-surgery-a-",
+      "title": "Perioperative Bleeding Risk Associated with selective serotonin reuptake inhibitors (SSRIs) in Spinal Surgery: A Narrative Review",
+      "titleNormalized": "perioperative bleeding risk associated with selective serotonin reuptake inhibitors ssris in spinal surgery a narrative review",
+      "bucket": "submissions",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Accepted (awaiting publication)",
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1475",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -3067,53 +3375,39 @@
       ],
       "submissions": [
         {
-          "journal": "European Spine Journal",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-16T12:29:24.000Z",
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1475",
+          "submittedDate": "2026-07-02T07:08:24.000Z",
           "outcome": "active",
-          "status": "accepted",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
             {
-              "timestamp": "2026-06-16T12:29:24.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": 1,
-              "note": "Revision requested.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ed0686f1bba111",
-                "messageId": "19ed0686f1bba111",
-                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
-                "from": "European Spine Journal <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-07-10T07:56:01.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": 1,
-              "note": "Revision reminder.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f4b06c4074e857",
-                "messageId": "19f4b06c4074e857",
-                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
-                "from": "European Spine Journal <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-07-19T17:23:02.000Z",
-              "eventType": "accepted",
+              "timestamp": "2026-07-02T07:08:24.000Z",
+              "eventType": "new_submission",
               "revisionRound": null,
-              "note": "Accepted for publication; Sathish is a co-author.",
-              "manuscriptNumber": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-1336",
               "source": {
-                "threadId": "19f7b671ebcbcf51",
-                "messageId": "19f7b671ebcbcf51",
-                "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
-                "from": "European Spine Journal <do-not-reply@springernature.com>",
+                "threadId": "19f21a84dc2df8bb",
+                "messageId": "19f21a84dc2df8bb",
+                "subject": "Global Spine Journal  GSJ-26-1336",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-22T01:36:20.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-1475",
+              "source": {
+                "threadId": "19f877777150ede5",
+                "messageId": "19f877777150ede5",
+                "subject": "Global Spine Journal  GSJ-26-1475",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
             }
@@ -3122,56 +3416,290 @@
       ],
       "timeline": [
         {
-          "timestamp": "2026-06-16T12:29:24.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "revision_requested",
-          "label": "Revision requested",
-          "revisionRound": 1,
-          "note": "Revision requested.",
-          "source": {
-            "threadId": "19ed0686f1bba111",
-            "messageId": "19ed0686f1bba111",
-            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
-            "from": "European Spine Journal <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-10T07:56:01.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "revision_requested",
-          "label": "Revision requested",
-          "revisionRound": 1,
-          "note": "Revision reminder.",
-          "source": {
-            "threadId": "19f4b06c4074e857",
-            "messageId": "19f4b06c4074e857",
-            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
-            "from": "European Spine Journal <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-19T17:23:02.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "accepted",
-          "label": "Accepted (awaiting publication)",
+          "timestamp": "2026-07-02T07:08:24.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
           "revisionRound": null,
-          "note": "Accepted for publication; Sathish is a co-author.",
+          "note": "Submission acknowledged.",
           "source": {
-            "threadId": "19f7b671ebcbcf51",
-            "messageId": "19f7b671ebcbcf51",
-            "subject": "European Spine Journal: Decision on \"Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review\"",
-            "from": "European Spine Journal <do-not-reply@springernature.com>",
+            "threadId": "19f21a84dc2df8bb",
+            "messageId": "19f21a84dc2df8bb",
+            "subject": "Global Spine Journal  GSJ-26-1336",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-22T01:36:20.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19f877777150ede5",
+            "messageId": "19f877777150ede5",
+            "subject": "Global Spine Journal  GSJ-26-1475",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
           },
           "needsReview": false
         }
       ],
-      "createdAt": "2026-06-16T12:29:24.000Z",
-      "updatedAt": "2026-07-19T17:23:02.000Z"
+      "createdAt": "2026-07-02T07:08:24.000Z",
+      "updatedAt": "2026-07-22T01:36:20.000Z"
+    },
+    {
+      "id": "quantifying-surgical-burden-of-degenerative-lumbar-spinal-procedures-t",
+      "title": "Quantifying Surgical Burden of Degenerative Lumbar Spinal Procedures: The Minimally Invasive Spine Surgery Invasiveness Classification \"MISS-INC (L)",
+      "titleNormalized": "quantifying surgical burden of degenerative lumbar spinal procedures the minimally invasive spine surgery invasiveness classification miss inc l",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0695.R1",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0695.R1",
+          "submittedDate": "2026-07-05T03:55:36.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-05T03:55:36.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0695.R1",
+              "source": {
+                "threadId": "19f306adda983c08",
+                "messageId": "19f306adda983c08",
+                "subject": "Global Spine Journal  GSJ-26-0695.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-20T20:32:54.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-26-0695.R1",
+              "source": {
+                "threadId": "19f813b4d9b09fa0",
+                "messageId": "19f813b4d9b09fa0",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-26-0695.R1)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-05T03:55:36.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19f306adda983c08",
+            "messageId": "19f306adda983c08",
+            "subject": "Global Spine Journal  GSJ-26-0695.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-20T20:32:54.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19f813b4d9b09fa0",
+            "messageId": "19f813b4d9b09fa0",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-26-0695.R1)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-05T03:55:36.000Z",
+      "updatedAt": "2026-07-20T20:32:54.000Z"
+    },
+    {
+      "id": "can-glucagon-like-peptide-1-receptor-agonists-affect-outcomes-after-sp",
+      "title": "Can Glucagon-Like Peptide-1 Receptor Agonists Affect Outcomes After Spine Surgery? A Systematic Review and Meta-Analysis",
+      "titleNormalized": "can glucagon like peptide 1 receptor agonists affect outcomes after spine surgery a systematic review and meta analysis",
+      "bucket": "published",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Published",
+      "doi": "10.1007/s00586-026-10205-x",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-25T19:50:03.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1007/s00586-026-10205-x",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-25T19:50:03.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Revision invited, addressing reviewer comments.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f00551bd339cc1",
+                "messageId": "19f00551bd339cc1",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-12T21:49:19.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication; production formatting checks to follow.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f584e64965d6e0",
+                "messageId": "19f584e64965d6e0",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-14T14:14:54.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f60fb157ef3df2",
+                "messageId": "19f60fb157ef3df2",
+                "subject": "European Spine Journal: Next steps for publishing your article",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-18T17:03:50.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Published online.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f762f2e619d170",
+                "messageId": "19f762f2e619d170",
+                "subject": "Sharing Information for \"Can glucagon-like peptide-1 receptor agonists affect outcomes after spine surgery? A systematic review and meta-analysis\"",
+                "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-25T19:50:03.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Revision invited, addressing reviewer comments.",
+          "source": {
+            "threadId": "19f00551bd339cc1",
+            "messageId": "19f00551bd339cc1",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-12T21:49:19.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication; production formatting checks to follow.",
+          "source": {
+            "threadId": "19f584e64965d6e0",
+            "messageId": "19f584e64965d6e0",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-14T14:14:54.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19f60fb157ef3df2",
+            "messageId": "19f60fb157ef3df2",
+            "subject": "European Spine Journal: Next steps for publishing your article",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-18T17:03:50.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "published",
+          "label": "Published",
+          "revisionRound": null,
+          "note": "Published online.",
+          "source": {
+            "threadId": "19f762f2e619d170",
+            "messageId": "19f762f2e619d170",
+            "subject": "Sharing Information for \"Can glucagon-like peptide-1 receptor agonists affect outcomes after spine surgery? A systematic review and meta-analysis\"",
+            "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-25T19:50:03.000Z",
+      "updatedAt": "2026-07-18T17:03:50.000Z"
     },
     {
       "id": "design-strategies-to-target-joint-resident-mesenchymal-stem-cells-for-",
@@ -3787,6 +4315,71 @@
       "updatedAt": "2026-07-14T05:50:33.000Z"
     },
     {
+      "id": "the-statistical-fragility-of-trials-comparing-decompression-alone-to-d",
+      "title": "The Statistical Fragility of Trials Comparing Decompression Alone to Decompression with Spinal Fusion in Lumbar Spondylolisthesis",
+      "titleNormalized": "the statistical fragility of trials comparing decompression alone to decompression with spinal fusion in lumbar spondylolisthesis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1432",
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1432",
+          "submittedDate": "2026-07-13T21:36:25.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-13T21:36:25.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-1432",
+              "source": {
+                "threadId": "19f5d68f10d65ca4",
+                "messageId": "19f5d68f10d65ca4",
+                "subject": "Global Spine Journal  GSJ-26-1432",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-13T21:36:25.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19f5d68f10d65ca4",
+            "messageId": "19f5d68f10d65ca4",
+            "subject": "Global Spine Journal  GSJ-26-1432",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-13T21:36:25.000Z",
+      "updatedAt": "2026-07-13T21:36:25.000Z"
+    },
+    {
       "id": "advancing-osteochondral-regeneration-intra-articular-delivery-of-mesen",
       "title": "Advancing Osteochondral Regeneration: Intra-Articular Delivery of Mesenchymal Stem Cells",
       "titleNormalized": "advancing osteochondral regeneration intra articular delivery of mesenchymal stem cells",
@@ -3893,17 +4486,17 @@
       "updatedAt": "2026-07-13T14:28:36.000Z"
     },
     {
-      "id": "can-glucagon-like-peptide-1-receptor-agonists-affect-outcomes-after-sp",
-      "title": "Can Glucagon-Like Peptide-1 Receptor Agonists Affect Outcomes After Spine Surgery? A Systematic Review and Meta-Analysis",
-      "titleNormalized": "can glucagon like peptide 1 receptor agonists affect outcomes after spine surgery a systematic review and meta analysis",
+      "id": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the",
+      "title": "AO Spine Clinical Practice Recommendations for Interbody Fusion at the Lumbo-Sacral Junction",
+      "titleNormalized": "ao spine clinical practice recommendations for interbody fusion at the lumbo sacral junction",
       "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Accepted (awaiting publication)",
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0112.R2",
+      "currentStatus": "Under review",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -3911,39 +4504,25 @@
       ],
       "submissions": [
         {
-          "journal": "European Spine Journal",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-25T19:50:03.000Z",
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0112.R2",
+          "submittedDate": "2026-07-12T22:18:58.000Z",
           "outcome": "active",
-          "status": "accepted",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
             {
-              "timestamp": "2026-06-25T19:50:03.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": 1,
-              "note": "Revision invited, addressing reviewer comments.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f00551bd339cc1",
-                "messageId": "19f00551bd339cc1",
-                "subject": "European Spine Journal: Decision on your manuscript",
-                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-07-12T21:49:19.000Z",
-              "eventType": "accepted",
+              "timestamp": "2026-07-12T22:18:58.000Z",
+              "eventType": "under_review",
               "revisionRound": null,
-              "note": "Accepted for publication; production formatting checks to follow.",
-              "manuscriptNumber": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0112.R2",
               "source": {
-                "threadId": "19f584e64965d6e0",
-                "messageId": "19f584e64965d6e0",
-                "subject": "European Spine Journal: Decision on your manuscript",
-                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "threadId": "19f586986d1609b3",
+                "messageId": "19f586986d1609b3",
+                "subject": "Global Spine Journal  GSJ-26-0112.R2",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
             }
@@ -3952,40 +4531,24 @@
       ],
       "timeline": [
         {
-          "timestamp": "2026-06-25T19:50:03.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "revision_requested",
-          "label": "Revision requested",
-          "revisionRound": 1,
-          "note": "Revision invited, addressing reviewer comments.",
-          "source": {
-            "threadId": "19f00551bd339cc1",
-            "messageId": "19f00551bd339cc1",
-            "subject": "European Spine Journal: Decision on your manuscript",
-            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-12T21:49:19.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "accepted",
-          "label": "Accepted (awaiting publication)",
+          "timestamp": "2026-07-12T22:18:58.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
           "revisionRound": null,
-          "note": "Accepted for publication; production formatting checks to follow.",
+          "note": "Revised manuscript submitted.",
           "source": {
-            "threadId": "19f584e64965d6e0",
-            "messageId": "19f584e64965d6e0",
-            "subject": "European Spine Journal: Decision on your manuscript",
-            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "threadId": "19f586986d1609b3",
+            "messageId": "19f586986d1609b3",
+            "subject": "Global Spine Journal  GSJ-26-0112.R2",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
           },
           "needsReview": false
         }
       ],
-      "createdAt": "2026-06-25T19:50:03.000Z",
-      "updatedAt": "2026-07-12T21:49:19.000Z"
+      "createdAt": "2026-07-12T22:18:58.000Z",
+      "updatedAt": "2026-07-12T22:18:58.000Z"
     },
     {
       "id": "the-burden-of-fragility-and-fall-related-fractures-in-older-adults-in-",
@@ -5003,6 +5566,71 @@
       "updatedAt": "2026-07-06T13:09:37.000Z"
     },
     {
+      "id": "systematic-reviews-in-prp-augmented-meniscal-repair-have-limited-metho",
+      "title": "Systematic reviews in PRP‐augmented meniscal repair have limited methodological quality: A systematic overview",
+      "titleNormalized": "systematic reviews in prp augmented meniscal repair have limited methodological quality a systematic overview",
+      "bucket": "published",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Experimental Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Published",
+      "doi": "10.1002/jeo2.70787",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Experimental Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-04T00:07:25.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1002/jeo2.70787",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-04T00:07:25.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Published online.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f2a73984aaa30a",
+                "messageId": "19f2a73984aaa30a",
+                "subject": "Published: Your article is published in an issue",
+                "from": "noreply@wiley.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-04T00:07:25.000Z",
+          "journal": "Journal of Experimental Orthopaedics",
+          "eventType": "published",
+          "label": "Published",
+          "revisionRound": null,
+          "note": "Published online.",
+          "source": {
+            "threadId": "19f2a73984aaa30a",
+            "messageId": "19f2a73984aaa30a",
+            "subject": "Published: Your article is published in an issue",
+            "from": "noreply@wiley.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-04T00:07:25.000Z",
+      "updatedAt": "2026-07-04T00:07:25.000Z"
+    },
+    {
       "id": "il-6-and-tnf-in-osteoimmunology-aging-and-anti-cytokine-therapies",
       "title": "IL-6 and TNF-α in Osteoimmunology: Aging, and anti-cytokine therapies",
       "titleNormalized": "il 6 and tnf in osteoimmunology aging and anti cytokine therapies",
@@ -5447,6 +6075,71 @@
       ],
       "createdAt": "2026-06-26T16:56:28.000Z",
       "updatedAt": "2026-06-26T16:56:28.000Z"
+    },
+    {
+      "id": "ao-spine-clinical-practice-recommendations-when-to-operate-in-lumbar-d",
+      "title": "AO Spine Clinical Practice Recommendations: When to Operate in Lumbar Disc Herniation",
+      "titleNormalized": "ao spine clinical practice recommendations when to operate in lumbar disc herniation",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1263",
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1263",
+          "submittedDate": "2026-06-24T15:27:30.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-24T15:27:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-1263",
+              "source": {
+                "threadId": "19efa3e5ecd7acb7",
+                "messageId": "19efa3e5ecd7acb7",
+                "subject": "Global Spine Journal  GSJ-26-1263",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-24T15:27:30.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19efa3e5ecd7acb7",
+            "messageId": "19efa3e5ecd7acb7",
+            "subject": "Global Spine Journal  GSJ-26-1263",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-24T15:27:30.000Z",
+      "updatedAt": "2026-06-24T15:27:30.000Z"
     },
     {
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
@@ -5929,6 +6622,101 @@
       "updatedAt": "2026-06-13T11:50:38.000Z"
     },
     {
+      "id": "complication-mitigation-in-robot-assisted-spine-surgery-a-narrative-re",
+      "title": "Complication Mitigation in Robot-Assisted Spine Surgery: A Narrative Review",
+      "titleNormalized": "complication mitigation in robot assisted spine surgery a narrative review",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0227.R1",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0227.R1",
+          "submittedDate": "2026-05-30T06:30:06.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-30T06:30:06.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0227.R1",
+              "source": {
+                "threadId": "19e77935f4fe4a7c",
+                "messageId": "19e77935f4fe4a7c",
+                "subject": "Global Spine Journal  GSJ-26-0227.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-12T15:43:25.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-26-0227.R1",
+              "source": {
+                "threadId": "19ebc809d8b23089",
+                "messageId": "19ebc809d8b23089",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-26-0227.R1)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-30T06:30:06.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19e77935f4fe4a7c",
+            "messageId": "19e77935f4fe4a7c",
+            "subject": "Global Spine Journal  GSJ-26-0227.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-12T15:43:25.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19ebc809d8b23089",
+            "messageId": "19ebc809d8b23089",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-26-0227.R1)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-05-30T06:30:06.000Z",
+      "updatedAt": "2026-06-12T15:43:25.000Z"
+    },
+    {
       "id": "a-review-on-multifunctional-properties-and-processing-of-bioceramics-f",
       "title": "A review on multifunctional properties and processing of Bioceramics for biomedical applications",
       "titleNormalized": "a review on multifunctional properties and processing of bioceramics for biomedical applications",
@@ -6033,11 +6821,41 @@
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-06-10T14:44:52.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-25-2064.R4",
+              "source": {
+                "threadId": "19eb1fe4edcb87b2",
+                "messageId": "19eb1fe4edcb87b2",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-25-2064.R4)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-06-10T14:44:52.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19eb1fe4edcb87b2",
+            "messageId": "19eb1fe4edcb87b2",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-25-2064.R4)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-10T14:44:53.000Z",
           "journal": "Global Spine Journal",
@@ -6057,6 +6875,161 @@
       ],
       "createdAt": "2026-06-10T14:44:53.000Z",
       "updatedAt": "2026-06-10T14:44:53.000Z"
+    },
+    {
+      "id": "the-enigma-of-culture-negative-spondylodiscitis-comparable-outcomes-de",
+      "title": "The Enigma of Culture-Negative Spondylodiscitis: Comparable Outcomes Despite Diagnostic Uncertainty – A Systematic Review and Meta-analysis",
+      "titleNormalized": "the enigma of culture negative spondylodiscitis comparable outcomes despite diagnostic uncertainty a systematic review and meta analysis",
+      "bucket": "published",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Published",
+      "doi": "10.1007/s00586-026-10091-3",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-05T04:59:59.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1007/s00586-026-10091-3",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-05T04:59:59.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e962707d80394c",
+                "messageId": "19e962707d80394c",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-01T01:59:51.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e80e8abac75b91",
+                "messageId": "19e80e8abac75b91",
+                "subject": "Re: European Spine Journal-Amendment required",
+                "from": "Springer Nature Submissions <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-08T13:26:34.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ea769e3dbface9",
+                "messageId": "19ea769e3dbface9",
+                "subject": "European Spine Journal: Next steps for publishing your article",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-09T14:07:48.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Published online.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eacb607e09a06a",
+                "messageId": "19eacb607e09a06a",
+                "subject": "Sharing Information for \"The enigma of culture-negative spondylodiscitis: comparable outcomes despite diagnostic uncertainty – a systematic review and meta-analysis\"",
+                "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-01T01:59:51.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19e80e8abac75b91",
+            "messageId": "19e80e8abac75b91",
+            "subject": "Re: European Spine Journal-Amendment required",
+            "from": "Springer Nature Submissions <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-05T04:59:59.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication.",
+          "source": {
+            "threadId": "19e962707d80394c",
+            "messageId": "19e962707d80394c",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-08T13:26:34.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19ea769e3dbface9",
+            "messageId": "19ea769e3dbface9",
+            "subject": "European Spine Journal: Next steps for publishing your article",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-09T14:07:48.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "published",
+          "label": "Published",
+          "revisionRound": null,
+          "note": "Published online.",
+          "source": {
+            "threadId": "19eacb607e09a06a",
+            "messageId": "19eacb607e09a06a",
+            "subject": "Sharing Information for \"The enigma of culture-negative spondylodiscitis: comparable outcomes despite diagnostic uncertainty – a systematic review and meta-analysis\"",
+            "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-05T04:59:59.000Z",
+      "updatedAt": "2026-06-09T14:07:48.000Z"
     },
     {
       "id": "dickkopf-1-in-rheumatoid-arthritis-mechanistic-insights-imaging-associ",
@@ -6189,17 +7162,17 @@
       "updatedAt": "2026-06-07T12:32:32.000Z"
     },
     {
-      "id": "the-enigma-of-culture-negative-spondylodiscitis-comparable-outcomes-de",
-      "title": "The Enigma of Culture-Negative Spondylodiscitis: Comparable Outcomes Despite Diagnostic Uncertainty",
-      "titleNormalized": "the enigma of culture negative spondylodiscitis comparable outcomes despite diagnostic uncertainty",
-      "bucket": "in_review",
+      "id": "does-obesity-reduce-the-value-of-spine-surgery-a-systematic-review-of-",
+      "title": "Does obesity reduce the value of spine surgery? A systematic review of cost-effectiveness across surgical approaches",
+      "titleNormalized": "does obesity reduce the value of spine surgery a systematic review of cost effectiveness across surgical approaches",
+      "bucket": "submissions",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Accepted (awaiting publication)",
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1103",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6207,25 +7180,50 @@
       ],
       "submissions": [
         {
-          "journal": "European Spine Journal",
+          "journal": "International Orthopaedics",
           "manuscriptNumber": null,
-          "submittedDate": "2026-06-05T04:59:59.000Z",
-          "outcome": "active",
-          "status": "accepted",
+          "submittedDate": "2026-05-31T03:41:59.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
             {
-              "timestamp": "2026-06-05T04:59:59.000Z",
-              "eventType": "accepted",
+              "timestamp": "2026-05-31T03:41:59.000Z",
+              "eventType": "rejected",
               "revisionRound": null,
-              "note": "Accepted for publication.",
+              "note": "Rejected.",
               "manuscriptNumber": null,
               "source": {
-                "threadId": "19e962707d80394c",
-                "messageId": "19e962707d80394c",
-                "subject": "European Spine Journal: Decision on your manuscript",
-                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "threadId": "19e7c1fd9ddc1396",
+                "messageId": "19e7c1fd9ddc1396",
+                "subject": "Decision on your submission to International Orthopaedics",
+                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1103",
+          "submittedDate": "2026-06-05T15:55:40.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-05T15:55:40.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-1103",
+              "source": {
+                "threadId": "19e987f526c79901",
+                "messageId": "19e987f526c79901",
+                "subject": "Global Spine Journal  GSJ-26-1103",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
             }
@@ -6234,24 +7232,40 @@
       ],
       "timeline": [
         {
-          "timestamp": "2026-06-05T04:59:59.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "accepted",
-          "label": "Accepted (awaiting publication)",
+          "timestamp": "2026-05-31T03:41:59.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
           "revisionRound": null,
-          "note": "Accepted for publication.",
+          "note": "Rejected.",
           "source": {
-            "threadId": "19e962707d80394c",
-            "messageId": "19e962707d80394c",
-            "subject": "European Spine Journal: Decision on your manuscript",
-            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "threadId": "19e7c1fd9ddc1396",
+            "messageId": "19e7c1fd9ddc1396",
+            "subject": "Decision on your submission to International Orthopaedics",
+            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-05T15:55:40.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e987f526c79901",
+            "messageId": "19e987f526c79901",
+            "subject": "Global Spine Journal  GSJ-26-1103",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
           },
           "needsReview": false
         }
       ],
-      "createdAt": "2026-06-05T04:59:59.000Z",
-      "updatedAt": "2026-06-05T04:59:59.000Z"
+      "createdAt": "2026-05-31T03:41:59.000Z",
+      "updatedAt": "2026-06-05T15:55:40.000Z"
     },
     {
       "id": "osteoprotegerin-and-receptor-activator-of-nf-kappab-ligand-as-biomarke",
@@ -6447,71 +7461,6 @@
       ],
       "createdAt": "2026-06-01T08:38:09.000Z",
       "updatedAt": "2026-06-01T08:38:09.000Z"
-    },
-    {
-      "id": "does-obesity-reduce-the-value-of-spine-surgery-a-systematic-review-of-",
-      "title": "Does obesity reduce the value of spine surgery? A systematic review of cost-effectiveness across spinal procedures",
-      "titleNormalized": "does obesity reduce the value of spine surgery a systematic review of cost effectiveness across spinal procedures",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "International Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Rejected",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-05-31T03:41:59.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-31T03:41:59.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e7c1fd9ddc1396",
-                "messageId": "19e7c1fd9ddc1396",
-                "subject": "Decision on your submission to International Orthopaedics",
-                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-05-31T03:41:59.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19e7c1fd9ddc1396",
-            "messageId": "19e7c1fd9ddc1396",
-            "subject": "Decision on your submission to International Orthopaedics",
-            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-05-31T03:41:59.000Z",
-      "updatedAt": "2026-05-31T03:41:59.000Z"
     },
     {
       "id": "bone-marrow-mesenchymal-stromal-cell-derived-exosomes-in-knee-osteoart",
