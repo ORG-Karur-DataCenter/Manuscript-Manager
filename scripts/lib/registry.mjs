@@ -227,6 +227,12 @@ export function applyEvent(registry, event) {
     manuscript.titleNormalized = normalizeTitle(event.title);
   }
 
+  // A backfilled event can land after later ones were already recorded, so
+  // sort here too rather than relying on arrival order.
+  submission.statusHistory.sort(
+    (a, b) => new Date(a.timestamp) - new Date(b.timestamp)
+  );
+
   // Submissions read as a chain, so keep them in the order they were made
   // rather than the order the emails happened to be processed.
   manuscript.submissions.sort(

@@ -1,6 +1,36 @@
 {
   "review": [
     {
+      "messageId": "19e5e1b536fac80b",
+      "timestamp": "2026-05-25T07:48:03.000Z",
+      "reason": "World Journal of Stem Cells manuscript 117689 was published online on 25 May 2026, but Baishideng's emails only ever cite the number, never the title. Identify the paper and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "World Journal of Stem Cells Manuscript Publication-Manuscript NO: 117689",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19d28b298518f6e0",
+      "timestamp": "2026-03-26T05:51:11.000Z",
+      "reason": "World Journal of Radiology manuscript 116736 was published online on 26 Mar 2026, but Baishideng's emails only ever cite the number, never the title. Identify the paper and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "World Journal of Radiology Manuscript Publication-Manuscript NO: 116736",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
       "messageId": "19da036c27811571",
       "timestamp": "2026-04-18T10:50:36.000Z",
       "reason": "Submission notice for \"Personalizing Regenerative Medicine for Knee Osteoarthritis: The AI Revolution\" but the email never names the journal, so it cannot be filed. Identify the journal and add it.",
