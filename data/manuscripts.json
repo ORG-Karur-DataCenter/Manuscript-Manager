@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-24T04:10:34.348Z",
+  "generatedAt": "2026-08-24T05:01:31.140Z",
   "manuscripts": [
+    {
+      "id": "comparative-physicochemical-biochemical-growth-factor-and-cytokine-cha",
+      "title": "Comparative Physicochemical, Biochemical, Growth Factor and Cytokine Characterization of Platelet-Rich Plasma and Plasma Rich in Growth Factors (PRGF)",
+      "titleNormalized": "comparative physicochemical biochemical growth factor and cytokine characterization of platelet rich plasma and plasma rich in growth factors prgf",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
+      "currentJournal": "World Journal of Experimental Medicine",
+      "currentManuscriptNumber": "126815",
+      "currentStatus": "Revision requested",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Experimental Medicine",
+          "manuscriptNumber": "126815",
+          "submittedDate": "2026-08-24T04:13:17.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-24T04:13:17.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Reviewers completed their review and requested major revision of the manuscript.",
+              "manuscriptNumber": "126815",
+              "source": {
+                "threadId": "1a031f914f1e0f2f",
+                "messageId": "1a031f914f1e0f2f",
+                "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126815",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-24T04:13:17.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Reviewers completed their review and requested major revision of the manuscript.",
+          "source": {
+            "threadId": "1a031f914f1e0f2f",
+            "messageId": "1a031f914f1e0f2f",
+            "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126815",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-24T04:13:17.000Z",
+      "updatedAt": "2026-08-24T04:13:17.000Z"
+    },
     {
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
       "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
