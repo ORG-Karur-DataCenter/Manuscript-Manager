@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-24T04:46:36.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow up on review request for JOIO-D-26-01459 - [EMID:10a9342a15d4b51f]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T04:46:43.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01359 - [EMID:7b66102f3e84f704]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T05:31:19.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Invitation: Learn about responsible AI use in our upcoming session. Register now!",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-24T04:46:37.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Follow up on review request for JOIO-D-26-01228 - [EMID:4d96204316d29f1b]",
@@ -2369,30 +2390,6 @@
     {
       "messageId": "19ddfb83d37797d8",
       "timestamp": "2026-04-30T18:48:05.000Z",
-      "reason": "unrelated",
-      "subject": "We've completed some quality checks on your submission",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19ddf72c2d2e23fc",
-      "timestamp": "2026-04-30T17:32:11.000Z",
-      "reason": "unrelated",
-      "subject": "You started a submission to European Spine Journal",
-      "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dde121afa3c5f1",
-      "timestamp": "2026-04-30T11:07:00.000Z",
-      "reason": "unrelated",
-      "subject": "European Spine Journal - Receipt of Manuscript 'Does Anatomy Outweigh...'",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dde119bdd46b99",
-      "timestamp": "2026-04-30T11:06:27.000Z",
       "reason": "unrelated",
       "subject": "We've completed some quality checks on your submission",
       "from": "Springer Nature <do-not-reply@springernature.com>",
