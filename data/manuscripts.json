@@ -1,6 +1,223 @@
 {
-  "generatedAt": "2026-08-23T21:27:11.211Z",
+  "generatedAt": "2026-08-24T01:40:48.218Z",
   "manuscripts": [
+    {
+      "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
+      "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
+      "titleNormalized": "does anatomy outweigh biology in cervical spine giant cell tumours a systematic review and meta analysis",
+      "bucket": "needs_action",
+      "needsReview": true,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "International Orthopaedics",
+      "currentManuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88",
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0171",
+          "submittedDate": "2026-04-15T20:29:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-15T20:29:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected after review; both reviewers were broadly positive but flagged an implausible confidence interval and over-strong claims for the evidence grade.",
+              "manuscriptNumber": "GSJ-26-0171",
+              "source": {
+                "threadId": "19d96250099324a9",
+                "messageId": "19d96250099324a9",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0171",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-07T17:44:33.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-07T17:44:33.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected at European Spine Journal.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ea32fb8fd2d522",
+                "messageId": "19ea32fb8fd2d522",
+                "subject": "Decision on your submission to European Spine Journal",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-20T12:38:16.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-20T12:38:16.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Springer Nature acknowledged the submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a01f2de980f3d64",
+                "messageId": "1a01f2de980f3d64",
+                "subject": "Track the status of your manuscript",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88",
+          "submittedDate": "2026-08-20T12:54:23.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-20T12:54:23.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Under consideration at International Orthopaedics; tracked via Research Square.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a01f3ca80c6a718",
+                "messageId": "1a01f3ca80c6a718",
+                "subject": "Track the status of your submission to International Orthopaedics",
+                "from": "info@researchsquare.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-24T01:37:17.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was sent back after technical check, requesting specific amendments before it can proceed.",
+              "manuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88",
+              "source": {
+                "threadId": "1a0316a337773b7b",
+                "messageId": "1a0316a337773b7b",
+                "subject": "Re: International Orthopaedics-Amendment required",
+                "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-15T20:29:00.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected after review; both reviewers were broadly positive but flagged an implausible confidence interval and over-strong claims for the evidence grade.",
+          "source": {
+            "threadId": "19d96250099324a9",
+            "messageId": "19d96250099324a9",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0171",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-07T17:44:33.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected at European Spine Journal.",
+          "source": {
+            "threadId": "19ea32fb8fd2d522",
+            "messageId": "19ea32fb8fd2d522",
+            "subject": "Decision on your submission to European Spine Journal",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-20T12:38:16.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Springer Nature acknowledged the submission.",
+          "source": {
+            "threadId": "1a01f2de980f3d64",
+            "messageId": "1a01f2de980f3d64",
+            "subject": "Track the status of your manuscript",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": true
+        },
+        {
+          "timestamp": "2026-08-20T12:54:23.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Under consideration at International Orthopaedics; tracked via Research Square.",
+          "source": {
+            "threadId": "1a01f3ca80c6a718",
+            "messageId": "1a01f3ca80c6a718",
+            "subject": "Track the status of your submission to International Orthopaedics",
+            "from": "info@researchsquare.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-24T01:37:17.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "The manuscript was sent back after technical check, requesting specific amendments before it can proceed.",
+          "source": {
+            "threadId": "1a0316a337773b7b",
+            "messageId": "1a0316a337773b7b",
+            "subject": "Re: International Orthopaedics-Amendment required",
+            "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-20T12:38:16.000Z",
+      "updatedAt": "2026-08-24T01:37:17.000Z"
+    },
     {
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
@@ -886,195 +1103,6 @@
       ],
       "createdAt": "2026-08-19T13:56:10.000Z",
       "updatedAt": "2026-08-21T01:09:21.000Z"
-    },
-    {
-      "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
-      "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
-      "titleNormalized": "does anatomy outweigh biology in cervical spine giant cell tumours a systematic review and meta analysis",
-      "bucket": "submissions",
-      "needsReview": true,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "International Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy",
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0171",
-          "submittedDate": "2026-04-15T20:29:00.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-15T20:29:00.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected after review; both reviewers were broadly positive but flagged an implausible confidence interval and over-strong claims for the evidence grade.",
-              "manuscriptNumber": "GSJ-26-0171",
-              "source": {
-                "threadId": "19d96250099324a9",
-                "messageId": "19d96250099324a9",
-                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0171",
-                "from": "onbehalfof@manuscriptcentral.com",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "European Spine Journal",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-07T17:44:33.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-07T17:44:33.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected at European Spine Journal.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ea32fb8fd2d522",
-                "messageId": "19ea32fb8fd2d522",
-                "subject": "Decision on your submission to European Spine Journal",
-                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-08-20T12:38:16.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-20T12:38:16.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Springer Nature acknowledged the submission.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a01f2de980f3d64",
-                "messageId": "1a01f2de980f3d64",
-                "subject": "Track the status of your manuscript",
-                "from": "do-not-reply@springernature.com",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-08-20T12:54:23.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-20T12:54:23.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Under consideration at International Orthopaedics; tracked via Research Square.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a01f3ca80c6a718",
-                "messageId": "1a01f3ca80c6a718",
-                "subject": "Track the status of your submission to International Orthopaedics",
-                "from": "info@researchsquare.com",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-04-15T20:29:00.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected after review; both reviewers were broadly positive but flagged an implausible confidence interval and over-strong claims for the evidence grade.",
-          "source": {
-            "threadId": "19d96250099324a9",
-            "messageId": "19d96250099324a9",
-            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0171",
-            "from": "onbehalfof@manuscriptcentral.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-07T17:44:33.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected at European Spine Journal.",
-          "source": {
-            "threadId": "19ea32fb8fd2d522",
-            "messageId": "19ea32fb8fd2d522",
-            "subject": "Decision on your submission to European Spine Journal",
-            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-20T12:38:16.000Z",
-          "journal": "Springer Nature",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Springer Nature acknowledged the submission.",
-          "source": {
-            "threadId": "1a01f2de980f3d64",
-            "messageId": "1a01f2de980f3d64",
-            "subject": "Track the status of your manuscript",
-            "from": "do-not-reply@springernature.com",
-            "via": "offline-import"
-          },
-          "needsReview": true
-        },
-        {
-          "timestamp": "2026-08-20T12:54:23.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Under consideration at International Orthopaedics; tracked via Research Square.",
-          "source": {
-            "threadId": "1a01f3ca80c6a718",
-            "messageId": "1a01f3ca80c6a718",
-            "subject": "Track the status of your submission to International Orthopaedics",
-            "from": "info@researchsquare.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-20T12:38:16.000Z",
-      "updatedAt": "2026-08-20T12:54:23.000Z"
     },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
