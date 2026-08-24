@@ -9,6 +9,7 @@
 export const EXCLUDE_REASONS = [
   "predatory_solicitation",
   "peer_review_invitation_for_other_manuscript",
+  "editorial_role_for_other_manuscript",
   "newsletter_or_cfp",
   "unrelated",
   "none",

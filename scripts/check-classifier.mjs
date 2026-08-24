@@ -64,6 +64,48 @@ We accept all article types. Rapid peer review within 48 hours. Nominal article 
 Awaiting your positive response.`,
     },
   },
+  {
+    name: "editorial-workflow notice for a manuscript the recipient handles as editor",
+    expect: { relevant: false, exclude_reason: "editorial_role_for_other_manuscript" },
+    email: {
+      subject: "More reviews required for JCOT-D-26-00082",
+      from: "Journal of Clinical Orthopaedics and Trauma <em@editorialmanager.com>",
+      date: "Thu, 21 Aug 2026 09:14:00 +0000",
+      text: `Dear Dr Muthu,
+
+As Handling Editor for manuscript JCOT-D-26-00082, "Outcomes of Locking Plate Fixation in Proximal Humerus Fractures", you are receiving this because fewer than two reviews have been completed.
+
+Please invite additional reviewers via the Editorial Manager site.`,
+    },
+  },
+  {
+    name: "transfer OFFER after a rejection — an offer is not a transfer",
+    expect: { relevant: false },
+    email: {
+      subject: "Transfer recommendations for your submission",
+      from: "Springer Nature <notifications@springernature.com>",
+      date: "Thu, 21 Aug 2026 10:00:00 +0000",
+      text: `Dear Dr Muthu,
+
+Based on an analysis of your recent submission "Orthobiologics in Regenerative Orthopedics: A Scoping Review" to International Orthopaedics, we have identified alternative journals that may be a good fit.
+
+Review the recommended journals and, if you wish, transfer your manuscript with one click. No further action is required if you would rather not.`,
+    },
+  },
+  {
+    name: "Editorial Manager PDF approval — a submission step, not an acceptance",
+    expect: { relevant: true, event_type: "new_submission" },
+    email: {
+      subject: "Please Login to Editorial Manager and Approve Your PDF",
+      from: "Clinical Spine Surgery <em@editorialmanager.com>",
+      date: "Fri, 22 Aug 2026 08:30:00 +0000",
+      text: `Dear Dr Muthu,
+
+The PDF of your submission "Can Atlantoaxial Stability be Restored Without Fusion? A Systematic Review" to Clinical Spine Surgery has been built from the files you uploaded.
+
+Your submission is not yet complete. Please log in, view the PDF and click Approve Submission so that it can be sent to the editorial office.`,
+    },
+  },
 ];
 
 function tick(ok) {

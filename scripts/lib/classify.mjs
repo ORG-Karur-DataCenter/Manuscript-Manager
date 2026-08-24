@@ -8,6 +8,7 @@ INCLUDE (relevant = true) only emails that are a journal/publisher system (Edito
 EXCLUDE (relevant = false) and give exclude_reason:
 - "predatory_solicitation": unsolicited cold-call invitations to submit a paper, praising the author's "esteemed profile" or a past publication, from a journal that did not receive a submission from them — classic predatory-journal spam.
 - "peer_review_invitation_for_other_manuscript": the email invites THIS PERSON to act as a PEER REVIEWER for someone else's manuscript (even though it includes a manuscript number, title and abstract) — this is a request FROM an editor asking them to review, not a status update on their own paper.
+- "editorial_role_for_other_manuscript": the recipient is an EDITOR at this journal and the email is about running someone else's manuscript through the workflow — invitations to handle or take an editorial assignment, reminders of active assignments, "Reviewer accepts/declines assignment", "reviewer un-invited", "one review complete", "more reviews required", "new manuscript received", editor summaries and digests. These quote a manuscript number and title just like a decision letter, but the paper is not theirs.
 - "newsletter_or_cfp": journal newsletters, tables of contents, special-issue calls for papers, conference announcements.
 - "unrelated": anything else — personal mail, unrelated business, etc.
 - "none": use this value when relevant is true.
@@ -17,6 +18,8 @@ A reviewer invitation and a decision on your own manuscript look almost identica
 - It asks them to READ someone else's paper and give an opinion, offers Accept/Decline links, mentions a review deadline or an honorarium, or calls them "an expert in this field" -> peer_review_invitation_for_other_manuscript.
 - It tells them the outcome of THEIR submission, asks them to revise, upload files, check proofs, or approve a galley, or addresses them as the (corresponding) author -> relevant.
 If an email contains both an abstract and the phrase "would you be willing to review", it is a reviewer invitation no matter how much it looks like a decision letter.
+
+A SECOND TRAP: Editorial Manager asks an author to approve a PDF it built from their files as the LAST STEP OF SUBMITTING, not in production. "Your PDF has been built", "Please log in and approve your PDF" therefore mean the paper is being submitted — event_type new_submission or other. They never mean accepted. Real proofs come after an acceptance and say so ("your accepted article", "page proofs", "corrections").
 
 When relevant is true, extract:
 - title: the exact manuscript title (not the email subject line, unless the subject IS the title).
@@ -30,7 +33,7 @@ When relevant is true, extract:
   - accepted: accepted for publication but not yet published/DOI'd.
   - rejected: rejected after review (or desk-rejected) with no path to revise at this journal — the author must resubmit elsewhere.
   - published: final publication, typically with a DOI or article link.
-  - transferred: journal offered/executed a transfer of the manuscript to a sister journal.
+  - transferred: the manuscript has ACTUALLY MOVED to another journal — the author accepted a transfer and the receiving journal now has it. An email merely OFFERING a transfer, recommending alternative journals, or reporting "transfer not completed" is NOT a transfer: it changes nothing about where the paper is. Use "other" for an offer, and never "transferred", because filing an offer opens a phantom live submission at a journal that rejected the paper.
   - other: a genuine manuscript-status email that doesn't fit above (e.g. plain acknowledgement of a query).
 - revision_round: integer (1, 2, 3...) if this is specifically a numbered revision request or a resubmission of a specific revision, else null.
 - doi: the DOI string if present (e.g. 10.1000/xyz123), else null.
@@ -86,6 +89,26 @@ Manuscript ID JOR-2026-0388 entitled "Outcomes of Arthroscopic Repair in Massive
       publication_link: null,
       summary:
         "Reviewers recommended major revision; a revised manuscript is due within 60 days.",
+    },
+  },
+  {
+    email: `Subject: Reviewer Accepts Assignment for JOIO-D-25-00892R1
+From: Indian Journal of Orthopaedics <em@editorialmanager.com>
+Dear Dr Muthu, As Handling Editor for manuscript JOIO-D-25-00892R1, "Vertebral Augmentation in Osteoporotic Compression Fractures", you may wish to know that Dr A. Kumar has agreed to review it. You can monitor progress in the Editorial Manager system.`,
+    answer: {
+      relevant: false,
+      exclude_reason: "editorial_role_for_other_manuscript",
+      confidence: "high",
+      reasoning:
+        'Addresses the recipient as Handling Editor tracking a reviewer assignment, so the manuscript belongs to another author.',
+      title: null,
+      journal: null,
+      manuscript_number: null,
+      event_type: "other",
+      revision_round: null,
+      doi: null,
+      publication_link: null,
+      summary: "An editorial-workflow notice about a manuscript the recipient handles as editor.",
     },
   },
   {
