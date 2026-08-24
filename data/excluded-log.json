@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-24T07:36:58.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "2026-08-24 07:36:56 RCA ID: 00000627 2026 Highlight Articles available for view",
+      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T14:11:49.000Z",
+      "reason": "unrelated",
+      "subject": "PROSPERO record team member confirmation",
+      "from": "PROSPERO Administrator <irss592@york.ac.uk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-24T10:29:04.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "[JCM] Manuscript ID: jcm-4500501 - Reminder for Invitation to Review for JCM",
@@ -2374,22 +2388,6 @@
       "reason": "unrelated",
       "subject": "You started a submission to International Orthopaedics",
       "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19de90bdf8aba617",
-      "timestamp": "2026-05-02T14:15:59.000Z",
-      "reason": "unrelated",
-      "subject": "Tell us about your submission to European Spine Journal",
-      "from": "\"Chloe O'Donnell, Springer Nature\" <donotreply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19de6527ae48f77d",
-      "timestamp": "2026-05-02T01:34:16.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Stem Cells Notification that your Authors Evaluation has not been submitted yet-Manuscript NO: 117271",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
       "account": "Sathish Muthu"
     }
   ]
