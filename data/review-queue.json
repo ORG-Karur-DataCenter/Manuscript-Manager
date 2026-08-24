@@ -1,6 +1,66 @@
 {
   "review": [
     {
+      "messageId": "19da036c27811571",
+      "timestamp": "2026-04-18T10:50:36.000Z",
+      "reason": "Submission notice for \"Personalizing Regenerative Medicine for Knee Osteoarthritis: The AI Revolution\" but the email never names the journal, so it cannot be filed. Identify the journal and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": "Personalizing Regenerative Medicine for Knee Osteoarthritis: The AI Revolution",
+      "journal": null,
+      "subject": "Confirm co-authorship of submission to Engineering",
+      "from": "Engineering <em@editorialmanager.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19cf5802b2c7558d",
+      "timestamp": "2026-03-16T07:15:42.000Z",
+      "reason": "Amendment notice that could not be filed: the journal is not named. Subject: Re: npj Digital Medicine-Amendment required",
+      "relevant": false,
+      "eventType": null,
+      "title": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews: A PRISMA‑trAIce Compliant Evaluation Running Title: Agentic AI in Systematic Reviews",
+      "journal": null,
+      "subject": "Re: npj Digital Medicine-Amendment required",
+      "from": "Springer Nature Submissions <shalini.v@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19cc40441e3a4216",
+      "timestamp": "2026-03-06T16:38:58.000Z",
+      "reason": "Amendment notice that could not be filed: no manuscript title in the email. Subject: Global Spine Journal  GSJ-26-0449",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Global Spine Journal  GSJ-26-0449",
+      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19d252dff225f88a",
+      "timestamp": "2026-03-25T13:27:43.000Z",
+      "reason": "Submission notice for \"Spatial Multi-omics in Osteoarthritis: From Molecular Maps to Precision Medicine\" but the email never names the journal, so it cannot be filed. Identify the journal and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": "Spatial Multi-omics in Osteoarthritis: From Molecular Maps to Precision Medicine",
+      "journal": null,
+      "subject": "npj Systems Biology and Applications - Receipt of Manuscript 'Spatial Multi-omics in...'",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
       "messageId": "19f6c70f82eeba43",
       "timestamp": "2026-07-16T19:39:30.000Z",
       "reason": "Submission notice for \"Generative AI and Large Language Models in Orthopaedic Clinical Decision Support and Patie\" but the email never names the journal, so it cannot be filed. Identify the journal and add it.",

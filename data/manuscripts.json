@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T03:58:09.108Z",
+  "generatedAt": "2026-08-24T04:04:29.862Z",
   "manuscripts": [
     {
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
@@ -40,6 +40,31 @@
                 "messageId": "19d96250099324a9",
                 "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0171",
                 "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-30T11:23:28.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-30T11:23:28.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dde212a608e0dc",
+                "messageId": "19dde212a608e0dc",
+                "subject": "Track the status of your submission to European Spine Journal",
+                "from": "info@researchsquare.com",
                 "via": "offline-import"
               }
             }
@@ -160,6 +185,22 @@
             "messageId": "19d96250099324a9",
             "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0171",
             "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-30T11:23:28.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dde212a608e0dc",
+            "messageId": "19dde212a608e0dc",
+            "subject": "Track the status of your submission to European Spine Journal",
+            "from": "info@researchsquare.com",
             "via": "offline-import"
           },
           "needsReview": false
@@ -521,6 +562,31 @@
       ],
       "submissions": [
         {
+          "journal": "World Journal of Radiology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-30T10:40:24.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-30T10:40:24.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dddf9bc55c45e6",
+                "messageId": "19dddf9bc55c45e6",
+                "subject": "Number ID: 05395420 World Journal of Radiology reply letter to confirm receipt of the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
           "journal": "Meta-Radiology",
           "manuscriptNumber": "METRAD-D-26-00215",
           "submittedDate": "2026-08-20T13:06:29.000Z",
@@ -586,6 +652,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-30T10:40:24.000Z",
+          "journal": "World Journal of Radiology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dddf9bc55c45e6",
+            "messageId": "19dddf9bc55c45e6",
+            "subject": "Number ID: 05395420 World Journal of Radiology reply letter to confirm receipt of the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-20T13:06:29.000Z",
           "journal": "Meta-Radiology",
@@ -998,10 +1080,10 @@
       "submissions": [
         {
           "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-25-2098.R2",
+          "manuscriptNumber": "GSJ-25-2098.R3",
           "submittedDate": "2026-04-15T20:28:00.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "accepted",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -1016,6 +1098,48 @@
                 "messageId": "19d96271b88e40ae",
                 "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2098.R2",
                 "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-03-07T08:48:39.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-25-2098.R2",
+              "source": {
+                "threadId": "19cc77c093ae41c5",
+                "messageId": "19cc77c093ae41c5",
+                "subject": "Global Spine Journal  GSJ-25-2098.R2",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-20T02:55:13.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-25-2098.R3",
+              "source": {
+                "threadId": "19da8d0462606b70",
+                "messageId": "19da8d0462606b70",
+                "subject": "Global Spine Journal  GSJ-25-2098.R3",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-20T20:45:02.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-25-2098.R3",
+              "source": {
+                "threadId": "19daca3b88d77214",
+                "messageId": "19daca3b88d77214",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-25-2098.R3)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
             }
@@ -1049,6 +1173,22 @@
       ],
       "timeline": [
         {
+          "timestamp": "2026-03-07T08:48:39.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19cc77c093ae41c5",
+            "messageId": "19cc77c093ae41c5",
+            "subject": "Global Spine Journal  GSJ-25-2098.R2",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
           "timestamp": "2026-04-15T20:28:00.000Z",
           "journal": "Global Spine Journal",
           "eventType": "revision_requested",
@@ -1060,6 +1200,38 @@
             "messageId": "19d96271b88e40ae",
             "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2098.R2",
             "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-20T02:55:13.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19da8d0462606b70",
+            "messageId": "19da8d0462606b70",
+            "subject": "Global Spine Journal  GSJ-25-2098.R3",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-20T20:45:02.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19daca3b88d77214",
+            "messageId": "19daca3b88d77214",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-25-2098.R3)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
           },
           "needsReview": false
@@ -2572,8 +2744,8 @@
     },
     {
       "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop",
-      "title": "Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)",
-      "titleNormalized": "evaluating large language models for patient facing total knee arthroplasty information in knee osteoarthritis development and application of the composite clinical reliability score ccrs",
+      "title": "Comparative Clinical Reliability of Large Language Models in Patient-Facing Information on Platelet-Rich Plasma for Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)",
+      "titleNormalized": "comparative clinical reliability of large language models in patient facing information on platelet rich plasma for knee osteoarthritis development and application of the composite clinical reliability score ccrs",
       "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
@@ -2582,13 +2754,80 @@
       "currentJournal": "The Journal of Arthroplasty",
       "currentManuscriptNumber": "JOA-D-26-01135R4",
       "currentStatus": "Under review",
-      "doi": null,
+      "doi": "10.1007/s43465-026-01827-w",
       "publicationLink": null,
       "authorAccounts": [
         "Dhibin Vikash Kolarpatti Ponnusamy",
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-21T18:10:35.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1007/s43465-026-01827-w",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-21T18:10:35.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19db13caa2cb6bcc",
+                "messageId": "19db13caa2cb6bcc",
+                "subject": "Your Submission JOIO-D-26-00051R1",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-22T08:04:44.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19db4385962c6204",
+                "messageId": "19db4385962c6204",
+                "subject": "Submission Confirmation",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-20T15:02:39.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e45e90b207a8eb",
+                "messageId": "19e45e90b207a8eb",
+                "subject": "Indian Journal of Orthopaedics: Next steps for publishing your article",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-26T12:15:01.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Published online.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e6435b86246005",
+                "messageId": "19e6435b86246005",
+                "subject": "Sharing Information for \"Evaluating Large Language Models for Patient‑Facing Platelet‑Rich Plasma Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\"",
+                "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "The Journal of Arthroplasty",
           "manuscriptNumber": "JOA-D-26-01135R1",
@@ -2681,11 +2920,57 @@
                 "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-04-23T17:16:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dbb57e4f8cf3fe",
+                "messageId": "19dbb57e4f8cf3fe",
+                "subject": "Submission Confirmation Journal of Arthroplasty",
+                "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-21T18:10:35.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19db13caa2cb6bcc",
+            "messageId": "19db13caa2cb6bcc",
+            "subject": "Your Submission JOIO-D-26-00051R1",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-22T08:04:44.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19db4385962c6204",
+            "messageId": "19db4385962c6204",
+            "subject": "Submission Confirmation",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-04-23T17:16:32.000Z",
           "journal": "The Journal of Arthroplasty",
@@ -2698,6 +2983,54 @@
             "messageId": "19dbb57e4592b944",
             "subject": "Confirm co-authorship of submission to The Journal of Arthroplasty",
             "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-23T17:16:32.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dbb57e4f8cf3fe",
+            "messageId": "19dbb57e4f8cf3fe",
+            "subject": "Submission Confirmation Journal of Arthroplasty",
+            "from": "The Journal Of Arthroplasty <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-20T15:02:39.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19e45e90b207a8eb",
+            "messageId": "19e45e90b207a8eb",
+            "subject": "Indian Journal of Orthopaedics: Next steps for publishing your article",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-26T12:15:01.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "published",
+          "label": "Published",
+          "revisionRound": null,
+          "note": "Published online.",
+          "source": {
+            "threadId": "19e6435b86246005",
+            "messageId": "19e6435b86246005",
+            "subject": "Sharing Information for \"Evaluating Large Language Models for Patient‑Facing Platelet‑Rich Plasma Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\"",
+            "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
             "via": "offline-import"
           },
           "needsReview": false
@@ -2978,8 +3311,8 @@
     },
     {
       "id": "is-survival-in-primary-spinal-osteosarcoma-determined-by-surgical-marg",
-      "title": "Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review",
-      "titleNormalized": "is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology a systematic review",
+      "title": "Title: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review",
+      "titleNormalized": "title is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology a systematic review",
       "bucket": "published",
       "needsReview": false,
       "needsActionReason": null,
@@ -2994,6 +3327,56 @@
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0409",
+          "submittedDate": "2026-03-01T05:36:54.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-01T05:36:54.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-0409",
+              "source": {
+                "threadId": "19ca7e6528157ead",
+                "messageId": "19ca7e6528157ead",
+                "subject": "Global Spine Journal  GSJ-26-0409",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-09T11:38:57.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-09T11:38:57.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cd264a8d6f9661",
+                "messageId": "19cd264a8d6f9661",
+                "subject": "European Spine Journal - Receipt of Manuscript 'Title: Is survival...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "European Spine Journal",
           "manuscriptNumber": null,
@@ -3063,6 +3446,38 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-03-01T05:36:54.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ca7e6528157ead",
+            "messageId": "19ca7e6528157ead",
+            "subject": "Global Spine Journal  GSJ-26-0409",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-03-09T11:38:57.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cd264a8d6f9661",
+            "messageId": "19cd264a8d6f9661",
+            "subject": "European Spine Journal - Receipt of Manuscript 'Title: Is survival...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-16T12:29:24.000Z",
           "journal": "European Spine Journal",
@@ -3149,6 +3564,109 @@
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "Biomarker Research",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-11T13:00:46.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-11T13:00:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cdcfc492342750",
+                "messageId": "19cdcfc492342750",
+                "subject": "Track the status of your submission to Biomarker Research",
+                "from": "info@researchsquare.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-03-12T09:48:12.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ce1725aec48fc8",
+                "messageId": "19ce1725aec48fc8",
+                "subject": "Re: Biomarker Research-Amendment required",
+                "from": "Springer Nature Submissions <sakthi.vigneswaransurendran@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-30T18:54:46.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-30T18:54:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ddfbe58041b08c",
+                "messageId": "19ddfbe58041b08c",
+                "subject": "Track the status of your submission to European Spine Journal",
+                "from": "info@researchsquare.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Stem Cell Research & Therapy",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-17T09:44:15.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-17T09:44:15.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e35527353b1983",
+                "messageId": "19e35527353b1983",
+                "subject": "Stem Cell Research & Therapy - Receipt of Manuscript 'Identification of Therapeutic...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-18T23:57:26.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e3d85eb032732a",
+                "messageId": "19e3d85eb032732a",
+                "subject": "Re: Stem Cell Research & Therapy-Amendment required",
+                "from": "Springer Nature Submissions <carissa.rustia@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "Stem Cell Research & Therapy",
           "manuscriptNumber": null,
@@ -3251,6 +3769,86 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-03-11T13:00:46.000Z",
+          "journal": "Biomarker Research",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cdcfc492342750",
+            "messageId": "19cdcfc492342750",
+            "subject": "Track the status of your submission to Biomarker Research",
+            "from": "info@researchsquare.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-03-12T09:48:12.000Z",
+          "journal": "Biomarker Research",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19ce1725aec48fc8",
+            "messageId": "19ce1725aec48fc8",
+            "subject": "Re: Biomarker Research-Amendment required",
+            "from": "Springer Nature Submissions <sakthi.vigneswaransurendran@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-30T18:54:46.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ddfbe58041b08c",
+            "messageId": "19ddfbe58041b08c",
+            "subject": "Track the status of your submission to European Spine Journal",
+            "from": "info@researchsquare.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-17T09:44:15.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e35527353b1983",
+            "messageId": "19e35527353b1983",
+            "subject": "Stem Cell Research & Therapy - Receipt of Manuscript 'Identification of Therapeutic...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-18T23:57:26.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19e3d85eb032732a",
+            "messageId": "19e3d85eb032732a",
+            "subject": "Re: Stem Cell Research & Therapy-Amendment required",
+            "from": "Springer Nature Submissions <carissa.rustia@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-07-14T15:04:57.000Z",
           "journal": "Stem Cell Research & Therapy",
@@ -3499,10 +4097,10 @@
       "submissions": [
         {
           "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0695.R1",
+          "manuscriptNumber": "GSJ-26-0695",
           "submittedDate": "2026-07-05T03:55:36.000Z",
           "outcome": "active",
-          "status": "accepted",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -3533,11 +4131,41 @@
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-04-07T16:20:50.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-0695",
+              "source": {
+                "threadId": "19d68bf2939a2eac",
+                "messageId": "19d68bf2939a2eac",
+                "subject": "Global Spine Journal  GSJ-26-0695",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-07T16:20:50.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d68bf2939a2eac",
+            "messageId": "19d68bf2939a2eac",
+            "subject": "Global Spine Journal  GSJ-26-0695",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-07-05T03:55:36.000Z",
           "journal": "Global Spine Journal",
@@ -3592,6 +4220,31 @@
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-29T09:11:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-29T09:11:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dd88198b5dc4be",
+                "messageId": "19dd88198b5dc4be",
+                "subject": "Track the status of your submission to European Spine Journal",
+                "from": "info@researchsquare.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "European Spine Journal",
           "manuscriptNumber": null,
@@ -3661,6 +4314,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-29T09:11:04.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dd88198b5dc4be",
+            "messageId": "19dd88198b5dc4be",
+            "subject": "Track the status of your submission to European Spine Journal",
+            "from": "info@researchsquare.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-25T19:50:03.000Z",
           "journal": "European Spine Journal",
@@ -3747,6 +4416,56 @@
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "Biomaterials Advances",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-14T12:45:39.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-14T12:45:39.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e2685701d58e2f",
+                "messageId": "19e2685701d58e2f",
+                "subject": "Confirm co-authorship of submission to Biomaterials Advances",
+                "from": "Biomaterials Advances <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Advanced Healthcare Materials",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-18T10:47:27.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-18T10:47:27.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e3ab2aebe3a6b5",
+                "messageId": "19e3ab2aebe3a6b5",
+                "subject": "Manuscript submitted to Advanced Healthcare Materials",
+                "from": "Advanced Healthcare Materials <advhealthmat@wiley.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "Advanced Healthcare Materials",
           "manuscriptNumber": "4207230",
@@ -3866,6 +4585,38 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-05-14T12:45:39.000Z",
+          "journal": "Biomaterials Advances",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e2685701d58e2f",
+            "messageId": "19e2685701d58e2f",
+            "subject": "Confirm co-authorship of submission to Biomaterials Advances",
+            "from": "Biomaterials Advances <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-18T10:47:27.000Z",
+          "journal": "Advanced Healthcare Materials",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e3ab2aebe3a6b5",
+            "messageId": "19e3ab2aebe3a6b5",
+            "subject": "Manuscript submitted to Advanced Healthcare Materials",
+            "from": "Advanced Healthcare Materials <advhealthmat@wiley.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-10T19:03:40.000Z",
           "journal": "Advanced Healthcare Materials",
@@ -4533,7 +5284,7 @@
       "submissions": [
         {
           "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0112.R2",
+          "manuscriptNumber": "GSJ-26-0112.R1",
           "submittedDate": "2026-07-12T22:18:58.000Z",
           "outcome": "active",
           "status": "under_review",
@@ -4553,11 +5304,41 @@
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-05-25T14:51:39.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0112.R1",
+              "source": {
+                "threadId": "19e5f9ec7fd8c5ad",
+                "messageId": "19e5f9ec7fd8c5ad",
+                "subject": "Global Spine Journal  GSJ-26-0112.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-05-25T14:51:39.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19e5f9ec7fd8c5ad",
+            "messageId": "19e5f9ec7fd8c5ad",
+            "subject": "Global Spine Journal  GSJ-26-0112.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-07-12T22:18:58.000Z",
           "journal": "Global Spine Journal",
@@ -4789,11 +5570,41 @@
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-03-05T08:26:19.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cbd1af53142eec",
+                "messageId": "19cbd1af53142eec",
+                "subject": "World Journal of Methodology Article In Press - Manuscript NO: 117490",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-03-05T08:26:19.000Z",
+          "journal": "World Journal of Methodology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cbd1af53142eec",
+            "messageId": "19cbd1af53142eec",
+            "subject": "World Journal of Methodology Article In Press - Manuscript NO: 117490",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-07-10T10:11:34.000Z",
           "journal": "World Journal of Methodology",
@@ -4832,6 +5643,181 @@
         "Sathish Muthu"
       ],
       "submissions": [
+        {
+          "journal": "BMC Public Health",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-06T13:47:42.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-06T13:47:42.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d630c990cc2d9b",
+                "messageId": "19d630c990cc2d9b",
+                "subject": "BMC Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Archives of Public Health",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-09T21:28:24.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-09T21:28:24.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d7425774d7e09e",
+                "messageId": "19d7425774d7e09e",
+                "subject": "Archives of Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Experimental Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-22T18:53:32.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-22T18:53:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19db68a5671fa198",
+                "messageId": "19db68a5671fa198",
+                "subject": "Submission Confirmation for Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review (jeo.202600432)",
+                "from": "JEO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Scientific Reports",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-30T21:10:54.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-30T21:10:54.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19de03afd46c0be5",
+                "messageId": "19de03afd46c0be5",
+                "subject": "Scientific Reports - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-12T11:20:42.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-12T11:20:42.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e1beaf4415ae3e",
+                "messageId": "19e1beaf4415ae3e",
+                "subject": "Confirm co-authorship of submission to Journal of Orthopaedics",
+                "from": "Journal of Orthopaedics <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Archives of Orthopaedic and Trauma Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-17T12:07:51.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-17T12:07:51.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e35d5ea8a85133",
+                "messageId": "19e35d5ea8a85133",
+                "subject": "Archives of Orthopaedic and Trauma Surgery - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-25T09:38:53.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-25T09:38:53.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e5e806aa0915cc",
+                "messageId": "19e5e806aa0915cc",
+                "subject": "International Orthopaedics - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
         {
           "journal": "International Orthopaedics",
           "manuscriptNumber": null,
@@ -4934,6 +5920,118 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-06T13:47:42.000Z",
+          "journal": "BMC Public Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d630c990cc2d9b",
+            "messageId": "19d630c990cc2d9b",
+            "subject": "BMC Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-09T21:28:24.000Z",
+          "journal": "Archives of Public Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d7425774d7e09e",
+            "messageId": "19d7425774d7e09e",
+            "subject": "Archives of Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-22T18:53:32.000Z",
+          "journal": "Journal of Experimental Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19db68a5671fa198",
+            "messageId": "19db68a5671fa198",
+            "subject": "Submission Confirmation for Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review (jeo.202600432)",
+            "from": "JEO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-30T21:10:54.000Z",
+          "journal": "Scientific Reports",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19de03afd46c0be5",
+            "messageId": "19de03afd46c0be5",
+            "subject": "Scientific Reports - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-12T11:20:42.000Z",
+          "journal": "Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e1beaf4415ae3e",
+            "messageId": "19e1beaf4415ae3e",
+            "subject": "Confirm co-authorship of submission to Journal of Orthopaedics",
+            "from": "Journal of Orthopaedics <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-17T12:07:51.000Z",
+          "journal": "Archives of Orthopaedic and Trauma Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e35d5ea8a85133",
+            "messageId": "19e35d5ea8a85133",
+            "subject": "Archives of Orthopaedic and Trauma Surgery - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-25T09:38:53.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e5e806aa0915cc",
+            "messageId": "19e5e806aa0915cc",
+            "subject": "International Orthopaedics - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-11T11:38:31.000Z",
           "journal": "International Orthopaedics",
@@ -5191,6 +6289,31 @@
         {
           "journal": "Global Spine Journal",
           "manuscriptNumber": "GSJ-26-0904",
+          "submittedDate": "2026-05-06T07:27:02.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-06T07:27:02.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-0904",
+              "source": {
+                "threadId": "19dfc2ede802a760",
+                "messageId": "19dfc2ede802a760",
+                "subject": "Global Spine Journal  GSJ-26-0904",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0904",
           "submittedDate": "2026-06-15T22:57:00.000Z",
           "outcome": "rejected",
           "status": "rejected",
@@ -5268,6 +6391,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-05-06T07:27:02.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dfc2ede802a760",
+            "messageId": "19dfc2ede802a760",
+            "subject": "Global Spine Journal  GSJ-26-0904",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-15T22:57:00.000Z",
           "journal": "Global Spine Journal",
@@ -5698,11 +6837,41 @@
                 "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-03-08T11:21:08.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ccd2dfb1bed5bf",
+                "messageId": "19ccd2dfb1bed5bf",
+                "subject": "Number ID: 05395420 World Journal of Translational Medicine reply letter to confirm receipt of the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-03-08T11:21:08.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ccd2dfb1bed5bf",
+            "messageId": "19ccd2dfb1bed5bf",
+            "subject": "Number ID: 05395420 World Journal of Translational Medicine reply letter to confirm receipt of the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-07-03T08:00:38.000Z",
           "journal": "World Journal of Translational Medicine",
@@ -6190,6 +7359,31 @@
         {
           "journal": "International Orthopaedics",
           "manuscriptNumber": null,
+          "submittedDate": "2026-05-08T08:10:55.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-08T08:10:55.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e06a3c357f95e2",
+                "messageId": "19e06a3c357f95e2",
+                "subject": "Re: International Orthopaedics-Amendment required",
+                "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
           "submittedDate": "2026-06-24T01:59:00.000Z",
           "outcome": "rejected",
           "status": "rejected",
@@ -6214,6 +7408,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-05-08T08:10:55.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19e06a3c357f95e2",
+            "messageId": "19e06a3c357f95e2",
+            "subject": "Re: International Orthopaedics-Amendment required",
+            "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-24T01:59:00.000Z",
           "journal": "International Orthopaedics",
@@ -6256,6 +7466,31 @@
         {
           "journal": "Global Spine Journal",
           "manuscriptNumber": "GSJ-26-0701",
+          "submittedDate": "2026-04-08T05:57:43.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-08T05:57:43.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-0701",
+              "source": {
+                "threadId": "19d6bab0bce2b977",
+                "messageId": "19d6bab0bce2b977",
+                "subject": "Global Spine Journal  GSJ-26-0701",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0701",
           "submittedDate": "2026-04-15T21:54:00.000Z",
           "outcome": "rejected",
           "status": "rejected",
@@ -6273,6 +7508,31 @@
                 "messageId": "19d96259c79fc21d",
                 "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
                 "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-30T08:16:12.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-30T08:16:12.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ddd75b8d3d10b0",
+                "messageId": "19ddd75b8d3d10b0",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0363",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
             }
@@ -6306,6 +7566,22 @@
       ],
       "timeline": [
         {
+          "timestamp": "2026-04-08T05:57:43.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d6bab0bce2b977",
+            "messageId": "19d6bab0bce2b977",
+            "subject": "Global Spine Journal  GSJ-26-0701",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
           "timestamp": "2026-04-15T21:54:00.000Z",
           "journal": "Global Spine Journal",
           "eventType": "rejected",
@@ -6317,6 +7593,22 @@
             "messageId": "19d96259c79fc21d",
             "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
             "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-30T08:16:12.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ddd75b8d3d10b0",
+            "messageId": "19ddd75b8d3d10b0",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0363",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
           },
           "needsReview": false
@@ -6446,11 +7738,41 @@
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-04-21T08:47:08.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19daf38eafdfa449",
+                "messageId": "19daf38eafdfa449",
+                "subject": "World Journal of Orthopedics Article In Press - Manuscript NO: 119301",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-21T08:47:08.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19daf38eafdfa449",
+            "messageId": "19daf38eafdfa449",
+            "subject": "World Journal of Orthopedics Article In Press - Manuscript NO: 119301",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-17T06:55:18.000Z",
           "journal": "World Journal of Orthopedics",
@@ -6832,7 +8154,7 @@
           "manuscriptNumber": "GSJ-25-2064.R4",
           "submittedDate": "2026-06-10T14:44:53.000Z",
           "outcome": "active",
-          "status": "accepted",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -6863,11 +8185,71 @@
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-03-15T06:18:56.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-25-2064.R2",
+              "source": {
+                "threadId": "19cf025d4027e3b5",
+                "messageId": "19cf025d4027e3b5",
+                "subject": "Global Spine Journal  GSJ-25-2064.R2",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-08T14:16:24.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-25-2064.R4",
+              "source": {
+                "threadId": "19e07f260cbc237d",
+                "messageId": "19e07f260cbc237d",
+                "subject": "Global Spine Journal  GSJ-25-2064.R4",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-03-15T06:18:56.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19cf025d4027e3b5",
+            "messageId": "19cf025d4027e3b5",
+            "subject": "Global Spine Journal  GSJ-25-2064.R2",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-08T14:16:24.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19e07f260cbc237d",
+            "messageId": "19e07f260cbc237d",
+            "subject": "Global Spine Journal  GSJ-25-2064.R4",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-10T14:44:52.000Z",
           "journal": "Global Spine Journal",
@@ -7078,6 +8460,45 @@
       ],
       "submissions": [
         {
+          "journal": "World Journal of Experimental Medicine",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-03T13:20:18.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-03T13:20:18.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d5380db63415a0",
+                "messageId": "19d5380db63415a0",
+                "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 121907",
+                "from": "BPG Submission <submission@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-16T14:21:03.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d96ab12e7b0013",
+                "messageId": "19d96ab12e7b0013",
+                "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 121907",
+                "from": "BPG Submission <submission@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
           "journal": "World Journal of Clinical Cases",
           "manuscriptNumber": null,
           "submittedDate": "2026-06-09T08:31:55.000Z",
@@ -7099,11 +8520,73 @@
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-04-17T01:09:47.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d98fcb511722c1",
+                "messageId": "19d98fcb511722c1",
+                "subject": "World Journal of Clinical Cases Manuscript No.: 121907 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+                "from": "BPG Submission <submission@wjgnet.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-04-03T13:20:18.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d5380db63415a0",
+            "messageId": "19d5380db63415a0",
+            "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 121907",
+            "from": "BPG Submission <submission@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-16T14:21:03.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d96ab12e7b0013",
+            "messageId": "19d96ab12e7b0013",
+            "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 121907",
+            "from": "BPG Submission <submission@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-17T01:09:47.000Z",
+          "journal": "World Journal of Clinical Cases",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d98fcb511722c1",
+            "messageId": "19d98fcb511722c1",
+            "subject": "World Journal of Clinical Cases Manuscript No.: 121907 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+            "from": "BPG Submission <submission@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-09T08:31:55.000Z",
           "journal": "World Journal of Clinical Cases",
@@ -7210,6 +8693,31 @@
         {
           "journal": "International Orthopaedics",
           "manuscriptNumber": null,
+          "submittedDate": "2026-05-16T15:02:12.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-16T15:02:12.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e314f2f2cf7e86",
+                "messageId": "19e314f2f2cf7e86",
+                "subject": "International Orthopaedics - Receipt of Manuscript 'Does obesity reduce...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
           "submittedDate": "2026-05-31T03:41:59.000Z",
           "outcome": "rejected",
           "status": "rejected",
@@ -7259,6 +8767,22 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-05-16T15:02:12.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e314f2f2cf7e86",
+            "messageId": "19e314f2f2cf7e86",
+            "subject": "International Orthopaedics - Receipt of Manuscript 'Does obesity reduce...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-05-31T03:41:59.000Z",
           "journal": "International Orthopaedics",
@@ -7400,11 +8924,71 @@
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-03-04T15:45:43.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cb986e6c6a3d17",
+                "messageId": "19cb986e6c6a3d17",
+                "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 120195",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-26T07:58:16.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e634ab6282f217",
+                "messageId": "19e634ab6282f217",
+                "subject": "World Journal of Orthopedics Article In Press - Manuscript NO: 120195",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-03-04T15:45:43.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cb986e6c6a3d17",
+            "messageId": "19cb986e6c6a3d17",
+            "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 120195",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-26T07:58:16.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e634ab6282f217",
+            "messageId": "19e634ab6282f217",
+            "subject": "World Journal of Orthopedics Article In Press - Manuscript NO: 120195",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-06-02T16:15:07.000Z",
           "journal": "World Journal of Orthopedics",
@@ -7530,11 +9114,71 @@
                 "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
                 "via": "offline-import"
               }
+            },
+            {
+              "timestamp": "2026-03-03T07:22:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cb293df3349f06",
+                "messageId": "19cb293df3349f06",
+                "subject": "World Journal of Stem Cells Article In Press - Manuscript NO: 117689",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-25T07:48:03.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e5e1b536fac80b",
+                "messageId": "19e5e1b536fac80b",
+                "subject": "World Journal of Stem Cells Manuscript Publication-Manuscript NO: 117689",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
             }
           ]
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-03-03T07:22:32.000Z",
+          "journal": "World Journal of Stem Cells",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cb293df3349f06",
+            "messageId": "19cb293df3349f06",
+            "subject": "World Journal of Stem Cells Article In Press - Manuscript NO: 117689",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-25T07:48:03.000Z",
+          "journal": "World Journal of Stem Cells",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e5e1b536fac80b",
+            "messageId": "19e5e1b536fac80b",
+            "subject": "World Journal of Stem Cells Manuscript Publication-Manuscript NO: 117689",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-05-30T01:31:46.000Z",
           "journal": "World Journal of Stem Cells",
@@ -7554,6 +9198,672 @@
       ],
       "createdAt": "2026-05-30T01:31:46.000Z",
       "updatedAt": "2026-05-30T01:31:46.000Z"
+    },
+    {
+      "id": "personalizing-regenerative-medicine-for-knee-osteoarthritis-the-artifi",
+      "title": "Personalizing Regenerative Medicine for Knee Osteoarthritis: The Artificial intelligence Revolution",
+      "titleNormalized": "personalizing regenerative medicine for knee osteoarthritis the artificial intelligence revolution",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Materials Today Bio",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Materials Today Bio",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-19T07:26:09.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-19T07:26:09.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e3f20b8157fad3",
+                "messageId": "19e3f20b8157fad3",
+                "subject": "Confirm co-authorship of submission to Materials Today Bio",
+                "from": "Materials Today Bio <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-19T07:26:09.000Z",
+          "journal": "Materials Today Bio",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e3f20b8157fad3",
+            "messageId": "19e3f20b8157fad3",
+            "subject": "Confirm co-authorship of submission to Materials Today Bio",
+            "from": "Materials Today Bio <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-05-19T07:26:09.000Z",
+      "updatedAt": "2026-05-19T07:26:09.000Z"
+    },
+    {
+      "id": "systematic-review-and-meta-analysis-on-vitamin-c-in-musculoskeletal-di",
+      "title": "Systematic review and meta-analysis on vitamin C in musculoskeletal disorders",
+      "titleNormalized": "systematic review and meta analysis on vitamin c in musculoskeletal disorders",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-18T08:33:22.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-18T08:33:22.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e3a380f090c138",
+                "messageId": "19e3a380f090c138",
+                "subject": "World Journal of Orthopedics Manuscript Publication-Manuscript NO: 116723",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-18T08:33:22.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e3a380f090c138",
+            "messageId": "19e3a380f090c138",
+            "subject": "World Journal of Orthopedics Manuscript Publication-Manuscript NO: 116723",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-05-18T08:33:22.000Z",
+      "updatedAt": "2026-05-18T08:33:22.000Z"
+    },
+    {
+      "id": "filgotinib-jyseleca-in-orthopaedic-rheumatological-conditions-a-narrat",
+      "title": "Filgotinib (Jyseleca) in Orthopaedic Rheumatological Conditions: A Narrative Review of Efficacy, Selectivity, and Long-Term Safety",
+      "titleNormalized": "filgotinib jyseleca in orthopaedic rheumatological conditions a narrative review of efficacy selectivity and long term safety",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Advances in Rheumatology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Scientific Reports",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-22T08:56:27.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-22T08:56:27.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d14c28ff49191a",
+                "messageId": "19d14c28ff49191a",
+                "subject": "Scientific Reports - Receipt of Manuscript 'Filgotinib (Jyseleca) in...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Arthritis & Rheumatology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-29T22:18:02.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-29T22:18:02.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d3bacf0c1fa16b",
+                "messageId": "19d3bacf0c1fa16b",
+                "subject": "Arthritis & Rheumatology - You're an Author on ar-26-0635",
+                "from": "\"Arthritis & Rheumatology\" <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Clinical Rheumatology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-03T18:36:39.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-03T18:36:39.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d54a20da0fbbf5",
+                "messageId": "19d54a20da0fbbf5",
+                "subject": "Clinical Rheumatology - Submission Confirmation Filgotinib (Jyseleca) in Orthopaedic Rheumatological Conditions: A Narrative Review of Efficacy, Selectivity, and Long-Term Safety for co-author - [EMID:bcf39cb5fb20f851]",
+                "from": "Editorial Office - Clinical Rheumatology <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Arthritis Research & Therapy",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-22T19:36:31.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-22T19:36:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19db6b1b7666cd95",
+                "messageId": "19db6b1b7666cd95",
+                "subject": "Arthritis Research & Therapy - Receipt of Manuscript 'Filgotinib (Jyseleca) in...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Advances in Rheumatology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-17T11:48:52.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-17T11:48:52.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e35c48befc115f",
+                "messageId": "19e35c48befc115f",
+                "subject": "Advances in Rheumatology - Receipt of Manuscript 'Filgotinib (Jyseleca) in...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-22T08:56:27.000Z",
+          "journal": "Scientific Reports",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d14c28ff49191a",
+            "messageId": "19d14c28ff49191a",
+            "subject": "Scientific Reports - Receipt of Manuscript 'Filgotinib (Jyseleca) in...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-03-29T22:18:02.000Z",
+          "journal": "Arthritis & Rheumatology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d3bacf0c1fa16b",
+            "messageId": "19d3bacf0c1fa16b",
+            "subject": "Arthritis & Rheumatology - You're an Author on ar-26-0635",
+            "from": "\"Arthritis & Rheumatology\" <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-03T18:36:39.000Z",
+          "journal": "Clinical Rheumatology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d54a20da0fbbf5",
+            "messageId": "19d54a20da0fbbf5",
+            "subject": "Clinical Rheumatology - Submission Confirmation Filgotinib (Jyseleca) in Orthopaedic Rheumatological Conditions: A Narrative Review of Efficacy, Selectivity, and Long-Term Safety for co-author - [EMID:bcf39cb5fb20f851]",
+            "from": "Editorial Office - Clinical Rheumatology <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-22T19:36:31.000Z",
+          "journal": "Arthritis Research & Therapy",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19db6b1b7666cd95",
+            "messageId": "19db6b1b7666cd95",
+            "subject": "Arthritis Research & Therapy - Receipt of Manuscript 'Filgotinib (Jyseleca) in...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-17T11:48:52.000Z",
+          "journal": "Advances in Rheumatology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e35c48befc115f",
+            "messageId": "19e35c48befc115f",
+            "subject": "Advances in Rheumatology - Receipt of Manuscript 'Filgotinib (Jyseleca) in...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-22T08:56:27.000Z",
+      "updatedAt": "2026-05-17T11:48:52.000Z"
+    },
+    {
+      "id": "higher-risk-comparable-recovery-the-impact-of-obesity-on-outcomes-afte",
+      "title": "Higher Risk, Comparable Recovery: The Impact of Obesity on Outcomes after Lumbar Spine Surgery – A Systematic Review and Meta-Analysis",
+      "titleNormalized": "higher risk comparable recovery the impact of obesity on outcomes after lumbar spine surgery a systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Clinical Spine Surgery",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Clinical Spine Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-15T02:45:38.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-15T02:45:38.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e2986766595f2c",
+                "messageId": "19e2986766595f2c",
+                "subject": "ClinSpineSurgery Submission Confirmation",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-15T02:45:38.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e2986766595f2c",
+            "messageId": "19e2986766595f2c",
+            "subject": "ClinSpineSurgery Submission Confirmation",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-05-15T02:45:38.000Z",
+      "updatedAt": "2026-05-15T02:45:38.000Z"
+    },
+    {
+      "id": "recommendations-of-the-international-consensus-meeting-icm-2025-on-spi",
+      "title": "Recommendations of the International Consensus Meeting (ICM) 2025 on Spinal Infections: Part A Tubercular Spondylodiscitis",
+      "titleNormalized": "recommendations of the international consensus meeting icm 2025 on spinal infections part a tubercular spondylodiscitis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0074.R1",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0074.R1",
+          "submittedDate": "2026-05-06T01:15:11.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-06T01:15:11.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0075.R1",
+              "source": {
+                "threadId": "19dfada6c6c2abbe",
+                "messageId": "19dfada6c6c2abbe",
+                "subject": "Global Spine Journal  GSJ-26-0075.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-12T20:14:31.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-26-0074.R1",
+              "source": {
+                "threadId": "19e1dd3af7ac463d",
+                "messageId": "19e1dd3af7ac463d",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-26-0074.R1)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-06T01:15:11.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19dfada6c6c2abbe",
+            "messageId": "19dfada6c6c2abbe",
+            "subject": "Global Spine Journal  GSJ-26-0075.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-12T20:14:31.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19e1dd3af7ac463d",
+            "messageId": "19e1dd3af7ac463d",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-26-0074.R1)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-05-06T01:15:11.000Z",
+      "updatedAt": "2026-05-12T20:14:31.000Z"
+    },
+    {
+      "id": "aggressive-lesions-of-the-c2-vertebra-a-systematic-review-of-tumour-bi",
+      "title": "Aggressive Lesions of the C2 Vertebra: A Systematic Review of Tumour Biology, Clinical Presentation and Management Strategies",
+      "titleNormalized": "aggressive lesions of the c2 vertebra a systematic review of tumour biology clinical presentation and management strategies",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Indian Journal of Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-02T14:25:48.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-02T14:25:48.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19caef0e51d7710c",
+                "messageId": "19caef0e51d7710c",
+                "subject": "Track the status of your submission to European Spine Journal",
+                "from": "info@researchsquare.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-31T12:31:32.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-31T12:31:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d43e0b4e9bcfcf",
+                "messageId": "19d43e0b4e9bcfcf",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0267",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-06T02:17:42.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-06T02:17:42.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dfb13aa3c9d7fa",
+                "messageId": "19dfb13aa3c9d7fa",
+                "subject": "Indian Journal of Orthopaedics - Submission Confirmation Aggressive lesions of the C2 vertebra: A systematic review of tumour biology, clinical presentation and management strategies for co-author - [EMID:a610ae0bceb4162a]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-02T14:25:48.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19caef0e51d7710c",
+            "messageId": "19caef0e51d7710c",
+            "subject": "Track the status of your submission to European Spine Journal",
+            "from": "info@researchsquare.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-03-31T12:31:32.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d43e0b4e9bcfcf",
+            "messageId": "19d43e0b4e9bcfcf",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0267",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-06T02:17:42.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dfb13aa3c9d7fa",
+            "messageId": "19dfb13aa3c9d7fa",
+            "subject": "Indian Journal of Orthopaedics - Submission Confirmation Aggressive lesions of the C2 vertebra: A systematic review of tumour biology, clinical presentation and management strategies for co-author - [EMID:a610ae0bceb4162a]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-02T14:25:48.000Z",
+      "updatedAt": "2026-05-06T02:17:42.000Z"
     },
     {
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-anterior-cervical-di",
@@ -7619,6 +9929,2217 @@
       ],
       "createdAt": "2026-05-03T09:29:19.000Z",
       "updatedAt": "2026-05-03T09:29:19.000Z"
+    },
+    {
+      "id": "hydrotherapy-in-musculoskeletal-care-current-insights-and-review",
+      "title": "Hydrotherapy in Musculoskeletal Care: Current Insights and Review",
+      "titleNormalized": "hydrotherapy in musculoskeletal care current insights and review",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Complementary Therapies in Clinical Practice",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Musculoskeletal Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-08T20:20:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-08T20:20:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ccf1b69682a80e",
+                "messageId": "19ccf1b69682a80e",
+                "subject": "MUSCULOSKELETAL SURGERY - Receipt of Manuscript 'Hydrotherapy in Musculoskeletal...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "BMC Sports Science, Medicine and Rehabilitation",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-11T14:08:23.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-11T14:08:23.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d7cdf54703c512",
+                "messageId": "19d7cdf54703c512",
+                "subject": "BMC Sports Science, Medicine and Rehabilitation - Receipt of Manuscript 'Hydrotherapy in Musculoskeletal...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Experimental Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-17T20:45:34.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-17T20:45:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d9d311ceaee410",
+                "messageId": "19d9d311ceaee410",
+                "subject": "Submission Confirmation for Hydrotherapy in Musculoskeletal Care: Current Insights and Review (jeo.202600414)",
+                "from": "JEO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Complementary Therapies in Clinical Practice",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-01T13:08:36.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-01T13:08:36.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19de3a7cbc255da7",
+                "messageId": "19de3a7cbc255da7",
+                "subject": "Confirm co-authorship of submission to Complementary Therapies in Clinical Practice",
+                "from": "Complementary Therapies in Clinical Practice <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-08T20:20:04.000Z",
+          "journal": "Musculoskeletal Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ccf1b69682a80e",
+            "messageId": "19ccf1b69682a80e",
+            "subject": "MUSCULOSKELETAL SURGERY - Receipt of Manuscript 'Hydrotherapy in Musculoskeletal...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-11T14:08:23.000Z",
+          "journal": "BMC Sports Science, Medicine and Rehabilitation",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d7cdf54703c512",
+            "messageId": "19d7cdf54703c512",
+            "subject": "BMC Sports Science, Medicine and Rehabilitation - Receipt of Manuscript 'Hydrotherapy in Musculoskeletal...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-17T20:45:34.000Z",
+          "journal": "Journal of Experimental Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d9d311ceaee410",
+            "messageId": "19d9d311ceaee410",
+            "subject": "Submission Confirmation for Hydrotherapy in Musculoskeletal Care: Current Insights and Review (jeo.202600414)",
+            "from": "JEO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-01T13:08:36.000Z",
+          "journal": "Complementary Therapies in Clinical Practice",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19de3a7cbc255da7",
+            "messageId": "19de3a7cbc255da7",
+            "subject": "Confirm co-authorship of submission to Complementary Therapies in Clinical Practice",
+            "from": "Complementary Therapies in Clinical Practice <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-08T20:20:04.000Z",
+      "updatedAt": "2026-05-01T13:08:36.000Z"
+    },
+    {
+      "id": "no-116723-to-the-world-journal-of-orthopedics-i-am-pleased-to-inform-y",
+      "title": "(NO.: 119301) to the World Journal of Orthopedics . I am pleased to inform you that I have added an additional comment regarding your manuscript. The comment is as follows: Dear Dr. [Jeyaraman], Your manuscript",
+      "titleNormalized": "no 119301 to the world journal of orthopedics i am pleased to inform you that i have added an additional comment regarding your manuscript the comment is as follows dear dr jeyaraman your manuscript",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Experimental Medicine",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-28T03:22:03.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-28T03:22:03.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dd21bd64671ce5",
+                "messageId": "19dd21bd64671ce5",
+                "subject": "World Journal of Orthopedics Manuscript NO: 116723 – Manuscript comment from the Editorial Office",
+                "from": "\"Hu, Xin-Yue (Baishideng)\" <x.y.hu@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-28T08:42:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dd34124322458b",
+                "messageId": "19dd34124322458b",
+                "subject": "World Journal of Orthopedics Manuscript NO: 119301 – Manuscript comment from the Editorial Office",
+                "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "World Journal of Experimental Medicine",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-29T03:31:38.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-29T03:31:38.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dd74ae3f1431f7",
+                "messageId": "19dd74ae3f1431f7",
+                "subject": "World Journal of Experimental Medicine Manuscript NO: 120531 – Manuscript comment from the Editorial Office",
+                "from": "\"Hu, Xin-Yue (Baishideng)\" <x.y.hu@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-28T03:22:03.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dd21bd64671ce5",
+            "messageId": "19dd21bd64671ce5",
+            "subject": "World Journal of Orthopedics Manuscript NO: 116723 – Manuscript comment from the Editorial Office",
+            "from": "\"Hu, Xin-Yue (Baishideng)\" <x.y.hu@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-28T08:42:31.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dd34124322458b",
+            "messageId": "19dd34124322458b",
+            "subject": "World Journal of Orthopedics Manuscript NO: 119301 – Manuscript comment from the Editorial Office",
+            "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-29T03:31:38.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dd74ae3f1431f7",
+            "messageId": "19dd74ae3f1431f7",
+            "subject": "World Journal of Experimental Medicine Manuscript NO: 120531 – Manuscript comment from the Editorial Office",
+            "from": "\"Hu, Xin-Yue (Baishideng)\" <x.y.hu@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-28T03:22:03.000Z",
+      "updatedAt": "2026-04-29T03:31:38.000Z"
+    },
+    {
+      "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
+      "title": "Evaluating the efficacy of intra-articular bone marrow aspirate concentrate injection vs steroid injections in knee osteoarthritis: A randomized controlled trial",
+      "titleNormalized": "evaluating the efficacy of intra articular bone marrow aspirate concentrate injection vs steroid injections in knee osteoarthritis a randomized controlled trial",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-25T13:28:53.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-25T13:28:53.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dc4d431060fce5",
+                "messageId": "19dc4d431060fce5",
+                "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-25T13:28:53.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dc4d431060fce5",
+            "messageId": "19dc4d431060fce5",
+            "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-25T13:28:53.000Z",
+      "updatedAt": "2026-04-25T13:28:53.000Z"
+    },
+    {
+      "id": "thoracolumbar-pedicle-screws-misplacement-using-2d-computer-assisted-n",
+      "title": "Thoracolumbar Pedicle Screws Misplacement using 2D Computer-assisted navigation. A Systematic Review and Meta-Analysis with Reported Avoidance Techniques",
+      "titleNormalized": "thoracolumbar pedicle screws misplacement using 2d computer assisted navigation a systematic review and meta analysis with reported avoidance techniques",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0116.R1",
+      "currentStatus": "Under review",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0116.R1",
+          "submittedDate": "2026-04-24T17:54:27.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-24T17:54:27.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0116.R1",
+              "source": {
+                "threadId": "19dc0a0fc242a727",
+                "messageId": "19dc0a0fc242a727",
+                "subject": "Global Spine Journal  GSJ-26-0116.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-24T17:54:27.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19dc0a0fc242a727",
+            "messageId": "19dc0a0fc242a727",
+            "subject": "Global Spine Journal  GSJ-26-0116.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-24T17:54:27.000Z",
+      "updatedAt": "2026-04-24T17:54:27.000Z"
+    },
+    {
+      "id": "car-t-cell-therapy-in-solid-musculoskeletal-tumours-implications-for-r",
+      "title": "CAR-T Cell Therapy in Solid Musculoskeletal Tumours: Implications for Regenerative Orthopaedics - A Scoping Review",
+      "titleNormalized": "car t cell therapy in solid musculoskeletal tumours implications for regenerative orthopaedics a scoping review",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-24T13:29:40.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-24T13:29:40.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dbfae8c10b2b51",
+                "messageId": "19dbfae8c10b2b51",
+                "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00117) - [EMID:bb4d57a4f043104d]",
+                "from": "JBJS Open Access <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-24T13:29:40.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dbfae8c10b2b51",
+            "messageId": "19dbfae8c10b2b51",
+            "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00117) - [EMID:bb4d57a4f043104d]",
+            "from": "JBJS Open Access <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-24T13:29:40.000Z",
+      "updatedAt": "2026-04-24T13:29:40.000Z"
+    },
+    {
+      "id": "submission-during-our-initial-checks-the-abstract",
+      "title": "submission. During our initial checks, the abstract",
+      "titleNormalized": "submission during our initial checks the abstract",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Experimental Medicine",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-07T01:31:51.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-07T01:31:51.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d6591523802a6c",
+                "messageId": "19d6591523802a6c",
+                "subject": "World Journal of Experimental Medicine Manuscript NO: 121907 – Manuscript comment from the Editorial Office",
+                "from": "\"Xuan, Jia-Qi (Baishideng)\" <j.q.xuan@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "World Journal of Translational Medicine",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-10T03:07:36.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-10T03:07:36.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d755c1bad472f2",
+                "messageId": "19d755c1bad472f2",
+                "subject": "World Journal of Translational Medicine Manuscript NO: 122119 – Manuscript comment from the Editorial Office",
+                "from": "\"Xuan, Jia-Qi (Baishideng)\" <j.q.xuan@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-23T06:34:16.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-23T06:34:16.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19db90beec2602fc",
+                "messageId": "19db90beec2602fc",
+                "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
+                "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-07T01:31:51.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d6591523802a6c",
+            "messageId": "19d6591523802a6c",
+            "subject": "World Journal of Experimental Medicine Manuscript NO: 121907 – Manuscript comment from the Editorial Office",
+            "from": "\"Xuan, Jia-Qi (Baishideng)\" <j.q.xuan@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-10T03:07:36.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d755c1bad472f2",
+            "messageId": "19d755c1bad472f2",
+            "subject": "World Journal of Translational Medicine Manuscript NO: 122119 – Manuscript comment from the Editorial Office",
+            "from": "\"Xuan, Jia-Qi (Baishideng)\" <j.q.xuan@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-23T06:34:16.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19db90beec2602fc",
+            "messageId": "19db90beec2602fc",
+            "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
+            "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-07T01:31:51.000Z",
+      "updatedAt": "2026-04-23T06:34:16.000Z"
+    },
+    {
+      "id": "incidence-recovery-of-sexual-dysfunction-in-cauda-equina-syndrome-foll",
+      "title": "Incidence & Recovery of Sexual Dysfunction in Cauda Equina Syndrome following Surgical Decompression: A Systematic Review and Meta-analysis",
+      "titleNormalized": "incidence recovery of sexual dysfunction in cauda equina syndrome following surgical decompression a systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Indian Journal of Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-22T14:39:37.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-22T14:39:37.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19db5a1e0e93284d",
+                "messageId": "19db5a1e0e93284d",
+                "subject": "Submission Confirmation",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-22T14:39:37.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19db5a1e0e93284d",
+            "messageId": "19db5a1e0e93284d",
+            "subject": "Submission Confirmation",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-22T14:39:37.000Z",
+      "updatedAt": "2026-04-22T14:39:37.000Z"
+    },
+    {
+      "id": "exosomal-biomarkers-paving-the-way-for-precision-diagnosis-in-orthoped",
+      "title": "Exosomal Biomarkers: Paving the Way for Precision Diagnosis in Orthopedics",
+      "titleNormalized": "exosomal biomarkers paving the way for precision diagnosis in orthopedics",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Stem Cell Reviews and Reports",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Stem Cell Reviews and Reports",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-22T08:35:12.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-22T08:35:12.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19db4543ee60411d",
+                "messageId": "19db4543ee60411d",
+                "subject": "Stem Cell Reviews and Reports - Receipt of Manuscript 'Exosomal Biomarkers: Paving...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-22T08:35:12.000Z",
+          "journal": "Stem Cell Reviews and Reports",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19db4543ee60411d",
+            "messageId": "19db4543ee60411d",
+            "subject": "Stem Cell Reviews and Reports - Receipt of Manuscript 'Exosomal Biomarkers: Paving...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-22T08:35:12.000Z",
+      "updatedAt": "2026-04-22T08:35:12.000Z"
+    },
+    {
+      "id": "comparative-efficacy-and-safety-of-osteobiologics-in-posterior-lumbar-",
+      "title": "Comparative Efficacy and Safety of Osteobiologics in Posterior Lumbar Fusion: A Network Meta-Analysis of Randomized Controlled Trials",
+      "titleNormalized": "comparative efficacy and safety of osteobiologics in posterior lumbar fusion a network meta analysis of randomized controlled trials",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0291.R1",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0291.R1",
+          "submittedDate": "2026-04-09T12:46:05.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-09T12:46:05.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0291.R1",
+              "source": {
+                "threadId": "19d7247436473d8b",
+                "messageId": "19d7247436473d8b",
+                "subject": "Global Spine Journal  GSJ-26-0291.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-14T10:31:44.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0291.R1",
+              "source": {
+                "threadId": "19d8b8c1091fec06",
+                "messageId": "19d8b8c1091fec06",
+                "subject": "Global Spine Journal  GSJ-26-0291.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-20T20:51:38.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-26-0291.R1",
+              "source": {
+                "threadId": "19daca9bfb9e6e88",
+                "messageId": "19daca9bfb9e6e88",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-26-0291.R1)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-09T12:46:05.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19d7247436473d8b",
+            "messageId": "19d7247436473d8b",
+            "subject": "Global Spine Journal  GSJ-26-0291.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-14T10:31:44.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19d8b8c1091fec06",
+            "messageId": "19d8b8c1091fec06",
+            "subject": "Global Spine Journal  GSJ-26-0291.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-20T20:51:38.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19daca9bfb9e6e88",
+            "messageId": "19daca9bfb9e6e88",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-26-0291.R1)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-09T12:46:05.000Z",
+      "updatedAt": "2026-04-20T20:51:38.000Z"
+    },
+    {
+      "id": "future-perspectives-on-mesenchymal-stromal-cell-derived-secretomes-in-",
+      "title": "Future perspectives on mesenchymal stromal cell-derived secretomes in knee osteoarthritis",
+      "titleNormalized": "future perspectives on mesenchymal stromal cell derived secretomes in knee osteoarthritis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Stem Cells",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Stem Cells",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-20T08:05:39.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-20T08:05:39.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19da9eca27858af5",
+                "messageId": "19da9eca27858af5",
+                "subject": "World Journal of Stem Cells Manuscript Publication-Manuscript NO: 117271",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-20T08:05:39.000Z",
+          "journal": "World Journal of Stem Cells",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19da9eca27858af5",
+            "messageId": "19da9eca27858af5",
+            "subject": "World Journal of Stem Cells Manuscript Publication-Manuscript NO: 117271",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-20T08:05:39.000Z",
+      "updatedAt": "2026-04-20T08:05:39.000Z"
+    },
+    {
+      "id": "comparative-outcomes-of-intra-articular-subchondral-and-combined-injec",
+      "title": "Comparative outcomes of intra-articular, subchondral, and combined injections of peripheral blood mesenchymal stromal cells in knee osteoarthritis",
+      "titleNormalized": "comparative outcomes of intra articular subchondral and combined injections of peripheral blood mesenchymal stromal cells in knee osteoarthritis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-10T07:08:49.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-10T07:08:49.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d7638f1eedc655",
+                "messageId": "19d7638f1eedc655",
+                "subject": "World Journal of Orthopedics Manuscript Publication-Manuscript NO: 116916",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-18T01:35:55.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d9e3af3911ebd3",
+                "messageId": "19d9e3af3911ebd3",
+                "subject": "World Journal of Orthopedics Notification that your Authors Evaluation has not been submitted yet-Manuscript NO: 116916",
+                "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-10T07:08:49.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d7638f1eedc655",
+            "messageId": "19d7638f1eedc655",
+            "subject": "World Journal of Orthopedics Manuscript Publication-Manuscript NO: 116916",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-18T01:35:55.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d9e3af3911ebd3",
+            "messageId": "19d9e3af3911ebd3",
+            "subject": "World Journal of Orthopedics Notification that your Authors Evaluation has not been submitted yet-Manuscript NO: 116916",
+            "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-10T07:08:49.000Z",
+      "updatedAt": "2026-04-18T01:35:55.000Z"
+    },
+    {
+      "id": "management-and-prevention-of-iatrogenic-ipsilateral-femoral-neck-fract",
+      "title": "Management and prevention of iatrogenic ipsilateral femoral neck fracture during intramedullary nailing of femoral shaft",
+      "titleNormalized": "management and prevention of iatrogenic ipsilateral femoral neck fracture during intramedullary nailing of femoral shaft",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-10T07:08:48.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-10T07:08:48.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d7638e4aee6264",
+                "messageId": "19d7638e4aee6264",
+                "subject": "World Journal of Orthopedics Manuscript Publication-Manuscript NO: 116107",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-18T01:35:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d9e3a99400d478",
+                "messageId": "19d9e3a99400d478",
+                "subject": "World Journal of Orthopedics Notification that your Authors Evaluation has not been submitted yet-Manuscript NO: 116107",
+                "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-10T07:08:48.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d7638e4aee6264",
+            "messageId": "19d7638e4aee6264",
+            "subject": "World Journal of Orthopedics Manuscript Publication-Manuscript NO: 116107",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-18T01:35:32.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d9e3a99400d478",
+            "messageId": "19d9e3a99400d478",
+            "subject": "World Journal of Orthopedics Notification that your Authors Evaluation has not been submitted yet-Manuscript NO: 116107",
+            "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-10T07:08:48.000Z",
+      "updatedAt": "2026-04-18T01:35:32.000Z"
+    },
+    {
+      "id": "the-alarming-deficiency-of-high-quality-systematic-reviews-in-prp-augm",
+      "title": "The Alarming Deficiency of High-Quality Systematic Reviews in PRP-Augmented Meniscal Repair: A systematic overview",
+      "titleNormalized": "the alarming deficiency of high quality systematic reviews in prp augmented meniscal repair a systematic overview",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Experimental Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Experimental Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-14T12:37:41.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-14T12:37:41.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d8bff5fe7ed86a",
+                "messageId": "19d8bff5fe7ed86a",
+                "subject": "Your submission \"The Alarming Deficiency of High-Quality Systematic Reviews in PRP-Augmented Meniscal Repair: A systematic overview\" to Journal of Experimental Orthopaedics (jeo.202501124R1) - [EMID:6cfcdc153fc889bd]",
+                "from": "JEO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-14T12:37:41.000Z",
+          "journal": "Journal of Experimental Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d8bff5fe7ed86a",
+            "messageId": "19d8bff5fe7ed86a",
+            "subject": "Your submission \"The Alarming Deficiency of High-Quality Systematic Reviews in PRP-Augmented Meniscal Repair: A systematic overview\" to Journal of Experimental Orthopaedics (jeo.202501124R1) - [EMID:6cfcdc153fc889bd]",
+            "from": "JEO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-14T12:37:41.000Z",
+      "updatedAt": "2026-04-14T12:37:41.000Z"
+    },
+    {
+      "id": "adoption-of-mibo-guidelines-in-orthobiologics-practice-a-framework-for",
+      "title": "Adoption of MIBO Guidelines in Orthobiologics Practice: A Framework for Standardized Reporting, Clinical Translation, and Regulatory Compliance",
+      "titleNormalized": "adoption of mibo guidelines in orthobiologics practice a framework for standardized reporting clinical translation and regulatory compliance",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Indian Journal of Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-06T01:49:38.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-06T01:49:38.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d607b2c88c91af",
+                "messageId": "19d607b2c88c91af",
+                "subject": "Indian Journal of Orthopaedics - Submission Confirmation Adoption of MIBO Guidelines in Orthobiologics Practice: A Framework for Standardized Reporting, Clinical Translation, and Regulatory Compliance for co-author - [EMID:a7fea85f2cfb5cc3]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-06T01:49:38.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d607b2c88c91af",
+            "messageId": "19d607b2c88c91af",
+            "subject": "Indian Journal of Orthopaedics - Submission Confirmation Adoption of MIBO Guidelines in Orthobiologics Practice: A Framework for Standardized Reporting, Clinical Translation, and Regulatory Compliance for co-author - [EMID:a7fea85f2cfb5cc3]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-06T01:49:38.000Z",
+      "updatedAt": "2026-04-06T01:49:38.000Z"
+    },
+    {
+      "id": "genipin-crosslinked-gelatin-pva-hydrogels-loaded-with-hydroxytyrosol-f",
+      "title": "Genipin-Crosslinked Gelatin/PVA Hydrogels Loaded with Hydroxytyrosol for Cartilage Tissue Engineering: Fabrication, Characterization, and Chondrocyte Biocompatibility",
+      "titleNormalized": "genipin crosslinked gelatin pva hydrogels loaded with hydroxytyrosol for cartilage tissue engineering fabrication characterization and chondrocyte biocompatibility",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Artificial Cells, Nanomedicine and Biotechnology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Artificial Cells, Nanomedicine and Biotechnology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-02T22:06:14.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-02T22:06:14.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d503b91cdd1bb7",
+                "messageId": "19d503b91cdd1bb7",
+                "subject": "Artificial Cells, Nanomedicine and Biotechnology - Manuscript ID LABB-2026-0060",
+                "from": "\"Artificial Cells, Nanomedicine and Biotechnology\" <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-02T22:06:14.000Z",
+          "journal": "Artificial Cells, Nanomedicine and Biotechnology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d503b91cdd1bb7",
+            "messageId": "19d503b91cdd1bb7",
+            "subject": "Artificial Cells, Nanomedicine and Biotechnology - Manuscript ID LABB-2026-0060",
+            "from": "\"Artificial Cells, Nanomedicine and Biotechnology\" <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-02T22:06:14.000Z",
+      "updatedAt": "2026-04-02T22:06:14.000Z"
+    },
+    {
+      "id": "comparison-of-characteristics-and-surgical-outcomes-between-chin-on-ch",
+      "title": "Comparison of characteristics and surgical outcomes between chin-on-chest deformity and dropped-head syndrome: a comprehensive systematic review and meta-analysis of severe cervical kyphosis ​",
+      "titleNormalized": "comparison of characteristics and surgical outcomes between chin on chest deformity and dropped head syndrome a comprehensive systematic review and meta analysis of severe cervical kyphosis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "The Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "The Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-02T11:13:31.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-02T11:13:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d4de5fc8f5744c",
+                "messageId": "19d4de5fc8f5744c",
+                "subject": "Confirm co-authorship of submission to The Spine Journal",
+                "from": "\"Christopher M. Bono, MD, Editor-in-Chief, TSJ\" <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-02T11:13:31.000Z",
+          "journal": "The Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d4de5fc8f5744c",
+            "messageId": "19d4de5fc8f5744c",
+            "subject": "Confirm co-authorship of submission to The Spine Journal",
+            "from": "\"Christopher M. Bono, MD, Editor-in-Chief, TSJ\" <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-02T11:13:31.000Z",
+      "updatedAt": "2026-04-02T11:13:31.000Z"
+    },
+    {
+      "id": "methodological-framework-for-global-expert-consensus-on-musculoskeleta",
+      "title": "Methodological Framework for Global Expert Consensus on Musculoskeletal Infection: Establishing the ICM 2025 Recommendations",
+      "titleNormalized": "methodological framework for global expert consensus on musculoskeletal infection establishing the icm 2025 recommendations",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0076.R1",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0076.R1",
+          "submittedDate": "2026-03-07T16:22:42.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-07T16:22:42.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-26-0076.R1",
+              "source": {
+                "threadId": "19cc91bbb3df9bde",
+                "messageId": "19cc91bbb3df9bde",
+                "subject": "Global Spine Journal  GSJ-26-0076.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-03-30T14:56:30.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-26-0076.R1",
+              "source": {
+                "threadId": "19d3f3f13d5a06b8",
+                "messageId": "19d3f3f13d5a06b8",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-26-0076.R1)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-07T16:22:42.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19cc91bbb3df9bde",
+            "messageId": "19cc91bbb3df9bde",
+            "subject": "Global Spine Journal  GSJ-26-0076.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-03-30T14:56:30.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19d3f3f13d5a06b8",
+            "messageId": "19d3f3f13d5a06b8",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-26-0076.R1)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-07T16:22:42.000Z",
+      "updatedAt": "2026-03-30T14:56:30.000Z"
+    },
+    {
+      "id": "spatial-multiomics-advances-in-osteoarthritis-from-molecular-landscape",
+      "title": "Spatial Multiomics Advances in Osteoarthritis From Molecular Landscapes to Precision Medicine",
+      "titleNormalized": "spatial multiomics advances in osteoarthritis from molecular landscapes to precision medicine",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Military Medical Research",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Military Medical Research",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-16T07:31:51.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-16T07:31:51.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cf58ef1008fc7d",
+                "messageId": "19cf58ef1008fc7d",
+                "subject": "Notification to co-authors of submission to Military Medical Research MMR-D-26-00053",
+                "from": "Military Medical Research Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-16T07:31:51.000Z",
+          "journal": "Military Medical Research",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cf58ef1008fc7d",
+            "messageId": "19cf58ef1008fc7d",
+            "subject": "Notification to co-authors of submission to Military Medical Research MMR-D-26-00053",
+            "from": "Military Medical Research Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-16T07:31:51.000Z",
+      "updatedAt": "2026-03-16T07:31:51.000Z"
+    },
+    {
+      "id": "mapping-sclerostin-inhibition-in-bone-formation-insights-from-romosozu",
+      "title": "Mapping Sclerostin Inhibition in Bone Formation: Insights from Romosozumab",
+      "titleNormalized": "mapping sclerostin inhibition in bone formation insights from romosozumab",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-12T18:21:41.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-12T18:21:41.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ce3487539aea51",
+                "messageId": "19ce3487539aea51",
+                "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-12T18:21:41.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ce3487539aea51",
+            "messageId": "19ce3487539aea51",
+            "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-12T18:21:41.000Z",
+      "updatedAt": "2026-03-12T18:21:41.000Z"
+    },
+    {
+      "id": "response-to-the-letter-to-the-editor-on-role-of-prophylactic-negative-",
+      "title": "Response to the Letter to the Editor on “Role of Prophylactic Negative Pressure Wound Therapy in Reducing Surgical-Site Infections in Spine Surgery – A Systematic Review and Meta-Analysis",
+      "titleNormalized": "response to the letter to the editor on role of prophylactic negative pressure wound therapy in reducing surgical site infections in spine surgery a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-0449",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0449",
+          "submittedDate": "2026-03-11T19:08:41.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-11T19:08:41.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-26-0449",
+              "source": {
+                "threadId": "19cde4d21b5fb65a",
+                "messageId": "19cde4d21b5fb65a",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-26-0449)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-11T19:08:41.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19cde4d21b5fb65a",
+            "messageId": "19cde4d21b5fb65a",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-26-0449)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-11T19:08:41.000Z",
+      "updatedAt": "2026-03-11T19:08:41.000Z"
+    },
+    {
+      "id": "sclerostin-inhibition-and-bone-anabolism-mapping-evidence-from-romosoz",
+      "title": "Sclerostin Inhibition and Bone Anabolism: Mapping Evidence from Romosozumab",
+      "titleNormalized": "sclerostin inhibition and bone anabolism mapping evidence from romosozumab",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-09T13:22:36.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-09T13:22:36.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cd2c38f7e53640",
+                "messageId": "19cd2c38f7e53640",
+                "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-09T13:22:36.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cd2c38f7e53640",
+            "messageId": "19cd2c38f7e53640",
+            "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-09T13:22:36.000Z",
+      "updatedAt": "2026-03-09T13:22:36.000Z"
+    },
+    {
+      "id": "is-implant-removal-after-thoracolumbar-fracture-fixation-truly-necessa",
+      "title": "Is Implant Removal after Thoracolumbar Fracture Fixation Truly Necessary? A Systematic Review and Meta-analysis of Radiological, Functional and Safety Outcomes",
+      "titleNormalized": "is implant removal after thoracolumbar fracture fixation truly necessary a systematic review and meta analysis of radiological functional and safety outcomes",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-25-1991.R1",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-25-1991.R1",
+          "submittedDate": "2026-03-01T07:16:08.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-01T07:16:08.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Revised manuscript submitted.",
+              "manuscriptNumber": "GSJ-25-1991.R1",
+              "source": {
+                "threadId": "19ca8412f4a7cb0a",
+                "messageId": "19ca8412f4a7cb0a",
+                "subject": "Global Spine Journal  GSJ-25-1991.R1",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-03-05T20:50:26.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": "GSJ-25-1991.R1",
+              "source": {
+                "threadId": "19cbfc423c8752ba",
+                "messageId": "19cbfc423c8752ba",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-25-1991.R1)",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-01T07:16:08.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Revised manuscript submitted.",
+          "source": {
+            "threadId": "19ca8412f4a7cb0a",
+            "messageId": "19ca8412f4a7cb0a",
+            "subject": "Global Spine Journal  GSJ-25-1991.R1",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-03-05T20:50:26.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19cbfc423c8752ba",
+            "messageId": "19cbfc423c8752ba",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-25-1991.R1)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-01T07:16:08.000Z",
+      "updatedAt": "2026-03-05T20:50:26.000Z"
+    },
+    {
+      "id": "chondrogenesis-of-peripheral-blood-derived-mesenchymal-stromal-cells",
+      "title": "Chondrogenesis of Peripheral Blood-derived Mesenchymal Stromal Cells",
+      "titleNormalized": "chondrogenesis of peripheral blood derived mesenchymal stromal cells",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Cells",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Cells",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-02T22:12:00.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-02T22:12:00.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cb09bb804b2ab3",
+                "messageId": "19cb09bb804b2ab3",
+                "subject": "[Cells] Manuscript ID: cells-4144726 - Manuscript Resubmitted",
+                "from": "Cells Editorial Office <cells@mdpi.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-02T22:12:00.000Z",
+          "journal": "Cells",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cb09bb804b2ab3",
+            "messageId": "19cb09bb804b2ab3",
+            "subject": "[Cells] Manuscript ID: cells-4144726 - Manuscript Resubmitted",
+            "from": "Cells Editorial Office <cells@mdpi.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-02T22:12:00.000Z",
+      "updatedAt": "2026-03-02T22:12:00.000Z"
+    },
+    {
+      "id": "management-of-atypical-hangman-s-fracture-c2-axis-systematic-review-of",
+      "title": "Management of Atypical Hangman’s Fracture (C2 Axis): Systematic Review of Classification, Treatment Strategies, and Clinical Outcomes",
+      "titleNormalized": "management of atypical hangman s fracture c2 axis systematic review of classification treatment strategies and clinical outcomes",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Medicina",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Medicina",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-02T20:36:12.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-02T20:36:12.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cb044020b99c3b",
+                "messageId": "19cb044020b99c3b",
+                "subject": "[Medicina] Manuscript ID: medicina-4207739 - Submission Received",
+                "from": "Editorial Office <medicina@mdpi.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-02T20:36:12.000Z",
+          "journal": "Medicina",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cb044020b99c3b",
+            "messageId": "19cb044020b99c3b",
+            "subject": "[Medicina] Manuscript ID: medicina-4207739 - Submission Received",
+            "from": "Editorial Office <medicina@mdpi.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-03-02T20:36:12.000Z",
+      "updatedAt": "2026-03-02T20:36:12.000Z"
+    },
+    {
+      "id": "management-strategies-for-adhesive-capsulitis-an-umbrella-review-of-sy",
+      "title": "Management Strategies for Adhesive Capsulitis: An Umbrella Review of Systematic Reviews and Meta-Analyses",
+      "titleNormalized": "management strategies for adhesive capsulitis an umbrella review of systematic reviews and meta analyses",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-02-28T21:40:31.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-02-28T21:40:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ca6322a01f91c8",
+                "messageId": "19ca6322a01f91c8",
+                "subject": "Confirm co-authorship of submission to Journal of Orthopaedics",
+                "from": "Journal of Orthopaedics <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-02-28T21:40:31.000Z",
+          "journal": "Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ca6322a01f91c8",
+            "messageId": "19ca6322a01f91c8",
+            "subject": "Confirm co-authorship of submission to Journal of Orthopaedics",
+            "from": "Journal of Orthopaedics <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-02-28T21:40:31.000Z",
+      "updatedAt": "2026-02-28T21:40:31.000Z"
+    },
+    {
+      "id": "osteoprotegerin-and-rankl-as-biomarkers-predicting-bone-resorption-rel",
+      "title": "Osteoprotegerin and RANKL as Biomarkers Predicting Bone Resorption-Related Disorders",
+      "titleNormalized": "osteoprotegerin and rankl as biomarkers predicting bone resorption related disorders",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Experimental Medicine",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Experimental Medicine",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-02-28T12:49:44.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-02-28T12:49:44.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ca44c95ba6629e",
+                "messageId": "19ca44c95ba6629e",
+                "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 120531",
+                "from": "BPG Submission <submission@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-02-28T12:49:44.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ca44c95ba6629e",
+            "messageId": "19ca44c95ba6629e",
+            "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 120531",
+            "from": "BPG Submission <submission@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-02-28T12:49:44.000Z",
+      "updatedAt": "2026-02-28T12:49:44.000Z"
+    },
+    {
+      "id": "infrared-thermography-as-adjunctive-imaging-in-spine-surgery-evaluatin",
+      "title": "Infrared thermography as adjunctive imaging in spine surgery: Evaluating thermal asymmetry for predicting symptomatic level and recovery",
+      "titleNormalized": "infrared thermography as adjunctive imaging in spine surgery evaluating thermal asymmetry for predicting symptomatic level and recovery",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Radiology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Radiology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-02-27T04:16:41.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-02-27T04:16:41.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19c9d505323feec1",
+                "messageId": "19c9d505323feec1",
+                "subject": "World Journal of Radiology Article In Press - Manuscript NO: 116736",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-02-27T04:16:41.000Z",
+          "journal": "World Journal of Radiology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19c9d505323feec1",
+            "messageId": "19c9d505323feec1",
+            "subject": "World Journal of Radiology Article In Press - Manuscript NO: 116736",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-02-27T04:16:41.000Z",
+      "updatedAt": "2026-02-27T04:16:41.000Z"
     }
   ]
 }
