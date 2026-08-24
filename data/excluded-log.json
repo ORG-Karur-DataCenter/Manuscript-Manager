@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-24T15:59:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Change in Name of Scheme(s)",
+      "from": "HDFC MUTUAL FUND <donotreplytoHDFCMF@camsonline.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-24T07:36:58.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "2026-08-24 07:36:56 RCA ID: 00000627 2026 Highlight Articles available for view",
@@ -2380,14 +2387,6 @@
       "reason": "unrelated",
       "subject": "We've completed some quality checks on your submission",
       "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19ded09ac6ee5b6c",
-      "timestamp": "2026-05-03T08:52:06.000Z",
-      "reason": "unrelated",
-      "subject": "You started a submission to International Orthopaedics",
-      "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
       "account": "Sathish Muthu"
     }
   ]
