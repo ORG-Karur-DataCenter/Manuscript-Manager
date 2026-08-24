@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:44:39.435Z",
+  "generatedAt": "2026-08-24T03:58:09.108Z",
   "manuscripts": [
     {
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
@@ -11,7 +11,7 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "International Orthopaedics",
-      "currentManuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88",
+      "currentManuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88 v1.0",
       "currentStatus": "Sent back for edits",
       "doi": null,
       "publicationLink": null,
@@ -97,7 +97,7 @@
         },
         {
           "journal": "International Orthopaedics",
-          "manuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88",
+          "manuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88 v1.0",
           "submittedDate": "2026-08-20T12:54:23.000Z",
           "outcome": "active",
           "status": "sent_back",
@@ -129,6 +129,19 @@
                 "messageId": "1a0316a337773b7b",
                 "subject": "Re: International Orthopaedics-Amendment required",
                 "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-24T03:04:53.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned to the author after technical check, requesting specific amendments before it can proceed.",
+              "manuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88 v1.0",
+              "source": {
+                "threadId": "1a0316a337773b7b",
+                "messageId": "1a031ba6b39bb2a2",
+                "subject": "Fwd: International Orthopaedics-Amendment required",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
             }
           ]
@@ -213,10 +226,25 @@
             "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-24T03:04:53.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "The manuscript was returned to the author after technical check, requesting specific amendments before it can proceed.",
+          "source": {
+            "threadId": "1a0316a337773b7b",
+            "messageId": "1a031ba6b39bb2a2",
+            "subject": "Fwd: International Orthopaedics-Amendment required",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-20T12:38:16.000Z",
-      "updatedAt": "2026-08-24T01:37:17.000Z"
+      "updatedAt": "2026-08-24T03:04:53.000Z"
     },
     {
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
