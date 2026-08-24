@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-24T08:32:18.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Reg: Follow up-for Manuscript Submission",
+      "from": "Clinical Trial Journal <clinicaltrial.journal@wmjournals.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-24T04:46:36.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Follow up on review request for JOIO-D-26-01459 - [EMID:10a9342a15d4b51f]",
@@ -2384,14 +2391,6 @@
       "timestamp": "2026-04-30T18:48:52.000Z",
       "reason": "unrelated",
       "subject": "European Spine Journal - Receipt of Manuscript 'Identification of Therapeutic...'",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19ddfb83d37797d8",
-      "timestamp": "2026-04-30T18:48:05.000Z",
-      "reason": "unrelated",
-      "subject": "We've completed some quality checks on your submission",
       "from": "Springer Nature <do-not-reply@springernature.com>",
       "account": "Sathish Muthu"
     }
