@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-25T13:55:32.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Manuscript JME-2026-0197-RT - Journal of Medical Economics",
+      "from": "Journal of Medical Economics <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T15:20:11.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Does Failure to Restore Native Roussouly Alignment Increase the Risk of Adjacent Segment Degeneration (ASD) after Lumbar Fusion? Analysis of the Relationship between Sagittal Morphotype Discordance and ASD",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-25T04:48:32.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Follow up on review request for JOIO-D-26-01359 - [EMID:a86cdf789b2ded6b]",
@@ -2358,22 +2372,6 @@
       "reason": "unrelated",
       "subject": "You started a submission to European Spine Journal",
       "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e24673729c2d17",
-      "timestamp": "2026-05-14T02:53:11.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
-      "from": "\"Qu, Xin-Liang (BPG)\" <x.l.qu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e24664bb4a5e9f",
-      "timestamp": "2026-05-14T02:52:19.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
-      "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
       "account": "Sathish Muthu"
     }
   ]
