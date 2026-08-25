@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-25T04:48:32.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow up on review request for JOIO-D-26-01359 - [EMID:a86cdf789b2ded6b]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T07:06:05.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T09:06:31.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Reminder: [Osteology] (Now Indexed in ESCI) Invitation for Manuscripts",
+      "from": "Osteology <osteology@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T11:24:03.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Reg: Submit your valuable Manuscript",
+      "from": "\"Surgery & Anaesthesia Research\" <surgerysciences@onlinescientificresearch.info>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T12:22:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Dr. Sathish Muthu Today is the Last Day to submit Abstract/Contribution -IOACON2026. Registration Slab Changes after 31st August 2026",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-25T06:15:40.000Z",
       "reason": "editorial_role_for_other_manuscript",
       "subject": "PLOS ONE Reminder of Active Assignments - [EMID:03b1866face1526e]",
@@ -2339,46 +2374,6 @@
       "reason": "unrelated",
       "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
       "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e1f3e844ed26c9",
-      "timestamp": "2026-05-13T02:50:42.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
-      "from": "\"Qu, Xin-Liang (BPG)\" <x.l.qu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e1f3da2165f166",
-      "timestamp": "2026-05-13T02:49:46.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
-      "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e0ab1d58ab694c",
-      "timestamp": "2026-05-09T03:04:32.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Clinical Cases Manuscript NO: 121907 Manuscript is now under editing",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e0a0f915aee136",
-      "timestamp": "2026-05-09T00:07:32.000Z",
-      "reason": "unrelated",
-      "subject": "Your Submission  AB-26-2339",
-      "from": "\"William R. Wagner\" <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e0545027c611bc",
-      "timestamp": "2026-05-08T01:47:18.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Orthopedics Manuscript NO: 116723 – Manuscript comment from the Editorial Office",
-      "from": "\"x.y.hu@wjgnet.com\" <x.y.hu@wjgnet.com>",
       "account": "Sathish Muthu"
     }
   ]
