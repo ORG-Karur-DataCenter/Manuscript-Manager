@@ -1,6 +1,99 @@
 {
-  "generatedAt": "2026-08-25T18:51:00.411Z",
+  "generatedAt": "2026-08-25T21:35:38.928Z",
   "manuscripts": [
+    {
+      "id": "ao-spine-clinical-practice-recommendations-when-to-operate-in-lumbar-d",
+      "title": "AO Spine Clinical Practice Recommendations: When to Operate in Lumbar Disc Herniation",
+      "titleNormalized": "ao spine clinical practice recommendations when to operate in lumbar disc herniation",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1263.R2",
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1263.R2",
+          "submittedDate": "2026-06-24T15:27:30.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-24T15:27:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-1263",
+              "source": {
+                "threadId": "19efa3e5ecd7acb7",
+                "messageId": "19efa3e5ecd7acb7",
+                "subject": "Global Spine Journal  GSJ-26-1263",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-25T19:20:03.000Z",
+              "eventType": "new_submission",
+              "revisionRound": 2,
+              "note": "The revised manuscript was submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1263.R2",
+              "source": {
+                "threadId": "1a03a5d8d14fa6b8",
+                "messageId": "1a03a5d8d14fa6b8",
+                "subject": "Global Spine Journal  GSJ-26-1263.R2",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-24T15:27:30.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19efa3e5ecd7acb7",
+            "messageId": "19efa3e5ecd7acb7",
+            "subject": "Global Spine Journal  GSJ-26-1263",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T19:20:03.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": 2,
+          "note": "The revised manuscript was submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a03a5d8d14fa6b8",
+            "messageId": "1a03a5d8d14fa6b8",
+            "subject": "Global Spine Journal  GSJ-26-1263.R2",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-24T15:27:30.000Z",
+      "updatedAt": "2026-08-25T19:20:03.000Z"
+    },
     {
       "id": "how-often-does-pelvic-fixation-fail-after-adult-spinal-deformity-surge",
       "title": "How Often Does Pelvic Fixation Fail After Adult Spinal Deformity Surgery? A Systematic Review and Proportional Meta-Analysis",
@@ -218,7 +311,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -264,6 +358,19 @@
               "source": {
                 "threadId": "1a03a0959f22863a",
                 "messageId": "1a03a0959f22863a",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-25T17:48:05.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted, and the author can track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a03a0958c191146",
+                "messageId": "1a03a0958c191146",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -322,6 +429,21 @@
           "source": {
             "threadId": "1a03a0959f22863a",
             "messageId": "1a03a0959f22863a",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T17:48:05.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript has been received and submitted, and the author can track its status.",
+          "source": {
+            "threadId": "1a03a0958c191146",
+            "messageId": "1a03a0958c191146",
             "subject": "Track the status of your manuscript",
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
@@ -8234,71 +8356,6 @@
       ],
       "createdAt": "2026-06-28T09:50:39.000Z",
       "updatedAt": "2026-06-28T09:50:39.000Z"
-    },
-    {
-      "id": "ao-spine-clinical-practice-recommendations-when-to-operate-in-lumbar-d",
-      "title": "AO Spine Clinical Practice Recommendations: When to Operate in Lumbar Disc Herniation",
-      "titleNormalized": "ao spine clinical practice recommendations when to operate in lumbar disc herniation",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-1263",
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-1263",
-          "submittedDate": "2026-06-24T15:27:30.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-24T15:27:30.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": "GSJ-26-1263",
-              "source": {
-                "threadId": "19efa3e5ecd7acb7",
-                "messageId": "19efa3e5ecd7acb7",
-                "subject": "Global Spine Journal  GSJ-26-1263",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-06-24T15:27:30.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19efa3e5ecd7acb7",
-            "messageId": "19efa3e5ecd7acb7",
-            "subject": "Global Spine Journal  GSJ-26-1263",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-06-24T15:27:30.000Z",
-      "updatedAt": "2026-06-24T15:27:30.000Z"
     },
     {
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
