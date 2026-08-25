@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-25T01:03:52.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Dr. Sathish Muthu Have You Realised ? Today is the Last Day to submit Abstract/Contribution -IOACON2026",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-24T15:59:07.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Change in Name of Scheme(s)",
@@ -2378,14 +2385,6 @@
       "timestamp": "2026-05-03T09:29:21.000Z",
       "reason": "unrelated",
       "subject": "International Orthopaedics - Receipt of Manuscript 'Is Is Three-Level...'",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19ded2bbf0e1025b",
-      "timestamp": "2026-05-03T09:29:18.000Z",
-      "reason": "unrelated",
-      "subject": "We've completed some quality checks on your submission",
       "from": "Springer Nature <do-not-reply@springernature.com>",
       "account": "Sathish Muthu"
     }
