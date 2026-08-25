@@ -1,6 +1,351 @@
 {
-  "generatedAt": "2026-08-25T16:00:44.788Z",
+  "generatedAt": "2026-08-25T18:51:00.411Z",
   "manuscripts": [
+    {
+      "id": "how-often-does-pelvic-fixation-fail-after-adult-spinal-deformity-surge",
+      "title": "How Often Does Pelvic Fixation Fail After Adult Spinal Deformity Surgery? A Systematic Review and Proportional Meta-Analysis",
+      "titleNormalized": "how often does pelvic fixation fail after adult spinal deformity surgery a systematic review and proportional meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1720",
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0743",
+          "submittedDate": "2026-08-18T05:46:49.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-18T05:46:49.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Desk rejected without external peer review.",
+              "manuscriptNumber": "ASJ-2026-0743",
+              "source": {
+                "threadId": "1a013687deaa0be2",
+                "messageId": "1a013687deaa0be2",
+                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0743",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1654",
+          "submittedDate": "2026-08-21T04:25:29.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-21T04:25:29.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected at editor check without external review.",
+              "manuscriptNumber": "GSJ-26-1654",
+              "source": {
+                "threadId": "1a022911844d356e",
+                "messageId": "1a022911844d356e",
+                "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1720",
+          "submittedDate": "2026-08-25T18:11:48.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-25T18:11:45.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "A manuscript you co-authored was submitted and an account was created for you to track its status.",
+              "manuscriptNumber": "GSJ-26-1720",
+              "source": {
+                "threadId": "1a03a1f05d2a6507",
+                "messageId": "1a03a1f05d2a6507",
+                "subject": "Global Spine Journal - Account Created in ScholarOne Manuscripts",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-25T18:11:48.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1720",
+              "source": {
+                "threadId": "1a03a1f0f3d3ed68",
+                "messageId": "1a03a1f0f3d3ed68",
+                "subject": "Global Spine Journal  GSJ-26-1720",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-25T18:11:48.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1720",
+              "source": {
+                "threadId": "1a03a1f0f4262e72",
+                "messageId": "1a03a1f0f4262e72",
+                "subject": "Global Spine Journal  GSJ-26-1720",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-18T05:46:49.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Desk rejected without external peer review.",
+          "source": {
+            "threadId": "1a013687deaa0be2",
+            "messageId": "1a013687deaa0be2",
+            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0743",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-21T04:25:29.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected at editor check without external review.",
+          "source": {
+            "threadId": "1a022911844d356e",
+            "messageId": "1a022911844d356e",
+            "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T18:11:45.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "A manuscript you co-authored was submitted and an account was created for you to track its status.",
+          "source": {
+            "threadId": "1a03a1f05d2a6507",
+            "messageId": "1a03a1f05d2a6507",
+            "subject": "Global Spine Journal - Account Created in ScholarOne Manuscripts",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T18:11:48.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a03a1f0f3d3ed68",
+            "messageId": "1a03a1f0f3d3ed68",
+            "subject": "Global Spine Journal  GSJ-26-1720",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T18:11:48.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a03a1f0f4262e72",
+            "messageId": "1a03a1f0f4262e72",
+            "subject": "Global Spine Journal  GSJ-26-1720",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-18T05:46:49.000Z",
+      "updatedAt": "2026-08-25T18:11:48.000Z"
+    },
+    {
+      "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
+      "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
+      "titleNormalized": "minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden a systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1521",
+          "submittedDate": "2026-08-19T18:53:15.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-19T18:53:15.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected with reviewer comments.",
+              "manuscriptNumber": "GSJ-26-1521",
+              "source": {
+                "threadId": "1a01b5ed88ebb6a0",
+                "messageId": "1a01b5ed88ebb6a0",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-25T17:48:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-25T17:48:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and submitted, and the author is provided a link to track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a03a0959f22863a",
+                "messageId": "1a03a0959f22863a",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-25T17:54:18.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-25T17:54:18.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author's manuscript was received and a dashboard is provided to track its peer review.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a03a0f068dceb9e",
+                "messageId": "1a03a0f068dceb9e",
+                "subject": "Track the status of your submission to European Spine Journal",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-19T18:53:15.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected with reviewer comments.",
+          "source": {
+            "threadId": "1a01b5ed88ebb6a0",
+            "messageId": "1a01b5ed88ebb6a0",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T17:48:04.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was received and submitted, and the author is provided a link to track its status.",
+          "source": {
+            "threadId": "1a03a0959f22863a",
+            "messageId": "1a03a0959f22863a",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T17:54:18.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The author's manuscript was received and a dashboard is provided to track its peer review.",
+          "source": {
+            "threadId": "1a03a0f068dceb9e",
+            "messageId": "1a03a0f068dceb9e",
+            "subject": "Track the status of your submission to European Spine Journal",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-19T18:53:15.000Z",
+      "updatedAt": "2026-08-25T17:54:18.000Z"
+    },
     {
       "id": "does-failure-to-restore-native-roussouly-alignment-increase-the-risk-o",
       "title": "Does Failure to Restore Native Roussouly Alignment Increase the Risk of Adjacent Segment Degeneration (ASD) after Lumbar Fusion? Analysis of the Relationship between Sagittal Morphotype Discordance and ASD",
@@ -1706,112 +2051,6 @@
       "updatedAt": "2026-08-21T04:43:35.000Z"
     },
     {
-      "id": "how-often-does-pelvic-fixation-fail-after-adult-spinal-deformity-surge",
-      "title": "How Often Does Pelvic Fixation Fail After Adult Spinal Deformity Surgery? A Systematic Review and Proportional Meta-Analysis",
-      "titleNormalized": "how often does pelvic fixation fail after adult spinal deformity surgery a systematic review and proportional meta analysis",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-1654",
-      "currentStatus": "Rejected",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Asian Spine Journal",
-          "manuscriptNumber": "ASJ-2026-0743",
-          "submittedDate": "2026-08-18T05:46:49.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-18T05:46:49.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Desk rejected without external peer review.",
-              "manuscriptNumber": "ASJ-2026-0743",
-              "source": {
-                "threadId": "1a013687deaa0be2",
-                "messageId": "1a013687deaa0be2",
-                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0743",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-1654",
-          "submittedDate": "2026-08-21T04:25:29.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-21T04:25:29.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected at editor check without external review.",
-              "manuscriptNumber": "GSJ-26-1654",
-              "source": {
-                "threadId": "1a022911844d356e",
-                "messageId": "1a022911844d356e",
-                "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-18T05:46:49.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Desk rejected without external peer review.",
-          "source": {
-            "threadId": "1a013687deaa0be2",
-            "messageId": "1a013687deaa0be2",
-            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0743",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-21T04:25:29.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected at editor check without external review.",
-          "source": {
-            "threadId": "1a022911844d356e",
-            "messageId": "1a022911844d356e",
-            "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-18T05:46:49.000Z",
-      "updatedAt": "2026-08-21T04:25:29.000Z"
-    },
-    {
       "id": "platelet-rich-plasma-injections-in-musculoskeletal-medicine-procedural",
       "title": "Platelet-rich plasma injections in musculoskeletal medicine: procedural recommendations from a modified Delphi study",
       "titleNormalized": "platelet rich plasma injections in musculoskeletal medicine procedural recommendations from a modified delphi study",
@@ -2513,71 +2752,6 @@
       ],
       "createdAt": "2026-08-20T06:58:30.000Z",
       "updatedAt": "2026-08-20T06:58:33.000Z"
-    },
-    {
-      "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
-      "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
-      "titleNormalized": "minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden a systematic review and meta analysis",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-1521",
-      "currentStatus": "Rejected",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-1521",
-          "submittedDate": "2026-08-19T18:53:15.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-19T18:53:15.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected with reviewer comments.",
-              "manuscriptNumber": "GSJ-26-1521",
-              "source": {
-                "threadId": "1a01b5ed88ebb6a0",
-                "messageId": "1a01b5ed88ebb6a0",
-                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-19T18:53:15.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected with reviewer comments.",
-          "source": {
-            "threadId": "1a01b5ed88ebb6a0",
-            "messageId": "1a01b5ed88ebb6a0",
-            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-19T18:53:15.000Z",
-      "updatedAt": "2026-08-19T18:53:15.000Z"
     },
     {
       "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
