@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-25T06:15:40.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:03b1866face1526e]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T08:02:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Upcoming events",
+      "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T09:36:58.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Watch the Master in action Dr. Vijay C Bose @ SPARSH COURSE 2026",
+      "from": "SPARSH COURSE 2026 <sparshconference@250907063.mailchimpapp.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-25T04:25:14.000Z",
       "reason": "unrelated",
       "subject": "E-Sign submitted successfully for Healthcare Professional",
@@ -2358,30 +2379,6 @@
       "reason": "unrelated",
       "subject": "World Journal of Orthopedics Manuscript NO: 116723 – Manuscript comment from the Editorial Office",
       "from": "\"x.y.hu@wjgnet.com\" <x.y.hu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dfbd706d50d48f",
-      "timestamp": "2026-05-06T05:51:06.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 World Journal of Radiology decline letter for the submitted manuscript title",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dfa97cf21c81b5",
-      "timestamp": "2026-05-06T00:01:55.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Re: PDF Proofreading for Manuscript NO. 117689 of World Journal of Stem Cells",
-      "from": "\"lei.zhang@wjgnet.com\" <lei.zhang@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19df7cb20bf8bf4f",
-      "timestamp": "2026-05-05T10:58:17.000Z",
-      "reason": "unrelated",
-      "subject": "PDF Proofreading for Manuscript NO. 117689 of World Journal of Stem Cells",
-      "from": "\"Zhang, Lei (Baishideng)\" <lei.zhang@wjgnet.com>",
       "account": "Sathish Muthu"
     }
   ]

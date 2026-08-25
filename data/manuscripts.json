@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-25T06:57:59.707Z",
+  "generatedAt": "2026-08-25T09:52:17.974Z",
   "manuscripts": [
+    {
+      "id": "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-",
+      "title": "Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet Lysate Against Clinically Relevant Bacterial Pathogens: A Prospective Donor-Pool Study",
+      "titleNormalized": "broad spectrum in vitro antimicrobial activity of homologous platelet lysate against clinically relevant bacterial pathogens a prospective donor pool study",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
+      "currentJournal": "World Journal of Translational Medicine",
+      "currentManuscriptNumber": "126786",
+      "currentStatus": "Revision requested",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Translational Medicine",
+          "manuscriptNumber": "126786",
+          "submittedDate": "2026-08-25T08:55:42.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-25T08:55:42.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Your manuscript was returned after peer review with a request for revision.",
+              "manuscriptNumber": "126786",
+              "source": {
+                "threadId": "1a03821ff6e64804",
+                "messageId": "1a03821ff6e64804",
+                "subject": "Revision Required for Manuscript NO. 126786 Submitted to World Journal of Translational Medicine",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-25T08:55:42.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Your manuscript was returned after peer review with a request for revision.",
+          "source": {
+            "threadId": "1a03821ff6e64804",
+            "messageId": "1a03821ff6e64804",
+            "subject": "Revision Required for Manuscript NO. 126786 Submitted to World Journal of Translational Medicine",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-25T08:55:42.000Z",
+      "updatedAt": "2026-08-25T08:55:42.000Z"
+    },
     {
       "id": "comparative-physicochemical-biochemical-growth-factor-and-cytokine-cha",
       "title": "Comparative Physicochemical, Biochemical, Growth Factor and Cytokine Characterization of Platelet-Rich Plasma and Plasma Rich in Growth Factors (PRGF)",
