@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-26T14:00:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Publish Your Research Earlier",
+      "from": "JoVE Video <access@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T17:56:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Dr. Sathish Muthu Read to know about CPA. Happy Onam . Due to heavy demand Last Date of Abstract submission is extended to  31st August 2026",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T18:07:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Diagnostics, Volume 16, Issue 16 (August-2 2026) Table of Contents",
+      "from": "\"MDPI – Office of the Publisher\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T17:07:26.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Sathish Muthu, Paper processing and publication within 10 days",
+      "from": "Editor EJMCCR <info.editor@journalsera.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-26T15:34:02.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Review invitation: Short pectus bars with ventral hinge-point stabilization:...",
@@ -2319,38 +2347,6 @@
       "reason": "unrelated",
       "subject": "2026-04-13 05:51:26 RCA ID: 00000627 2026 Highlight Articles available for view",
       "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d85600b506f357",
-      "timestamp": "2026-04-13T05:45:56.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Regarding Reviewer Invitation for PONE-D-25-14046R2 - [EMID:97f4c6bb0438a69f]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d84ee2c2de085a",
-      "timestamp": "2026-04-13T03:41:34.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Invitation to handle manuscript [PONE-D-26-16987] - [EMID:80156714961da4d0]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d8438dfe08d078",
-      "timestamp": "2026-04-13T00:23:31.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d84382b65b2b84",
-      "timestamp": "2026-04-13T00:22:45.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
       "account": "Sathish Muthu"
     }
   ]
