@@ -1,6 +1,251 @@
 {
-  "generatedAt": "2026-08-26T13:49:52.156Z",
+  "generatedAt": "2026-08-26T14:22:43.386Z",
   "manuscripts": [
+    {
+      "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
+      "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
+      "titleNormalized": "is three level hybrid cervical surgery as safe as three level acdf a systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-25-2073",
+          "submittedDate": "2026-05-01T15:31:01.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-01T15:31:01.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": "GSJ-25-2073",
+              "source": {
+                "threadId": "19de42a2d632f096",
+                "messageId": "19de42a2d632f096",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2073",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-08T08:10:55.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-08T08:10:55.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e06a3c357f95e2",
+                "messageId": "19e06a3c357f95e2",
+                "subject": "Re: International Orthopaedics-Amendment required",
+                "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-18T13:14:12.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e3b390718fc16f",
+                "messageId": "19e3b390718fc16f",
+                "subject": "Decision on your submission to International Orthopaedics",
+                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-24T01:59:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-24T01:59:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ef75a2952bf673",
+                "messageId": "19ef75a2952bf673",
+                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0524",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-26T13:56:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-26T13:56:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and submitted, confirming the submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a03e5b483a2f607",
+                "messageId": "1a03e5b483a2f607",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-26T13:56:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a03e5b4ad695e7a",
+                "messageId": "1a03e5b4ad695e7a",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-01T15:31:01.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19de42a2d632f096",
+            "messageId": "19de42a2d632f096",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2073",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-08T08:10:55.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19e06a3c357f95e2",
+            "messageId": "19e06a3c357f95e2",
+            "subject": "Re: International Orthopaedics-Amendment required",
+            "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-18T13:14:12.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19e3b390718fc16f",
+            "messageId": "19e3b390718fc16f",
+            "subject": "Decision on your submission to International Orthopaedics",
+            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-24T01:59:00.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19ef75a2952bf673",
+            "messageId": "19ef75a2952bf673",
+            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0524",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-26T13:56:04.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was received and submitted, confirming the submission.",
+          "source": {
+            "threadId": "1a03e5b483a2f607",
+            "messageId": "1a03e5b483a2f607",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-26T13:56:04.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a03e5b4ad695e7a",
+            "messageId": "1a03e5b4ad695e7a",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-24T01:59:00.000Z",
+      "updatedAt": "2026-08-26T13:56:04.000Z"
+    },
     {
       "id": "practice-preference-of-revision-surgery-for-recurrent-lumbar-disc-hern",
       "title": "Practice preference of revision surgery for recurrent lumbar disc herniation: an international survey of AO spine members",
@@ -8673,183 +8918,6 @@
       ],
       "createdAt": "2026-06-28T09:50:39.000Z",
       "updatedAt": "2026-06-28T09:50:39.000Z"
-    },
-    {
-      "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
-      "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
-      "titleNormalized": "is three level hybrid cervical surgery as safe as three level acdf a systematic review and meta analysis",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "International Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Rejected",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-25-2073",
-          "submittedDate": "2026-05-01T15:31:01.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-01T15:31:01.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": "GSJ-25-2073",
-              "source": {
-                "threadId": "19de42a2d632f096",
-                "messageId": "19de42a2d632f096",
-                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2073",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-05-08T08:10:55.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-08T08:10:55.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned to the author for amendments before the submission can progress.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e06a3c357f95e2",
-                "messageId": "19e06a3c357f95e2",
-                "subject": "Re: International Orthopaedics-Amendment required",
-                "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-05-18T13:14:12.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e3b390718fc16f",
-                "messageId": "19e3b390718fc16f",
-                "subject": "Decision on your submission to International Orthopaedics",
-                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-24T01:59:00.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-24T01:59:00.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ef75a2952bf673",
-                "messageId": "19ef75a2952bf673",
-                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0524",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-05-01T15:31:01.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19de42a2d632f096",
-            "messageId": "19de42a2d632f096",
-            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-25-2073",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-08T08:10:55.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "Returned to the author for amendments before the submission can progress.",
-          "source": {
-            "threadId": "19e06a3c357f95e2",
-            "messageId": "19e06a3c357f95e2",
-            "subject": "Re: International Orthopaedics-Amendment required",
-            "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-18T13:14:12.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19e3b390718fc16f",
-            "messageId": "19e3b390718fc16f",
-            "subject": "Decision on your submission to International Orthopaedics",
-            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-24T01:59:00.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19ef75a2952bf673",
-            "messageId": "19ef75a2952bf673",
-            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0524",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-06-24T01:59:00.000Z",
-      "updatedAt": "2026-06-24T01:59:00.000Z"
     },
     {
       "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
