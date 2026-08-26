@@ -4,7 +4,7 @@
  *
  *   node scripts/check-registry.mjs
  */
-import { applyEvent } from "./lib/registry.mjs";
+import { applyEvent, applyEdit, isPinned } from "./lib/registry.mjs";
 
 const reg = { manuscripts: [] };
 const ev = (o) => ({ revisionRound: null, doi: null, publicationLink: null, summary: "", needsReview: false, ...o });
@@ -76,6 +76,56 @@ applyEvent(reg5, ev({ title: "DOI On The Second Copy", journal: "Journal C", eve
 applyEvent(reg5, ev({ title: "DOI On The Second Copy", journal: "Journal C", eventType: "accepted", timestamp: "2026-08-18T09:50:00Z", doi: "10.1000/xyz", source: { messageId: "d2" } }));
 const m5 = reg5.manuscripts[0];
 check("a merged duplicate still yields its DOI", m5.timeline.length === 1 && m5.doi === "10.1000/xyz");
+
+// ---- Hand edits -------------------------------------------------------
+// The whole point of an override is that automation cannot undo it. Each of
+// these fails loudly if a later email reverts a person's correction.
+
+const reg6 = { manuscripts: [] };
+applyEvent(reg6, ev({ title: "Pinned Paper", journal: "Journal D", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "p1" } }));
+const m6 = reg6.manuscripts[0];
+
+applyEdit(m6, { bucket: "in_review" });
+check("an edit moves the card", m6.bucket === "in_review");
+check("and records the previous value", m6.edits[0].changes[0].from === "submissions");
+
+// The event that would have moved it back.
+applyEvent(reg6, ev({ title: "Pinned Paper", journal: "Journal D", eventType: "rejected", timestamp: "2026-08-05T00:00:00Z", source: { messageId: "p2" } }));
+check("a later email does not move a pinned card", m6.bucket === "in_review");
+check("but the event still reaches the timeline", m6.timeline.length === 2);
+
+applyEdit(m6, { title: "A Properly Corrected Title" });
+applyEvent(reg6, ev({ title: "A Much Longer Automatically Extracted Title That Would Otherwise Win", journal: "Journal D", eventType: "under_review", timestamp: "2026-08-09T00:00:00Z", source: { messageId: "p3" } }));
+check("a longer extracted title cannot overwrite a corrected one", m6.title === "A Properly Corrected Title");
+check("a renamed manuscript stays findable", m6.titleNormalized === "a properly corrected title");
+
+// Releasing hands the field back rather than trapping it forever.
+applyEdit(m6, { bucket: null });
+check("releasing a field unpins it", !isPinned(m6, "bucket"));
+applyEvent(reg6, ev({ title: "Pinned Paper", journal: "Journal D", eventType: "rejected", timestamp: "2026-08-12T00:00:00Z", source: { messageId: "p4" } }));
+check("and automation resumes control", m6.bucket === "needs_action");
+
+// Journal and status pin independently of one another.
+const reg7 = { manuscripts: [] };
+applyEvent(reg7, ev({ title: "Split Pins", journal: "Journal E", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "s1" } }));
+const m7 = reg7.manuscripts[0];
+applyEdit(m7, { currentJournal: "Corrected Journal Name" });
+applyEvent(reg7, ev({ title: "Split Pins", journal: "Journal E", eventType: "accepted", timestamp: "2026-08-06T00:00:00Z", source: { messageId: "s2" } }));
+check("a pinned journal survives", m7.currentJournal === "Corrected Journal Name");
+check("an unpinned status still updates", m7.currentStatus === "Accepted (awaiting publication)");
+
+// Renaming used to split a manuscript in two: the journal keeps sending the
+// title it was given, which then matched nothing.
+const reg8 = { manuscripts: [] };
+applyEvent(reg8, ev({ title: "Original Journal Wording", journal: "Journal F", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "r1" } }));
+applyEdit(reg8.manuscripts[0], { title: "A Completely Different Corrected Title" });
+applyEvent(reg8, ev({ title: "Original Journal Wording", journal: "Journal F", eventType: "rejected", timestamp: "2026-08-12T00:00:00Z", source: { messageId: "r2" } }));
+check("a rename does not split the manuscript", reg8.manuscripts.length === 1);
+check("and later email still lands on it", reg8.manuscripts[0].timeline.length === 2);
+
+let rejected = false;
+try { applyEdit(m7, { bucket: "in_review", somethingElse: "x" }); } catch { rejected = true; }
+check("an unknown field is refused", rejected);
 
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
 process.exit(failures ? 1 : 0);

@@ -47,6 +47,33 @@ export function titleSimilarity(a, b) {
 
 const MATCH_THRESHOLD = 0.82;
 
+/**
+ * Fields a person may set by hand, overriding whatever the classifier reads
+ * from the email. Each is mirrored onto the manuscript so the rest of the app
+ * and the dashboard need no special case -- the override is the record of
+ * WHY the value is what it is, and the guarantee that a later email will not
+ * quietly undo it.
+ *
+ * This list is duplicated in worker/src/index.js, which applies edits without
+ * being able to import from here. Keep the two in step.
+ */
+export const OVERRIDABLE = [
+  "bucket",
+  "title",
+  "currentJournal",
+  "currentStatus",
+  "currentManuscriptNumber",
+  "doi",
+  "publicationLink",
+  "notes",
+];
+
+/** True when a person has pinned this field, so an event must leave it alone. */
+export function isPinned(manuscript, field) {
+  const o = manuscript && manuscript.overrides;
+  return Boolean(o && Object.prototype.hasOwnProperty.call(o, field));
+}
+
 function findByManuscriptNumber(registry, journal, manuscriptNumber) {
   if (!manuscriptNumber || !journal) return null;
   const j = journal.trim().toLowerCase();
@@ -65,14 +92,22 @@ function findByManuscriptNumber(registry, journal, manuscriptNumber) {
   return null;
 }
 
+/**
+ * Matches on every title a manuscript has been known by, not just its current
+ * one. Journals keep sending the title they were given, so once someone
+ * corrects a title by hand the old wording has to keep matching -- otherwise
+ * the next email opens a second record and the history splits in two.
+ */
 function findByTitle(registry, title) {
   let best = null;
   let bestScore = 0;
   for (const m of registry.manuscripts) {
-    const score = titleSimilarity(m.title, title);
-    if (score > bestScore) {
-      bestScore = score;
-      best = m;
+    for (const known of [m.title, ...(m.titleAliases || [])]) {
+      const score = titleSimilarity(known, title);
+      if (score > bestScore) {
+        bestScore = score;
+        best = m;
+      }
     }
   }
   return bestScore >= MATCH_THRESHOLD ? best : null;
@@ -276,7 +311,8 @@ export function applyEvent(registry, event) {
   manuscript.timeline.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
 
   // Title may be reformatted slightly journal to journal — keep the longest/most complete version.
-  if (event.title && event.title.length > manuscript.title.length) {
+  // Unless someone has corrected it by hand, in which case theirs stands.
+  if (!isPinned(manuscript, "title") && event.title && event.title.length > manuscript.title.length) {
     manuscript.title = event.title;
     manuscript.titleNormalized = normalizeTitle(event.title);
   }
@@ -306,7 +342,9 @@ export function applyEvent(registry, event) {
 
   if (isNewest) {
     const derived = bucketForEvent(event.eventType);
-    if (derived) {
+    // A section chosen by hand outranks the one inferred from the email. The
+    // event still joins the timeline; it just does not get to move the card.
+    if (derived && !isPinned(manuscript, "bucket")) {
       manuscript.bucket = derived.bucket;
       manuscript.needsActionReason = derived.needsActionReason;
     }
@@ -320,17 +358,91 @@ export function applyEvent(registry, event) {
     // already refuses to move the bucket for it; current status follows the
     // same principle, or a real "Rejected" gets overwritten with "Update".
     if (submission && event.eventType !== "other") {
-      manuscript.currentJournal = submission.journal;
-      manuscript.currentManuscriptNumber = submission.manuscriptNumber;
-      manuscript.currentStatus = STATUS_LABELS[event.eventType] || event.eventType;
+      if (!isPinned(manuscript, "currentJournal")) manuscript.currentJournal = submission.journal;
+      if (!isPinned(manuscript, "currentManuscriptNumber")) {
+        manuscript.currentManuscriptNumber = submission.manuscriptNumber;
+      }
+      if (!isPinned(manuscript, "currentStatus")) {
+        manuscript.currentStatus = STATUS_LABELS[event.eventType] || event.eventType;
+      }
     }
   }
 
   // A DOI or article link is a fact about the manuscript, not a status, so it
   // is worth keeping whenever it turns up.
-  if (event.doi) manuscript.doi = event.doi;
-  if (event.publicationLink) manuscript.publicationLink = event.publicationLink;
+  if (event.doi && !isPinned(manuscript, "doi")) manuscript.doi = event.doi;
+  if (event.publicationLink && !isPinned(manuscript, "publicationLink")) {
+    manuscript.publicationLink = event.publicationLink;
+  }
   manuscript.updatedAt = newest.timestamp;
 
   return manuscript;
+}
+
+/**
+ * Applies a hand edit to one manuscript, in place.
+ *
+ * Setting a field pins it: applyEvent will leave it alone from then on, so an
+ * email arriving later cannot quietly revert a correction. Passing null for a
+ * field unpins it and hands the field back to the classifier -- which is the
+ * only way out, since otherwise a single mistaken edit would be permanent.
+ *
+ * Every change is recorded with its previous value. A tracker two people rely
+ * on needs to be able to answer "who changed this and to what" months later,
+ * and the timeline is reserved for what the journals said.
+ *
+ * This logic is mirrored in worker/src/index.js, which cannot import from
+ * here. Keep the two in step.
+ */
+export function applyEdit(manuscript, patch, { at = new Date().toISOString(), by = "dashboard" } = {}) {
+  if (!manuscript) throw new Error("No manuscript to edit.");
+  manuscript.overrides ||= {};
+  manuscript.edits ||= [];
+  const changed = [];
+
+  for (const [field, raw] of Object.entries(patch || {})) {
+    if (!OVERRIDABLE.includes(field)) {
+      throw new Error(`"${field}" is not an editable field.`);
+    }
+    const value = typeof raw === "string" ? raw.trim() : raw;
+    const before = manuscript[field] ?? null;
+
+    // Null, or an emptied text box, releases the field back to automation.
+    if (value === null || value === "") {
+      if (!Object.prototype.hasOwnProperty.call(manuscript.overrides, field)) continue;
+      delete manuscript.overrides[field];
+      changed.push({ field, from: before, to: null, released: true });
+      continue;
+    }
+
+    if (before === value && isPinned(manuscript, field)) continue;
+    manuscript.overrides[field] = value;
+    manuscript[field] = value;
+    changed.push({ field, from: before, to: value });
+  }
+
+  if (!changed.length) return { manuscript, changed };
+
+  // Renaming a manuscript must keep it findable, or the next email about it
+  // opens a second record alongside the first. Journals go on sending the
+  // title they were given, so every previous title stays a matching key.
+  const renamed = changed.find((c) => c.field === "title");
+  if (renamed) {
+    manuscript.titleNormalized = normalizeTitle(manuscript.title);
+    manuscript.titleAliases ||= [];
+    const previous = renamed.from;
+    if (previous && !manuscript.titleAliases.includes(previous) && previous !== manuscript.title) {
+      manuscript.titleAliases.push(previous);
+    }
+  }
+  // A section chosen by hand carries no automated reason for being there.
+  if (changed.some((c) => c.field === "bucket" && !c.released)) {
+    manuscript.needsActionReason = null;
+    manuscript.actionFlag = false;
+    manuscript.actionLabel = null;
+  }
+
+  manuscript.edits.push({ at, by, changes: changed });
+  manuscript.editedAt = at;
+  return { manuscript, changed };
 }
