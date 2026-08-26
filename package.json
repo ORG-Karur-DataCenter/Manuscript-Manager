@@ -11,7 +11,8 @@
     "check-registry": "node scripts/check-registry.mjs",
     "dump-candidates": "node scripts/dump-candidates.mjs",
     "get-outlook-token": "node scripts/get-outlook-token.mjs",
-    "check-timestamps": "node scripts/check-timestamps.mjs"
+    "check-timestamps": "node scripts/check-timestamps.mjs",
+    "check-worker": "node scripts/check-worker.mjs"
   },
   "dependencies": {
     "googleapis": "^144.0.0"
