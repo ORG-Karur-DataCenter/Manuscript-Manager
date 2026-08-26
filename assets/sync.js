@@ -137,7 +137,11 @@ async function proxy(path, options = {}) {
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {
     const err = new Error(body.error || `The sync service returned ${res.status}.`);
-    if (res.status === 401) err.code = "auth";
+    // 401 is the caller's password and worth re-asking for. Anything else is
+    // the Worker's own problem -- unconfigured secrets, a bad token inside it,
+    // GitHub refusing it -- and none of that is fixable from this page, so
+    // offer the personal-token route rather than a dead end.
+    err.code = res.status === 401 ? "auth" : "proxy-unreachable";
     throw err;
   }
   return body;
