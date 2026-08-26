@@ -496,12 +496,14 @@ async function onSyncNow() {
   const remaining = $("#sync-remaining");
   const link = $("#sync-run-link");
   const closeBtn = $("#sync-close");
+  const forgetBtn = $("#sync-forget");
 
   btn.disabled = true;
   btn.classList.add("busy");
   panel.classList.remove("done", "failed");
   link.hidden = true;
   closeBtn.hidden = true;
+  forgetBtn.hidden = true;
   modal.hidden = false;
   setRing(0);
   remaining.textContent = "—";
@@ -514,6 +516,7 @@ async function onSyncNow() {
     phase.textContent = ok ? "Sync complete" : "Sync did not finish";
     detail.textContent = message;
     closeBtn.hidden = false;
+    forgetBtn.hidden = !hasToken();
     btn.disabled = false;
     btn.classList.remove("busy");
     syncing = false;
@@ -558,6 +561,11 @@ async function onSyncNow() {
 function wireSync() {
   $("#sync-btn")?.addEventListener("click", onSyncNow);
   $("#sync-close")?.addEventListener("click", () => { $("#sync-modal").hidden = true; });
+  $("#sync-forget")?.addEventListener("click", async () => {
+    setToken(null);
+    $("#sync-modal").hidden = true;
+    if (await askForToken()) onSyncNow();
+  });
 }
 
 // Nothing renders, and no data is fetched, until the gate is passed.

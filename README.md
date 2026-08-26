@@ -272,5 +272,33 @@ else: it cannot read repository secrets, push code, or reach any other
 repository. **Do not use a classic token with `repo` scope** — that grants far
 more than this needs.
 
+You are asked for it **once per device**. After that it is reused
+indefinitely; the prompt only returns if GitHub rejects the token or the
+browser's data is cleared. To swap it deliberately, use *Use a different
+GitHub token* at the bottom of the sync panel.
+
+### Why the token cannot simply be built into the app
+
+The obvious wish is to enter it once and have the app remember it for
+everyone, forever. That cannot be done here, and it is worth being precise
+about why rather than treating it as a limitation of effort.
+
+The app is a static page: every file it uses is served from this repository,
+which is **public**. A token committed here would be readable by anyone on the
+internet the moment it was pushed. GitHub's secret scanning would also spot it
+and revoke it automatically, usually within minutes — so it would not even
+work, let alone be safe. Encrypting it against the app password does not help
+either: that password is itself in the public source, so anyone could decrypt
+it. Storing it per-browser is not a workaround for a missing feature; it is
+the only place a credential can live when there is no server.
+
+If entering it once per device is genuinely too much — for example, several
+people on several phones — the real fix is a small backend: a serverless
+function (Cloudflare Workers, Vercel, Netlify Functions) that holds the token
+as an environment variable and exposes one endpoint this page can call. Then
+nobody enters a token anywhere, and the credential never reaches a browser at
+all. That is a genuine piece of setup, not a config change, but it is the only
+design that gives one-time-forever across devices.
+
 The button targets the branch named in `BRANCH` at the top of
 `assets/sync.js`; update it if the deployed branch ever changes.

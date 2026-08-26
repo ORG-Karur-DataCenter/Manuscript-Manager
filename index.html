@@ -137,6 +137,7 @@
     <p id="sync-detail" class="sync-detail">Asking GitHub to start the sync.</p>
     <a id="sync-run-link" class="sync-run-link" href="#" target="_blank" rel="noopener" hidden>View the run on GitHub</a>
     <button id="sync-close" class="sync-close" hidden>Close</button>
+    <button id="sync-forget" class="sync-forget" hidden>Use a different GitHub token</button>
   </div>
 </div>
 
@@ -151,8 +152,13 @@
       <strong>Actions: Read and write</strong>.
     </p>
     <p class="sync-detail sync-detail-quiet">
-      It is stored only in this browser and sent only to api.github.com. Do not use a
-      classic token — those grant far more than this needs.
+      <strong>You are asked for this once.</strong> It is saved in this browser and reused
+      from then on — you will not see this screen again on this device unless GitHub
+      rejects the token or you clear your browsing data. It is sent only to
+      api.github.com, never to this page's server or to anyone else.
+    </p>
+    <p class="sync-detail sync-detail-quiet">
+      Do not use a classic token — those grant far more than this needs.
     </p>
     <input id="token-input" type="password" placeholder="github_pat_…" autocomplete="off" required />
     <p id="token-error" class="lock-error" hidden role="alert"></p>
