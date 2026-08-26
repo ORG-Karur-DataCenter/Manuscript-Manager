@@ -137,6 +137,45 @@ export function applyEvent(registry, event) {
 
   const now = event.timestamp;
 
+  // The same notice can arrive twice with different message ids -- forwarded
+  // from another mailbox, or sent by the journal to two co-authors who both
+  // have inboxes here. The id check above cannot see that, so fall back to
+  // what the event says: the same outcome, at the same journal, on the same
+  // day is one event reported twice.
+  //
+  // Two exceptions keep this from losing real information. Differing
+  // manuscript numbers mean two different papers, however alike the notices
+  // look -- that alone would have merged World Journal of Orthopedics 116723
+  // with 119301. And a duplicate still carries facts worth keeping: the
+  // second copy is often the one bearing the DOI.
+  if (manuscript) {
+    const day = new Date(now).toISOString().slice(0, 10);
+    const j = (event.journal || "").trim().toLowerCase();
+    const num = (event.manuscriptNumber || "").trim().toLowerCase();
+    const twin = (manuscript.timeline || []).find((t) => {
+      if (t.eventType !== event.eventType) return false;
+      if ((t.journal || "").trim().toLowerCase() !== j) return false;
+      return new Date(t.timestamp).toISOString().slice(0, 10) === day;
+    });
+    if (twin) {
+      const twinNum = (twin.manuscriptNumber || "").trim().toLowerCase();
+      const differentPapers = num && twinNum && num !== twinNum;
+      if (!differentPapers) {
+        if (event.doi) manuscript.doi = event.doi;
+        if (event.publicationLink) manuscript.publicationLink = event.publicationLink;
+        for (const sub of manuscript.submissions) {
+          if (sub.journal.trim().toLowerCase() !== j) continue;
+          if (event.doi) sub.doi = event.doi;
+          if (event.publicationLink) sub.publicationLink = event.publicationLink;
+          if (!sub.manuscriptNumber && event.manuscriptNumber) {
+            sub.manuscriptNumber = event.manuscriptNumber;
+          }
+        }
+        return manuscript;
+      }
+    }
+  }
+
   if (!manuscript) {
     manuscript = {
       id: uniqueId(registry, event.title),
@@ -223,6 +262,7 @@ export function applyEvent(registry, event) {
     timestamp: now,
     journal: event.journal,
     eventType: event.eventType,
+    manuscriptNumber: event.manuscriptNumber || null,
     label: STATUS_LABELS[event.eventType] || event.eventType,
     revisionRound: event.revisionRound || null,
     note: event.summary || "",

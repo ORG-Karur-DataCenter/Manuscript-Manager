@@ -52,5 +52,30 @@ const before = m2.timeline.length;
 applyEvent(reg2, ev({ title: "Late Arrival", journal: "Journal A", eventType: "rejected", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "a1" } }));
 check("a replayed message is filed once", m2.timeline.length === before);
 
+// The same notice arriving twice from two mailboxes, with different ids.
+const reg3 = { manuscripts: [] };
+applyEvent(reg3, ev({ title: "Forwarded Twice", journal: "Journal B", eventType: "new_submission", timestamp: "2026-08-24T09:00:00Z", source: { messageId: "gmail-1" } }));
+applyEvent(reg3, ev({ title: "Forwarded Twice", journal: "Journal B", eventType: "new_submission", timestamp: "2026-08-24T09:04:00Z", source: { messageId: "outlook-1" } }));
+const m3 = reg3.manuscripts[0];
+check("the same notice from two mailboxes is filed once", m3.timeline.length === 1);
+
+// A different outcome on the same day is still a real, separate event.
+applyEvent(reg3, ev({ title: "Forwarded Twice", journal: "Journal B", eventType: "rejected", timestamp: "2026-08-24T18:00:00Z", source: { messageId: "gmail-2" } }));
+check("a different outcome the same day still files", m3.timeline.length === 2 && m3.currentStatus === "Rejected");
+
+// Two different papers at one journal on one day are not a duplicate. Real
+// data had exactly this: World Journal of Orthopedics 116723 and 119301.
+const reg4 = { manuscripts: [] };
+applyEvent(reg4, ev({ title: "Two Papers One Day", journal: "World Journal of Orthopedics", manuscriptNumber: "116723", eventType: "new_submission", timestamp: "2026-04-28T03:22:00Z", source: { messageId: "w1" } }));
+applyEvent(reg4, ev({ title: "Two Papers One Day", journal: "World Journal of Orthopedics", manuscriptNumber: "119301", eventType: "new_submission", timestamp: "2026-04-28T08:42:00Z", source: { messageId: "w2" } }));
+check("distinct manuscript numbers are not merged", reg4.manuscripts[0].timeline.length === 2);
+
+// A duplicate often carries the DOI; dropping it would lose a fact.
+const reg5 = { manuscripts: [] };
+applyEvent(reg5, ev({ title: "DOI On The Second Copy", journal: "Journal C", eventType: "accepted", timestamp: "2026-08-18T09:30:00Z", source: { messageId: "d1" } }));
+applyEvent(reg5, ev({ title: "DOI On The Second Copy", journal: "Journal C", eventType: "accepted", timestamp: "2026-08-18T09:50:00Z", doi: "10.1000/xyz", source: { messageId: "d2" } }));
+const m5 = reg5.manuscripts[0];
+check("a merged duplicate still yields its DOI", m5.timeline.length === 1 && m5.doi === "10.1000/xyz");
+
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
 process.exit(failures ? 1 : 0);
