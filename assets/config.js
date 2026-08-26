@@ -7,4 +7,4 @@
  * deployed Worker and nobody is ever asked for a token again — see
  * worker/README.md.
  */
-export const SYNC_PROXY_URL = "";
+export const SYNC_PROXY_URL = "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";
