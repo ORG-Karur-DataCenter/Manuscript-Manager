@@ -305,3 +305,69 @@ else.
 
 The button targets the branch named in `BRANCH` at the top of
 `assets/sync.js`; update it if the deployed branch ever changes.
+
+
+## Adding an Outlook mailbox
+
+The tracker reads Gmail and Outlook. Each account in `config/accounts.json`
+names its `provider`; omit it and the account is treated as Gmail, so existing
+entries keep working untouched.
+
+Outlook goes through Microsoft Graph, which needs an app registration. It is
+free, and a personal Microsoft account can create one.
+
+### 1. Register the app
+
+[portal.azure.com](https://portal.azure.com) → **Microsoft Entra ID** → **App
+registrations** → **New registration**.
+
+| Field | Value |
+| --- | --- |
+| Name | anything, e.g. `ORG Karur COMMS` |
+| Supported account types | **Accounts in any organizational directory and personal Microsoft accounts** |
+| Redirect URI | **Public client/native**, `http://localhost:53683/callback` |
+
+That account-type setting matters: pick a narrower one and the token exchange
+fails later with an audience error that reads as though the credentials are
+wrong.
+
+Copy the **Application (client) ID** from the overview page.
+
+Under **API permissions**, add **Microsoft Graph → Delegated → Mail.Read**.
+Read-only is all this needs; it never sends or modifies mail.
+
+A client secret is optional for a public client. If you create one
+(**Certificates & secrets**), keep it for the next step; secrets expire, so a
+public client with no secret is one less thing to renew.
+
+### 2. Get a refresh token
+
+```sh
+OUTLOOK_CLIENT_ID=<client id> npm run get-outlook-token
+```
+
+Open the printed URL, sign in as the Outlook account, approve. The refresh
+token is printed once — nothing is written to disk.
+
+### 3. Store the secrets
+
+In the repository, **Settings → Secrets and variables → Actions**:
+
+| Secret | Value |
+| --- | --- |
+| `OUTLOOK_CLIENT_ID` | the Application (client) ID |
+| `OUTLOOK_CLIENT_SECRET` | only if you created one |
+| `OUTLOOK_REFRESH_TOKEN_DHIBIN` | the refresh token from step 2 |
+
+The next scheduled run picks the mailbox up. A missing credential skips only
+that account and logs which variable is absent — a half-configured Outlook
+never stops the Gmail inboxes syncing.
+
+### Differences worth knowing
+
+Graph returns the whole message in the listing, so Outlook needs one request
+per page rather than one per message — noticeably faster on a backfill.
+
+`/me/messages` spans folders, including Deleted Items. Filtering that out
+costs an extra lookup for little gain: seen ids and the registry both dedupe
+by message id, so a deleted message is read once and never filed twice.

@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import { buildGmailClient, fetchNewMessages } from "./lib/gmail.mjs";
+import { buildClient, fetchNewMessages, credentialsFor, providerOf } from "./lib/mailbox.mjs";
 import { classifyEmail } from "./lib/classify.mjs";
 import { applyEvent } from "./lib/registry.mjs";
 import { PREFILTER } from "./lib/prefilter.mjs";
@@ -39,13 +39,6 @@ const MAX_CLASSIFY_ATTEMPTS = 3;
 const RATE_LIMIT_GIVE_UP = Number(process.env.RATE_LIMIT_GIVE_UP || 5);
 
 
-function gmailDateQuery(sinceDate) {
-  const y = sinceDate.getUTCFullYear();
-  const m = String(sinceDate.getUTCMonth() + 1).padStart(2, "0");
-  const d = String(sinceDate.getUTCDate()).padStart(2, "0");
-  return `after:${y}/${m}/${d}`;
-}
-
 async function loadJson(file, fallback) {
   try {
     return JSON.parse(await readFile(file, "utf-8"));
@@ -73,11 +66,9 @@ async function main() {
   const excludedLog = await loadJson(P.excluded, { excluded: [] });
   const reviewQueue = await loadJson(P.review, { review: [] });
 
-  const clientId = process.env.GMAIL_CLIENT_ID;
-  const clientSecret = process.env.GMAIL_CLIENT_SECRET;
-  if (!clientId || !clientSecret) {
-    throw new Error("GMAIL_CLIENT_ID / GMAIL_CLIENT_SECRET are not set.");
-  }
+  // Credentials are checked per account rather than up front: a missing Gmail
+  // secret should skip the Gmail inboxes, not abort a run that could still
+  // have synced Outlook.
   if (!hasClassifierKey()) {
     throw new Error(
       "No classifier API key set. Provide at least one of GEMINI_API_KEY, CEREBRAS_API_KEY, GROQ_API_KEY."
@@ -92,12 +83,14 @@ async function main() {
   let totalClassified = 0;
   let rateLimitedThisRun = 0;
   const activeAccounts =
-    accounts.filter((a) => process.env[a.refreshTokenEnv]).length || 1;
+    accounts.filter((a) => credentialsFor(a).missing.length === 0).length || 1;
 
   for (const account of accounts) {
-    const refreshToken = process.env[account.refreshTokenEnv];
-    if (!refreshToken) {
-      console.warn(`Skipping ${account.label}: env ${account.refreshTokenEnv} not set.`);
+    const { missing } = credentialsFor(account);
+    if (missing.length) {
+      console.warn(
+        `Skipping ${account.label} (${providerOf(account)}): ${missing.join(", ")} not set.`
+      );
       continue;
     }
 
@@ -114,12 +107,13 @@ async function main() {
       ? new Date(new Date(acctState.lastSyncedAt).getTime() - OVERLAP_DAYS * 86400000)
       : new Date(Date.now() - DEFAULT_LOOKBACK_DAYS * 86400000);
 
-    const gmail = buildGmailClient({ clientId, clientSecret, refreshToken });
-    const query = `-in:chats -in:drafts -in:spam -in:trash ${gmailDateQuery(since)}`;
+    const mailbox = buildClient(account);
 
-    console.log(`[${account.label}] fetching since ${since.toISOString()} ...`);
-    const messages = await fetchNewMessages(gmail, {
-      query,
+    console.log(
+      `[${account.label}] fetching ${providerOf(account)} since ${since.toISOString()} ...`
+    );
+    const messages = await fetchNewMessages(mailbox, {
+      since,
       seenIds,
       maxResults: MAX_MESSAGES_PER_RUN,
     });

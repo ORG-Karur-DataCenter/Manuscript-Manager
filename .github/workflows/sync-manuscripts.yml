@@ -31,6 +31,9 @@ jobs:
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_REFRESH_TOKEN_SATHISH: ${{ secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
           GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
+          OUTLOOK_CLIENT_ID: ${{ secrets.OUTLOOK_CLIENT_ID }}
+          OUTLOOK_CLIENT_SECRET: ${{ secrets.OUTLOOK_CLIENT_SECRET }}
+          OUTLOOK_REFRESH_TOKEN_DHIBIN: ${{ secrets.OUTLOOK_REFRESH_TOKEN_DHIBIN }}
           # Any one of these is enough; supplying more than one gives the
           # classifier a second opinion and a fallback when a free tier is capped.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

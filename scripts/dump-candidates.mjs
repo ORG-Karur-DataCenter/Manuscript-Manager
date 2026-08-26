@@ -11,7 +11,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildGmailClient, fetchNewMessages } from "./lib/gmail.mjs";
+import { buildClient, fetchNewMessages, credentialsFor, providerOf } from "./lib/mailbox.mjs";
 import { PREFILTER } from "./lib/prefilter.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -32,9 +32,9 @@ if (!account) {
   process.exit(1);
 }
 
-const refreshToken = process.env[account.refreshTokenEnv];
-if (!refreshToken) {
-  console.error(`${account.refreshTokenEnv} is not set.`);
+const { missing } = credentialsFor(account);
+if (missing.length) {
+  console.error(`${account.email} (${providerOf(account)}): ${missing.join(", ")} not set.`);
   process.exit(1);
 }
 
@@ -57,19 +57,16 @@ function beforeClause(date) {
   return ` before:${yy}/${mm}/${dd}`;
 }
 
-const gmail = buildGmailClient({
-  clientId: process.env.GMAIL_CLIENT_ID,
-  clientSecret: process.env.GMAIL_CLIENT_SECRET,
-  refreshToken,
-});
+const mailbox = buildClient(account);
 
 console.log(
   `Fetching ${account.email} from ${y}-${m}-${d}` +
     (until ? ` to ${until.toISOString().slice(0, 10)}` : " to now") +
     " ..."
 );
-const messages = await fetchNewMessages(gmail, {
-  query: `-in:chats -in:drafts -in:spam -in:trash after:${y}/${m}/${d}${beforeClause(until)}`,
+const messages = await fetchNewMessages(mailbox, {
+  since,
+  until,
   seenIds: new Set(),
   // A 30-day window fits in a few hundred; a six-month backfill does not.
   maxResults: Number(process.env.DUMP_MAX_RESULTS || 3000),

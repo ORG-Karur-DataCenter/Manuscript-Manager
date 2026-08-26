@@ -9,7 +9,8 @@
     "get-refresh-token": "node scripts/get-refresh-token.mjs",
     "check-classifier": "node scripts/check-classifier.mjs",
     "check-registry": "node scripts/check-registry.mjs",
-    "dump-candidates": "node scripts/dump-candidates.mjs"
+    "dump-candidates": "node scripts/dump-candidates.mjs",
+    "get-outlook-token": "node scripts/get-outlook-token.mjs"
   },
   "dependencies": {
     "googleapis": "^144.0.0"

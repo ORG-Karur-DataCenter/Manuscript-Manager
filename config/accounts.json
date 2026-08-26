@@ -1,15 +1,23 @@
 {
-  "_comment": "One entry per Gmail inbox to poll. 'refreshTokenEnv' names the GitHub Actions secret holding that account's OAuth refresh token (generate with `npm run get-refresh-token`). Add/remove accounts here — no code changes needed.",
+  "_comment": "One entry per inbox to poll. 'provider' is \"gmail\" (the default when absent) or \"outlook\". 'refreshTokenEnv' names the GitHub Actions secret holding that account's OAuth refresh token \u2014 generate with `npm run get-refresh-token` for Gmail or `npm run get-outlook-token` for Outlook. Add or remove accounts here; no code changes needed.",
   "accounts": [
     {
       "label": "Sathish Muthu",
       "email": "drsathishmuthu@gmail.com",
-      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH"
+      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH",
+      "provider": "gmail"
     },
     {
       "label": "Dhibin Vikash Kolarpatti Ponnusamy",
       "email": "dhibinvikash1@gmail.com",
-      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_DHIBIN"
+      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_DHIBIN",
+      "provider": "gmail"
+    },
+    {
+      "label": "Dhibin Vikash (Outlook)",
+      "email": "dhibinvikash@outlook.com",
+      "provider": "outlook",
+      "refreshTokenEnv": "OUTLOOK_REFRESH_TOKEN_DHIBIN"
     }
   ]
 }

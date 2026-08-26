@@ -1,4 +1,5 @@
 import { google } from "googleapis";
+import { stripHtml } from "./text.mjs";
 
 export function buildGmailClient({ clientId, clientSecret, refreshToken }) {
   const oauth2Client = new google.auth.OAuth2(clientId, clientSecret);
@@ -9,24 +10,6 @@ export function buildGmailClient({ clientId, clientSecret, refreshToken }) {
 function decodeBase64Url(data) {
   if (!data) return "";
   return Buffer.from(data, "base64url").toString("utf-8");
-}
-
-function stripHtml(html) {
-  return html
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/p>/gi, "\n")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/[ \t]+/g, " ")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
 }
 
 function extractBody(payload) {
