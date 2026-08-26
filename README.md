@@ -292,13 +292,16 @@ either: that password is itself in the public source, so anyone could decrypt
 it. Storing it per-browser is not a workaround for a missing feature; it is
 the only place a credential can live when there is no server.
 
-If entering it once per device is genuinely too much — for example, several
-people on several phones — the real fix is a small backend: a serverless
-function (Cloudflare Workers, Vercel, Netlify Functions) that holds the token
-as an environment variable and exposes one endpoint this page can call. Then
-nobody enters a token anywhere, and the credential never reaches a browser at
-all. That is a genuine piece of setup, not a config change, but it is the only
-design that gives one-time-forever across devices.
+If entering it once per device is too much — several people on several phones —
+deploy the sync proxy in `worker/`. It is a Cloudflare Worker holding one token
+server-side, so nobody is asked for a token anywhere and the credential never
+reaches a browser. See `worker/README.md`; it is two commands plus two secret
+prompts, and the free tier covers this many times over.
+
+Set `SYNC_PROXY_URL` in `assets/config.js` to the deployed Worker and the
+dashboard uses it; leave it empty and the per-device token flow above applies.
+Both sit behind the same code path, so switching between them changes nothing
+else.
 
 The button targets the branch named in `BRANCH` at the top of
 `assets/sync.js`; update it if the deployed branch ever changes.

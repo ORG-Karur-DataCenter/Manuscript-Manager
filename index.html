@@ -144,20 +144,25 @@
 <!-- Asked for once per device, never committed. See assets/sync.js. -->
 <div id="token-modal" class="sync-modal" hidden>
   <form id="token-form" class="sync-panel token-panel">
-    <h2 class="sync-phase">Connect to GitHub</h2>
-    <p class="sync-detail">
+    <h2 class="sync-phase token-title">Connect to GitHub</h2>
+    <h2 class="sync-phase proxy-title">Confirm your password</h2>
+    <p class="sync-detail proxy-only">
+      Enter the dashboard password to start a sync. It is checked by the sync
+      service and held only for this browser session.
+    </p>
+    <p class="sync-detail token-only">
       The sync runs as a GitHub Actions workflow, so this page needs your permission to start it.
       Create a <strong>fine-grained</strong> personal access token for
       <code>ORG-Karur-DataCenter/Manuscript-Manager</code> with the single permission
       <strong>Actions: Read and write</strong>.
     </p>
-    <p class="sync-detail sync-detail-quiet">
+    <p class="sync-detail sync-detail-quiet token-only">
       <strong>You are asked for this once.</strong> It is saved in this browser and reused
       from then on — you will not see this screen again on this device unless GitHub
       rejects the token or you clear your browsing data. It is sent only to
       api.github.com, never to this page's server or to anyone else.
     </p>
-    <p class="sync-detail sync-detail-quiet">
+    <p class="sync-detail sync-detail-quiet token-only">
       Do not use a classic token — those grant far more than this needs.
     </p>
     <input id="token-input" type="password" placeholder="github_pat_…" autocomplete="off" required />

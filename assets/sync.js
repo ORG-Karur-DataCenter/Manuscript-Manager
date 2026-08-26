@@ -18,7 +18,13 @@
  * watch workflow runs and nothing else — it cannot read the repository's
  * secrets, push code, or touch any other repository. A classic token with
  * "repo" scope would hand over far more; do not use one.
+ *
+ * THAT IS THE FALLBACK. When SYNC_PROXY_URL is set in assets/config.js, the
+ * dashboard talks to a small Worker holding one token server-side instead, and
+ * nobody is asked for a token at all. Both paths sit behind runSync() so the
+ * rest of the app does not care which is in use.
  */
+import { SYNC_PROXY_URL } from "./config.js";
 
 const OWNER = "ORG-Karur-DataCenter";
 const REPO = "Manuscript-Manager";
@@ -32,7 +38,10 @@ const API = `https://api.github.com/repos/${OWNER}/${REPO}`;
 const FALLBACK_SECONDS = 165;
 
 const getToken = () => { try { return localStorage.getItem(TOKEN_KEY) || ""; } catch { return ""; } };
-export const hasToken = () => Boolean(getToken());
+
+export const usingProxy = () => Boolean(SYNC_PROXY_URL);
+/** With a proxy deployed there is nothing for the viewer to supply. */
+export const hasToken = () => (usingProxy() ? true : Boolean(getToken()));
 export function setToken(value) {
   try {
     if (value) localStorage.setItem(TOKEN_KEY, value.trim());
@@ -98,11 +107,78 @@ async function findRunSince(startedAfter, attempts = 12) {
   throw new Error("The run was started but could not be found. Check the Actions tab.");
 }
 
+/** The password the viewer already typed at the gate authorises the proxy. */
+const PASSPHRASE_KEY = "orgkarur.passphrase";
+export function rememberPassphrase(value) {
+  try { sessionStorage.setItem(PASSPHRASE_KEY, value); } catch { /* not fatal */ }
+}
+const passphrase = () => { try { return sessionStorage.getItem(PASSPHRASE_KEY) || ""; } catch { return ""; } };
+
+async function proxy(path, options = {}) {
+  const res = await fetch(`${SYNC_PROXY_URL.replace(/\/$/, "")}${path}`, {
+    ...options,
+    headers: { Authorization: `Bearer ${passphrase()}`, ...(options.headers || {}) },
+  });
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    const err = new Error(body.error || `The sync service returned ${res.status}.`);
+    if (res.status === 401) err.code = "auth";
+    throw err;
+  }
+  return body;
+}
+
 /**
  * Runs a sync and reports progress.
  * onProgress({ phase, elapsed, estimate, remaining, fraction })
  */
 export async function runSync(onProgress) {
+  return usingProxy() ? runViaProxy(onProgress) : runWithOwnToken(onProgress);
+}
+
+async function runViaProxy(onProgress) {
+  // A resumed "stay signed in" session never typed the password this visit.
+  // Ask for it rather than keeping it in durable storage, where anyone with
+  // the device could read the password itself rather than just a session flag.
+  if (!passphrase()) {
+    const err = new Error("Confirm the dashboard password to run a sync.");
+    err.code = "auth";
+    throw err;
+  }
+  onProgress({ phase: "starting", elapsed: 0, estimate: FALLBACK_SECONDS, remaining: FALLBACK_SECONDS, fraction: 0 });
+  const started = await proxy("/sync", { method: "POST" });
+  const estimate = started.estimateSeconds || FALLBACK_SECONDS;
+  const startedAt = new Date(started.startedAt).getTime();
+
+  const tick = () => {
+    const elapsed = Math.round((Date.now() - startedAt) / 1000);
+    const remaining = Math.max(estimate - elapsed, elapsed > estimate ? 5 : 0);
+    onProgress({ phase: "running", elapsed, estimate, remaining, fraction: Math.min(elapsed / Math.max(estimate, 1), 0.97) });
+  };
+
+  const ticker = setInterval(tick, 1000);
+  tick();
+  try {
+    for (;;) {
+      await new Promise((r) => setTimeout(r, 5000));
+      const current = await proxy(`/sync/${started.runId}`);
+      if (current.status === "completed") {
+        const elapsed = Math.round((Date.now() - startedAt) / 1000);
+        if (current.conclusion !== "success") {
+          const err = new Error(`The sync run finished as "${current.conclusion}".`);
+          err.runUrl = current.htmlUrl;
+          throw err;
+        }
+        onProgress({ phase: "done", elapsed, estimate, remaining: 0, fraction: 1 });
+        return { elapsed, runUrl: current.htmlUrl };
+      }
+    }
+  } finally {
+    clearInterval(ticker);
+  }
+}
+
+async function runWithOwnToken(onProgress) {
   const requestedAt = Date.now();
   const estimate = await estimateSeconds();
 

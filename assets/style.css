@@ -474,3 +474,12 @@ body.locked .foot { filter: blur(7px); pointer-events: none; user-select: none; 
   .sync-btn-text { display: none; }
   .sync-btn { padding: 0 11px; }
 }
+
+/* One modal serves both connection styles: a GitHub token when each person
+   supplies their own, or the dashboard password when a sync proxy holds it. */
+.proxy-title, .proxy-only { display: none; }
+#token-modal.proxy-mode .token-title,
+#token-modal.proxy-mode .token-only { display: none; }
+#token-modal.proxy-mode .proxy-title { display: block; }
+#token-modal.proxy-mode .proxy-only { display: block; }
+#token-modal.proxy-mode #token-input::placeholder { content: ""; }

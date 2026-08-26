@@ -68,13 +68,15 @@ export function signOut() {
 }
 
 /** Resolves once the viewer is past the gate; the app boots only after that. */
-export function requireUnlock() {
+export function requireUnlock(onUnlock) {
   return new Promise((resolve) => {
     if (readSession()) {
       document.body.classList.remove("locked");
       resolve();
       return;
     }
+    // A resumed session has no password to hand on; the proxy path asks for it
+    // again rather than storing it anywhere durable.
 
     document.body.classList.add("locked");
     const gate = document.getElementById("lock-screen");
@@ -106,6 +108,7 @@ export function requireUnlock() {
         return;
       }
 
+      onUnlock?.(entered);
       writeSession(remember?.checked);
       gate.hidden = true;
       document.body.classList.remove("locked");

@@ -1,5 +1,5 @@
 import { requireUnlock, signOut } from "./auth.js";
-import { runSync, waitForFreshData, hasToken, setToken } from "./sync.js";
+import { runSync, waitForFreshData, hasToken, setToken, usingProxy, rememberPassphrase } from "./sync.js";
 
 "use strict";
 
@@ -457,6 +457,8 @@ function setRing(fraction) {
 function askForToken() {
   return new Promise((resolve) => {
     const modal = $("#token-modal");
+    const proxyMode = usingProxy();
+    modal.classList.toggle("proxy-mode", proxyMode);
     const form = $("#token-form");
     const input = $("#token-input");
     const error = $("#token-error");
@@ -474,8 +476,13 @@ function askForToken() {
     form.onsubmit = (e) => {
       e.preventDefault();
       const value = input.value.trim();
-      if (!value) { error.textContent = "Paste the token to continue."; error.hidden = false; return; }
-      setToken(value);
+      if (!value) {
+        error.textContent = proxyMode ? "Enter the dashboard password." : "Paste the token to continue.";
+        error.hidden = false;
+        return;
+      }
+      if (proxyMode) rememberPassphrase(value);
+      else setToken(value);
       finish(value);
     };
     $("#token-cancel").onclick = () => finish(null);
@@ -516,7 +523,9 @@ async function onSyncNow() {
     phase.textContent = ok ? "Sync complete" : "Sync did not finish";
     detail.textContent = message;
     closeBtn.hidden = false;
-    forgetBtn.hidden = !hasToken();
+    // Meaningless when a proxy holds the token: there is nothing per-device
+    // to replace.
+    forgetBtn.hidden = usingProxy() || !hasToken();
     btn.disabled = false;
     btn.classList.remove("busy");
     syncing = false;
@@ -548,6 +557,14 @@ async function onSyncNow() {
     }
   } catch (err) {
     if (err.code === "auth") {
+      if (usingProxy()) {
+        modal.hidden = true;
+        btn.disabled = false;
+        btn.classList.remove("busy");
+        syncing = false;
+        if (await askForToken()) onSyncNow();
+        return;
+      }
       setToken(null);
       finish(false, err.message + " Press Sync now again to enter a new one.");
     } else {
@@ -569,7 +586,7 @@ function wireSync() {
 }
 
 // Nothing renders, and no data is fetched, until the gate is passed.
-requireUnlock().then(() => {
+requireUnlock((password) => rememberPassphrase(password)).then(() => {
   initTheme();
   wire();
   wireSync();
