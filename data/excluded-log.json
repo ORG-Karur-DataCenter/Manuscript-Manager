@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-26T13:30:37.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Publish sound science with confidence",
+      "from": "\"Lippincott® Journals\" <info@ovid.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-26T12:27:55.000Z",
       "reason": "unrelated",
       "subject": "First month's free, here's how to start",
@@ -2347,14 +2354,6 @@
       "reason": "unrelated",
       "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
       "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e6e3cfc51d4b40",
-      "timestamp": "2026-05-28T10:57:55.000Z",
-      "reason": "unrelated",
-      "subject": "PDF Proofreading for Manuscript NO. 117490 of World Journal of Methodology",
-      "from": "\"Zhao, Si (Baishideng)\" <s.zhao@wjgnet.com>",
       "account": "Sathish Muthu"
     }
   ]
