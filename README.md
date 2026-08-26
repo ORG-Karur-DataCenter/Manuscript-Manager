@@ -82,6 +82,14 @@ disconnected entries.
    that. You will see an "unverified app" warning once, during the authorisation in
    step 2 — click through it (Advanced → Go to *app name*). No Google review is
    needed for personal use.
+
+   **Publish before minting tokens, not after.** The seven days run from when a
+   token was issued, not from the app's current status, so publishing does not
+   rescue a token minted while the app was still in Testing — it expires on
+   schedule and the sync stops with `invalid_grant`. If the app was published
+   after tokens were issued, redo step 2 and replace the secrets. It is the
+   easiest thing here to get wrong, because everything looks correct right up
+   until the day it breaks.
 4. **APIs & Services → Credentials → Create credentials → OAuth client ID →
    Application type: Desktop app.** Note the **Client ID** and **Client secret**.
 
