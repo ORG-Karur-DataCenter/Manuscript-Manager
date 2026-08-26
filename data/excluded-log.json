@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-26T02:09:10.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Science Progress",
+      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-25T21:42:08.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "SICOT-J CALL FOR APPLICATIONS - Two Co-Editors-in-Chief",
@@ -2358,14 +2365,6 @@
       "reason": "unrelated",
       "subject": "We've completed some quality checks on your submission",
       "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e3542d2bd2b08b",
-      "timestamp": "2026-05-17T09:27:11.000Z",
-      "reason": "unrelated",
-      "subject": "You started a submission to Stem Cell Research & Therapy",
-      "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
       "account": "Sathish Muthu"
     }
   ]
