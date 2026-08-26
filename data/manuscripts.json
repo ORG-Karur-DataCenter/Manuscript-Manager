@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-26T09:57:34.506Z",
+  "generatedAt": "2026-08-26T13:10:54.450Z",
   "manuscripts": [
+    {
+      "id": "practice-preference-of-revision-surgery-for-recurrent-lumbar-disc-hern",
+      "title": "Practice preference of revision surgery for recurrent lumbar disc herniation: an international survey of AO spine members",
+      "titleNormalized": "practice preference of revision surgery for recurrent lumbar disc herniation an international survey of ao spine members",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": "b5cd0adc-8d7b-44eb-9a5e-5385194a68bf",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": "b5cd0adc-8d7b-44eb-9a5e-5385194a68bf",
+          "submittedDate": "2026-08-26T06:58:48.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-26T06:58:48.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The manuscript was accepted for publication in European Spine Journal.",
+              "manuscriptNumber": "b5cd0adc-8d7b-44eb-9a5e-5385194a68bf",
+              "source": {
+                "threadId": "1a03cd5cfbce3d0f",
+                "messageId": "1a03cdd451a5a0ea",
+                "subject": "Final reminder: Springer Nature reprint offer for your article",
+                "from": "no-reply@email.copyright.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-26T06:58:48.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "The manuscript was accepted for publication in European Spine Journal.",
+          "source": {
+            "threadId": "1a03cd5cfbce3d0f",
+            "messageId": "1a03cdd451a5a0ea",
+            "subject": "Final reminder: Springer Nature reprint offer for your article",
+            "from": "no-reply@email.copyright.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-26T06:58:48.000Z",
+      "updatedAt": "2026-08-26T06:58:48.000Z"
+    },
     {
       "id": "the-enigma-of-culture-negative-spondylodiscitis-comparable-outcomes-de",
       "title": "The Enigma of Culture-Negative Spondylodiscitis: Comparable Outcomes Despite Diagnostic Uncertainty – A Systematic Review and Meta-analysis",
