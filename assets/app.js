@@ -1,5 +1,5 @@
 import { requireUnlock, signOut } from "./auth.js";
-import { runSync, waitForFreshData, hasToken, setToken, usingProxy, rememberPassphrase } from "./sync.js";
+import { runSync, waitForFreshData, hasToken, hasOwnToken, setToken, usingProxy, rememberPassphrase } from "./sync.js";
 import { loadConfig } from "./config.js";
 
 "use strict";
@@ -455,10 +455,12 @@ function setRing(fraction) {
   if (fill) fill.style.strokeDashoffset = String(RING_CIRCUMFERENCE * (1 - fraction));
 }
 
-function askForToken() {
+function askForToken({ forceToken = false } = {}) {
   return new Promise((resolve) => {
     const modal = $("#token-modal");
-    const proxyMode = usingProxy();
+    // forceToken is the fallback route: a proxy is configured but unreachable,
+    // so this browser needs its own token after all.
+    const proxyMode = usingProxy() && !forceToken;
     modal.classList.toggle("proxy-mode", proxyMode);
     const form = $("#token-form");
     const input = $("#token-input");
@@ -491,9 +493,11 @@ function askForToken() {
 }
 
 let syncing = false;
-async function onSyncNow() {
+async function onSyncNow({ forceOwnToken = false } = {}) {
   if (syncing) return;
-  if (!hasToken() && !(await askForToken())) return;
+  const needsToken = forceOwnToken || !usingProxy();
+  if (needsToken && !hasOwnToken() && !(await askForToken({ forceToken: true }))) return;
+  if (!needsToken && !hasToken() && !(await askForToken())) return;
 
   syncing = true;
   const btn = $("#sync-btn");
@@ -512,6 +516,8 @@ async function onSyncNow() {
   link.hidden = true;
   closeBtn.hidden = true;
   forgetBtn.hidden = true;
+  forgetBtn.textContent = "Use a different GitHub token";
+  forgetBtn.dataset.action = "";
   modal.hidden = false;
   setRing(0);
   remaining.textContent = "—";
@@ -540,7 +546,7 @@ async function onSyncNow() {
         phase.textContent = "Syncing…";
         detail.textContent = `Reading new email and filing what it finds · ${fmtClock(elapsed)} elapsed`;
       }
-    });
+    }, { forceOwnToken });
 
     setRing(1);
     remaining.textContent = "0:00";
@@ -557,6 +563,14 @@ async function onSyncNow() {
       finish(true, "The sync ran successfully. The updated data has not appeared yet — reload in a minute.");
     }
   } catch (err) {
+    if (err.code === "proxy-unreachable") {
+      finish(false, err.message);
+      forgetBtn.hidden = false;
+      forgetBtn.textContent = "Sync with my own GitHub token instead";
+      forgetBtn.dataset.action = "own-token";
+      console.error(err);
+      return;
+    }
     if (err.code === "auth") {
       if (usingProxy()) {
         modal.hidden = true;
@@ -579,9 +593,15 @@ async function onSyncNow() {
 function wireSync() {
   $("#sync-btn")?.addEventListener("click", onSyncNow);
   $("#sync-close")?.addEventListener("click", () => { $("#sync-modal").hidden = true; });
-  $("#sync-forget")?.addEventListener("click", async () => {
-    setToken(null);
+  $("#sync-forget")?.addEventListener("click", async (e) => {
+    const btn = e.currentTarget;
     $("#sync-modal").hidden = true;
+    if (btn.dataset.action === "own-token") {
+      btn.dataset.action = "";
+      onSyncNow({ forceOwnToken: true });
+      return;
+    }
+    setToken(null);
     if (await askForToken()) onSyncNow();
   });
 }

@@ -40,6 +40,8 @@ const FALLBACK_SECONDS = 165;
 const getToken = () => { try { return localStorage.getItem(TOKEN_KEY) || ""; } catch { return ""; } };
 
 export const usingProxy = () => Boolean(syncProxyUrl());
+/** A token this browser holds, regardless of whether a proxy is configured. */
+export const hasOwnToken = () => Boolean(getToken());
 /** With a proxy deployed there is nothing for the viewer to supply. */
 export const hasToken = () => (usingProxy() ? true : Boolean(getToken()));
 export function setToken(value) {
@@ -122,10 +124,15 @@ async function proxy(path, options = {}) {
       headers: { Authorization: `Bearer ${passphrase()}`, ...(options.headers || {}) },
     });
   } catch {
-    throw new Error(
-      `Could not reach the sync service at ${syncProxyUrl()}. Check it is deployed, ` +
-      `and that ALLOWED_ORIGIN in wrangler.toml permits this page.`
+    // Unreachable is recoverable: the caller can offer the personal-token
+    // route rather than leaving someone stuck behind a misconfigured or
+    // undeployed Worker with no way to sync at all.
+    const err = new Error(
+      `Could not reach the sync service at ${syncProxyUrl()}. It may not be deployed, ` +
+      `or ALLOWED_ORIGIN in wrangler.toml may not permit this page.`
     );
+    err.code = "proxy-unreachable";
+    throw err;
   }
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {
@@ -140,8 +147,8 @@ async function proxy(path, options = {}) {
  * Runs a sync and reports progress.
  * onProgress({ phase, elapsed, estimate, remaining, fraction })
  */
-export async function runSync(onProgress) {
-  return usingProxy() ? runViaProxy(onProgress) : runWithOwnToken(onProgress);
+export async function runSync(onProgress, { forceOwnToken = false } = {}) {
+  return usingProxy() && !forceOwnToken ? runViaProxy(onProgress) : runWithOwnToken(onProgress);
 }
 
 async function runViaProxy(onProgress) {
