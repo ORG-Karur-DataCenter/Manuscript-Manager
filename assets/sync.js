@@ -24,7 +24,7 @@
  * nobody is asked for a token at all. Both paths sit behind runSync() so the
  * rest of the app does not care which is in use.
  */
-import { SYNC_PROXY_URL } from "./config.js";
+import { syncProxyUrl } from "./config.js";
 
 const OWNER = "ORG-Karur-DataCenter";
 const REPO = "Manuscript-Manager";
@@ -39,7 +39,7 @@ const FALLBACK_SECONDS = 165;
 
 const getToken = () => { try { return localStorage.getItem(TOKEN_KEY) || ""; } catch { return ""; } };
 
-export const usingProxy = () => Boolean(SYNC_PROXY_URL);
+export const usingProxy = () => Boolean(syncProxyUrl());
 /** With a proxy deployed there is nothing for the viewer to supply. */
 export const hasToken = () => (usingProxy() ? true : Boolean(getToken()));
 export function setToken(value) {
@@ -115,10 +115,18 @@ export function rememberPassphrase(value) {
 const passphrase = () => { try { return sessionStorage.getItem(PASSPHRASE_KEY) || ""; } catch { return ""; } };
 
 async function proxy(path, options = {}) {
-  const res = await fetch(`${SYNC_PROXY_URL.replace(/\/$/, "")}${path}`, {
-    ...options,
-    headers: { Authorization: `Bearer ${passphrase()}`, ...(options.headers || {}) },
-  });
+  let res;
+  try {
+    res = await fetch(`${syncProxyUrl().replace(/\/$/, "")}${path}`, {
+      ...options,
+      headers: { Authorization: `Bearer ${passphrase()}`, ...(options.headers || {}) },
+    });
+  } catch {
+    throw new Error(
+      `Could not reach the sync service at ${syncProxyUrl()}. Check it is deployed, ` +
+      `and that ALLOWED_ORIGIN in wrangler.toml permits this page.`
+    );
+  }
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {
     const err = new Error(body.error || `The sync service returned ${res.status}.`);

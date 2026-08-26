@@ -1,5 +1,6 @@
 import { requireUnlock, signOut } from "./auth.js";
 import { runSync, waitForFreshData, hasToken, setToken, usingProxy, rememberPassphrase } from "./sync.js";
+import { loadConfig } from "./config.js";
 
 "use strict";
 
@@ -586,9 +587,13 @@ function wireSync() {
 }
 
 // Nothing renders, and no data is fetched, until the gate is passed.
-requireUnlock((password) => rememberPassphrase(password)).then(() => {
-  initTheme();
-  wire();
-  wireSync();
-  load();
-});
+// Config first: whether a sync proxy is in use decides what the sync button
+// asks for, so nothing may run before it is known.
+loadConfig()
+  .then(() => requireUnlock((password) => rememberPassphrase(password)))
+  .then(() => {
+    initTheme();
+    wire();
+    wireSync();
+    load();
+  });
