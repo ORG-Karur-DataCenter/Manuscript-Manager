@@ -61,7 +61,14 @@ function corsHeaders(env, request) {
 const json = (body, status, env, request) =>
   new Response(JSON.stringify(body), {
     status,
-    headers: { "Content-Type": "application/json", ...corsHeaders(env, request) },
+    headers: {
+      "Content-Type": "application/json",
+      // Every answer here is about right now -- whether a secret is set, how a
+      // run is progressing. A cached copy is always misleading, and a stale
+      // /health in particular reads as "the secrets I just added did nothing".
+      "Cache-Control": "no-store, no-cache, must-revalidate",
+      ...corsHeaders(env, request),
+    },
   });
 
 async function gh(path, env, options = {}) {
