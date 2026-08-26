@@ -12,9 +12,14 @@
     "dump-candidates": "node scripts/dump-candidates.mjs",
     "get-outlook-token": "node scripts/get-outlook-token.mjs",
     "check-timestamps": "node scripts/check-timestamps.mjs",
-    "check-worker": "node scripts/check-worker.mjs"
+    "check-worker": "node scripts/check-worker.mjs",
+    "check-editing": "node scripts/check-editing.mjs",
+    "check": "npm run check-registry && npm run check-timestamps && npm run check-worker && npm run check-editing"
   },
   "dependencies": {
     "googleapis": "^144.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
   }
 }

@@ -16,6 +16,7 @@
  *   node scripts/check-worker.mjs
  */
 import worker from "../worker/src/index.js";
+import { applyEdit as applyEditInSync, OVERRIDABLE } from "./lib/registry.mjs";
 
 const PASSWORD = "test-password";
 const TOKEN = "github_pat_SECRET_MUST_NOT_LEAK";
@@ -296,6 +297,68 @@ await check("a token missing Contents write says exactly that", async () => {
   assert(res.status === 502, `expected 502, got ${res.status}`);
   const body = await res.json();
   assert(/Contents: Read and write/.test(body.error), `unhelpful message: ${body.error}`);
+});
+
+// --- the two copies of the edit rules must not drift apart ------------------
+
+await check("the Worker edits a manuscript exactly as the sync would", async () => {
+  // The Worker is deployed on its own and cannot import registry.mjs, so the
+  // edit rules exist twice. That is a standing hazard: the sync and the
+  // dashboard would start disagreeing about what an edit means, and nothing
+  // would say so. This runs the same patches through both and compares.
+  const patches = [
+    { title: "A Renamed Paper" },
+    { bucket: "published" },
+    { bucket: "" },
+    { currentStatus: "With editor", currentJournal: "Somewhere Else" },
+    { doi: "10.1234/x", publicationLink: "https://example.org/a" },
+    { notes: "Rang the editor on the 14th." },
+    { title: "  Padded, Then Trimmed  " },
+  ];
+
+  for (const patch of patches) {
+    const base = () => registryWith({
+      overrides: { bucket: "needs_action" },
+      bucket: "needs_action",
+      actionFlag: true,
+      needsActionReason: "rejected_needs_resubmission",
+      titleAliases: ["An Even Older Title"],
+    }).manuscripts[0];
+
+    const gh = stubGitHub({ registry: { manuscripts: [base()] } });
+    const res = await call(patchRequest("m1", patch));
+    assert(res.status === 200, `${JSON.stringify(patch)} returned ${res.status}`);
+    const viaWorker = gh.written().manuscripts[0];
+
+    const viaSync = base();
+    applyEditInSync(viaSync, patch, { at: viaWorker.editedAt || "x", by: "dashboard" });
+
+    // editedAt is a wall clock and will differ by milliseconds; everything
+    // else has to match, edit history included.
+    const strip = (m) => JSON.stringify({ ...m, editedAt: null }, Object.keys(m).sort());
+    assert(
+      strip(viaWorker) === strip(viaSync),
+      `the Worker and the sync disagree about ${JSON.stringify(patch)}:\n` +
+      `      worker: ${strip(viaWorker)}\n      sync:   ${strip(viaSync)}`
+    );
+  }
+});
+
+await check("the Worker allows exactly the fields the sync protects", async () => {
+  const stub = await import("../worker/src/index.js");
+  // Not exported, so it is read out of the source -- a mismatch here is the
+  // silent failure this whole pair of checks exists to catch.
+  const source = await (await import("node:fs/promises")).readFile(
+    new URL("../worker/src/index.js", import.meta.url), "utf8"
+  );
+  const block = source.match(/const OVERRIDABLE = \[([^\]]+)\]/);
+  assert(block, "the Worker no longer declares OVERRIDABLE in a readable form");
+  const inWorker = [...block[1].matchAll(/"([^"]+)"/g)].map((m) => m[1]).sort();
+  assert(
+    inWorker.join(",") === [...OVERRIDABLE].sort().join(","),
+    `the editable fields have drifted:\n      worker: ${inWorker}\n      sync:   ${[...OVERRIDABLE].sort()}`
+  );
+  assert(stub.default, "the Worker no longer has a default export");
 });
 
 // --- the endpoints that already existed -------------------------------------

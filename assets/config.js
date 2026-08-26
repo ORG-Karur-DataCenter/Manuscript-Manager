@@ -27,8 +27,10 @@ export async function loadConfig() {
     // Opened from the filesystem, or the file is missing: the defaults stand.
   }
   // A token pasted where the URL belongs must never be sent anywhere.
+  // http://localhost is allowed alongside https so the app can be driven
+  // against a stubbed proxy in a test; nothing leaves the machine there.
   const url = (config.syncProxyUrl || "").trim();
-  if (url && !/^https:\/\//i.test(url)) {
+  if (url && !/^(https:\/\/|http:\/\/(localhost|127\.0\.0\.1)(:\d+)?(\/|$))/i.test(url)) {
     console.error(
       "assets/config.json: syncProxyUrl must be the Worker's https:// URL, not a token or anything else. Ignoring it."
     );

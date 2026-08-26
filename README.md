@@ -161,6 +161,20 @@ cp data/manuscripts.sample.json data/manuscripts.json   # preview only — don't
 python3 -m http.server 8099           # open http://localhost:8099
 ```
 
+Before pushing anything, run the checks. None of them need a network, a token,
+or a deployed Worker:
+
+```bash
+npm run check            # all of the below
+npm run check-registry   # how emails fold into the record, and manual edits
+npm run check-timestamps # the two clocks per message
+npm run check-worker     # the sync proxy, against a stubbed GitHub
+npm run check-editing    # editing in a real browser, end to end
+```
+
+`check-editing` needs Playwright (`npm install`); it skips itself with a note
+if that is missing.
+
 ## The classifier
 
 The engine costs nothing. It runs on permanently free API tiers, and it is built so
@@ -252,6 +266,44 @@ SHA-256 of the new one:
 ```sh
 node -e "console.log(require('crypto').createHash('sha256').update('NEW PASSWORD').digest('hex'))"
 ```
+
+## Correcting a record, and moving one between sections
+
+Open a manuscript and press **Edit**. You can correct the title, journal,
+status, manuscript number, DOI or article link, add notes for anything the
+email trail does not carry, and move it to a different section.
+
+**What you set by hand stays set.** This matters more than it looks. Every
+field on this dashboard is derived from email: the classifier reads each
+message and the sync folds it into the record, every three hours. So a
+correction that was merely written down would be silently undone by the next
+message from the journal — you would fix a title on Monday and find it wrong
+again on Tuesday, with nothing to say why.
+
+Instead a manual value is *pinned*. The sync is required to leave it alone,
+permanently, and the field is marked **set by hand** wherever it appears. Your
+judgement outranks the classifier's until you say otherwise.
+
+**And you can say otherwise.** Each pinned field carries a **use automatic
+again** link that hands it back to the sync. Pinning with no way out would turn
+one hasty correction into a permanent lie, so the release is part of the
+feature, not an afterthought.
+
+Two details worth knowing:
+
+- **Renaming keeps the manuscript whole.** Journals go on sending whatever title
+  they were originally given, so the previous title is kept as a matching alias.
+  Without that, correcting a title would quietly unhook the record from its own
+  future and the next email would open a second copy alongside it.
+- **Nothing is lost.** Every edit is recorded in the manuscript's history with
+  what changed and when, and the data file is under version control, so any
+  change can be read back or undone from the commit log.
+
+Editing needs the sync service deployed (see `worker/README.md`) — it holds the
+only credential allowed to write to the repository. Without it there is nowhere
+to save to, and the **Edit** button is not offered rather than failing at the
+last step. Its token needs **Contents: Read and write** as well as **Actions:
+Read and write**; if it only has the latter, saving reports exactly that.
 
 ## Sync now
 

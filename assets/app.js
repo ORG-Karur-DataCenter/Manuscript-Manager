@@ -1,6 +1,7 @@
 import { requireUnlock, signOut } from "./auth.js";
 import { runSync, waitForFreshData, hasToken, hasOwnToken, setToken, usingProxy, rememberPassphrase } from "./sync.js";
 import { loadConfig } from "./config.js";
+import { FIELDS, SECTIONS, isPinned, editingAvailable, saveEdit, diff } from "./edit.js";
 
 "use strict";
 
@@ -318,9 +319,17 @@ function render() {
   cards.innerHTML = list.map(cardHtml).join("") + extras.map(reviewCardHtml).join("");
 }
 
+// A pinned field is one the sync is no longer allowed to touch. That is a
+// real change in how the record behaves, so it is marked wherever the value is
+// shown rather than only inside the edit form.
+const PIN_TITLE = "Set by hand — the email sync will not change this";
+const pinMark = (m, field) =>
+  isPinned(m, field) ? ` <span class="pin-mark" title="${PIN_TITLE}">set by hand</span>` : "";
+
 function drawerHtml(m) {
   const pill = BUCKET_META[m.bucket];
   const attnReason = m.needsActionReason ? NEEDS_ACTION_REASON[m.needsActionReason] : null;
+  const lastEdit = (m.edits || [])[m.edits?.length - 1];
 
   const chain = (m.submissions || [])
     .slice()
@@ -367,21 +376,28 @@ function drawerHtml(m) {
       </div>`
     : "";
 
+  const notes = m.notes
+    ? `<div class="d-notes"><span class="d-notes-lab">Notes${pinMark(m, "notes")}</span><p>${esc(m.notes)}</p></div>`
+    : "";
+
   return `
-    <h2 class="d-title">${esc(m.title)}</h2>
+    <h2 class="d-title">${esc(m.title)}${pinMark(m, "title")}</h2>
     <div class="d-status-row">
       <span class="pill ${pill.pill}">${esc(pill.label)}</span>
+      ${isPinned(m, "bucket") ? `<span class="pin-mark" title="${PIN_TITLE}">moved by hand</span>` : ""}
       ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
       ${attnReason ? `<span class="pill needs_action">${esc(attnReason)}</span>` : ""}
     </div>
     ${doiBox}
+    ${notes}
     <dl class="d-facts">
-      <dt>Current journal</dt><dd>${esc(m.currentJournal || "—")}</dd>
-      <dt>Current status</dt><dd>${esc(m.currentStatus || "—")}</dd>
-      ${m.currentManuscriptNumber ? `<dt>Manuscript no.</dt><dd>${esc(m.currentManuscriptNumber)}</dd>` : ""}
+      <dt>Current journal</dt><dd>${esc(m.currentJournal || "—")}${pinMark(m, "currentJournal")}</dd>
+      <dt>Current status</dt><dd>${esc(m.currentStatus || "—")}${pinMark(m, "currentStatus")}</dd>
+      ${m.currentManuscriptNumber ? `<dt>Manuscript no.</dt><dd>${esc(m.currentManuscriptNumber)}${pinMark(m, "currentManuscriptNumber")}</dd>` : ""}
       <dt>Author inbox</dt><dd>${esc((m.authorAccounts || []).join(", ") || "—")}</dd>
       <dt>First tracked</dt><dd>${esc(fmtDate(m.createdAt))}</dd>
       <dt>Last update</dt><dd>${esc(fmtDate(m.updatedAt))}</dd>
+      ${lastEdit ? `<dt>Edited by hand</dt><dd>${esc(fmtDate(lastEdit.at))}</dd>` : ""}
     </dl>
 
     <div class="d-section-label">Submission thread (${(m.submissions || []).length})</div>
@@ -392,17 +408,200 @@ function drawerHtml(m) {
   `;
 }
 
+/**
+ * The edit form.
+ *
+ * Two things here are worth more than they look. The first is the section
+ * picker's "Automatic" chip: without it, one move by hand would freeze a
+ * manuscript in that section forever, since the sync is then forbidden from
+ * moving it. The second is the per-field "use automatic again" button, which
+ * is the same escape hatch for everything else.
+ */
+function editFormHtml(m) {
+  const releaseBtn = (field) =>
+    isPinned(m, field)
+      ? `<button type="button" class="edit-release" data-release="${field}">use automatic again</button>`
+      : "";
+
+  const sections = SECTIONS.map((s) => `
+    <button type="button" class="section-chip ${m.bucket === s.bucket ? "active" : ""}"
+            data-bucket="${s.bucket}" aria-pressed="${m.bucket === s.bucket}">
+      <span class="bucket-icon ${s.bucket}">${BUCKET_ICON[s.bucket]}</span>${esc(s.label)}
+    </button>`).join("");
+
+  const fields = FIELDS.map((f) => {
+    const value = esc(m[f.field] || "");
+    const input = f.type === "textarea"
+      ? `<textarea name="${f.field}" rows="${f.field === "title" ? 3 : 4}" placeholder="${esc(f.placeholder || "")}">${value}</textarea>`
+      : `<input name="${f.field}" type="${f.type}" value="${value}" placeholder="${esc(f.placeholder || "")}" />`;
+    return `
+      <div class="edit-field" data-field="${f.field}">
+        <div class="edit-label-row">
+          <label for="${f.field}">${esc(f.label)}</label>
+          ${isPinned(m, f.field) ? `<span class="pin-mark" title="${PIN_TITLE}">set by hand</span>` : ""}
+          ${releaseBtn(f.field)}
+        </div>
+        ${input}
+        ${f.help ? `<p class="edit-help">${esc(f.help)}</p>` : ""}
+      </div>`;
+  }).join("");
+
+  return `
+    <form id="edit-form" class="edit-form">
+      <h2 class="d-title">Edit this manuscript</h2>
+      <p class="edit-intro">
+        Anything you set here outranks the email sync: it will be left exactly as you
+        put it, however the next email from the journal reads. Hand a field back with
+        <b>use automatic again</b>.
+      </p>
+
+      <div class="edit-field" data-field="bucket">
+        <div class="edit-label-row">
+          <label>Section</label>
+          ${isPinned(m, "bucket") ? `<span class="pin-mark" title="${PIN_TITLE}">moved by hand</span>` : ""}
+          ${releaseBtn("bucket")}
+        </div>
+        <div class="section-picker">${sections}</div>
+      </div>
+
+      ${fields}
+
+      <p id="edit-error" class="lock-error" hidden role="alert"></p>
+      <div class="edit-actions">
+        <button type="button" id="edit-cancel" class="sync-close">Cancel</button>
+        <button type="submit" id="edit-save" class="lock-btn">Save changes</button>
+      </div>
+    </form>`;
+}
+
+const BUCKET_ICON = { submissions: "↑", needs_action: "!", in_review: "◷", published: "✓" };
+
+// The manuscript on screen, and which of its fields the person has asked to
+// hand back to automation during this edit.
+let drawerId = null;
+let editing = null;
+
 function openDrawer(id) {
   const m = state.manuscripts.find((x) => x.id === id);
   if (!m) return;
-  $("#drawer-body").innerHTML = drawerHtml(m);
+  drawerId = id;
+  editing = null;
+  renderDrawer();
   $("#drawer").hidden = false;
   $("#drawer-overlay").hidden = false;
   document.body.style.overflow = "hidden";
 }
+
+function renderDrawer() {
+  const m = state.manuscripts.find((x) => x.id === drawerId);
+  if (!m) return closeDrawer();
+  const editBtn = $("#drawer-edit");
+  if (editing) {
+    $("#drawer-body").innerHTML = editFormHtml(m);
+    editBtn.hidden = true;
+    wireEditForm(m);
+  } else {
+    $("#drawer-body").innerHTML = drawerHtml(m);
+    // Offered only where it can actually work. Somewhere with no sync service
+    // has nowhere to save to, and a button that always fails is worse than none.
+    const available = editingAvailable();
+    editBtn.hidden = !available.ok;
+    editBtn.title = available.ok ? "Correct a field or move this to another section" : available.reason;
+  }
+}
+
+function wireEditForm(m) {
+  const form = $("#edit-form");
+
+  form.querySelector(".section-picker").addEventListener("click", (e) => {
+    const chip = e.target.closest(".section-chip");
+    if (!chip) return;
+    $$(".section-chip", form).forEach((c) => {
+      const on = c === chip;
+      c.classList.toggle("active", on);
+      c.setAttribute("aria-pressed", String(on));
+    });
+    // Choosing a section is the opposite of handing it back.
+    editing.dirty = true;
+    editing.released.delete("bucket");
+    form.querySelector('[data-field="bucket"]').classList.remove("released");
+  });
+
+  form.addEventListener("click", (e) => {
+    const btn = e.target.closest(".edit-release");
+    if (!btn) return;
+    const field = btn.dataset.release;
+    const wrap = form.querySelector(`[data-field="${field}"]`);
+    const releasing = !editing.released.has(field);
+    editing.dirty = true;
+    if (releasing) editing.released.add(field);
+    else editing.released.delete(field);
+    wrap.classList.toggle("released", releasing);
+    btn.textContent = releasing ? "keep it set by hand" : "use automatic again";
+    const input = wrap.querySelector("input, textarea");
+    if (input) input.disabled = releasing;
+  });
+
+  form.addEventListener("input", () => { editing.dirty = true; });
+  $("#edit-cancel").addEventListener("click", () => {
+    if (editing.dirty && !confirm("Discard the changes you have not saved?")) return;
+    editing = null;
+    renderDrawer();
+  });
+  form.addEventListener("submit", (e) => { e.preventDefault(); void submitEdit(m); });
+}
+
+async function submitEdit(m) {
+  const form = $("#edit-form");
+  const error = $("#edit-error");
+  const save = $("#edit-save");
+
+  const values = { bucket: form.querySelector(".section-chip.active")?.dataset.bucket || m.bucket };
+  for (const f of FIELDS) values[f.field] = form.querySelector(`[name="${f.field}"]`).value;
+
+  const patch = diff(m, values, editing.released);
+  if (!Object.keys(patch).length) { editing = null; renderDrawer(); return; }
+
+  error.hidden = true;
+  save.disabled = true;
+  save.textContent = "Saving…";
+  try {
+    const result = await saveEdit(m.id, patch);
+    // Show the saved record straight away. The commit takes a minute or two to
+    // reach the served copy of data/manuscripts.json, and re-reading that file
+    // in the meantime would show the edit vanishing and then reappearing.
+    if (result.manuscript) {
+      const i = state.manuscripts.findIndex((x) => x.id === m.id);
+      if (i >= 0) state.manuscripts[i] = result.manuscript;
+    }
+    editing = null;
+    // A move changes what each section holds, so the counts and the current
+    // filter both have to be redrawn, not just the card.
+    renderCounts();
+    render();
+    renderDrawer();
+  } catch (err) {
+    if (err.code === "auth") {
+      // The password was never typed this session, or the proxy rejected it.
+      save.disabled = false;
+      save.textContent = "Save changes";
+      if (await askForToken()) void submitEdit(m);
+      return;
+    }
+    error.textContent = err.message || "The change could not be saved.";
+    error.hidden = false;
+    save.disabled = false;
+    save.textContent = "Save changes";
+    console.error(err);
+  }
+}
+
 function closeDrawer() {
   $("#drawer").hidden = true;
   $("#drawer-overlay").hidden = true;
+  $("#drawer-edit").hidden = true;
+  drawerId = null;
+  editing = null;
   document.body.style.overflow = "";
 }
 
@@ -437,9 +636,23 @@ function wire() {
       openDrawer(e.target.dataset.id);
     }
   });
-  $("#drawer-close").addEventListener("click", closeDrawer);
-  $("#drawer-overlay").addEventListener("click", closeDrawer);
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDrawer(); });
+  $("#drawer-edit").addEventListener("click", () => {
+    editing = { released: new Set(), dirty: false };
+    renderDrawer();
+  });
+  // Closing mid-edit would throw away what someone has typed, and the drawer
+  // closes on a click anywhere outside it — far too easy to do by accident.
+  const leaveDrawer = () => {
+    if (editing?.dirty && !confirm("Discard the changes you have not saved?")) return;
+    if (editing) { editing = null; renderDrawer(); return; }
+    closeDrawer();
+  };
+  $("#drawer-close").addEventListener("click", leaveDrawer);
+  $("#drawer-overlay").addEventListener("click", leaveDrawer);
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape" || $("#drawer").hidden) return;
+    leaveDrawer();
+  });
   $("#theme-btn").addEventListener("click", toggleTheme);
 }
 

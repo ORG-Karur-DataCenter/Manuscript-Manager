@@ -115,6 +115,8 @@ export function rememberPassphrase(value) {
   try { sessionStorage.setItem(PASSPHRASE_KEY, value); } catch { /* not fatal */ }
 }
 const passphrase = () => { try { return sessionStorage.getItem(PASSPHRASE_KEY) || ""; } catch { return ""; } };
+/** Whether the password has been confirmed in this browser session. */
+export const hasPassphrase = () => Boolean(passphrase());
 
 async function proxy(path, options = {}) {
   let res;
@@ -146,6 +148,14 @@ async function proxy(path, options = {}) {
   }
   return body;
 }
+
+/**
+ * The proxy is also how an edit is saved — it holds the only token that may
+ * write to the repository. Exported so assets/edit.js can reuse the password
+ * handling and the error codes rather than building a second, subtly
+ * different, version of both.
+ */
+export const callProxy = proxy;
 
 /**
  * Runs a sync and reports progress.
