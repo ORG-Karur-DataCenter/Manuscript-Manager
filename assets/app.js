@@ -1,3 +1,6 @@
+import { requireUnlock, signOut } from "./auth.js";
+import { runSync, waitForFreshData, hasToken, setToken } from "./sync.js";
+
 "use strict";
 
 const BUCKET_META = {
@@ -36,7 +39,7 @@ const EVENT_LABELS = {
 // `review` holds the entries the classifier declined to guess at. Some
 // correspond to a filed manuscript (flagged on its card); the rest were never
 // filable at all and would otherwise be invisible.
-let state = { manuscripts: [], review: [], bucket: "all", query: "" };
+let state = { manuscripts: [], review: [], bucket: "all", query: "", generatedAt: null };
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -145,6 +148,7 @@ async function load() {
     const res = await fetch("data/manuscripts.json?_=" + Date.now());
     const data = await res.json();
     state.manuscripts = data.manuscripts || [];
+    state.generatedAt = data.generatedAt || null;
     renderSyncStatus(data.generatedAt);
     startSyncTicker(data.generatedAt);
   } catch (err) {
@@ -438,6 +442,128 @@ function wire() {
   $("#theme-btn").addEventListener("click", toggleTheme);
 }
 
-initTheme();
-wire();
-load();
+const fmtClock = (secs) => {
+  const s = Math.max(0, Math.round(secs));
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+};
+
+const RING_CIRCUMFERENCE = 2 * Math.PI * 52;
+
+function setRing(fraction) {
+  const fill = $("#sync-ring-fill");
+  if (fill) fill.style.strokeDashoffset = String(RING_CIRCUMFERENCE * (1 - fraction));
+}
+
+function askForToken() {
+  return new Promise((resolve) => {
+    const modal = $("#token-modal");
+    const form = $("#token-form");
+    const input = $("#token-input");
+    const error = $("#token-error");
+    modal.hidden = false;
+    error.hidden = true;
+    input.value = "";
+    setTimeout(() => input.focus(), 60);
+
+    const finish = (value) => {
+      modal.hidden = true;
+      form.onsubmit = null;
+      $("#token-cancel").onclick = null;
+      resolve(value);
+    };
+    form.onsubmit = (e) => {
+      e.preventDefault();
+      const value = input.value.trim();
+      if (!value) { error.textContent = "Paste the token to continue."; error.hidden = false; return; }
+      setToken(value);
+      finish(value);
+    };
+    $("#token-cancel").onclick = () => finish(null);
+  });
+}
+
+let syncing = false;
+async function onSyncNow() {
+  if (syncing) return;
+  if (!hasToken() && !(await askForToken())) return;
+
+  syncing = true;
+  const btn = $("#sync-btn");
+  const modal = $("#sync-modal");
+  const panel = modal.querySelector(".sync-panel");
+  const phase = $("#sync-phase");
+  const detail = $("#sync-detail");
+  const remaining = $("#sync-remaining");
+  const link = $("#sync-run-link");
+  const closeBtn = $("#sync-close");
+
+  btn.disabled = true;
+  btn.classList.add("busy");
+  panel.classList.remove("done", "failed");
+  link.hidden = true;
+  closeBtn.hidden = true;
+  modal.hidden = false;
+  setRing(0);
+  remaining.textContent = "—";
+  phase.textContent = "Syncing…";
+  detail.textContent = "Asking GitHub to start the sync.";
+
+  const previous = state.generatedAt;
+  const finish = (ok, message) => {
+    panel.classList.add(ok ? "done" : "failed");
+    phase.textContent = ok ? "Sync complete" : "Sync did not finish";
+    detail.textContent = message;
+    closeBtn.hidden = false;
+    btn.disabled = false;
+    btn.classList.remove("busy");
+    syncing = false;
+  };
+
+  try {
+    const result = await runSync(({ phase: p, elapsed, remaining: left, fraction }) => {
+      setRing(fraction);
+      remaining.textContent = fmtClock(left);
+      if (p === "running") {
+        phase.textContent = "Syncing…";
+        detail.textContent = `Reading new email and filing what it finds · ${fmtClock(elapsed)} elapsed`;
+      }
+    });
+
+    setRing(1);
+    remaining.textContent = "0:00";
+    phase.textContent = "Finishing up";
+    detail.textContent = "The run finished. Waiting for the updated data to appear.";
+    if (result.runUrl) { link.href = result.runUrl; link.hidden = false; }
+
+    const fresh = await waitForFreshData(previous);
+    if (fresh) {
+      await load();
+      finish(true, `Done in ${fmtClock(result.elapsed)}. The tracker is up to date.`);
+    } else {
+      // The run succeeded; only the published copy is lagging.
+      finish(true, "The sync ran successfully. The updated data has not appeared yet — reload in a minute.");
+    }
+  } catch (err) {
+    if (err.code === "auth") {
+      setToken(null);
+      finish(false, err.message + " Press Sync now again to enter a new one.");
+    } else {
+      finish(false, err.message || "Something went wrong starting the sync.");
+    }
+    if (err.runUrl) { link.href = err.runUrl; link.hidden = false; }
+    console.error(err);
+  }
+}
+
+function wireSync() {
+  $("#sync-btn")?.addEventListener("click", onSyncNow);
+  $("#sync-close")?.addEventListener("click", () => { $("#sync-modal").hidden = true; });
+}
+
+// Nothing renders, and no data is fetched, until the gate is passed.
+requireUnlock().then(() => {
+  initTheme();
+  wire();
+  wireSync();
+  load();
+});

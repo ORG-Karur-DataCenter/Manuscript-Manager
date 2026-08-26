@@ -222,3 +222,55 @@ The triage prompt, worked examples and cross-check policy live in
 provider adapters in `scripts/lib/providers.mjs`. The prefilter keywords are in
 `scripts/sync-gmail.mjs`. The fuzzy-title match threshold and bucket rules are in
 `scripts/lib/registry.mjs`.
+
+
+## Opening the dashboard
+
+The page asks for a password before it shows anything. Tick **Stay signed in on
+this device** to skip it for 30 days; leave it unticked and the unlock lasts
+until the browser closes, or 12 hours, whichever comes first.
+
+Be clear about what that password does and does not do. The page is static:
+there is no server to check a password against, so the check happens in the
+browser and anyone who opens developer tools can step past it. More
+importantly, **this repository is public**, so `data/manuscripts.json` and the
+rest can be read directly from GitHub without ever loading the page. The
+password stops a passer-by or a shared screen; it does not keep the contents
+secret. The only change that does that is making the repository private.
+
+To change the password, replace `PASSWORD_HASH` in `assets/auth.js` with the
+SHA-256 of the new one:
+
+```sh
+node -e "console.log(require('crypto').createHash('sha256').update('NEW PASSWORD').digest('hex'))"
+```
+
+## Sync now
+
+The header has a **Sync now** button that runs the Gmail sync immediately
+instead of waiting for the three-hourly schedule. It shows a progress ring and
+a countdown; the estimate is the median duration of recent runs of this
+workflow, not a fixed guess, so it tracks reality as the workflow changes.
+
+The sync itself runs in GitHub Actions — that is the only place the Gmail
+refresh tokens exist — so the button has to ask GitHub to start the workflow,
+and that requires a token. It cannot be committed here: the repository is
+public, so a committed token would be published and revoked within minutes.
+Each person supplies their own once, and it is kept in that browser's
+localStorage and sent only to `api.github.com`.
+
+Create it at **GitHub → Settings → Developer settings → Personal access tokens
+→ Fine-grained tokens**:
+
+| Setting | Value |
+| --- | --- |
+| Repository access | Only `ORG-Karur-DataCenter/Manuscript-Manager` |
+| Permissions | **Actions: Read and write** — nothing else |
+
+A token scoped like that can start and watch workflow runs and do nothing
+else: it cannot read repository secrets, push code, or reach any other
+repository. **Do not use a classic token with `repo` scope** — that grants far
+more than this needs.
+
+The button targets the branch named in `BRANCH` at the top of
+`assets/sync.js`; update it if the deployed branch ever changes.
