@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-25T21:42:08.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "SICOT-J CALL FOR APPLICATIONS - Two Co-Editors-in-Chief",
+      "from": "SICOT <president@sicot.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T23:20:14.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Global Spine Journal GSJ-25-1834",
+      "from": "Mailsuite Notification <notification@mailsuite.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-25T17:27:50.000Z",
       "reason": "unrelated",
       "subject": "Register Mini-teams: SurgWeek-2 Weekly update",
@@ -2349,22 +2363,6 @@
     {
       "messageId": "19e3542d2bd2b08b",
       "timestamp": "2026-05-17T09:27:11.000Z",
-      "reason": "unrelated",
-      "subject": "You started a submission to Stem Cell Research & Therapy",
-      "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e351dc2ffdc166",
-      "timestamp": "2026-05-17T08:46:25.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Clinical Cases Manuscript NO: 121907 – Manuscript comment from the Editorial Office",
-      "from": "\"Luo, Meng-Liu (Baishideng)\" <m.l.luo@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e348ba31bcc14d",
-      "timestamp": "2026-05-17T06:07:06.000Z",
       "reason": "unrelated",
       "subject": "You started a submission to Stem Cell Research & Therapy",
       "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
