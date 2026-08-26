@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-26T05:17:09.000Z",
+      "reason": "unrelated",
+      "subject": "[ORCID] Sathish Muthu you have new notifications",
+      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T08:15:18.000Z",
+      "reason": "unrelated",
+      "subject": "Funds / Securities Balance",
+      "from": "BSE ALERTS <info@bseindia.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-26T00:07:22.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "GLP-1 Patient With a Belching Problem? Singing May Help",
@@ -2344,22 +2358,6 @@
       "reason": "unrelated",
       "subject": "World Journal of Stem Cells Manuscript NO: 117689 – Manuscript comment from the Editorial Office",
       "from": "\"Zhao, Yu-Qing (Baishideng)\" <y.q.zhao@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e468139ebec08a",
-      "timestamp": "2026-05-20T17:48:44.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Orthopedics Authors Evaluation-Manuscript NO: 116723",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e46730ee0d4223",
-      "timestamp": "2026-05-20T17:33:25.000Z",
-      "reason": "unrelated",
-      "subject": "Proofs for your article in Indian Journal of Orthopaedics ( 10.1007/s43465-026-01827-w )",
-      "from": "eproofing@springernature.com",
       "account": "Sathish Muthu"
     }
   ]
