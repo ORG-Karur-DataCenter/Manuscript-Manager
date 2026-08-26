@@ -1,6 +1,260 @@
 {
-  "generatedAt": "2026-08-26T03:57:18.393Z",
+  "generatedAt": "2026-08-26T06:59:58.811Z",
   "manuscripts": [
+    {
+      "id": "the-enigma-of-culture-negative-spondylodiscitis-comparable-outcomes-de",
+      "title": "The Enigma of Culture-Negative Spondylodiscitis: Comparable Outcomes Despite Diagnostic Uncertainty – A Systematic Review and Meta-analysis",
+      "titleNormalized": "the enigma of culture negative spondylodiscitis comparable outcomes despite diagnostic uncertainty a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": "41d7c415-214d-4bea-b15b-e4e6929bc794",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": "10.1007/s00586-026-10091-3",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": "41d7c415-214d-4bea-b15b-e4e6929bc794",
+          "submittedDate": "2026-03-29T15:28:37.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-29T15:28:37.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "Revision requested.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d3a361fa405133",
+                "messageId": "19d3a361fa405133",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-27T17:37:07.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "Revision requested.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e6a82f9c435e9d",
+                "messageId": "19e6a82f9c435e9d",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-26T06:50:40.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Your manuscript was accepted for publication and you are offered the option to order author reprints.",
+              "manuscriptNumber": "41d7c415-214d-4bea-b15b-e4e6929bc794",
+              "source": {
+                "threadId": "1a03cd5cfbce3d0f",
+                "messageId": "1a03cd5cfbce3d0f",
+                "subject": "Final reminder: Springer Nature reprint offer for your article",
+                "from": "no-reply@email.copyright.com"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-05T04:59:59.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1007/s00586-026-10091-3",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-01T01:59:51.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e80e8abac75b91",
+                "messageId": "19e80e8abac75b91",
+                "subject": "Re: European Spine Journal-Amendment required",
+                "from": "Springer Nature Submissions <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-05T04:59:59.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e962707d80394c",
+                "messageId": "19e962707d80394c",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-08T13:26:34.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "In production after acceptance.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ea769e3dbface9",
+                "messageId": "19ea769e3dbface9",
+                "subject": "European Spine Journal: Next steps for publishing your article",
+                "from": "do-not-reply@springernature.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-09T14:07:48.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Published online.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eacb607e09a06a",
+                "messageId": "19eacb607e09a06a",
+                "subject": "Sharing Information for \"The enigma of culture-negative spondylodiscitis: comparable outcomes despite diagnostic uncertainty – a systematic review and meta-analysis\"",
+                "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-29T15:28:37.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "note": "Revision requested.",
+          "source": {
+            "threadId": "19d3a361fa405133",
+            "messageId": "19d3a361fa405133",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-27T17:37:07.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "note": "Revision requested.",
+          "source": {
+            "threadId": "19e6a82f9c435e9d",
+            "messageId": "19e6a82f9c435e9d",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-01T01:59:51.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19e80e8abac75b91",
+            "messageId": "19e80e8abac75b91",
+            "subject": "Re: European Spine Journal-Amendment required",
+            "from": "Springer Nature Submissions <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-05T04:59:59.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication.",
+          "source": {
+            "threadId": "19e962707d80394c",
+            "messageId": "19e962707d80394c",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-08T13:26:34.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "In production after acceptance.",
+          "source": {
+            "threadId": "19ea769e3dbface9",
+            "messageId": "19ea769e3dbface9",
+            "subject": "European Spine Journal: Next steps for publishing your article",
+            "from": "do-not-reply@springernature.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-09T14:07:48.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "published",
+          "label": "Published",
+          "revisionRound": null,
+          "note": "Published online.",
+          "source": {
+            "threadId": "19eacb607e09a06a",
+            "messageId": "19eacb607e09a06a",
+            "subject": "Sharing Information for \"The enigma of culture-negative spondylodiscitis: comparable outcomes despite diagnostic uncertainty – a systematic review and meta-analysis\"",
+            "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-26T06:50:40.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Your manuscript was accepted for publication and you are offered the option to order author reprints.",
+          "source": {
+            "threadId": "1a03cd5cfbce3d0f",
+            "messageId": "1a03cd5cfbce3d0f",
+            "subject": "Final reminder: Springer Nature reprint offer for your article",
+            "from": "no-reply@email.copyright.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-05T04:59:59.000Z",
+      "updatedAt": "2026-08-26T06:50:40.000Z"
+    },
     {
       "id": "ao-spine-clinical-practice-recommendations-when-to-operate-in-lumbar-d",
       "title": "AO Spine Clinical Practice Recommendations: When to Operate in Lumbar Disc Herniation",
@@ -9555,232 +9809,6 @@
       ],
       "createdAt": "2026-06-10T14:44:53.000Z",
       "updatedAt": "2026-06-10T14:44:53.000Z"
-    },
-    {
-      "id": "the-enigma-of-culture-negative-spondylodiscitis-comparable-outcomes-de",
-      "title": "The Enigma of Culture-Negative Spondylodiscitis: Comparable Outcomes Despite Diagnostic Uncertainty – A Systematic Review and Meta-analysis",
-      "titleNormalized": "the enigma of culture negative spondylodiscitis comparable outcomes despite diagnostic uncertainty a systematic review and meta analysis",
-      "bucket": "published",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Published",
-      "doi": "10.1007/s00586-026-10091-3",
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "European Spine Journal",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-03-29T15:28:37.000Z",
-          "outcome": "active",
-          "status": "revision_requested",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-03-29T15:28:37.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": null,
-              "note": "Revision requested.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19d3a361fa405133",
-                "messageId": "19d3a361fa405133",
-                "subject": "European Spine Journal: Decision on your manuscript",
-                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-05-27T17:37:07.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": null,
-              "note": "Revision requested.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e6a82f9c435e9d",
-                "messageId": "19e6a82f9c435e9d",
-                "subject": "European Spine Journal: Decision on your manuscript",
-                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "European Spine Journal",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-05T04:59:59.000Z",
-          "outcome": "published",
-          "status": "published",
-          "doi": "10.1007/s00586-026-10091-3",
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-01T01:59:51.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned to the author for amendments before the submission can progress.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e80e8abac75b91",
-                "messageId": "19e80e8abac75b91",
-                "subject": "Re: European Spine Journal-Amendment required",
-                "from": "Springer Nature Submissions <kavinaya.palraj@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-06-05T04:59:59.000Z",
-              "eventType": "accepted",
-              "revisionRound": null,
-              "note": "Accepted for publication.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e962707d80394c",
-                "messageId": "19e962707d80394c",
-                "subject": "European Spine Journal: Decision on your manuscript",
-                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-06-08T13:26:34.000Z",
-              "eventType": "accepted",
-              "revisionRound": null,
-              "note": "In production after acceptance.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ea769e3dbface9",
-                "messageId": "19ea769e3dbface9",
-                "subject": "European Spine Journal: Next steps for publishing your article",
-                "from": "do-not-reply@springernature.com",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-06-09T14:07:48.000Z",
-              "eventType": "published",
-              "revisionRound": null,
-              "note": "Published online.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19eacb607e09a06a",
-                "messageId": "19eacb607e09a06a",
-                "subject": "Sharing Information for \"The enigma of culture-negative spondylodiscitis: comparable outcomes despite diagnostic uncertainty – a systematic review and meta-analysis\"",
-                "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-03-29T15:28:37.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "revision_requested",
-          "label": "Revision requested",
-          "revisionRound": null,
-          "note": "Revision requested.",
-          "source": {
-            "threadId": "19d3a361fa405133",
-            "messageId": "19d3a361fa405133",
-            "subject": "European Spine Journal: Decision on your manuscript",
-            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-27T17:37:07.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "revision_requested",
-          "label": "Revision requested",
-          "revisionRound": null,
-          "note": "Revision requested.",
-          "source": {
-            "threadId": "19e6a82f9c435e9d",
-            "messageId": "19e6a82f9c435e9d",
-            "subject": "European Spine Journal: Decision on your manuscript",
-            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-01T01:59:51.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "Returned to the author for amendments before the submission can progress.",
-          "source": {
-            "threadId": "19e80e8abac75b91",
-            "messageId": "19e80e8abac75b91",
-            "subject": "Re: European Spine Journal-Amendment required",
-            "from": "Springer Nature Submissions <kavinaya.palraj@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-05T04:59:59.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "accepted",
-          "label": "Accepted (awaiting publication)",
-          "revisionRound": null,
-          "note": "Accepted for publication.",
-          "source": {
-            "threadId": "19e962707d80394c",
-            "messageId": "19e962707d80394c",
-            "subject": "European Spine Journal: Decision on your manuscript",
-            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-08T13:26:34.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "accepted",
-          "label": "Accepted (awaiting publication)",
-          "revisionRound": null,
-          "note": "In production after acceptance.",
-          "source": {
-            "threadId": "19ea769e3dbface9",
-            "messageId": "19ea769e3dbface9",
-            "subject": "European Spine Journal: Next steps for publishing your article",
-            "from": "do-not-reply@springernature.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-09T14:07:48.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "published",
-          "label": "Published",
-          "revisionRound": null,
-          "note": "Published online.",
-          "source": {
-            "threadId": "19eacb607e09a06a",
-            "messageId": "19eacb607e09a06a",
-            "subject": "Sharing Information for \"The enigma of culture-negative spondylodiscitis: comparable outcomes despite diagnostic uncertainty – a systematic review and meta-analysis\"",
-            "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-06-05T04:59:59.000Z",
-      "updatedAt": "2026-06-09T14:07:48.000Z"
     },
     {
       "id": "dickkopf-1-in-rheumatoid-arthritis-mechanistic-insights-imaging-associ",

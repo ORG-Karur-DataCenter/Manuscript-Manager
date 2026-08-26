@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-26T00:07:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "GLP-1 Patient With a Belching Problem? Singing May Help",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T04:23:07.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T04:23:07.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T04:50:48.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:d7158e4564310abf]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T06:40:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "[Bioengineering] (IF 4.4, CiteScore 7.5) Congratulations on Your Publication – Join BIOENG 2026",
+      "from": "Bioengineering Editorial Office <bioengineering@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-26T02:09:10.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Science Progress",
@@ -2325,46 +2360,6 @@
       "reason": "unrelated",
       "subject": "Proofs for your article in Indian Journal of Orthopaedics ( 10.1007/s43465-026-01827-w )",
       "from": "eproofing@springernature.com",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4461288ac15af",
-      "timestamp": "2026-05-20T07:54:25.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
-      "from": "\"Qu, Xin-Liang (BPG)\" <x.l.qu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e446048476dfd9",
-      "timestamp": "2026-05-20T07:53:36.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Orthopedics Manuscript NO: 120195 – Manuscript comment from the Editorial Office",
-      "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e3a57fbe89e803",
-      "timestamp": "2026-05-18T09:08:23.000Z",
-      "reason": "unrelated",
-      "subject": "Manuscript NO: 116723 We are proud to announce that we have sent your paper to highly influential experts in an accurate manner via email",
-      "from": "\"BPG Invitation (Ma LS)\" <invitation@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e376c145635cbc",
-      "timestamp": "2026-05-17T19:31:30.000Z",
-      "reason": "unrelated",
-      "subject": "A CSS Manuscript Number Has Been Assigned & CA Instructions",
-      "from": "Clinical Spine Surgery <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e35521dca43333",
-      "timestamp": "2026-05-17T09:43:53.000Z",
-      "reason": "unrelated",
-      "subject": "We've completed some quality checks on your submission",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
       "account": "Sathish Muthu"
     }
   ]
