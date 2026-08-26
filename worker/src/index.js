@@ -124,7 +124,19 @@ export default {
     // Liveness, deliberately unauthenticated: lets the dashboard tell "the
     // worker is not deployed" apart from "your password is wrong".
     if (url.pathname === "/health") {
-      return json({ ok: true, configured: Boolean(env.GITHUB_TOKEN && env.APP_PASSWORD) }, 200, env, request);
+      // Name which secret is missing. "configured: false" alone sends people
+      // hunting through a dashboard with no idea which of the two is wrong,
+      // and a typo in a name looks identical to not having added it at all.
+      const names = ["GITHUB_TOKEN", "APP_PASSWORD"];
+      const missing = names.filter((n) => !env[n]);
+      return json({
+        ok: true,
+        configured: missing.length === 0,
+        missing,
+        // Everything else this Worker can see, so a misspelled name shows up
+        // as an unexpected entry rather than as silence. Names only.
+        secretsFound: Object.keys(env).filter((k) => typeof env[k] === "string" && k !== "ALLOWED_ORIGIN"),
+      }, 200, env, request);
     }
 
     const supplied = (request.headers.get("Authorization") || "").replace(/^Bearer\s+/i, "");
