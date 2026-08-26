@@ -88,6 +88,7 @@ for (const msg of messages) {
     from: msg.from,
     date: msg.date,
     internalDate: msg.internalDate,
+    receivedAt: msg.receivedAt || msg.internalDate,
     account: account.label,
     text: msg.text.slice(0, 4000),
   });

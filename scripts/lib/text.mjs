@@ -25,3 +25,25 @@ export function stripHtml(html) {
     .replace(/\n{3,}/g, "\n\n")
     .trim();
 }
+
+/**
+ * When an event actually happened, as opposed to when this mailbox saw it.
+ *
+ * Normally the two agree to within seconds. They diverge sharply when history
+ * is imported from another account: the message is months old, but the
+ * receiving mailbox stamps it with today. Dating events by delivery would put
+ * an entire imported history on the day of the import and flatten every
+ * timeline built from it.
+ *
+ * The message's own Date header is preferred only when it is meaningfully
+ * EARLIER. A header later than delivery is either a clock error or spam
+ * backdating the future, and a gap of hours is ordinary delivery lag.
+ */
+export function eventTimestamp(receivedMs, dateHeader) {
+  const received = receivedMs ? new Date(Number(receivedMs)) : new Date();
+  const sent = dateHeader ? new Date(dateHeader) : null;
+  if (!sent || Number.isNaN(sent.getTime())) return received.toISOString();
+  const daysEarlier = (received.getTime() - sent.getTime()) / 86400000;
+  if (daysEarlier > 2 && sent.getUTCFullYear() > 2000) return sent.toISOString();
+  return received.toISOString();
+}

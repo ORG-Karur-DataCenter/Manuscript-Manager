@@ -130,8 +130,11 @@ async function main() {
     let consecutiveRateLimits = 0;
     const defer = (msg) => {
       totalDeferred++;
-      if (!oldestUnprocessed || msg.internalDate < oldestUnprocessed) {
-        oldestUnprocessed = msg.internalDate;
+      // Delivery time, not event time: the window is a position in this
+      // mailbox's delivery order.
+      const received = msg.receivedAt || msg.internalDate;
+      if (!oldestUnprocessed || received < oldestUnprocessed) {
+        oldestUnprocessed = received;
       }
     };
 

@@ -112,6 +112,10 @@ export async function fetchNewMessages(client, { since, until, seenIds, maxResul
         internalDate: m.receivedDateTime
           ? new Date(m.receivedDateTime).toISOString()
           : new Date().toISOString(),
+        // Graph reports delivery to this mailbox, so the two coincide here.
+        receivedAt: m.receivedDateTime
+          ? new Date(m.receivedDateTime).toISOString()
+          : new Date().toISOString(),
         text: text.slice(0, 12000),
       });
       if (messages.length >= maxResults) break;

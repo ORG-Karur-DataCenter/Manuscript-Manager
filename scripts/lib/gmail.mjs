@@ -1,5 +1,5 @@
 import { google } from "googleapis";
-import { stripHtml } from "./text.mjs";
+import { stripHtml, eventTimestamp } from "./text.mjs";
 
 export function buildGmailClient({ clientId, clientSecret, refreshToken }) {
   const oauth2Client = new google.auth.OAuth2(clientId, clientSecret);
@@ -78,7 +78,13 @@ export async function fetchNewMessages(gmail, { query, seenIds, maxResults = 150
       from: getHeader(headers, "From"),
       to: getHeader(headers, "To"),
       date: getHeader(headers, "Date"),
-      internalDate: data.internalDate
+      // Not simply data.internalDate: mail imported from another account is
+      // delivered today but happened months ago. See eventTimestamp.
+      internalDate: eventTimestamp(data.internalDate, getHeader(headers, "Date")),
+      // Delivery time, kept separate from the event time above. The sync
+      // window is a position in this mailbox's delivery order, so an imported
+      // five-month-old message must not drag it five months backwards.
+      receivedAt: data.internalDate
         ? new Date(Number(data.internalDate)).toISOString()
         : new Date().toISOString(),
       text: extractBody(data.payload).slice(0, 12000),

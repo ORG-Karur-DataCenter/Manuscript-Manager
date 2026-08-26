@@ -10,7 +10,8 @@
     "check-classifier": "node scripts/check-classifier.mjs",
     "check-registry": "node scripts/check-registry.mjs",
     "dump-candidates": "node scripts/dump-candidates.mjs",
-    "get-outlook-token": "node scripts/get-outlook-token.mjs"
+    "get-outlook-token": "node scripts/get-outlook-token.mjs",
+    "check-timestamps": "node scripts/check-timestamps.mjs"
   },
   "dependencies": {
     "googleapis": "^144.0.0"
