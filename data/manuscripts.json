@@ -1,6 +1,207 @@
 {
-  "generatedAt": "2026-08-27T00:38:36.732Z",
+  "generatedAt": "2026-08-27T14:36:59.242Z",
   "manuscripts": [
+    {
+      "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
+      "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
+      "titleNormalized": "minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden a systematic review and meta analysis",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1521",
+          "submittedDate": "2026-08-19T18:53:15.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-19T18:53:15.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected with reviewer comments.",
+              "manuscriptNumber": "GSJ-26-1521",
+              "source": {
+                "threadId": "1a01b5ed88ebb6a0",
+                "messageId": "1a01b5ed88ebb6a0",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-25T17:48:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-25T17:48:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and submitted, and the author is provided a link to track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a03a0959f22863a",
+                "messageId": "1a03a0959f22863a",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-25T17:48:05.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted, and the author can track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a03a0958c191146",
+                "messageId": "1a03a0958c191146",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
+          "submittedDate": "2026-08-25T17:54:18.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-25T17:54:18.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author's manuscript was received and a dashboard is provided to track its peer review.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a03a0f068dceb9e",
+                "messageId": "1a03a0f068dceb9e",
+                "subject": "Track the status of your submission to European Spine Journal",
+                "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-08-27T05:47:32.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned during technical check to remove author details and statements for blinded review.",
+              "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
+              "source": {
+                "threadId": "1a041a8003415e9a",
+                "messageId": "1a041c26846919fb",
+                "subject": "Fwd: European Spine Journal-Amendment required",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-19T18:53:15.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected with reviewer comments.",
+          "source": {
+            "threadId": "1a01b5ed88ebb6a0",
+            "messageId": "1a01b5ed88ebb6a0",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T17:48:04.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was received and submitted, and the author is provided a link to track its status.",
+          "source": {
+            "threadId": "1a03a0959f22863a",
+            "messageId": "1a03a0959f22863a",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T17:48:05.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript has been received and submitted, and the author can track its status.",
+          "source": {
+            "threadId": "1a03a0958c191146",
+            "messageId": "1a03a0958c191146",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-25T17:54:18.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The author's manuscript was received and a dashboard is provided to track its peer review.",
+          "source": {
+            "threadId": "1a03a0f068dceb9e",
+            "messageId": "1a03a0f068dceb9e",
+            "subject": "Track the status of your submission to European Spine Journal",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-27T05:47:32.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "The manuscript was returned during technical check to remove author details and statements for blinded review.",
+          "source": {
+            "threadId": "1a041a8003415e9a",
+            "messageId": "1a041c26846919fb",
+            "subject": "Fwd: European Spine Journal-Amendment required",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-19T18:53:15.000Z",
+      "updatedAt": "2026-08-27T05:47:32.000Z"
+    },
     {
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
       "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
@@ -857,178 +1058,6 @@
       ],
       "createdAt": "2026-08-18T05:46:49.000Z",
       "updatedAt": "2026-08-25T18:11:48.000Z"
-    },
-    {
-      "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
-      "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
-      "titleNormalized": "minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden a systematic review and meta analysis",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu",
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-1521",
-          "submittedDate": "2026-08-19T18:53:15.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-19T18:53:15.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected with reviewer comments.",
-              "manuscriptNumber": "GSJ-26-1521",
-              "source": {
-                "threadId": "1a01b5ed88ebb6a0",
-                "messageId": "1a01b5ed88ebb6a0",
-                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-08-25T17:48:04.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-25T17:48:04.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was received and submitted, and the author is provided a link to track its status.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a03a0959f22863a",
-                "messageId": "1a03a0959f22863a",
-                "subject": "Track the status of your manuscript",
-                "from": "Springer Nature <do-not-reply@springernature.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-25T17:48:05.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript has been received and submitted, and the author can track its status.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a03a0958c191146",
-                "messageId": "1a03a0958c191146",
-                "subject": "Track the status of your manuscript",
-                "from": "Springer Nature <do-not-reply@springernature.com>"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "European Spine Journal",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-08-25T17:54:18.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-25T17:54:18.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The author's manuscript was received and a dashboard is provided to track its peer review.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a03a0f068dceb9e",
-                "messageId": "1a03a0f068dceb9e",
-                "subject": "Track the status of your submission to European Spine Journal",
-                "from": "info@researchsquare.com"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-19T18:53:15.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected with reviewer comments.",
-          "source": {
-            "threadId": "1a01b5ed88ebb6a0",
-            "messageId": "1a01b5ed88ebb6a0",
-            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-25T17:48:04.000Z",
-          "journal": "Springer Nature",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "The manuscript was received and submitted, and the author is provided a link to track its status.",
-          "source": {
-            "threadId": "1a03a0959f22863a",
-            "messageId": "1a03a0959f22863a",
-            "subject": "Track the status of your manuscript",
-            "from": "Springer Nature <do-not-reply@springernature.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-25T17:48:05.000Z",
-          "journal": "Springer Nature",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "The manuscript has been received and submitted, and the author can track its status.",
-          "source": {
-            "threadId": "1a03a0958c191146",
-            "messageId": "1a03a0958c191146",
-            "subject": "Track the status of your manuscript",
-            "from": "Springer Nature <do-not-reply@springernature.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-25T17:54:18.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "The author's manuscript was received and a dashboard is provided to track its peer review.",
-          "source": {
-            "threadId": "1a03a0f068dceb9e",
-            "messageId": "1a03a0f068dceb9e",
-            "subject": "Track the status of your submission to European Spine Journal",
-            "from": "info@researchsquare.com"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-19T18:53:15.000Z",
-      "updatedAt": "2026-08-25T17:54:18.000Z"
     },
     {
       "id": "does-failure-to-restore-native-roussouly-alignment-increase-the-risk-o",
