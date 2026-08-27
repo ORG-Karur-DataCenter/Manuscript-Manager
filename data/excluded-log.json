@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-24T03:15:20.000Z",
+      "reason": "unrelated",
+      "subject": "EUROPEAN SPINE JOURNAL: What researchers love—and where they struggle with journals like yours",
+      "from": "Peeref <info@peerefmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T04:11:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Hi Dr. Ponnusamy Dhibin Vikash Kolarpatti-- We Value Your Expertise!! \n\n",
+      "from": "\"Adv. Materials Science 2027\" <adv.materialsscience@researchroadway.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T14:08:46.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Dear Kolarpatti Ponnusamy D.V.: You Are Invited to Submit Your Article/Abstract",
+      "from": "no.welc@intjmb.com",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T09:27:49.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Share Your Next Manuscript with CRIJ",
+      "from": "<radiology@medwinresearch.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T00:17:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "J. Clin. Med., Volume 15, Issue 16 (August-2 2026) Table of Contents",
+      "from": "\"MDPI – Office of the Publisher\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T00:19:24.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 127024 for World Journal of Gastrointestinal Surgery (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-26T14:00:32.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Publish Your Research Earlier",
@@ -2299,54 +2341,6 @@
       "reason": "unrelated",
       "subject": "Reminder: Journal of Cellular Biotechnology",
       "from": "Journal of Cellular Biotechnology <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d8ba739183427e",
-      "timestamp": "2026-04-14T11:01:24.000Z",
-      "reason": "unrelated",
-      "subject": "Your article reached 1663.0 views",
-      "from": "Frontiers in Surgery <surgery@frontiersin.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d8ad4f59cb668d",
-      "timestamp": "2026-04-14T07:11:44.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:379834515f44cf97]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d8aa6333f4f503",
-      "timestamp": "2026-04-14T06:20:40.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Regarding Reviewer Invitation for PONE-D-25-66479 - [EMID:4b8e3c5d2c097382]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d86fdf65a99e5e",
-      "timestamp": "2026-04-13T13:10:43.000Z",
-      "reason": "unrelated",
-      "subject": "Can thyroid activity influence Carpal Tunnel Syndrome risk?",
-      "from": "\"Lippincott®\" <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d8596c406f1137",
-      "timestamp": "2026-04-13T06:45:43.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:3eac56ec1bded3e8]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d85658e2278163",
-      "timestamp": "2026-04-13T05:51:28.000Z",
-      "reason": "unrelated",
-      "subject": "2026-04-13 05:51:26 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
       "account": "Sathish Muthu"
     }
   ]
