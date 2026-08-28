@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T21:24:47.507Z",
+  "generatedAt": "2026-08-28T21:38:51.932Z",
   "manuscripts": [
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
@@ -5130,6 +5130,496 @@
       "updatedAt": "2026-08-17T10:52:38.000Z"
     },
     {
+      "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
+      "title": "Should spinal Ewing's sarcoma be managed differently from extremity disease? A systematic review of outcomes and treatment limitations",
+      "titleNormalized": "should spinal ewing s sarcoma be managed differently from extremity disease a systematic review of outcomes and treatment limitations",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0701",
+          "submittedDate": "2026-04-08T05:57:43.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-08T05:57:43.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-0701",
+              "source": {
+                "threadId": "19d6bab0bce2b977",
+                "messageId": "19d6bab0bce2b977",
+                "subject": "Global Spine Journal  GSJ-26-0701",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-15T16:24:37.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": "GSJ-26-0701",
+              "source": {
+                "threadId": "19d91f57e338ed0e",
+                "messageId": "19d91f57e338ed0e",
+                "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0701",
+          "submittedDate": "2026-04-15T21:54:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-15T21:54:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
+              "manuscriptNumber": "GSJ-26-0701",
+              "source": {
+                "threadId": "19d96259c79fc21d",
+                "messageId": "19d96259c79fc21d",
+                "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
+                "from": "onbehalfof@manuscriptcentral.com",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0363",
+          "submittedDate": "2026-04-30T08:16:12.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-30T08:16:12.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ddd75b8d3d10b0",
+                "messageId": "19ddd75b8d3d10b0",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0363",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-12T15:34:00.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Unsubmitted by the journal; the submission was left incomplete.",
+              "manuscriptNumber": "ASJ-2026-0363",
+              "source": {
+                "threadId": "19e1cd2dab61a534",
+                "messageId": "19e1cd2dab61a534",
+                "subject": "Asian Spine Journal - ASJ-2026-0363 has been unsubmitted",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0363",
+          "submittedDate": "2026-06-23T08:15:03.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-23T08:15:03.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Denied publication in view of reviewer criticisms.",
+              "manuscriptNumber": "ASJ-2026-0363",
+              "source": {
+                "threadId": "19ef38c12ecb4816",
+                "messageId": "19ef38c12ecb4816",
+                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0363",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
+          "submittedDate": "2026-08-05T17:45:00.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-05T17:45:00.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The corresponding author was asked to revise; co-authors asked to check author details and affiliations.",
+              "manuscriptNumber": null,
+              "source": {
+                "messageId": "esj-ewing-decision-2026-08-05",
+                "account": "dhibinvikash1@gmail.com"
+              }
+            },
+            {
+              "timestamp": "2026-08-07T20:42:00.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Revised manuscript resubmitted to European Spine Journal.",
+              "manuscriptNumber": null,
+              "source": {
+                "messageId": "esj-ewing-resubmitted-2026-08-07",
+                "account": "dhibinvikash1@gmail.com"
+              }
+            },
+            {
+              "timestamp": "2026-08-10T06:54:00.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Technical check: no author details may appear in the manuscript, title page, response-to-reviewer file, or any file name except the cover letter. Revised manuscript wanted within 2 days.",
+              "manuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
+              "source": {
+                "messageId": "esj-ewing-amendment-2026-08-10",
+                "account": "drsathishmuthu@gmail.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-08T05:57:43.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d6bab0bce2b977",
+            "messageId": "19d6bab0bce2b977",
+            "subject": "Global Spine Journal  GSJ-26-0701",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-15T16:24:37.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19d91f57e338ed0e",
+            "messageId": "19d91f57e338ed0e",
+            "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-15T21:54:00.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
+          "source": {
+            "threadId": "19d96259c79fc21d",
+            "messageId": "19d96259c79fc21d",
+            "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
+            "from": "onbehalfof@manuscriptcentral.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-30T08:16:12.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ddd75b8d3d10b0",
+            "messageId": "19ddd75b8d3d10b0",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0363",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-12T15:34:00.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Unsubmitted by the journal; the submission was left incomplete.",
+          "source": {
+            "threadId": "19e1cd2dab61a534",
+            "messageId": "19e1cd2dab61a534",
+            "subject": "Asian Spine Journal - ASJ-2026-0363 has been unsubmitted",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-23T08:15:03.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Denied publication in view of reviewer criticisms.",
+          "source": {
+            "threadId": "19ef38c12ecb4816",
+            "messageId": "19ef38c12ecb4816",
+            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0363",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-05T17:45:00.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "manuscriptNumber": null,
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The corresponding author was asked to revise; co-authors asked to check author details and affiliations.",
+          "source": {
+            "messageId": "esj-ewing-decision-2026-08-05",
+            "account": "dhibinvikash1@gmail.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-07T20:42:00.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Revised manuscript resubmitted to European Spine Journal.",
+          "source": {
+            "messageId": "esj-ewing-resubmitted-2026-08-07",
+            "account": "dhibinvikash1@gmail.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-10T06:54:00.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-08-12T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "Technical check: no author details may appear in the manuscript, title page, response-to-reviewer file, or any file name except the cover letter. Revised manuscript wanted within 2 days.",
+          "source": {
+            "messageId": "esj-ewing-amendment-2026-08-10",
+            "account": "drsathishmuthu@gmail.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-04-15T21:54:00.000Z",
+      "updatedAt": "2026-08-10T06:54:00.000Z",
+      "deadline": null,
+      "deadlineSource": null,
+      "overrides": {
+        "bucket": "in_review",
+        "notes": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so."
+      },
+      "edits": [
+        {
+          "at": "2026-08-11T13:27:49.000Z",
+          "by": "recovered from the mailbox",
+          "changes": [
+            {
+              "field": "bucket",
+              "from": "needs_action",
+              "to": "in_review"
+            },
+            {
+              "field": "notes",
+              "from": null,
+              "to": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so."
+            },
+            {
+              "field": "deadline",
+              "from": null,
+              "to": null,
+              "clearedByMove": true
+            }
+          ]
+        }
+      ],
+      "notes": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so.",
+      "editedAt": "2026-08-11T13:27:49.000Z"
+    },
+    {
+      "id": "are-health-inequalities-between-india-s-states-narrowing-a-robustness-",
+      "title": "Are health inequalities between India's states narrowing? A robustness-tested analysis of ten conditions, 1990–2023",
+      "titleNormalized": "are health inequalities between india s states narrowing a robustness tested analysis of ten conditions 1990 2023",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "The International Journal of Health Planning and Management",
+      "currentManuscriptNumber": "6288522",
+      "currentStatus": "Rejected",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "The International Journal of Health Planning and Management",
+          "manuscriptNumber": "6288522",
+          "submittedDate": "2026-07-31T20:17:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-31T06:17:00.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to draft by the journal before review.",
+              "manuscriptNumber": "6288522",
+              "source": {
+                "messageId": "hpm-6288522-returned-to-draft",
+                "account": "dhibinvikash1@gmail.com"
+              }
+            },
+            {
+              "timestamp": "2026-07-31T20:17:00.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submitted to The International Journal of Health Planning and Management.",
+              "manuscriptNumber": "6288522",
+              "source": {
+                "messageId": "hpm-6288522-submitted",
+                "account": "dhibinvikash1@gmail.com"
+              }
+            },
+            {
+              "timestamp": "2026-08-09T21:10:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected without review as outside the journal's scope. Wiley's Transfer Desk offered to suggest alternative journals; nothing has moved yet, so this needs resubmitting elsewhere.",
+              "manuscriptNumber": "6288522",
+              "source": {
+                "messageId": "hpm-6288522-decision",
+                "account": "drsathishmuthu@gmail.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-31T06:17:00.000Z",
+          "journal": "The International Journal of Health Planning and Management",
+          "eventType": "sent_back",
+          "manuscriptNumber": "6288522",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Returned to draft by the journal before review.",
+          "source": {
+            "messageId": "hpm-6288522-returned-to-draft",
+            "account": "dhibinvikash1@gmail.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-31T20:17:00.000Z",
+          "journal": "The International Journal of Health Planning and Management",
+          "eventType": "new_submission",
+          "manuscriptNumber": "6288522",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Submitted to The International Journal of Health Planning and Management.",
+          "source": {
+            "messageId": "hpm-6288522-submitted",
+            "account": "dhibinvikash1@gmail.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-09T21:10:00.000Z",
+          "journal": "The International Journal of Health Planning and Management",
+          "eventType": "rejected",
+          "manuscriptNumber": "6288522",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Rejected without review as outside the journal's scope. Wiley's Transfer Desk offered to suggest alternative journals; nothing has moved yet, so this needs resubmitting elsewhere.",
+          "source": {
+            "messageId": "hpm-6288522-decision",
+            "account": "drsathishmuthu@gmail.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-31T20:17:00.000Z",
+      "updatedAt": "2026-08-09T21:10:00.000Z"
+    },
+    {
       "id": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
       "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
       "titleNormalized": "beyond body mass index obesity and adult spinal deformity surgery separating perception from evidence a systematic review and meta analysis",
@@ -9531,380 +10021,6 @@
       ],
       "createdAt": "2026-06-28T09:50:39.000Z",
       "updatedAt": "2026-06-28T09:50:39.000Z"
-    },
-    {
-      "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
-      "title": "Should spinal Ewing's sarcoma be managed differently from extremity disease? A systematic review of outcomes and treatment limitations",
-      "titleNormalized": "should spinal ewing s sarcoma be managed differently from extremity disease a systematic review of outcomes and treatment limitations",
-      "bucket": "in_review",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
-      "currentStatus": "Sent back for edits",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy",
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0701",
-          "submittedDate": "2026-04-08T05:57:43.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-08T05:57:43.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": "GSJ-26-0701",
-              "source": {
-                "threadId": "19d6bab0bce2b977",
-                "messageId": "19d6bab0bce2b977",
-                "subject": "Global Spine Journal  GSJ-26-0701",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-04-15T16:24:37.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": "GSJ-26-0701",
-              "source": {
-                "threadId": "19d91f57e338ed0e",
-                "messageId": "19d91f57e338ed0e",
-                "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0701",
-          "submittedDate": "2026-04-15T21:54:00.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-15T21:54:00.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
-              "manuscriptNumber": "GSJ-26-0701",
-              "source": {
-                "threadId": "19d96259c79fc21d",
-                "messageId": "19d96259c79fc21d",
-                "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
-                "from": "onbehalfof@manuscriptcentral.com",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Asian Spine Journal",
-          "manuscriptNumber": "ASJ-2026-0363",
-          "submittedDate": "2026-04-30T08:16:12.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-30T08:16:12.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ddd75b8d3d10b0",
-                "messageId": "19ddd75b8d3d10b0",
-                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0363",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-05-12T15:34:00.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Unsubmitted by the journal; the submission was left incomplete.",
-              "manuscriptNumber": "ASJ-2026-0363",
-              "source": {
-                "threadId": "19e1cd2dab61a534",
-                "messageId": "19e1cd2dab61a534",
-                "subject": "Asian Spine Journal - ASJ-2026-0363 has been unsubmitted",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Asian Spine Journal",
-          "manuscriptNumber": "ASJ-2026-0363",
-          "submittedDate": "2026-06-23T08:15:03.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-23T08:15:03.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Denied publication in view of reviewer criticisms.",
-              "manuscriptNumber": "ASJ-2026-0363",
-              "source": {
-                "threadId": "19ef38c12ecb4816",
-                "messageId": "19ef38c12ecb4816",
-                "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0363",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "European Spine Journal",
-          "manuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
-          "submittedDate": "2026-08-05T17:45:00.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-05T17:45:00.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": 1,
-              "note": "The corresponding author was asked to revise; co-authors asked to check author details and affiliations.",
-              "manuscriptNumber": null,
-              "source": {
-                "messageId": "esj-ewing-decision-2026-08-05",
-                "account": "dhibinvikash1@gmail.com"
-              }
-            },
-            {
-              "timestamp": "2026-08-07T20:42:00.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Revised manuscript resubmitted to European Spine Journal.",
-              "manuscriptNumber": null,
-              "source": {
-                "messageId": "esj-ewing-resubmitted-2026-08-07",
-                "account": "dhibinvikash1@gmail.com"
-              }
-            },
-            {
-              "timestamp": "2026-08-10T06:54:00.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Technical check: no author details may appear in the manuscript, title page, response-to-reviewer file, or any file name except the cover letter. Revised manuscript wanted within 2 days.",
-              "manuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
-              "source": {
-                "messageId": "esj-ewing-amendment-2026-08-10",
-                "account": "drsathishmuthu@gmail.com"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-04-08T05:57:43.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19d6bab0bce2b977",
-            "messageId": "19d6bab0bce2b977",
-            "subject": "Global Spine Journal  GSJ-26-0701",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-15T16:24:37.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19d91f57e338ed0e",
-            "messageId": "19d91f57e338ed0e",
-            "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-15T21:54:00.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Desk rejected by the editor without external review; GSJ cited selectivity rather than a specific fault.",
-          "source": {
-            "threadId": "19d96259c79fc21d",
-            "messageId": "19d96259c79fc21d",
-            "subject": "Decision on Manuscript ID GSJ-26-0701 - Global Spine Journal",
-            "from": "onbehalfof@manuscriptcentral.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-30T08:16:12.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19ddd75b8d3d10b0",
-            "messageId": "19ddd75b8d3d10b0",
-            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0363",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-12T15:34:00.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "Unsubmitted by the journal; the submission was left incomplete.",
-          "source": {
-            "threadId": "19e1cd2dab61a534",
-            "messageId": "19e1cd2dab61a534",
-            "subject": "Asian Spine Journal - ASJ-2026-0363 has been unsubmitted",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-23T08:15:03.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Denied publication in view of reviewer criticisms.",
-          "source": {
-            "threadId": "19ef38c12ecb4816",
-            "messageId": "19ef38c12ecb4816",
-            "subject": "Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0363",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-05T17:45:00.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "revision_requested",
-          "manuscriptNumber": null,
-          "label": "Revision requested",
-          "revisionRound": 1,
-          "deadline": null,
-          "note": "The corresponding author was asked to revise; co-authors asked to check author details and affiliations.",
-          "source": {
-            "messageId": "esj-ewing-decision-2026-08-05",
-            "account": "dhibinvikash1@gmail.com"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-07T20:42:00.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "new_submission",
-          "manuscriptNumber": null,
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Revised manuscript resubmitted to European Spine Journal.",
-          "source": {
-            "messageId": "esj-ewing-resubmitted-2026-08-07",
-            "account": "dhibinvikash1@gmail.com"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-10T06:54:00.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-08-12T18:29:59.999Z",
-            "source": "stated",
-            "basis": "2 days from the email"
-          },
-          "note": "Technical check: no author details may appear in the manuscript, title page, response-to-reviewer file, or any file name except the cover letter. Revised manuscript wanted within 2 days.",
-          "source": {
-            "messageId": "esj-ewing-amendment-2026-08-10",
-            "account": "drsathishmuthu@gmail.com"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-04-15T21:54:00.000Z",
-      "updatedAt": "2026-08-10T06:54:00.000Z",
-      "deadline": null,
-      "deadlineSource": null,
-      "overrides": {
-        "bucket": "in_review",
-        "notes": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so."
-      },
-      "edits": [
-        {
-          "at": "2026-08-11T13:27:49.000Z",
-          "by": "recovered from the mailbox",
-          "changes": [
-            {
-              "field": "bucket",
-              "from": "needs_action",
-              "to": "in_review"
-            },
-            {
-              "field": "notes",
-              "from": null,
-              "to": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so."
-            },
-            {
-              "field": "deadline",
-              "from": null,
-              "to": null,
-              "clearedByMove": true
-            }
-          ]
-        }
-      ],
-      "notes": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so.",
-      "editedAt": "2026-08-11T13:27:49.000Z"
     },
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
@@ -15392,122 +15508,6 @@
       ],
       "createdAt": "2026-02-27T04:16:41.000Z",
       "updatedAt": "2026-02-27T04:16:41.000Z"
-    },
-    {
-      "id": "are-health-inequalities-between-india-s-states-narrowing-a-robustness-",
-      "title": "Are health inequalities between India's states narrowing? A robustness-tested analysis of ten conditions, 1990–2023",
-      "titleNormalized": "are health inequalities between india s states narrowing a robustness tested analysis of ten conditions 1990 2023",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "The International Journal of Health Planning and Management",
-      "currentManuscriptNumber": "6288522",
-      "currentStatus": "Rejected",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy",
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "The International Journal of Health Planning and Management",
-          "manuscriptNumber": "6288522",
-          "submittedDate": "2026-07-31T20:17:00.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-31T06:17:00.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned to draft by the journal before review.",
-              "manuscriptNumber": "6288522",
-              "source": {
-                "messageId": "hpm-6288522-returned-to-draft",
-                "account": "dhibinvikash1@gmail.com"
-              }
-            },
-            {
-              "timestamp": "2026-07-31T20:17:00.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submitted to The International Journal of Health Planning and Management.",
-              "manuscriptNumber": "6288522",
-              "source": {
-                "messageId": "hpm-6288522-submitted",
-                "account": "dhibinvikash1@gmail.com"
-              }
-            },
-            {
-              "timestamp": "2026-08-09T21:10:00.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected without review as outside the journal's scope. Wiley's Transfer Desk offered to suggest alternative journals; nothing has moved yet, so this needs resubmitting elsewhere.",
-              "manuscriptNumber": "6288522",
-              "source": {
-                "messageId": "hpm-6288522-decision",
-                "account": "drsathishmuthu@gmail.com"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-07-31T06:17:00.000Z",
-          "journal": "The International Journal of Health Planning and Management",
-          "eventType": "sent_back",
-          "manuscriptNumber": "6288522",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Returned to draft by the journal before review.",
-          "source": {
-            "messageId": "hpm-6288522-returned-to-draft",
-            "account": "dhibinvikash1@gmail.com"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-31T20:17:00.000Z",
-          "journal": "The International Journal of Health Planning and Management",
-          "eventType": "new_submission",
-          "manuscriptNumber": "6288522",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Submitted to The International Journal of Health Planning and Management.",
-          "source": {
-            "messageId": "hpm-6288522-submitted",
-            "account": "dhibinvikash1@gmail.com"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-09T21:10:00.000Z",
-          "journal": "The International Journal of Health Planning and Management",
-          "eventType": "rejected",
-          "manuscriptNumber": "6288522",
-          "label": "Rejected",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Rejected without review as outside the journal's scope. Wiley's Transfer Desk offered to suggest alternative journals; nothing has moved yet, so this needs resubmitting elsewhere.",
-          "source": {
-            "messageId": "hpm-6288522-decision",
-            "account": "drsathishmuthu@gmail.com"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-07-31T20:17:00.000Z",
-      "updatedAt": "2026-08-09T21:10:00.000Z"
     }
   ]
 }

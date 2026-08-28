@@ -1,0 +1,138 @@
+{
+  "sent": [
+    {
+      "key": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa|2026-08-13T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
+      "at": "2026-08-28T21:38:55.094Z"
+    },
+    {
+      "key": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa|2026-08-13T18:29:59.999Z|t-1",
+      "kind": "superseded",
+      "manuscriptId": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
+      "at": "2026-08-28T21:38:55.094Z"
+    },
+    {
+      "key": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa|2026-08-13T18:29:59.999Z|overdue",
+      "kind": "superseded",
+      "manuscriptId": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
+      "at": "2026-08-28T21:38:55.094Z"
+    },
+    {
+      "key": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa|2026-08-13T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
+      "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
+      "due": "2026-08-13T18:29:59.999Z",
+      "at": "2026-08-28T21:38:55.094Z",
+      "to": [],
+      "failed": []
+    },
+    {
+      "key": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-|2026-08-19T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
+      "at": "2026-08-28T21:38:56.262Z"
+    },
+    {
+      "key": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-|2026-08-19T18:29:59.999Z|t-1",
+      "kind": "superseded",
+      "manuscriptId": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
+      "at": "2026-08-28T21:38:56.262Z"
+    },
+    {
+      "key": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-|2026-08-19T18:29:59.999Z|overdue",
+      "kind": "superseded",
+      "manuscriptId": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
+      "at": "2026-08-28T21:38:56.262Z"
+    },
+    {
+      "key": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-|2026-08-19T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
+      "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
+      "due": "2026-08-19T18:29:59.999Z",
+      "at": "2026-08-28T21:38:56.262Z",
+      "to": [],
+      "failed": []
+    },
+    {
+      "key": "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-|2026-09-01T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-",
+      "at": "2026-08-28T21:38:56.905Z"
+    },
+    {
+      "key": "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-|2026-09-01T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-",
+      "title": "Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet Lysate Against Clinically Relevant Bacterial Pathogens: A Prospective Donor-Pool Study",
+      "due": "2026-09-01T18:29:59.999Z",
+      "at": "2026-08-28T21:38:56.905Z",
+      "to": [],
+      "failed": []
+    },
+    {
+      "key": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s|2026-09-03T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
+      "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
+      "due": "2026-09-03T18:29:59.999Z",
+      "at": "2026-08-28T21:38:57.372Z",
+      "to": [],
+      "failed": []
+    },
+    {
+      "key": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-|2026-09-03T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
+      "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
+      "due": "2026-09-03T18:29:59.999Z",
+      "at": "2026-08-28T21:38:57.855Z",
+      "to": [],
+      "failed": []
+    },
+    {
+      "key": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste|2026-09-11T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
+      "due": "2026-09-11T18:29:59.999Z",
+      "at": "2026-08-28T21:38:58.913Z",
+      "to": [],
+      "failed": []
+    }
+  ],
+  "issues": {
+    "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa": {
+      "number": 2,
+      "title": "Amendment 16 days overdue — Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery -…",
+      "due": "2026-08-13T18:29:59.999Z"
+    },
+    "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-": {
+      "number": 3,
+      "title": "Amendment 10 days overdue — National and subnational burden of low back pain in India, 1990–2023:…",
+      "due": "2026-08-19T18:29:59.999Z"
+    },
+    "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-": {
+      "number": 4,
+      "title": "Amendment 3 days left — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
+      "due": "2026-09-01T18:29:59.999Z"
+    },
+    "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s": {
+      "number": 5,
+      "title": "Amendment 5 days left — Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A…",
+      "due": "2026-09-03T18:29:59.999Z"
+    },
+    "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-": {
+      "number": 6,
+      "title": "Amendment 5 days left — Minimally invasive lumbar spine surgery preserves functional recovery…",
+      "due": "2026-09-03T18:29:59.999Z"
+    },
+    "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
+      "number": 7,
+      "title": "Amendment 13 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "due": "2026-09-11T18:29:59.999Z"
+    }
+  }
+}
