@@ -15,8 +15,8 @@
  *   node scripts/check-notify.mjs
  */
 import {
-  DEFAULT_POLICY, pendingDeadlines, dueReminders, composeMessage,
-  recordSent, reachedSomeone, pruneLedger,
+  DEFAULT_POLICY, pendingDeadlines, dueReminders, composeMessage, composeFor,
+  composeTemplateParams, recordSent, reachedSomeone, pruneLedger,
 } from "./lib/notify.mjs";
 import {
   resolveDeadline, parseStatedDate, daysLeft, describeDeadline, defaultDaysFor,
@@ -333,6 +333,78 @@ await check("a deadline stays put for the whole of its last day", () => {
   const dueDayNight = NOW + 3 * DAY + 8 * 3600000;
   assert(describeDeadline(due, dueDayMorning) === "due today", describeDeadline(due, dueDayMorning));
   assert(describeDeadline(due, dueDayNight) === "due today", describeDeadline(due, dueDayNight));
+});
+
+// --- the template path, which is the only one Meta will accept -------------
+
+await check("Meta sends a template, because a reminder is always outside the 24-hour window", () => {
+  // Meta allows free text only within 24 hours of the recipient writing to
+  // you. Nobody replies to a deadline reminder, so every one falls outside
+  // that window and plain text would be rejected essentially always.
+  const registry = registryOf(amendment({ due: ahead(3) }));
+  const [reminder] = dueReminders(registry, { sent: [] }, { now: NOW });
+
+  let sent = null;
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], composeFor(reminder, { now: NOW }), {
+    transport: "meta",
+    env: { META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1", META_WHATSAPP_TEMPLATE: "amendment_due" },
+    fetchImpl: async (url, opts) => { sent = JSON.parse(opts.body); return new Response("{}", { status: 200 }); },
+  }).then(() => {
+    assert(sent.type === "template", `sent as ${sent.type}, which Meta would reject`);
+    assert(sent.template.name === "amendment_due", "the wrong template was named");
+    const values = sent.template.components[0].parameters.map((p) => p.text);
+    assert(values.length === 5, `${values.length} parameters, template expects 5`);
+    assert(/3 days left/.test(values[1]), `no time remaining: ${values[1]}`);
+    assert(/Cervical Spine/.test(values[2]), `no title: ${values[2]}`);
+    assert(/International Orthopaedics/.test(values[3]), `no journal: ${values[3]}`);
+  });
+});
+
+await check("no template parameter carries a newline, which Meta rejects", () => {
+  // It refuses newlines, tabs and long runs of spaces, and does not say which
+  // parameter is at fault -- so this must not be discovered in production.
+  const registry = registryOf(amendment({
+    due: ahead(3),
+    title: "A Title\nWith A Line Break\tAnd    Wide     Spacing",
+  }));
+  const [reminder] = dueReminders(registry, { sent: [] }, { now: NOW });
+
+  let sent = null;
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], composeFor(reminder, { now: NOW }), {
+    transport: "meta",
+    env: { META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1", META_WHATSAPP_TEMPLATE: "amendment_due" },
+    fetchImpl: async (url, opts) => { sent = JSON.parse(opts.body); return new Response("{}", { status: 200 }); },
+  }).then(() => {
+    for (const p of sent.template.components[0].parameters) {
+      assert(!/[\r\n\t]/.test(p.text), `a parameter carries a line break: ${JSON.stringify(p.text)}`);
+      assert(!/ {4,}/.test(p.text), `a parameter carries a long run of spaces: ${JSON.stringify(p.text)}`);
+    }
+  });
+});
+
+await check("Meta's 24-hour refusal explains itself", () => {
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "hello", params: [] }, {
+    transport: "meta",
+    env: { META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1" },
+    fetchImpl: async () => new Response(
+      JSON.stringify({ error: { code: 131047, message: "Re-engagement message" } }), { status: 400 }
+    ),
+  }).then((results) => {
+    assert(!results[0].ok, "a rejection was reported as a send");
+    assert(/META_WHATSAPP_TEMPLATE/.test(results[0].error), `does not say how to fix it: ${results[0].error}`);
+  });
+});
+
+await check("the template fields say the same thing as the text", () => {
+  const registry = registryOf(amendment({ due: ago(2), source: "assumed" }));
+  const [reminder] = dueReminders(registry, { sent: [] }, { now: NOW });
+  const params = composeTemplateParams(reminder, { now: NOW });
+  const text = composeMessage(reminder, { now: NOW });
+
+  assert(/overdue/i.test(params[0]) || /overdue/i.test(params[1]), `template does not say it is overdue: ${params}`);
+  assert(/overdue/i.test(text), "text does not say it is overdue");
+  assert(/estimated/i.test(params[4]), `template hides that the date is a guess: ${params[4]}`);
+  assert(/estimated/i.test(text), "text hides that the date is a guess");
 });
 
 // --- recipients and sending -------------------------------------------------

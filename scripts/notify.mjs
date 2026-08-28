@@ -18,7 +18,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { readRecipients, sendToAll } from "./lib/whatsapp.mjs";
 import {
-  DEFAULT_POLICY, dueReminders, composeMessage, recordSent, reachedSomeone,
+  DEFAULT_POLICY, dueReminders, composeFor, recordSent, reachedSomeone,
   pruneLedger, pendingDeadlines,
 } from "./lib/notify.mjs";
 import { describeDeadline } from "./lib/deadline.mjs";
@@ -101,8 +101,8 @@ async function main() {
   console.log(`\n${due.length} reminder(s) due:`);
   let sentCount = 0;
   for (const reminder of due) {
-    const text = composeMessage(reminder, { dashboardUrl: policy.dashboardUrl || "" });
-    const results = await sendToAll(recipients, text, { transport, pauseMs: 2000 });
+    const message = composeFor(reminder, { dashboardUrl: policy.dashboardUrl || "" });
+    const results = await sendToAll(recipients, message, { transport, pauseMs: 2000 });
     report(results, `${reminder.kind} · ${reminder.manuscript.title.slice(0, 50)}`);
 
     if (dryRun) continue;

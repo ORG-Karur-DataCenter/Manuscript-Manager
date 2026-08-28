@@ -359,13 +359,37 @@ is one person's side project and it does sometimes not reply. In order:
 - Their own advice if nothing comes back within two minutes is to leave it and
   try again after 24 hours. Repeating it every few minutes does not help.
 
-If it still will not answer, the transport is pluggable and two others are
-already implemented. Set the `WHATSAPP_TRANSPORT` repository variable to
-`twilio` (needs `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`,
-`TWILIO_WHATSAPP_FROM`) or `meta` (needs `META_WHATSAPP_TOKEN` and
-`META_WHATSAPP_PHONE_ID`). Meta's own test number is free and messages up to
-five verified recipients, which is ample here. The message itself is identical
-whichever is in use.
+If it still will not answer, the transport is pluggable. Set the
+`WHATSAPP_TRANSPORT` repository variable to `twilio` or `meta`.
+
+**Meta** (WhatsApp Cloud API) is the one to move to if CallMeBot keeps failing:
+its test number is free, messages up to five verified recipients, and does not
+move. Secrets: `META_WHATSAPP_TOKEN`, `META_WHATSAPP_PHONE_ID`,
+`META_WHATSAPP_TEMPLATE`, and optionally `META_WHATSAPP_LANGUAGE`.
+
+`META_WHATSAPP_TEMPLATE` is not optional in practice. **Meta accepts free-form
+text only within 24 hours of the recipient last writing to you**, and nobody
+replies to a deadline reminder — so every reminder falls outside that window
+and plain text is refused. Create an approved template with one body and five
+placeholders, in this order:
+
+```
+{{1}} is {{2}}.
+
+Manuscript: {{3}}
+Journal: {{4}}
+Due: {{5}}
+```
+
+which fills in as *"Amendment due is 3 days left. Manuscript: … Journal: …
+Due: Tue 1 Sept (estimated)"*. Utility templates are usually approved in
+minutes.
+
+**Twilio** needs `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN` and
+`TWILIO_WHATSAPP_FROM`. Its sandbox has the same 24-hour restriction, so a paid
+number and an approved template are needed for reminders that fire days apart.
+
+The wording is identical whichever is in use.
 
 ### Checking it works, from a phone
 

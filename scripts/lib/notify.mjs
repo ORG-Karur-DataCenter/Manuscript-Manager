@@ -156,6 +156,36 @@ export function composeMessage(reminder, { now = Date.now(), dashboardUrl = "" }
 }
 
 /**
+ * The same reminder as five short fields, for services that will only send a
+ * pre-approved template rather than free text — Meta outside its 24-hour
+ * window, which is every reminder we send. Order matches {{1}}..{{5}} in the
+ * template; see the meta transport in lib/whatsapp.mjs.
+ */
+export function composeTemplateParams(reminder, { now = Date.now() } = {}) {
+  const m = reminder.manuscript;
+  const dueDate = new Date(reminder.due).toLocaleDateString("en-GB", {
+    weekday: "short", day: "numeric", month: "short", timeZone: "Asia/Kolkata",
+  });
+  return [
+    reminder.kind === "new" ? "Amendments requested"
+      : reminder.left < 0 ? "Amendment overdue"
+      : "Amendment due",
+    describeDeadline(reminder.due, now),
+    truncate(m.title, 90),
+    m.currentJournal || "the journal",
+    m.deadlineSource === "assumed" ? `${dueDate} (estimated)` : dueDate,
+  ];
+}
+
+/** Everything a transport might need, in one object. */
+export function composeFor(reminder, options = {}) {
+  return {
+    text: composeMessage(reminder, options),
+    params: composeTemplateParams(reminder, options),
+  };
+}
+
+/**
  * Some systems put a raw submission UUID where the manuscript number goes.
  * "INOR-D-26-00412" helps someone find the paper; a 36-character hex string
  * only takes up the screen.

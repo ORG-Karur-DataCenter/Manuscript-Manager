@@ -69,7 +69,7 @@ const TRANSPORTS = {
    * CallMeBot: one GET per message. It answers 200 with an HTML page whether it
    * worked or not, so the body is inspected rather than the status code alone.
    */
-  async callmebot(recipient, text, { env, fetchImpl }) {
+  async callmebot(recipient, message, { env, fetchImpl }) {
     if (!recipient.apiKey) {
       throw new Error(
         `No apiKey for ${recipient.name}. Each person gets their own by sending ` +
@@ -83,7 +83,7 @@ const TRANSPORTS = {
       "https://api.callmebot.com/whatsapp.php" +
       `?phone=${encodeURIComponent(recipient.phone)}` +
       `&apikey=${encodeURIComponent(recipient.apiKey)}` +
-      `&text=${encodeURIComponent(text)}`;
+      `&text=${encodeURIComponent(message.text)}`;
 
     // A network failure is not CallMeBot refusing anything, and must not be
     // reported as though it were -- "the number has not authorised us" sends
@@ -110,7 +110,7 @@ const TRANSPORTS = {
     return { ok: true, detail: stripTags(body).slice(0, 120) };
   },
 
-  async twilio(recipient, text, { env, fetchImpl }) {
+  async twilio(recipient, message, { env, fetchImpl }) {
     const sid = env.TWILIO_ACCOUNT_SID;
     const token = env.TWILIO_AUTH_TOKEN;
     const from = env.TWILIO_WHATSAPP_FROM;
@@ -126,7 +126,7 @@ const TRANSPORTS = {
       body: new URLSearchParams({
         From: `whatsapp:${from.startsWith("+") ? from : `+${from}`}`,
         To: `whatsapp:+${recipient.phone}`,
-        Body: text,
+        Body: message.text,
       }).toString(),
     });
     const body = await res.text();
@@ -134,33 +134,91 @@ const TRANSPORTS = {
     return { ok: true, detail: `sid ${JSON.parse(body).sid}` };
   },
 
-  async meta(recipient, text, { env, fetchImpl }) {
+  /**
+   * Meta's own WhatsApp Cloud API.
+   *
+   * THE RULE THAT SHAPES THIS. Meta only accepts free-form text within 24 hours
+   * of the recipient last messaging you. Outside that window a business may
+   * send only a pre-approved TEMPLATE. Deadline reminders fire days apart and
+   * nobody replies to them, so in practice every single one falls outside the
+   * window -- sending plain text here would be rejected essentially always.
+   *
+   * So a template is the normal path, and the free-text path is kept only for
+   * the rare case of replying inside an open window. Set:
+   *   META_WHATSAPP_TEMPLATE   the approved template's name
+   *   META_WHATSAPP_LANGUAGE   its language code (default en)
+   *
+   * The template needs one body with five placeholders, in this order:
+   *   {{1}} what has happened   e.g. "Amendment due"
+   *   {{2}} how long is left    e.g. "3 days left"
+   *   {{3}} the manuscript      title, shortened
+   *   {{4}} the journal
+   *   {{5}} the due date        e.g. "Tue 1 Sept (estimated)"
+   */
+  async meta(recipient, message, { env, fetchImpl }) {
     const token = env.META_WHATSAPP_TOKEN;
     const phoneId = env.META_WHATSAPP_PHONE_ID;
     if (!token || !phoneId) {
       throw new Error("The Meta route needs META_WHATSAPP_TOKEN and META_WHATSAPP_PHONE_ID.");
     }
+    const template = (env.META_WHATSAPP_TEMPLATE || "").trim();
+
+    const payload = template
+      ? {
+          messaging_product: "whatsapp",
+          to: recipient.phone,
+          type: "template",
+          template: {
+            name: template,
+            language: { code: (env.META_WHATSAPP_LANGUAGE || "en").trim() },
+            components: [{
+              type: "body",
+              parameters: (message.params || []).map((p) => ({ type: "text", text: templateSafe(p) })),
+            }],
+          },
+        }
+      : {
+          messaging_product: "whatsapp",
+          to: recipient.phone,
+          type: "text",
+          text: { preview_url: false, body: message.text },
+        };
+
     const res = await fetchImpl(`https://graph.facebook.com/v21.0/${phoneId}/messages`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-      body: JSON.stringify({
-        messaging_product: "whatsapp",
-        to: recipient.phone,
-        type: "text",
-        text: { preview_url: false, body: text },
-      }),
+      body: JSON.stringify(payload),
     });
     const body = await res.text();
-    if (!res.ok) throw new Error(`Meta returned ${res.status}: ${body.slice(0, 200)}`);
-    return { ok: true, detail: "sent" };
+    if (!res.ok) {
+      // The failure everyone hits first, translated. Meta reports it as a
+      // generic 131047 / "Re-engagement message" and it reads like a bug.
+      const outsideWindow = /131047|re-?engagement|24 hour/i.test(body);
+      throw new Error(
+        `Meta returned ${res.status}: ${body.slice(0, 200)}` +
+        (outsideWindow && !template
+          ? " — plain text is only allowed within 24 hours of the recipient writing to you. " +
+            "Set META_WHATSAPP_TEMPLATE to an approved template name; reminders always fall outside that window."
+          : "")
+      );
+    }
+    return { ok: true, detail: template ? `template ${template}` : "free text" };
   },
 
   /** No service configured: say what would have gone out, and to whom. */
-  async console(recipient, text) {
-    console.log(`\n--- would send to ${recipient.name} (+${recipient.phone}) ---\n${text}\n---`);
+  async console(recipient, message) {
+    console.log(`\n--- would send to ${recipient.name} (+${recipient.phone}) ---\n${message.text}\n---`);
     return { ok: true, detail: "printed, not sent" };
   },
 };
+
+/**
+ * Meta rejects a template parameter containing a newline, a tab, or four or
+ * more consecutive spaces, with an error that does not say which parameter is
+ * at fault. Flattening here is cheaper than diagnosing that later.
+ */
+const templateSafe = (value) =>
+  String(value ?? "").replace(/[\r\n\t]+/g, " ").replace(/ {4,}/g, "   ").trim().slice(0, 900);
 
 const stripTags = (html) => String(html).replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
@@ -173,12 +231,16 @@ export const TRANSPORT_NAMES = Object.keys(TRANSPORTS);
  * expired, Dhibin should still be told his amendment is due tomorrow. Results
  * come back per person so the caller can record what actually landed.
  */
-export async function sendToAll(recipients, text, {
+export async function sendToAll(recipients, message, {
   transport = "console",
   env = process.env,
   fetchImpl = globalThis.fetch,
   pauseMs = 0,
 } = {}) {
+  // Callers may pass a plain string; the template transports need the
+  // structured form, so normalise once here rather than in each transport.
+  const payload = typeof message === "string" ? { text: message, params: [] } : message;
+
   const send = TRANSPORTS[transport];
   if (!send) {
     throw new Error(`Unknown WhatsApp transport "${transport}". Try one of: ${TRANSPORT_NAMES.join(", ")}`);
@@ -187,7 +249,7 @@ export async function sendToAll(recipients, text, {
   const results = [];
   for (const recipient of recipients) {
     try {
-      const out = await send(recipient, text, { env, fetchImpl });
+      const out = await send(recipient, payload, { env, fetchImpl });
       results.push({ name: recipient.name, phone: recipient.phone, ok: true, detail: out.detail });
     } catch (err) {
       results.push({ name: recipient.name, phone: recipient.phone, ok: false, error: err.message });
