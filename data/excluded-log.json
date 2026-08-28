@@ -1,6 +1,90 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-20T04:22:52.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to review manuscript EM-2026-00097---Exploration of Medicine",
+      "from": "OEP editor-Bambi <bambi@explorationpub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-21T01:42:38.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Request to Share Your Valuable Research Paper",
+      "from": "\"JSUR 21.08.2026\" <contact@paperexplorereviews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-22T00:44:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Kolarpatti Ponnusamy D.V.: You Are Invited to Submit Papers/Abstracts to International Conferences (December 2026)",
+      "from": "Wang Fang <Wang.Fang@intcm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-23T11:32:56.000Z",
+      "reason": "unrelated",
+      "subject": "Urgent Status Inquiry – Manuscript CSS-26-253",
+      "from": "\"Dr. DHIBIN VIKASH K P\" <dhibinvikash@outlook.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T18:06:08.000Z",
+      "reason": "unrelated",
+      "subject": "How Did You Learn To Think Like That?",
+      "from": "Steven Kotler <sk@stevenkotler.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T11:13:17.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from Paraplegic Center, Hayatabad, Peshawar, Khyber PakhtunKhwa, Pakistan.",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T14:06:05.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Structural Gains Without Symptomatic Benefit After Microfracture During High Tibial Osteotomy",
+      "from": "ISAKOS Digital Digest <ISAKOS@multibriefs.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T15:29:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "EBM Newsletter - Updates and New Articles",
+      "from": "Experimental Biology and Medicine <development@ebm-journal.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T16:47:10.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Journal of Health Psychology",
+      "from": "Journal of Health Psychology <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T21:17:08.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Clinical Spine Surgery Decision CSS-25-259R1",
+      "from": "Aiyush <aiyush87@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T21:49:42.000Z",
+      "reason": "unrelated",
+      "subject": "Re: [External] Re: Clinical Spine Surgery Decision CSS-25-259R1",
+      "from": "\"Yoon, Tim\" <styoon@emory.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T22:00:32.000Z",
+      "reason": "unrelated",
+      "subject": "IntechOpen - CPC Final Notice",
+      "from": "Payments <payments@info.intechopen.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-22T07:38:03.000Z",
       "reason": "predatory_solicitation",
       "subject": "Gentle Reminder: Invitation to Submit Your Manuscript to APhOT",
@@ -2226,102 +2310,6 @@
       "reason": "unrelated",
       "subject": "Global Spine Journal - Next steps for your article",
       "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dacb288d49e394",
-      "timestamp": "2026-04-20T21:01:13.000Z",
-      "reason": "unrelated",
-      "subject": "Global Spine Journal - Next steps for your article",
-      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19daca9be020271e",
-      "timestamp": "2026-04-20T20:51:38.000Z",
-      "reason": "unrelated",
-      "subject": "Global Spine Journal Next steps for your article (GSJ-26-0291.R1)",
-      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19daca3b833ecd3b",
-      "timestamp": "2026-04-20T20:45:02.000Z",
-      "reason": "unrelated",
-      "subject": "Global Spine Journal Next steps for your article (GSJ-25-2098.R3)",
-      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dab400c9d708bf",
-      "timestamp": "2026-04-20T14:16:34.000Z",
-      "reason": "unrelated",
-      "subject": "JOIO-D-26-00662 - New manuscript received",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19daa4a8979fd90e",
-      "timestamp": "2026-04-20T09:48:24.000Z",
-      "reason": "unrelated",
-      "subject": "Newly Published Clinical Research – Now in AJM ",
-      "from": "Thieme India <marketing@news.thieme.in>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da9d29a803e4c7",
-      "timestamp": "2026-04-20T07:36:40.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da9c1307d34d26",
-      "timestamp": "2026-04-20T07:18:21.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da9bb62feb308f",
-      "timestamp": "2026-04-20T07:11:54.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da9b4b107f5ca4",
-      "timestamp": "2026-04-20T07:04:41.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da9acd32555363",
-      "timestamp": "2026-04-20T06:56:02.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da9731bb957f24",
-      "timestamp": "2026-04-20T05:53:04.000Z",
-      "reason": "unrelated",
-      "subject": "2026-04-20 05:53:02 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da7d780b197c8f",
-      "timestamp": "2026-04-19T22:23:31.000Z",
-      "reason": "unrelated",
-      "subject": "Required reviews complete for JCOT-D-26-00082R1",
-      "from": "Journal of Clinical Orthopaedics and Trauma <em@editorialmanager.com>",
       "account": "Sathish Muthu"
     }
   ]
