@@ -287,6 +287,28 @@ html[data-theme="dark"] .hero-acronym {
 }
 .d-notes p { font-size: .88rem; color: var(--ink-soft); white-space: pre-wrap; margin: 0; }
 
+/* An amendment deadline. Colour tracks how little time is left, because the
+   whole point is that five days passes without anyone noticing. */
+.deadline-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 3px 9px; border-radius: 100px;
+  font-size: .7rem; font-weight: 700; letter-spacing: .01em; white-space: nowrap;
+  background: var(--review-wash); color: var(--review);
+}
+.deadline-chip.soon { background: var(--needs-wash); color: var(--needs); }
+.deadline-chip.urgent,
+.deadline-chip.overdue { background: var(--needs); color: #fff; }
+.deadline-chip.overdue { animation: deadline-pulse 2.4s ease-in-out infinite; }
+@keyframes deadline-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .62; } }
+@media (prefers-reduced-motion: reduce) { .deadline-chip.overdue { animation: none; } }
+
+.d-deadline { font-variant-numeric: tabular-nums; }
+.d-deadline.soon, .d-deadline.urgent, .d-deadline.overdue { color: var(--needs); font-weight: 700; }
+.d-estimated {
+  display: block; margin-top: 3px; font-size: .74rem; font-weight: 400;
+  color: var(--muted); line-height: 1.45;
+}
+
 /* --- the edit form --- */
 .edit-intro {
   font-size: .84rem; color: var(--muted); line-height: 1.55;

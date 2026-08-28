@@ -65,6 +65,16 @@ const PROPERTIES = {
   },
   doi: { type: ["string", "null"] },
   publication_link: { type: ["string", "null"] },
+  deadline_days: {
+    type: ["integer", "null"],
+    description:
+      'Number of days the email gives the author to act, when it states a period ("within 14 days", "in 5 working days") — the number only. Null if no period is stated.',
+  },
+  deadline_date: {
+    type: ["string", "null"],
+    description:
+      'An explicit calendar due date, copied exactly as the email writes it (e.g. "12 September 2026", "2026-09-12"). Null if the email gives no calendar date.',
+  },
   summary: { type: "string", description: "One plain-language sentence on what happened." },
 };
 
@@ -121,6 +131,7 @@ export function normalizeResult(raw) {
 
   const relevant = raw.relevant === true || raw.relevant === "true";
   const round = Number.parseInt(raw.revision_round, 10);
+  const days = Number.parseInt(raw.deadline_days, 10);
 
   return {
     relevant,
@@ -138,6 +149,11 @@ export function normalizeResult(raw) {
     revision_round: Number.isFinite(round) ? round : null,
     doi: str(raw.doi),
     publication_link: str(raw.publication_link),
+    // A journal's own words about when it wants the work back. Kept raw here;
+    // turning the two into one real date is lib/deadline.mjs's job, because it
+    // needs the email's own timestamp to resolve "within 14 days".
+    deadline_days: Number.isFinite(days) && days > 0 && days <= 365 ? days : null,
+    deadline_date: str(raw.deadline_date),
     summary: str(raw.summary) || "",
   };
 }

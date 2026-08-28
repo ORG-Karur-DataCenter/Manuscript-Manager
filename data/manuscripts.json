@@ -8,8 +8,8 @@
       "bucket": "needs_action",
       "needsReview": false,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
       "currentStatus": "Sent back for edits",
@@ -63,7 +63,9 @@
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-08-28T15:10:08.000Z"
+      "updatedAt": "2026-08-28T15:10:08.000Z",
+      "deadline": "2026-09-11T18:29:59.999Z",
+      "deadlineSource": "assumed"
     },
     {
       "id": "financial-implications-of-platelet-rich-plasma-therapy-in-musculoskele",
@@ -434,8 +436,8 @@
       "bucket": "needs_action",
       "needsReview": true,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "International Orthopaedics",
       "currentManuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88 v1.0",
       "currentStatus": "Sent back for edits",
@@ -781,7 +783,9 @@
         }
       ],
       "createdAt": "2026-08-20T12:38:16.000Z",
-      "updatedAt": "2026-08-27T15:32:31.000Z"
+      "updatedAt": "2026-08-27T15:32:31.000Z",
+      "deadline": "2026-09-03T18:29:59.999Z",
+      "deadlineSource": "assumed"
     },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
@@ -790,8 +794,8 @@
       "bucket": "needs_action",
       "needsReview": false,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "European Spine Journal",
       "currentManuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
       "currentStatus": "Sent back for edits",
@@ -1040,7 +1044,9 @@
         }
       ],
       "createdAt": "2026-08-19T18:53:15.000Z",
-      "updatedAt": "2026-08-27T05:47:32.000Z"
+      "updatedAt": "2026-08-27T05:47:32.000Z",
+      "deadline": "2026-09-03T18:29:59.999Z",
+      "deadlineSource": "assumed"
     },
     {
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
@@ -2029,8 +2035,8 @@
       "bucket": "needs_action",
       "needsReview": false,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "World Journal of Translational Medicine",
       "currentManuscriptNumber": "126786",
       "currentStatus": "Sent back for edits",
@@ -2111,7 +2117,9 @@
         }
       ],
       "createdAt": "2026-08-25T08:55:42.000Z",
-      "updatedAt": "2026-08-25T13:41:39.000Z"
+      "updatedAt": "2026-08-25T13:41:39.000Z",
+      "deadline": "2026-09-01T18:29:59.999Z",
+      "deadlineSource": "assumed"
     },
     {
       "id": "comparative-physicochemical-biochemical-growth-factor-and-cytokine-cha",
@@ -2121,7 +2129,7 @@
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionLabel": "Revision requested",
       "currentJournal": "World Journal of Experimental Medicine",
       "currentManuscriptNumber": "126815",
       "currentStatus": "Revision requested",
@@ -2174,7 +2182,9 @@
         }
       ],
       "createdAt": "2026-08-24T04:13:17.000Z",
-      "updatedAt": "2026-08-24T04:13:17.000Z"
+      "updatedAt": "2026-08-24T04:13:17.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "are-current-management-strategies-adequate-for-metastatic-sarcoma-of-t",
@@ -2248,7 +2258,7 @@
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
-      "actionLabel": "Revision  requested",
+      "actionLabel": "Revision requested",
       "currentJournal": "Indian Spine Journal",
       "currentManuscriptNumber": "isj_110_26",
       "currentStatus": "Revision requested",
@@ -2493,7 +2503,9 @@
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-08-23T16:19:37.000Z"
+      "updatedAt": "2026-08-23T16:19:37.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",
@@ -9111,7 +9123,7 @@
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionLabel": "Revision requested",
       "currentJournal": "European Spine Journal",
       "currentManuscriptNumber": null,
       "currentStatus": "Revision requested",
@@ -9257,7 +9269,9 @@
         }
       ],
       "createdAt": "2026-06-24T10:42:55.000Z",
-      "updatedAt": "2026-07-03T04:50:21.000Z"
+      "updatedAt": "2026-07-03T04:50:21.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "autologous-peripheral-blood-derived-orthobiologics-apbos-in-regenerati",
@@ -12892,7 +12906,7 @@
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
-      "actionLabel": "Revision 3 requested",
+      "actionLabel": "Revision requested",
       "currentJournal": "Indian Journal of Orthopaedics",
       "currentManuscriptNumber": "JOIO-D-25-00513R2",
       "currentStatus": "Revision requested",
@@ -13007,7 +13021,9 @@
         }
       ],
       "createdAt": "2026-04-22T14:39:37.000Z",
-      "updatedAt": "2026-04-26T05:18:33.000Z"
+      "updatedAt": "2026-04-26T05:18:33.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",

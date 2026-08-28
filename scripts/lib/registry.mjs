@@ -63,6 +63,7 @@ export const OVERRIDABLE = [
   "currentJournal",
   "currentStatus",
   "currentManuscriptNumber",
+  "deadline",
   "doi",
   "publicationLink",
   "notes",
@@ -224,6 +225,8 @@ export function applyEvent(registry, event) {
       currentJournal: null,
       currentManuscriptNumber: null,
       currentStatus: null,
+      deadline: null,
+      deadlineSource: null,
       doi: null,
       publicationLink: null,
       authorAccounts: [],
@@ -300,6 +303,7 @@ export function applyEvent(registry, event) {
     manuscriptNumber: event.manuscriptNumber || null,
     label: STATUS_LABELS[event.eventType] || event.eventType,
     revisionRound: event.revisionRound || null,
+    deadline: event.deadline || null,
     note: event.summary || "",
     source: event.source,
     needsReview: event.needsReview || false,
@@ -348,11 +352,32 @@ export function applyEvent(registry, event) {
       manuscript.bucket = derived.bucket;
       manuscript.needsActionReason = derived.needsActionReason;
     }
-    manuscript.actionFlag = event.eventType === "revision_requested";
+    // What the person actually has to do something about. Amendments belong
+    // here as much as revisions do -- more, in fact, since they run on a clock
+    // of five to fourteen days and a missed one withdraws the submission. They
+    // were previously left unflagged, which is why some sat unnoticed.
+    const ACTION_NEEDED = { revision_requested: true, sent_back: true };
+    manuscript.actionFlag = Boolean(ACTION_NEEDED[event.eventType]);
     manuscript.actionLabel =
       event.eventType === "revision_requested"
         ? `Revision ${event.revisionRound || ""} requested`.trim()
+        : event.eventType === "sent_back"
+        ? "Amendments requested"
         : null;
+
+    // The deadline follows the event that set it, and is cleared by any event
+    // that ends the obligation -- the author has resubmitted, or the journal
+    // has moved on. Leaving a stale date behind would go on raising alarms
+    // about work that is already done.
+    // Held flat -- an ISO date and, separately, where it came from -- so that
+    // correcting one by hand is an ordinary text edit like any other field.
+    // A hand-set date is pinned, and a pinned date outranks anything an email
+    // says, so provenance is left alone as well.
+    if (!isPinned(manuscript, "deadline")) {
+      const set = ACTION_NEEDED[event.eventType] ? event.deadline : null;
+      manuscript.deadline = set ? set.due : null;
+      manuscript.deadlineSource = set ? set.source : null;
+    }
 
     // "other" means the classifier could not place the email. bucketForEvent
     // already refuses to move the bucket for it; current status follows the

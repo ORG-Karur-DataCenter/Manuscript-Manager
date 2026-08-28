@@ -35,6 +35,12 @@ export const FIELDS = [
   { field: "currentJournal", label: "Current journal", type: "text" },
   { field: "currentStatus", label: "Current status", type: "text" },
   { field: "currentManuscriptNumber", label: "Manuscript number", type: "text" },
+  {
+    field: "deadline",
+    label: "Due back by",
+    type: "date",
+    help: "When the journal wants the amended manuscript back. WhatsApp reminders follow this date, so correcting an estimated one here corrects the reminders too.",
+  },
   { field: "doi", label: "DOI", type: "text", placeholder: "10.1234/example" },
   { field: "publicationLink", label: "Article link", type: "url", placeholder: "https://…" },
   {

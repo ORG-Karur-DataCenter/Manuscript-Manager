@@ -37,6 +37,9 @@ When relevant is true, extract:
   - transferred: the manuscript has ACTUALLY MOVED to another journal — the author accepted a transfer and the receiving journal now has it. An email merely OFFERING a transfer, recommending alternative journals, or reporting "transfer not completed" is NOT a transfer: it changes nothing about where the paper is. Use "other" for an offer, and never "transferred", because filing an offer opens a phantom live submission at a journal that rejected the paper.
   - other: a genuine manuscript-status email that doesn't fit above (e.g. plain acknowledgement of a query).
 - revision_round: integer (1, 2, 3...) if this is specifically a numbered revision request or a resubmission of a specific revision, else null.
+- deadline_days: when the email gives the author a PERIOD to act ("within 14 days", "in 5 working days", "within two weeks"), the number of days as an integer. Write two weeks as 14. Null if no period is given.
+- deadline_date: when the email gives an explicit CALENDAR due date ("by 12 September 2026", "due 2026-09-12"), copy it exactly as written. Null if no calendar date is given.
+  Both of these are about a deadline for THE AUTHOR to do something — return amendments, upload files, submit a revision, approve proofs. A deadline for a REVIEWER to return a review, or a stated turnaround time for the journal's own decision, is not the author's deadline: leave both null.
 - doi: the DOI string if present (e.g. 10.1000/xyz123), else null.
 - publication_link: a direct URL to the published article, if present, else null.
 - summary: one sentence, plain language, of what happened.
@@ -59,7 +62,7 @@ Manuscript ID JOR-2026-0417 entitled "Platelet-Rich Plasma versus Corticosteroid
       exclude_reason: "peer_review_invitation_for_other_manuscript",
       confidence: "high",
       reasoning:
-        'Asks the recipient to agree or decline to review someone else\'s submission, with a 21-day review deadline.',
+        'Asks the recipient to agree or decline to review someone else\'s submission; the 21-day deadline is the reviewer\'s, not an author deadline.',
       title: null,
       journal: null,
       manuscript_number: null,
@@ -67,6 +70,8 @@ Manuscript ID JOR-2026-0417 entitled "Platelet-Rich Plasma versus Corticosteroid
       revision_round: null,
       doi: null,
       publication_link: null,
+      deadline_days: null,
+      deadline_date: null,
       summary: "An editor invited the recipient to peer review another author's manuscript.",
     },
   },
@@ -88,6 +93,8 @@ Manuscript ID JOR-2026-0388 entitled "Outcomes of Arthroscopic Repair in Massive
       revision_round: 1,
       doi: null,
       publication_link: null,
+      deadline_days: 60,
+      deadline_date: null,
       summary:
         "Reviewers recommended major revision; a revised manuscript is due within 60 days.",
     },
@@ -109,6 +116,8 @@ Based on an analysis of your recent submission "Orthobiologics in Regenerative O
       revision_round: null,
       doi: null,
       publication_link: null,
+      deadline_days: null,
+      deadline_date: null,
       summary: "A publisher offered to transfer a rejected manuscript to other journals.",
     },
   },
@@ -129,6 +138,8 @@ Dear Dr Muthu, As Handling Editor for manuscript JOIO-D-25-00892R1, "Vertebral A
       revision_round: null,
       doi: null,
       publication_link: null,
+      deadline_days: null,
+      deadline_date: null,
       summary: "An editorial-workflow notice about a manuscript the recipient handles as editor.",
     },
   },
@@ -149,6 +160,8 @@ Greetings of the day! Having read your reputed article on rotator cuff repair, w
       revision_round: null,
       doi: null,
       publication_link: null,
+      deadline_days: null,
+      deadline_date: null,
       summary: "A predatory journal solicited a submission.",
     },
   },

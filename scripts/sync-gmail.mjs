@@ -5,6 +5,7 @@ import { buildClient, fetchNewMessages, credentialsFor, providerOf } from "./lib
 import { classifyEmail } from "./lib/classify.mjs";
 import { applyEvent } from "./lib/registry.mjs";
 import { PREFILTER } from "./lib/prefilter.mjs";
+import { resolveDeadline } from "./lib/deadline.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const P = {
@@ -13,7 +14,13 @@ const P = {
   state: path.join(ROOT, "data/sync-state.json"),
   excluded: path.join(ROOT, "data/excluded-log.json"),
   review: path.join(ROOT, "data/review-queue.json"),
+  deadlines: path.join(ROOT, "config/deadlines.json"),
 };
+
+// The events that put the author on a clock. An amendment returned by the
+// editorial office is the sharp one: five to fourteen days, and a missed
+// window usually withdraws the submission outright.
+const ON_A_CLOCK = { sent_back: true, revision_requested: true };
 
 const DEFAULT_LOOKBACK_DAYS = 30; // first run per account
 const OVERLAP_DAYS = 2; // re-scan a small window each run so nothing is missed at the boundary
@@ -65,6 +72,7 @@ async function main() {
   const state = await loadJson(P.state, { accounts: {} });
   const excludedLog = await loadJson(P.excluded, { excluded: [] });
   const reviewQueue = await loadJson(P.review, { review: [] });
+  const deadlinePolicy = await loadJson(P.deadlines, { defaultDays: 7, journalDays: {} });
 
   // Credentials are checked per account rather than up front: a missing Gmail
   // secret should skip the Gmail inboxes, not abort a run that could still
@@ -263,6 +271,20 @@ async function main() {
         revisionRound: result.revision_round || null,
         doi: result.doi || null,
         publicationLink: result.publication_link || null,
+        // Only the events that put the author on a clock carry one. Working it
+        // out for, say, an acceptance would produce a date nobody asked for.
+        deadline: ON_A_CLOCK[result.event_type]
+          ? resolveDeadline({
+              eventTimestamp: msg.internalDate,
+              statedDate: result.deadline_date,
+              statedDays: result.deadline_days,
+              journal: result.journal,
+              // The per-journal table describes amendment windows. A revision
+              // runs on a much longer one, so it gets a deadline only when the
+              // journal actually states it.
+              policy: result.event_type === "sent_back" ? deadlinePolicy : {},
+            })
+          : null,
         summary: result.summary || "",
         timestamp: msg.internalDate,
         authorAccount: account.label,

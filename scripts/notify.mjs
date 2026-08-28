@@ -1,0 +1,138 @@
+#!/usr/bin/env node
+/**
+ * Send WhatsApp reminders for amendment deadlines.
+ *
+ * Runs straight after the sync, on the same schedule, so a letter that arrives
+ * at nine is a message on a phone by noon at the latest.
+ *
+ *   npm run notify              # send, using WHATSAPP_TRANSPORT
+ *   npm run notify -- --dry-run # print what would go out, send nothing
+ *   npm run notify -- --test    # send one message now, to check the wiring
+ *
+ * Nothing configured means nothing is sent and the run still succeeds: a
+ * tracker that fails its sync because a reminder service is missing would be a
+ * poor trade.
+ */
+import { readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
+import { readRecipients, sendToAll } from "./lib/whatsapp.mjs";
+import {
+  DEFAULT_POLICY, dueReminders, composeMessage, recordSent, reachedSomeone,
+  pruneLedger, pendingDeadlines,
+} from "./lib/notify.mjs";
+import { describeDeadline } from "./lib/deadline.mjs";
+
+const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+const P = {
+  manuscripts: path.join(ROOT, "data/manuscripts.json"),
+  ledger: path.join(ROOT, "data/notifications.json"),
+  policy: path.join(ROOT, "config/notify.json"),
+};
+
+const argv = process.argv.slice(2);
+const dryRun = argv.includes("--dry-run");
+const testOnly = argv.includes("--test");
+
+async function loadJson(file, fallback) {
+  try {
+    return JSON.parse(await readFile(file, "utf8"));
+  } catch {
+    return fallback;
+  }
+}
+
+async function main() {
+  const registry = await loadJson(P.manuscripts, { manuscripts: [] });
+  const ledger = await loadJson(P.ledger, { sent: [] });
+  const configured = await loadJson(P.policy, {});
+  const policy = { ...DEFAULT_POLICY, ...configured };
+
+  const transport = dryRun ? "console" : (process.env.WHATSAPP_TRANSPORT || "").trim() || "console";
+  let recipients;
+  try {
+    recipients = readRecipients();
+  } catch (err) {
+    // A malformed secret is worth shouting about -- it means nobody is being
+    // told anything -- but not worth failing the whole workflow over.
+    console.error(`WhatsApp reminders are misconfigured: ${err.message}`);
+    return;
+  }
+
+  if (!recipients.length) {
+    console.log(
+      "No WhatsApp recipients configured (WHATSAPP_RECIPIENTS is unset), so no reminders were sent.\n" +
+      "See the README section \"Deadline reminders on WhatsApp\" to turn this on."
+    );
+    if (!dryRun) return;
+  }
+
+  if (testOnly) {
+    const text =
+      "✅ ORG Karur COMMS is wired up.\n\n" +
+      "This is a one-off test. Real messages arrive when a journal returns a " +
+      "manuscript for amendments, and again as the deadline approaches.";
+    const results = await sendToAll(recipients, text, { transport, pauseMs: 2000 });
+    report(results);
+    process.exitCode = results.every((r) => r.ok) ? 0 : 1;
+    return;
+  }
+
+  // Always print the standing picture, whether or not anything is sent. A run
+  // that says only "0 reminders" leaves you unable to tell a quiet week from a
+  // notifier that has quietly stopped seeing anything.
+  const pending = pendingDeadlines(registry, { policy });
+  console.log(`${pending.length} manuscript(s) on a deadline:`);
+  for (const { manuscript, left } of pending) {
+    const source = manuscript.deadlineSource === "assumed" ? " [estimated]" : "";
+    console.log(
+      `  ${describeDeadline(manuscript.deadline).padEnd(16)} ` +
+      `${(manuscript.currentJournal || "?").slice(0, 34).padEnd(34)} ` +
+      `${manuscript.title.slice(0, 50)}${source}`
+    );
+  }
+
+  const due = dueReminders(registry, ledger, { policy });
+  if (!due.length) {
+    console.log("\nNo reminders due.");
+    return;
+  }
+
+  console.log(`\n${due.length} reminder(s) due:`);
+  let sentCount = 0;
+  for (const reminder of due) {
+    const text = composeMessage(reminder, { dashboardUrl: policy.dashboardUrl || "" });
+    const results = await sendToAll(recipients, text, { transport, pauseMs: 2000 });
+    report(results, `${reminder.kind} · ${reminder.manuscript.title.slice(0, 50)}`);
+
+    if (dryRun) continue;
+    // Only record a reminder that reached somebody. Recording a total failure
+    // would suppress every future attempt at it -- the message would be lost
+    // rather than retried on the next run.
+    if (reachedSomeone(results)) {
+      recordSent(ledger, reminder, results);
+      sentCount++;
+    }
+  }
+
+  if (!dryRun && sentCount) {
+    await writeFile(P.ledger, `${JSON.stringify(pruneLedger(ledger), null, 2)}\n`);
+    console.log(`\nRecorded ${sentCount} reminder(s) as sent.`);
+  } else if (dryRun) {
+    console.log("\nDry run — nothing was sent and nothing was recorded.");
+  }
+}
+
+function report(results, label = "") {
+  for (const r of results) {
+    const mark = r.ok ? "✓" : "✗";
+    console.log(`  ${mark} ${r.name}${label ? ` — ${label}` : ""}${r.ok ? "" : `: ${r.error}`}`);
+  }
+}
+
+main().catch((err) => {
+  // Never take the sync down with it. The manuscripts are safely committed by
+  // the time this runs; a failed reminder is worth a red step, not lost data.
+  console.error(err);
+  process.exitCode = 1;
+});

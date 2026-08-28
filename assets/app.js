@@ -43,6 +43,62 @@ const EVENT_LABELS = {
 // filable at all and would otherwise be invisible.
 let state = { manuscripts: [], review: [], bucket: "all", query: "", generatedAt: null };
 
+/**
+ * How long is left on an amendment. Counted in whole calendar days in the
+ * group's own timezone, matching scripts/lib/deadline.mjs — a deadline is a
+ * day, not an instant, and it must read the same on the phone as in the
+ * WhatsApp message that announced it.
+ */
+const ZONE_MS = 330 * 60000; // Asia/Kolkata, which has no daylight saving
+const dayIndex = (ms) => Math.floor((ms + ZONE_MS) / 86400000);
+
+function daysLeft(due) {
+  const at = new Date(due).getTime();
+  if (!Number.isFinite(at)) return null;
+  return dayIndex(at) - dayIndex(Date.now());
+}
+
+function deadlineText(due) {
+  const left = daysLeft(due);
+  if (left === null) return "";
+  if (left < 0) return left === -1 ? "1 day overdue" : `${-left} days overdue`;
+  if (left === 0) return "due today";
+  if (left === 1) return "due tomorrow";
+  return `${left} days left`;
+}
+
+/** Urgent, close, or merely pending — drives the colour, nothing else. */
+function deadlineLevel(due) {
+  const left = daysLeft(due);
+  if (left === null) return "";
+  return left < 0 ? "overdue" : left <= 1 ? "urgent" : left <= 3 ? "soon" : "open";
+}
+
+/** A date nobody stated and nobody chose — worked out from the journal's habits. */
+const isEstimated = (m) => m.deadlineSource === "assumed" && !isPinned(m, "deadline");
+
+function deadlineChip(m) {
+  if (!m.deadline) return "";
+  const exact = new Date(m.deadline).toLocaleDateString(undefined, {
+    weekday: "short", day: "numeric", month: "short",
+  });
+  // An estimated date must never pass itself off as the journal's own. Someone
+  // rearranging a clinic around a date deserves to know who set it.
+  const title = isEstimated(m)
+    ? `Due ${exact}. Estimated from this journal's usual window — the email did not give a date.`
+    : isPinned(m, "deadline")
+    ? `Due ${exact}, set by hand.`
+    : `Due ${exact}, as stated by the journal.`;
+  return `<span class="deadline-chip ${deadlineLevel(m.deadline)}" title="${esc(title)}">⏳ ${esc(deadlineText(m.deadline))}${isEstimated(m) ? "*" : ""}</span>`;
+}
+
+/** "2026-09-12" -> the last instant of 12 September, where the group is. */
+function endOfLocalDay(yyyymmdd) {
+  const [y, mo, d] = yyyymmdd.split("-").map(Number);
+  if (!y || !mo || !d) return "";
+  return new Date(Date.UTC(y, mo - 1, d, 23, 59, 59, 999) - ZONE_MS).toISOString();
+}
+
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
@@ -274,6 +330,7 @@ function cardHtml(m) {
     <div class="card-top">
       <span class="pill ${pill.pill}">${esc(pill.label)}</span>
       ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
+      ${deadlineChip(m)}
       ${m.needsReview ? `<span class="review-flag" title="${esc(reviewReasonFor(m))}">⚑ Check</span>` : ""}
     </div>
     <h3 class="card-title">${esc(m.title)}</h3>
@@ -386,6 +443,7 @@ function drawerHtml(m) {
       <span class="pill ${pill.pill}">${esc(pill.label)}</span>
       ${isPinned(m, "bucket") ? `<span class="pin-mark" title="${PIN_TITLE}">moved by hand</span>` : ""}
       ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
+      ${deadlineChip(m)}
       ${attnReason ? `<span class="pill needs_action">${esc(attnReason)}</span>` : ""}
     </div>
     ${doiBox}
@@ -394,6 +452,7 @@ function drawerHtml(m) {
       <dt>Current journal</dt><dd>${esc(m.currentJournal || "—")}${pinMark(m, "currentJournal")}</dd>
       <dt>Current status</dt><dd>${esc(m.currentStatus || "—")}${pinMark(m, "currentStatus")}</dd>
       ${m.currentManuscriptNumber ? `<dt>Manuscript no.</dt><dd>${esc(m.currentManuscriptNumber)}${pinMark(m, "currentManuscriptNumber")}</dd>` : ""}
+      ${m.deadline ? `<dt>Due back</dt><dd class="d-deadline ${deadlineLevel(m.deadline)}">${esc(new Date(m.deadline).toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short", year: "numeric" }))} · ${esc(deadlineText(m.deadline))}${pinMark(m, "deadline")}${isEstimated(m) ? `<span class="d-estimated">Estimated from this journal's usual window — the email did not give a date. Correct it with Edit if you know better.</span>` : ""}</dd>` : ""}
       <dt>Author inbox</dt><dd>${esc((m.authorAccounts || []).join(", ") || "—")}</dd>
       <dt>First tracked</dt><dd>${esc(fmtDate(m.createdAt))}</dd>
       <dt>Last update</dt><dd>${esc(fmtDate(m.updatedAt))}</dd>
@@ -430,7 +489,13 @@ function editFormHtml(m) {
     </button>`).join("");
 
   const fields = FIELDS.map((f) => {
-    const value = esc(m[f.field] || "");
+    // A date input speaks yyyy-mm-dd; the record holds the last moment of that
+    // day as a real instant, so convert through the group's own calendar or
+    // the box shows the day before for anything set in the evening.
+    const raw = f.type === "date" && m[f.field]
+      ? new Date(new Date(m[f.field]).getTime() + ZONE_MS).toISOString().slice(0, 10)
+      : m[f.field] || "";
+    const value = esc(raw);
     const input = f.type === "textarea"
       ? `<textarea name="${f.field}" rows="${f.field === "title" ? 3 : 4}" placeholder="${esc(f.placeholder || "")}">${value}</textarea>`
       : `<input name="${f.field}" type="${f.type}" value="${value}" placeholder="${esc(f.placeholder || "")}" />`;
@@ -557,7 +622,12 @@ async function submitEdit(m) {
   const save = $("#edit-save");
 
   const values = { bucket: form.querySelector(".section-chip.active")?.dataset.bucket || m.bucket };
-  for (const f of FIELDS) values[f.field] = form.querySelector(`[name="${f.field}"]`).value;
+  for (const f of FIELDS) {
+    const typed = form.querySelector(`[name="${f.field}"]`).value;
+    // A deadline is a day you have until the end of, so a date picked here
+    // becomes that day's last moment rather than its first.
+    values[f.field] = f.type === "date" && typed ? endOfLocalDay(typed) : typed;
+  }
 
   const patch = diff(m, values, editing.released);
   if (!Object.keys(patch).length) { editing = null; renderDrawer(); return; }

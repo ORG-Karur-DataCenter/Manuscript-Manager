@@ -54,6 +54,26 @@ let registry = {
       events: [],
     },
     {
+      id: "m-amend",
+      title: "An Amendment The Editorial Office Wants Back",
+      titleNormalized: "an amendment the editorial office wants back",
+      bucket: "needs_action",
+      needsActionReason: "pre_review_edits",
+      actionFlag: true,
+      actionLabel: "Amendments requested",
+      currentJournal: "International Orthopaedics",
+      // Four days out, estimated rather than stated -- the case that must never
+      // read as though the journal set the date.
+      deadline: new Date(Date.now() + 4 * 86400000).toISOString(),
+      deadlineSource: "assumed",
+      authorAccounts: ["sathish@example.org"],
+      createdAt: "2026-08-01T10:00:00.000Z",
+      updatedAt: "2026-08-24T10:00:00.000Z",
+      submissions: [],
+      timeline: [{ eventType: "sent_back", timestamp: "2026-08-24T10:00:00.000Z", journal: "International Orthopaedics", note: "Returned after technical check." }],
+      events: [],
+    },
+    {
       id: "m-hips",
       title: "A Second Paper, Left Alone",
       titleNormalized: "a second paper left alone",
@@ -220,6 +240,11 @@ async function unlock(page) {
   await page.waitForSelector("#cards .card");
 }
 
+const addDays = (yyyymmdd, n) =>
+  new Date(Date.parse(`${yyyymmdd}T00:00:00Z`) + n * 86400000).toISOString().slice(0, 10);
+/** End-of-day in +05:30 lands on the same UTC date; guard the boundary anyway. */
+const nextDay = (yyyymmdd) => addDays(yyyymmdd, 1);
+
 const openFirst = async (page) => {
   // Saving leaves the drawer open on the detail view, so a second edit in the
   // same check must not try to click a card the overlay is covering.
@@ -235,6 +260,50 @@ const save = async (page) => {
   await page.click("#edit-save");
   await page.waitForSelector("#edit-form", { state: "detached" });
 };
+
+await check("an amendment shows how long is left, and says the date is an estimate", async (page) => {
+  const chip = await page.textContent('.card[data-id="m-amend"] .deadline-chip');
+  assert(/4 days left/.test(chip), `the card reads "${chip}"`);
+  assert(/\*/.test(chip), "an estimated date is not marked as one on the card");
+
+  const title = await page.getAttribute('.card[data-id="m-amend"] .deadline-chip', "title");
+  assert(/Estimated/i.test(title), `the explanation does not admit it is a guess: ${title}`);
+
+  await page.click('.card[data-id="m-amend"]');
+  await page.waitForSelector("#drawer:not([hidden])");
+  const drawer = await page.textContent("#drawer-body");
+  assert(/Due back/.test(drawer), "the drawer does not show the deadline");
+  assert(/did not give a date/.test(drawer), "the drawer passes an estimate off as the journal's");
+});
+
+await check("a deadline can be corrected by hand, and stops being an estimate", async (page) => {
+  await page.click('.card[data-id="m-amend"]');
+  await page.waitForSelector("#drawer:not([hidden])");
+  await page.click("#drawer-edit");
+  await page.waitForSelector("#edit-form");
+
+  const box = await page.inputValue('[name="deadline"]');
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(box), `the date box holds "${box}"`);
+
+  // Counted from the date the app itself is showing, not from a UTC clock:
+  // the deadline on screen is already "4 days left", so five days later must
+  // read as nine. Working from Date.now() here would drift by a day whenever
+  // the run happens after 18:30 UTC, which is early evening in India.
+  const target = addDays(box, 5);
+  await page.fill('[name="deadline"]', target);
+  await page.click("#edit-save");
+  await page.waitForSelector("#edit-form", { state: "detached" });
+
+  const saved = registry.manuscripts.find((m) => m.id === "m-amend");
+  assert(saved.overrides.deadline, "the correction was not pinned, so the next email would undo it");
+  // Stored as the last moment of that day: a deadline is not missed at 00:01.
+  assert(saved.deadline.startsWith(target) || saved.deadline.startsWith(nextDay(target)),
+    `stored as ${saved.deadline}, expected the end of ${target}`);
+
+  const chip = await page.textContent('#drawer-body .deadline-chip');
+  assert(/9 days left/.test(chip), `the drawer now reads "${chip}", expected 9 days left`);
+  assert(!/\*/.test(chip), "a date set by hand is still being called an estimate");
+});
 
 await check("the edit button appears once a manuscript is open", async (page) => {
   assert(await page.isHidden("#drawer-edit"), "the edit button showed before a drawer was open");

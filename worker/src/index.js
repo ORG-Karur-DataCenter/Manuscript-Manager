@@ -43,6 +43,7 @@ const OVERRIDABLE = [
   "currentJournal",
   "currentStatus",
   "currentManuscriptNumber",
+  "deadline",
   "doi",
   "publicationLink",
   "notes",
