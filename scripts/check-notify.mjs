@@ -145,6 +145,30 @@ await check("a revision is left alone unless the policy asks for it", () => {
   assert(pendingDeadlines(registryOf(revision), { policy, now: NOW }).length === 1, "the policy was ignored");
 });
 
+await check("a date set by hand stands even when the classifier raised no flag", () => {
+  // The case this exists for: one paper submitted to two journals at once.
+  // The tracker holds one bucket and one flag per manuscript, so the second
+  // journal's deadline has nobody to raise a flag for it -- a person types it
+  // in instead, and that must be enough.
+  // Its newest event belongs to the OTHER journal, so neither the flag nor the
+  // event type speaks for the deadline that was typed in.
+  const dual = amendment({
+    due: ahead(3), actionFlag: false, overrides: { deadline: ahead(3) },
+    eventType: "revision_requested",
+  });
+  assert(pendingDeadlines(registryOf(dual), { now: NOW }).length === 1,
+    "a hand-set deadline was silently ignored");
+
+  const [reminder] = dueReminders(registryOf(dual), { sent: [] }, { now: NOW });
+  assert(reminder && /3 days left/.test(composeMessage(reminder, { now: NOW })), "no reminder was raised for it");
+});
+
+await check("a deadline the classifier set is dropped once the work is not outstanding", () => {
+  const done = amendment({ due: ahead(3), actionFlag: false });
+  assert(pendingDeadlines(registryOf(done), { now: NOW }).length === 0,
+    "a stale date kept chasing after the flag came down");
+});
+
 await check("a deadline from long ago is not resurrected", () => {
   const ancient = amendment({ due: ago(200) });
   assert(pendingDeadlines(registryOf(ancient), { now: NOW }).length === 0, "old news would have been sent");

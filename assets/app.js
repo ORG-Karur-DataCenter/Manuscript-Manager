@@ -79,8 +79,10 @@ const isEstimated = (m) => m.deadlineSource === "assumed" && !isPinned(m, "deadl
 
 function deadlineChip(m) {
   // Only while the work is actually outstanding: a date left over from a
-  // finished amendment is a false alarm, and the most alarming kind.
-  if (!m.deadline || !m.actionFlag) return "";
+  // finished amendment is a false alarm, and the most alarming kind. A date
+  // set by hand counts, though -- typing one in is itself the claim that this
+  // is outstanding, whatever the classifier made of it.
+  if (!m.deadline || !(m.actionFlag || isPinned(m, "deadline"))) return "";
   const exact = new Date(m.deadline).toLocaleDateString(undefined, {
     weekday: "short", day: "numeric", month: "short",
   });
@@ -454,7 +456,7 @@ function drawerHtml(m) {
       <dt>Current journal</dt><dd>${esc(m.currentJournal || "—")}${pinMark(m, "currentJournal")}</dd>
       <dt>Current status</dt><dd>${esc(m.currentStatus || "—")}${pinMark(m, "currentStatus")}</dd>
       ${m.currentManuscriptNumber ? `<dt>Manuscript no.</dt><dd>${esc(m.currentManuscriptNumber)}${pinMark(m, "currentManuscriptNumber")}</dd>` : ""}
-      ${m.deadline && m.actionFlag ? `<dt>Due back</dt><dd class="d-deadline ${deadlineLevel(m.deadline)}">${esc(new Date(m.deadline).toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short", year: "numeric" }))} · ${esc(deadlineText(m.deadline))}${pinMark(m, "deadline")}${isEstimated(m) ? `<span class="d-estimated">Estimated from this journal's usual window — the email did not give a date. Correct it with Edit if you know better.</span>` : ""}</dd>` : ""}
+      ${m.deadline && (m.actionFlag || isPinned(m, "deadline")) ? `<dt>Due back</dt><dd class="d-deadline ${deadlineLevel(m.deadline)}">${esc(new Date(m.deadline).toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short", year: "numeric" }))} · ${esc(deadlineText(m.deadline))}${pinMark(m, "deadline")}${isEstimated(m) ? `<span class="d-estimated">Estimated from this journal's usual window — the email did not give a date. Correct it with Edit if you know better.</span>` : ""}</dd>` : ""}
       <dt>Author inbox</dt><dd>${esc((m.authorAccounts || []).join(", ") || "—")}</dd>
       <dt>First tracked</dt><dd>${esc(fmtDate(m.createdAt))}</dd>
       <dt>Last update</dt><dd>${esc(fmtDate(m.updatedAt))}</dd>

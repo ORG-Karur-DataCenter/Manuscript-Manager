@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T21:18:49.180Z",
+  "generatedAt": "2026-08-28T21:24:47.507Z",
   "manuscripts": [
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
@@ -2259,9 +2259,9 @@
       "needsActionReason": null,
       "actionFlag": true,
       "actionLabel": "Revision requested",
-      "currentJournal": "Indian Spine Journal",
+      "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
       "currentManuscriptNumber": "isj_110_26",
-      "currentStatus": "Revision requested",
+      "currentStatus": "Returned to author — one citation fix outstanding",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -2564,8 +2564,44 @@
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
       "updatedAt": "2026-08-23T16:19:37.000Z",
-      "deadline": null,
-      "deadlineSource": null
+      "deadline": "2026-08-19T18:29:59.999Z",
+      "deadlineSource": null,
+      "overrides": {
+        "deadline": "2026-08-19T18:29:59.999Z",
+        "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
+        "currentStatus": "Returned to author — one citation fix outstanding",
+        "notes": "Submitted to JBJS Open Access and Indian Spine Journal at the same time, unintentionally. JBJS takes priority: if it rejects, push it through Indian Spine Journal; if it accepts, withdraw from Indian Spine Journal.\n\nOutstanding at JBJS (JBJSOA-D-26-00213R1, returned 12 Aug): put the in-text citations for figures, tables and appendices in ascending numerical order — see the Supplemental Table S1 citation. They will grant more time if asked by reply.\n\nIndian Spine Journal (isj_110_26) separately asked for a revision on 23 Aug."
+      },
+      "edits": [
+        {
+          "at": "2026-08-28T21:24:47.507Z",
+          "by": "recovered from the mailbox",
+          "changes": [
+            {
+              "field": "deadline",
+              "from": null,
+              "to": "2026-08-19T18:29:59.999Z"
+            },
+            {
+              "field": "currentJournal",
+              "from": "Indian Spine Journal",
+              "to": "JBJS Open Access (also with Indian Spine Journal)"
+            },
+            {
+              "field": "currentStatus",
+              "from": "Revision requested",
+              "to": "Returned to author — one citation fix outstanding"
+            },
+            {
+              "field": "notes",
+              "from": null,
+              "to": "Submitted to JBJS Open Access and Indian Spine Journal at the same time, unintentionally. JBJS takes priority: if it rejects, push it through Indian Spine Journal; if it accepts, withdraw from Indian Spine Journal.\n\nOutstanding at JBJS (JBJSOA-D-26-00213R1, returned 12 Aug): put the in-text citations for figures, tables and appendices in ascending numerical order — see the Supplemental Table S1 citation. They will grant more time if asked by reply.\n\nIndian Spine Journal (isj_110_26) separately asked for a revision on 23 Aug."
+            }
+          ]
+        }
+      ],
+      "notes": "Submitted to JBJS Open Access and Indian Spine Journal at the same time, unintentionally. JBJS takes priority: if it rejects, push it through Indian Spine Journal; if it accepts, withdraw from Indian Spine Journal.\n\nOutstanding at JBJS (JBJSOA-D-26-00213R1, returned 12 Aug): put the in-text citations for figures, tables and appendices in ascending numerical order — see the Supplemental Table S1 citation. They will grant more time if asked by reply.\n\nIndian Spine Journal (isj_110_26) separately asked for a revision on 23 Aug.",
+      "editedAt": "2026-08-28T21:24:47.507Z"
     },
     {
       "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",

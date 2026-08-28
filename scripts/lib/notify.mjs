@@ -18,6 +18,7 @@
  * and not acted has decided something; a fifth message is noise, not help.
  */
 import { daysLeft, describeDeadline } from "./deadline.mjs";
+import { isPinned } from "./registry.mjs";
 
 export const DEFAULT_POLICY = {
   // Which events are worth a message. Amendments returned before peer review
@@ -37,7 +38,11 @@ export const DEFAULT_POLICY = {
 /**
  * Which manuscripts are on a clock right now.
  *
- * A manuscript counts when its action flag is up and it carries a deadline.
+ * A manuscript counts when it carries a deadline and either the classifier
+ * raised its action flag, or a person set the date by hand — typing a date in
+ * is itself the assertion that the work is outstanding, and it has to outrank
+ * a flag the classifier never raised. Without that, a hand-set deadline is
+ * silently ignored, which is the worst way for this to fail.
  * Deliberately not filtered by section: a revision request sits in "in review"
  * and still needs doing, so a section test would silently exclude every one of
  * them the day someone turns revision reminders on. What marks a thing as
@@ -48,8 +53,13 @@ export function pendingDeadlines(registry, { policy = DEFAULT_POLICY, now = Date
   const wanted = new Set(policy.eventTypes || DEFAULT_POLICY.eventTypes);
 
   return (registry.manuscripts || [])
-    .filter((m) => m.deadline && m.actionFlag)
+    .filter((m) => m.deadline && (m.actionFlag || isPinned(m, "deadline")))
     .filter((m) => {
+      // A hand-pinned deadline is not second-guessed by what the last email
+      // happened to be. One paper can be with two journals at once, and then
+      // the newest event belongs to the other one -- which is exactly when
+      // somebody has had to type the date in themselves.
+      if (isPinned(m, "deadline")) return true;
       const last = lastEventOf(m);
       return last && wanted.has(last.eventType);
     })
