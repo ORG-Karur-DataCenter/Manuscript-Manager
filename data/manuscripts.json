@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T15:28:36.535Z",
+  "generatedAt": "2026-08-28T20:53:53.850Z",
   "manuscripts": [
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
@@ -5037,18 +5037,19 @@
       "id": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
       "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
       "titleNormalized": "beyond body mass index obesity and adult spinal deformity surgery separating perception from evidence a systematic review and meta analysis",
-      "bucket": "submissions",
+      "bucket": "needs_action",
       "needsReview": true,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "Clinical Spine Surgery",
       "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentStatus": "Sent back for edits",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
         {
@@ -5056,7 +5057,7 @@
           "manuscriptNumber": null,
           "submittedDate": "2026-07-26T17:41:34.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -5072,6 +5073,17 @@
                 "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
                 "from": "em@editorialmanager.com",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-30T18:06:51.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned before review: title page needs all authors' highest degrees; Supplemental Tables 1 and 2 legends given but files missing; Supplemental Table 2 uncited; Open Access chosen but the License to Publish form was not supplied. Not resubmitted within 14 days and the paper is removed from the system.",
+              "manuscriptNumber": null,
+              "source": {
+                "messageId": "css-amendment-2026-07-30-manual",
+                "account": "drsathishmuthu@gmail.com"
               }
             }
           ]
@@ -5093,10 +5105,31 @@
             "via": "offline-import"
           },
           "needsReview": true
+        },
+        {
+          "timestamp": "2026-07-30T18:06:51.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-08-13T18:29:59.999Z",
+            "source": "stated",
+            "basis": "14 days from the email"
+          },
+          "note": "Returned before review: title page needs all authors' highest degrees; Supplemental Tables 1 and 2 legends given but files missing; Supplemental Table 2 uncited; Open Access chosen but the License to Publish form was not supplied. Not resubmitted within 14 days and the paper is removed from the system.",
+          "source": {
+            "messageId": "css-amendment-2026-07-30-manual",
+            "account": "drsathishmuthu@gmail.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-26T17:41:34.000Z",
-      "updatedAt": "2026-07-26T17:41:34.000Z"
+      "updatedAt": "2026-07-30T18:06:51.000Z",
+      "deadline": "2026-08-13T18:29:59.999Z",
+      "deadlineSource": "stated"
     },
     {
       "id": "is-survival-in-primary-spinal-osteosarcoma-determined-by-surgical-marg",
