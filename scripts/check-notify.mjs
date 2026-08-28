@@ -477,6 +477,21 @@ await check("a stage reminder comments on the issue", () => {
     });
 });
 
+await check("issues being switched off says so, rather than reading as a fault", () => {
+  // Found the hard way: the repository had Issues disabled, so every attempt
+  // returned a bare 410 while the rest of the reminders looked perfectly well.
+  return syncIssues(pendingOf(amendment({ due: ahead(4) })), {}, {
+    token: "t", repo: "o/r",
+    fetchImpl: async () => new Response('{"message":"Issues has been disabled"}', { status: 410 }),
+  }).then(
+    () => { throw new Error("a 410 was swallowed"); },
+    (err) => {
+      assert(/switched off/i.test(err.message), `unhelpful: ${err.message}`);
+      assert(/Settings/.test(err.message), "does not say where to turn them on");
+    }
+  );
+});
+
 await check("with no token, issues are skipped rather than crashing the reminders", () => {
   return syncIssues(pendingOf(amendment({ due: ahead(4) })), {}, { token: "", repo: "" })
     .then((result) => {

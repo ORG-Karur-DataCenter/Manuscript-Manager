@@ -36,7 +36,15 @@ async function gh(path, { token, repo, method = "GET", body, fetchImpl = globalT
   });
   const text = await res.text();
   if (!res.ok) {
-    const err = new Error(`GitHub ${res.status}: ${text.slice(0, 200)}`);
+    // 410 here means one thing only, and it is a setting rather than a fault:
+    // the repository has Issues switched off. Worth naming, because everything
+    // else about the reminders looks healthy while nothing ever arrives.
+    const err = new Error(
+      res.status === 410
+        ? `Issues are switched off for ${repo}, so no deadline issue can be opened. ` +
+          `Turn them on under Settings -> General -> Features -> Issues.`
+        : `GitHub ${res.status}: ${text.slice(0, 200)}`
+    );
     err.status = res.status;
     throw err;
   }
