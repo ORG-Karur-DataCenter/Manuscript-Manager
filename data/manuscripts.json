@@ -1,6 +1,339 @@
 {
-  "generatedAt": "2026-08-28T00:37:00.356Z",
+  "generatedAt": "2026-08-28T15:28:36.535Z",
   "manuscripts": [
+    {
+      "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
+      "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "submittedDate": "2026-08-28T15:10:08.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-28T15:10:08.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a048ec17fb24a28",
+                "messageId": "1a048ec17fb24a28",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
+                "from": "Josh Modarres <jmodarres@jbjs.org>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-28T15:10:08.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
+          "source": {
+            "threadId": "1a048ec17fb24a28",
+            "messageId": "1a048ec17fb24a28",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
+            "from": "Josh Modarres <jmodarres@jbjs.org>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-28T15:10:08.000Z",
+      "updatedAt": "2026-08-28T15:10:08.000Z"
+    },
+    {
+      "id": "financial-implications-of-platelet-rich-plasma-therapy-in-musculoskele",
+      "title": "Financial Implications of Platelet-Rich Plasma Therapy in Musculoskeletal Disorders: A Cross-Sectional Analysis",
+      "titleNormalized": "financial implications of platelet rich plasma therapy in musculoskeletal disorders a cross sectional analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Frontiers in Public Health",
+          "manuscriptNumber": "1970371",
+          "submittedDate": "2026-08-17T12:23:01.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-17T12:23:01.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submitted; in initial validation.",
+              "manuscriptNumber": "1970371",
+              "source": {
+                "threadId": "1a00facdd5e4bc31",
+                "messageId": "1a00facdd5e4bc31",
+                "subject": "Your manuscript is submitted (ID 1970371) ",
+                "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-18T07:28:42.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected; cannot be accepted for publication.",
+              "manuscriptNumber": "1970371",
+              "source": {
+                "threadId": "1a013c5c5ca168b3",
+                "messageId": "1a013c5c5ca168b3",
+                "subject": "Decision on your manuscript",
+                "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-18T20:59:38.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-18T20:59:38.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Resubmitted to Indian Journal of Orthopaedics after the Frontiers rejection.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a016ac312a6b7ed",
+                "messageId": "1a016ac312a6b7ed",
+                "subject": "Indian Journal of Orthopaedics - Submission Confirmation Financial Implications of Platelet-Rich Plasma Therapy in Musculoskeletal Disorders: A Cross-Sectional Analysis for co-author - [EMID:85b01d2ee1092165]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-28T11:30:28.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-28T11:30:28.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a04822b440c686e",
+                "messageId": "1a04822b440c686e",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-17T12:23:01.000Z",
+          "journal": "Frontiers in Public Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submitted; in initial validation.",
+          "source": {
+            "threadId": "1a00facdd5e4bc31",
+            "messageId": "1a00facdd5e4bc31",
+            "subject": "Your manuscript is submitted (ID 1970371) ",
+            "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-18T07:28:42.000Z",
+          "journal": "Frontiers in Public Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected; cannot be accepted for publication.",
+          "source": {
+            "threadId": "1a013c5c5ca168b3",
+            "messageId": "1a013c5c5ca168b3",
+            "subject": "Decision on your manuscript",
+            "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-18T20:59:38.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Resubmitted to Indian Journal of Orthopaedics after the Frontiers rejection.",
+          "source": {
+            "threadId": "1a016ac312a6b7ed",
+            "messageId": "1a016ac312a6b7ed",
+            "subject": "Indian Journal of Orthopaedics - Submission Confirmation Financial Implications of Platelet-Rich Plasma Therapy in Musculoskeletal Disorders: A Cross-Sectional Analysis for co-author - [EMID:85b01d2ee1092165]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-28T11:30:28.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a04822b440c686e",
+            "messageId": "1a04822b440c686e",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-17T12:23:01.000Z",
+      "updatedAt": "2026-08-28T11:30:28.000Z"
+    },
+    {
+      "id": "translational-advances-in-musculoskeletal-gene-therapy-perspectives-fr",
+      "title": "Translational Advances in Musculoskeletal Gene Therapy: Perspectives from Recent Approvals",
+      "titleNormalized": "translational advances in musculoskeletal gene therapy perspectives from recent approvals",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": "127389",
+      "currentStatus": "Under review",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": "127389",
+          "submittedDate": "2026-08-27T13:24:40.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-27T13:24:40.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and acknowledged as successfully submitted for initial editorial check.",
+              "manuscriptNumber": "127389",
+              "source": {
+                "threadId": "1a0436527b11a722",
+                "messageId": "1a0436527b11a722",
+                "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127389",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-28T06:02:06.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript passed technical preliminary review and will now move to editorial triage or external peer review.",
+              "manuscriptNumber": "127389",
+              "source": {
+                "threadId": "1a046f62a796f470",
+                "messageId": "1a046f62a796f470",
+                "subject": "World Journal of Orthopedics Manuscript No.: 127389 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-27T13:24:40.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "127389",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was received and acknowledged as successfully submitted for initial editorial check.",
+          "source": {
+            "threadId": "1a0436527b11a722",
+            "messageId": "1a0436527b11a722",
+            "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127389",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-28T06:02:06.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "under_review",
+          "manuscriptNumber": "127389",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "The manuscript passed technical preliminary review and will now move to editorial triage or external peer review.",
+          "source": {
+            "threadId": "1a046f62a796f470",
+            "messageId": "1a046f62a796f470",
+            "subject": "World Journal of Orthopedics Manuscript No.: 127389 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-27T13:24:40.000Z",
+      "updatedAt": "2026-08-28T06:02:06.000Z"
+    },
     {
       "id": "anterior-cervical-approaches-for-two-level-radiculopathy-an-internatio",
       "title": "Anterior Cervical Approaches for Two-Level Radiculopathy: An International Survey on Surgeon Preferences Regarding Anterior Cervical Discectomy Fusion, Cervical Disc Arthroplasty, and Cervical Hybrid Constructs",
@@ -40,6 +373,19 @@
                 "subject": "Fwd: Clinical Spine Surgery Decision CSS-25-259R1",
                 "from": "Philip Louie <louie.philip@gmail.com>"
               }
+            },
+            {
+              "timestamp": "2026-08-28T03:26:40.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The manuscript was accepted for publication in Clinical Spine Surgery.",
+              "manuscriptNumber": "CSS-25-259R1",
+              "source": {
+                "threadId": "1a044fbd603a94eb",
+                "messageId": "1a04667f4e745770",
+                "subject": "Re: Clinical Spine Surgery Decision CSS-25-259R1",
+                "from": "Philip Louie <louie.philip@gmail.com>"
+              }
             }
           ]
         }
@@ -60,10 +406,26 @@
             "from": "Philip Louie <louie.philip@gmail.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-28T03:26:40.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "accepted",
+          "manuscriptNumber": "CSS-25-259R1",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "The manuscript was accepted for publication in Clinical Spine Surgery.",
+          "source": {
+            "threadId": "1a044fbd603a94eb",
+            "messageId": "1a04667f4e745770",
+            "subject": "Re: Clinical Spine Surgery Decision CSS-25-259R1",
+            "from": "Philip Louie <louie.philip@gmail.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-27T20:48:52.000Z",
-      "updatedAt": "2026-08-27T20:48:52.000Z"
+      "updatedAt": "2026-08-28T03:26:40.000Z"
     },
     {
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
@@ -420,70 +782,6 @@
       ],
       "createdAt": "2026-08-20T12:38:16.000Z",
       "updatedAt": "2026-08-27T15:32:31.000Z"
-    },
-    {
-      "id": "translational-advances-in-musculoskeletal-gene-therapy-perspectives-fr",
-      "title": "Translational Advances in Musculoskeletal Gene Therapy: Perspectives from Recent Approvals",
-      "titleNormalized": "translational advances in musculoskeletal gene therapy perspectives from recent approvals",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "World Journal of Orthopedics",
-      "currentManuscriptNumber": "127389",
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "World Journal of Orthopedics",
-          "manuscriptNumber": "127389",
-          "submittedDate": "2026-08-27T13:24:40.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-27T13:24:40.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was received and acknowledged as successfully submitted for initial editorial check.",
-              "manuscriptNumber": "127389",
-              "source": {
-                "threadId": "1a0436527b11a722",
-                "messageId": "1a0436527b11a722",
-                "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127389",
-                "from": "BPG Submission <submission@wjgnet.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-27T13:24:40.000Z",
-          "journal": "World Journal of Orthopedics",
-          "eventType": "new_submission",
-          "manuscriptNumber": "127389",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "The manuscript was received and acknowledged as successfully submitted for initial editorial check.",
-          "source": {
-            "threadId": "1a0436527b11a722",
-            "messageId": "1a0436527b11a722",
-            "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127389",
-            "from": "BPG Submission <submission@wjgnet.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-27T13:24:40.000Z",
-      "updatedAt": "2026-08-27T13:24:40.000Z"
     },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
@@ -1124,7 +1422,7 @@
         },
         {
           "journal": "European Spine Journal",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "41d7c415-214d-4bea-b15b-e4e6929bc794",
           "submittedDate": "2026-06-05T04:59:59.000Z",
           "outcome": "published",
           "status": "published",
@@ -1877,6 +2175,70 @@
       ],
       "createdAt": "2026-08-24T04:13:17.000Z",
       "updatedAt": "2026-08-24T04:13:17.000Z"
+    },
+    {
+      "id": "are-current-management-strategies-adequate-for-metastatic-sarcoma-of-t",
+      "title": "Are Current Management Strategies Adequate for Metastatic Sarcoma of the Spine? A Systematic Review",
+      "titleNormalized": "are current management strategies adequate for metastatic sarcoma of the spine a systematic review",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Wolters Kluwer",
+      "currentManuscriptNumber": "CSS-26-253",
+      "currentStatus": "Under review",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Wolters Kluwer",
+          "manuscriptNumber": "CSS-26-253",
+          "submittedDate": "2026-08-23T18:34:27.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-23T18:34:27.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The editorial coordinator reports that no reviewers have been found, so the manuscript remains under review.",
+              "manuscriptNumber": "CSS-26-253",
+              "source": {
+                "threadId": "1a02e6527e01c17b",
+                "messageId": "1a02fe70e872b0ef",
+                "subject": "RE: Urgent Status Inquiry – Manuscript CSS-26-253",
+                "from": "\"Porter, Samantha\" <samantha.porter@wolterskluwer.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-23T18:34:27.000Z",
+          "journal": "Wolters Kluwer",
+          "eventType": "under_review",
+          "manuscriptNumber": "CSS-26-253",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "The editorial coordinator reports that no reviewers have been found, so the manuscript remains under review.",
+          "source": {
+            "threadId": "1a02e6527e01c17b",
+            "messageId": "1a02fe70e872b0ef",
+            "subject": "RE: Urgent Status Inquiry – Manuscript CSS-26-253",
+            "from": "\"Porter, Samantha\" <samantha.porter@wolterskluwer.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-23T18:34:27.000Z",
+      "updatedAt": "2026-08-23T18:34:27.000Z"
     },
     {
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
@@ -3775,142 +4137,6 @@
       ],
       "createdAt": "2026-08-18T06:30:40.000Z",
       "updatedAt": "2026-08-19T07:38:36.000Z"
-    },
-    {
-      "id": "financial-implications-of-platelet-rich-plasma-therapy-in-musculoskele",
-      "title": "Financial Implications of Platelet-Rich Plasma Therapy in Musculoskeletal Disorders: A Cross-Sectional Analysis",
-      "titleNormalized": "financial implications of platelet rich plasma therapy in musculoskeletal disorders a cross sectional analysis",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Frontiers in Public Health",
-          "manuscriptNumber": "1970371",
-          "submittedDate": "2026-08-17T12:23:01.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-17T12:23:01.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submitted; in initial validation.",
-              "manuscriptNumber": "1970371",
-              "source": {
-                "threadId": "1a00facdd5e4bc31",
-                "messageId": "1a00facdd5e4bc31",
-                "subject": "Your manuscript is submitted (ID 1970371) ",
-                "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-08-18T07:28:42.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected; cannot be accepted for publication.",
-              "manuscriptNumber": "1970371",
-              "source": {
-                "threadId": "1a013c5c5ca168b3",
-                "messageId": "1a013c5c5ca168b3",
-                "subject": "Decision on your manuscript",
-                "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Indian Journal of Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-08-18T20:59:38.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-18T20:59:38.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Resubmitted to Indian Journal of Orthopaedics after the Frontiers rejection.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a016ac312a6b7ed",
-                "messageId": "1a016ac312a6b7ed",
-                "subject": "Indian Journal of Orthopaedics - Submission Confirmation Financial Implications of Platelet-Rich Plasma Therapy in Musculoskeletal Disorders: A Cross-Sectional Analysis for co-author - [EMID:85b01d2ee1092165]",
-                "from": "JOIO Editorial Office <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-17T12:23:01.000Z",
-          "journal": "Frontiers in Public Health",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submitted; in initial validation.",
-          "source": {
-            "threadId": "1a00facdd5e4bc31",
-            "messageId": "1a00facdd5e4bc31",
-            "subject": "Your manuscript is submitted (ID 1970371) ",
-            "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-18T07:28:42.000Z",
-          "journal": "Frontiers in Public Health",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected; cannot be accepted for publication.",
-          "source": {
-            "threadId": "1a013c5c5ca168b3",
-            "messageId": "1a013c5c5ca168b3",
-            "subject": "Decision on your manuscript",
-            "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-18T20:59:38.000Z",
-          "journal": "Indian Journal of Orthopaedics",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Resubmitted to Indian Journal of Orthopaedics after the Frontiers rejection.",
-          "source": {
-            "threadId": "1a016ac312a6b7ed",
-            "messageId": "1a016ac312a6b7ed",
-            "subject": "Indian Journal of Orthopaedics - Submission Confirmation Financial Implications of Platelet-Rich Plasma Therapy in Musculoskeletal Disorders: A Cross-Sectional Analysis for co-author - [EMID:85b01d2ee1092165]",
-            "from": "JOIO Editorial Office <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-17T12:23:01.000Z",
-      "updatedAt": "2026-08-18T20:59:38.000Z"
     },
     {
       "id": "convergence-and-divergence-of-disease-burden-across-the-states-of-indi",

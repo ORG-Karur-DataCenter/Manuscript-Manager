@@ -1,6 +1,181 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-23T18:37:04.000Z",
+      "reason": "unrelated",
+      "subject": "RE: Follow-up on Manuscript Status – CSS-26-300",
+      "from": "\"Porter, Samantha\" <samantha.porter@wolterskluwer.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T06:34:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cell Research Contents: Volume 36 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T13:00:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "An unexpected way to reduce addiction stigma",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T14:10:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The week in physics: Swirls on the Sun; Physics Olympiads",
+      "from": "Physics Today <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T16:15:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Claude answered a question from 1948",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T20:03:05.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "August 2026 Job Opportunities and Career Advice",
+      "from": "Physics Today Jobs <pt-jobs@aip-info.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T09:15:38.000Z",
+      "reason": "unrelated",
+      "subject": "Naveen Jeyaraman published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T10:46:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Science Needs A Better Way To Think About The Future",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T18:04:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New AJSM Webinar on September 30th",
+      "from": "\"Sage & AOSSM\" <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T13:03:47.000Z",
+      "reason": "unrelated",
+      "subject": "Stanford’s new football coach on service and leadership",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T03:58:57.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T13:00:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Scientists are on the hunt for dark matter",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T15:34:39.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New therapies in neurology  | Ready to publish?",
+      "from": "Therapeutic Advances in Neurological Disorders <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T17:06:47.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore featured research on orthopedics",
+      "from": "Journal of International Medical Research <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T08:30:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Best Examples Of Digital Health For Patients With Intellectual Disability",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T13:00:37.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Compounded GLP-1s explained",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T14:30:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "NVIDIA spent more than $12.9 billion in one week",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T10:03:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Bariatric surgery & arthroplasty.",
+      "from": "OrthoEvidence <info@myorthoevidence.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T21:38:20.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Clinical Spine Surgery Decision CSS-25-259R1",
+      "from": "Amit Jain <amitjain012@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T00:31:30.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO-D-25-00892R2 - New manuscript received",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T00:40:32.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO-D-26-01566 - New manuscript received",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T02:30:08.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The August ESSKA Times - all the latest ESSKA news in your monthly newsletter!",
+      "from": "ESSKA Times <info@esska.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T03:02:41.000Z",
+      "reason": "unrelated",
+      "subject": "Delivery Status Notification (Failure)",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T13:21:08.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  Spine - Vol. 51, No. 18, September 15, 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T14:36:35.000Z",
+      "reason": "unrelated",
+      "subject": "International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: Final Review and Conflict of Interest Forms",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-20T04:22:52.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Invitation to review manuscript EM-2026-00097---Exploration of Medicine",
@@ -2110,206 +2285,6 @@
       "reason": "unrelated",
       "subject": "JOIO-D-25-00513R2 : Your PDF Has Been Built",
       "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dbe632e5bba7eb",
-      "timestamp": "2026-04-24T07:27:43.000Z",
-      "reason": "unrelated",
-      "subject": "Thank you for your approval - [EMID:a2b81fd61d3fb338]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dbe54642d757dc",
-      "timestamp": "2026-04-24T07:11:34.000Z",
-      "reason": "unrelated",
-      "subject": "JOIO-D-26-00051R2 : Your PDF Has Been Built",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dbe51ed8d44735",
-      "timestamp": "2026-04-24T07:08:52.000Z",
-      "reason": "unrelated",
-      "subject": "JOIO-D-25-00513R2 - Manuscript Sent Back",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dbe4c9901d131d",
-      "timestamp": "2026-04-24T07:03:03.000Z",
-      "reason": "unrelated",
-      "subject": "JOIO-D-26-00051R2 - Manuscript Sent Back",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dbe20904d92e87",
-      "timestamp": "2026-04-24T06:14:57.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:662f7f67cfdf4e7d]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db93b381eff607",
-      "timestamp": "2026-04-23T07:25:59.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:999ba489b248f856]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db8fc933e34032",
-      "timestamp": "2026-04-23T06:17:33.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Request to handle manuscript PONE-D-25-42314R2 - [EMID:53c4c1781516f985]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db807476ee7f15",
-      "timestamp": "2026-04-23T01:49:36.000Z",
-      "reason": "unrelated",
-      "subject": "Please Login to https://www.editorialmanager.com/clinspinesurgery/ and Approve Your PDF",
-      "from": "Clinical Spine Surgery <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db736ba6fd4494",
-      "timestamp": "2026-04-22T22:01:49.000Z",
-      "reason": "unrelated",
-      "subject": "Joining our new Research Topic, led by Naga Rama Mani Manohar Prasad Koduri Veera Venkata, Noor Al-maslamani and Mangesh Kulkarni",
-      "from": "Andrew Wardell <mechanicalengineering@frontiersin.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db67ba101af628",
-      "timestamp": "2026-04-22T18:37:24.000Z",
-      "reason": "unrelated",
-      "subject": "Read the latest  Spine - Vol. 51, No. 10, May 15, 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db58dde473d544",
-      "timestamp": "2026-04-22T14:17:46.000Z",
-      "reason": "unrelated",
-      "subject": "JOIO-D-25-00513R2 : Your PDF Has Been Built",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db43687cd537e3",
-      "timestamp": "2026-04-22T08:02:45.000Z",
-      "reason": "unrelated",
-      "subject": "JOIO-D-26-00051R2 : Your PDF Has Been Built",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db3c06c97922f6",
-      "timestamp": "2026-04-22T05:53:44.000Z",
-      "reason": "unrelated",
-      "subject": "GSJ: Information regarding your article",
-      "from": "SAGE Author Services <author.services@sagepub.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db1807180a8835",
-      "timestamp": "2026-04-21T19:24:36.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID 05395420 IF: 3.6, Q2 WJSC Focuses on Application of Artificial Intelligence in Stem Cell Research",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db17c73b32a417",
-      "timestamp": "2026-04-21T19:20:15.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID 05395420 IF: 3.6, Q2 WJSC Focuses on Application of Artificial Intelligence in Stem Cell Research",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db15edcdb97477",
-      "timestamp": "2026-04-21T18:47:55.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID 05395420 IF: 3.6, Q2 WJSC Focuses on Application of Artificial Intelligence in Stem Cell Research",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db11859c9604b0",
-      "timestamp": "2026-04-21T17:30:52.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID 05395420 IF: 3.6, Q2 WJSC Focuses on Application of Artificial Intelligence in Stem Cell Research",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db104559faf771",
-      "timestamp": "2026-04-21T17:09:02.000Z",
-      "reason": "unrelated",
-      "subject": "Review invitation: Effects of Multi-Task Walking on Gait and Plantar Pressure...",
-      "from": "Frontiers in Psychology <psychology.editorial.office@frontiersin.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19db0ef4ff585855",
-      "timestamp": "2026-04-21T16:46:06.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: Global Spine Journal",
-      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dafb94c1ac2eea",
-      "timestamp": "2026-04-21T11:07:16.000Z",
-      "reason": "unrelated",
-      "subject": "Kind reminder: Patient Safety in Surgery: Collection – Cutting edge innovation for patient safety in trauma surgery",
-      "from": "Laura Chu <laura.chu@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dafa244ce1dc18",
-      "timestamp": "2026-04-21T10:42:18.000Z",
-      "reason": "unrelated",
-      "subject": "Open access license chosen for your paper 10.1177/21925682261447886",
-      "from": "licensing-payment@sagepub.com",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dafa19c29d84f1",
-      "timestamp": "2026-04-21T10:41:35.000Z",
-      "reason": "unrelated",
-      "subject": "Open access license chosen for your paper 10.1177/21925682261447888",
-      "from": "licensing-payment@sagepub.com",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19daf9006154c4b9",
-      "timestamp": "2026-04-21T10:22:23.000Z",
-      "reason": "unrelated",
-      "subject": "Complete the Open Access process for your article 10.1177/21925682261447886 now",
-      "from": "licensing-payment@sagepub.com",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19daf853c195a978",
-      "timestamp": "2026-04-21T10:10:36.000Z",
-      "reason": "unrelated",
-      "subject": "Complete the Open Access process for your article 10.1177/21925682261447888 now",
-      "from": "licensing-payment@sagepub.com",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dacb2adf1efcdf",
-      "timestamp": "2026-04-20T21:01:22.000Z",
-      "reason": "unrelated",
-      "subject": "Global Spine Journal - Next steps for your article",
-      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
       "account": "Sathish Muthu"
     }
   ]
