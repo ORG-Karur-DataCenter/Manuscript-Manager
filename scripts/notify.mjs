@@ -56,19 +56,27 @@ async function main() {
   } catch (err) {
     // A malformed secret is worth shouting about -- it means nobody is being
     // told anything -- but not worth failing the whole workflow over.
+    // A malformed secret means nobody is being messaged, which is worth
+    // shouting about -- but it must not stop the GitHub issues below. The two
+    // channels exist precisely so that one failing does not silence the other.
     console.error(`WhatsApp reminders are misconfigured: ${err.message}`);
-    return;
+    recipients = [];
   }
 
-  if (!recipients.length) {
+  if (!recipients.length && !testOnly) {
     console.log(
-      "No WhatsApp recipients configured (WHATSAPP_RECIPIENTS is unset), so no reminders were sent.\n" +
-      "See the README section \"Deadline reminders on WhatsApp\" to turn this on."
+      "No WhatsApp recipients configured (WHATSAPP_RECIPIENTS is unset), so no messages will be sent.\n" +
+      "The deadline issues below still are. See the README section " +
+      "\"Deadline reminders on WhatsApp\" to turn messaging on."
     );
-    if (!dryRun) return;
   }
 
   if (testOnly) {
+    if (!recipients.length) {
+      console.error("Nobody to send a test to: WHATSAPP_RECIPIENTS is unset.");
+      process.exitCode = 1;
+      return;
+    }
     const text =
       "✅ ORG Karur COMMS is wired up.\n\n" +
       "This is a one-off test. Real messages arrive when a journal returns a " +
@@ -133,16 +141,22 @@ async function main() {
   let sentCount = 0;
   for (const reminder of due) {
     const message = composeFor(reminder, { dashboardUrl: policy.dashboardUrl || "" });
-    const results = await sendToAll(recipients, message, { transport, pauseMs: 2000 });
+    const results = recipients.length
+      ? await sendToAll(recipients, message, { transport, pauseMs: 2000 })
+      : [];
     report(results, `${reminder.kind} · ${reminder.manuscript.title.slice(0, 50)}`);
 
     if (dryRun) continue;
 
     // The same reminder onto its issue, so it reaches a phone even when the
     // WhatsApp leg is down -- which is exactly when it matters most.
+    let commented = false;
     try {
       const number = await commentReminder(reminder, ledger, { token: issueToken, repo });
-      if (number) console.log(`  ✓ commented on issue #${number}`);
+      if (number) {
+        commented = true;
+        console.log(`  ✓ commented on issue #${number}`);
+      }
     } catch (err) {
       console.error(`  ✗ could not comment on the issue: ${err.message}`);
     }
@@ -151,7 +165,7 @@ async function main() {
     // would suppress every future attempt at it -- the message would be lost
     // rather than retried on the next run. An issue comment counts: it is a
     // real notification, so a reminder is not lost merely because WhatsApp is.
-    if (reachedSomeone(results) || (issueToken && repo)) {
+    if (reachedSomeone(results) || commented) {
       recordSent(ledger, reminder, results);
       sentCount++;
     }

@@ -477,6 +477,15 @@ await check("a stage reminder comments on the issue", () => {
     });
 });
 
+await check("a reminder counts as delivered if either channel got through", () => {
+  // The two channels exist so that one failing does not silence the other. A
+  // reminder that reached the issue but not WhatsApp must not be retried, and
+  // one that reached nobody at all must not be written off.
+  assert(!reachedSomeone([]), "no recipients was treated as a successful send");
+  assert(!reachedSomeone([{ ok: false, error: "x" }]), "a failure was treated as a send");
+  assert(reachedSomeone([{ name: "D", ok: true }]), "a success was not recognised");
+});
+
 await check("issues being switched off says so, rather than reading as a fault", () => {
   // Found the hard way: the repository had Issues disabled, so every attempt
   // returned a bare 410 while the rest of the reminders looked perfectly well.
