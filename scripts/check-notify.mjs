@@ -387,6 +387,36 @@ await check("CallMeBot's errors are caught even though it returns 200", () => {
   });
 });
 
+await check("a network failure is not blamed on the recipient's phone", () => {
+  // The tempting mistake: pattern-match the word "allow" anywhere in a failure
+  // and tell someone their number is not authorised, sending them off to fix a
+  // phone when the host was simply unreachable.
+  return sendToAll([{ name: "Dhibin", phone: "918778138148", apiKey: "222" }], "test", {
+    transport: "callmebot",
+    fetchImpl: async () => { throw new Error("getaddrinfo ENOTFOUND api.callmebot.com"); },
+  }).then((results) => {
+    assert(!results[0].ok, "an unreachable host was reported as a successful send");
+    assert(/could not reach/i.test(results[0].error), `unhelpful: ${results[0].error}`);
+    assert(
+      !/authoris|authoriz|I allow callmebot/i.test(results[0].error),
+      `a network failure was misdiagnosed as an authorisation problem: ${results[0].error}`
+    );
+  });
+});
+
+await check("a missing key names the person it belongs to", () => {
+  return sendToAll([
+    { name: "Dr Sathish", phone: "919600856806", apiKey: "111" },
+    { name: "Dhibin", phone: "918778138148", apiKey: "" },
+  ], "test", {
+    transport: "callmebot",
+    fetchImpl: async () => new Response("Message queued", { status: 200 }),
+  }).then((results) => {
+    assert(results[1].error.includes("Dhibin"), `does not say whose key is missing: ${results[1].error}`);
+    assert(/callmebot\.com/i.test(results[1].error), "does not say where to get one");
+  });
+});
+
 await check("no phone number is ever written into the ledger", () => {
   // The ledger is committed to a public repository; the numbers are not.
   const ledger = { sent: [] };

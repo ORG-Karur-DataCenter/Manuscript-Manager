@@ -72,8 +72,10 @@ const TRANSPORTS = {
   async callmebot(recipient, text, { env, fetchImpl }) {
     if (!recipient.apiKey) {
       throw new Error(
-        `No apiKey for ${recipient.name}. Each person gets their own by messaging ` +
-        `the CallMeBot number once — see README.`
+        `No apiKey for ${recipient.name}. Each person gets their own by sending ` +
+        `"I allow callmebot to send me messages" to CallMeBot on WhatsApp. If no key ` +
+        `comes back, check the current number at callmebot.com/whatsapp/ — it has ` +
+        `changed before — or switch to another service with WHATSAPP_TRANSPORT.`
       );
     }
     const url =
@@ -82,11 +84,27 @@ const TRANSPORTS = {
       `&apikey=${encodeURIComponent(recipient.apiKey)}` +
       `&text=${encodeURIComponent(text)}`;
 
-    const res = await fetchImpl(url, { method: "GET" });
+    // A network failure is not CallMeBot refusing anything, and must not be
+    // reported as though it were -- "the number has not authorised us" sends
+    // someone off to fix a phone when the real fault is that the host was
+    // unreachable.
+    let res;
+    try {
+      res = await fetchImpl(url, { method: "GET" });
+    } catch (err) {
+      throw new Error(`Could not reach CallMeBot for ${recipient.name}: ${err.message}`);
+    }
     const body = await res.text();
     // Its errors arrive as prose in a 200, so read the prose.
     if (!res.ok || /error|invalid|not.*allow|APIKey/i.test(body.slice(0, 400))) {
-      throw new Error(`CallMeBot refused the message: ${stripTags(body).slice(0, 160)}`);
+      const said = stripTags(body).slice(0, 160);
+      // Its two usual complaints, translated into what to actually do.
+      const hint = /apikey/i.test(said)
+        ? " — the key does not match this number. Each person's key belongs to their own phone; check they have not been swapped."
+        : /(you are|number is) not (allowed|authoriz)|not registered/i.test(said)
+        ? " — this number has not authorised CallMeBot yet. Send it \"I allow callmebot to send me messages\" on WhatsApp first."
+        : "";
+      throw new Error(`CallMeBot refused the message for ${recipient.name}: ${said}${hint}`);
     }
     return { ok: true, detail: stripTags(body).slice(0, 120) };
   },

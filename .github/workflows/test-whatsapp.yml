@@ -1,0 +1,71 @@
+name: Test WhatsApp reminders
+
+# A button for checking the reminder wiring without a laptop. Open the Actions
+# tab on a phone, pick this workflow, "Run workflow", choose what to do.
+#
+# It exists because the failure it diagnoses is silent by nature: if the
+# messages simply never arrive, nothing anywhere says so, and the first sign
+# would be a missed deadline.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to do"
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run          # show what would be sent, send nothing
+          - send-test        # send one short test message to everybody
+          - send-real        # send any reminders that are genuinely due
+      transport:
+        description: "Which service to send through"
+        required: false
+        default: "callmebot"
+        type: choice
+        options:
+          - callmebot
+          - twilio
+          - meta
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install --omit=dev
+
+      - name: Report what is configured
+        env:
+          WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
+        # Names and whether a key is present -- never the numbers or the keys
+        # themselves, since workflow logs on a public repository are public.
+        run: |
+          if [ -z "$WHATSAPP_RECIPIENTS" ]; then
+            echo "::warning::WHATSAPP_RECIPIENTS is not set, so nobody can be messaged."
+            echo "Add it under Settings -> Secrets and variables -> Actions."
+          else
+            node -e '
+              const { readRecipients } = await import("./scripts/lib/whatsapp.mjs");
+              const list = readRecipients();
+              console.log(`${list.length} recipient(s) configured:`);
+              for (const r of list) {
+                console.log(`  ${r.name}: number ends ${r.phone.slice(-4)}, ` +
+                  (r.apiKey ? `key present (${r.apiKey.length} characters)` : "NO KEY"));
+              }
+            ' --input-type=module
+          fi
+
+      - name: Run
+        env:
+          WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
+          WHATSAPP_TRANSPORT: ${{ inputs.transport }}
+        run: |
+          case "${{ inputs.mode }}" in
+            dry-run)   npm run notify -- --dry-run ;;
+            send-test) npm run notify -- --test ;;
+            send-real) npm run notify ;;
+          esac

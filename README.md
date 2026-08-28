@@ -56,7 +56,10 @@ update status, append a timestamped timeline event, recompute the dashboard buck
 | **In review** | Under peer review, revision in progress, transferred, or accepted-awaiting-publication. |
 | **Published** | Published, with DOI and article link. |
 
-A **revision requested** event also raises a pulsing action flag on the card, since it needs your work even though the paper is still "in review".
+A **revision requested** or **sent back for edits** event raises a pulsing action
+flag on the card, since both need your work — a revision even though the paper is
+still "in review". A sent-back paper also gets a **deadline**, and a WhatsApp
+reminder as it approaches; see [Deadline reminders on WhatsApp](#deadline-reminders-on-whatsapp).
 
 ### Resubmission continuity
 
@@ -169,6 +172,7 @@ npm run check            # all of the below
 npm run check-registry   # how emails fold into the record, and manual edits
 npm run check-timestamps # the two clocks per message
 npm run check-worker     # the sync proxy, against a stubbed GitHub
+npm run check-notify     # deadline reminders: when they fire, and how often
 npm run check-editing    # editing in a real browser, end to end
 ```
 
@@ -304,6 +308,73 @@ only credential allowed to write to the repository. Without it there is nowhere
 to save to, and the **Edit** button is not offered rather than failing at the
 last step. Its token needs **Contents: Read and write** as well as **Actions:
 Read and write**; if it only has the latter, saving reports exactly that.
+
+## Deadline reminders on WhatsApp
+
+An amendment — a manuscript returned by the editorial office before peer review
+— runs on a clock of five to fourteen days, and missing it usually withdraws
+the submission. The tracker works out when each one is due and sends a WhatsApp
+message when it is first seen, again at three days and one day out, and once if
+it passes.
+
+### Turning it on
+
+Each recipient does this once, on their own phone:
+
+1. Save the CallMeBot number to contacts — check the current one at
+   [callmebot.com/whatsapp](https://www.callmebot.com/blog/free-api-whatsapp-messages/),
+   since it has changed before.
+2. Send it exactly: `I allow callmebot to send me messages`
+3. It replies with a six-digit **API key**.
+
+Then add one repository secret, under **Settings → Secrets and variables →
+Actions**, named `WHATSAPP_RECIPIENTS`:
+
+```json
+[{"name":"Dr Sathish","phone":"9600856806","apiKey":"123456"},
+ {"name":"Dhibin","phone":"8778138148","apiKey":"654321"}]
+```
+
+Phone numbers live in the secret and never in this repository. That is not
+fussiness: this repository is public, and a published number — unlike a token —
+cannot be revoked and reissued. A check asserts no number reaches the committed
+ledger either.
+
+With the secret unset, nothing is sent and the sync runs exactly as before.
+
+### If no API key comes back
+
+CallMeBot is free and needs no account, which is why it is the default, but it
+is one person's side project and it does sometimes not reply. In order:
+
+- Check the phrase is exactly `I allow callmebot to send me messages`.
+- Check the number against their site — it has changed more than once.
+- Wait a few minutes and send it again.
+
+If it still will not answer, the transport is pluggable and two others are
+already implemented. Set the `WHATSAPP_TRANSPORT` repository variable to
+`twilio` (needs `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`,
+`TWILIO_WHATSAPP_FROM`) or `meta` (needs `META_WHATSAPP_TOKEN` and
+`META_WHATSAPP_PHONE_ID`). Meta's own test number is free and messages up to
+five verified recipients, which is ample here. The message itself is identical
+whichever is in use.
+
+### Checking it works, from a phone
+
+The **Test WhatsApp reminders** workflow in the Actions tab is a button for
+this. `dry-run` prints what would be sent without sending it, `send-test` sends
+one short message to everybody, and `send-real` sends anything genuinely due.
+It also reports which recipients are configured and whether each has a key —
+by name and last four digits only, since workflow logs here are public.
+
+### When a date is a guess
+
+A journal that states a date or a period gets taken at its word. When it says
+neither, `config/deadlines.json` supplies that journal's usual window, and the
+result is labelled **estimated** on the card, in the drawer, and in the
+message. A guessed date that looks stated is worse than no date at all — it
+invites someone to rearrange a week around a number the journal never gave.
+Correct one with **Edit** and the reminders follow your date instead.
 
 ## Sync now
 
