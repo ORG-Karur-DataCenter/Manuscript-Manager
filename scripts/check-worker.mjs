@@ -20,7 +20,7 @@ import { applyEdit as applyEditInSync, OVERRIDABLE } from "./lib/registry.mjs";
 
 const PASSWORD = "test-password";
 const TOKEN = "github_pat_SECRET_MUST_NOT_LEAK";
-const BRANCH = "claude/manuscript-tracking-app-jhj4p7";
+const BRANCH = "main";
 
 let passed = 0;
 const failures = [];

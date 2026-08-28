@@ -29,7 +29,7 @@ import { syncProxyUrl } from "./config.js";
 const OWNER = "ORG-Karur-DataCenter";
 const REPO = "Manuscript-Manager";
 const WORKFLOW = "sync-manuscripts.yml";
-const BRANCH = "claude/manuscript-tracking-app-jhj4p7";
+const BRANCH = "main";
 const TOKEN_KEY = "orgkarur.ghtoken";
 const API = `https://api.github.com/repos/${OWNER}/${REPO}`;
 
