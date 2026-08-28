@@ -1,6 +1,30 @@
 {
   "review": [
     {
+      "timestamp": "2026-08-27T03:58:57.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3987, Requested 4424. Please try again in 3.0825s. Need more tokens? Upgrade to Dev Tier today at https://con | groq: HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3438, Requested 4806. Please try again in 1.83s. Need more tokens? Upgrade to Dev Tier today at https://conso | gemini-3.7-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-27T12:27:01.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9066, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "🗓 FISRM BATCH 4 | CLASS : 3 on August 27, 2026 | Read Meeting Report",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
       "timestamp": "2026-08-26T09:42:46.000Z",
       "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8176, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
       "relevant": null,
