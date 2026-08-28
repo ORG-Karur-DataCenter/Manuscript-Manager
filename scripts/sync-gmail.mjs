@@ -22,12 +22,43 @@ const P = {
 // window usually withdraws the submission outright.
 const ON_A_CLOCK = { sent_back: true, revision_requested: true };
 
+/**
+ * A one-off sweep of an explicit date range, for filling a hole rather than
+ * keeping up.
+ *
+ * WHY THIS IS SEPARATE FROM THE NORMAL RUN. The sync is incremental: it keeps a
+ * watermark per mailbox and only looks at mail newer than it. That is right for
+ * keeping up and useless for going back -- and a gap did open, between where
+ * the historical backfill stopped and where the live sync's first window began,
+ * losing a Clinical Spine Surgery amendment with a fourteen-day deadline.
+ *
+ * So a sweep takes its window from the environment and, crucially, does NOT
+ * move the watermark afterwards. Moving it would declare everything up to the
+ * sweep's end date as caught up, which for a backwards sweep is a lie that
+ * would skip everything between the sweep and today.
+ *
+ *   SYNC_SINCE=2026-07-24 SYNC_UNTIL=2026-08-06 npm run sync
+ *
+ * Mail already decided on stays decided: seenIds is still respected, so a
+ * sweep costs classifications only on what was genuinely never seen. Set
+ * SYNC_RESCAN=1 to reconsider those too -- the registry dedupes by message id,
+ * so re-filing is safe, but it spends the LLM budget again.
+ */
+const SWEEP = {
+  since: process.env.SYNC_SINCE ? new Date(process.env.SYNC_SINCE) : null,
+  until: process.env.SYNC_UNTIL ? new Date(process.env.SYNC_UNTIL) : null,
+  rescan: process.env.SYNC_RESCAN === "1",
+};
+const sweeping = Boolean(SWEEP.since || SWEEP.until);
+
 const DEFAULT_LOOKBACK_DAYS = 30; // first run per account
 const OVERLAP_DAYS = 2; // re-scan a small window each run so nothing is missed at the boundary
 const MAX_SEEN_IDS_PER_ACCOUNT = 8000;
 const MAX_EXCLUDED_LOG = 300;
 const MAX_REVIEW_QUEUE = 200;
-const MAX_MESSAGES_PER_RUN = 150; // Gmail fetches per account per run
+// Gmail fetches per account per run. Raisable for a sweep, where the window is
+// weeks wide rather than three hours and the default would truncate it.
+const MAX_MESSAGES_PER_RUN = Number(process.env.MAX_MESSAGES_PER_RUN || 150);
 
 // Free-tier daily quotas are finite, so cap LLM work per run. Anything left over
 // is picked up by the next run rather than dropped — see the resumability logic
@@ -111,18 +142,24 @@ async function main() {
     // can't starve the rest during a backlog.
     let accountBudget = Math.max(1, Math.floor(MAX_CLASSIFICATIONS_PER_RUN / activeAccounts));
 
-    const since = acctState.lastSyncedAt
+    const since = SWEEP.since
+      ? SWEEP.since
+      : acctState.lastSyncedAt
       ? new Date(new Date(acctState.lastSyncedAt).getTime() - OVERLAP_DAYS * 86400000)
       : new Date(Date.now() - DEFAULT_LOOKBACK_DAYS * 86400000);
 
     const mailbox = buildClient(account);
 
     console.log(
-      `[${account.label}] fetching ${providerOf(account)} since ${since.toISOString()} ...`
+      `[${account.label}] ${sweeping ? "SWEEPING" : "fetching"} ${providerOf(account)} ` +
+      `since ${since.toISOString()}` +
+      (SWEEP.until ? ` until ${SWEEP.until.toISOString()}` : "") +
+      (SWEEP.rescan ? " (reconsidering mail already decided on)" : "") + " ..."
     );
     const messages = await fetchNewMessages(mailbox, {
       since,
-      seenIds,
+      until: SWEEP.until || undefined,
+      seenIds: SWEEP.rescan ? new Set() : seenIds,
       maxResults: MAX_MESSAGES_PER_RUN,
     });
     console.log(`[${account.label}] ${messages.length} new message(s) to inspect.`);
@@ -293,7 +330,14 @@ async function main() {
       });
     }
 
-    if (oldestUnprocessed) {
+    if (sweeping) {
+      // The whole point: a backwards sweep must not touch the watermark. Moving
+      // it to the sweep's end date would declare everything up to then caught
+      // up, skipping every message between the sweep and today.
+      console.log(
+        `[${account.label}] sweep complete; sync window left at ${acctState.lastSyncedAt}.`
+      );
+    } else if (oldestUnprocessed) {
       // Rewind to just before the oldest email still awaiting a decision.
       acctState.lastSyncedAt = oldestUnprocessed;
       console.log(

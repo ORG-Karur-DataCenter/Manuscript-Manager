@@ -22,6 +22,7 @@ import {
   pruneLedger, pendingDeadlines,
 } from "./lib/notify.mjs";
 import { describeDeadline } from "./lib/deadline.mjs";
+import { syncIssues, commentReminder } from "./lib/issues.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const P = {
@@ -92,9 +93,39 @@ async function main() {
     );
   }
 
+  // Issues first, and regardless of whether any WhatsApp reminder is due.
+  // They are the floor under this: GitHub needs no key and no third party, so
+  // when the messaging is broken -- which it has been -- there is still
+  // something that reaches a phone.
+  const issueToken = process.env.GITHUB_TOKEN || "";
+  const repo = process.env.GITHUB_REPOSITORY || "";
+  let issues = { opened: [], updated: [], closed: [] };
+  if (policy.githubIssues !== false) {
+    try {
+      issues = await syncIssues(pending, ledger, {
+        token: dryRun ? "" : issueToken,
+        repo,
+        dashboardUrl: policy.dashboardUrl || "",
+      });
+      if (issues.skipped) console.log(`\nIssues: ${issues.skipped}`);
+      else {
+        for (const i of issues.opened) console.log(`\nOpened issue #${i.number}: ${i.title}`);
+        for (const i of issues.updated) console.log(`Updated issue #${i.number}: ${i.title}`);
+        for (const i of issues.closed) console.log(`Closed issue #${i.number}: ${i.title}`);
+        if (!issues.opened.length && !issues.updated.length && !issues.closed.length) {
+          console.log("\nIssues already up to date.");
+        }
+      }
+    } catch (err) {
+      // Never let issue housekeeping cost the WhatsApp reminders below.
+      console.error(`Could not update the deadline issues: ${err.message}`);
+    }
+  }
+
   const due = dueReminders(registry, ledger, { policy });
   if (!due.length) {
     console.log("\nNo reminders due.");
+    await saveLedger();
     return;
   }
 
@@ -106,20 +137,36 @@ async function main() {
     report(results, `${reminder.kind} · ${reminder.manuscript.title.slice(0, 50)}`);
 
     if (dryRun) continue;
+
+    // The same reminder onto its issue, so it reaches a phone even when the
+    // WhatsApp leg is down -- which is exactly when it matters most.
+    try {
+      const number = await commentReminder(reminder, ledger, { token: issueToken, repo });
+      if (number) console.log(`  ✓ commented on issue #${number}`);
+    } catch (err) {
+      console.error(`  ✗ could not comment on the issue: ${err.message}`);
+    }
+
     // Only record a reminder that reached somebody. Recording a total failure
     // would suppress every future attempt at it -- the message would be lost
-    // rather than retried on the next run.
-    if (reachedSomeone(results)) {
+    // rather than retried on the next run. An issue comment counts: it is a
+    // real notification, so a reminder is not lost merely because WhatsApp is.
+    if (reachedSomeone(results) || (issueToken && repo)) {
       recordSent(ledger, reminder, results);
       sentCount++;
     }
   }
 
-  if (!dryRun && sentCount) {
-    await writeFile(P.ledger, `${JSON.stringify(pruneLedger(ledger), null, 2)}\n`);
-    console.log(`\nRecorded ${sentCount} reminder(s) as sent.`);
-  } else if (dryRun) {
+  if (dryRun) {
     console.log("\nDry run — nothing was sent and nothing was recorded.");
+    return;
+  }
+  await saveLedger();
+  if (sentCount) console.log(`\nRecorded ${sentCount} reminder(s) as sent.`);
+
+  async function saveLedger() {
+    if (dryRun) return;
+    await writeFile(P.ledger, `${JSON.stringify(pruneLedger(ledger), null, 2)}\n`);
   }
 }
 

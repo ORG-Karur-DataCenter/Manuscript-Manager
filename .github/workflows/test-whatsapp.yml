@@ -28,6 +28,10 @@ on:
           - twilio
           - meta
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -63,6 +67,8 @@ jobs:
         env:
           WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
           WHATSAPP_TRANSPORT: ${{ inputs.transport }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           case "${{ inputs.mode }}" in
             dry-run)   npm run notify -- --dry-run ;;

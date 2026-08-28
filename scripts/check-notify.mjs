@@ -23,6 +23,7 @@ import {
   ZONE_OFFSET_MINUTES,
 } from "./lib/deadline.mjs";
 import { readRecipients, normalizePhone, sendToAll } from "./lib/whatsapp.mjs";
+import { syncIssues, commentReminder, issueTitle, issueBody } from "./lib/issues.mjs";
 
 let passed = 0;
 const failures = [];
@@ -333,6 +334,139 @@ await check("a deadline stays put for the whole of its last day", () => {
   const dueDayNight = NOW + 3 * DAY + 8 * 3600000;
   assert(describeDeadline(due, dueDayMorning) === "due today", describeDeadline(due, dueDayMorning));
   assert(describeDeadline(due, dueDayNight) === "due today", describeDeadline(due, dueDayNight));
+});
+
+// --- deadlines as GitHub issues, the floor under all of this ---------------
+
+/** Stands in for the issues API, recording what was asked of it. */
+function stubIssues({ nextNumber = 41 } = {}) {
+  const calls = [];
+  const fetchImpl = async (url, opts = {}) => {
+    const path = new URL(url).pathname;
+    calls.push({ path, method: opts.method || "GET", body: opts.body ? JSON.parse(opts.body) : null });
+    if (path.endsWith("/issues") && opts.method === "POST") {
+      return new Response(JSON.stringify({ number: nextNumber++ }), { status: 201 });
+    }
+    return new Response("{}", { status: 200 });
+  };
+  return { calls, fetchImpl, opened: () => calls.filter((c) => c.path.endsWith("/issues") && c.method === "POST") };
+}
+
+const pendingOf = (...manuscripts) =>
+  pendingDeadlines(registryOf(...manuscripts), { now: NOW });
+
+await check("an amendment opens one issue, not one every three hours", () => {
+  // The same duplicate problem the messages have, and it must have the same
+  // answer: eight runs a day must not open eight issues.
+  const m = amendment({ due: ahead(4) });
+  const ledger = {};
+  const gh = stubIssues();
+
+  return syncIssues(pendingOf(m), ledger, { token: "t", repo: "o/r", fetchImpl: gh.fetchImpl, now: NOW })
+    .then(() => {
+      assert(gh.opened().length === 1, `opened ${gh.opened().length} issues`);
+      assert(ledger.issues.m1.number === 41, "the issue number was not remembered");
+      return syncIssues(pendingOf(m), ledger, { token: "t", repo: "o/r", fetchImpl: gh.fetchImpl, now: NOW });
+    })
+    .then(() => {
+      assert(gh.opened().length === 1, `a second run opened another issue (${gh.opened().length} total)`);
+      const writes = gh.calls.filter((c) => c.method === "PATCH" || c.method === "POST");
+      assert(writes.length === 1, `an unchanged deadline still wrote to GitHub ${writes.length} times`);
+    });
+});
+
+await check("the issue carries the journal's own list of corrections", () => {
+  const m = amendment({ due: ahead(4) });
+  m.timeline[0].note =
+    "Returned before review: 1. All authors' highest degrees must be on the title page. " +
+    "2. Supplemental Table 2 is not cited in the text. 3. The License to Publish form was not supplied.";
+
+  const body = issueBody(m);
+  assert((body.match(/- \[ \]/g) || []).length === 3, `checklist has ${(body.match(/- \[ \]/g) || []).length} items:\n${body}`);
+  assert(/highest degrees/.test(body), "an item was lost");
+  assert(/License to Publish/.test(body), "the last item was lost");
+  assert(/International Orthopaedics/.test(body), "no journal");
+});
+
+await check("an estimated date is flagged in the issue too", () => {
+  const guessed = issueBody(amendment({ due: ahead(4), source: "assumed" }));
+  assert(/estimated/i.test(guessed), "the issue passes a guess off as the journal's date");
+  const stated = issueBody(amendment({ due: ahead(4), source: "stated" }));
+  assert(/stated by the journal/i.test(stated), "a real date is not marked as one");
+  assert(!/> The due date above is an estimate/.test(stated), "a stated date carries the estimate warning");
+});
+
+await check("a moved deadline retitles the issue and says so", () => {
+  const m = amendment({ due: ahead(4) });
+  const ledger = {};
+  const gh = stubIssues();
+
+  return syncIssues(pendingOf(m), ledger, { token: "t", repo: "o/r", fetchImpl: gh.fetchImpl, now: NOW })
+    .then(() => {
+      m.deadline = ahead(11);
+      return syncIssues(pendingOf(m), ledger, { token: "t", repo: "o/r", fetchImpl: gh.fetchImpl, now: NOW });
+    })
+    .then(() => {
+      const patched = gh.calls.find((c) => c.method === "PATCH");
+      assert(patched, "the issue was not updated");
+      assert(/11 days left/.test(patched.body.title), `title reads "${patched.body.title}"`);
+      const said = gh.calls.find((c) => c.method === "POST" && /comments$/.test(c.path));
+      assert(said && /deadline moved/i.test(said.body.body), "the change was made silently");
+    });
+});
+
+await check("an amendment that is dealt with closes its issue", () => {
+  const m = amendment({ due: ahead(4) });
+  const ledger = {};
+  const gh = stubIssues();
+
+  return syncIssues(pendingOf(m), ledger, { token: "t", repo: "o/r", fetchImpl: gh.fetchImpl, now: NOW })
+    .then(() => {
+      // What applyEvent does once the journal moves the paper on.
+      m.deadline = null;
+      m.actionFlag = false;
+      return syncIssues(pendingOf(m), ledger, { token: "t", repo: "o/r", fetchImpl: gh.fetchImpl, now: NOW });
+    })
+    .then((result) => {
+      assert(result.closed.length === 1, "the issue was left open after the work was done");
+      const closing = gh.calls.find((c) => c.method === "PATCH" && c.body.state === "closed");
+      assert(closing, "nothing actually closed it");
+      return syncIssues(pendingOf(m), ledger, { token: "t", repo: "o/r", fetchImpl: gh.fetchImpl, now: NOW });
+    })
+    .then((result) => {
+      assert(result.closed.length === 0, "it tried to close an already-closed issue");
+    });
+});
+
+await check("a stage reminder comments on the issue", () => {
+  const m = amendment({ due: ago(1) });
+  const ledger = { issues: { m1: { number: 41, title: "x", due: m.deadline } } };
+  const gh = stubIssues();
+  const [reminder] = dueReminders(registryOf(m), { sent: [] }, { now: NOW });
+
+  return commentReminder(reminder, ledger, { token: "t", repo: "o/r", fetchImpl: gh.fetchImpl, now: NOW })
+    .then((number) => {
+      assert(number === 41, `commented on issue ${number}`);
+      const said = gh.calls.find((c) => /comments$/.test(c.path));
+      assert(/1 day overdue/.test(said.body.body), `comment reads: ${said.body.body}`);
+      assert(/still in the system/i.test(said.body.body), "an overdue comment does not say what to check");
+    });
+});
+
+await check("with no token, issues are skipped rather than crashing the reminders", () => {
+  return syncIssues(pendingOf(amendment({ due: ahead(4) })), {}, { token: "", repo: "" })
+    .then((result) => {
+      assert(result.skipped, "a missing token was not reported as skipped");
+      assert(result.opened.length === 0, "it claimed to open something");
+    });
+});
+
+await check("the issue title is short enough to read in a notification", () => {
+  const m = amendment({ due: ahead(4) });
+  m.title = "A Really Very Long Manuscript Title ".repeat(6);
+  const title = issueTitle(m, { now: NOW });
+  assert(title.length <= 110, `${title.length} characters: ${title}`);
+  assert(/4 days left/.test(title), `the title does not carry the urgency: ${title}`);
 });
 
 // --- the template path, which is the only one Meta will accept -------------

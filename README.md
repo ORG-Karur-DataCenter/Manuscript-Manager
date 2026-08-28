@@ -399,6 +399,42 @@ one short message to everybody, and `send-real` sends anything genuinely due.
 It also reports which recipients are configured and whether each has a key —
 by name and last four digits only, since workflow logs here are public.
 
+### Also as GitHub issues
+
+Every amendment on a clock also gets a **GitHub issue**, opened automatically,
+commented on as the date closes in, and closed once the journal moves the paper
+on. This needs no key, no signup and no third party — GitHub pushes to its own
+mobile app and to email.
+
+That redundancy is deliberate. Every free route into WhatsApp is either one
+person's side project on a number that keeps moving, or Meta's official one
+behind template paperwork; a reminder that silently stops arriving is worse
+than none, because you stop checking. The issue is the floor under all of it.
+It reaches whoever watches the repository, which is not everyone WhatsApp
+reaches, so it is a backstop rather than a replacement.
+
+The body is the journal's own list of corrections as a checklist, so the issue
+is somewhere to work rather than just an alarm. Set `"githubIssues": false` in
+`config/notify.json` to turn it off.
+
+### Sweeping a window the sync missed
+
+The sync is incremental: it keeps a watermark per mailbox and looks only at
+mail newer than it. That is right for keeping up and useless for going back —
+and a gap did open once, between where the historical backfill stopped and
+where the live sync's first window began, losing a Clinical Spine Surgery
+amendment with a fourteen-day deadline.
+
+**Actions → Sync manuscript tracker → Run workflow** takes a date range for
+exactly this. Give `sync_since` and `sync_until` and it sweeps that window
+instead of the usual one, and **does not move the watermark** — moving it would
+declare everything up to the sweep's end date as caught up, skipping everything
+between the sweep and today.
+
+Mail already decided on stays decided, so a sweep spends classifications only
+on what was genuinely never seen. Tick `rescan` to reconsider those too; the
+registry dedupes by message id so re-filing is safe, but it costs LLM budget.
+
 ### When a date is a guess
 
 A journal that states a date or a period gets taken at its word. When it says
