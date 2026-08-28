@@ -321,11 +321,15 @@ it passes.
 
 Each recipient does this once, on their own phone:
 
-1. Save the CallMeBot number to contacts — check the current one at
-   [callmebot.com/whatsapp](https://www.callmebot.com/blog/free-api-whatsapp-messages/),
-   since it has changed before.
+1. Save **+34 613 01 49 37** to contacts. Verify it against
+   [callmebot.com](https://www.callmebot.com/blog/free-api-whatsapp-messages/)
+   first — this number has already changed once (it used to be +34 644 51 95 23)
+   and it will change again. Messaging a stale number is not harmless: the old
+   ones get reassigned, so the messages go to a stranger who can read them.
 2. Send it exactly: `I allow callmebot to send me messages`
-3. It replies with a six-digit **API key**.
+   The bot's own name in the phrase is the literal word `callmebot`, whatever
+   you happened to name the contact.
+3. It replies `API Activated for your phone number. Your APIKEY is 123123`.
 
 Then add one repository secret, under **Settings → Secrets and variables →
 Actions**, named `WHATSAPP_RECIPIENTS`:
@@ -347,9 +351,13 @@ With the secret unset, nothing is sent and the sync runs exactly as before.
 CallMeBot is free and needs no account, which is why it is the default, but it
 is one person's side project and it does sometimes not reply. In order:
 
-- Check the phrase is exactly `I allow callmebot to send me messages`.
-- Check the number against their site — it has changed more than once.
-- Wait a few minutes and send it again.
+- Check the number first. It has changed, and a message to the old one is
+  delivered and read by whoever holds it now — two blue ticks prove nothing
+  about whether the bot ever saw it.
+- Check the phrase is exactly `I allow callmebot to send me messages`, with
+  the literal word `callmebot` rather than the name you gave the contact.
+- Their own advice if nothing comes back within two minutes is to leave it and
+  try again after 24 hours. Repeating it every few minutes does not help.
 
 If it still will not answer, the transport is pluggable and two others are
 already implemented. Set the `WHATSAPP_TRANSPORT` repository variable to

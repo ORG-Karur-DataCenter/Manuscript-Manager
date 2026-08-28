@@ -73,9 +73,10 @@ const TRANSPORTS = {
     if (!recipient.apiKey) {
       throw new Error(
         `No apiKey for ${recipient.name}. Each person gets their own by sending ` +
-        `"I allow callmebot to send me messages" to CallMeBot on WhatsApp. If no key ` +
-        `comes back, check the current number at callmebot.com/whatsapp/ — it has ` +
-        `changed before — or switch to another service with WHATSAPP_TRANSPORT.`
+        `"I allow callmebot to send me messages" on WhatsApp to +34 613 01 49 37 ` +
+        `-- check that number on callmebot.com first, it has changed once already ` +
+        `and a stale one is simply read by whoever holds it now. If no key comes ` +
+        `back within two minutes, their advice is to try again a day later.`
       );
     }
     const url =
