@@ -465,6 +465,16 @@ export function applyEdit(manuscript, patch, { at = new Date().toISOString(), by
     manuscript.needsActionReason = null;
     manuscript.actionFlag = false;
     manuscript.actionLabel = null;
+    // A deadline outlives its purpose the moment the work stops being
+    // outstanding. Without this, someone who knows an amendment is done can
+    // move the card and still be left with a date counting up at them, and no
+    // way to switch it off: an emptied date box only releases a pin, so on a
+    // deadline the sync set it does nothing at all.
+    if (!isPinned(manuscript, "deadline") && manuscript.deadline) {
+      manuscript.deadline = null;
+      manuscript.deadlineSource = null;
+      changed.push({ field: "deadline", from: manuscript.deadline, to: null, clearedByMove: true });
+    }
   }
 
   manuscript.edits.push({ at, by, changes: changed });
