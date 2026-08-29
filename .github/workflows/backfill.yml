@@ -1,0 +1,161 @@
+name: Backfill a date range
+
+# Sweep months of history in ONE run, rather than one dispatch per month.
+#
+# WHY IT HAS TO BE ONE RUN. Every workflow here shares a concurrency group, and
+# GitHub keeps only one PENDING run per group -- each new arrival cancels the
+# one waiting. Six dispatched sweeps therefore cancel each other down to one,
+# and the three-hourly schedule cancels whatever is left. That failure happened
+# twice before this file existed.
+#
+# A RUNNING job is never cancelled, though. So the loop lives inside the job:
+# one dispatch, one run, months walked in sequence, and the scheduled sync
+# simply queues behind it. Nothing to chain, nothing to remember, nothing to
+# lose a race with.
+#
+# It commits after every month, so a failure in April keeps February and March.
+on:
+  workflow_dispatch:
+    inputs:
+      from:
+        description: "Sweep from (YYYY-MM-DD)"
+        required: true
+        default: "2026-01-15"
+      to:
+        description: "Sweep to (YYYY-MM-DD)"
+        required: true
+        default: "2026-08-01"
+      classifications_per_month:
+        description: "LLM budget per month"
+        required: false
+        default: "60"
+      messages_per_month:
+        description: "Messages to fetch per mailbox per month"
+        required: false
+        default: "1200"
+
+# Deliberately the same group as the sync: the two must never write the data
+# file at once. Queuing behind each other is correct; running together is not.
+concurrency:
+  group: sync-manuscripts
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    # Months are slow -- the free-tier classifier manages a couple a minute --
+    # and the default six hours is the only real ceiling.
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: npm install --omit=dev
+
+      - name: Sweep month by month
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN_SATHISH: ${{ secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
+          GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
+          OUTLOOK_CLIENT_ID: ${{ secrets.OUTLOOK_CLIENT_ID }}
+          OUTLOOK_CLIENT_SECRET: ${{ secrets.OUTLOOK_CLIENT_SECRET }}
+          OUTLOOK_REFRESH_TOKEN_DHIBIN: ${{ secrets.OUTLOOK_REFRESH_TOKEN_DHIBIN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CLASSIFIER_PROVIDERS: groq,gemini-3.7-flash
+          MAX_CLASSIFICATIONS_PER_RUN: ${{ inputs.classifications_per_month }}
+          MAX_MESSAGES_PER_RUN: ${{ inputs.messages_per_month }}
+        run: |
+          set -u
+          git config user.name "manuscript-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          CURSOR="${{ inputs.from }}"
+          FINAL="${{ inputs.to }}"
+          swept=0
+          failed=0
+
+          while [ "$(date -d "$CURSOR" +%s)" -lt "$(date -d "$FINAL" +%s)" ]; do
+            NEXT=$(date -d "$CURSOR +1 month" +%Y-%m-%d)
+            if [ "$(date -d "$NEXT" +%s)" -gt "$(date -d "$FINAL" +%s)" ]; then
+              NEXT="$FINAL"
+            fi
+
+            echo "::group::Sweeping $CURSOR to $NEXT"
+            # A month that fails must not take the rest of the range with it --
+            # the whole point of this shape is that partial progress survives.
+            if SYNC_SINCE="$CURSOR" SYNC_UNTIL="$NEXT" npm run sync; then
+              swept=$((swept + 1))
+            else
+              failed=$((failed + 1))
+              echo "::warning::The sweep of $CURSOR to $NEXT failed; carrying on with the next month."
+            fi
+            echo "::endgroup::"
+
+            # Commit each month as it finishes, so an April failure keeps
+            # February and March rather than discarding the lot.
+            git add data/manuscripts.json data/sync-state.json data/excluded-log.json \
+                    data/review-queue.json data/notifications.json
+            if git diff --cached --quiet; then
+              echo "Nothing new from $CURSOR."
+            else
+              git commit -q -m "Backfill $CURSOR to $NEXT"
+              for attempt in 1 2 3; do
+                if git push -q; then break; fi
+                echo "Push rejected; rebasing onto origin and retrying."
+                git pull --rebase --autostash -q origin "$GITHUB_REF_NAME" || exit 1
+                sleep $((attempt * 3))
+              done
+            fi
+
+            CURSOR="$NEXT"
+          done
+
+          echo "Swept $swept month(s); $failed failed."
+          echo "SWEPT=$swept" >> "$GITHUB_ENV"
+          echo "FAILED=$failed" >> "$GITHUB_ENV"
+
+      # Once, at the end. Running it per month would open an issue for an
+      # amendment and then immediately comment on it again for the next month,
+      # which is noise rather than news.
+      - name: Send deadline reminders for anything the backfill surfaced
+        continue-on-error: true
+        env:
+          WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
+          WHATSAPP_TRANSPORT: ${{ vars.WHATSAPP_TRANSPORT || 'callmebot' }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GCHAT_WEBHOOK_URL: ${{ secrets.GCHAT_WEBHOOK_URL }}
+        run: npm run notify
+
+      - name: Record what was sent
+        run: |
+          git config user.name "manuscript-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/notifications.json
+          if git diff --cached --quiet; then
+            echo "Nothing new to record."
+          else
+            git commit -q -m "Record reminders sent after the backfill"
+            for attempt in 1 2 3; do
+              if git push -q; then exit 0; fi
+              git pull --rebase --autostash -q origin "$GITHUB_REF_NAME" || exit 1
+              sleep $((attempt * 3))
+            done
+          fi
+
+      - name: Fail the run if a month was lost
+        if: env.FAILED != '0'
+        run: |
+          echo "::error::${{ env.FAILED }} month(s) failed to sweep. Re-run the range for those months."
+          exit 1
