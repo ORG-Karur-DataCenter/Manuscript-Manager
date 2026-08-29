@@ -82,12 +82,38 @@ async function postJson(url, { headers, body, timeoutMs = 90000 }) {
     // 429 = quota, 5xx = transient. Both are worth another provider or another try.
     const rateLimited = response.status === 429;
     const retryable = rateLimited || response.status >= 500;
+
+    /*
+     * `deferrable` is a different question from `retryable`, and conflating
+     * them cost real mail twice.
+     *
+     * retryable asks: is trying this again likely to work? A 402 "payment
+     * required" fails that -- retrying it is pure waste.
+     *
+     * deferrable asks: was this failure about the EMAIL? A 402 fails that too,
+     * and that is the point. Your billing status, your API key and your daily
+     * quota are all facts about the account, and none of them says the message
+     * is unclassifiable. Counting them against the email's three-strike budget
+     * retires perfectly good mail into the review queue during an outage that
+     * has nothing to do with it.
+     *
+     * That is precisely what happened: an account with no Cerebras quota
+     * returned 402 on every message, and because 402 is neither 429 nor 5xx,
+     * every amendment that arrived during it took a strike.
+     *
+     * Only a failure the CONTENT provoked -- a malformed answer, a rejected
+     * request body -- is evidence about the message.
+     */
+    const aboutTheAccount =
+      [401, 402, 403, 407, 408, 429].includes(response.status) || response.status >= 500;
+
     throw new ProviderError(
       `HTTP ${response.status}: ${text.slice(0, 300)}`,
       {
         retryable,
         status: response.status,
         rateLimited,
+        deferrable: aboutTheAccount,
         retryAfterMs: rateLimited ? parseRetryAfter(response, text) : null,
       }
     );
@@ -435,7 +461,7 @@ export async function completeWithChain(
       } catch (err) {
         failures.push(`${provider.id}: ${err.message}`);
         if (!err.rateLimited) allRateLimited = false;
-        if (!err.retryable) allTransient = false;
+        if (!(err.deferrable ?? err.retryable)) allTransient = false;
         const lastAttempt = attempt === attemptsPerProvider;
         if (!err.retryable || lastAttempt) break;
         // Respect the provider's stated backoff when it gives one.

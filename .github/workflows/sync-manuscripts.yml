@@ -79,11 +79,12 @@ jobs:
           # eligible free tier. Gemini backs it up and serves as the second
           # opinion for the cross-check, which needs a genuinely different model.
           # Cerebras stays out until its 402 (no active account quota) clears.
-          # Cerebras first: a separate free quota, so it absorbs the load
-          # that was exhausting Groq's 200k/day by mid-morning. It was
-          # already keyed and already in the chain -- this allowlist was
-          # what kept it out.
-          CLASSIFIER_PROVIDERS: cerebras,groq,gemini-3.7-flash
+          # Cerebras is deliberately absent: the account has no free quota,
+          # so leading with it cost two failed calls and about five seconds
+          # per message (attemptsPerProvider is 2, behind a 2.5s pacer)
+          # before the chain fell through to a provider that works.
+          # Its key can stay set; add it back here if quota appears.
+          CLASSIFIER_PROVIDERS: groq,gemini-3.7-flash
           # The backfill is done, so both inboxes now see only new mail — a
           # handful per run. Anything over this is deferred, never dropped.
           MAX_CLASSIFICATIONS_PER_RUN: ${{ inputs.max_classifications || '60' }}

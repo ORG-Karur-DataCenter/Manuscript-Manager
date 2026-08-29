@@ -192,6 +192,18 @@ const chainError = async (providers) => {
 }
 
 {
+  // The real case, from a live run: an account with no Cerebras quota answers
+  // 402 on every message. 402 is neither 429 nor 5xx, so the earlier fix --
+  // which keyed on `retryable` -- let it count as a strike against the email.
+  // Billing status is a fact about the account, never about the message.
+  const err = await chainError([
+    failing("cerebras", { retryable: false, rateLimited: false, deferrable: true, status: 402 }),
+    failing("groq", { retryable: true, rateLimited: true, deferrable: true, status: 429 }),
+  ]);
+  check("a payment-required provider does not blame the email", err?.deferrable === true);
+}
+
+{
   // A malformed answer IS about this email. It must spend an attempt, or a
   // genuinely unclassifiable message would be retried forever.
   const err = await chainError([
@@ -304,6 +316,35 @@ const chainError = async (providers) => {
     console.warn = realWarn;
   }
   check("an allowlisted provider with no key is named out loud", warnings.some((w) => /cerebras/.test(w)));
+}
+
+// The same thing through the real HTTP path, not a hand-made error object:
+// the status-to-flags mapping is where the bug actually lived.
+{
+  const realFetch = globalThis.fetch;
+  const statusOf = async (status, body) => {
+    globalThis.fetch = async () =>
+      new Response(body, { status, headers: { "content-type": "application/json" } });
+    try {
+      const chain = buildProviderChain({ GROQ_API_KEY: "k", CLASSIFIER_PROVIDERS: "groq" });
+      await completeWithChain(chain, { system: "s", user: "u", attemptsPerProvider: 1 });
+      return null;
+    } catch (err) {
+      return err;
+    } finally {
+      globalThis.fetch = realFetch;
+    }
+  };
+
+  const paid = await statusOf(402, '{"message":"Payment required"}');
+  check("402 from the wire is deferrable", paid?.deferrable === true);
+  check("but not worth retrying", /402/.test(paid?.message || ""));
+
+  const authed = await statusOf(401, '{"message":"bad key"}');
+  check("401 from the wire is deferrable too", authed?.deferrable === true);
+
+  const bad = await statusOf(400, '{"message":"malformed request"}');
+  check("400 stays the email's problem", bad?.deferrable === false);
 }
 
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
