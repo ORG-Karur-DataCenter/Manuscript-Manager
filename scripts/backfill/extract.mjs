@@ -17,11 +17,17 @@ export function decode(s) {
 
 const JOINER = /^(?:of|and|in|for|the|on|&|-|–|—)$/i;
 const WORD = /^[A-Z][A-Za-z'’.]*$/;
+// A handful of journals are styled lower-case by their own publisher: Nature
+// Portfolio's whole npj family, eLife, the preprint servers. The capital-first
+// rule is what stops an ordinary sentence word being read as a name, so widen
+// it by naming the exceptions rather than relaxing it for everything.
+const LOWERCASE_BRAND = /^(?:npj|eLife|medRxiv|bioRxiv|arXiv)$/i;
+const isNameWord = (tok) => WORD.test(tok) || LOWERCASE_BRAND.test(tok);
 const STOP_AT = /[.,;:()\[\]"“”!?]/;
 // Single-word journals the tracker actually sees; a lone capitalised word is
 // otherwise far more likely to be a person or a sentence start.
 const SOLO = new Set(["cells", "cartilage", "cureus", "biomedicines", "diagnostics", "medicina", "bioengineering", "life", "gels", "biology"]);
-const JOURNALISH = /journal|spine|health|medicine|orthopa?ed|surgery|cells?|cartilage|research|reviews|lancet|bmj|annals|frontiers|cureus|arthroplasty|epidemiolog|geriatric|gastroenterolog|oncolog|radiolog|cases|science|reports|nature|plos|ssm|jbjs|osteoporosis|tissue|biomaterials|methodology|rheumat|neuro|paediatr|pediatr|clinical|therapy|materials|bone|joint|trauma|sports/i;
+const JOURNALISH = /journal|spine|health|medicine|orthopa?ed|surgery|cells?|cartilage|research|reviews|lancet|bmj|annals|frontiers|cureus|arthroplasty|epidemiolog|geriatric|gastroenterolog|oncolog|radiolog|cases|science|reports|nature|plos|ssm|jbjs|osteoporosis|tissue|biomaterials|methodology|biolog|rheumat|neuro|paediatr|pediatr|clinical|therapy|materials|bone|joint|trauma|sports/i;
 const NOT_A_JOURNAL = /^(?:Dr|Dear|Mr|Ms|Mrs|Prof|Professor|Sincerely|Regards|Best|Thank|Please|Your|Our|This|That|These|Those|We|You|It|If|As|An|A|The Editor|Editorial|Manuscript|Submission|Author|Corresponding)$/i;
 
 function takeName(rest) {
@@ -39,7 +45,7 @@ function takeName(rest) {
     if (!m) break;
     const tok = m[1];
     const isFirst = tokens.length === 0;
-    const ok = isFirst ? WORD.test(tok) : WORD.test(tok) || JOINER.test(tok);
+    const ok = isFirst ? isNameWord(tok) : isNameWord(tok) || JOINER.test(tok);
     if (!ok) break;
     if (isFirst && NOT_A_JOURNAL.test(tok)) return null;
     tokens.push(tok);

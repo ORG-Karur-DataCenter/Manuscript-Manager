@@ -127,5 +127,28 @@ let rejected = false;
 try { applyEdit(m7, { bucket: "in_review", somethingElse: "x" }); } catch { rejected = true; }
 check("an unknown field is refused", rejected);
 
+// A journal name the publisher styles in lower case. The name matcher demands
+// an initial capital -- that is what stops an ordinary sentence word being read
+// as a journal -- so Nature Portfolio's entire npj family failed it silently,
+// and an amendment notice from npj Digital Medicine sat unfiled for months.
+const { journalFromSubject } = await import("./backfill/extract.mjs");
+check(
+  "a lower-case publisher style is still read as a journal",
+  journalFromSubject("Re: npj Digital Medicine-Amendment required") === "npj Digital Medicine"
+);
+check(
+  "and so is a longer one",
+  journalFromSubject("Re: npj Systems Biology and Applications-Amendment required") ===
+    "npj Systems Biology and Applications"
+);
+check(
+  "an ordinary capitalised name is unaffected",
+  journalFromSubject("Re: European Spine Journal-Amendment required") === "European Spine Journal"
+);
+check(
+  "and a person is still not a journal",
+  journalFromSubject("Dear Dr Muthu-Amendment required") === null
+);
+
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
 process.exit(failures ? 1 : 0);
