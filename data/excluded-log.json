@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-05-14T13:01:47.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "BTS comes to Stanford campus this weekend",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
       "timestamp": "2026-02-14T17:57:32.000Z",
       "reason": "unrelated",
       "subject": "Re: MRSpec Project update - reg",
@@ -2258,14 +2265,6 @@
       "reason": "unrelated",
       "subject": "PLOS ONE Reminder of Active Assignments - [EMID:2366f6d18f739484]",
       "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dc84c0e80c226d",
-      "timestamp": "2026-04-26T05:38:40.000Z",
-      "reason": "unrelated",
-      "subject": "JOIO-D-26-00675 - New manuscript received",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
       "account": "Sathish Muthu"
     }
   ]
