@@ -13,7 +13,7 @@ const BUCKET_META = {
 };
 
 const BUCKET_HINTS = {
-  all: "Every manuscript being tracked, newest activity first.",
+  all: "Every manuscript being tracked. Anything on a deadline comes first, most urgent at the top; the rest follow by newest activity.",
   submissions: "Freshly submitted — acknowledged by a journal, awaiting a first editorial check.",
   needs_action: "Needs you: rejected papers to resubmit elsewhere, or manuscripts returned for edits before peer review.",
   in_review: "With the journal — under peer review, revision in progress, or accepted and awaiting publication.",
@@ -275,13 +275,45 @@ function matchesQuery(m, q) {
   return hay.includes(q.toLowerCase());
 }
 
+/**
+ * A card's place in the queue.
+ *
+ * Anything on a clock outranks everything else, most urgent first, because a
+ * deadline is the only thing here that gets worse while you are not looking.
+ * Sorting by activity buried a paper due in two days under one that had merely
+ * received a newsletter that morning.
+ *
+ * Overdue sorts above due-soon: the number is negative and the comparison is
+ * ascending, so sixteen days over leads two days left, which is the right way
+ * round -- the later something has slipped, the louder it should be.
+ */
+function deadlineRank(m) {
+  // Same test the chip uses, so what is sorted and what is shown never differ.
+  if (!m.deadline || !(m.actionFlag || isPinned(m, "deadline"))) return null;
+  const left = daysLeft(m.deadline);
+  return Number.isFinite(left) ? left : null;
+}
+
 function filtered() {
-  return state.manuscripts.filter((m) => {
-    const inBucket =
-      state.bucket === "all" ||
-      (state.bucket === "review" ? m.needsReview : m.bucket === state.bucket);
-    return inBucket && matchesQuery(m, state.query);
-  });
+  return state.manuscripts
+    .filter((m) => {
+      const inBucket =
+        state.bucket === "all" ||
+        (state.bucket === "review" ? m.needsReview : m.bucket === state.bucket);
+      return inBucket && matchesQuery(m, state.query);
+    })
+    .sort((a, b) => {
+      const ra = deadlineRank(a);
+      const rb = deadlineRank(b);
+      if (ra !== null && rb !== null) {
+        // Two live deadlines: the nearer one wins, and a tie falls through to
+        // recency rather than resolving arbitrarily.
+        if (ra !== rb) return ra - rb;
+      } else if (ra !== null || rb !== null) {
+        return ra !== null ? -1 : 1;
+      }
+      return new Date(b.updatedAt || 0) - new Date(a.updatedAt || 0);
+    });
 }
 
 function matchesReviewQuery(r, q) {
@@ -329,12 +361,15 @@ function cardHtml(m) {
     .map((a) => `<span class="avatar" style="background:${avatarColor(a)}" title="${esc(a)}">${esc(initials(a))}</span>`)
     .join("");
 
+  // Badge order is deliberate: bucket, then deadline, then the action label.
+  // The deadline is the only badge that changes on its own, so it reads before
+  // the wordier label rather than being pushed onto a second line behind it.
   return `
   <article class="card b-${m.bucket}" data-id="${esc(m.id)}" tabindex="0" role="button">
     <div class="card-top">
       <span class="pill ${pill.pill}">${esc(pill.label)}</span>
-      ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
       ${deadlineChip(m)}
+      ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
       ${m.needsReview ? `<span class="review-flag" title="${esc(reviewReasonFor(m))}">⚑ Check</span>` : ""}
     </div>
     <h3 class="card-title">${esc(m.title)}</h3>
@@ -446,8 +481,8 @@ function drawerHtml(m) {
     <div class="d-status-row">
       <span class="pill ${pill.pill}">${esc(pill.label)}</span>
       ${isPinned(m, "bucket") ? `<span class="pin-mark" title="${PIN_TITLE}">moved by hand</span>` : ""}
-      ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
       ${deadlineChip(m)}
+      ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
       ${attnReason ? `<span class="pill needs_action">${esc(attnReason)}</span>` : ""}
     </div>
     ${doiBox}

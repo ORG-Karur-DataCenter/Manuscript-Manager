@@ -212,18 +212,28 @@ html[data-theme="dark"] .hero-acronym {
 .card.b-in_review { border-left-color: var(--review); }
 .card.b-published { border-left-color: var(--published); }
 
-.card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+/* Badges sit in a row that wraps cleanly. Not space-between: with two badges
+   it flung them to opposite edges, and with three it left ragged gaps that
+   differed on every card. Left-aligned with a fixed gap reads as one row.
+   No margin-left:auto on the review flag either -- pushing it to the right
+   edge worked on a single-line row and stranded it in mid-air once the row
+   wrapped, floating away from the badge it belongs beside. */
+.card-top { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 7px; }
 .pill {
   font-size: .68rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase;
-  padding: 4px 10px; border-radius: 100px; white-space: nowrap;
+  padding: 4px 10px; border-radius: 100px; white-space: nowrap; line-height: 1.45;
 }
 .pill.submissions { background: var(--submissions-wash); color: var(--submissions); }
 .pill.needs_action { background: var(--needs-wash); color: var(--needs); }
 .pill.in_review { background: var(--review-wash); color: var(--review); }
 .pill.published { background: var(--published-wash); color: var(--published); }
+/* white-space is the whole point here. "Amendments requested" wrapped onto two
+   lines, and a two-line box with a 100px radius is not a pill -- it renders as
+   a fat blob that swallows the badge beside it. */
 .action-flag {
   font-size: .68rem; font-weight: 700; color: #fff; background: var(--needs);
   padding: 4px 9px; border-radius: 100px; display: inline-flex; align-items: center; gap: 5px;
+  white-space: nowrap; line-height: 1.45;
   animation: pulse 2s ease-in-out infinite;
 }
 @keyframes pulse { 0%,100%{ opacity: 1; } 50% { opacity: .6; } }
@@ -291,8 +301,9 @@ html[data-theme="dark"] .hero-acronym {
    whole point is that five days passes without anyone noticing. */
 .deadline-chip {
   display: inline-flex; align-items: center; gap: 4px;
-  padding: 3px 9px; border-radius: 100px;
-  font-size: .7rem; font-weight: 700; letter-spacing: .01em; white-space: nowrap;
+  padding: 4px 9px; border-radius: 100px;
+  font-size: .68rem; font-weight: 700; letter-spacing: .01em; white-space: nowrap;
+  line-height: 1.45; font-variant-numeric: tabular-nums;
   background: var(--review-wash); color: var(--review);
 }
 .deadline-chip.soon { background: var(--needs-wash); color: var(--needs); }
