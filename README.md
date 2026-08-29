@@ -403,6 +403,25 @@ one short message to everybody, and `send-real` sends anything genuinely due.
 It also reports which recipients are configured and whether each has a key —
 by name and last four digits only, since workflow logs here are public.
 
+### Google Chat
+
+The simplest channel that actually works, and the one to prefer. A space has an
+**incoming webhook**; posting to it is one HTTPS request with no OAuth, no app
+review, no per-person key, and both people see the same space.
+
+1. In Google Chat, open (or create) a space for this.
+2. **Space name → Apps & integrations → Webhooks → Add webhooks.**
+3. Name it, then **Copy** the URL.
+4. Add it as the repository secret `GCHAT_WEBHOOK_URL`
+   (**Settings → Secrets and variables → Actions**).
+
+That is the whole setup. Each manuscript posts under its own thread, so one
+paper reads as one conversation rather than scattering down the space.
+
+**The webhook URL is a credential.** Anyone holding it can post into that
+space, and it cannot be scoped or revoked except by deleting the webhook and
+making a new one. It belongs in the secret, never in this repository.
+
 ### Also as GitHub issues
 
 Every amendment on a clock also gets a **GitHub issue**, opened automatically,
@@ -410,12 +429,11 @@ commented on as the date closes in, and closed once the journal moves the paper
 on. This needs no key, no signup and no third party — GitHub pushes to its own
 mobile app and to email.
 
-That redundancy is deliberate. Every free route into WhatsApp is either one
-person's side project on a number that keeps moving, or Meta's official one
-behind template paperwork; a reminder that silently stops arriving is worse
-than none, because you stop checking. The issue is the floor under all of it.
-It reaches whoever watches the repository, which is not everyone WhatsApp
-reaches, so it is a backstop rather than a replacement.
+That redundancy is deliberate. A reminder that silently stops arriving is
+worse than none, because you stop checking — so there are three channels and
+none of them is load-bearing alone. A reminder counts as delivered when any
+one of them gets through, and each failing says so rather than taking the
+others down with it.
 
 The body is the journal's own list of corrections as a checklist, so the issue
 is somewhere to work rather than just an alarm. Set `"githubIssues": false` in

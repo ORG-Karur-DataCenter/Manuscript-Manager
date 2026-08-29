@@ -24,6 +24,7 @@ import {
 } from "./lib/deadline.mjs";
 import { readRecipients, normalizePhone, sendToAll } from "./lib/whatsapp.mjs";
 import { syncIssues, commentReminder, issueTitle, issueBody } from "./lib/issues.mjs";
+import { postToChat, composeChat, chatConfigured } from "./lib/gchat.mjs";
 
 let passed = 0;
 const failures = [];
@@ -358,6 +359,78 @@ await check("a deadline stays put for the whole of its last day", () => {
   const dueDayNight = NOW + 3 * DAY + 8 * 3600000;
   assert(describeDeadline(due, dueDayMorning) === "due today", describeDeadline(due, dueDayMorning));
   assert(describeDeadline(due, dueDayNight) === "due today", describeDeadline(due, dueDayNight));
+});
+
+// --- Google Chat -----------------------------------------------------------
+
+await check("a Google Chat post carries the paper, the journal and the clock", () => {
+  const registry = registryOf(amendment({ due: ahead(3) }));
+  const [reminder] = dueReminders(registry, { sent: [] }, { now: NOW });
+  const text = composeChat(reminder, { now: NOW, dashboardUrl: "https://example.org/t" });
+
+  assert(/Cervical Spine Giant Cell/.test(text), "no title");
+  assert(/International Orthopaedics/.test(text), "no journal");
+  assert(/3 days left/.test(text), `no time remaining: ${text}`);
+  assert(/<https:\/\/example\.org\/t\|Open the tracker>/.test(text), "the tracker link is not in Chat's link form");
+  assert(text.length < 900, `too long for a phone at ${text.length} characters`);
+});
+
+await check("an estimated date says so in Chat too", () => {
+  const registry = registryOf(amendment({ due: ahead(3), source: "assumed" }));
+  const [reminder] = dueReminders(registry, { sent: [] }, { now: NOW });
+  assert(/estimated/i.test(composeChat(reminder, { now: NOW })), "Chat passes a guess off as the journal's date");
+});
+
+await check("everything about one manuscript threads together", () => {
+  // Otherwise a space with five live amendments is unreadable within a week.
+  let sent = null;
+  return postToChat("hello", {
+    webhook: "https://chat.googleapis.com/v1/spaces/AAA/messages?key=k&token=t",
+    threadKey: "manuscript-m1",
+    fetchImpl: async (url, opts) => { sent = { url, body: JSON.parse(opts.body) }; return new Response("{}", { status: 200 }); },
+  }).then(() => {
+    assert(sent.body.thread.threadKey === "manuscript-m1", "no thread key was sent");
+    assert(/REPLY_MESSAGE_FALLBACK_TO_NEW_THREAD/.test(sent.url),
+      "later messages would open new threads instead of replying");
+    assert(/key=k/.test(sent.url) && /token=t/.test(sent.url), "the webhook's own credentials were dropped");
+  });
+});
+
+await check("a dead webhook says what to do about it", () => {
+  return postToChat("hello", {
+    webhook: "https://chat.googleapis.com/v1/spaces/AAA/messages",
+    fetchImpl: async () => new Response('{"error":"not found"}', { status: 404 }),
+  }).then(
+    () => { throw new Error("a 404 was swallowed"); },
+    (err) => assert(/Recreate it in the space/.test(err.message), `unhelpful: ${err.message}`)
+  );
+});
+
+await check("no webhook is a skip, not a failure", () => {
+  return postToChat("hello", { webhook: "" }).then((r) => {
+    assert(r.skipped, "an unconfigured webhook was not reported as skipped");
+    assert(!chatConfigured({}), "chatConfigured lied about an empty environment");
+    assert(chatConfigured({ GCHAT_WEBHOOK_URL: "https://x" }), "chatConfigured missed a set webhook");
+  });
+});
+
+await check("the three channels say the same thing about the same amendment", () => {
+  // They are written separately and drift silently if nothing checks. The
+  // facts a person acts on -- how long is left, and whether the date is real
+  // -- must not differ between the phone and the issue.
+  const m = amendment({ due: ago(2), source: "assumed" });
+  const [reminder] = dueReminders(registryOf(m), { sent: [] }, { now: NOW });
+
+  const surfaces = {
+    whatsapp: composeMessage(reminder, { now: NOW }),
+    chat: composeChat(reminder, { now: NOW }),
+    issue: issueBody(m, { now: NOW }),
+  };
+  for (const [name, text] of Object.entries(surfaces)) {
+    assert(/2 days overdue/.test(text), `${name} does not say it is 2 days overdue`);
+    assert(/estimated/i.test(text), `${name} does not admit the date is an estimate`);
+    assert(/International Orthopaedics/.test(text), `${name} omits the journal`);
+  }
 });
 
 // --- deadlines as GitHub issues, the floor under all of this ---------------

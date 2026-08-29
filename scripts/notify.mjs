@@ -23,6 +23,7 @@ import {
 } from "./lib/notify.mjs";
 import { describeDeadline } from "./lib/deadline.mjs";
 import { syncIssues, commentReminder } from "./lib/issues.mjs";
+import { postToChat, composeChat, chatConfigured } from "./lib/gchat.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const P = {
@@ -137,6 +138,11 @@ async function main() {
     return;
   }
 
+  const chatWebhook = (process.env.GCHAT_WEBHOOK_URL || "").trim();
+  if (!chatConfigured()) {
+    console.log("\nGoogle Chat is not configured (GCHAT_WEBHOOK_URL is unset).");
+  }
+
   console.log(`\n${due.length} reminder(s) due:`);
   let sentCount = 0;
   for (const reminder of due) {
@@ -148,8 +154,24 @@ async function main() {
 
     if (dryRun) continue;
 
-    // The same reminder onto its issue, so it reaches a phone even when the
-    // WhatsApp leg is down -- which is exactly when it matters most.
+    // And onto its issue. Three channels, none of them load-bearing alone:
+    // a reminder counts as delivered when any one of them got through.
+    // Google Chat, threaded per manuscript so a paper reads as one
+    // conversation rather than scattering down the space.
+    let posted = false;
+    if (chatWebhook) {
+      try {
+        await postToChat(composeChat(reminder, { dashboardUrl: policy.dashboardUrl || "" }), {
+          webhook: chatWebhook,
+          threadKey: `manuscript-${reminder.manuscript.id}`,
+        });
+        posted = true;
+        console.log("  ✓ posted to Google Chat");
+      } catch (err) {
+        console.error(`  ✗ Google Chat: ${err.message}`);
+      }
+    }
+
     let commented = false;
     try {
       const number = await commentReminder(reminder, ledger, { token: issueToken, repo });
@@ -165,7 +187,7 @@ async function main() {
     // would suppress every future attempt at it -- the message would be lost
     // rather than retried on the next run. An issue comment counts: it is a
     // real notification, so a reminder is not lost merely because WhatsApp is.
-    if (reachedSomeone(results) || commented) {
+    if (reachedSomeone(results) || commented || posted) {
       recordSent(ledger, reminder, results);
       sentCount++;
     }

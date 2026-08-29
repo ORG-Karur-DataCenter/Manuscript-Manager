@@ -71,6 +71,7 @@ jobs:
           WHATSAPP_TRANSPORT: ${{ inputs.transport }}
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GCHAT_WEBHOOK_URL: ${{ secrets.GCHAT_WEBHOOK_URL }}
         run: |
           case "${{ inputs.mode }}" in
             dry-run)   npm run notify -- --dry-run ;;

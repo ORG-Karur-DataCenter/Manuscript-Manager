@@ -103,6 +103,7 @@ jobs:
           WHATSAPP_TRANSPORT: ${{ vars.WHATSAPP_TRANSPORT || 'callmebot' }}
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GCHAT_WEBHOOK_URL: ${{ secrets.GCHAT_WEBHOOK_URL }}
         run: npm run notify
 
       - name: Commit updated data
