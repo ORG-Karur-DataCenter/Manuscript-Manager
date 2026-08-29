@@ -147,6 +147,13 @@ const TRANSPORTS = {
    * the rare case of replying inside an open window. Set:
    *   META_WHATSAPP_TEMPLATE   the approved template's name
    *   META_WHATSAPP_LANGUAGE   its language code (default en)
+   *   META_API_VERSION         the Graph API version (default below)
+   *
+   * The version is configurable because Meta retires each one about two years
+   * after release, and a retired version fails with an error that reads like a
+   * broken request rather than an expired one. The API Setup page in the Meta
+   * dashboard shows the current version in its sample request; if the error
+   * below mentions the version, copy it from there.
    *
    * The template needs one body with five placeholders, in this order:
    *   {{1}} what has happened   e.g. "Amendment due"
@@ -162,6 +169,7 @@ const TRANSPORTS = {
       throw new Error("The Meta route needs META_WHATSAPP_TOKEN and META_WHATSAPP_PHONE_ID.");
     }
     const template = (env.META_WHATSAPP_TEMPLATE || "").trim();
+    const version = (env.META_API_VERSION || "v21.0").trim();
 
     const payload = template
       ? {
@@ -184,7 +192,7 @@ const TRANSPORTS = {
           text: { preview_url: false, body: message.text },
         };
 
-    const res = await fetchImpl(`https://graph.facebook.com/v21.0/${phoneId}/messages`, {
+    const res = await fetchImpl(`https://graph.facebook.com/${version}/${phoneId}/messages`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
       body: JSON.stringify(payload),
@@ -194,11 +202,19 @@ const TRANSPORTS = {
       // The failure everyone hits first, translated. Meta reports it as a
       // generic 131047 / "Re-engagement message" and it reads like a bug.
       const outsideWindow = /131047|re-?engagement|24 hour/i.test(body);
+      const badVersion = /unsupported (get|post) request|version|deprecat/i.test(body) && res.status === 400;
+      const notInAllowList = /131030|not in allowed list/i.test(body);
       throw new Error(
         `Meta returned ${res.status}: ${body.slice(0, 200)}` +
         (outsideWindow && !template
           ? " — plain text is only allowed within 24 hours of the recipient writing to you. " +
             "Set META_WHATSAPP_TEMPLATE to an approved template name; reminders always fall outside that window."
+          : notInAllowList
+          ? ` — ${recipient.name}'s number is not on the test number's recipient list. ` +
+            "Add and verify it under WhatsApp -> API Setup -> To."
+          : badVersion
+          ? ` — the Graph API version (${version}) may have been retired. ` +
+            "Set META_API_VERSION to the version shown in the dashboard's API Setup sample request."
           : "")
       );
     }

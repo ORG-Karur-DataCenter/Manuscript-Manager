@@ -366,16 +366,37 @@ is one person's side project and it does sometimes not reply. In order:
 If it still will not answer, the transport is pluggable. Set the
 `WHATSAPP_TRANSPORT` repository variable to `twilio` or `meta`.
 
-**Meta** (WhatsApp Cloud API) is the one to move to if CallMeBot keeps failing:
-its test number is free, messages up to five verified recipients, and does not
-move. Secrets: `META_WHATSAPP_TOKEN`, `META_WHATSAPP_PHONE_ID`,
-`META_WHATSAPP_TEMPLATE`, and optionally `META_WHATSAPP_LANGUAGE`.
+### Meta's WhatsApp Cloud API
 
-`META_WHATSAPP_TEMPLATE` is not optional in practice. **Meta accepts free-form
-text only within 24 hours of the recipient last writing to you**, and nobody
-replies to a deadline reminder — so every reminder falls outside that window
-and plain text is refused. Create an approved template with one body and five
-placeholders, in this order:
+The official route, and the one that does not depend on somebody's side
+project. Free for this volume, and it does **not** need business verification:
+that is only required past 250 conversations in 24 hours, and this sends a
+handful a week.
+
+**1. Create the app.** developers.facebook.com → My Apps → Create App → choose
+**Business** → add the **WhatsApp** product. A test WhatsApp Business account
+and a free test phone number are created for you.
+
+**2. Add the recipients.** WhatsApp → **API Setup** → under **To**, add each
+phone number and verify it with the code WhatsApp sends. The test number
+messages **up to five** verified numbers, which is ample. A number that is not
+on this list is refused with a bare code; the error here names the person and
+where to add them.
+
+**3. Note two values** from that same API Setup page: the **Phone number ID**
+and the **Graph API version** shown in its sample request.
+
+**4. Make a permanent token.** The token on the API Setup page expires in 24
+hours, so it is only good for a first test. For a real one: business.facebook.com
+→ **Business settings → Users → System users** → add a system user with the
+**Admin** role → **Add assets** and give it your WhatsApp account with full
+control → **Generate new token**, selecting `whatsapp_business_messaging`. That
+token does not expire unless revoked.
+
+**5. Create the template.** Meta only accepts free-form text within 24 hours of
+someone messaging you, and nobody replies to a deadline reminder — so every
+reminder needs a template. WhatsApp Manager → **Message templates** → Create,
+category **Utility**, with one body:
 
 ```
 {{1}} is {{2}}.
@@ -386,8 +407,22 @@ Due: {{5}}
 ```
 
 which fills in as *"Amendment due is 3 days left. Manuscript: … Journal: …
-Due: Tue 1 Sept (estimated)"*. Utility templates are usually approved in
+Due: Tue 1 Sept (estimated)"*. Utility templates are usually approved within
 minutes.
+
+**6. Add the secrets**, then set the repository variable
+`WHATSAPP_TRANSPORT` to `meta`:
+
+| Secret | Value |
+| --- | --- |
+| `META_WHATSAPP_TOKEN` | the system user token from step 4 |
+| `META_WHATSAPP_PHONE_ID` | the Phone number ID from step 3 |
+| `META_WHATSAPP_TEMPLATE` | the template name from step 5 |
+| `META_API_VERSION` | optional; the version from step 3, if the default has been retired |
+
+Meta retires each API version about two years after release, and a retired one
+fails with an error that reads like a broken request. If that happens the error
+here names the version in use and tells you to set `META_API_VERSION`.
 
 **Twilio** needs `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN` and
 `TWILIO_WHATSAPP_FROM`. Its sandbox has the same 24-hour restriction, so a paid

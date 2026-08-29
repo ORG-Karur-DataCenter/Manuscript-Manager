@@ -637,6 +637,36 @@ await check("no template parameter carries a newline, which Meta rejects", () =>
   });
 });
 
+await check("a number missing from the test list is named", () => {
+  // The first thing that goes wrong with Meta's free test number: it only
+  // messages numbers you have added and verified, and the refusal is a bare
+  // code that reads like a bug in the request.
+  return sendToAll([{ name: "Dr Sathish", phone: "919600856806" }], { text: "x", params: ["a","b","c","d","e"] }, {
+    transport: "meta",
+    env: { META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1", META_WHATSAPP_TEMPLATE: "amendment_due" },
+    fetchImpl: async () => new Response(
+      JSON.stringify({ error: { code: 131030, message: "Recipient phone number not in allowed list" } }), { status: 400 }
+    ),
+  }).then((results) => {
+    assert(!results[0].ok, "a refusal was reported as a send");
+    assert(/Dr Sathish/.test(results[0].error), `does not say whose number: ${results[0].error}`);
+    assert(/API Setup/.test(results[0].error), "does not say where to add it");
+  });
+});
+
+await check("a retired Graph API version says so rather than reading as a bad request", () => {
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "x", params: [] }, {
+    transport: "meta",
+    env: { META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1", META_API_VERSION: "v9.0" },
+    fetchImpl: async () => new Response(
+      JSON.stringify({ error: { message: "Unsupported post request. Version is deprecated" } }), { status: 400 }
+    ),
+  }).then((results) => {
+    assert(/v9\.0/.test(results[0].error), `does not name the version in use: ${results[0].error}`);
+    assert(/META_API_VERSION/.test(results[0].error), "does not say what to set");
+  });
+});
+
 await check("Meta's 24-hour refusal explains itself", () => {
   return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "hello", params: [] }, {
     transport: "meta",
