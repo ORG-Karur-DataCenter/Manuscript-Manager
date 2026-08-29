@@ -667,6 +667,67 @@ await check("a retired Graph API version says so rather than reading as a bad re
   });
 });
 
+await check("a template still in review is not read as a typo", () => {
+  // The live case: the template was submitted and is awaiting approval, so
+  // the API reports it as simply absent. Without this the obvious reading is
+  // that the name is wrong, and someone goes hunting for a spelling mistake
+  // in a name that is perfectly correct.
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "x", params: ["a","b","c","d","e"] }, {
+    transport: "meta",
+    env: {
+      META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1",
+      META_WHATSAPP_TEMPLATE: "amendment_deadline",
+    },
+    fetchImpl: async () => new Response(
+      JSON.stringify({ error: { code: 132001, message: "Template name does not exist in the translation" } }), { status: 400 }
+    ),
+  }).then((results) => {
+    assert(!results[0].ok, "a refusal was reported as a send");
+    assert(/amendment_deadline/.test(results[0].error), `does not name the template: ${results[0].error}`);
+    assert(/review/i.test(results[0].error), `does not raise approval status: ${results[0].error}`);
+    assert(/language/i.test(results[0].error), "does not raise the other suspect");
+  });
+});
+
+await check("a parameter-count mismatch names the count each template wants", () => {
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "x", params: [] }, {
+    transport: "meta",
+    env: {
+      META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1",
+      META_WHATSAPP_TEMPLATE: "amendment_deadline",
+    },
+    fetchImpl: async () => new Response(
+      JSON.stringify({ error: { code: 132000, message: "number of parameters does not match" } }), { status: 400 }
+    ),
+  }).then((results) => {
+    assert(/five/.test(results[0].error), `does not say what the template wants: ${results[0].error}`);
+  });
+});
+
+await check("the test mode sends hello_world in en_US, with no body component", () => {
+  // hello_world is the only template a brand-new account has approved, and it
+  // takes no parameters. Sending an empty body component is a count of nought
+  // against a template declaring none, which Meta still refuses.
+  let sent = null;
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "wired up", params: [] }, {
+    transport: "meta",
+    env: {
+      META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1",
+      META_WHATSAPP_TEMPLATE: "amendment_deadline",
+      META_WHATSAPP_TEST: "true",
+    },
+    fetchImpl: async (_url, init) => {
+      sent = JSON.parse(init.body);
+      return new Response(JSON.stringify({ messages: [{ id: "wamid.1" }] }), { status: 200 });
+    },
+  }).then((results) => {
+    assert(results[0].ok, `test send failed: ${results[0].error}`);
+    assert(sent.template.name === "hello_world", `used ${sent.template.name}, not hello_world`);
+    assert(sent.template.language.code === "en_US", `language was ${sent.template.language.code}, not en_US`);
+    assert(!sent.template.components, "sent a body component for a template that takes none");
+  });
+});
+
 await check("Meta's 24-hour refusal explains itself", () => {
   return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "hello", params: [] }, {
     transport: "meta",

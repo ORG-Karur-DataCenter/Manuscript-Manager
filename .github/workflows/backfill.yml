@@ -136,6 +136,11 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GCHAT_WEBHOOK_URL: ${{ secrets.GCHAT_WEBHOOK_URL }}
+          META_WHATSAPP_TOKEN: ${{ secrets.META_WHATSAPP_TOKEN }}
+          META_WHATSAPP_PHONE_ID: ${{ secrets.META_WHATSAPP_PHONE_ID }}
+          META_WHATSAPP_TEMPLATE: ${{ secrets.META_WHATSAPP_TEMPLATE }}
+          META_WHATSAPP_LANGUAGE: ${{ vars.META_WHATSAPP_LANGUAGE || 'en' }}
+          META_API_VERSION: ${{ vars.META_API_VERSION || 'v21.0' }}
         run: npm run notify
 
       - name: Record what was sent

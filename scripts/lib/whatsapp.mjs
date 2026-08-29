@@ -284,6 +284,15 @@ const TRANSPORTS = {
       const notInAllowList =
         /131030|not in allowed list/i.test(body);
 
+      // The two template failures, neither of which says what is wrong.
+      // 132001 is also what a template still in review looks like: to the
+      // API it simply does not exist yet.
+      const noSuchTemplate =
+        /132001|does not exist in|template name does not exist/i.test(body);
+
+      const wrongParamCount =
+        /132000|number of parameters/i.test(body);
+
       throw new Error(
         `Meta returned ${res.status}: ${body.slice(0, 200)}` +
           (outsideWindow && !templateName
@@ -292,6 +301,14 @@ const TRANSPORTS = {
             : notInAllowList
             ? ` — ${recipient.name}'s number is not on the test number's recipient list. ` +
               "Add and verify it under WhatsApp -> API Setup -> To."
+            : noSuchTemplate
+            ? ` — Meta has no APPROVED template named "${templateName}" in language "${languageCode}". ` +
+              "A template still in review does not exist yet as far as the API is concerned, so check " +
+              "its status in WhatsApp Manager. If it says approved, the language code is the other " +
+              "suspect: it must match exactly, and hello_world is en_US rather than en."
+            : wrongParamCount
+            ? ` — "${templateName}" was sent the wrong number of parameters. ` +
+              "The reminder template declares five; hello_world declares none."
             : badVersion
             ? ` — the Graph API version (${version}) may have been retired. ` +
               "Set META_API_VERSION to the version shown in the dashboard's API Setup sample request."
