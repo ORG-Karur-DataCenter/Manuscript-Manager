@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T20:59:32.851Z",
+  "generatedAt": "2026-08-29T23:21:59.354Z",
   "manuscripts": [
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
@@ -1431,6 +1431,73 @@
       ],
       "createdAt": "2026-08-28T19:27:53.000Z",
       "updatedAt": "2026-08-28T19:27:53.000Z"
+    },
+    {
+      "id": "ferroptosis-in-osteoarthritis-a-novel-mechanism-of-chondrocyte-death",
+      "title": "Ferroptosis in Osteoarthritis: A Novel Mechanism of Chondrocyte Death",
+      "titleNormalized": "ferroptosis in osteoarthritis a novel mechanism of chondrocyte death",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Cartilage",
+      "currentManuscriptNumber": "CART-26-0179",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Cartilage",
+          "manuscriptNumber": "CART-26-0179",
+          "submittedDate": "2026-08-28T18:41:49.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-28T18:41:49.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Cartilage acknowledged the successful submission of manuscript CART-26-0179.",
+              "manuscriptNumber": "CART-26-0179",
+              "source": {
+                "threadId": "1a049ad9e8489bb3",
+                "messageId": "1a049ad9e8489bb3",
+                "subject": "Cartilage  CART-26-0179",
+                "from": "Cartilage <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-28T18:41:49.000Z",
+          "journal": "Cartilage",
+          "eventType": "new_submission",
+          "manuscriptNumber": "CART-26-0179",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Cartilage acknowledged the successful submission of manuscript CART-26-0179.",
+          "source": {
+            "threadId": "1a049ad9e8489bb3",
+            "messageId": "1a049ad9e8489bb3",
+            "subject": "Cartilage  CART-26-0179",
+            "from": "Cartilage <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-28T18:41:49.000Z",
+      "updatedAt": "2026-08-28T18:41:49.000Z"
     },
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
