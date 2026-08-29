@@ -127,8 +127,12 @@ In the repo: **Settings → Secrets and variables → Actions → New repository
 | `CEREBRAS_API_KEY` | <https://cloud.cerebras.ai/> |
 | `GROQ_API_KEY` | <https://console.groq.com/keys> |
 
-Also enable Actions write access: **Settings → Actions → General → Workflow
-permissions → Read and write permissions.**
+Leave **Settings → Actions → General → Workflow permissions** on the default
+**"Read repository contents and packages permissions"**. Each workflow here
+declares the access it actually needs — `contents: write` to commit a sync,
+`issues: write` to open a deadline issue — which overrides that default for
+that workflow alone. Switching the repository-wide setting to read/write would
+grant every future workflow more than it needs, for no benefit.
 
 ### 4. Turn on GitHub Pages
 

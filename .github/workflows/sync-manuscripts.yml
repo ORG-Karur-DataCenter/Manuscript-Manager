@@ -25,6 +25,10 @@ on:
         description: "LLM budget for this run"
         required: false
         default: "60"
+      max_messages:
+        description: "Messages to fetch per mailbox. Raise for a backfill; a month of mail is well over the default."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -75,7 +79,10 @@ jobs:
           SYNC_UNTIL: ${{ inputs.sync_until }}
           SYNC_RESCAN: ${{ inputs.rescan }}
           # A sweep spans weeks, so the per-run fetch cap has to widen with it.
-          MAX_MESSAGES_PER_RUN: ${{ inputs.sync_since && '400' || '150' }}
+          # Most of what it fetches costs nothing: the keyword prefilter throws
+          # out the newsletters and alerts without an LLM call, so a wide fetch
+          # with a small classification budget is the cheap combination.
+          MAX_MESSAGES_PER_RUN: ${{ inputs.max_messages || (inputs.sync_since && '400') || '150' }}
         run: npm run sync
 
       # After the sync, so a letter that lands at nine is a message on a phone
