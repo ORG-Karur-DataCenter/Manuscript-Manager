@@ -1,4 +1,40 @@
 {
   "sent": [],
-  "issues": {}
+  "issues": {
+    "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa": {
+      "number": 9,
+      "title": "Amendment 16 days overdue — Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery -…",
+      "due": "2026-08-13T18:29:59.999Z"
+    },
+    "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-": {
+      "number": 10,
+      "title": "Amendment 10 days overdue — National and subnational burden of low back pain in India, 1990–2023:…",
+      "due": "2026-08-19T18:29:59.999Z"
+    },
+    "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s": {
+      "number": 11,
+      "title": "Amendment 2 days left — Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A…",
+      "due": "2026-08-31T18:29:59.999Z"
+    },
+    "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-": {
+      "number": 12,
+      "title": "Amendment 3 days left — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
+      "due": "2026-09-01T18:29:59.999Z"
+    },
+    "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s": {
+      "number": 13,
+      "title": "Amendment 5 days left — Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A…",
+      "due": "2026-09-03T18:29:59.999Z"
+    },
+    "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-": {
+      "number": 14,
+      "title": "Amendment 5 days left — Minimally invasive lumbar spine surgery preserves functional recovery…",
+      "due": "2026-09-03T18:29:59.999Z"
+    },
+    "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
+      "number": 15,
+      "title": "Amendment 13 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "due": "2026-09-11T18:29:59.999Z"
+    }
+  }
 }
