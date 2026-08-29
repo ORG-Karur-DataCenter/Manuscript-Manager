@@ -396,19 +396,38 @@ token does not expire unless revoked.
 **5. Create the template.** Meta only accepts free-form text within 24 hours of
 someone messaging you, and nobody replies to a deadline reminder — so every
 reminder needs a template. WhatsApp Manager → **Message templates** → Create,
-category **Utility**, with one body:
+category **Utility**, language **English**, named `amendment_deadline`. No
+header, no footer, no buttons. One body:
 
 ```
-{{1}} is {{2}}.
+Manuscript deadline alert.
 
+Status: {{1}}
+Time left: {{2}}
 Manuscript: {{3}}
 Journal: {{4}}
 Due: {{5}}
+
+Sent automatically by Manuscript Manager.
 ```
 
-which fills in as *"Amendment due is 3 days left. Manuscript: … Journal: …
-Due: Tue 1 Sept (estimated)"*. Utility templates are usually approved within
-minutes.
+The plain sentences at the top and bottom are not decoration. Meta refuses a
+body that **begins or ends with a variable** — a "dangling parameter" — and
+prefers each one introduced by a label saying what it is, so `Status: {{1}}`
+passes review where a bare `{{1}}` does not.
+
+Review asks for a sample of each variable. These match what the code actually
+sends, in this order:
+
+| | |
+| --- | --- |
+| `{{1}}` | `Amendment overdue` |
+| `{{2}}` | `3 days left` |
+| `{{3}}` | `Obesity in adult spinal deformity surgery` |
+| `{{4}}` | `Clinical Spine Surgery` |
+| `{{5}}` | `Tue 1 Sep (estimated)` |
+
+Utility templates are usually approved within minutes.
 
 **6. Add the secrets**, then set the repository variable
 `WHATSAPP_TRANSPORT` to `meta`:

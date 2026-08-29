@@ -161,6 +161,11 @@ const TRANSPORTS = {
    *   {{3}} the manuscript      title, shortened
    *   {{4}} the journal
    *   {{5}} the due date        e.g. "Tue 1 Sept (estimated)"
+   *
+   * Meta REFUSES a body that begins or ends with a placeholder -- a "dangling
+   * parameter" -- and wants each one introduced by a label. So the approved
+   * body wraps them in plain sentences; see the README for the exact text. If
+   * a sixth parameter is ever added here, it has to go in the middle.
    */
   async meta(recipient, message, { env, fetchImpl }) {
     const token = env.META_WHATSAPP_TOKEN;
