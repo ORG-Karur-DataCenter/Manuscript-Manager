@@ -44,7 +44,15 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      # Check out the branch as it is when this run STARTS, not the commit that
+      # triggered it. Runs of this workflow queue behind one another, and each
+      # one commits; without this a queued run checks out data from before the
+      # run ahead of it committed, then has to rebase a whole rewritten JSON
+      # file onto it -- which conflicts, and the retry loop gives up and throws
+      # the run's classification work away.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-node@v4
         with:
