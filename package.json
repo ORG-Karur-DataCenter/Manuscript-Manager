@@ -3,13 +3,27 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Gmail-driven manuscript submission tracker: syncs journal correspondence into a status dashboard.",
+  "description": "Gmail-driven manuscript submission tracker: syncs journal correspondence into a status dashboard, classified by free-tier LLMs.",
   "scripts": {
     "sync": "node scripts/sync-gmail.mjs",
-    "get-refresh-token": "node scripts/get-refresh-token.mjs"
+    "get-refresh-token": "node scripts/get-refresh-token.mjs",
+    "check-classifier": "node scripts/check-classifier.mjs",
+    "check-registry": "node scripts/check-registry.mjs",
+    "dump-candidates": "node scripts/dump-candidates.mjs",
+    "get-outlook-token": "node scripts/get-outlook-token.mjs",
+    "check-timestamps": "node scripts/check-timestamps.mjs",
+    "check-worker": "node scripts/check-worker.mjs",
+    "check-editing": "node scripts/check-editing.mjs",
+    "check": "npm run check-registry && npm run check-timestamps && npm run check-worker && npm run check-notify && npm run check-stamp && npm run check-editing",
+    "notify": "node scripts/notify.mjs",
+    "check-notify": "node scripts/check-notify.mjs",
+    "stamp": "node scripts/stamp-assets.mjs",
+    "check-stamp": "node scripts/stamp-assets.mjs --check"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.32.1",
     "googleapis": "^144.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
   }
 }

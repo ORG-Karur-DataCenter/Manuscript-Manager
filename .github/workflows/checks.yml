@@ -1,0 +1,44 @@
+name: Checks
+
+# The offline checks: how emails fold into a record, how a manual edit
+# overrides one, the sync proxy, and the dashboard's edit form in a real
+# browser. None of them touch Gmail, GitHub or an LLM, so they can run on
+# every push without a single secret.
+#
+# The one they exist for above all: the edit rules live twice -- in
+# scripts/lib/registry.mjs for the sync, and again in worker/src/index.js,
+# because a Cloudflare Worker is deployed alone and cannot import from the
+# repo. check-worker runs the same edits through both and fails if they have
+# drifted apart, which is otherwise a silent failure.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: npm install
+
+      - name: The registry, and manual edits
+        run: npm run check-registry
+
+      - name: Message timestamps
+        run: npm run check-timestamps
+
+      - name: The sync proxy
+        run: npm run check-worker
+
+      # Only Chromium, and only when the browser checks are about to run.
+      - name: Install a browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Editing, end to end
+        run: npm run check-editing

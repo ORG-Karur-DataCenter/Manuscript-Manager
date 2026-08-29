@@ -1,0 +1,16 @@
+{
+  "_comment": [
+    "When to send WhatsApp reminders. Phone numbers are NOT here — they live in",
+    "the WHATSAPP_RECIPIENTS secret, because this repository is public and a",
+    "published number cannot be revoked the way a token can.",
+    "",
+    "eventTypes: add \"revision_requested\" to be reminded about post-review",
+    "revisions as well as pre-review amendments.",
+    "remindAt: days remaining at which to send. null means 'when first seen'."
+  ],
+  "eventTypes": ["sent_back"],
+  "remindAt": [null, 3, 1],
+  "remindWhenOverdue": true,
+  "ignoreOlderThanDays": 30,
+  "dashboardUrl": "https://org-karur-datacenter.github.io/Manuscript-Manager/#needs_action"
+}

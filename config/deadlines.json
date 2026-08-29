@@ -1,0 +1,29 @@
+{
+  "_comment": [
+    "How long a journal gives an author to return an amendment, when the email",
+    "does not say. These are ASSUMPTIONS: anything derived from them is marked",
+    "'assumed' in the tracker and reads as 'assumed, not stated by the journal'",
+    "wherever it is shown. A date the email states always wins over this table.",
+    "",
+    "Journal names are matched loosely, so 'International Orthopaedics' also",
+    "catches 'International Orthopaedics (SICOT)'. Correct a number here when",
+    "you learn a journal's real window."
+  ],
+  "defaultDays": 7,
+  "journalDays": {
+    "International Orthopaedics": 7,
+    "European Spine Journal": 7,
+    "Global Spine Journal": 14,
+    "JBJS Open Access": 14,
+    "Asian Spine Journal": 7,
+    "Journal of Orthopaedic Surgery and Research": 5,
+    "Stem Cell Research & Therapy": 5,
+    "Biomarker Research": 5,
+    "Cell and Tissue Research": 7,
+    "Journal of Epidemiology & Community Health": 14,
+    "International Journal of Mental Health Systems": 5,
+    "World Journal of Orthopedics": 10,
+    "World Journal of Stem Cells": 10,
+    "Meta-Radiology": 7
+  }
+}

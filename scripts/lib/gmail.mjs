@@ -1,4 +1,5 @@
 import { google } from "googleapis";
+import { stripHtml, eventTimestamp } from "./text.mjs";
 
 export function buildGmailClient({ clientId, clientSecret, refreshToken }) {
   const oauth2Client = new google.auth.OAuth2(clientId, clientSecret);
@@ -9,24 +10,6 @@ export function buildGmailClient({ clientId, clientSecret, refreshToken }) {
 function decodeBase64Url(data) {
   if (!data) return "";
   return Buffer.from(data, "base64url").toString("utf-8");
-}
-
-function stripHtml(html) {
-  return html
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/p>/gi, "\n")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/[ \t]+/g, " ")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
 }
 
 function extractBody(payload) {
@@ -95,7 +78,13 @@ export async function fetchNewMessages(gmail, { query, seenIds, maxResults = 150
       from: getHeader(headers, "From"),
       to: getHeader(headers, "To"),
       date: getHeader(headers, "Date"),
-      internalDate: data.internalDate
+      // Not simply data.internalDate: mail imported from another account is
+      // delivered today but happened months ago. See eventTimestamp.
+      internalDate: eventTimestamp(data.internalDate, getHeader(headers, "Date")),
+      // Delivery time, kept separate from the event time above. The sync
+      // window is a position in this mailbox's delivery order, so an imported
+      // five-month-old message must not drag it five months backwards.
+      receivedAt: data.internalDate
         ? new Date(Number(data.internalDate)).toISOString()
         : new Date().toISOString(),
       text: extractBody(data.payload).slice(0, 12000),

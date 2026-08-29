@@ -47,6 +47,34 @@ export function titleSimilarity(a, b) {
 
 const MATCH_THRESHOLD = 0.82;
 
+/**
+ * Fields a person may set by hand, overriding whatever the classifier reads
+ * from the email. Each is mirrored onto the manuscript so the rest of the app
+ * and the dashboard need no special case -- the override is the record of
+ * WHY the value is what it is, and the guarantee that a later email will not
+ * quietly undo it.
+ *
+ * This list is duplicated in worker/src/index.js, which applies edits without
+ * being able to import from here. Keep the two in step.
+ */
+export const OVERRIDABLE = [
+  "bucket",
+  "title",
+  "currentJournal",
+  "currentStatus",
+  "currentManuscriptNumber",
+  "deadline",
+  "doi",
+  "publicationLink",
+  "notes",
+];
+
+/** True when a person has pinned this field, so an event must leave it alone. */
+export function isPinned(manuscript, field) {
+  const o = manuscript && manuscript.overrides;
+  return Boolean(o && Object.prototype.hasOwnProperty.call(o, field));
+}
+
 function findByManuscriptNumber(registry, journal, manuscriptNumber) {
   if (!manuscriptNumber || !journal) return null;
   const j = journal.trim().toLowerCase();
@@ -65,14 +93,22 @@ function findByManuscriptNumber(registry, journal, manuscriptNumber) {
   return null;
 }
 
+/**
+ * Matches on every title a manuscript has been known by, not just its current
+ * one. Journals keep sending the title they were given, so once someone
+ * corrects a title by hand the old wording has to keep matching -- otherwise
+ * the next email opens a second record and the history splits in two.
+ */
 function findByTitle(registry, title) {
   let best = null;
   let bestScore = 0;
   for (const m of registry.manuscripts) {
-    const score = titleSimilarity(m.title, title);
-    if (score > bestScore) {
-      bestScore = score;
-      best = m;
+    for (const known of [m.title, ...(m.titleAliases || [])]) {
+      const score = titleSimilarity(known, title);
+      if (score > bestScore) {
+        bestScore = score;
+        best = m;
+      }
     }
   }
   return bestScore >= MATCH_THRESHOLD ? best : null;
@@ -119,14 +155,62 @@ function bucketForEvent(eventType) {
 /**
  * Applies one classified email event to the registry in place.
  * event: { title, journal, manuscriptNumber, eventType, revisionRound, doi,
- *          publicationLink, summary, timestamp, authorAccount, source }
+ *          publicationLink, summary, timestamp, authorAccount, source, needsReview }
  */
 export function applyEvent(registry, event) {
   let manuscript =
     findByManuscriptNumber(registry, event.journal, event.manuscriptNumber) ||
     findByTitle(registry, event.title);
 
+  // One email describes one event. The sync window deliberately overlaps and a
+  // re-import or a replayed run can present the same message twice, so filing
+  // by message id keeps the timeline honest instead of accumulating duplicates.
+  const messageId = event.source?.messageId;
+  if (manuscript && messageId) {
+    const seen = (manuscript.timeline || []).some((t) => t.source?.messageId === messageId);
+    if (seen) return manuscript;
+  }
+
   const now = event.timestamp;
+
+  // The same notice can arrive twice with different message ids -- forwarded
+  // from another mailbox, or sent by the journal to two co-authors who both
+  // have inboxes here. The id check above cannot see that, so fall back to
+  // what the event says: the same outcome, at the same journal, on the same
+  // day is one event reported twice.
+  //
+  // Two exceptions keep this from losing real information. Differing
+  // manuscript numbers mean two different papers, however alike the notices
+  // look -- that alone would have merged World Journal of Orthopedics 116723
+  // with 119301. And a duplicate still carries facts worth keeping: the
+  // second copy is often the one bearing the DOI.
+  if (manuscript) {
+    const day = new Date(now).toISOString().slice(0, 10);
+    const j = (event.journal || "").trim().toLowerCase();
+    const num = (event.manuscriptNumber || "").trim().toLowerCase();
+    const twin = (manuscript.timeline || []).find((t) => {
+      if (t.eventType !== event.eventType) return false;
+      if ((t.journal || "").trim().toLowerCase() !== j) return false;
+      return new Date(t.timestamp).toISOString().slice(0, 10) === day;
+    });
+    if (twin) {
+      const twinNum = (twin.manuscriptNumber || "").trim().toLowerCase();
+      const differentPapers = num && twinNum && num !== twinNum;
+      if (!differentPapers) {
+        if (event.doi) manuscript.doi = event.doi;
+        if (event.publicationLink) manuscript.publicationLink = event.publicationLink;
+        for (const sub of manuscript.submissions) {
+          if (sub.journal.trim().toLowerCase() !== j) continue;
+          if (event.doi) sub.doi = event.doi;
+          if (event.publicationLink) sub.publicationLink = event.publicationLink;
+          if (!sub.manuscriptNumber && event.manuscriptNumber) {
+            sub.manuscriptNumber = event.manuscriptNumber;
+          }
+        }
+        return manuscript;
+      }
+    }
+  }
 
   if (!manuscript) {
     manuscript = {
@@ -134,12 +218,15 @@ export function applyEvent(registry, event) {
       title: event.title,
       titleNormalized: normalizeTitle(event.title),
       bucket: "submissions",
+      needsReview: false,
       needsActionReason: null,
       actionFlag: false,
       actionLabel: null,
       currentJournal: null,
       currentManuscriptNumber: null,
       currentStatus: null,
+      deadline: null,
+      deadlineSource: null,
       doi: null,
       publicationLink: null,
       authorAccounts: [],
@@ -165,7 +252,19 @@ export function applyEvent(registry, event) {
   }
 
   let submission = findActiveSubmission(manuscript, event.journal);
-  if (!submission) {
+
+  // "other" is the classifier's shrug: a manuscript-status mail it could not
+  // place. Opening a fresh live submission from one is how a transfer OFFER
+  // from a journal that already rejected the paper becomes a phantom active
+  // submission there, lifting a dead paper out of needs_action. Attach it to
+  // the last submission at that journal instead, or to the timeline alone.
+  if (!submission && event.eventType === "other") {
+    const j = event.journal.trim().toLowerCase();
+    const prior = manuscript.submissions.filter((s) => s.journal.trim().toLowerCase() === j);
+    submission = prior[prior.length - 1] || null;
+  }
+
+  if (!submission && event.eventType !== "other") {
     submission = {
       journal: event.journal,
       manuscriptNumber: event.manuscriptNumber || null,
@@ -179,56 +278,206 @@ export function applyEvent(registry, event) {
     manuscript.submissions.push(submission);
   }
 
-  submission.manuscriptNumber = event.manuscriptNumber || submission.manuscriptNumber;
-  submission.status = event.eventType;
-  if (event.doi) submission.doi = event.doi;
-  if (event.publicationLink) submission.publicationLink = event.publicationLink;
-  if (event.eventType === "rejected") submission.outcome = "rejected";
-  if (event.eventType === "published") submission.outcome = "published";
+  if (submission) {
+    submission.manuscriptNumber = event.manuscriptNumber || submission.manuscriptNumber;
+    if (event.eventType !== "other") submission.status = event.eventType;
+    if (event.doi) submission.doi = event.doi;
+    if (event.publicationLink) submission.publicationLink = event.publicationLink;
+    if (event.eventType === "rejected") submission.outcome = "rejected";
+    if (event.eventType === "published") submission.outcome = "published";
 
-  submission.statusHistory.push({
-    timestamp: now,
-    eventType: event.eventType,
-    revisionRound: event.revisionRound || null,
-    note: event.summary || "",
-    manuscriptNumber: event.manuscriptNumber || null,
-    source: event.source,
-  });
+    submission.statusHistory.push({
+      timestamp: now,
+      eventType: event.eventType,
+      revisionRound: event.revisionRound || null,
+      note: event.summary || "",
+      manuscriptNumber: event.manuscriptNumber || null,
+      source: event.source,
+    });
+  }
 
   manuscript.timeline.push({
     timestamp: now,
     journal: event.journal,
     eventType: event.eventType,
+    manuscriptNumber: event.manuscriptNumber || null,
     label: STATUS_LABELS[event.eventType] || event.eventType,
     revisionRound: event.revisionRound || null,
+    deadline: event.deadline || null,
     note: event.summary || "",
     source: event.source,
+    needsReview: event.needsReview || false,
   });
+
+  // Sticky: once the two classifiers disagreed about this manuscript, it stays
+  // flagged until a human clears it, even if later events land cleanly.
+  if (event.needsReview) manuscript.needsReview = true;
   manuscript.timeline.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
 
   // Title may be reformatted slightly journal to journal — keep the longest/most complete version.
-  if (event.title && event.title.length > manuscript.title.length) {
+  // Unless someone has corrected it by hand, in which case theirs stands.
+  if (!isPinned(manuscript, "title") && event.title && event.title.length > manuscript.title.length) {
     manuscript.title = event.title;
     manuscript.titleNormalized = normalizeTitle(event.title);
   }
 
-  const derived = bucketForEvent(event.eventType);
-  if (derived) {
-    manuscript.bucket = derived.bucket;
-    manuscript.needsActionReason = derived.needsActionReason;
+  // A backfilled event can land after later ones were already recorded, so
+  // sort here too rather than relying on arrival order.
+  if (submission) {
+    submission.statusHistory.sort(
+      (a, b) => new Date(a.timestamp) - new Date(b.timestamp)
+    );
   }
-  manuscript.actionFlag = event.eventType === "revision_requested";
-  manuscript.actionLabel =
-    event.eventType === "revision_requested"
-      ? `Revision ${event.revisionRound || ""} requested`.trim()
-      : null;
 
-  manuscript.currentJournal = submission.journal;
-  manuscript.currentManuscriptNumber = submission.manuscriptNumber;
-  manuscript.currentStatus = STATUS_LABELS[event.eventType] || event.eventType;
-  if (event.doi) manuscript.doi = event.doi;
-  if (event.publicationLink) manuscript.publicationLink = event.publicationLink;
-  manuscript.updatedAt = now;
+  // Submissions read as a chain, so keep them in the order they were made
+  // rather than the order the emails happened to be processed.
+  manuscript.submissions.sort(
+    (a, b) => new Date(a.submittedDate) - new Date(b.submittedDate)
+  );
+
+  // Where the manuscript stands *today* may only be set by its newest event.
+  // Events do arrive out of order — a historical backfill, an email deferred by
+  // a rate limit, a forwarded copy carrying the original date — and letting a
+  // stale one write current status is how a rejected paper ends up filed as
+  // "in review". Older events still join the timeline; they just don't get to
+  // speak for the present. The timeline is sorted, so the last entry is newest.
+  const newest = manuscript.timeline[manuscript.timeline.length - 1];
+  const isNewest = new Date(now).getTime() >= new Date(newest.timestamp).getTime();
+
+  if (isNewest) {
+    const derived = bucketForEvent(event.eventType);
+    // A section chosen by hand outranks the one inferred from the email. The
+    // event still joins the timeline; it just does not get to move the card.
+    if (derived && !isPinned(manuscript, "bucket")) {
+      manuscript.bucket = derived.bucket;
+      manuscript.needsActionReason = derived.needsActionReason;
+    }
+    // What the person actually has to do something about. Amendments belong
+    // here as much as revisions do -- more, in fact, since they run on a clock
+    // of five to fourteen days and a missed one withdraws the submission. They
+    // were previously left unflagged, which is why some sat unnoticed.
+    const ACTION_NEEDED = { revision_requested: true, sent_back: true };
+    manuscript.actionFlag = Boolean(ACTION_NEEDED[event.eventType]);
+    manuscript.actionLabel =
+      event.eventType === "revision_requested"
+        ? `Revision ${event.revisionRound || ""} requested`.trim()
+        : event.eventType === "sent_back"
+        ? "Amendments requested"
+        : null;
+
+    // The deadline follows the event that set it, and is cleared by any event
+    // that ends the obligation -- the author has resubmitted, or the journal
+    // has moved on. Leaving a stale date behind would go on raising alarms
+    // about work that is already done.
+    // Held flat -- an ISO date and, separately, where it came from -- so that
+    // correcting one by hand is an ordinary text edit like any other field.
+    // A hand-set date is pinned, and a pinned date outranks anything an email
+    // says, so provenance is left alone as well.
+    if (!isPinned(manuscript, "deadline")) {
+      const set = ACTION_NEEDED[event.eventType] ? event.deadline : null;
+      manuscript.deadline = set ? set.due : null;
+      manuscript.deadlineSource = set ? set.source : null;
+    }
+
+    // "other" means the classifier could not place the email. bucketForEvent
+    // already refuses to move the bucket for it; current status follows the
+    // same principle, or a real "Rejected" gets overwritten with "Update".
+    if (submission && event.eventType !== "other") {
+      if (!isPinned(manuscript, "currentJournal")) manuscript.currentJournal = submission.journal;
+      if (!isPinned(manuscript, "currentManuscriptNumber")) {
+        manuscript.currentManuscriptNumber = submission.manuscriptNumber;
+      }
+      if (!isPinned(manuscript, "currentStatus")) {
+        manuscript.currentStatus = STATUS_LABELS[event.eventType] || event.eventType;
+      }
+    }
+  }
+
+  // A DOI or article link is a fact about the manuscript, not a status, so it
+  // is worth keeping whenever it turns up.
+  if (event.doi && !isPinned(manuscript, "doi")) manuscript.doi = event.doi;
+  if (event.publicationLink && !isPinned(manuscript, "publicationLink")) {
+    manuscript.publicationLink = event.publicationLink;
+  }
+  manuscript.updatedAt = newest.timestamp;
 
   return manuscript;
+}
+
+/**
+ * Applies a hand edit to one manuscript, in place.
+ *
+ * Setting a field pins it: applyEvent will leave it alone from then on, so an
+ * email arriving later cannot quietly revert a correction. Passing null for a
+ * field unpins it and hands the field back to the classifier -- which is the
+ * only way out, since otherwise a single mistaken edit would be permanent.
+ *
+ * Every change is recorded with its previous value. A tracker two people rely
+ * on needs to be able to answer "who changed this and to what" months later,
+ * and the timeline is reserved for what the journals said.
+ *
+ * This logic is mirrored in worker/src/index.js, which cannot import from
+ * here. Keep the two in step.
+ */
+export function applyEdit(manuscript, patch, { at = new Date().toISOString(), by = "dashboard" } = {}) {
+  if (!manuscript) throw new Error("No manuscript to edit.");
+  manuscript.overrides ||= {};
+  manuscript.edits ||= [];
+  const changed = [];
+
+  for (const [field, raw] of Object.entries(patch || {})) {
+    if (!OVERRIDABLE.includes(field)) {
+      throw new Error(`"${field}" is not an editable field.`);
+    }
+    const value = typeof raw === "string" ? raw.trim() : raw;
+    const before = manuscript[field] ?? null;
+
+    // Null, or an emptied text box, releases the field back to automation.
+    if (value === null || value === "") {
+      if (!Object.prototype.hasOwnProperty.call(manuscript.overrides, field)) continue;
+      delete manuscript.overrides[field];
+      changed.push({ field, from: before, to: null, released: true });
+      continue;
+    }
+
+    if (before === value && isPinned(manuscript, field)) continue;
+    manuscript.overrides[field] = value;
+    manuscript[field] = value;
+    changed.push({ field, from: before, to: value });
+  }
+
+  if (!changed.length) return { manuscript, changed };
+
+  // Renaming a manuscript must keep it findable, or the next email about it
+  // opens a second record alongside the first. Journals go on sending the
+  // title they were given, so every previous title stays a matching key.
+  const renamed = changed.find((c) => c.field === "title");
+  if (renamed) {
+    manuscript.titleNormalized = normalizeTitle(manuscript.title);
+    manuscript.titleAliases ||= [];
+    const previous = renamed.from;
+    if (previous && !manuscript.titleAliases.includes(previous) && previous !== manuscript.title) {
+      manuscript.titleAliases.push(previous);
+    }
+  }
+  // A section chosen by hand carries no automated reason for being there.
+  if (changed.some((c) => c.field === "bucket" && !c.released)) {
+    manuscript.needsActionReason = null;
+    manuscript.actionFlag = false;
+    manuscript.actionLabel = null;
+    // A deadline outlives its purpose the moment the work stops being
+    // outstanding. Without this, someone who knows an amendment is done can
+    // move the card and still be left with a date counting up at them, and no
+    // way to switch it off: an emptied date box only releases a pin, so on a
+    // deadline the sync set it does nothing at all.
+    if (!isPinned(manuscript, "deadline") && manuscript.deadline) {
+      manuscript.deadline = null;
+      manuscript.deadlineSource = null;
+      changed.push({ field: "deadline", from: manuscript.deadline, to: null, clearedByMove: true });
+    }
+  }
+
+  manuscript.edits.push({ at, by, changes: changed });
+  manuscript.editedAt = at;
+  return { manuscript, changed };
 }

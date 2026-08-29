@@ -1,0 +1,386 @@
+{
+  "review": [
+    {
+      "timestamp": "2026-08-27T03:58:57.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3987, Requested 4424. Please try again in 3.0825s. Need more tokens? Upgrade to Dev Tier today at https://con | groq: HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3438, Requested 4806. Please try again in 1.83s. Need more tokens? Upgrade to Dev Tier today at https://conso | gemini-3.7-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-27T12:27:01.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9066, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "🗓 FISRM BATCH 4 | CLASS : 3 on August 27, 2026 | Read Meeting Report",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-26T09:42:46.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8176, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Your invitation to join the GSC 2027 abstract reviewing team",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-25T16:11:02.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8057, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Re: SCOPE Study-Mount Sinai",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-25T16:12:26.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8114, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex | gemini-3.7-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Re: SCOPE Study-Mount Sinai",
+      "from": "\"Isleem, Ula\" <Ula.Isleem@mountsinai.org>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-25T13:47:45.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8131, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "RE: SCOPE Study-Mount Sinai",
+      "from": "\"Isleem, Ula\" <Ula.Isleem@mountsinai.org>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-24T12:00:27.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8803, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex | gemini-3.7-flash: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Knee Osteoarthritis Management",
+      "from": "\"Madhura RJ, Ph.D.\" <madhura.rj@jove.com>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-24T12:20:40.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7585, Requested 7872. Please try again in 55.9275s. Need more tokens? Upgrade to Dev Tier today at https://co | groq: HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3572, Requested 7872. Please try again in 25.83s. Need more tokens? Upgrade to Dev Tier today at https://cons | gemini-3.7-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini-3.7-flash: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Dear Dr. Sathish Muthu How to Contribute in 4th Edition of Text Book Of Orthopedics. ? Last 2 days Monday -Tuesday to submit abstract -IOACON2026",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "timestamp": "2026-08-24T07:14:54.000Z",
+      "reason": "classification failed 3 times — last error: all providers failed — groq: HTTP 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m0pq1zecepr8mhjz5kzey7ms` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8177, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https | gemini-3.7-flash: network error: This operation was aborted | gemini-3.7-flash: network error: This operation was aborted",
+      "relevant": null,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Exclusive Webinar in Tamil | Make the Most of ONOS",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com",
+      "meta": null
+    },
+    {
+      "messageId": "19e5e1b536fac80b",
+      "timestamp": "2026-05-25T07:48:03.000Z",
+      "reason": "World Journal of Stem Cells manuscript 117689 was published online on 25 May 2026, but Baishideng's emails only ever cite the number, never the title. Identify the paper and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "World Journal of Stem Cells Manuscript Publication-Manuscript NO: 117689",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19d28b298518f6e0",
+      "timestamp": "2026-03-26T05:51:11.000Z",
+      "reason": "World Journal of Radiology manuscript 116736 was published online on 26 Mar 2026, but Baishideng's emails only ever cite the number, never the title. Identify the paper and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "World Journal of Radiology Manuscript Publication-Manuscript NO: 116736",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19da036c27811571",
+      "timestamp": "2026-04-18T10:50:36.000Z",
+      "reason": "Submission notice for \"Personalizing Regenerative Medicine for Knee Osteoarthritis: The AI Revolution\" but the email never names the journal, so it cannot be filed. Identify the journal and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": "Personalizing Regenerative Medicine for Knee Osteoarthritis: The AI Revolution",
+      "journal": null,
+      "subject": "Confirm co-authorship of submission to Engineering",
+      "from": "Engineering <em@editorialmanager.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19cf5802b2c7558d",
+      "timestamp": "2026-03-16T07:15:42.000Z",
+      "reason": "Amendment notice that could not be filed: the journal is not named. Subject: Re: npj Digital Medicine-Amendment required",
+      "relevant": false,
+      "eventType": null,
+      "title": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews: A PRISMA‑trAIce Compliant Evaluation Running Title: Agentic AI in Systematic Reviews",
+      "journal": null,
+      "subject": "Re: npj Digital Medicine-Amendment required",
+      "from": "Springer Nature Submissions <shalini.v@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19cc40441e3a4216",
+      "timestamp": "2026-03-06T16:38:58.000Z",
+      "reason": "Amendment notice that could not be filed: no manuscript title in the email. Subject: Global Spine Journal  GSJ-26-0449",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Global Spine Journal  GSJ-26-0449",
+      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19d252dff225f88a",
+      "timestamp": "2026-03-25T13:27:43.000Z",
+      "reason": "Submission notice for \"Spatial Multi-omics in Osteoarthritis: From Molecular Maps to Precision Medicine\" but the email never names the journal, so it cannot be filed. Identify the journal and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": "Spatial Multi-omics in Osteoarthritis: From Molecular Maps to Precision Medicine",
+      "journal": null,
+      "subject": "npj Systems Biology and Applications - Receipt of Manuscript 'Spatial Multi-omics in...'",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19f6c70f82eeba43",
+      "timestamp": "2026-07-16T19:39:30.000Z",
+      "reason": "Submission notice for \"Generative AI and Large Language Models in Orthopaedic Clinical Decision Support and Patie\" but the email never names the journal, so it cannot be filed. Identify the journal and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": "Generative AI and Large Language Models in Orthopaedic Clinical Decision Support and Patient Triage",
+      "journal": null,
+      "subject": "Track the status of your manuscript",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "messageId": "19f614aa9ffb5468",
+      "timestamp": "2026-07-14T15:41:49.000Z",
+      "reason": "Submission notice for \"Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underly\" but the email never names the journal, so it cannot be filed. Identify the journal and add it.",
+      "relevant": false,
+      "eventType": null,
+      "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
+      "journal": null,
+      "subject": "Track the status of your manuscript",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-21T04:46:52.000Z",
+      "reason": "Springer's notification names only the publisher, not the journal. Correct the journal before relying on this record.",
+      "relevant": true,
+      "eventType": "new_submission",
+      "title": "Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis",
+      "journal": "Springer Nature",
+      "subject": "Track the status of your manuscript",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-21T04:45:31.000Z",
+      "reason": "Publisher offered a transfer to another journal after rejection. Not filed as an event: the rejection already sets the status, and filing it would open a phantom 'active' submission at the journal that just rejected it. Still worth acting on.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Journal recommendations for Is motion preservation with three-level hybrid cervical surgery achieved without compromising clinical outcomes? A systematic review and meta-analysis",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-20T12:04:23.000Z",
+      "reason": "Springer 'you started a submission' notice carries no manuscript title, so nothing can be filed. Check whether this submission was ever completed.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "You started a submission to International Orthopaedics",
+      "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-20T12:03:48.000Z",
+      "reason": "Springer 'you started a submission' notice carries no manuscript title, so nothing can be filed. Check whether this submission was ever completed.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "You started a submission to Archives of Orthopaedic and Trauma Surgery",
+      "from": "Archives of Orthopaedic and Trauma Surgery <vinothkumar.raji@springernature.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-20T07:05:23.000Z",
+      "reason": "Publisher offered a transfer to another journal after rejection. Not filed as an event: the rejection already sets the status, and filing it would open a phantom 'active' submission at the journal that just rejected it. Still worth acting on.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-18T07:14:27.000Z",
+      "reason": "World Journal of Radiology invited-title proposal (ID 05395420) acknowledged then declined. A title proposal, not a manuscript submission, so not filed.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Number ID: 05395420 World Journal of Radiology decline letter for the submitted manuscript title",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-17T13:22:21.000Z",
+      "reason": "World Journal of Radiology invited-title proposal (ID 05395420) acknowledged then declined. A title proposal, not a manuscript submission, so not filed.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Number ID: 05395420 World Journal of Radiology reply letter to confirm receipt of the submitted manuscript title",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "Sathish Muthu",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-07-13T06:26:37.000Z",
+      "reason": "Third reminder to complete the transfer of bmjment-2026-302923 (Substance Use / Spinal Cord Injury) to BMJ Connections Mental Health after its rejection on 13 Jun. Reminders on 23 Jun, 3 Jul and 13 Jul all went unanswered — the paper has been in limbo for over a month. Not filed as an event because the rejection already sets its status.",
+      "relevant": false,
+      "eventType": null,
+      "title": null,
+      "journal": null,
+      "subject": "Reminder: Complete your transfer to BMJ Connections Mental Health",
+      "from": "onbehalfof@manuscriptcentral.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-05-03T09:29:19.000Z",
+      "reason": "Springer truncated the title in the subject and the body gives no full title (it reads 'Is Is Three-Level...'). The title recorded here is a reconstruction — correct it, and check whether this is a companion to the GSJ-25-2098 three-level hybrid paper or a separate submission.",
+      "relevant": true,
+      "eventType": "new_submission",
+      "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Anterior Cervical Discectomy and Fusion?",
+      "journal": "International Orthopaedics",
+      "subject": "International Orthopaedics - Receipt of Manuscript 'Is Is Three-Level...'",
+      "from": "do-not-reply@springernature.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-07-26T17:41:34.000Z",
+      "reason": "Salutation reads 'Dear Dr Subramanian' but the mail arrived in Dhibin's inbox; worth confirming the co-author list is right before trusting this record.",
+      "relevant": true,
+      "eventType": "new_submission",
+      "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
+      "journal": "Clinical Spine Surgery",
+      "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+      "from": "em@editorialmanager.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy",
+      "meta": {
+        "via": "offline-import"
+      }
+    },
+    {
+      "timestamp": "2026-08-20T12:38:16.000Z",
+      "reason": "Springer's notification never names the journal, only the publisher. The journal field is a placeholder and should be corrected, since journal identity drives resubmission matching.",
+      "relevant": true,
+      "eventType": "new_submission",
+      "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
+      "journal": "Springer Nature",
+      "subject": "Track the status of your manuscript",
+      "from": "do-not-reply@springernature.com",
+      "account": "Dhibin Vikash Kolarpatti Ponnusamy",
+      "meta": {
+        "via": "offline-import"
+      }
+    }
+  ]
+}

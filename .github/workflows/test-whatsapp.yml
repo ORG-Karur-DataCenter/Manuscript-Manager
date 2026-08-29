@@ -1,0 +1,127 @@
+name: Test WhatsApp reminders
+
+# A button for checking the reminder wiring without a laptop. Open the Actions
+# tab on a phone, pick this workflow, "Run workflow", choose what to do.
+#
+# It exists because the failure it diagnoses is silent by nature: if the
+# messages simply never arrive, nothing anywhere says so, and the first sign
+# would be a missed deadline.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to do"
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run          # show what would be sent, send nothing
+          - send-test        # send one short test message to everybody
+          - send-real        # send any reminders that are genuinely due
+
+      transport:
+        description: "Which service to send through"
+        required: false
+        default: "meta"
+        type: choice
+        options:
+          - callmebot
+          - twilio
+          - meta
+
+permissions:
+  # send-real records which issues it opened; without committing that, the next
+  # run would open a second issue for every amendment.
+  contents: write
+  issues: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: npm install --omit=dev
+
+      - name: Report what is configured
+        env:
+          WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
+        # Names and whether a key is present -- never the numbers or the keys
+        # themselves, since workflow logs on a public repository are public.
+        run: |
+          if [ -z "$WHATSAPP_RECIPIENTS" ]; then
+            echo "::warning::WHATSAPP_RECIPIENTS is not set, so nobody can be messaged."
+            echo "Add it under Settings -> Secrets and variables -> Actions."
+          else
+            node -e '
+              const { readRecipients } = await import("./scripts/lib/whatsapp.mjs");
+              const list = readRecipients();
+              console.log(`${list.length} recipient(s) configured:`);
+              for (const r of list) {
+                console.log(`  ${r.name}: number ends ${r.phone.slice(-4)}, ` +
+                  (r.apiKey
+                    ? `key present (${r.apiKey.length} characters)`
+                    : "NO KEY"));
+              }
+            ' --input-type=module
+          fi
+
+      - name: Run
+        env:
+          WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
+          WHATSAPP_TRANSPORT: ${{ inputs.transport }}
+
+          META_WHATSAPP_TEST: ${{ inputs.mode == 'send-test' }}
+
+          META_WHATSAPP_TOKEN: ${{ secrets.META_WHATSAPP_TOKEN }}
+          META_WHATSAPP_PHONE_ID: ${{ secrets.META_WHATSAPP_PHONE_ID }}
+          META_WHATSAPP_TEMPLATE: ${{ secrets.META_WHATSAPP_TEMPLATE }}
+          META_WHATSAPP_LANGUAGE: ${{ vars.META_WHATSAPP_LANGUAGE || 'en' }}
+          META_API_VERSION: ${{ vars.META_API_VERSION || 'v21.0' }}
+
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+        run: |
+          case "${{ inputs.mode }}" in
+            dry-run)
+              npm run notify -- --dry-run
+              ;;
+            send-test)
+              npm run notify -- --test
+              ;;
+            send-real)
+              npm run notify
+              ;;
+          esac
+
+      # The ledger is what stops a reminder being sent twice and an issue being
+      # opened twice. Leaving it uncommitted would make this button actively
+      # harmful: every press would duplicate everything it had already done.
+      - name: Record what was sent
+        if: inputs.mode == 'send-real'
+        run: |
+          git config user.name "manuscript-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add data/notifications.json
+
+          if git diff --cached --quiet; then
+            echo "Nothing new to record."
+          else
+            git commit -m "Record deadline reminders sent $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+            for attempt in 1 2 3; do
+              git push && exit 0
+              git pull --rebase --autostash origin "$GITHUB_REF_NAME" || exit 1
+              sleep $((attempt * 3))
+            done
+
+            echo "Could not push the reminder ledger after 3 attempts." >&2
+            exit 1
+          fi

@@ -4,10 +4,37 @@ on:
   schedule:
     # Every 3 hours. GitHub may delay scheduled runs slightly at busy times.
     - cron: "0 */3 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      # A one-off sweep of an explicit window, for filling a hole rather than
+      # keeping up. Leave both blank for an ordinary incremental run. The
+      # watermark is deliberately not moved by a sweep -- see scripts/sync-gmail.mjs.
+      sync_since:
+        description: "Sweep from (YYYY-MM-DD). Blank = normal incremental run."
+        required: false
+        default: ""
+      sync_until:
+        description: "Sweep to (YYYY-MM-DD). Blank = up to now."
+        required: false
+        default: ""
+      rescan:
+        description: "Also reconsider mail already decided on (costs LLM budget)"
+        required: false
+        default: "0"
+      max_classifications:
+        description: "LLM budget for this run"
+        required: false
+        default: "60"
+      max_messages:
+        description: "Messages to fetch per mailbox. Raise for a backfill; a month of mail is well over the default."
+        required: false
+        default: ""
 
 permissions:
   contents: write
+  # The reminders also open an issue per amendment deadline -- a floor under
+  # the WhatsApp leg, which depends on a third party and has proved fragile.
+  issues: write
 
 concurrency:
   group: sync-manuscripts
@@ -17,11 +44,19 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      # Check out the branch as it is when this run STARTS, not the commit that
+      # triggered it. Runs of this workflow queue behind one another, and each
+      # one commits; without this a queued run checks out data from before the
+      # run ahead of it committed, then has to rebase a whole rewritten JSON
+      # file onto it -- which conflicts, and the retry loop gives up and throws
+      # the run's classification work away.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - run: npm install --omit=dev
 
@@ -31,17 +66,77 @@ jobs:
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_REFRESH_TOKEN_SATHISH: ${{ secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
           GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OUTLOOK_CLIENT_ID: ${{ secrets.OUTLOOK_CLIENT_ID }}
+          OUTLOOK_CLIENT_SECRET: ${{ secrets.OUTLOOK_CLIENT_SECRET }}
+          OUTLOOK_REFRESH_TOKEN_DHIBIN: ${{ secrets.OUTLOOK_REFRESH_TOKEN_DHIBIN }}
+          # Any one of these is enough; supplying more than one gives the
+          # classifier a second opinion and a fallback when a free tier is capped.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # Groq first: it states it does not train on API inputs, so routine
+          # classification keeps two people's correspondence off a training-
+          # eligible free tier. Gemini backs it up and serves as the second
+          # opinion for the cross-check, which needs a genuinely different model.
+          # Cerebras stays out until its 402 (no active account quota) clears.
+          # Cerebras is deliberately absent: the account has no free quota,
+          # so leading with it cost two failed calls and about five seconds
+          # per message (attemptsPerProvider is 2, behind a 2.5s pacer)
+          # before the chain fell through to a provider that works.
+          # Its key can stay set; add it back here if quota appears.
+          CLASSIFIER_PROVIDERS: groq,gemini-3.7-flash
+          # The backfill is done, so both inboxes now see only new mail — a
+          # handful per run. Anything over this is deferred, never dropped.
+          MAX_CLASSIFICATIONS_PER_RUN: ${{ inputs.max_classifications || '60' }}
+          SYNC_SINCE: ${{ inputs.sync_since }}
+          SYNC_UNTIL: ${{ inputs.sync_until }}
+          SYNC_RESCAN: ${{ inputs.rescan }}
+          # A sweep spans weeks, so the per-run fetch cap has to widen with it.
+          # Most of what it fetches costs nothing: the keyword prefilter throws
+          # out the newsletters and alerts without an LLM call, so a wide fetch
+          # with a small classification budget is the cheap combination.
+          MAX_MESSAGES_PER_RUN: ${{ inputs.max_messages || (inputs.sync_since && '400') || '150' }}
         run: npm run sync
+
+      # After the sync, so a letter that lands at nine is a message on a phone
+      # within the hour. Deliberately not `needs`-gated on anything: a reminder
+      # service failing must never cost a run's classification work.
+      - name: Send deadline reminders
+        continue-on-error: true
+        env:
+          WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
+          WHATSAPP_TRANSPORT: ${{ vars.WHATSAPP_TRANSPORT || 'callmebot' }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GCHAT_WEBHOOK_URL: ${{ secrets.GCHAT_WEBHOOK_URL }}
+          META_WHATSAPP_TOKEN: ${{ secrets.META_WHATSAPP_TOKEN }}
+          META_WHATSAPP_PHONE_ID: ${{ secrets.META_WHATSAPP_PHONE_ID }}
+          META_WHATSAPP_TEMPLATE: ${{ secrets.META_WHATSAPP_TEMPLATE }}
+          META_WHATSAPP_LANGUAGE: ${{ vars.META_WHATSAPP_LANGUAGE || 'en' }}
+          META_API_VERSION: ${{ vars.META_API_VERSION || 'v21.0' }}
+        run: npm run notify
 
       - name: Commit updated data
         run: |
           git config user.name "manuscript-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/manuscripts.json data/sync-state.json data/excluded-log.json
+          git add data/manuscripts.json data/sync-state.json data/excluded-log.json data/review-queue.json data/notifications.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "Sync manuscript tracker $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            # Anything else pushed to this branch while the sync was running would
+            # otherwise make the push a fast-forward failure and discard a whole
+            # run's classification work. Rebase onto whatever landed, then retry.
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "Pushed on attempt $attempt."
+                exit 0
+              fi
+              echo "Push rejected; rebasing onto origin and retrying."
+              git pull --rebase --autostash origin "$GITHUB_REF_NAME" || exit 1
+              sleep $((attempt * 3))
+            done
+            echo "Could not push after 3 attempts." >&2
+            exit 1
           fi

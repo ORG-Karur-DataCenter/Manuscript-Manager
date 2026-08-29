@@ -3,21 +3,42 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>SMOG COMMS · Dr Sathish Muthu Orthopaedic Research Group</title>
-<meta name="description" content="SMOG COMMS — Dr Sathish Muthu Orthopaedic Research Group Collaborative Manuscript Management System." />
+<title>ORG Karur COMMS · Orthopaedic Research Group, Karur</title>
+<meta name="description" content="Orthopaedic Research Group, Karur — Collaborative Manuscript Management System." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/style.css" />
+<link rel="stylesheet" href="assets/style.css?v=4e35b806" />
 </head>
-<body>
+<body class="locked">
+
+<!-- Sits above everything until unlocked. Hidden by default so a viewer with a
+     valid session never sees it flash. -->
+<div id="lock-screen" class="lock-screen" hidden>
+  <form id="lock-form" class="lock-card" autocomplete="on">
+    <span class="brand-mark lock-mark">ORG</span>
+    <h1 class="lock-title">ORG&nbsp;Karur&nbsp;COMMS</h1>
+    <p class="lock-sub">Orthopaedic Research Group, Karur — manuscript tracker</p>
+    <label class="lock-label" for="lock-password">Password</label>
+    <input id="lock-password" type="password" name="password"
+           autocomplete="current-password" required placeholder="Enter password" />
+    <p id="lock-error" class="lock-error" hidden role="alert"></p>
+    <label class="lock-remember">
+      <input id="lock-remember" type="checkbox" checked /> Stay signed in on this device
+    </label>
+    <button type="submit" class="lock-btn">Open tracker</button>
+  </form>
+</div>
+
 <header class="topbar">
   <div class="wrap topbar-inner">
     <div class="brand">
-      <span class="brand-mark">SMOG</span>
+      <span class="brand-mark">ORG</span>
       <div>
-        <div class="brand-title">SMOG&nbsp;COMMS</div>
-        <div class="brand-sub" id="generated-at">Loading…</div>
+        <div class="brand-title">ORG&nbsp;Karur&nbsp;COMMS</div>
+        <div class="sync-status" id="generated-at" title="Checking when the tracker last synced">
+          <span class="sync-dot" aria-hidden="true"></span><span class="sync-text">Loading…</span>
+        </div>
       </div>
     </div>
     <div class="topbar-actions">
@@ -25,6 +46,10 @@
         <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
         <input id="search" type="search" placeholder="Search title, journal, manuscript no…" autocomplete="off" />
       </div>
+      <button id="sync-btn" class="sync-btn" title="Run the email sync now">
+        <svg class="sync-icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-2.6-6.4M21 3v6h-6"/></svg>
+        <span class="sync-btn-text">Sync now</span>
+      </button>
       <button id="theme-btn" class="icon-btn" title="Toggle theme" aria-label="Toggle theme">
         <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36A5.39 5.39 0 0112 3z"/></svg>
       </button>
@@ -34,12 +59,12 @@
 
 <section class="hero">
   <div class="wrap hero-inner">
-    <div class="hero-eyebrow">Dr Sathish Muthu · Orthopaedic Research Group</div>
+    <div class="hero-eyebrow">Orthopaedic Research Group · Karur</div>
     <h1 class="hero-title">
-      <span class="hero-acronym">SMOG&nbsp;COMMS</span>
+      <span class="hero-acronym">ORG&nbsp;Karur&nbsp;COMMS</span>
     </h1>
     <p class="hero-expand">
-      <b>S</b>athish <b>M</b>uthu <b>O</b>rthopaedic <b>G</b>roup ·
+      <b>O</b>rthopaedic <b>R</b>esearch <b>G</b>roup, Karur ·
       <b>Co</b>llaborative <b>M</b>anuscript <b>M</b>anagement <b>S</b>ystem
     </p>
   </div>
@@ -68,6 +93,10 @@
       <span class="bucket-icon published">✓</span>
       <span class="bucket-text"><span class="bucket-name">Published</span><span class="bucket-count" data-count="published">0</span></span>
     </button>
+    <button class="bucket-btn review" data-bucket="review">
+      <span class="bucket-icon review">⚑</span>
+      <span class="bucket-text"><span class="bucket-name">Needs review</span><span class="bucket-count" data-count="review">0</span></span>
+    </button>
   </nav>
 
   <div id="bucket-hint" class="bucket-hint"></div>
@@ -80,6 +109,10 @@
 <div id="drawer-overlay" class="drawer-overlay" hidden></div>
 <aside id="drawer" class="drawer" hidden aria-label="Manuscript detail">
   <div class="drawer-head">
+    <button id="drawer-edit" class="drawer-edit" hidden>
+      <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg>
+      <span>Edit</span>
+    </button>
     <button id="drawer-close" class="icon-btn" aria-label="Close">✕</button>
   </div>
   <div id="drawer-body" class="drawer-body"></div>
@@ -87,10 +120,64 @@
 
 <footer class="foot">
   <div class="wrap">
-    SMOG COMMS · Dr Sathish Muthu Orthopaedic Research Group
+    Orthopaedic Research Group, Karur · Collaborative Manuscript Management System
   </div>
 </footer>
 
-<script src="assets/app.js"></script>
+<!-- Progress for an on-demand sync. The ring fills against the median
+     duration of recent runs, so the estimate reflects this workflow rather
+     than a made-up number. -->
+<div id="sync-modal" class="sync-modal" hidden>
+  <div class="sync-panel" role="status" aria-live="polite">
+    <svg class="sync-ring" viewBox="0 0 120 120" width="128" height="128" aria-hidden="true">
+      <circle class="sync-ring-track" cx="60" cy="60" r="52" />
+      <circle id="sync-ring-fill" class="sync-ring-fill" cx="60" cy="60" r="52" />
+    </svg>
+    <div class="sync-ring-centre">
+      <div id="sync-remaining" class="sync-remaining">—</div>
+      <div class="sync-remaining-label">left</div>
+    </div>
+    <h2 id="sync-phase" class="sync-phase">Syncing…</h2>
+    <p id="sync-detail" class="sync-detail">Asking GitHub to start the sync.</p>
+    <a id="sync-run-link" class="sync-run-link" href="#" target="_blank" rel="noopener" hidden>View the run on GitHub</a>
+    <button id="sync-close" class="sync-close" hidden>Close</button>
+    <button id="sync-forget" class="sync-forget" hidden>Use a different GitHub token</button>
+  </div>
+</div>
+
+<!-- Asked for once per device, never committed. See assets/sync.js. -->
+<div id="token-modal" class="sync-modal" hidden>
+  <form id="token-form" class="sync-panel token-panel">
+    <h2 class="sync-phase token-title">Connect to GitHub</h2>
+    <h2 class="sync-phase proxy-title">Confirm your password</h2>
+    <p class="sync-detail proxy-only">
+      Enter the dashboard password to start a sync. It is checked by the sync
+      service and held only for this browser session.
+    </p>
+    <p class="sync-detail token-only">
+      The sync runs as a GitHub Actions workflow, so this page needs your permission to start it.
+      Create a <strong>fine-grained</strong> personal access token for
+      <code>ORG-Karur-DataCenter/Manuscript-Manager</code> with the single permission
+      <strong>Actions: Read and write</strong>.
+    </p>
+    <p class="sync-detail sync-detail-quiet token-only">
+      <strong>You are asked for this once.</strong> It is saved in this browser and reused
+      from then on — you will not see this screen again on this device unless GitHub
+      rejects the token or you clear your browsing data. It is sent only to
+      api.github.com, never to this page's server or to anyone else.
+    </p>
+    <p class="sync-detail sync-detail-quiet token-only">
+      Do not use a classic token — those grant far more than this needs.
+    </p>
+    <input id="token-input" type="password" placeholder="github_pat_…" autocomplete="off" required />
+    <p id="token-error" class="lock-error" hidden role="alert"></p>
+    <div class="token-actions">
+      <button type="button" id="token-cancel" class="sync-close">Cancel</button>
+      <button type="submit" class="lock-btn token-save">Save and sync</button>
+    </div>
+  </form>
+</div>
+
+<script type="module" src="assets/app.js?v=07c7e0bb"></script>
 </body>
 </html>

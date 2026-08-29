@@ -1,15 +1,17 @@
 {
-  "_comment": "One entry per Gmail inbox to poll. 'refreshTokenEnv' names the GitHub Actions secret holding that account's OAuth refresh token (generate with `npm run get-refresh-token`). Add/remove accounts here — no code changes needed.",
+  "_comment": "One entry per inbox to poll. 'provider' is \"gmail\" (the default when absent) or \"outlook\". 'refreshTokenEnv' names the GitHub Actions secret holding that account's OAuth refresh token — generate with `npm run get-refresh-token` for Gmail or `npm run get-outlook-token` for Outlook. Add or remove accounts here; no code changes needed. dhibinvikash@outlook.com is deliberately absent: it forwards into dhibinvikash1@gmail.com, so polling it directly would only re-read the same mail. Listing an account whose secrets are unset is worse than omitting it — it is skipped with a warning nobody reads, while the dashboard implies a coverage it does not have. That is how seven backfill months reported success without ever opening that mailbox.",
   "accounts": [
     {
       "label": "Sathish Muthu",
       "email": "drsathishmuthu@gmail.com",
-      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH"
+      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH",
+      "provider": "gmail"
     },
     {
       "label": "Dhibin Vikash Kolarpatti Ponnusamy",
       "email": "dhibinvikash1@gmail.com",
-      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_DHIBIN"
+      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_DHIBIN",
+      "provider": "gmail"
     }
   ]
 }

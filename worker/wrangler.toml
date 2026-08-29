@@ -1,0 +1,13 @@
+name = "orgkarur-comms-sync"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+[vars]
+# Where the dashboard is served from. Leave as-is only while testing; set it to
+# the real origin so a stray site cannot call this Worker from someone's
+# browser session.
+ALLOWED_ORIGIN = "*"
+
+# Secrets are NOT set here — they would end up in git. Set them with:
+#   npx wrangler secret put GITHUB_TOKEN
+#   npx wrangler secret put APP_PASSWORD
