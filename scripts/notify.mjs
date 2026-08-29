@@ -187,11 +187,14 @@ async function main() {
     // would suppress every future attempt at it -- the message would be lost
     // rather than retried on the next run. An issue comment counts: it is a
     // real notification, so a reminder is not lost merely because WhatsApp is.
-    if (reachedSomeone(results) || commented || posted) {
-      recordSent(ledger, reminder, results);
-      sentCount++;
-    }
-  }
+    if (reachedSomeone(results)) {
+  recordSent(ledger, reminder, results);
+  sentCount++;
+} else if (commented || posted) {
+  console.log(
+    "  ! WhatsApp did not succeed; reminder will be retried on the next run."
+  );
+}
 
   if (dryRun) {
     console.log("\nDry run — nothing was sent and nothing was recorded.");
