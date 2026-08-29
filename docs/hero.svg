@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="880" height="260" role="img"
+     aria-label="ORG Karur COMMS — manuscript tracker. Email flows through a classifier into a dashboard of tracked papers.">
+  <title>ORG Karur COMMS — every manuscript, tracked from submission to DOI</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#1d4ed8"/>
+      <stop offset="55%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <path id="flow" d="M96 150 C 210 150, 250 118, 360 118 S 520 118, 604 118"/>
+  </defs>
+
+  <style>
+    /* Palette. The dark variant follows the reader's own system setting, which
+       is what an SVG in an img tag can see. */
+    :root, svg { --ink:#0f172a; --soft:#475569; --card:#ffffff; --edge:#e2e8f0;
+                 --bg:#f6f8fc; --urgent:#dc2626; --urgent-wash:#fee2e2; }
+    @media (prefers-color-scheme: dark) {
+      :root, svg { --ink:#e6edf7; --soft:#94a3b8; --card:#161b26; --edge:#2b3346;
+                   --bg:#0d1117; --urgent:#f87171; --urgent-wash:#3b1d1d; }
+    }
+    .bg      { fill: var(--bg); }
+    .card    { fill: var(--card); stroke: var(--edge); stroke-width: 1.2; }
+    .h1      { font: 700 34px ui-serif, Georgia, 'Times New Roman', serif; fill: #fff; letter-spacing:-.5px; }
+    .kicker  { font: 600 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #cfe3ff; letter-spacing:2.6px; }
+    .lede    { font: 400 13.5px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill: #dbeafe; }
+    .lbl     { font: 600 10.5px ui-sans-serif, system-ui, Segoe UI, Roboto, sans-serif; fill: var(--soft); letter-spacing:.6px; }
+    .val     { font: 700 11px ui-sans-serif, system-ui, Segoe UI, Roboto, sans-serif; fill: var(--ink); }
+    .chip    { font: 700 10px ui-sans-serif, system-ui, Segoe UI, Roboto, sans-serif; }
+    .track   { fill:none; stroke: var(--edge); stroke-width:2; stroke-dasharray:5 6; }
+
+    /* Mail travelling into the classifier uses SMIL rather than CSS
+       offset-path. offset-path is the tidier syntax, but where it is not
+       supported the element falls back to its own coordinates -- which for a
+       parcel drawn around the origin means the top-left corner, so the banner
+       looks broken rather than merely still. animateMotion degrades to the
+       path's start instead, which is exactly where a stopped parcel belongs. */
+
+    /* The classifier thinking. */
+    .think { animation: think 4.6s ease-in-out infinite; transform-origin: 460px 118px; }
+    @keyframes think { 0%,45%,100% { opacity:.55; } 55%,70% { opacity:1; } }
+
+    /* A card landing on the dashboard, once per cycle. */
+    .land  { animation: land 4.6s cubic-bezier(.2,.9,.3,1) infinite; }
+    @keyframes land {
+      0%,58%   { opacity:0; transform: translateY(9px); }
+      70%,92%  { opacity:1; transform: translateY(0); }
+      100%     { opacity:1; transform: translateY(0); }
+    }
+
+    /* The deadline is the one thing that gets worse while nobody looks. */
+    .pulse { animation: pulse 2.1s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+
+    /* A sheen across the title, slow enough not to nag. */
+    .sheen { animation: sheen 7s ease-in-out infinite; }
+    @keyframes sheen { 0%,72% { transform: translateX(-420px); } 100% { transform: translateX(500px); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .think, .land, .pulse, .sheen { animation: none; }
+      .land   { opacity: 1; transform: none; }
+      .sheen  { opacity: 0; }
+    }
+  </style>
+
+  <rect class="bg" width="880" height="260" rx="14"/>
+
+  <!-- Masthead -->
+  <g>
+    <rect x="0" y="0" width="880" height="96" rx="14" fill="url(#sky)"/>
+    <rect x="0" y="60" width="880" height="36" fill="url(#sky)"/>
+    <clipPath id="mast"><rect x="0" y="0" width="880" height="96" rx="14"/></clipPath>
+    <g clip-path="url(#mast)">
+      <rect class="sheen" x="0" y="0" width="120" height="96" fill="url(#fade)" opacity=".28"/>
+    </g>
+    <text class="kicker" x="34" y="30">ORTHOPAEDIC RESEARCH GROUP · KARUR</text>
+    <text class="h1"     x="34" y="64">ORG Karur COMMS</text>
+    <text class="lede"   x="34" y="84">Every manuscript, tracked from submission to DOI — without anyone reading the inbox.</text>
+  </g>
+
+  <!-- Pipeline -->
+  <use href="#flow" class="track"/>
+
+  <!-- Gmail -->
+  <g>
+    <rect class="card" x="34" y="128" width="62" height="44" rx="9"/>
+    <path d="M46 141 h38 v18 h-38 z" fill="none" stroke="#2563eb" stroke-width="1.7"/>
+    <path d="M46 141 l19 12 l19 -12"  fill="none" stroke="#2563eb" stroke-width="1.7"/>
+    <text class="lbl" x="34" y="188">INBOXES</text>
+  </g>
+
+  <!-- Mail in flight. The motion is declarative so it survives a renderer
+       that runs SMIL but not CSS, and stops somewhere sensible in one that
+       runs neither. -->
+  <g transform="translate(96,150)">
+    <rect x="-9" y="-7" width="18" height="14" rx="3" fill="#2563eb"/>
+    <path d="M-9 -7 l9 7 l9 -7" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <animateMotion dur="4.6s" begin="0s" repeatCount="indefinite"
+                   keyPoints="0;0.52;0.52" keyTimes="0;0.52;1" calcMode="spline"
+                   keySplines="0.5 0 0.5 1; 0 0 1 1">
+      <mpath href="#flow"/>
+    </animateMotion>
+    <animate attributeName="opacity" dur="4.6s" begin="0s" repeatCount="indefinite"
+             values="0;1;1;0;0" keyTimes="0;0.08;0.52;0.60;1"/>
+  </g>
+  <g transform="translate(96,150)">
+    <rect x="-9" y="-7" width="18" height="14" rx="3" fill="#0ea5e9"/>
+    <path d="M-9 -7 l9 7 l9 -7" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <animateMotion dur="4.6s" begin="1.5s" repeatCount="indefinite"
+                   keyPoints="0;0.52;0.52" keyTimes="0;0.52;1" calcMode="spline"
+                   keySplines="0.5 0 0.5 1; 0 0 1 1">
+      <mpath href="#flow"/>
+    </animateMotion>
+    <animate attributeName="opacity" dur="4.6s" begin="1.5s" repeatCount="indefinite"
+             values="0;1;1;0;0" keyTimes="0;0.08;0.52;0.60;1"/>
+  </g>
+  <g transform="translate(96,150)">
+    <rect x="-9" y="-7" width="18" height="14" rx="3" fill="#7c3aed"/>
+    <path d="M-9 -7 l9 7 l9 -7" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <animateMotion dur="4.6s" begin="3s" repeatCount="indefinite"
+                   keyPoints="0;0.52;0.52" keyTimes="0;0.52;1" calcMode="spline"
+                   keySplines="0.5 0 0.5 1; 0 0 1 1">
+      <mpath href="#flow"/>
+    </animateMotion>
+    <animate attributeName="opacity" dur="4.6s" begin="3s" repeatCount="indefinite"
+             values="0;1;1;0;0" keyTimes="0;0.08;0.52;0.60;1"/>
+  </g>
+
+  <!-- Classifier -->
+  <g>
+    <circle cx="460" cy="118" r="20" fill="none" stroke="#7c3aed" stroke-width="2" opacity="0">
+      <animate attributeName="r"       dur="4.6s" repeatCount="indefinite" values="20;20;34;34" keyTimes="0;0.5;0.78;1"/>
+      <animate attributeName="opacity" dur="4.6s" repeatCount="indefinite" values="0;0;.55;0;0" keyTimes="0;0.5;0.58;0.78;1"/>
+    </circle>
+    <circle cx="460" cy="118" r="21" class="card"/>
+    <g class="think" fill="#7c3aed">
+      <circle cx="452" cy="118" r="2.7"/><circle cx="460" cy="118" r="2.7"/><circle cx="468" cy="118" r="2.7"/>
+    </g>
+    <text class="lbl" x="418" y="158">FREE-TIER LLM</text>
+    <text class="lbl" x="424" y="172" fill="#7c3aed">no card, no server</text>
+  </g>
+
+  <!-- Dashboard -->
+  <g>
+    <rect class="card" x="604" y="112" width="242" height="118" rx="11"/>
+
+    <g class="land">
+      <rect x="618" y="126" width="214" height="40" rx="8" class="card"/>
+      <rect x="618" y="126" width="3.5" height="40" rx="2" fill="#dc2626"/>
+      <rect class="pulse" x="630" y="134" width="86" height="14" rx="7" fill="var(--urgent)"/>
+      <text class="chip" x="638" y="144.5" fill="#fff">2 DAYS LEFT</text>
+      <text class="val" x="630" y="160">Three-Level Hybrid Cervical…</text>
+    </g>
+
+    <rect x="618" y="174" width="214" height="20" rx="6" class="card"/>
+    <rect x="626" y="180" width="60" height="8" rx="4" fill="#94a3b8" opacity=".5"/>
+    <rect x="694" y="180" width="112" height="8" rx="4" fill="#94a3b8" opacity=".28"/>
+
+    <rect x="618" y="200" width="214" height="20" rx="6" class="card"/>
+    <rect x="626" y="206" width="46" height="8" rx="4" fill="#94a3b8" opacity=".5"/>
+    <rect x="680" y="206" width="126" height="8" rx="4" fill="#94a3b8" opacity=".28"/>
+
+    <text class="lbl" x="604" y="248">DASHBOARD · WHATSAPP · ISSUES</text>
+  </g>
+</svg>

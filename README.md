@@ -1,75 +1,141 @@
-# Manuscript Tracker
+<div align="center">
 
-A self-updating dashboard that watches your Gmail inbox(es), pulls in **only** the
-emails that report on the status of **your own submitted manuscripts**, and tracks
-each paper through its whole life — submission → review → revision → rejection →
-resubmission to another journal → acceptance → publication (with DOI) — so a
-rejected paper never gets lost in the daily flood of email and forgotten before
-you resubmit it.
+<img src="docs/hero.svg" alt="ORG Karur COMMS — email flows through a free-tier classifier into a dashboard of tracked manuscripts" width="880">
 
-It deliberately **ignores** predatory-journal solicitations, invitations to *peer
-review* someone else's paper, newsletters, and calls for papers.
+<br>
 
-- **Frontend:** a static dashboard (`index.html` + `assets/`), served by GitHub Pages.
-- **Backend:** a Node script (`scripts/sync-gmail.mjs`) run by GitHub Actions on a
-  schedule. It reads Gmail over the API, classifies each email with a **free-tier
-  LLM** (no paid API, no card), updates a JSON registry (`data/manuscripts.json`),
-  and commits the result. The dashboard just reads that JSON.
+**A rejected paper should never be lost in the daily flood of email.**<br>
+This watches the inbox so nobody has to.
 
-There is no server and no database — the git repo *is* the database.
+<br>
 
----
+<img alt="No server" src="https://img.shields.io/badge/server-none-0ea5e9?style=for-the-badge&labelColor=0f172a">
+<img alt="No database" src="https://img.shields.io/badge/database-the%20git%20repo-2563eb?style=for-the-badge&labelColor=0f172a">
+<img alt="Cost" src="https://img.shields.io/badge/cost-%240%20%2F%20month-16a34a?style=for-the-badge&labelColor=0f172a">
+<img alt="AI" src="https://img.shields.io/badge/AI-free%20tier%2C%20no%20card-7c3aed?style=for-the-badge&labelColor=0f172a">
+
+</div>
+
+<br>
+
+## What it does
+
+Journals send email. A lot of it, in nobody's particular format, mixed in with
+predatory solicitations and invitations to review other people's work. Somewhere
+in that stream is the message saying **your** paper was sent back with a
+fourteen-day deadline.
+
+This reads all of it, keeps only what is genuinely about your own manuscripts,
+and turns each paper into a single record that follows it the whole way:
+
+<div align="center">
+
+**submitted → in review → revision → rejected → resubmitted elsewhere → accepted → published, with DOI**
+
+</div>
+
+A rejection at one journal and a resubmission to the next are **one manuscript**,
+not two disconnected entries — so the trail never breaks at the exact moment it
+matters most.
+
+<br>
+
+## What you get
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ⏳ Deadlines that chase you
+
+A paper sent back for edits gets a **countdown**, taken from the journal's own
+words where it states one and from that journal's usual window where it doesn't.
+Reminders go out on **WhatsApp**, into **Google Chat**, and as a **GitHub issue** —
+three channels, none load-bearing alone.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧠 Reads mail, costs nothing
+
+A keyword prefilter throws out the newsletters for free; only what survives
+reaches a **free-tier LLM**. No paid API, no card, no server. Predatory
+solicitations and peer-review invitations are recognised and logged with a
+reason, not silently dropped.
+
+</td>
+<td width="33%" valign="top">
+
+### ✋ Corrects itself, and takes yours
+
+Every field is re-derived from email every three hours — so a correction you
+type by hand is **pinned**, and the sync leaves it alone. Marked *set by hand*
+wherever it shows, with a way back to automatic.
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ## How an email becomes a tracked entry
 
-```
-Gmail inbox(es)
-   │  (poll every 3h, only mail since last sync)
-   ▼
-keyword prefilter  ──► obvious non-candidates dropped (no AI cost)
-   │
-   ▼
-free-tier LLM      ──► relevant?  ──no──► logged in data/excluded-log.json with a reason
-   │ yes                                   (predatory / review-invite / newsletter / unrelated)
-   ▼
-second model       ──► do the two agree?  ──no──► data/review-queue.json (never guessed)
-(off by default)   │ yes
-   ▼
-extract { title, journal, manuscript no., event_type, revision round, DOI, link }
-   │
-   ▼
-match against registry:
-   • same journal + manuscript number  → same submission
-   • else fuzzy title match (≥ 0.82)    → same manuscript, NEW journal = resubmission
-   • else                               → brand-new manuscript
-   │
-   ▼
-update status, append a timestamped timeline event, recompute the dashboard bucket
+```mermaid
+flowchart TD
+    A["📥 Gmail inboxes<br/><i>polled every 3h, only mail since last sync</i>"] --> B{keyword prefilter}
+    B -->|obvious non-candidate| X["🗑️ excluded-log.json<br/><i>with a reason — no AI cost</i>"]
+    B -->|might matter| C{{"🧠 free-tier LLM"}}
+    C -->|not your manuscript| X
+    C -->|unsure| Q["🚩 review-queue.json<br/><i>flagged, never guessed</i>"]
+    C -->|yours| D["extract title · journal · manuscript no.<br/>event · revision round · DOI · link"]
+    D --> E{match against the registry}
+    E -->|same journal + number| F["same submission"]
+    E -->|title match ≥ 0.82, new journal| G["🔄 resubmission<br/><i>one manuscript, two journals</i>"]
+    E -->|no match| H["✨ brand-new manuscript"]
+    F --> I["📊 update status · append timeline · recompute bucket"]
+    G --> I
+    H --> I
+    I --> J["⏳ deadline?"]
+    J -->|yes| K["📱 WhatsApp · 💬 Google Chat · 🐙 GitHub issue"]
 ```
 
-### Status buckets (the dashboard action buttons)
+<br>
 
-| Button | What's in it |
-| --- | --- |
-| **Submissions** | Freshly submitted, acknowledged by a journal, awaiting first editorial check. |
-| **Needs action** | Rejected papers to resubmit elsewhere **and** papers sent back for edits before peer review. |
-| **In review** | Under peer review, revision in progress, transferred, or accepted-awaiting-publication. |
-| **Published** | Published, with DOI and article link. |
+## The dashboard
+
+Cards are ordered so the thing that gets worse while nobody looks comes first:
+**anything on a deadline leads, most urgent at the top**, overdue above due-soon.
+Everything else follows by recency.
+
+| Bucket | What's in it |
+| :-- | :-- |
+| 📤 **Submissions** | Freshly submitted, acknowledged by a journal, awaiting first editorial check. |
+| ❗ **Needs action** | Rejected papers to resubmit elsewhere **and** papers sent back for edits before peer review. |
+| 🔍 **In review** | Under peer review, revision in progress, transferred, or accepted-awaiting-publication. |
+| ✅ **Published** | Published, with DOI and article link. |
 
 A **revision requested** or **sent back for edits** event raises a pulsing action
-flag on the card, since both need your work — a revision even though the paper is
-still "in review". A sent-back paper also gets a **deadline**, and a WhatsApp
-reminder as it approaches; see [Deadline reminders on WhatsApp](#deadline-reminders-on-whatsapp).
+flag, since both need your work — a revision even though the paper is still
+"in review". Those two events also carry a link straight to **the original
+email**, because what the editor actually asked for, and the marked-up
+manuscript, are in the message rather than in any summary of it.
 
-### Resubmission continuity
+<br>
 
-If a paper is rejected at Journal A and later submitted to Journal B, both journals
-appear as one manuscript with a **submission thread** — A marked *rejected*, B marked
-*active* — so the rejection→resubmission is a single continuous record, not two
-disconnected entries.
+## How it is built
+
+| | |
+| :-- | :-- |
+| **Frontend** | A static dashboard (`index.html` + `assets/`) on GitHub Pages. It reads one JSON file. |
+| **Backend** | `scripts/sync-gmail.mjs`, run by GitHub Actions every three hours. Reads Gmail, classifies, commits. |
+| **Writes** | A Cloudflare Worker holds the one GitHub token, so no browser ever does. |
+| **Database** | There isn't one. **The git repo is the database** — every change to a manuscript is a commit. |
+
+<br>
 
 ---
 
+<br>
 ## One-time setup
 
 ### 1. Google Cloud — create OAuth credentials
