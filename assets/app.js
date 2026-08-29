@@ -422,6 +422,55 @@ const PIN_TITLE = "Set by hand — the email sync will not change this";
 const pinMark = (m, field) =>
   isPinned(m, field) ? ` <span class="pin-mark" title="${PIN_TITLE}">set by hand</span>` : "";
 
+/*
+ * THE ORIGINAL EMAIL, for the events where you have to act on it.
+ *
+ * Only amendments and revision requests get this. Every other event is a
+ * notification -- submitted, accepted, published -- where the one-line summary
+ * is the whole of the news. These two are the ones where the summary is not
+ * enough: what the editor actually asked for is in the mail, usually with the
+ * marked-up manuscript attached.
+ *
+ * WHY A LINK AND NOT THE TEXT. The obvious build is to store the body in
+ * data/manuscripts.json and print it here. That file is served from a public
+ * repository -- the password gate is front-end only, and the raw JSON is
+ * readable by anyone -- so storing bodies publishes reviewer comments and
+ * editorial correspondence, permanently and into git history. The link costs
+ * nothing, publishes nothing, and is strictly more useful: it opens the real
+ * message with its attachments and the rest of the thread.
+ *
+ * Two links, because neither is reliable alone. The id link is exact but
+ * assumes the first signed-in Google account is the one holding the mail; the
+ * subject search works in whichever account is signed in but may return more
+ * than one thread. Between them one always lands.
+ */
+const MAIL_EVENTS = new Set(["sent_back", "revision_requested"]);
+
+function sourceMailHtml(e) {
+  if (!MAIL_EVENTS.has(e.eventType)) return "";
+  const src = e.source || {};
+  const id = src.messageId || src.threadId;
+  const subject = src.subject || "";
+  if (!id && !subject) return "";
+
+  const byId = id ? `https://mail.google.com/mail/u/0/#all/${encodeURIComponent(id)}` : "";
+  const bySearch = subject
+    ? `https://mail.google.com/mail/u/0/#search/${encodeURIComponent(subject.replace(/^(?:Re|Fwd|FW):\s*/i, ""))}`
+    : "";
+
+  return `
+      <div class="tl-mail">
+        ${subject ? `<div class="tl-mail-subject" title="${esc(subject)}">${esc(subject)}</div>` : ""}
+        ${src.from ? `<div class="tl-mail-from">${esc(src.from)}</div>` : ""}
+        <div class="tl-mail-links">
+          ${byId ? `<a class="tl-mail-btn" href="${esc(byId)}" target="_blank" rel="noopener"
+             title="Opens this message in Gmail, in whichever account is signed in first">Open the full email</a>` : ""}
+          ${bySearch ? `<a class="tl-mail-alt" href="${esc(bySearch)}" target="_blank" rel="noopener"
+             title="Use this if the link above says the message cannot be found — it searches the signed-in account by subject instead">search by subject</a>` : ""}
+        </div>
+      </div>`;
+}
+
 function drawerHtml(m) {
   const pill = BUCKET_META[m.bucket];
   const attnReason = m.needsActionReason ? NEEDS_ACTION_REASON[m.needsActionReason] : null;
@@ -461,6 +510,7 @@ function drawerHtml(m) {
         </div>
         <div class="tl-journal">${esc(e.journal || "")}</div>
         ${e.note ? `<div class="tl-note">${esc(e.note)}</div>` : ""}
+        ${sourceMailHtml(e)}
       </div>`)
     .join("");
 

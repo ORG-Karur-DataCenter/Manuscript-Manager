@@ -70,7 +70,15 @@ let registry = {
       createdAt: "2026-08-01T10:00:00.000Z",
       updatedAt: "2026-08-24T10:00:00.000Z",
       submissions: [],
-      timeline: [{ eventType: "sent_back", timestamp: "2026-08-24T10:00:00.000Z", journal: "International Orthopaedics", note: "Returned after technical check." }],
+      timeline: [{
+        eventType: "sent_back", timestamp: "2026-08-24T10:00:00.000Z",
+        journal: "International Orthopaedics", note: "Returned after technical check.",
+        source: {
+          threadId: "thread-abc", messageId: "msg-abc",
+          subject: "Re: International Orthopaedics-Amendment required",
+          from: "Editorial Office <office@example.org>",
+        },
+      }],
       events: [],
     },
     {
@@ -84,7 +92,13 @@ let registry = {
       createdAt: "2026-04-01T10:00:00.000Z",
       updatedAt: "2026-08-01T10:00:00.000Z",
       submissions: [],
-      timeline: [],
+      // A plain notification, with a source of its own. It must NOT offer the
+      // email: there is nothing to act on, and a link on every event would
+      // bury the two that matter.
+      timeline: [{
+        eventType: "new_submission", timestamp: "2026-04-01T10:00:00.000Z", journal: "Bone & Joint",
+        source: { threadId: "t-sub", messageId: "m-sub", subject: "Bone & Joint-Submission Confirmation", from: "no-reply@example.org" },
+      }],
       events: [],
     },
   ],
@@ -414,6 +428,35 @@ await check("a failure is reported in the form, not swallowed", async (page) => 
   );
   assert(await page.isEnabled("#edit-save"), "the save button stayed disabled, so there is no way to retry");
 }, { expectErrors: true });
+
+await check("an amendment offers the original email, and a notification does not", async (page) => {
+  // The summary in the timeline is this app's reading of the mail. On an
+  // amendment that is not enough -- what the editor actually asked for, and
+  // the marked-up manuscript, are in the message itself.
+  await page.click('[data-id="m-amend"]');
+  await page.waitForSelector(".drawer .tl-item");
+
+  const link = await page.getAttribute(".tl-mail-btn", "href");
+  assert(link, "an amendment offered no way to reach the email");
+  assert(link.includes("msg-abc"), `the link does not point at the message: ${link}`);
+  assert(link.startsWith("https://mail.google.com/"), `unexpected destination: ${link}`);
+
+  // The fallback matters: the id link assumes the first signed-in account.
+  const alt = await page.getAttribute(".tl-mail-alt", "href");
+  assert(alt && alt.includes("search"), `no subject-search fallback: ${alt}`);
+  assert(!/Re%3A|Re:/.test(alt), `the reply prefix was left in the search: ${alt}`);
+
+  // A notification has nothing to act on; a link on every event would bury
+  // the two that matter.
+  await page.click(".drawer-close, .d-close, [aria-label='Close']").catch(() => {});
+  await page.keyboard.press("Escape");
+  await page.click('[data-id="m-hips"]');
+  await page.waitForSelector(".drawer .tl-item");
+  assert(
+    (await page.$$(".tl-mail")).length === 0,
+    "a plain submission notification offered the email as though it were an amendment"
+  );
+});
 
 await check("a resumed session is asked for the password before it can save", async (page) => {
   // What "stay signed in" leaves behind: the session flag is durable, the

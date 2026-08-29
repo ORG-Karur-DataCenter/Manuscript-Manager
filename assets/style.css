@@ -422,6 +422,33 @@ html[data-theme="dark"] .hero-acronym {
 .tl-journal { font-size: .78rem; color: var(--brand); font-weight: 600; }
 .tl-note { font-size: .84rem; color: var(--ink-soft); margin-top: 3px; }
 
+/* The original email, on amendments and revisions only. Set apart from the
+   summary above it, because the summary is this app's reading of the mail and
+   this is the mail itself -- a distinction worth making visible when someone
+   is about to rearrange a week around what it says. */
+.tl-mail {
+  margin-top: 8px; padding: 8px 10px;
+  background: var(--needs-wash); border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--needs) 18%, transparent);
+}
+.tl-mail-subject {
+  font-size: .8rem; font-weight: 600; color: var(--ink);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.tl-mail-from { font-size: .74rem; color: var(--muted); margin-top: 1px; }
+.tl-mail-links { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 12px; margin-top: 7px; }
+.tl-mail-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: .76rem; font-weight: 700; text-decoration: none;
+  color: #fff; background: var(--needs);
+  padding: 5px 11px; border-radius: 100px; white-space: nowrap;
+}
+.tl-mail-btn::before { content: "✉"; }
+.tl-mail-btn:hover { filter: brightness(1.08); }
+/* Deliberately quiet: it is the fallback, and only wanted when the first fails. */
+.tl-mail-alt { font-size: .74rem; color: var(--muted); text-decoration: underline; white-space: nowrap; }
+.tl-mail-alt:hover { color: var(--needs); }
+
 @media (max-width: 880px) {
   .buckets { grid-template-columns: repeat(2, 1fr); }
   .search-box input { width: 150px; }
