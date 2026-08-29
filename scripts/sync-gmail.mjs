@@ -218,10 +218,18 @@ async function main() {
         // A quota ceiling says nothing about this email — it will classify fine
         // once the window reopens. Defer it without spending an attempt, or a
         // day of 429s would push perfectly good mail into the review queue.
-        if (err.rateLimited) {
-          rateLimitedThisRun++;
-          consecutiveRateLimits++;
-          console.error(`Rate limited on message ${msg.id}; deferring without penalty.`);
+        // `deferrable` covers a quota ceiling AND a busy model: both say come
+        // back later, neither says anything about this email. Testing only
+        // rateLimited meant one 503 mixed in with the 429s turned a temporary
+        // outage into a strike against the message.
+        if (err.deferrable ?? err.rateLimited) {
+          if (err.rateLimited) {
+            rateLimitedThisRun++;
+            consecutiveRateLimits++;
+          }
+          console.error(
+            `Providers unavailable for message ${msg.id}; deferring without penalty.`
+          );
           defer(msg);
           continue;
         }
@@ -238,6 +246,10 @@ async function main() {
           totalReview++;
           reviewQueue.review.unshift({
             timestamp: msg.internalDate,
+            // Recorded so a retired message can be found and reconsidered
+            // later. Without it the entry names a subject and nothing the
+            // sync can act on, and 28 of them became unrecoverable that way.
+            messageId: msg.id,
             reason: `classification failed ${attempts} times — last error: ${err.message}`,
             relevant: null,
             eventType: null,

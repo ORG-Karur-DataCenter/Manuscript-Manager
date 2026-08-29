@@ -150,5 +150,87 @@ check(
   journalFromSubject("Dear Dr Muthu-Amendment required") === null
 );
 
+// --- provider failures: which ones are the email's fault --------------------
+//
+// The distinction that stranded 28 messages. A run that hits 429s and a 503
+// has hit nothing but temporary walls; counting that as a strike against the
+// email retires perfectly classifiable mail into the review queue after three
+// bad afternoons.
+const { completeWithChain, buildProviderChain } = await import("./lib/providers.mjs");
+
+const failing = (id, props) => ({
+  id, model: id,
+  async complete() { throw Object.assign(new Error(`${id} failed`), props); },
+});
+
+const chainError = async (providers) => {
+  try {
+    await completeWithChain(providers, { system: "s", user: "u", attemptsPerProvider: 1 });
+    return null;
+  } catch (err) {
+    return err;
+  }
+};
+
+{
+  // Quota spent on one provider, busy model on the other: defer, do not blame.
+  const err = await chainError([
+    failing("groq", { retryable: true, rateLimited: true, status: 429 }),
+    failing("gemini", { retryable: true, rateLimited: false, status: 503 }),
+  ]);
+  check("a 429 mixed with a 503 is still deferred without penalty", err?.deferrable === true);
+  check("and it is not misreported as purely rate limited", err?.rateLimited === false);
+}
+
+{
+  const err = await chainError([
+    failing("groq", { retryable: true, rateLimited: true, status: 429 }),
+    failing("gemini", { retryable: true, rateLimited: true, status: 429 }),
+  ]);
+  check("every provider rate limited still defers", err?.deferrable === true);
+  check("and is reported as rate limited", err?.rateLimited === true);
+}
+
+{
+  // A malformed answer IS about this email. It must spend an attempt, or a
+  // genuinely unclassifiable message would be retried forever.
+  const err = await chainError([
+    failing("groq", { retryable: true, rateLimited: true, status: 429 }),
+    failing("gemini", { retryable: false, rateLimited: false, status: 400 }),
+  ]);
+  check("a real failure among them is not deferred", err?.deferrable === false);
+}
+
+// --- the output budget escalates rather than returning truncated JSON -------
+{
+  const realFetch = globalThis.fetch;
+  const reserved = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const body = JSON.parse(options.body);
+    reserved.push(body.max_completion_tokens);
+    // Answer the first (small) request with a cutoff, the second with content.
+    const truncated = reserved.length === 1;
+    return new Response(JSON.stringify({
+      choices: [{
+        finish_reason: truncated ? "length" : "stop",
+        message: { content: JSON.stringify({ relevant: false }) },
+      }],
+    }), { status: 200, headers: { "content-type": "application/json" } });
+  };
+  try {
+    const chain = buildProviderChain({ GROQ_API_KEY: "test-key" });
+    const groq = chain.find((p) => p.id === "groq");
+    check("a groq provider is built from a key alone", Boolean(groq));
+    if (groq) {
+      await groq.complete({ system: "s", user: "u" });
+      check("the first request reserves the small budget", reserved[0] === 1024);
+      check("a cutoff escalates rather than failing", reserved[1] === 4096);
+      check("and it escalates only once", reserved.length === 2);
+    }
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+}
+
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
 process.exit(failures ? 1 : 0);

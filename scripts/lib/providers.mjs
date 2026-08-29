@@ -12,7 +12,10 @@ import { STRICT_JSON_SCHEMA, toGeminiSchema } from "./schema.mjs";
 class ProviderError extends Error {
   constructor(
     message,
-    { retryable = false, status = null, rateLimited = false, retryAfterMs = null } = {}
+    {
+      retryable = false, status = null, rateLimited = false,
+      retryAfterMs = null, deferrable = null,
+    } = {}
   ) {
     super(message);
     this.name = "ProviderError";
@@ -21,6 +24,11 @@ class ProviderError extends Error {
     // A quota ceiling is not the email's fault: callers use this to retry the
     // message later instead of counting it toward a give-up budget.
     this.rateLimited = rateLimited;
+    // Broader than rateLimited: true when nothing about the failure was a
+    // verdict on the email, so the caller should defer it without penalty.
+    // Defaults to whatever `retryable` says, since a single retryable failure
+    // is by definition not the email's fault either.
+    this.deferrable = deferrable ?? retryable;
     this.retryAfterMs = retryAfterMs;
   }
 }
@@ -202,11 +210,32 @@ function openAiCompatibleProvider({
   // pay the discovery cost at most once per run.
   let supportsJsonSchema = true;
 
-  function buildBody({ system, user, useSchema }) {
+  /*
+   * OUTPUT BUDGET. Groq's daily token allowance appears to count what a
+   * request RESERVES, not what it uses: a call whose prompt is ~2,600 tokens
+   * was billed as 7,117 requested, and 2,600 + 4,096 accounts for the gap.
+   * (Groq's public docs do not state this, so it is inference from the
+   * arithmetic rather than something confirmed.)
+   *
+   * The answer is one small JSON object -- a verdict, a few identifiers and a
+   * sentence of note, comfortably under 300 tokens. Reserving 4,096 therefore
+   * threw away most of a 200,000/day budget on room never used, and 40 new
+   * emails in a morning exhausted it.
+   *
+   * The low default is safe because a cutoff is detected rather than parsed:
+   * finish_reason "length" escalates to the ceiling and retries once, so a
+   * rare verbose message still gets what it needs and the common case stays
+   * cheap. If the inference above is wrong, this costs nothing -- the room was
+   * never used either way.
+   */
+  const OUTPUT_TOKENS = Number(process.env.CLASSIFY_MAX_OUTPUT_TOKENS || 1024);
+  const OUTPUT_CEILING = 4096;
+
+  function buildBody({ system, user, useSchema, maxOutput = OUTPUT_TOKENS }) {
     return {
       model,
       temperature: 0,
-      max_completion_tokens: 4096,
+      max_completion_tokens: maxOutput,
       response_format: useSchema
         ? {
             type: "json_schema",
@@ -246,10 +275,10 @@ function openAiCompatibleProvider({
     },
     async complete({ system, user }) {
       await pace();
-      const send = (useSchema) =>
+      const send = (useSchema, maxOutput) =>
         postJson(`${baseUrl}/chat/completions`, {
           headers: { authorization: `Bearer ${apiKey}` },
-          body: buildBody({ system, user, useSchema }),
+          body: buildBody({ system, user, useSchema, maxOutput }),
         });
 
       let data;
@@ -266,9 +295,20 @@ function openAiCompatibleProvider({
         }
       }
 
-      const choice = data?.choices?.[0];
+      let choice = data?.choices?.[0];
       if (!choice?.message) {
         throw new ProviderError("no choices returned", { retryable: true });
+      }
+      // Truncated JSON is unparseable, so a cutoff is answered with room
+      // rather than an error. Once, and only upward: this is what lets the
+      // default budget be small without risking the occasional long reply.
+      if (choice.finish_reason === "length" && OUTPUT_TOKENS < OUTPUT_CEILING) {
+        await pace();
+        data = await send(supportsJsonSchema, OUTPUT_CEILING);
+        choice = data?.choices?.[0];
+        if (!choice?.message) {
+          throw new ProviderError("no choices returned on retry", { retryable: true });
+        }
       }
       if (choice.finish_reason === "length") {
         throw new ProviderError("hit token limit before completing JSON", {
@@ -371,6 +411,9 @@ export async function completeWithChain(
 
   const failures = [];
   let allRateLimited = true;
+  // Whether every failure was a "come back later" rather than a verdict on
+  // this email. See the throw at the end for why this is not the same test.
+  let allTransient = true;
   for (const provider of usable) {
     for (let attempt = 1; attempt <= attemptsPerProvider; attempt++) {
       try {
@@ -379,6 +422,7 @@ export async function completeWithChain(
       } catch (err) {
         failures.push(`${provider.id}: ${err.message}`);
         if (!err.rateLimited) allRateLimited = false;
+        if (!err.retryable) allTransient = false;
         const lastAttempt = attempt === attemptsPerProvider;
         if (!err.retryable || lastAttempt) break;
         // Respect the provider's stated backoff when it gives one.
@@ -387,11 +431,26 @@ export async function completeWithChain(
     }
   }
 
-  // If every failure was a quota ceiling, say so: the caller should wait for the
-  // window to reopen rather than treat the email as unclassifiable.
+  /*
+   * `deferrable` is the flag that matters, and it is deliberately NOT
+   * `allRateLimited`.
+   *
+   * Requiring every failure to be a 429 was too strict, and quietly cost real
+   * mail. A run that saw groq 429, groq 429, gemini 503, gemini 429 has hit
+   * nothing but temporary walls -- yet the single 503 made allRateLimited
+   * false, so the caller counted it as a failed attempt on the email itself.
+   * Three such runs during one bad afternoon retired a perfectly classifiable
+   * amendment into the review queue, and every one of the items stranded there
+   * had exactly that mixture of 429s and 503s.
+   *
+   * A 503 says the model is busy. A 429 says the quota is spent. Neither says
+   * anything about this email. Only a NON-retryable failure -- a malformed
+   * response, a 400, a bad key -- is evidence about the message, and that is
+   * what `retryable` already distinguishes.
+   */
   throw new ProviderError(
     `all providers failed — ${failures.join(" | ")}`,
-    { retryable: true, rateLimited: allRateLimited }
+    { retryable: true, rateLimited: allRateLimited, deferrable: allTransient }
   );
 }
 
