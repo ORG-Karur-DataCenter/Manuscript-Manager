@@ -101,6 +101,22 @@
       "at": "2026-08-28T21:38:58.913Z",
       "to": [],
       "failed": []
+    },
+    {
+      "key": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s|2026-08-31T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
+      "at": "2026-08-29T10:33:01.083Z"
+    },
+    {
+      "key": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s|2026-08-31T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
+      "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
+      "due": "2026-08-31T18:29:59.999Z",
+      "at": "2026-08-29T10:33:01.083Z",
+      "to": [],
+      "failed": []
     }
   ],
   "issues": {
@@ -133,6 +149,11 @@
       "number": 7,
       "title": "Amendment 13 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
       "due": "2026-09-11T18:29:59.999Z"
+    },
+    "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s": {
+      "number": 8,
+      "title": "Amendment 2 days left — Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A…",
+      "due": "2026-08-31T18:29:59.999Z"
     }
   }
 }
