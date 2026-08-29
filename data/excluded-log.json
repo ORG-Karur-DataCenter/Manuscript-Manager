@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-02-14T17:57:32.000Z",
+      "reason": "unrelated",
+      "subject": "Re: MRSpec Project update - reg",
+      "from": "Amit Jain <amitjain@jhmi.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-02-14T18:33:19.000Z",
+      "reason": "unrelated",
+      "subject": "Initiation of Data Collection – SCOPE Study",
+      "from": "\"Dr. DHIBIN VIKASH K P\" <dhibinvikash@outlook.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-02-14T19:26:21.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study - Reg",
+      "from": "Hussam Jabri <hussamjabri@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-07-01T20:40:52.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Welcome to the July issue of the Brain & Spine Editors' Choice newsletter",
@@ -2245,30 +2266,6 @@
       "reason": "unrelated",
       "subject": "JOIO-D-26-00675 - New manuscript received",
       "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dc67dd12e15930",
-      "timestamp": "2026-04-25T21:13:46.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID 05395420 IF: 2.3, Q2 WJO Focuses on Application of AI in Orthopedic Oncology",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dc6546406f9b55",
-      "timestamp": "2026-04-25T20:28:31.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID 05395420 IF: 2.3, Q2 WJO Focuses on Application of AI in Orthopedic Oncology",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dc5d0dee96ca05",
-      "timestamp": "2026-04-25T18:04:49.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID 05395420 IF: 2.3, Q2 WJO Focuses on Application of AI in Orthopedic Oncology",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
       "account": "Sathish Muthu"
     }
   ]
