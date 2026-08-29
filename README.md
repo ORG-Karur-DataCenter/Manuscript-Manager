@@ -400,21 +400,30 @@ category **Utility**, language **English**, named `amendment_deadline`. No
 header, no footer, no buttons. One body:
 
 ```
-Manuscript deadline alert.
+Hello, this is an automatic reminder from the Manuscript Manager tracker about a paper that is waiting on you.
 
 Status: {{1}}
 Time left: {{2}}
 Manuscript: {{3}}
 Journal: {{4}}
-Due: {{5}}
+Due date: {{5}}
 
-Sent automatically by Manuscript Manager.
+Please open the tracker to see the corrections the journal has asked for, and resubmit before the date above.
 ```
 
-The plain sentences at the top and bottom are not decoration. Meta refuses a
-body that **begins or ends with a variable** — a "dangling parameter" — and
-prefers each one introduced by a label saying what it is, so `Status: {{1}}`
-passes review where a bare `{{1}}` does not.
+The prose around the placeholders is not decoration, and it cannot be trimmed.
+Meta refuses a body on two separate counts here:
+
+- it **begins or ends with a variable** — a "dangling parameter" — so each one
+  needs a label like `Status: {{1}}` rather than a bare `{{1}}`;
+- it has **too many variables for its length**. Review wants roughly three
+  words of fixed text per placeholder plus one, so five placeholders need at
+  least sixteen words that never change. A terse label-only body fails this
+  even though it reads perfectly well: Meta's concern is that a mostly-variable
+  template can be repointed at anything, which is what spam looks like.
+
+The body above carries about forty-five fixed words, comfortably clear of both.
+The cap at the other end is 550 characters.
 
 Review asks for a sample of each variable. These match what the code actually
 sends, in this order:

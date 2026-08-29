@@ -163,9 +163,11 @@ const TRANSPORTS = {
    *   {{5}} the due date        e.g. "Tue 1 Sept (estimated)"
    *
    * Meta REFUSES a body that begins or ends with a placeholder -- a "dangling
-   * parameter" -- and wants each one introduced by a label. So the approved
-   * body wraps them in plain sentences; see the README for the exact text. If
-   * a sixth parameter is ever added here, it has to go in the middle.
+   * parameter" -- and also one carrying too many placeholders for its length,
+   * wanting roughly three fixed words per placeholder plus one. So the approved
+   * body wraps these five in real sentences; see the README for the exact text.
+   * A sixth parameter added here has to go in the middle AND buy itself three
+   * more words of fixed text, or the template stops being approvable.
    */
   async meta(recipient, message, { env, fetchImpl }) {
     const token = env.META_WHATSAPP_TOKEN;
