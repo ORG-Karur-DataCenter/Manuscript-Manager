@@ -45,7 +45,7 @@ jobs:
       - run: npm install --omit=dev
 
       - name: Report what is configured
-        env:
+        :
           WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
         # Names and whether a key is present -- never the numbers or the keys
         # themselves, since workflow logs on a public repository are public.
@@ -69,9 +69,15 @@ jobs:
         env:
           WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
           WHATSAPP_TRANSPORT: ${{ inputs.transport }}
+        
+          META_WHATSAPP_TOKEN: ${{ secrets.META_WHATSAPP_TOKEN }}
+          META_WHATSAPP_PHONE_ID: ${{ secrets.META_WHATSAPP_PHONE_ID }}
+          META_WHATSAPP_TEMPLATE: ${{ secrets.META_WHATSAPP_TEMPLATE }}
+          META_WHATSAPP_LANGUAGE: ${{ vars.META_WHATSAPP_LANGUAGE || 'en' }}
+          META_API_VERSION: ${{ vars.META_API_VERSION || 'v21.0' }}
+        
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          GCHAT_WEBHOOK_URL: ${{ secrets.GCHAT_WEBHOOK_URL }}
         run: |
           case "${{ inputs.mode }}" in
             dry-run)   npm run notify -- --dry-run ;;
