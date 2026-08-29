@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-07-20T11:38:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Sathish Muthu",
+      "from": "Clinical Surgery 2027 <Clinicalsurgery@wisdom-conferences.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-10T14:18:28.000Z",
       "reason": "unrelated",
       "subject": "Re: Draft PROSPERO registrations",
@@ -2269,14 +2276,6 @@
     {
       "messageId": "19dc2e1dcbf29b65",
       "timestamp": "2026-04-25T04:24:32.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID 05395420 IF: 2.3, Q2 WJO Focuses on Application of AI in Orthopedic Oncology",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dc2cfdcadb337a",
-      "timestamp": "2026-04-25T04:04:53.000Z",
       "reason": "unrelated",
       "subject": "Number ID 05395420 IF: 2.3, Q2 WJO Focuses on Application of AI in Orthopedic Oncology",
       "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
