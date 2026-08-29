@@ -232,5 +232,79 @@ const chainError = async (providers) => {
   }
 }
 
+// --- the second opinion, and what happens without it ------------------------
+//
+// Off must not mean credulous. The model's own doubt has to reach a human
+// instead of another model, or switching this off to save quota would quietly
+// start filing shaky answers as though they were certain.
+{
+  const { classifyEmail } = await import("./lib/classify.mjs");
+  const realFetch = globalThis.fetch;
+  let calls = 0;
+
+  const answerWith = (confidence) => async () => {
+    calls++;
+    return new Response(JSON.stringify({
+      choices: [{
+        finish_reason: "stop",
+        message: { content: JSON.stringify({
+          relevant: true, event_type: "sent_back", confidence,
+          title: "A Paper", journal: "A Journal",
+        }) },
+      }],
+    }), { status: 200, headers: { "content-type": "application/json" } });
+  };
+
+  const email = { subject: "s", from: "f", date: "d", text: "t" };
+  const prevVerify = process.env.CLASSIFY_VERIFY;
+  const prevKeys = [process.env.GROQ_API_KEY, process.env.CEREBRAS_API_KEY, process.env.GEMINI_API_KEY];
+  process.env.GROQ_API_KEY = "k1";
+  process.env.CEREBRAS_API_KEY = "k2";
+  delete process.env.GEMINI_API_KEY;
+
+  try {
+    // Off: one call only, and a low-confidence answer is flagged.
+    delete process.env.CLASSIFY_VERIFY;
+    globalThis.fetch = answerWith("low");
+    calls = 0;
+    let out = await classifyEmail(email);
+    check("with verification off only one model is called", calls === 1);
+    check("and a low-confidence answer is flagged for a human", out.needsReview === true);
+    check("with a reason that says why it was unverified", /switched off/i.test(out.reviewReason || ""));
+
+    // Off, but the model was certain: trusted, not flagged.
+    globalThis.fetch = answerWith("high");
+    calls = 0;
+    out = await classifyEmail(email);
+    check("a high-confidence answer is trusted without a second call", calls === 1 && out.needsReview === false);
+
+    // On: the second model is actually consulted again.
+    process.env.CLASSIFY_VERIFY = "1";
+    globalThis.fetch = answerWith("high");
+    calls = 0;
+    out = await classifyEmail(email);
+    check("CLASSIFY_VERIFY=1 restores the second opinion", calls === 2);
+  } finally {
+    globalThis.fetch = realFetch;
+    if (prevVerify === undefined) delete process.env.CLASSIFY_VERIFY; else process.env.CLASSIFY_VERIFY = prevVerify;
+    [["GROQ_API_KEY", prevKeys[0]], ["CEREBRAS_API_KEY", prevKeys[1]], ["GEMINI_API_KEY", prevKeys[2]]]
+      .forEach(([k, v]) => { if (v === undefined) delete process.env[k]; else process.env[k] = v; });
+  }
+}
+
+// A provider named in the allowlist but never keyed is dropped silently by the
+// filter. Silence is how the Outlook mailbox went unread for seven months.
+{
+  const warnings = [];
+  const realWarn = console.warn;
+  console.warn = (msg) => warnings.push(String(msg));
+  try {
+    buildProviderChain({ GROQ_API_KEY: "k", CLASSIFIER_PROVIDERS: "cerebras,groq" });
+  } finally {
+    console.warn = realWarn;
+  }
+  check("an allowlisted provider with no key is named out loud", warnings.some((w) => /cerebras/.test(w)));
+}
+
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
 process.exit(failures ? 1 : 0);

@@ -33,7 +33,7 @@ free-tier LLM      ──► relevant?  ──no──► logged in data/exclude
    │ yes                                   (predatory / review-invite / newsletter / unrelated)
    ▼
 second model       ──► do the two agree?  ──no──► data/review-queue.json (never guessed)
-cross-checks it    │ yes
+(off by default)   │ yes
    ▼
 extract { title, journal, manuscript no., event_type, revision round, DOI, link }
    │
@@ -216,7 +216,29 @@ Free-tier quotas move; treat the numbers as a starting point. Override any model
 
 Set `CLASSIFIER_PROVIDERS` to restrict the chain to a comma-separated allowlist, in
 the order given — `CLASSIFIER_PROVIDERS=cerebras,groq` keeps email text away from
-Gemini's free tier without deleting the key.
+Gemini's free tier without deleting the key. It is an allowlist, not a preference:
+a provider left out of it is not used even with its key set. A provider named in it
+but never keyed is dropped, and says so in the log rather than going quiet.
+
+### The second opinion, and why it is off
+
+Every answer that would create a dashboard entry, and every answer the model was
+unsure of, can be put past a second, different model. It catches the expensive
+mistakes — filing junk, or losing a paper to a wrong "not relevant" — but it
+doubles the token cost of exactly those answers, and on free tiers that is the
+difference between keeping up with the morning's mail and running dry by ten.
+
+It is **off by default**, because on this repository's history it has never once
+earned its price: across 110 manuscripts, 362 timeline entries, 300 excluded-log
+entries and the review queue, there is not a single recorded relevance conflict,
+event-type conflict or unusable cross-check. Set `CLASSIFY_VERIFY=1` to turn it
+back on when quota allows.
+
+Off does not mean credulous. A high-confidence answer is trusted; **anything below
+high is flagged for a human** rather than filed unchecked. The doubt goes to a
+person instead of to another model — which is the same thing that already happened
+whenever no second provider was reachable, so there is one behaviour to reason
+about rather than two.
 
 Verify the engine at any time, without needing Gmail access:
 

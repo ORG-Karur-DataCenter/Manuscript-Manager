@@ -248,11 +248,43 @@ export async function classifyEmail({ subject, from, date, text }) {
     agreement: null,
   };
 
+  /*
+   * THE SECOND OPINION, and when it is worth its price.
+   *
+   * Verification runs the same email past a different model. It catches the
+   * expensive mistakes -- filing junk, or losing a paper to a wrong "not
+   * relevant" -- but it doubles the token cost of every consequential answer,
+   * and on free tiers that is the difference between keeping up with the
+   * morning's mail and running out of quota by ten o'clock.
+   *
+   * With it off, a high-confidence answer is trusted and ANYTHING BELOW HIGH
+   * IS FLAGGED rather than filed unchecked. Off does not mean credulous: it
+   * means the model's own doubt goes to a human instead of to another model.
+   * That is the same fallback used when no second provider is reachable, so
+   * there is one behaviour to reason about rather than two.
+   *
+   * CLASSIFY_VERIFY=1 turns it back on when quota allows.
+   */
+  const verifyEnabled = /^(1|true|on|yes)$/i.test(String(process.env.CLASSIFY_VERIFY || ""));
+
   // Verify the consequential answers: anything that would create a dashboard
   // entry, and anything the model itself was unsure about.
   const needsVerification = primary.relevant || primary.confidence !== "high";
   if (!needsVerification) {
     return { ...primary, needsReview: false, reviewReason: null, meta };
+  }
+
+  if (!verifyEnabled) {
+    meta.verificationSkipped = "CLASSIFY_VERIFY is off";
+    return {
+      ...primary,
+      needsReview: primary.confidence !== "high",
+      reviewReason:
+        primary.confidence !== "high"
+          ? `unverified ${primary.confidence}-confidence call (second opinion switched off to save quota)`
+          : null,
+      meta,
+    };
   }
 
   let second;

@@ -383,6 +383,19 @@ export function buildProviderChain(env = process.env) {
     .filter(Boolean);
   if (!allowlist.length) return chain;
 
+  // A named provider with no key is dropped silently by the filter below, so
+  // say so. Naming one and forgetting its secret looks identical to not
+  // wanting it, and the only visible symptom is quota running out sooner than
+  // expected on the providers that did load.
+  const missing = allowlist.filter((id) => !chain.some((p) => p.id === id));
+  if (missing.length) {
+    console.warn(
+      `CLASSIFIER_PROVIDERS names ${missing.join(", ")}, but no API key is set for ` +
+      `${missing.length > 1 ? "those" : "that"}, so ${missing.length > 1 ? "they are" : "it is"} ` +
+      `not in the chain. Configured: ${chain.map((p) => p.id).join(", ") || "(none)"}.`
+    );
+  }
+
   const filtered = allowlist
     .map((id) => chain.find((p) => p.id === id))
     .filter(Boolean);

@@ -71,8 +71,9 @@ jobs:
           OUTLOOK_CLIENT_SECRET: ${{ secrets.OUTLOOK_CLIENT_SECRET }}
           OUTLOOK_REFRESH_TOKEN_DHIBIN: ${{ secrets.OUTLOOK_REFRESH_TOKEN_DHIBIN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          CLASSIFIER_PROVIDERS: groq,gemini-3.7-flash
+          CLASSIFIER_PROVIDERS: cerebras,groq,gemini-3.7-flash
           MAX_CLASSIFICATIONS_PER_RUN: ${{ inputs.classifications_per_month }}
           MAX_MESSAGES_PER_RUN: ${{ inputs.messages_per_month }}
         run: |
