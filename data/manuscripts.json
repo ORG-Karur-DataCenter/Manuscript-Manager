@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T21:51:59.986Z",
+  "generatedAt": "2026-08-29T01:24:32.964Z",
   "manuscripts": [
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
@@ -5128,6 +5128,73 @@
       ],
       "createdAt": "2026-08-17T10:52:38.000Z",
       "updatedAt": "2026-08-17T10:52:38.000Z"
+    },
+    {
+      "id": "management-of-meniscal-ramp-lesions-in-acl-deficient-knees-to-repair-o",
+      "title": "Management of Meniscal Ramp Lesions in ACL-Deficient Knees: To Repair or to Leave Alone?",
+      "titleNormalized": "management of meniscal ramp lesions in acl deficient knees to repair or to leave alone",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
+      "currentJournal": "Journal of Orthopedic Case Reports",
+      "currentManuscriptNumber": "11145",
+      "currentStatus": "Revision requested",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Orthopedic Case Reports",
+          "manuscriptNumber": "11145",
+          "submittedDate": "2026-08-10T15:20:27.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-10T15:20:27.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The editorial coordinator provided detailed reviewer feedback requesting revisions to the manuscript.",
+              "manuscriptNumber": "11145",
+              "source": {
+                "threadId": "19fec42fa8d44ef6",
+                "messageId": "19fec42fa8d44ef6",
+                "subject": "11145:Management of Meniscal Ramp Lesions in ACL-Deficient Knees: To Repair or to Leave Alone?",
+                "from": "Nutan Saroj <sarojnutan@gmail.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-10T15:20:27.000Z",
+          "journal": "Journal of Orthopedic Case Reports",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "11145",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The editorial coordinator provided detailed reviewer feedback requesting revisions to the manuscript.",
+          "source": {
+            "threadId": "19fec42fa8d44ef6",
+            "messageId": "19fec42fa8d44ef6",
+            "subject": "11145:Management of Meniscal Ramp Lesions in ACL-Deficient Knees: To Repair or to Leave Alone?",
+            "from": "Nutan Saroj <sarojnutan@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-10T15:20:27.000Z",
+      "updatedAt": "2026-08-10T15:20:27.000Z"
     },
     {
       "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
