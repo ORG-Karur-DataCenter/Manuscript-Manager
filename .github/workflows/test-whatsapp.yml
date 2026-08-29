@@ -76,6 +76,8 @@ jobs:
           WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
           WHATSAPP_TRANSPORT: ${{ inputs.transport }}
 
+          META_WHATSAPP_TEST: ${{ inputs.mode == 'send-test' }}
+
           META_WHATSAPP_TOKEN: ${{ secrets.META_WHATSAPP_TOKEN }}
           META_WHATSAPP_PHONE_ID: ${{ secrets.META_WHATSAPP_PHONE_ID }}
           META_WHATSAPP_TEMPLATE: ${{ secrets.META_WHATSAPP_TEMPLATE }}
