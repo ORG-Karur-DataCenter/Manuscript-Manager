@@ -54,6 +54,7 @@ export const FIELDS = [
 export const SECTIONS = [
   { bucket: "submissions", label: "Submissions" },
   { bucket: "needs_action", label: "Needs action" },
+  { bucket: "revisions_pending", label: "Revisions pending" },
   { bucket: "in_review", label: "In review" },
   { bucket: "published", label: "Published" },
 ];

@@ -111,12 +111,15 @@ Everything else follows by recency.
 | :-- | :-- |
 | 📤 **Submissions** | Freshly submitted, acknowledged by a journal, awaiting first editorial check. |
 | ❗ **Needs action** | Rejected papers to resubmit elsewhere **and** papers sent back for edits before peer review. |
-| 🔍 **In review** | Under peer review, revision in progress, transferred, or accepted-awaiting-publication. |
+| ↻ **Revisions pending** | Peer review is done and the journal has asked for revisions — it is waiting on you. |
+| 🔍 **In review** | Under peer review, transferred, or accepted and awaiting publication. |
 | ✅ **Published** | Published, with DOI and article link. |
 
 A **revision requested** or **sent back for edits** event raises a pulsing action
-flag, since both need your work — a revision even though the paper is still
-"in review". Those two events also carry a link straight to **the original
+flag, since both need your work. They sit in different sections because they
+arrive at different stages — *Needs action* is before peer review, *Revisions
+pending* is after it — but both mean the manuscript is on your desk rather than
+the journal's. Those two events also carry a link straight to **the original
 email**, because what the editor actually asked for, and the marked-up
 manuscript, are in the message rather than in any summary of it.
 

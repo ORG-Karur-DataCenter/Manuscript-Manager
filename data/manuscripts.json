@@ -1922,14 +1922,14 @@
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
       "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
       "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
-      "bucket": "needs_action",
+      "bucket": "submissions",
       "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
-      "currentStatus": "Sent back for edits",
+      "currentStatus": "Revision submitted — Editor changes approved",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -1981,8 +1981,47 @@
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
       "updatedAt": "2026-08-28T15:10:08.000Z",
-      "deadline": "2026-09-11T18:29:59.999Z",
-      "deadlineSource": "assumed"
+      "deadline": null,
+      "deadlineSource": null,
+      "overrides": {
+        "bucket": "submissions",
+        "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
+        "currentStatus": "Revision submitted — Editor changes approved"
+      },
+      "edits": [
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "bucket",
+              "from": "needs_action",
+              "to": "submissions"
+            },
+            {
+              "field": "notes",
+              "from": null,
+              "to": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
+            },
+            {
+              "field": "deadline",
+              "from": null,
+              "to": null,
+              "clearedByMove": true
+            }
+          ]
+        },
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "currentStatus",
+              "from": "Sent back for edits",
+              "to": "Revision submitted — Editor changes approved"
+            }
+          ]
+        }
+      ],
+      "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
     },
     {
       "id": "financial-implications-of-platelet-rich-plasma-therapy-in-musculoskele",
@@ -3178,7 +3217,7 @@
       "id": "comparative-physicochemical-biochemical-growth-factor-and-cytokine-cha",
       "title": "Comparative Physicochemical, Biochemical, Growth Factor and Cytokine Characterization of Platelet-Rich Plasma and Plasma Rich in Growth Factors (PRGF)",
       "titleNormalized": "comparative physicochemical biochemical growth factor and cytokine characterization of platelet rich plasma and plasma rich in growth factors prgf",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
@@ -3307,7 +3346,7 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
@@ -5878,7 +5917,7 @@
       "id": "management-of-meniscal-ramp-lesions-in-acl-deficient-knees-to-repair-o",
       "title": "Management of Meniscal Ramp Lesions in ACL-Deficient Knees: To Repair or to Leave Alone?",
       "titleNormalized": "management of meniscal ramp lesions in acl deficient knees to repair or to leave alone",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
@@ -10452,7 +10491,7 @@
       "id": "proximal-junctional-odontoid-fracture-after-cervical-fusion-a-distinct",
       "title": "Proximal Junctional Odontoid Fracture After Cervical Fusion: A Distinct Failure Mechanism at the Craniovertebral Junction",
       "titleNormalized": "proximal junctional odontoid fracture after cervical fusion a distinct failure mechanism at the craniovertebral junction",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
@@ -13986,7 +14025,7 @@
       "id": "incidence-recovery-of-sexual-dysfunction-in-cauda-equina-syndrome-foll",
       "title": "Incidence & Recovery of Sexual Dysfunction in Cauda Equina Syndrome following Surgical Decompression: A Systematic Review and Meta-analysis",
       "titleNormalized": "incidence recovery of sexual dysfunction in cauda equina syndrome following surgical decompression a systematic review and meta analysis",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
@@ -16223,5 +16262,6 @@
       "createdAt": "2026-02-27T04:16:41.000Z",
       "updatedAt": "2026-02-27T04:16:41.000Z"
     }
-  ]
+  ],
+  "editedAt": "2026-08-30T13:26:51.997Z"
 }

@@ -8,6 +8,7 @@ import { FIELDS, SECTIONS, isPinned, editingAvailable, saveEdit, diff } from "./
 const BUCKET_META = {
   submissions: { label: "Submissions", pill: "submissions" },
   needs_action: { label: "Needs action", pill: "needs_action" },
+  revisions_pending: { label: "Revisions pending", pill: "revisions_pending" },
   in_review: { label: "In review", pill: "in_review" },
   published: { label: "Published", pill: "published" },
 };
@@ -16,6 +17,7 @@ const BUCKET_HINTS = {
   all: "Every manuscript being tracked. Anything on a deadline comes first, most urgent at the top; the rest follow by newest activity.",
   submissions: "Freshly submitted — acknowledged by a journal, awaiting a first editorial check.",
   needs_action: "Needs you: rejected papers to resubmit elsewhere, or manuscripts returned for edits before peer review.",
+  revisions_pending: "Reviewed, and coming back to you: the journal has asked for revisions and is waiting on the revised manuscript.",
   in_review: "With the journal — under peer review, revision in progress, or accepted and awaiting publication.",
   published: "Published, with DOI and article link where available.",
   review: "Emails the classifier would not guess at. Nothing here has been filed on a guess — check each one and correct the record.",
@@ -252,7 +254,12 @@ function reviewReasonFor(m) {
 }
 
 function counts() {
-  const c = { all: state.manuscripts.length, submissions: 0, needs_action: 0, in_review: 0, published: 0 };
+  // Seeded from BUCKET_META rather than a hand-written list, because the two
+  // drifted the moment a section was added: the filter worked and its badge
+  // sat at zero, which reads as "nothing here" on the one control meant to
+  // tell you there is.
+  const c = { all: state.manuscripts.length };
+  for (const bucket of Object.keys(BUCKET_META)) c[bucket] = 0;
   for (const m of state.manuscripts) if (c[m.bucket] !== undefined) c[m.bucket]++;
   c.review = state.manuscripts.filter((m) => m.needsReview).length + unfiledReview().length;
   return c;

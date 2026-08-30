@@ -21,6 +21,8 @@
   --flag-card: #fffdf7;
   --review: #d0912b;
   --review-wash: #fbf1de;
+  --revision: #7c3aed;
+  --revision-wash: #ede9fe;
   --published: #2e9e6b;
   --published-wash: #e2f4ec;
 
@@ -49,6 +51,8 @@ html[data-theme="dark"] {
   --flag-wash: #3a2f1830;
   --flag-card: transparent;
   --review-wash: #35290f30;
+  --revision: #a78bfa;
+  --revision-wash: #2a1f4a55;
   --published-wash: #10301f40;
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, .3), 0 3px 10px rgba(0, 0, 0, .35);
   --shadow: 0 6px 26px rgba(0, 0, 0, .45);
@@ -167,8 +171,12 @@ html[data-theme="dark"] .hero-acronym {
 .hero-expand b { color: var(--brand); font-weight: 700; }
 
 /* buckets */
+/* auto-fit, not a fixed column count. The count was 5, hardcoded, and adding a
+   section made seven tiles share five columns -- so the new one was squeezed
+   until its label clipped to "Revisions pendin". Sizing to content means a
+   future section needs no CSS at all. */
 .buckets {
-  display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(186px, 1fr)); gap: 12px;
   margin: 26px 0 18px;
 }
 .bucket-btn {
@@ -187,10 +195,15 @@ html[data-theme="dark"] .hero-acronym {
 .bucket-icon.all { background: var(--brand-wash); color: var(--brand); }
 .bucket-icon.submissions { background: var(--submissions-wash); color: var(--submissions); }
 .bucket-icon.needs_action { background: var(--needs-wash); color: var(--needs); }
+.bucket-icon.revisions_pending { background: var(--revision-wash); color: var(--revision); }
 .bucket-icon.in_review { background: var(--review-wash); color: var(--review); }
 .bucket-icon.published { background: var(--published-wash); color: var(--published); }
 .bucket-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
-.bucket-name { font-weight: 600; font-size: .92rem; white-space: nowrap; }
+/* Wraps rather than truncates. nowrap clipped "Revisions pending", and an
+   ellipsis merely traded a hard cut for a soft one -- it also started
+   shortening "All manuscripts", which had been fine. A section name is
+   worth two lines. */
+.bucket-name { font-weight: 600; font-size: .92rem; line-height: 1.25; }
 .bucket-count { font-family: 'Fraunces', serif; font-weight: 700; font-size: 1.5rem; line-height: 1; }
 .bucket-btn.attn .bucket-count { color: var(--needs); }
 
@@ -209,6 +222,7 @@ html[data-theme="dark"] .hero-acronym {
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
 .card.b-submissions { border-left-color: var(--submissions); }
 .card.b-needs_action { border-left-color: var(--needs); }
+.card.b-revisions_pending { border-left-color: var(--revision); }
 .card.b-in_review { border-left-color: var(--review); }
 .card.b-published { border-left-color: var(--published); }
 
@@ -225,6 +239,7 @@ html[data-theme="dark"] .hero-acronym {
 }
 .pill.submissions { background: var(--submissions-wash); color: var(--submissions); }
 .pill.needs_action { background: var(--needs-wash); color: var(--needs); }
+.pill.revisions_pending { background: var(--revision-wash); color: var(--revision); }
 .pill.in_review { background: var(--review-wash); color: var(--review); }
 .pill.published { background: var(--published-wash); color: var(--published); }
 /* white-space is the whole point here. "Amendments requested" wrapped onto two

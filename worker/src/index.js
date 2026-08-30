@@ -87,7 +87,7 @@ const OVERRIDABLE = [
   "publicationLink",
   "notes",
 ];
-const BUCKETS = ["submissions", "needs_action", "in_review", "published"];
+const BUCKETS = ["submissions", "needs_action", "revisions_pending", "in_review", "published"];
 
 const normalizeTitle = (t) =>
   (t || "").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "")

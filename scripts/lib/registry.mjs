@@ -142,8 +142,11 @@ function bucketForEvent(eventType) {
       return { bucket: "needs_action", needsActionReason: "pre_review_edits" };
     case "new_submission":
       return { bucket: "submissions", needsActionReason: null };
-    case "under_review":
     case "revision_requested":
+      // Its own section. "In review" means the journal is working; a revision
+      // request means YOU are, and the two were sitting in one pile.
+      return { bucket: "revisions_pending", needsActionReason: null };
+    case "under_review":
     case "accepted":
     case "transferred":
       return { bucket: "in_review", needsActionReason: null };

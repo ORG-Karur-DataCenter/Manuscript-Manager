@@ -397,5 +397,34 @@ const sinceFor = (state) =>
   check("the old rule really did drift, 2 days per run", drift === 20);
 }
 
+// --- revisions get their own section -----------------------------------------
+//
+// "In review" means the journal is working on it. A revision request means YOU
+// are, and the two sat in one pile -- so a paper waiting on your revision read
+// as a paper you could forget about.
+{
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "Needs A Revision", journal: "Journal R", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "rv1" } }));
+  applyEvent(reg, ev({ title: "Needs A Revision", journal: "Journal R", eventType: "revision_requested", timestamp: "2026-08-10T00:00:00Z", source: { messageId: "rv2" } }));
+  check("a revision request lands in its own section", reg.manuscripts[0].bucket === "revisions_pending");
+
+  // And the states around it must not have moved with it.
+  const under = { manuscripts: [] };
+  applyEvent(under, ev({ title: "Just Under Review", journal: "Journal S", eventType: "under_review", timestamp: "2026-08-10T00:00:00Z", source: { messageId: "ur1" } }));
+  check("under review is still in review", under.manuscripts[0].bucket === "in_review");
+
+  const acc = { manuscripts: [] };
+  applyEvent(acc, ev({ title: "Accepted Paper", journal: "Journal T", eventType: "accepted", timestamp: "2026-08-10T00:00:00Z", source: { messageId: "ac1" } }));
+  check("accepted is still in review", acc.manuscripts[0].bucket === "in_review");
+
+  const back = { manuscripts: [] };
+  applyEvent(back, ev({ title: "Sent Back Paper", journal: "Journal U", eventType: "sent_back", timestamp: "2026-08-10T00:00:00Z", source: { messageId: "sb1" } }));
+  check("sent back is still needs action", back.manuscripts[0].bucket === "needs_action");
+
+  // Moving on clears it again, so a finished revision does not linger.
+  applyEvent(reg, ev({ title: "Needs A Revision", journal: "Journal R", eventType: "under_review", timestamp: "2026-08-20T00:00:00Z", source: { messageId: "rv3" } }));
+  check("and it leaves the section once the journal takes it back", reg.manuscripts[0].bucket === "in_review");
+}
+
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
 process.exit(failures ? 1 : 0);
