@@ -28,7 +28,46 @@
 const OWNER = "ORG-Karur-DataCenter";
 const REPO = "Manuscript-Manager";
 const WORKFLOW = "sync-manuscripts.yml";
-const BRANCH = "main";
+
+/*
+ * The branch to dispatch on, and why it is not simply a constant.
+ *
+ * It was "main" here, and before that a development branch name. This Worker
+ * is deployed separately from the repository, so a constant here goes stale
+ * the moment a branch is renamed or removed -- and stays stale until somebody
+ * remembers to redeploy. That is exactly what happened: the branch was
+ * deleted, the deployed Worker kept asking for it, and Sync answered "No ref
+ * found for claude/manuscript-tracking-app-jhj4p7" with nothing to suggest the
+ * cause was a stale deployment rather than a broken button.
+ *
+ * Asking GitHub for the repository's default branch removes the class of
+ * fault: renaming or deleting a branch can no longer desynchronise a Worker
+ * nobody thought to redeploy. BRANCH_FALLBACK covers the case where that
+ * lookup itself fails, so a GitHub blip degrades to the old behaviour rather
+ * than to no sync at all.
+ */
+const BRANCH_FALLBACK = "main";
+let cachedBranch = null;
+
+/*
+ * Tests drive several different repositories through one module instance, and
+ * a cache that outlives them would make the second test assert the first
+ * one's answer. Exported for that, and used nowhere in the request path.
+ */
+export function __resetBranchCache() {
+  cachedBranch = null;
+}
+
+async function defaultBranch(env) {
+  if (cachedBranch) return cachedBranch;
+  try {
+    const repo = await gh("", env);
+    cachedBranch = repo?.default_branch || BRANCH_FALLBACK;
+  } catch {
+    cachedBranch = BRANCH_FALLBACK;
+  }
+  return cachedBranch;
+}
 const GH = `https://api.github.com/repos/${OWNER}/${REPO}`;
 const FALLBACK_SECONDS = 165;
 const DATA_PATH = "data/manuscripts.json";
@@ -212,9 +251,12 @@ function encodeBase64(text) {
  */
 async function commitEdit(id, patch, env) {
   let lastConflict = null;
+  // Read and write the same branch the sync runs on, resolved once rather than
+  // hardcoded -- see defaultBranch above for why a constant here rots.
+  const branch = await defaultBranch(env);
 
   for (let attempt = 0; attempt < 4; attempt++) {
-    const file = await gh(`/contents/${DATA_PATH}?ref=${BRANCH}&_=${Date.now()}`, env);
+    const file = await gh(`/contents/${DATA_PATH}?ref=${branch}&_=${Date.now()}`, env);
     const registry = JSON.parse(decodeBase64(file.content));
 
     const manuscript = (registry.manuscripts || []).find((m) => m.id === id);
@@ -237,7 +279,7 @@ async function commitEdit(id, patch, env) {
           message: commitMessage(manuscript, changes),
           content: encodeBase64(`${JSON.stringify(registry, null, 2)}\n`),
           sha: file.sha,
-          branch: BRANCH,
+          branch,
         }),
       });
       return { changes, manuscript, unchanged: false };
@@ -322,10 +364,26 @@ export default {
       if (url.pathname === "/sync" && request.method === "POST") {
         const requestedAt = Date.now();
         const estimate = await estimateSeconds(env);
-        await gh(`/actions/workflows/${WORKFLOW}/dispatches`, env, {
-          method: "POST",
-          body: JSON.stringify({ ref: BRANCH }),
-        });
+        const ref = await defaultBranch(env);
+        try {
+          await gh(`/actions/workflows/${WORKFLOW}/dispatches`, env, {
+            method: "POST",
+            body: JSON.stringify({ ref }),
+          });
+        } catch (err) {
+          // 422 "No ref found" from a dispatch means the branch this Worker
+          // asked for is not there. Raw, it reads as a broken button.
+          if (err.status === 422 && /No ref found/i.test(err.message)) {
+            return json({
+              error:
+                `The sync service asked GitHub to run on branch "${ref}", which does not exist. ` +
+                "If that is an old branch name, this Worker is running a build from before it " +
+                "changed — redeploy it with `wrangler deploy` from the worker/ directory.",
+              recoverable: true,
+            }, 502, env, request);
+          }
+          throw err;
+        }
         const run = await findRunSince(requestedAt, env);
         if (!run) {
           return json({ error: "The sync started but its run could not be found." }, 502, env, request);

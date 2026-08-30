@@ -15,7 +15,7 @@
  *
  *   node scripts/check-worker.mjs
  */
-import worker from "../worker/src/index.js";
+import worker, { __resetBranchCache } from "../worker/src/index.js";
 import { applyEdit as applyEditInSync, OVERRIDABLE } from "./lib/registry.mjs";
 
 const PASSWORD = "test-password";
@@ -58,15 +58,32 @@ const fromB64 = (text) => Buffer.from(text, "base64").toString("utf8");
  * on each attempt — "conflict" makes GitHub reject the blob SHA the way it does
  * when the sync has committed in between.
  */
-function stubGitHub({ registry, sha = "sha-1", plan = [] } = {}) {
+function stubGitHub({ registry, sha = "sha-1", plan = [], defaultBranch = "main", dispatch = "ok" } = {}) {
   const calls = [];
   let current = registry;
   let currentSha = sha;
   let attempt = 0;
 
+  __resetBranchCache();
+
   globalThis.fetch = async (url, options = {}) => {
     const path = new URL(url).pathname;
     calls.push({ path, method: options.method || "GET", options });
+
+    // The repository itself, which is where the branch to act on comes from.
+    if (/\/repos\/[^/]+\/[^/]+$/.test(path)) {
+      return new Response(JSON.stringify({ default_branch: defaultBranch }), { status: 200 });
+    }
+
+    if (path.endsWith("/dispatches") && options.method === "POST") {
+      if (dispatch === "no-ref") {
+        return new Response(
+          JSON.stringify({ message: `No ref found for: ${JSON.parse(options.body).ref}` }),
+          { status: 422 }
+        );
+      }
+      return new Response(null, { status: 204 });
+    }
 
     if (path.endsWith("/contents/data/manuscripts.json") && (options.method || "GET") === "GET") {
       return new Response(JSON.stringify({ content: b64(JSON.stringify(current)), sha: currentSha }), {
@@ -112,6 +129,49 @@ function patchRequest(id, patch, { password = PASSWORD } = {}) {
 }
 
 const call = (request, e = env) => worker.fetch(request, e);
+
+// --- which branch the Worker acts on ----------------------------------------
+//
+// This was a constant. The Worker deploys separately from the repository, so a
+// branch rename left the live Worker asking for a branch that no longer
+// existed, and Sync answered "No ref found for claude/manuscript-tracking-app-
+// jhj4p7" -- which reads as a broken button rather than a stale deployment.
+
+await check("sync dispatches on the repository's default branch, not a constant", async () => {
+  const gh = stubGitHub({ registry: registryWith({}), defaultBranch: "production" });
+  const res = await call(new Request("https://proxy.test/sync", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${PASSWORD}` },
+  }));
+  const dispatched = gh.calls.find((c) => c.path.endsWith("/dispatches"));
+  assert(dispatched, "no dispatch was made");
+  const ref = JSON.parse(dispatched.options.body).ref;
+  assert(ref === "production", `dispatched on "${ref}", not the repo's default branch`);
+  assert(res.status === 200 || res.status === 502, `unexpected status ${res.status}`);
+});
+
+await check("an edit writes to that same branch", async () => {
+  const gh = stubGitHub({ registry: registryWith({}), defaultBranch: "production" });
+  await call(patchRequest("m1", { title: "A Corrected Title" }));
+  const write = gh.calls.find((c) => c.method === "PUT" && c.path.includes("/contents/"));
+  assert(write, "no write was made");
+  const branch = JSON.parse(write.options.body).branch;
+  assert(branch === "production", `edit wrote to "${branch}", not the repo's default branch`);
+  const read = gh.calls.find((c) => c.method === "GET" && c.path.includes("/contents/"));
+  assert(read, "no read was made");
+});
+
+await check("a missing branch says the Worker is stale, not that sync is broken", async () => {
+  stubGitHub({ registry: registryWith({}), defaultBranch: "gone-away", dispatch: "no-ref" });
+  const res = await call(new Request("https://proxy.test/sync", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${PASSWORD}` },
+  }));
+  const body = await res.json();
+  assert(res.status === 502, `expected 502, got ${res.status}`);
+  assert(/gone-away/.test(body.error), `does not name the branch: ${body.error}`);
+  assert(/redeploy/i.test(body.error), `does not say what to do: ${body.error}`);
+});
 
 // --- the password gate ------------------------------------------------------
 
