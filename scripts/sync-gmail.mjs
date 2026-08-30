@@ -44,11 +44,45 @@ const ON_A_CLOCK = { sent_back: true, revision_requested: true };
  * SYNC_RESCAN=1 to reconsider those too -- the registry dedupes by message id,
  * so re-filing is safe, but it spends the LLM budget again.
  */
+/**
+ * A sweep window, validated here rather than where it is used.
+ *
+ * `new Date("whatever")` does not throw -- it returns an Invalid Date that
+ * behaves normally until something calls toISOString() on it, which then
+ * throws a bare "RangeError: Invalid time value" from inside a log line. One
+ * mistyped date in the workflow's dispatch box cost a whole run that way, and
+ * the stack trace pointed at the logging rather than at the input.
+ *
+ * Checking at the edge means a bad value is named, with the format it wanted,
+ * before any mailbox is opened.
+ */
+function sweepDate(raw, which) {
+  if (!raw || !raw.trim()) return null;
+  const at = new Date(raw.trim());
+  if (Number.isNaN(at.getTime())) {
+    console.error(
+      `${which} is not a date I can read: "${raw}".\n` +
+      "Use YYYY-MM-DD (for example 2026-08-01), or leave it blank for an " +
+      "ordinary incremental run."
+    );
+    process.exit(1);
+  }
+  return at;
+}
+
 const SWEEP = {
-  since: process.env.SYNC_SINCE ? new Date(process.env.SYNC_SINCE) : null,
-  until: process.env.SYNC_UNTIL ? new Date(process.env.SYNC_UNTIL) : null,
+  since: sweepDate(process.env.SYNC_SINCE, "SYNC_SINCE"),
+  until: sweepDate(process.env.SYNC_UNTIL, "SYNC_UNTIL"),
   rescan: process.env.SYNC_RESCAN === "1",
 };
+
+if (SWEEP.since && SWEEP.until && SWEEP.until <= SWEEP.since) {
+  console.error(
+    `SYNC_UNTIL (${SWEEP.until.toISOString().slice(0, 10)}) is not after ` +
+    `SYNC_SINCE (${SWEEP.since.toISOString().slice(0, 10)}), so the window is empty.`
+  );
+  process.exit(1);
+}
 const sweeping = Boolean(SWEEP.since || SWEEP.until);
 
 const DEFAULT_LOOKBACK_DAYS = 30; // first run per account

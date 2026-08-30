@@ -2,7 +2,8 @@ name: Sync manuscript tracker
 
 on:
   schedule:
-    # Every 3 hours. GitHub may delay scheduled runs slightly at busy times.
+    # Hourly, at :17 rather than :00 so this is not one of the many repositories
+    # firing on the hour. GitHub may still delay a scheduled run at busy times.
     - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
