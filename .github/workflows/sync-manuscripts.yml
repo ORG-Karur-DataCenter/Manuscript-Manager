@@ -3,7 +3,7 @@ name: Sync manuscript tracker
 on:
   schedule:
     # Every 3 hours. GitHub may delay scheduled runs slightly at busy times.
-    - cron: "0 */3 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       # A one-off sweep of an explicit window, for filling a hole rather than

@@ -74,7 +74,18 @@ const MAX_CLASSIFY_ATTEMPTS = 3;
 
 // After this many rate limits in a row, treat the daily quota as spent and defer
 // the rest of the account's mail to the next run.
-const RATE_LIMIT_GIVE_UP = Number(process.env.RATE_LIMIT_GIVE_UP || 5);
+//
+// Two, not five. A rate-limited message is not cheap to give up on: every
+// provider in the chain is tried twice, and each retry waits out the backoff
+// the provider asked for, capped at 30 seconds. That is about 100 seconds of
+// sleeping per message, so five confirmations cost roughly eight minutes PER
+// MAILBOX to establish what the second one already had. Profiling a real run
+// showed 16 of its 16.4 minutes spent this way.
+//
+// The cost of being wrong is small and self-correcting: if the quota had in
+// fact just recovered, the deferred mail is picked up by the next run with no
+// penalty and nothing is lost.
+const RATE_LIMIT_GIVE_UP = Number(process.env.RATE_LIMIT_GIVE_UP || 2);
 
 
 async function loadJson(file, fallback) {

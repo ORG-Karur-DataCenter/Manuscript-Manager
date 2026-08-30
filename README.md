@@ -68,7 +68,7 @@ reason, not silently dropped.
 
 ### ✋ Corrects itself, and takes yours
 
-Every field is re-derived from email every three hours — so a correction you
+Every field is re-derived from email every hour — so a correction you
 type by hand is **pinned**, and the sync leaves it alone. Marked *set by hand*
 wherever it shows, with a way back to automatic.
 
@@ -82,7 +82,7 @@ wherever it shows, with a way back to automatic.
 
 ```mermaid
 flowchart TD
-    A["📥 Gmail inboxes<br/><i>polled every 3h, only mail since last sync</i>"] --> B{keyword prefilter}
+    A["📥 Gmail inboxes<br/><i>polled hourly, only mail since last sync</i>"] --> B{keyword prefilter}
     B -->|obvious non-candidate| X["🗑️ excluded-log.json<br/><i>with a reason — no AI cost</i>"]
     B -->|might matter| C{{"🧠 free-tier LLM"}}
     C -->|not your manuscript| X
@@ -127,7 +127,7 @@ manuscript, are in the message rather than in any summary of it.
 | | |
 | :-- | :-- |
 | **Frontend** | A static dashboard (`index.html` + `assets/`) on GitHub Pages. It reads one JSON file. |
-| **Backend** | `scripts/sync-gmail.mjs`, run by GitHub Actions every three hours. Reads Gmail, classifies, commits. |
+| **Backend** | `scripts/sync-gmail.mjs`, run by GitHub Actions every hour. Reads Gmail, classifies, commits. |
 | **Writes** | A Cloudflare Worker holds the one GitHub token, so no browser ever does. |
 | **Database** | There isn't one. **The git repo is the database** — every change to a manuscript is a commit. |
 
@@ -209,7 +209,7 @@ grant every future workflow more than it needs, for no benefit.
 ### 5. Run it
 
 **Actions → Sync manuscript tracker → Run workflow** to do the first sync manually
-(the first run looks back 30 days). After that it runs every 3 hours automatically.
+(the first run looks back 30 days). After that it runs hourly, automatically.
 
 ---
 
@@ -371,7 +371,7 @@ email trail does not carry, and move it to a different section.
 
 **What you set by hand stays set.** This matters more than it looks. Every
 field on this dashboard is derived from email: the classifier reads each
-message and the sync folds it into the record, every three hours. So a
+message and the sync folds it into the record, every hour. So a
 correction that was merely written down would be silently undone by the next
 message from the journal — you would fix a title on Monday and find it wrong
 again on Tuesday, with nothing to say why.
@@ -620,7 +620,7 @@ Correct one with **Edit** and the reminders follow your date instead.
 ## Sync now
 
 The header has a **Sync now** button that runs the Gmail sync immediately
-instead of waiting for the three-hourly schedule. It shows a progress ring and
+instead of waiting for the hourly schedule. It shows a progress ring and
 a countdown; the estimate is the median duration of recent runs of this
 workflow, not a fixed guess, so it tracks reality as the workflow changes.
 
