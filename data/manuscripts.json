@@ -1,6 +1,561 @@
 {
-  "generatedAt": "2026-08-30T17:39:59.935Z",
+  "generatedAt": "2026-08-30T21:18:59.629Z",
   "manuscripts": [
+    {
+      "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
+      "title": "Factor XIIIa Controls Fibrin Ultrastructure and Protein Release in Injectable Platelet-Rich Fibrin: A Mechanistic In-Vitro Study",
+      "titleNormalized": "factor xiiia controls fibrin ultrastructure and protein release in injectable platelet rich fibrin a mechanistic in vitro study",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Experimental Medicine",
+      "currentManuscriptNumber": "126998",
+      "currentStatus": "Under review",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Experimental Medicine",
+          "manuscriptNumber": "126998",
+          "submittedDate": "2026-08-18T06:30:40.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-18T06:30:40.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission received.",
+              "manuscriptNumber": "126998",
+              "source": {
+                "threadId": "1a01390d4c2407ec",
+                "messageId": "1a01390d4c2407ec",
+                "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 126998",
+                "from": "BPG Submission <submission@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-19T07:38:36.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Passed technical preliminary review; proceeding to editorial triage or peer review.",
+              "manuscriptNumber": "126998",
+              "source": {
+                "threadId": "1a018f53d0269654",
+                "messageId": "1a018f53d0269654",
+                "subject": "World Journal of Experimental Medicine Manuscript No.: 126998 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+                "from": "BPG Submission <submission@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T19:08:02.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "A reviewer has completed their review and provided comments on the submitted manuscript.",
+              "manuscriptNumber": "126998",
+              "source": {
+                "threadId": "1a0541259fda6896",
+                "messageId": "1a0541259fda6896",
+                "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126998",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-18T06:30:40.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission received.",
+          "source": {
+            "threadId": "1a01390d4c2407ec",
+            "messageId": "1a01390d4c2407ec",
+            "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 126998",
+            "from": "BPG Submission <submission@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-19T07:38:36.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "under_review",
+          "label": "Under review",
+          "revisionRound": null,
+          "note": "Passed technical preliminary review; proceeding to editorial triage or peer review.",
+          "source": {
+            "threadId": "1a018f53d0269654",
+            "messageId": "1a018f53d0269654",
+            "subject": "World Journal of Experimental Medicine Manuscript No.: 126998 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+            "from": "BPG Submission <submission@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T19:08:02.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "under_review",
+          "manuscriptNumber": "126998",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "A reviewer has completed their review and provided comments on the submitted manuscript.",
+          "source": {
+            "threadId": "1a0541259fda6896",
+            "messageId": "1a0541259fda6896",
+            "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126998",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-18T06:30:40.000Z",
+      "updatedAt": "2026-08-30T19:08:02.000Z",
+      "deadline": null,
+      "deadlineSource": null
+    },
+    {
+      "id": "does-obesity-really-worsen-outcomes-after-cervical-spine-surgery-or-is",
+      "title": "Does Obesity really worsen Outcomes after Cervical Spine Surgery, or is there an Obesity Paradox? A Systematic Review & Meta-analysis",
+      "titleNormalized": "does obesity really worsen outcomes after cervical spine surgery or is there an obesity paradox a systematic review meta analysis",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
+      "currentJournal": "Clinical Spine Surgery",
+      "currentManuscriptNumber": "CSS-26-378",
+      "currentStatus": "Revision requested",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0904",
+          "submittedDate": "2026-05-06T07:27:02.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-06T07:27:02.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-0904",
+              "source": {
+                "threadId": "19dfc2ede802a760",
+                "messageId": "19dfc2ede802a760",
+                "subject": "Global Spine Journal  GSJ-26-0904",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-15T19:28:42.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Unsubmitted by the journal; the submission was left incomplete.",
+              "manuscriptNumber": "GSJ-26-0904",
+              "source": {
+                "threadId": "19e2d1ccf2bd0f9b",
+                "messageId": "19e2d1ccf2bd0f9b",
+                "subject": "Global Spine Journal - GSJ-26-0904 has been unsubmitted",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0904",
+          "submittedDate": "2026-06-15T22:57:00.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-15T22:57:00.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": "GSJ-26-0904",
+              "source": {
+                "threadId": "19ecd80a7974b4b0",
+                "messageId": "19ecd80a7974b4b0",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0904",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Clinical Spine Surgery",
+          "manuscriptNumber": "CSS-26-378",
+          "submittedDate": "2026-06-21T16:30:33.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-21T16:30:33.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Authorship and copyright confirmation requested for a new submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eeb0500a739ffe",
+                "messageId": "19eeb0500a739ffe",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-06-21T16:30:33.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eeb04fe0f6e365",
+                "messageId": "19eeb04fe0f6e365",
+                "subject": "ClinSpineSurgery Submission Confirmation",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-06T17:14:34.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "Repeat authorship and copyright verification request.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f386cb1f5996df",
+                "messageId": "19f386cb1f5996df",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T18:43:29.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Reviewers requested revisions and the author must submit a revised manuscript.",
+              "manuscriptNumber": "CSS-26-378",
+              "source": {
+                "threadId": "1a053fbdd20d4a6a",
+                "messageId": "1a053fbdd20d4a6a",
+                "subject": "Clinical Spine Surgery Decision CSS-26-378",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-06T07:27:02.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19dfc2ede802a760",
+            "messageId": "19dfc2ede802a760",
+            "subject": "Global Spine Journal  GSJ-26-0904",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-15T19:28:42.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Unsubmitted by the journal; the submission was left incomplete.",
+          "source": {
+            "threadId": "19e2d1ccf2bd0f9b",
+            "messageId": "19e2d1ccf2bd0f9b",
+            "subject": "Global Spine Journal - GSJ-26-0904 has been unsubmitted",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-15T22:57:00.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19ecd80a7974b4b0",
+            "messageId": "19ecd80a7974b4b0",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0904",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-21T16:30:33.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Authorship and copyright confirmation requested for a new submission.",
+          "source": {
+            "threadId": "19eeb0500a739ffe",
+            "messageId": "19eeb0500a739ffe",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-21T16:30:33.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19eeb04fe0f6e365",
+            "messageId": "19eeb04fe0f6e365",
+            "subject": "ClinSpineSurgery Submission Confirmation",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-06T17:14:34.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "other",
+          "label": "Update",
+          "revisionRound": null,
+          "note": "Repeat authorship and copyright verification request.",
+          "source": {
+            "threadId": "19f386cb1f5996df",
+            "messageId": "19f386cb1f5996df",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T18:43:29.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "CSS-26-378",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "Reviewers requested revisions and the author must submit a revised manuscript.",
+          "source": {
+            "threadId": "1a053fbdd20d4a6a",
+            "messageId": "1a053fbdd20d4a6a",
+            "subject": "Clinical Spine Surgery Decision CSS-26-378",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-21T16:30:33.000Z",
+      "updatedAt": "2026-08-30T18:43:29.000Z",
+      "deadline": null,
+      "deadlineSource": null
+    },
+    {
+      "id": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
+      "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
+      "titleNormalized": "beyond body mass index obesity and adult spinal deformity surgery separating perception from evidence a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": true,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Clinical Spine Surgery",
+      "currentManuscriptNumber": "4add4368c5582fbc",
+      "currentStatus": "Accepted (awaiting publication)",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Clinical Spine Surgery",
+          "manuscriptNumber": "4add4368c5582fbc",
+          "submittedDate": "2026-07-26T17:41:34.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-26T17:41:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Authorship and copyright confirmation requested for a submission by Sathish Muthu.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f9f849915b99cf",
+                "messageId": "19f9f849915b99cf",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+                "from": "em@editorialmanager.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-30T18:06:51.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned before review: title page needs all authors' highest degrees; Supplemental Tables 1 and 2 legends given but files missing; Supplemental Table 2 uncited; Open Access chosen but the License to Publish form was not supplied. Not resubmitted within 14 days and the paper is removed from the system.",
+              "manuscriptNumber": null,
+              "source": {
+                "messageId": "css-amendment-2026-07-30-manual",
+                "account": "drsathishmuthu@gmail.com"
+              }
+            },
+            {
+              "timestamp": "2026-08-29T16:05:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is requested to approve the PDF of their manuscript to complete the submission process",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a04e44ddb3d30cd",
+                "messageId": "1a04e44ddb3d30cd",
+                "subject": "Please Login to https://www.editorialmanager.com/clinspinesurgery/ and Approve Your PDF",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T18:33:32.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The journal requests the author to confirm authorship and complete the copyright agreement for their manuscript.",
+              "manuscriptNumber": "4add4368c5582fbc",
+              "source": {
+                "threadId": "1a053f2d198f3302",
+                "messageId": "1a053f2d198f3302",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery - [EMID:4add4368c5582fbc]",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-26T17:41:34.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Authorship and copyright confirmation requested for a submission by Sathish Muthu.",
+          "source": {
+            "threadId": "19f9f849915b99cf",
+            "messageId": "19f9f849915b99cf",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
+            "from": "em@editorialmanager.com",
+            "via": "offline-import"
+          },
+          "needsReview": true
+        },
+        {
+          "timestamp": "2026-07-30T18:06:51.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-08-13T18:29:59.999Z",
+            "source": "stated",
+            "basis": "14 days from the email"
+          },
+          "note": "Returned before review: title page needs all authors' highest degrees; Supplemental Tables 1 and 2 legends given but files missing; Supplemental Table 2 uncited; Open Access chosen but the License to Publish form was not supplied. Not resubmitted within 14 days and the paper is removed from the system.",
+          "source": {
+            "messageId": "css-amendment-2026-07-30-manual",
+            "account": "drsathishmuthu@gmail.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-29T16:05:30.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is requested to approve the PDF of their manuscript to complete the submission process",
+          "source": {
+            "threadId": "1a04e44ddb3d30cd",
+            "messageId": "1a04e44ddb3d30cd",
+            "subject": "Please Login to https://www.editorialmanager.com/clinspinesurgery/ and Approve Your PDF",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T18:33:32.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "accepted",
+          "manuscriptNumber": "4add4368c5582fbc",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal requests the author to confirm authorship and complete the copyright agreement for their manuscript.",
+          "source": {
+            "threadId": "1a053f2d198f3302",
+            "messageId": "1a053f2d198f3302",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery - [EMID:4add4368c5582fbc]",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-26T17:41:34.000Z",
+      "updatedAt": "2026-08-30T18:33:32.000Z",
+      "deadline": null,
+      "deadlineSource": null
+    },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
       "title": "Naive baselines outperform Bayesian age-period-cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
@@ -440,7 +995,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R1",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -467,6 +1022,19 @@
                 "threadId": "1a0528a3dc8cfb00",
                 "messageId": "1a0529340bfc8c7b",
                 "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T12:15:30.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a05298b89ad07bc",
+                "messageId": "1a05298b89ad07bc",
+                "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -506,10 +1074,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T12:15:30.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": null,
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
+          "source": {
+            "threadId": "1a05298b89ad07bc",
+            "messageId": "1a05298b89ad07bc",
+            "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-08-30T12:09:31.000Z",
+      "updatedAt": "2026-08-30T12:15:30.000Z",
       "deadline": null,
       "deadlineSource": null,
       "overrides": {
@@ -1618,134 +2203,6 @@
       ],
       "createdAt": "2026-06-24T01:59:00.000Z",
       "updatedAt": "2026-08-29T16:13:02.000Z",
-      "deadline": null,
-      "deadlineSource": null
-    },
-    {
-      "id": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
-      "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
-      "titleNormalized": "beyond body mass index obesity and adult spinal deformity surgery separating perception from evidence a systematic review and meta analysis",
-      "bucket": "submissions",
-      "needsReview": true,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Clinical Spine Surgery",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy",
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Clinical Spine Surgery",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-07-26T17:41:34.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-26T17:41:34.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Authorship and copyright confirmation requested for a submission by Sathish Muthu.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f9f849915b99cf",
-                "messageId": "19f9f849915b99cf",
-                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
-                "from": "em@editorialmanager.com",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-07-30T18:06:51.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned before review: title page needs all authors' highest degrees; Supplemental Tables 1 and 2 legends given but files missing; Supplemental Table 2 uncited; Open Access chosen but the License to Publish form was not supplied. Not resubmitted within 14 days and the paper is removed from the system.",
-              "manuscriptNumber": null,
-              "source": {
-                "messageId": "css-amendment-2026-07-30-manual",
-                "account": "drsathishmuthu@gmail.com"
-              }
-            },
-            {
-              "timestamp": "2026-08-29T16:05:30.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The author is requested to approve the PDF of their manuscript to complete the submission process",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a04e44ddb3d30cd",
-                "messageId": "1a04e44ddb3d30cd",
-                "subject": "Please Login to https://www.editorialmanager.com/clinspinesurgery/ and Approve Your PDF",
-                "from": "Clinical Spine Surgery <em@editorialmanager.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-07-26T17:41:34.000Z",
-          "journal": "Clinical Spine Surgery",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Authorship and copyright confirmation requested for a submission by Sathish Muthu.",
-          "source": {
-            "threadId": "19f9f849915b99cf",
-            "messageId": "19f9f849915b99cf",
-            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
-            "from": "em@editorialmanager.com",
-            "via": "offline-import"
-          },
-          "needsReview": true
-        },
-        {
-          "timestamp": "2026-07-30T18:06:51.000Z",
-          "journal": "Clinical Spine Surgery",
-          "eventType": "sent_back",
-          "manuscriptNumber": null,
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-08-13T18:29:59.999Z",
-            "source": "stated",
-            "basis": "14 days from the email"
-          },
-          "note": "Returned before review: title page needs all authors' highest degrees; Supplemental Tables 1 and 2 legends given but files missing; Supplemental Table 2 uncited; Open Access chosen but the License to Publish form was not supplied. Not resubmitted within 14 days and the paper is removed from the system.",
-          "source": {
-            "messageId": "css-amendment-2026-07-30-manual",
-            "account": "drsathishmuthu@gmail.com"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-29T16:05:30.000Z",
-          "journal": "Clinical Spine Surgery",
-          "eventType": "new_submission",
-          "manuscriptNumber": null,
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The author is requested to approve the PDF of their manuscript to complete the submission process",
-          "source": {
-            "threadId": "1a04e44ddb3d30cd",
-            "messageId": "1a04e44ddb3d30cd",
-            "subject": "Please Login to https://www.editorialmanager.com/clinspinesurgery/ and Approve Your PDF",
-            "from": "Clinical Spine Surgery <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-07-26T17:41:34.000Z",
-      "updatedAt": "2026-08-29T16:05:30.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -4995,101 +5452,6 @@
       ],
       "createdAt": "2026-08-20T06:58:30.000Z",
       "updatedAt": "2026-08-20T06:58:33.000Z"
-    },
-    {
-      "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
-      "title": "Factor XIIIa Controls Fibrin Ultrastructure and Protein Release in Injectable Platelet-Rich Fibrin: A Mechanistic In-Vitro Study",
-      "titleNormalized": "factor xiiia controls fibrin ultrastructure and protein release in injectable platelet rich fibrin a mechanistic in vitro study",
-      "bucket": "in_review",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "World Journal of Experimental Medicine",
-      "currentManuscriptNumber": "126998",
-      "currentStatus": "Under review",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "World Journal of Experimental Medicine",
-          "manuscriptNumber": "126998",
-          "submittedDate": "2026-08-18T06:30:40.000Z",
-          "outcome": "active",
-          "status": "under_review",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-18T06:30:40.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission received.",
-              "manuscriptNumber": "126998",
-              "source": {
-                "threadId": "1a01390d4c2407ec",
-                "messageId": "1a01390d4c2407ec",
-                "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 126998",
-                "from": "BPG Submission <submission@wjgnet.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-08-19T07:38:36.000Z",
-              "eventType": "under_review",
-              "revisionRound": null,
-              "note": "Passed technical preliminary review; proceeding to editorial triage or peer review.",
-              "manuscriptNumber": "126998",
-              "source": {
-                "threadId": "1a018f53d0269654",
-                "messageId": "1a018f53d0269654",
-                "subject": "World Journal of Experimental Medicine Manuscript No.: 126998 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
-                "from": "BPG Submission <submission@wjgnet.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-18T06:30:40.000Z",
-          "journal": "World Journal of Experimental Medicine",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission received.",
-          "source": {
-            "threadId": "1a01390d4c2407ec",
-            "messageId": "1a01390d4c2407ec",
-            "subject": "World Journal of Experimental Medicine - Receipt of Manuscript No.: 126998",
-            "from": "BPG Submission <submission@wjgnet.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-19T07:38:36.000Z",
-          "journal": "World Journal of Experimental Medicine",
-          "eventType": "under_review",
-          "label": "Under review",
-          "revisionRound": null,
-          "note": "Passed technical preliminary review; proceeding to editorial triage or peer review.",
-          "source": {
-            "threadId": "1a018f53d0269654",
-            "messageId": "1a018f53d0269654",
-            "subject": "World Journal of Experimental Medicine Manuscript No.: 126998 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
-            "from": "BPG Submission <submission@wjgnet.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-18T06:30:40.000Z",
-      "updatedAt": "2026-08-19T07:38:36.000Z"
     },
     {
       "id": "convergence-and-divergence-of-disease-burden-across-the-states-of-indi",
@@ -9720,244 +10082,6 @@
       ],
       "createdAt": "2026-06-22T10:50:30.000Z",
       "updatedAt": "2026-07-06T17:14:40.000Z"
-    },
-    {
-      "id": "does-obesity-really-worsen-outcomes-after-cervical-spine-surgery-or-is",
-      "title": "Does Obesity really worsen Outcomes after Cervical Spine Surgery, or is there an Obesity Paradox? A Systematic Review & Meta-analysis",
-      "titleNormalized": "does obesity really worsen outcomes after cervical spine surgery or is there an obesity paradox a systematic review meta analysis",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Clinical Spine Surgery",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy",
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0904",
-          "submittedDate": "2026-05-06T07:27:02.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-06T07:27:02.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": "GSJ-26-0904",
-              "source": {
-                "threadId": "19dfc2ede802a760",
-                "messageId": "19dfc2ede802a760",
-                "subject": "Global Spine Journal  GSJ-26-0904",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-05-15T19:28:42.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Unsubmitted by the journal; the submission was left incomplete.",
-              "manuscriptNumber": "GSJ-26-0904",
-              "source": {
-                "threadId": "19e2d1ccf2bd0f9b",
-                "messageId": "19e2d1ccf2bd0f9b",
-                "subject": "Global Spine Journal - GSJ-26-0904 has been unsubmitted",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0904",
-          "submittedDate": "2026-06-15T22:57:00.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-15T22:57:00.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": "GSJ-26-0904",
-              "source": {
-                "threadId": "19ecd80a7974b4b0",
-                "messageId": "19ecd80a7974b4b0",
-                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0904",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Clinical Spine Surgery",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-21T16:30:33.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-21T16:30:33.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Authorship and copyright confirmation requested for a new submission.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19eeb0500a739ffe",
-                "messageId": "19eeb0500a739ffe",
-                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
-                "from": "em@editorialmanager.com",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-06-21T16:30:33.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19eeb04fe0f6e365",
-                "messageId": "19eeb04fe0f6e365",
-                "subject": "ClinSpineSurgery Submission Confirmation",
-                "from": "Clinical Spine Surgery <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-07-06T17:14:34.000Z",
-              "eventType": "other",
-              "revisionRound": null,
-              "note": "Repeat authorship and copyright verification request.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f386cb1f5996df",
-                "messageId": "19f386cb1f5996df",
-                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
-                "from": "em@editorialmanager.com",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-05-06T07:27:02.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19dfc2ede802a760",
-            "messageId": "19dfc2ede802a760",
-            "subject": "Global Spine Journal  GSJ-26-0904",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-15T19:28:42.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "Unsubmitted by the journal; the submission was left incomplete.",
-          "source": {
-            "threadId": "19e2d1ccf2bd0f9b",
-            "messageId": "19e2d1ccf2bd0f9b",
-            "subject": "Global Spine Journal - GSJ-26-0904 has been unsubmitted",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-15T22:57:00.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19ecd80a7974b4b0",
-            "messageId": "19ecd80a7974b4b0",
-            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-0904",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-21T16:30:33.000Z",
-          "journal": "Clinical Spine Surgery",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Authorship and copyright confirmation requested for a new submission.",
-          "source": {
-            "threadId": "19eeb0500a739ffe",
-            "messageId": "19eeb0500a739ffe",
-            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
-            "from": "em@editorialmanager.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-21T16:30:33.000Z",
-          "journal": "Clinical Spine Surgery",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19eeb04fe0f6e365",
-            "messageId": "19eeb04fe0f6e365",
-            "subject": "ClinSpineSurgery Submission Confirmation",
-            "from": "Clinical Spine Surgery <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-06T17:14:34.000Z",
-          "journal": "Clinical Spine Surgery",
-          "eventType": "other",
-          "label": "Update",
-          "revisionRound": null,
-          "note": "Repeat authorship and copyright verification request.",
-          "source": {
-            "threadId": "19f386cb1f5996df",
-            "messageId": "19f386cb1f5996df",
-            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery",
-            "from": "em@editorialmanager.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-06-21T16:30:33.000Z",
-      "updatedAt": "2026-07-06T17:14:34.000Z"
     },
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
