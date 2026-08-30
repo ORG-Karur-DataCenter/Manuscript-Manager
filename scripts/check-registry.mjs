@@ -347,5 +347,55 @@ const chainError = async (providers) => {
   check("400 stays the email's problem", bad?.deferrable === false);
 }
 
+// --- the sync window must not walk backwards ---------------------------------
+//
+// The rule the sync applies, extracted so it can be exercised without Gmail:
+// the overlap is a safety margin on a window that FINISHED. Applied to a
+// window being held open because work remains, it compounds -- each run
+// subtracts another two days from a point already rewound, and the mailbox
+// slides into the past. One did: 8 August to 5 August in a day, three times
+// faster once the schedule went hourly.
+const OVERLAP_DAYS = 2, DAY = 86400000;
+const sinceFor = (state) =>
+  new Date(new Date(state.lastSyncedAt).getTime() - (state.holding ? 0 : OVERLAP_DAYS * DAY));
+
+{
+  // A finished window still gets its overlap: that is what catches an email
+  // that landed at the boundary while the last run was mid-flight.
+  const clean = { lastSyncedAt: "2026-08-20T00:00:00.000Z", holding: false };
+  const back = (new Date(clean.lastSyncedAt) - sinceFor(clean)) / DAY;
+  check("a completed window still re-scans the overlap", back === OVERLAP_DAYS);
+}
+
+{
+  const held = { lastSyncedAt: "2026-08-20T00:00:00.000Z", holding: true };
+  check(
+    "a held window is not rewound again",
+    sinceFor(held).toISOString() === held.lastSyncedAt
+  );
+}
+
+{
+  // The regression itself: hold the window ten runs in a row, each time at the
+  // oldest thing still outstanding, and the start must not creep backwards.
+  let state = { lastSyncedAt: "2026-08-20T00:00:00.000Z", holding: true };
+  const first = sinceFor(state).getTime();
+  for (let run = 0; run < 10; run++) {
+    const since = sinceFor(state);
+    // Worst case: the oldest undecided message sits right at the window start.
+    state = { lastSyncedAt: since.toISOString(), holding: true };
+  }
+  check("ten held runs do not walk the window into the past", sinceFor(state).getTime() === first);
+}
+
+{
+  // And the same loop under the old rule, to show the check has teeth.
+  const oldRule = (st) => new Date(new Date(st.lastSyncedAt).getTime() - OVERLAP_DAYS * DAY);
+  let st = { lastSyncedAt: "2026-08-20T00:00:00.000Z" };
+  for (let run = 0; run < 10; run++) st = { lastSyncedAt: oldRule(st).toISOString() };
+  const drift = (Date.parse("2026-08-20T00:00:00.000Z") - Date.parse(st.lastSyncedAt)) / DAY;
+  check("the old rule really did drift, 2 days per run", drift === 20);
+}
+
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
 process.exit(failures ? 1 : 0);

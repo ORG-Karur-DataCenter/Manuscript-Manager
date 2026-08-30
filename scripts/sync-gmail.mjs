@@ -153,10 +153,28 @@ async function main() {
     // can't starve the rest during a backlog.
     let accountBudget = Math.max(1, Math.floor(MAX_CLASSIFICATIONS_PER_RUN / activeAccounts));
 
+    /*
+     * The overlap applies to a window that finished, never to one being held.
+     *
+     * A clean run leaves the watermark at "now", and re-scanning the last two
+     * days catches anything that landed at the boundary. But a run with work
+     * remaining rewinds the watermark to the oldest message it did not decide
+     * -- and that message can sit inside the overlap it just scanned. Taking
+     * another two days off THAT walks the window backwards, every run, without
+     * bound: this mailbox went from 8 August to 5 August in a day, and moving
+     * from a three-hourly schedule to an hourly one tripled the rate of it.
+     *
+     * So the overlap is a safety margin on a completed window only. While the
+     * window is held, `since` is the watermark itself: the held position is
+     * already the oldest thing outstanding, and there is nothing before it
+     * this run has not seen.
+     */
+    const holding = Boolean(acctState.holding);
+    const overlapMs = holding ? 0 : OVERLAP_DAYS * 86400000;
     const since = SWEEP.since
       ? SWEEP.since
       : acctState.lastSyncedAt
-      ? new Date(new Date(acctState.lastSyncedAt).getTime() - OVERLAP_DAYS * 86400000)
+      ? new Date(new Date(acctState.lastSyncedAt).getTime() - overlapMs)
       : new Date(Date.now() - DEFAULT_LOOKBACK_DAYS * 86400000);
 
     const mailbox = buildClient(account);
@@ -361,17 +379,22 @@ async function main() {
         `[${account.label}] sweep complete; sync window left at ${acctState.lastSyncedAt}.`
       );
     } else if (oldestUnprocessed) {
-      // Rewind to just before the oldest email still awaiting a decision.
+      // Rewind to just before the oldest email still awaiting a decision, and
+      // record that the window is held so the next run does not subtract the
+      // overlap from it as well.
       acctState.lastSyncedAt = oldestUnprocessed;
+      acctState.holding = true;
       console.log(
         `[${account.label}] holding sync window at ${oldestUnprocessed} — work remains.`
       );
     } else if (hitFetchCap) {
+      acctState.holding = true;
       console.log(
         `[${account.label}] fetch cap reached; leaving sync window in place for the next run.`
       );
     } else {
       acctState.lastSyncedAt = new Date().toISOString();
+      acctState.holding = false;
     }
 
     acctState.seenIds = Array.from(seenIds).slice(-MAX_SEEN_IDS_PER_ACCOUNT);
