@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-30T11:53:46.490Z",
+  "generatedAt": "2026-08-30T12:58:31.053Z",
   "manuscripts": [
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
       "title": "Naive baselines outperform Bayesian age-period-cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
       "titleNormalized": "naive baselines outperform bayesian age period cohort forecasts of global burden of disease estimates an out of sample evaluation of low back pain in india",
-      "bucket": "needs_action",
+      "bucket": "submissions",
       "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Journal of Clinical Epidemiology",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Sent back for edits",
+      "currentManuscriptNumber": "JCEPI-D-26-01503",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -177,10 +177,10 @@
         },
         {
           "journal": "Journal of Clinical Epidemiology",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "JCEPI-D-26-01503",
           "submittedDate": "2026-08-30T05:59:48.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -194,6 +194,19 @@
                 "threadId": "1a05140b05519704",
                 "messageId": "1a05140b05519704",
                 "subject": "Incomplete submission to Journal of Clinical Epidemiology",
+                "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T12:40:33.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and a handling editor has been assigned.",
+              "manuscriptNumber": "JCEPI-D-26-01503",
+              "source": {
+                "threadId": "1a052af958276934",
+                "messageId": "1a052af958276934",
+                "subject": "Confirming handling editor for submission to Journal of Clinical Epidemiology",
                 "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
               }
             }
@@ -349,12 +362,29 @@
             "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T12:40:33.000Z",
+          "journal": "Journal of Clinical Epidemiology",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JCEPI-D-26-01503",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and a handling editor has been assigned.",
+          "source": {
+            "threadId": "1a052af958276934",
+            "messageId": "1a052af958276934",
+            "subject": "Confirming handling editor for submission to Journal of Clinical Epidemiology",
+            "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T11:02:23.000Z",
-      "updatedAt": "2026-08-30T05:59:48.000Z",
-      "deadline": "2026-10-29T18:29:59.999Z",
-      "deadlineSource": "stated"
+      "updatedAt": "2026-08-30T12:40:33.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
