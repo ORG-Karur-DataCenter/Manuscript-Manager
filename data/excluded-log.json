@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-24T10:10:17.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Important Update: Upgrade to Jaypee’s Scriptor Zone",
+      "from": "Jaypee Journals <donotreply@jaypeejournals.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-25T13:01:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "A new tool to compress data with AI",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-26T13:52:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Musk says AI will outgrow human control",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T15:53:51.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Got an idea? Bring it to life in minutes (no coding experience required) 🚀",
+      "from": "Google Developer Program <googledev-noreply@google.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-27T22:13:59.000Z",
+      "reason": "unrelated",
+      "subject": "Re: [External] Re: Clinical Spine Surgery Decision CSS-25-259R1",
+      "from": "Andreas Demetriades <andreas.demetriades@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T00:47:34.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO-D-26-01575 - New manuscript received",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T14:01:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The Journal of Bone & Joint Surgery - NEW ISSUE LIVE",
+      "from": "\"Lippincott®\" <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-30T08:10:34.000Z",
+      "reason": "unrelated",
+      "subject": "AW: [EXTERN] Re: Multicenter Registry Study – Study Overview & CRFs",
+      "from": "\"Gaudin, Dr. med. Gregor Rene\" <g.gaudin@asklepios.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-28T03:02:26.000Z",
       "reason": "unrelated",
       "subject": "Re: [External] Re: Clinical Spine Surgery Decision CSS-25-259R1",
@@ -2183,70 +2239,6 @@
       "reason": "unrelated",
       "subject": "Manuscript JOIO-D-26-00065  for review",
       "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19decc65da946fec",
-      "timestamp": "2026-05-03T07:38:35.000Z",
-      "reason": "unrelated",
-      "subject": "Manuscript JOIO-D-25-01971  for review",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19de7a644de4bf95",
-      "timestamp": "2026-05-02T07:45:25.000Z",
-      "reason": "unrelated",
-      "subject": "European Spine Journal - ToC Alert",
-      "from": "Springer Alert <tocalert@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19de6dcd36057987",
-      "timestamp": "2026-05-02T04:05:24.000Z",
-      "reason": "unrelated",
-      "subject": "Is this article of interest to you (ID 1859549)?",
-      "from": "Frontiers in Medicine Editorial Office <medicine.editorial.office@frontiersin.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19de585bc005f3b8",
-      "timestamp": "2026-05-01T21:50:35.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-01 21:50:28 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19de4d4b2b5b049c",
-      "timestamp": "2026-05-01T18:37:15.000Z",
-      "reason": "unrelated",
-      "subject": "Read the latest  Clinical Spine Surgery - Vol. 39, No. 4, May 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19de05596066a923",
-      "timestamp": "2026-04-30T21:39:58.000Z",
-      "reason": "unrelated",
-      "subject": "[Pharmaceutics, IF 5.5] Consider Publishing Your Research with Pharmaceutics",
-      "from": "pharmaceutics <pharmaceutics@mdpi.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19de0319a78bc453",
-      "timestamp": "2026-04-30T21:00:38.000Z",
-      "reason": "unrelated",
-      "subject": "Enjoy a FREE Preview of JBJS Journals",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dde666f84a110d",
-      "timestamp": "2026-04-30T12:39:06.000Z",
-      "reason": "unrelated",
-      "subject": "Update on how your personal data will be managed",
-      "from": "Laurence Delafon <l.delafon@karger.com>",
       "account": "Sathish Muthu"
     }
   ]

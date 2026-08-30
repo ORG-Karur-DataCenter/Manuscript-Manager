@@ -1,6 +1,361 @@
 {
-  "generatedAt": "2026-08-30T04:55:59.810Z",
+  "generatedAt": "2026-08-30T11:53:46.490Z",
   "manuscripts": [
+    {
+      "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
+      "title": "Naive baselines outperform Bayesian age-period-cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+      "titleNormalized": "naive baselines outperform bayesian age period cohort forecasts of global burden of disease estimates an out of sample evaluation of low back pain in india",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Journal of Clinical Epidemiology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Public Health",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-14T13:35:33.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-14T13:35:33.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f60d70aacd6d77",
+                "messageId": "19f60d70aacd6d77",
+                "subject": "Your Submission PUHE-D-26-03252",
+                "from": "Public Health <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Annals of Epidemiology",
+          "manuscriptNumber": "AEP-D-26-01182",
+          "submittedDate": "2026-07-14T14:39:35.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-14T14:39:35.000Z",
+              "eventType": "transferred",
+              "revisionRound": null,
+              "note": "Transfer confirmed.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f6111aafdccfd9",
+                "messageId": "19f6111aafdccfd9",
+                "subject": "Transfer Confirmed for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+                "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-07-18T02:33:29.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected after review by two editorial board members.",
+              "manuscriptNumber": "AEP-D-26-01182",
+              "source": {
+                "threadId": "19f731259f1aa685",
+                "messageId": "19f731259f1aa685",
+                "subject": "Decision on submission to Annals of Epidemiology",
+                "from": "Annals of Epidemiology <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Annals of Epidemiology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-14T14:44:52.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-14T14:44:52.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f611683cced03b",
+                "messageId": "19f611683cced03b",
+                "subject": "Submission to Annals of Epidemiology requires action",
+                "from": "Annals of Epidemiology <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Epidemiology & Community Health",
+          "manuscriptNumber": "jech-2026-227223",
+          "submittedDate": "2026-08-17T11:02:23.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-17T11:02:23.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "jech-2026-227223",
+              "source": {
+                "threadId": "1a00f63085a10a19",
+                "messageId": "1a00f63085a10a19",
+                "subject": "Journal of Epidemiology & Community Health - Manuscript ID jech-2026-227223",
+                "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-18T12:01:12.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to Author Centre; issues must be fixed before peer review.",
+              "manuscriptNumber": "jech-2026-227223",
+              "source": {
+                "threadId": "1a014bf3f0514536",
+                "messageId": "1a014bf3f0514536",
+                "subject": "Manuscript jech-2026-227223 - returned to Author Centre",
+                "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-20T01:29:42.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Resubmitted after the requested corrections.",
+              "manuscriptNumber": "jech-2026-227223",
+              "source": {
+                "threadId": "1a01cc9cee659373",
+                "messageId": "1a01cc9cee659373",
+                "subject": "Journal of Epidemiology & Community Health - Manuscript ID jech-2026-227223",
+                "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-20T10:04:35.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Declined; publication not offered.",
+              "manuscriptNumber": "jech-2026-227223",
+              "source": {
+                "threadId": "1a01ea130bdc769f",
+                "messageId": "1a01ea130bdc769f",
+                "subject": "jech-2026-227223 Manuscript decision Theory and methods",
+                "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Clinical Epidemiology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-30T05:59:48.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-30T05:59:48.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The author's submission is incomplete and they are requested to finish it within 60 days or it will be removed.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a05140b05519704",
+                "messageId": "1a05140b05519704",
+                "subject": "Incomplete submission to Journal of Clinical Epidemiology",
+                "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-07-14T13:35:33.000Z",
+          "journal": "Public Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19f60d70aacd6d77",
+            "messageId": "19f60d70aacd6d77",
+            "subject": "Your Submission PUHE-D-26-03252",
+            "from": "Public Health <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-14T14:39:35.000Z",
+          "journal": "Annals of Epidemiology",
+          "eventType": "transferred",
+          "label": "Transferred to another journal",
+          "revisionRound": null,
+          "note": "Transfer confirmed.",
+          "source": {
+            "threadId": "19f6111aafdccfd9",
+            "messageId": "19f6111aafdccfd9",
+            "subject": "Transfer Confirmed for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+            "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-14T14:44:52.000Z",
+          "journal": "Annals of Epidemiology",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19f611683cced03b",
+            "messageId": "19f611683cced03b",
+            "subject": "Submission to Annals of Epidemiology requires action",
+            "from": "Annals of Epidemiology <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-18T02:33:29.000Z",
+          "journal": "Annals of Epidemiology",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected after review by two editorial board members.",
+          "source": {
+            "threadId": "19f731259f1aa685",
+            "messageId": "19f731259f1aa685",
+            "subject": "Decision on submission to Annals of Epidemiology",
+            "from": "Annals of Epidemiology <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-17T11:02:23.000Z",
+          "journal": "Journal of Epidemiology & Community Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "1a00f63085a10a19",
+            "messageId": "1a00f63085a10a19",
+            "subject": "Journal of Epidemiology & Community Health - Manuscript ID jech-2026-227223",
+            "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-18T12:01:12.000Z",
+          "journal": "Journal of Epidemiology & Community Health",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to Author Centre; issues must be fixed before peer review.",
+          "source": {
+            "threadId": "1a014bf3f0514536",
+            "messageId": "1a014bf3f0514536",
+            "subject": "Manuscript jech-2026-227223 - returned to Author Centre",
+            "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-20T01:29:42.000Z",
+          "journal": "Journal of Epidemiology & Community Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Resubmitted after the requested corrections.",
+          "source": {
+            "threadId": "1a01cc9cee659373",
+            "messageId": "1a01cc9cee659373",
+            "subject": "Journal of Epidemiology & Community Health - Manuscript ID jech-2026-227223",
+            "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-20T10:04:35.000Z",
+          "journal": "Journal of Epidemiology & Community Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Declined; publication not offered.",
+          "source": {
+            "threadId": "1a01ea130bdc769f",
+            "messageId": "1a01ea130bdc769f",
+            "subject": "jech-2026-227223 Manuscript decision Theory and methods",
+            "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T05:59:48.000Z",
+          "journal": "Journal of Clinical Epidemiology",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-29T18:29:59.999Z",
+            "source": "stated",
+            "basis": "60 days from the email"
+          },
+          "note": "The author's submission is incomplete and they are requested to finish it within 60 days or it will be removed.",
+          "source": {
+            "threadId": "1a05140b05519704",
+            "messageId": "1a05140b05519704",
+            "subject": "Incomplete submission to Journal of Clinical Epidemiology",
+            "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-17T11:02:23.000Z",
+      "updatedAt": "2026-08-30T05:59:48.000Z",
+      "deadline": "2026-10-29T18:29:59.999Z",
+      "deadlineSource": "stated"
+    },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
       "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
@@ -840,7 +1195,7 @@
         },
         {
           "journal": "Archives of Orthopaedic and Trauma Surgery",
-          "manuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876",
+          "manuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876 v1.0",
           "submittedDate": "2026-08-29T08:38:22.000Z",
           "outcome": "active",
           "status": "sent_back",
@@ -869,6 +1224,19 @@
               "source": {
                 "threadId": "1a04c88752853317",
                 "messageId": "1a04cab81afa4b3f",
+                "subject": "Fwd: Archives of Orthopaedic and Trauma Surgery-Amendment required",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-29T08:38:22.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Technical check returned the manuscript to the author for amendments, with a 2‑day deadline to submit revisions.",
+              "manuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876 v1.0",
+              "source": {
+                "threadId": "1a04cac2239983e9",
+                "messageId": "1a04cac2239983e9",
                 "subject": "Fwd: Archives of Orthopaedic and Trauma Surgery-Amendment required",
                 "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
@@ -1008,6 +1376,27 @@
           "source": {
             "threadId": "1a04c88752853317",
             "messageId": "1a04cab81afa4b3f",
+            "subject": "Fwd: Archives of Orthopaedic and Trauma Surgery-Amendment required",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-29T08:38:22.000Z",
+          "journal": "Archives of Orthopaedic and Trauma Surgery",
+          "eventType": "sent_back",
+          "manuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876 v1.0",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-08-31T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "Technical check returned the manuscript to the author for amendments, with a 2‑day deadline to submit revisions.",
+          "source": {
+            "threadId": "1a04cac2239983e9",
+            "messageId": "1a04cac2239983e9",
             "subject": "Fwd: Archives of Orthopaedic and Trauma Surgery-Amendment required",
             "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
@@ -4228,314 +4617,6 @@
       ],
       "createdAt": "2026-08-19T13:56:10.000Z",
       "updatedAt": "2026-08-21T01:09:21.000Z"
-    },
-    {
-      "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
-      "title": "Naive baselines outperform Bayesian age-period-cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-      "titleNormalized": "naive baselines outperform bayesian age period cohort forecasts of global burden of disease estimates an out of sample evaluation of low back pain in india",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Journal of Epidemiology & Community Health",
-      "currentManuscriptNumber": "jech-2026-227223",
-      "currentStatus": "Rejected",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Public Health",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-07-14T13:35:33.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-14T13:35:33.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f60d70aacd6d77",
-                "messageId": "19f60d70aacd6d77",
-                "subject": "Your Submission PUHE-D-26-03252",
-                "from": "Public Health <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Annals of Epidemiology",
-          "manuscriptNumber": "AEP-D-26-01182",
-          "submittedDate": "2026-07-14T14:39:35.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-14T14:39:35.000Z",
-              "eventType": "transferred",
-              "revisionRound": null,
-              "note": "Transfer confirmed.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f6111aafdccfd9",
-                "messageId": "19f6111aafdccfd9",
-                "subject": "Transfer Confirmed for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-                "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-07-18T02:33:29.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected after review by two editorial board members.",
-              "manuscriptNumber": "AEP-D-26-01182",
-              "source": {
-                "threadId": "19f731259f1aa685",
-                "messageId": "19f731259f1aa685",
-                "subject": "Decision on submission to Annals of Epidemiology",
-                "from": "Annals of Epidemiology <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Annals of Epidemiology",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-07-14T14:44:52.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-14T14:44:52.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f611683cced03b",
-                "messageId": "19f611683cced03b",
-                "subject": "Submission to Annals of Epidemiology requires action",
-                "from": "Annals of Epidemiology <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Journal of Epidemiology & Community Health",
-          "manuscriptNumber": "jech-2026-227223",
-          "submittedDate": "2026-08-17T11:02:23.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-17T11:02:23.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": "jech-2026-227223",
-              "source": {
-                "threadId": "1a00f63085a10a19",
-                "messageId": "1a00f63085a10a19",
-                "subject": "Journal of Epidemiology & Community Health - Manuscript ID jech-2026-227223",
-                "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-08-18T12:01:12.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned to Author Centre; issues must be fixed before peer review.",
-              "manuscriptNumber": "jech-2026-227223",
-              "source": {
-                "threadId": "1a014bf3f0514536",
-                "messageId": "1a014bf3f0514536",
-                "subject": "Manuscript jech-2026-227223 - returned to Author Centre",
-                "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-08-20T01:29:42.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Resubmitted after the requested corrections.",
-              "manuscriptNumber": "jech-2026-227223",
-              "source": {
-                "threadId": "1a01cc9cee659373",
-                "messageId": "1a01cc9cee659373",
-                "subject": "Journal of Epidemiology & Community Health - Manuscript ID jech-2026-227223",
-                "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-08-20T10:04:35.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Declined; publication not offered.",
-              "manuscriptNumber": "jech-2026-227223",
-              "source": {
-                "threadId": "1a01ea130bdc769f",
-                "messageId": "1a01ea130bdc769f",
-                "subject": "jech-2026-227223 Manuscript decision Theory and methods",
-                "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-07-14T13:35:33.000Z",
-          "journal": "Public Health",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19f60d70aacd6d77",
-            "messageId": "19f60d70aacd6d77",
-            "subject": "Your Submission PUHE-D-26-03252",
-            "from": "Public Health <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-14T14:39:35.000Z",
-          "journal": "Annals of Epidemiology",
-          "eventType": "transferred",
-          "label": "Transferred to another journal",
-          "revisionRound": null,
-          "note": "Transfer confirmed.",
-          "source": {
-            "threadId": "19f6111aafdccfd9",
-            "messageId": "19f6111aafdccfd9",
-            "subject": "Transfer Confirmed for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-            "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-14T14:44:52.000Z",
-          "journal": "Annals of Epidemiology",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19f611683cced03b",
-            "messageId": "19f611683cced03b",
-            "subject": "Submission to Annals of Epidemiology requires action",
-            "from": "Annals of Epidemiology <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-18T02:33:29.000Z",
-          "journal": "Annals of Epidemiology",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected after review by two editorial board members.",
-          "source": {
-            "threadId": "19f731259f1aa685",
-            "messageId": "19f731259f1aa685",
-            "subject": "Decision on submission to Annals of Epidemiology",
-            "from": "Annals of Epidemiology <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-17T11:02:23.000Z",
-          "journal": "Journal of Epidemiology & Community Health",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "1a00f63085a10a19",
-            "messageId": "1a00f63085a10a19",
-            "subject": "Journal of Epidemiology & Community Health - Manuscript ID jech-2026-227223",
-            "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-18T12:01:12.000Z",
-          "journal": "Journal of Epidemiology & Community Health",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "Returned to Author Centre; issues must be fixed before peer review.",
-          "source": {
-            "threadId": "1a014bf3f0514536",
-            "messageId": "1a014bf3f0514536",
-            "subject": "Manuscript jech-2026-227223 - returned to Author Centre",
-            "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-20T01:29:42.000Z",
-          "journal": "Journal of Epidemiology & Community Health",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Resubmitted after the requested corrections.",
-          "source": {
-            "threadId": "1a01cc9cee659373",
-            "messageId": "1a01cc9cee659373",
-            "subject": "Journal of Epidemiology & Community Health - Manuscript ID jech-2026-227223",
-            "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-20T10:04:35.000Z",
-          "journal": "Journal of Epidemiology & Community Health",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Declined; publication not offered.",
-          "source": {
-            "threadId": "1a01ea130bdc769f",
-            "messageId": "1a01ea130bdc769f",
-            "subject": "jech-2026-227223 Manuscript decision Theory and methods",
-            "from": "\"Journal of Epidemiology & Community Health\" <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-17T11:02:23.000Z",
-      "updatedAt": "2026-08-20T10:04:35.000Z"
     },
     {
       "id": "the-burden-of-mental-disorders-in-india-and-its-states-1990-2023-and-t",
