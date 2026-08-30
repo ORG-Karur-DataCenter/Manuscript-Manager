@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T13:17:51.264Z",
+  "generatedAt": "2026-08-30T17:39:59.935Z",
   "manuscripts": [
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
@@ -16,7 +16,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -209,6 +210,19 @@
                 "subject": "Confirming handling editor for submission to Journal of Clinical Epidemiology",
                 "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-08-30T12:40:33.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The journal requests the co‑author to confirm their authorship for a submitted manuscript.",
+              "manuscriptNumber": "JCEPI-D-26-01503",
+              "source": {
+                "threadId": "1a052af943969ffa",
+                "messageId": "1a052af943969ffa",
+                "subject": "Confirm co-authorship of submission to Journal of Clinical Epidemiology",
+                "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
+              }
             }
           ]
         }
@@ -379,12 +393,164 @@
             "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T12:40:33.000Z",
+          "journal": "Journal of Clinical Epidemiology",
+          "eventType": "other",
+          "manuscriptNumber": "JCEPI-D-26-01503",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal requests the co‑author to confirm their authorship for a submitted manuscript.",
+          "source": {
+            "threadId": "1a052af943969ffa",
+            "messageId": "1a052af943969ffa",
+            "subject": "Confirm co-authorship of submission to Journal of Clinical Epidemiology",
+            "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T11:02:23.000Z",
       "updatedAt": "2026-08-30T12:40:33.000Z",
       "deadline": null,
       "deadlineSource": null
+    },
+    {
+      "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
+      "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
+      "currentStatus": "Revision submitted — Editor changes approved",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "submittedDate": "2026-08-28T15:10:08.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-28T15:10:08.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a048ec17fb24a28",
+                "messageId": "1a048ec17fb24a28",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
+                "from": "Josh Modarres <jmodarres@jbjs.org>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T12:09:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0528a3dc8cfb00",
+                "messageId": "1a0529340bfc8c7b",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-28T15:10:08.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
+          "source": {
+            "threadId": "1a048ec17fb24a28",
+            "messageId": "1a048ec17fb24a28",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
+            "from": "Josh Modarres <jmodarres@jbjs.org>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T12:09:31.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
+          "source": {
+            "threadId": "1a0528a3dc8cfb00",
+            "messageId": "1a0529340bfc8c7b",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-28T15:10:08.000Z",
+      "updatedAt": "2026-08-30T12:09:31.000Z",
+      "deadline": null,
+      "deadlineSource": null,
+      "overrides": {
+        "bucket": "submissions",
+        "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
+        "currentStatus": "Revision submitted — Editor changes approved"
+      },
+      "edits": [
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "bucket",
+              "from": "needs_action",
+              "to": "submissions"
+            },
+            {
+              "field": "notes",
+              "from": null,
+              "to": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
+            },
+            {
+              "field": "deadline",
+              "from": null,
+              "to": null,
+              "clearedByMove": true
+            }
+          ]
+        },
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "currentStatus",
+              "from": "Sent back for edits",
+              "to": "Revision submitted — Editor changes approved"
+            }
+          ]
+        }
+      ],
+      "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
     },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
@@ -1917,111 +2083,6 @@
       ],
       "createdAt": "2026-08-28T18:41:49.000Z",
       "updatedAt": "2026-08-28T18:41:49.000Z"
-    },
-    {
-      "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
-      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
-      "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "JBJS Open Access",
-      "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
-      "currentStatus": "Revision submitted — Editor changes approved",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "submittedDate": "2026-08-28T15:10:08.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-28T15:10:08.000Z",
-              "eventType": "sent_back",
-              "revisionRound": 1,
-              "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "1a048ec17fb24a28",
-                "messageId": "1a048ec17fb24a28",
-                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
-                "from": "Josh Modarres <jmodarres@jbjs.org>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-28T15:10:08.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Sent back for edits",
-          "revisionRound": 1,
-          "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
-          "source": {
-            "threadId": "1a048ec17fb24a28",
-            "messageId": "1a048ec17fb24a28",
-            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
-            "from": "Josh Modarres <jmodarres@jbjs.org>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-08-28T15:10:08.000Z",
-      "deadline": null,
-      "deadlineSource": null,
-      "overrides": {
-        "bucket": "submissions",
-        "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
-        "currentStatus": "Revision submitted — Editor changes approved"
-      },
-      "edits": [
-        {
-          "by": "dashboard",
-          "changes": [
-            {
-              "field": "bucket",
-              "from": "needs_action",
-              "to": "submissions"
-            },
-            {
-              "field": "notes",
-              "from": null,
-              "to": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
-            },
-            {
-              "field": "deadline",
-              "from": null,
-              "to": null,
-              "clearedByMove": true
-            }
-          ]
-        },
-        {
-          "by": "dashboard",
-          "changes": [
-            {
-              "field": "currentStatus",
-              "from": "Sent back for edits",
-              "to": "Revision submitted — Editor changes approved"
-            }
-          ]
-        }
-      ],
-      "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
     },
     {
       "id": "financial-implications-of-platelet-rich-plasma-therapy-in-musculoskele",

@@ -99,7 +99,8 @@
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
       "title": "Amendment 12 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
-      "due": "2026-09-11T18:29:59.999Z"
+      "due": "2026-09-11T18:29:59.999Z",
+      "closed": true
     },
     "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo": {
       "number": 17,
