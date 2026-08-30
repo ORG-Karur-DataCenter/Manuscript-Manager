@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T21:18:59.629Z",
+  "generatedAt": "2026-08-30T23:39:37.081Z",
   "manuscripts": [
     {
       "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
@@ -402,14 +402,14 @@
       "id": "beyond-body-mass-index-obesity-and-adult-spinal-deformity-surgery-sepa",
       "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
       "titleNormalized": "beyond body mass index obesity and adult spinal deformity surgery separating perception from evidence a systematic review and meta analysis",
-      "bucket": "in_review",
+      "bucket": "submissions",
       "needsReview": true,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Clinical Spine Surgery",
-      "currentManuscriptNumber": "4add4368c5582fbc",
-      "currentStatus": "Accepted (awaiting publication)",
+      "currentManuscriptNumber": "CSS-26-537",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -419,10 +419,10 @@
       "submissions": [
         {
           "journal": "Clinical Spine Surgery",
-          "manuscriptNumber": "4add4368c5582fbc",
+          "manuscriptNumber": "EMID:8291c19a770456c2",
           "submittedDate": "2026-07-26T17:41:34.000Z",
           "outcome": "active",
-          "status": "accepted",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -474,6 +474,32 @@
                 "threadId": "1a053f2d198f3302",
                 "messageId": "1a053f2d198f3302",
                 "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery - [EMID:4add4368c5582fbc]",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T18:33:32.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The journal requests the author to confirm contribution and sign the copyright agreement for their submitted manuscript",
+              "manuscriptNumber": "EMID:8291c19a770456c2",
+              "source": {
+                "threadId": "1a053f2be916716a",
+                "messageId": "1a053f2be916716a",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery - [EMID:8291c19a770456c2]",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T18:38:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and assigned number CSS-26-537.",
+              "manuscriptNumber": "CSS-26-537",
+              "source": {
+                "threadId": "1a053f7488009928",
+                "messageId": "1a053f7488009928",
+                "subject": "A CSS Manuscript Number Has Been Assigned & CA Instructions",
                 "from": "Clinical Spine Surgery <em@editorialmanager.com>"
               }
             }
@@ -549,10 +575,44 @@
             "from": "Clinical Spine Surgery <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T18:33:32.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "other",
+          "manuscriptNumber": "EMID:8291c19a770456c2",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal requests the author to confirm contribution and sign the copyright agreement for their submitted manuscript",
+          "source": {
+            "threadId": "1a053f2be916716a",
+            "messageId": "1a053f2be916716a",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery - [EMID:8291c19a770456c2]",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T18:38:29.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "manuscriptNumber": "CSS-26-537",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and assigned number CSS-26-537.",
+          "source": {
+            "threadId": "1a053f7488009928",
+            "messageId": "1a053f7488009928",
+            "subject": "A CSS Manuscript Number Has Been Assigned & CA Instructions",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-26T17:41:34.000Z",
-      "updatedAt": "2026-08-30T18:33:32.000Z",
+      "updatedAt": "2026-08-30T18:38:29.000Z",
       "deadline": null,
       "deadlineSource": null
     },
