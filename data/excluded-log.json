@@ -1,6 +1,97 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-20T13:40:34.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "A quick follow-up | Waste Management & Xenobiotics",
+      "from": "Shirley Victoria <contact@environmentaltoxicsjournal.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-20T14:08:34.000Z",
+      "reason": "unrelated",
+      "subject": "Fwd: TSCIR / Editorial Manager Registration",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-20T15:11:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cochrane supporters' eNews August 2026",
+      "from": "Cochrane <no-reply@cochrane.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-21T13:22:47.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Anthropic wants the biggest IPO ever",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-22T15:22:37.000Z",
+      "reason": "unrelated",
+      "subject": "Suvrankar Datta - Simons Ashoka Early Career Fellow reacted to this post: Ten years in, Social Alpha is…",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-22T16:55:04.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Considering publishing your work as a book?",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T13:02:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "A breakthrough in battery technology",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T13:53:41.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "OpenAI stopped charging for tokens",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T06:41:32.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T10:37:49.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T10:46:55.000Z",
+      "reason": "unrelated",
+      "subject": "Re: IntechOpen - CPC Final Notice 237451",
+      "from": "Dominik Samardzija <dominik@intechopen.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T13:06:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "1 Day Left to Register and Save for IKAF 2026!",
+      "from": "ISAKOS <isakos@isakos.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T13:19:36.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "COST Newsletter - August 2026",
+      "from": "COST Association <communications@cost.eu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-21T06:07:17.000Z",
       "reason": "predatory_solicitation",
       "subject": "Invitation to Submit Your Dermatology Research",
@@ -2117,110 +2208,6 @@
       "reason": "unrelated",
       "subject": "Journal of the American Academy of Orthopaedic Surgeons - NEW ISSUE LIVE",
       "from": "\"Lippincott®\" <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e14317b2753508",
-      "timestamp": "2026-05-10T23:20:46.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for \"Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and Their Comprehensive Role in Intervertebral Disc Degeneration\"",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e1298aed56c848",
-      "timestamp": "2026-05-10T15:54:15.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: Journal of Orthopaedic Surgery",
-      "from": "Journal of Orthopaedic Surgery <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e11c0c6838e611",
-      "timestamp": "2026-05-10T11:58:24.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-10 11:58:11 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e110883b02ea25",
-      "timestamp": "2026-05-10T08:37:10.000Z",
-      "reason": "unrelated",
-      "subject": "Is this article of interest to you (ID 1835845)?",
-      "from": "Frontiers in Physiology <physiology.editorial.office@frontiersin.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e0df35dce03bce",
-      "timestamp": "2026-05-09T18:15:11.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-09 18:15:01 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e0df32e83e9c74",
-      "timestamp": "2026-05-09T18:15:00.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-09 18:14:52 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e0c82b3fb27711",
-      "timestamp": "2026-05-09T11:32:32.000Z",
-      "reason": "unrelated",
-      "subject": "RHEI: Your manuscript entitled Filgotinib (Jyseleca) in Orthopaedic Rheumatological Conditions: A Narrative Review of Efficacy, Selectivity, and Long-Term Safety - [EMID:7426d1e1ec9a8654]",
-      "from": "Armen Yuri Gasparyan <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e0b488e2c9c8dc",
-      "timestamp": "2026-05-09T05:49:24.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: VMOST Journal of Social Sciences and Humanities",
-      "from": "VMOST Journal of Social Sciences and Humanities <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e0b413a7adc789",
-      "timestamp": "2026-05-09T05:41:24.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: Journal of Medicine and Life",
-      "from": "Dragos Cretoiu <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e087f4b1095a8d",
-      "timestamp": "2026-05-08T16:50:19.000Z",
-      "reason": "unrelated",
-      "subject": "Global Spine Journal  GSJ-25-2064.R4",
-      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e06c6d67eba7a5",
-      "timestamp": "2026-05-08T08:49:14.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-08 08:49:06 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e06bbc782f316d",
-      "timestamp": "2026-05-08T08:37:09.000Z",
-      "reason": "unrelated",
-      "subject": "Review invitation: Ultrasound-Based Evaluation of Plantar Fascia and Heel Fat...",
-      "from": "Daniel from Frontiers <physiology.editorial.office@frontiersin.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e05dd87e525744",
-      "timestamp": "2026-05-08T04:34:23.000Z",
-      "reason": "unrelated",
-      "subject": "Global Spine Journal  GSJ-26-0074.R1",
-      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
       "account": "Sathish Muthu"
     }
   ]

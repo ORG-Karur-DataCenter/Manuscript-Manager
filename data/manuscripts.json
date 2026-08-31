@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T05:49:59.833Z",
+  "generatedAt": "2026-08-31T14:13:59.619Z",
   "manuscripts": [
     {
       "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
@@ -4400,6 +4400,19 @@
               }
             },
             {
+              "timestamp": "2026-08-20T13:06:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is requested to approve the built PDF of their manuscript as the final step before submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a01f47bc9dacb9b",
+                "messageId": "1a01f47b9be2b246",
+                "subject": "PDF for submission to Meta-Radiology requires approval",
+                "from": "Meta-Radiology <em@editorialmanager.com>"
+              }
+            },
+            {
               "timestamp": "2026-08-23T08:56:34.000Z",
               "eventType": "other",
               "revisionRound": null,
@@ -4487,6 +4500,23 @@
             "subject": "PDF for submission to Meta-Radiology requires approval",
             "from": "em@editorialmanager.com",
             "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-20T13:06:29.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is requested to approve the built PDF of their manuscript as the final step before submission.",
+          "source": {
+            "threadId": "1a01f47bc9dacb9b",
+            "messageId": "1a01f47b9be2b246",
+            "subject": "PDF for submission to Meta-Radiology requires approval",
+            "from": "Meta-Radiology <em@editorialmanager.com>"
           },
           "needsReview": false
         },
