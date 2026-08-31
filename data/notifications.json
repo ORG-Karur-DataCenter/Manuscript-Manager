@@ -71,6 +71,18 @@
         "Dhibin"
       ],
       "failed": []
+    },
+    {
+      "key": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste|2026-09-07T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
+      "due": "2026-09-07T18:29:59.999Z",
+      "at": "2026-08-31T20:18:03.975Z",
+      "to": [
+        "Dhibin"
+      ],
+      "failed": []
     }
   ],
   "issues": {
@@ -82,7 +94,7 @@
     },
     "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-": {
       "number": 10,
-      "title": "Amendment 12 days overdue — National and subnational burden of low back pain in India, 1990–2023:…",
+      "title": "Amendment 13 days overdue — National and subnational burden of low back pain in India, 1990–2023:…",
       "due": "2026-08-19T18:29:59.999Z"
     },
     "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s": {
@@ -93,7 +105,7 @@
     },
     "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-": {
       "number": 12,
-      "title": "Amendment due tomorrow — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
+      "title": "Amendment due today — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
       "due": "2026-09-01T18:29:59.999Z"
     },
     "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s": {
@@ -110,8 +122,8 @@
     },
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
-      "title": "Amendment 12 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
-      "due": "2026-09-11T18:29:59.999Z",
+      "title": "Amendment 6 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "due": "2026-09-07T18:29:59.999Z",
       "closed": true
     },
     "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo": {

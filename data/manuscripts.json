@@ -1,6 +1,847 @@
 {
-  "generatedAt": "2026-08-31T14:13:59.619Z",
+  "generatedAt": "2026-08-31T20:18:00.020Z",
   "manuscripts": [
+    {
+      "id": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
+      "title": "A Patho-mechanical Classification of Proximal Radius Fractures Predicting Associated Injuries and Functional Outcomes​",
+      "titleNormalized": "a patho mechanical classification of proximal radius fractures predicting associated injuries and functional outcomes",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Indian Journal of Orthopaedics",
+      "currentManuscriptNumber": "JOIO-D-26-01625",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": "JOIO-D-26-01625",
+          "submittedDate": "2026-08-31T19:45:31.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-31T19:45:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission confirmation was sent.",
+              "manuscriptNumber": "JOIO-D-26-01625",
+              "source": {
+                "threadId": "1a0595b002fbf5ca",
+                "messageId": "1a0595b002fbf5ca",
+                "subject": "Submission Confirmation",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-31T19:45:31.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JOIO-D-26-01625",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission confirmation was sent.",
+          "source": {
+            "threadId": "1a0595b002fbf5ca",
+            "messageId": "1a0595b002fbf5ca",
+            "subject": "Submission Confirmation",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-31T19:45:31.000Z",
+      "updatedAt": "2026-08-31T19:45:31.000Z"
+    },
+    {
+      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
+      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
+      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Asian Spine Journal",
+      "currentManuscriptNumber": "ASJ-2026-0787",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "submittedDate": "2026-08-31T19:16:55.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-31T19:16:55.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05940d25498fc9",
+                "messageId": "1a05940d25498fc9",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-31T19:16:55.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a05940d25498fc9",
+            "messageId": "1a05940d25498fc9",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-31T19:16:55.000Z",
+      "updatedAt": "2026-08-31T19:16:55.000Z"
+    },
+    {
+      "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
+      "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
+      "titleNormalized": "identification of therapeutic targets and gene expression profiling to unravel the underlying mechanisms and their comprehensive role in intervertebral disc degeneration",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Stem Cell Reviews and Reports",
+      "currentManuscriptNumber": "8e0d8ea5-5f2c-4928-9139-3f47ff062b25",
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Biomarker Research",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-03-11T13:00:46.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-03-11T13:00:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cdcfc492342750",
+                "messageId": "19cdcfc492342750",
+                "subject": "Track the status of your submission to Biomarker Research",
+                "from": "info@researchsquare.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-03-12T09:48:12.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ce1725aec48fc8",
+                "messageId": "19ce1725aec48fc8",
+                "subject": "Re: Biomarker Research-Amendment required",
+                "from": "Springer Nature Submissions <sakthi.vigneswaransurendran@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-03-16T22:02:44.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19cf8ac442e7f63f",
+                "messageId": "19cf8ac442e7f63f",
+                "subject": "Decision on your submission to Biomarker Research",
+                "from": "Biomarker Research <sakthi.vigneswaransurendran@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-30T18:54:46.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-30T18:54:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ddfbe58041b08c",
+                "messageId": "19ddfbe58041b08c",
+                "subject": "Track the status of your submission to European Spine Journal",
+                "from": "info@researchsquare.com",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-10T23:18:50.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e142fb66e25de2",
+                "messageId": "19e142fb66e25de2",
+                "subject": "Decision on your submission to European Spine Journal",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Stem Cell Research & Therapy",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-17T09:44:15.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-17T09:44:15.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e35527353b1983",
+                "messageId": "19e35527353b1983",
+                "subject": "Stem Cell Research & Therapy - Receipt of Manuscript 'Identification of Therapeutic...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-18T23:57:26.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e3d85eb032732a",
+                "messageId": "19e3d85eb032732a",
+                "subject": "Re: Stem Cell Research & Therapy-Amendment required",
+                "from": "Springer Nature Submissions <carissa.rustia@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Stem Cell Research & Therapy",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-14T15:04:57.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-14T15:04:57.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f6128e9a99ecb8",
+                "messageId": "19f6128e9a99ecb8",
+                "subject": "Decision on your submission to Stem Cell Research & Therapy",
+                "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Cell and Tissue Research",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-07-15T13:09:21.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-15T13:09:21.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Returned to the author for amendments before the submission can progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f65e56d81b7297",
+                "messageId": "19f65e56d81b7297",
+                "subject": "Re: Cell and Tissue Research-Amendment required",
+                "from": "Springer Nature Submissions <ric.carandang@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Cartilage",
+          "manuscriptNumber": "CART-26-0147",
+          "submittedDate": "2026-07-22T17:30:17.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-22T17:30:17.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "CART-26-0147",
+              "source": {
+                "threadId": "19f8ae0d76e4e1d2",
+                "messageId": "19f8ae0d76e4e1d2",
+                "subject": "Cartilage  CART-26-0147",
+                "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Cartilage",
+          "manuscriptNumber": "CART-26-0147",
+          "submittedDate": "2026-07-23T07:16:14.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-23T07:16:14.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected as not suitable for Cartilage.",
+              "manuscriptNumber": "CART-26-0147",
+              "source": {
+                "threadId": "19f8dd505295c1ff",
+                "messageId": "19f8dd505295c1ff",
+                "subject": "Cartilage - Decision on Manuscript ID CART-26-0147",
+                "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Stem Cell Reviews and Reports",
+          "manuscriptNumber": "8e0d8ea5-5f2c-4928-9139-3f47ff062b25",
+          "submittedDate": "2026-08-31T19:04:25.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-31T19:04:25.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected for publication in Stem Cell Reviews and Reports.",
+              "manuscriptNumber": "8e0d8ea5-5f2c-4928-9139-3f47ff062b25",
+              "source": {
+                "threadId": "1a0593564ef96e8e",
+                "messageId": "1a0593564ef96e8e",
+                "subject": "Decision on your submission to Stem Cell Reviews and Reports",
+                "from": "Stem Cell Reviews and Reports <eloisa.magnaye@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-03-11T13:00:46.000Z",
+          "journal": "Biomarker Research",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19cdcfc492342750",
+            "messageId": "19cdcfc492342750",
+            "subject": "Track the status of your submission to Biomarker Research",
+            "from": "info@researchsquare.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-03-12T09:48:12.000Z",
+          "journal": "Biomarker Research",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19ce1725aec48fc8",
+            "messageId": "19ce1725aec48fc8",
+            "subject": "Re: Biomarker Research-Amendment required",
+            "from": "Springer Nature Submissions <sakthi.vigneswaransurendran@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-03-16T22:02:44.000Z",
+          "journal": "Biomarker Research",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19cf8ac442e7f63f",
+            "messageId": "19cf8ac442e7f63f",
+            "subject": "Decision on your submission to Biomarker Research",
+            "from": "Biomarker Research <sakthi.vigneswaransurendran@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-30T18:54:46.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ddfbe58041b08c",
+            "messageId": "19ddfbe58041b08c",
+            "subject": "Track the status of your submission to European Spine Journal",
+            "from": "info@researchsquare.com",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-10T23:18:50.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19e142fb66e25de2",
+            "messageId": "19e142fb66e25de2",
+            "subject": "Decision on your submission to European Spine Journal",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-17T09:44:15.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e35527353b1983",
+            "messageId": "19e35527353b1983",
+            "subject": "Stem Cell Research & Therapy - Receipt of Manuscript 'Identification of Therapeutic...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-18T23:57:26.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19e3d85eb032732a",
+            "messageId": "19e3d85eb032732a",
+            "subject": "Re: Stem Cell Research & Therapy-Amendment required",
+            "from": "Springer Nature Submissions <carissa.rustia@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-14T15:04:57.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19f6128e9a99ecb8",
+            "messageId": "19f6128e9a99ecb8",
+            "subject": "Decision on your submission to Stem Cell Research & Therapy",
+            "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-15T13:09:21.000Z",
+          "journal": "Cell and Tissue Research",
+          "eventType": "sent_back",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "note": "Returned to the author for amendments before the submission can progress.",
+          "source": {
+            "threadId": "19f65e56d81b7297",
+            "messageId": "19f65e56d81b7297",
+            "subject": "Re: Cell and Tissue Research-Amendment required",
+            "from": "Springer Nature Submissions <ric.carandang@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-22T17:30:17.000Z",
+          "journal": "Cartilage",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19f8ae0d76e4e1d2",
+            "messageId": "19f8ae0d76e4e1d2",
+            "subject": "Cartilage  CART-26-0147",
+            "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-23T07:16:14.000Z",
+          "journal": "Cartilage",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected as not suitable for Cartilage.",
+          "source": {
+            "threadId": "19f8dd505295c1ff",
+            "messageId": "19f8dd505295c1ff",
+            "subject": "Cartilage - Decision on Manuscript ID CART-26-0147",
+            "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-31T19:04:25.000Z",
+          "journal": "Stem Cell Reviews and Reports",
+          "eventType": "rejected",
+          "manuscriptNumber": "8e0d8ea5-5f2c-4928-9139-3f47ff062b25",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected for publication in Stem Cell Reviews and Reports.",
+          "source": {
+            "threadId": "1a0593564ef96e8e",
+            "messageId": "1a0593564ef96e8e",
+            "subject": "Decision on your submission to Stem Cell Reviews and Reports",
+            "from": "Stem Cell Reviews and Reports <eloisa.magnaye@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-07-14T15:04:57.000Z",
+      "updatedAt": "2026-08-31T19:04:25.000Z",
+      "deadline": null,
+      "deadlineSource": null
+    },
+    {
+      "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
+      "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
+      "currentStatus": "Revision submitted — Editor changes approved",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "submittedDate": "2026-08-28T15:10:08.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-21T14:18:36.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a024b01b93236ad",
+                "messageId": "1a024b01b93236ad",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-28T15:10:08.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a048ec17fb24a28",
+                "messageId": "1a048ec17fb24a28",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
+                "from": "Josh Modarres <jmodarres@jbjs.org>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T12:09:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0528a3dc8cfb00",
+                "messageId": "1a0529340bfc8c7b",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T12:15:30.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a05298b89ad07bc",
+                "messageId": "1a05298b89ad07bc",
+                "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-31T14:48:39.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The revised manuscript was returned to the author for additional changes, with a one‑week deadline.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a0584b57070607c",
+                "messageId": "1a0584b57070607c",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:bcf78cd657118d4a]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-21T14:18:36.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-08-28T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
+          "source": {
+            "threadId": "1a024b01b93236ad",
+            "messageId": "1a024b01b93236ad",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-28T15:10:08.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
+          "source": {
+            "threadId": "1a048ec17fb24a28",
+            "messageId": "1a048ec17fb24a28",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
+            "from": "Josh Modarres <jmodarres@jbjs.org>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T12:09:31.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
+          "source": {
+            "threadId": "1a0528a3dc8cfb00",
+            "messageId": "1a0529340bfc8c7b",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T12:15:30.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": null,
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
+          "source": {
+            "threadId": "1a05298b89ad07bc",
+            "messageId": "1a05298b89ad07bc",
+            "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-31T14:48:39.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-07T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The revised manuscript was returned to the author for additional changes, with a one‑week deadline.",
+          "source": {
+            "threadId": "1a0584b57070607c",
+            "messageId": "1a0584b57070607c",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:bcf78cd657118d4a]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-28T15:10:08.000Z",
+      "updatedAt": "2026-08-31T14:48:39.000Z",
+      "deadline": "2026-09-07T18:29:59.999Z",
+      "deadlineSource": "stated",
+      "overrides": {
+        "bucket": "submissions",
+        "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
+        "currentStatus": "Revision submitted — Editor changes approved"
+      },
+      "edits": [
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "bucket",
+              "from": "needs_action",
+              "to": "submissions"
+            },
+            {
+              "field": "notes",
+              "from": null,
+              "to": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
+            },
+            {
+              "field": "deadline",
+              "from": null,
+              "to": null,
+              "clearedByMove": true
+            }
+          ]
+        },
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "currentStatus",
+              "from": "Sent back for edits",
+              "to": "Revision submitted — Editor changes approved"
+            }
+          ]
+        }
+      ],
+      "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
+    },
     {
       "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
       "title": "Factor XIIIa Controls Fibrin Ultrastructure and Protein Release in Injectable Platelet-Rich Fibrin: A Mechanistic In-Vitro Study",
@@ -1031,205 +1872,6 @@
       "updatedAt": "2026-08-30T12:40:33.000Z",
       "deadline": null,
       "deadlineSource": null
-    },
-    {
-      "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
-      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
-      "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "JBJS Open Access",
-      "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
-      "currentStatus": "Revision submitted — Editor changes approved",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "submittedDate": "2026-08-28T15:10:08.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-21T14:18:36.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "1a024b01b93236ad",
-                "messageId": "1a024b01b93236ad",
-                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-28T15:10:08.000Z",
-              "eventType": "sent_back",
-              "revisionRound": 1,
-              "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "1a048ec17fb24a28",
-                "messageId": "1a048ec17fb24a28",
-                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
-                "from": "Josh Modarres <jmodarres@jbjs.org>"
-              }
-            },
-            {
-              "timestamp": "2026-08-30T12:09:31.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a0528a3dc8cfb00",
-                "messageId": "1a0529340bfc8c7b",
-                "subject": "Your JBJS Open Access PDF Has Been Built",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-30T12:15:30.000Z",
-              "eventType": "under_review",
-              "revisionRound": null,
-              "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a05298b89ad07bc",
-                "messageId": "1a05298b89ad07bc",
-                "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-21T14:18:36.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-08-28T18:29:59.999Z",
-            "source": "stated",
-            "basis": "7 days from the email"
-          },
-          "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
-          "source": {
-            "threadId": "1a024b01b93236ad",
-            "messageId": "1a024b01b93236ad",
-            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-28T15:10:08.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Sent back for edits",
-          "revisionRound": 1,
-          "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
-          "source": {
-            "threadId": "1a048ec17fb24a28",
-            "messageId": "1a048ec17fb24a28",
-            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
-            "from": "Josh Modarres <jmodarres@jbjs.org>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-30T12:09:31.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "new_submission",
-          "manuscriptNumber": null,
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
-          "source": {
-            "threadId": "1a0528a3dc8cfb00",
-            "messageId": "1a0529340bfc8c7b",
-            "subject": "Your JBJS Open Access PDF Has Been Built",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-30T12:15:30.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "under_review",
-          "manuscriptNumber": null,
-          "label": "Under review",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
-          "source": {
-            "threadId": "1a05298b89ad07bc",
-            "messageId": "1a05298b89ad07bc",
-            "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-08-30T12:15:30.000Z",
-      "deadline": null,
-      "deadlineSource": null,
-      "overrides": {
-        "bucket": "submissions",
-        "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
-        "currentStatus": "Revision submitted — Editor changes approved"
-      },
-      "edits": [
-        {
-          "by": "dashboard",
-          "changes": [
-            {
-              "field": "bucket",
-              "from": "needs_action",
-              "to": "submissions"
-            },
-            {
-              "field": "notes",
-              "from": null,
-              "to": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
-            },
-            {
-              "field": "deadline",
-              "from": null,
-              "to": null,
-              "clearedByMove": true
-            }
-          ]
-        },
-        {
-          "by": "dashboard",
-          "changes": [
-            {
-              "field": "currentStatus",
-              "from": "Sent back for edits",
-              "to": "Revision submitted — Editor changes approved"
-            }
-          ]
-        }
-      ],
-      "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
     },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
@@ -7253,437 +7895,6 @@
       ],
       "createdAt": "2026-06-16T12:29:24.000Z",
       "updatedAt": "2026-07-23T09:04:32.000Z"
-    },
-    {
-      "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
-      "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
-      "titleNormalized": "identification of therapeutic targets and gene expression profiling to unravel the underlying mechanisms and their comprehensive role in intervertebral disc degeneration",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Cartilage",
-      "currentManuscriptNumber": "CART-26-0147",
-      "currentStatus": "Rejected",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Biomarker Research",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-03-11T13:00:46.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-03-11T13:00:46.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19cdcfc492342750",
-                "messageId": "19cdcfc492342750",
-                "subject": "Track the status of your submission to Biomarker Research",
-                "from": "info@researchsquare.com",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-03-12T09:48:12.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned to the author for amendments before the submission can progress.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ce1725aec48fc8",
-                "messageId": "19ce1725aec48fc8",
-                "subject": "Re: Biomarker Research-Amendment required",
-                "from": "Springer Nature Submissions <sakthi.vigneswaransurendran@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-03-16T22:02:44.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19cf8ac442e7f63f",
-                "messageId": "19cf8ac442e7f63f",
-                "subject": "Decision on your submission to Biomarker Research",
-                "from": "Biomarker Research <sakthi.vigneswaransurendran@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "European Spine Journal",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-04-30T18:54:46.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-30T18:54:46.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ddfbe58041b08c",
-                "messageId": "19ddfbe58041b08c",
-                "subject": "Track the status of your submission to European Spine Journal",
-                "from": "info@researchsquare.com",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-05-10T23:18:50.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e142fb66e25de2",
-                "messageId": "19e142fb66e25de2",
-                "subject": "Decision on your submission to European Spine Journal",
-                "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Stem Cell Research & Therapy",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-05-17T09:44:15.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-17T09:44:15.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e35527353b1983",
-                "messageId": "19e35527353b1983",
-                "subject": "Stem Cell Research & Therapy - Receipt of Manuscript 'Identification of Therapeutic...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-05-18T23:57:26.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned to the author for amendments before the submission can progress.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e3d85eb032732a",
-                "messageId": "19e3d85eb032732a",
-                "subject": "Re: Stem Cell Research & Therapy-Amendment required",
-                "from": "Springer Nature Submissions <carissa.rustia@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Stem Cell Research & Therapy",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-07-14T15:04:57.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-14T15:04:57.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f6128e9a99ecb8",
-                "messageId": "19f6128e9a99ecb8",
-                "subject": "Decision on your submission to Stem Cell Research & Therapy",
-                "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Cell and Tissue Research",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-07-15T13:09:21.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-15T13:09:21.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned to the author for amendments before the submission can progress.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f65e56d81b7297",
-                "messageId": "19f65e56d81b7297",
-                "subject": "Re: Cell and Tissue Research-Amendment required",
-                "from": "Springer Nature Submissions <ric.carandang@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Cartilage",
-          "manuscriptNumber": "CART-26-0147",
-          "submittedDate": "2026-07-22T17:30:17.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-22T17:30:17.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": "CART-26-0147",
-              "source": {
-                "threadId": "19f8ae0d76e4e1d2",
-                "messageId": "19f8ae0d76e4e1d2",
-                "subject": "Cartilage  CART-26-0147",
-                "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Cartilage",
-          "manuscriptNumber": "CART-26-0147",
-          "submittedDate": "2026-07-23T07:16:14.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-23T07:16:14.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected as not suitable for Cartilage.",
-              "manuscriptNumber": "CART-26-0147",
-              "source": {
-                "threadId": "19f8dd505295c1ff",
-                "messageId": "19f8dd505295c1ff",
-                "subject": "Cartilage - Decision on Manuscript ID CART-26-0147",
-                "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-03-11T13:00:46.000Z",
-          "journal": "Biomarker Research",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19cdcfc492342750",
-            "messageId": "19cdcfc492342750",
-            "subject": "Track the status of your submission to Biomarker Research",
-            "from": "info@researchsquare.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-03-12T09:48:12.000Z",
-          "journal": "Biomarker Research",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "Returned to the author for amendments before the submission can progress.",
-          "source": {
-            "threadId": "19ce1725aec48fc8",
-            "messageId": "19ce1725aec48fc8",
-            "subject": "Re: Biomarker Research-Amendment required",
-            "from": "Springer Nature Submissions <sakthi.vigneswaransurendran@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-03-16T22:02:44.000Z",
-          "journal": "Biomarker Research",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19cf8ac442e7f63f",
-            "messageId": "19cf8ac442e7f63f",
-            "subject": "Decision on your submission to Biomarker Research",
-            "from": "Biomarker Research <sakthi.vigneswaransurendran@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-30T18:54:46.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19ddfbe58041b08c",
-            "messageId": "19ddfbe58041b08c",
-            "subject": "Track the status of your submission to European Spine Journal",
-            "from": "info@researchsquare.com",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-10T23:18:50.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19e142fb66e25de2",
-            "messageId": "19e142fb66e25de2",
-            "subject": "Decision on your submission to European Spine Journal",
-            "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-17T09:44:15.000Z",
-          "journal": "Stem Cell Research & Therapy",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19e35527353b1983",
-            "messageId": "19e35527353b1983",
-            "subject": "Stem Cell Research & Therapy - Receipt of Manuscript 'Identification of Therapeutic...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-18T23:57:26.000Z",
-          "journal": "Stem Cell Research & Therapy",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "Returned to the author for amendments before the submission can progress.",
-          "source": {
-            "threadId": "19e3d85eb032732a",
-            "messageId": "19e3d85eb032732a",
-            "subject": "Re: Stem Cell Research & Therapy-Amendment required",
-            "from": "Springer Nature Submissions <carissa.rustia@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-14T15:04:57.000Z",
-          "journal": "Stem Cell Research & Therapy",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19f6128e9a99ecb8",
-            "messageId": "19f6128e9a99ecb8",
-            "subject": "Decision on your submission to Stem Cell Research & Therapy",
-            "from": "\"Stem Cell Research & Therapy\" <carissa.rustia@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-15T13:09:21.000Z",
-          "journal": "Cell and Tissue Research",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "Returned to the author for amendments before the submission can progress.",
-          "source": {
-            "threadId": "19f65e56d81b7297",
-            "messageId": "19f65e56d81b7297",
-            "subject": "Re: Cell and Tissue Research-Amendment required",
-            "from": "Springer Nature Submissions <ric.carandang@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-22T17:30:17.000Z",
-          "journal": "Cartilage",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19f8ae0d76e4e1d2",
-            "messageId": "19f8ae0d76e4e1d2",
-            "subject": "Cartilage  CART-26-0147",
-            "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-23T07:16:14.000Z",
-          "journal": "Cartilage",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected as not suitable for Cartilage.",
-          "source": {
-            "threadId": "19f8dd505295c1ff",
-            "messageId": "19f8dd505295c1ff",
-            "subject": "Cartilage - Decision on Manuscript ID CART-26-0147",
-            "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-07-23T07:16:14.000Z"
     },
     {
       "id": "study-on-the-efficacy-and-safety-of-treating-osteoporotic-vertebral-co",

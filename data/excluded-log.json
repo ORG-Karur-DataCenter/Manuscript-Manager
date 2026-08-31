@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-31T07:09:27.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "2026-08-31 07:09:24 RCA ID: 00000627 2026 Highlight Articles available for view",
+      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T14:52:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New Issue Online - eTOC for August 2026 issue",
+      "from": "Journal of Orthopaedics <etoc@scientificscholar.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T17:15:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "International Association for the Study of Pain - NEW ISSUE LIVE",
+      "from": "\"Lippincott®\" <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T18:03:06.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Journal of Health Psychology",
+      "from": "Journal of Health Psychology <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T19:00:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Enjoy a FREE Preview of JBJS Journals",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-20T13:40:34.000Z",
       "reason": "predatory_solicitation",
       "subject": "A quick follow-up | Waste Management & Xenobiotics",
@@ -2168,46 +2203,6 @@
       "reason": "unrelated",
       "subject": "PLOS ONE: Invitation to handle manuscript [PONE-D-26-19626] - [EMID:fb80a31aab37f82f]",
       "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e15c15e0ea39d1",
-      "timestamp": "2026-05-11T06:37:34.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Regarding Reviewer Invitation for PONE-D-25-43673R2 - [EMID:c249baacebf26fb6]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e15bc125c20534",
-      "timestamp": "2026-05-11T06:31:47.000Z",
-      "reason": "unrelated",
-      "subject": "Editor summary for Journal of Clinical Orthopaedics and Trauma",
-      "from": "Journal of Clinical Orthopaedics and Trauma <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e15a0fc321e146",
-      "timestamp": "2026-05-11T06:02:08.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-11 06:02:04 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e159aa0d42cf03",
-      "timestamp": "2026-05-11T05:55:15.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: VMOST Journal of Social Sciences and Humanities",
-      "from": "VMOST Journal of Social Sciences and Humanities <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e14923f47218c0",
-      "timestamp": "2026-05-11T01:06:23.000Z",
-      "reason": "unrelated",
-      "subject": "Journal of the American Academy of Orthopaedic Surgeons - NEW ISSUE LIVE",
-      "from": "\"Lippincott®\" <email@lww.com>",
       "account": "Sathish Muthu"
     }
   ]
