@@ -1,6 +1,76 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-21T06:07:17.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation to Submit Your Dermatology Research",
+      "from": "<dermatology@medwinjournal.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-21T13:16:08.000Z",
+      "reason": "unrelated",
+      "subject": "Tisha Dash - Graduate Research Assistant reacted to this post: Finally, I will be doing my…",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-22T01:09:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cheery Friday Greetings from Barb Oakley!",
+      "from": "Deep Teaching Solutions <no-reply@m.send.coursera.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-24T19:16:27.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Last Chance: Seeing the Whole Picture: 3D X-ray Imaging of Engineering Materials, Micro to Macro",
+      "from": "Physics Today Webinars <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-28T17:14:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Clinical Pearls for Managing Insect Bites",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T04:01:56.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New content, new insights, new opportunities for libraries",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T05:03:37.000Z",
+      "reason": "unrelated",
+      "subject": "Medical Journals (NMC Approved) — Institutional Print Subscription Proposal -- 60 Embase (Elsevier) listed Journals -- Library Connect, Kolkata",
+      "from": "Library Connect <souvik@libraryconnect.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T05:15:02.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Review invitation: Clinical Evaluation of Large Language Models in the...",
+      "from": "Frontiers in Medicine Editorial Office <medicine.editorial.office@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T05:23:02.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for submitting authorship for the IHME ID: 5338 GBD 2023 Global Type 1 Diabetes paper",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T05:30:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Register now! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
+      "from": "AO Recon <aorecon@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-27T10:28:17.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Resources to support your research",
@@ -2151,86 +2221,6 @@
       "reason": "unrelated",
       "subject": "Global Spine Journal  GSJ-26-0074.R1",
       "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e032eef63f7e84",
-      "timestamp": "2026-05-07T16:04:22.000Z",
-      "reason": "unrelated",
-      "subject": "Read the latest  Spine - Vol. 51, No. 11, June 1, 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e01ae81b3be8b2",
-      "timestamp": "2026-05-07T09:04:33.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:1e995d26c70085cd]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e017d393032513",
-      "timestamp": "2026-05-07T08:10:43.000Z",
-      "reason": "unrelated",
-      "subject": "Reviewer uninvited for JCOT-D-26-00082R2",
-      "from": "Journal of Clinical Orthopaedics and Trauma <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dfe3cca174b434",
-      "timestamp": "2026-05-06T17:01:06.000Z",
-      "reason": "unrelated",
-      "subject": "NEW Episode of Your Case Is On Hold",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19dfc867064e5dd9",
-      "timestamp": "2026-05-06T09:02:39.000Z",
-      "reason": "unrelated",
-      "subject": "Your Personal Editorial Manager Contribution Report",
-      "from": "Springer Nature <editorsupport@comms.springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19df92c852c25b3a",
-      "timestamp": "2026-05-05T17:24:55.000Z",
-      "reason": "unrelated",
-      "subject": "Read the latest  Clinical Orthopaedics and Related Research® - Vol. 484, No. 5, May 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19df7fdabbd8fb4c",
-      "timestamp": "2026-05-05T11:54:44.000Z",
-      "reason": "unrelated",
-      "subject": "The Journal of Bone & Joint Surgery - NEW ISSUE LIVE",
-      "from": "\"Lippincott®\" <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19df70ad77fccdc3",
-      "timestamp": "2026-05-05T07:29:35.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:fff6be3411c61860]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19df6a43effd468f",
-      "timestamp": "2026-05-05T05:37:32.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: Journal of Medicine and Life",
-      "from": "Dragos Cretoiu <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19df44c9f4b837f8",
-      "timestamp": "2026-05-04T18:42:34.000Z",
-      "reason": "unrelated",
-      "subject": "Reviewer Invitation for Effect of intrathecal dexamethasone on hidden blood loss during spinal anaesthesia for hip fracture in elderly patients",
-      "from": "Open Medicine <em@editorialmanager.com>",
       "account": "Sathish Muthu"
     }
   ]

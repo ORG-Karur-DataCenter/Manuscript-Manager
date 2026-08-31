@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T23:39:37.081Z",
+  "generatedAt": "2026-08-31T05:49:59.833Z",
   "manuscripts": [
     {
       "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
@@ -1055,10 +1055,23 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R1",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "under_review",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
+            {
+              "timestamp": "2026-08-21T14:18:36.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a024b01b93236ad",
+                "messageId": "1a024b01b93236ad",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
             {
               "timestamp": "2026-08-28T15:10:08.000Z",
               "eventType": "sent_back",
@@ -1102,6 +1115,27 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-08-21T14:18:36.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-08-28T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
+          "source": {
+            "threadId": "1a024b01b93236ad",
+            "messageId": "1a024b01b93236ad",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-28T15:10:08.000Z",
           "journal": "JBJS Open Access",
@@ -4961,7 +4995,7 @@
         },
         {
           "journal": "Archives of Orthopaedic and Trauma Surgery",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "cbfdd76d-5726-48a8-92d8-44e90115871b",
           "submittedDate": "2026-08-21T04:43:35.000Z",
           "outcome": "rejected",
           "status": "rejected",
