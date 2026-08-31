@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T20:18:00.020Z",
+  "generatedAt": "2026-08-31T23:59:45.027Z",
   "manuscripts": [
     {
       "id": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
@@ -5226,7 +5226,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -5234,7 +5235,7 @@
           "manuscriptNumber": "GSJ-26-1643",
           "submittedDate": "2026-08-17T21:37:39.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -5278,6 +5279,19 @@
                 "subject": "Global Spine Journal - GSJ-26-1643 has been unsubmitted",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-21T00:57:34.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was unsubmitted and returned to the author for technical corrections.",
+              "manuscriptNumber": "GSJ-26-1643",
+              "source": {
+                "threadId": "1a021d2bd2f50a14",
+                "messageId": "1a021d2bd2f50a14",
+                "subject": "Fwd: Global Spine Journal - GSJ-26-1643 has been unsubmitted",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
             },
             {
@@ -5343,6 +5357,27 @@
             "subject": "Global Spine Journal - GSJ-26-1643 has been unsubmitted",
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-21T00:57:34.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "GSJ-26-1643",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-04T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "14 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was unsubmitted and returned to the author for technical corrections.",
+          "source": {
+            "threadId": "1a021d2bd2f50a14",
+            "messageId": "1a021d2bd2f50a14",
+            "subject": "Fwd: Global Spine Journal - GSJ-26-1643 has been unsubmitted",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },

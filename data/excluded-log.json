@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-20T10:20:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Breaking News: Sajjan Kumar, former Congress MP convicted in anti-Sikh riots case, passes away",
+      "from": "The Hindu <news@newsalertth.thehindu.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-21T13:01:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "A roadmap for cities facing extreme heat",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T11:27:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🚨🚨 AI agent-led threats to rise multifold",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T15:27:19.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Publish your next paper with Biomolecules and Biomedicine",
+      "from": "Biomolecules and Biomedicine <office@mail.bjbms.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-31T07:09:27.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "2026-08-31 07:09:24 RCA ID: 00000627 2026 Highlight Articles available for view",
@@ -2171,38 +2199,6 @@
       "reason": "unrelated",
       "subject": "Re: International Orthopaedics-Amendment required",
       "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e17c4a66a0d973",
-      "timestamp": "2026-05-11T16:00:23.000Z",
-      "reason": "unrelated",
-      "subject": "Review invitation: Work-Related Musculoskeletal Disorders Among Facial Plastic...",
-      "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e17328cc9d90b8",
-      "timestamp": "2026-05-11T13:11:43.000Z",
-      "reason": "unrelated",
-      "subject": "What's trending in Orthopaedics?",
-      "from": "\"Lippincott® Orthopaedics\" <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e165dbd3a993a8",
-      "timestamp": "2026-05-11T09:28:22.000Z",
-      "reason": "unrelated",
-      "subject": "Review invitation: From Bench to Bedside: Experimental Pharmacology Approaches...",
-      "from": "Frontiers in Pharmacology Editorial Office <pharmacology.editorial.office@frontiersin.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e15f3d5ab5f86a",
-      "timestamp": "2026-05-11T07:32:41.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Invitation to handle manuscript [PONE-D-26-19626] - [EMID:fb80a31aab37f82f]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
       "account": "Sathish Muthu"
     }
   ]
