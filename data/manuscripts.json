@@ -4384,7 +4384,10 @@
         }
       ],
       "createdAt": "2026-08-18T05:46:49.000Z",
-      "updatedAt": "2026-08-25T18:11:48.000Z"
+      "updatedAt": "2026-08-25T18:11:48.000Z",
+      "titleAliases": [
+        "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A Construct-Stratified Systematic Review and Meta-Analysis"
+      ]
     },
     {
       "id": "does-failure-to-restore-native-roussouly-alignment-increase-the-risk-o",
@@ -11276,14 +11279,14 @@
       "id": "proximal-junctional-odontoid-fracture-after-cervical-fusion-a-distinct",
       "title": "Proximal Junctional Odontoid Fracture After Cervical Fusion: A Distinct Failure Mechanism at the Craniovertebral Junction",
       "titleNormalized": "proximal junctional odontoid fracture after cervical fusion a distinct failure mechanism at the craniovertebral junction",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "European Spine Journal",
       "currentManuscriptNumber": null,
-      "currentStatus": "Revision requested",
+      "currentStatus": "Revision submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -11428,7 +11431,35 @@
       "createdAt": "2026-06-24T10:42:55.000Z",
       "updatedAt": "2026-07-03T04:50:21.000Z",
       "deadline": null,
-      "deadlineSource": null
+      "deadlineSource": null,
+      "overrides": {
+        "bucket": "in_review",
+        "currentStatus": "Revision submitted",
+        "notes": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+      },
+      "edits": [
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "bucket",
+              "from": "revisions_pending",
+              "to": "in_review"
+            },
+            {
+              "field": "currentStatus",
+              "from": "Revision requested",
+              "to": "Revision submitted"
+            },
+            {
+              "field": "notes",
+              "from": null,
+              "to": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+            }
+          ]
+        }
+      ],
+      "notes": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
     },
     {
       "id": "autologous-peripheral-blood-derived-orthobiologics-apbos-in-regenerati",
@@ -14810,14 +14841,14 @@
       "id": "incidence-recovery-of-sexual-dysfunction-in-cauda-equina-syndrome-foll",
       "title": "Incidence & Recovery of Sexual Dysfunction in Cauda Equina Syndrome following Surgical Decompression: A Systematic Review and Meta-analysis",
       "titleNormalized": "incidence recovery of sexual dysfunction in cauda equina syndrome following surgical decompression a systematic review and meta analysis",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Indian Journal of Orthopaedics",
       "currentManuscriptNumber": "JOIO-D-25-00513R2",
-      "currentStatus": "Revision requested",
+      "currentStatus": "Revision submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -14931,7 +14962,35 @@
       "createdAt": "2026-04-22T14:39:37.000Z",
       "updatedAt": "2026-04-26T05:18:33.000Z",
       "deadline": null,
-      "deadlineSource": null
+      "deadlineSource": null,
+      "overrides": {
+        "bucket": "in_review",
+        "currentStatus": "Revision submitted",
+        "notes": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+      },
+      "edits": [
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "bucket",
+              "from": "revisions_pending",
+              "to": "in_review"
+            },
+            {
+              "field": "currentStatus",
+              "from": "Revision requested",
+              "to": "Revision submitted"
+            },
+            {
+              "field": "notes",
+              "from": null,
+              "to": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+            }
+          ]
+        }
+      ],
+      "notes": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
     },
     {
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
@@ -17048,5 +17107,5 @@
       "updatedAt": "2026-02-27T04:16:41.000Z"
     }
   ],
-  "editedAt": "2026-09-01T18:12:14.240Z"
+  "editedAt": "2026-09-01T18:14:57.829Z"
 }

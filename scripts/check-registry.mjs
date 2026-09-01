@@ -426,5 +426,31 @@ const sinceFor = (state) =>
   check("and it leaves the section once the journal takes it back", reg.manuscripts[0].bucket === "in_review");
 }
 
+// --- a retitled paper stays findable under its old name ----------------------
+//
+// Authors rename papers between submissions. One went to Global Spine Journal
+// as "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A
+// Construct-Stratified..." and came back as "How Often Does Pelvic Fixation
+// Fail After... A Proportional...". Only a HAND edit recorded the old name, so
+// a rename arriving by email erased it -- and searching for the title you
+// actually submitted under found nothing, which looks exactly like a lost
+// record rather than a renamed one.
+{
+  const reg = { manuscripts: [] };
+  const first = "How Does Pelvic Fixation Fail in Adult Spinal Deformity";
+  const second = "How Often Does Pelvic Fixation Fail After Adult Spinal Deformity Surgery";
+  applyEvent(reg, ev({ title: first, journal: "Global Spine Journal", eventType: "new_submission", timestamp: "2026-08-16T00:00:00Z", source: { messageId: "pf1" } }));
+  applyEvent(reg, ev({ title: second, journal: "Global Spine Journal", eventType: "new_submission", timestamp: "2026-08-25T00:00:00Z", source: { messageId: "pf2" } }));
+
+  const m = reg.manuscripts[0];
+  check("a rename by email keeps one manuscript", reg.manuscripts.length === 1);
+  check("and shows the newer title", m.title === second);
+  check("and remembers the one it was submitted under", (m.titleAliases || []).includes(first));
+
+  // The alias must not accumulate duplicates on every later event.
+  applyEvent(reg, ev({ title: second, journal: "Global Spine Journal", eventType: "under_review", timestamp: "2026-08-26T00:00:00Z", source: { messageId: "pf3" } }));
+  check("and records it once, not once per email", (m.titleAliases || []).filter((t) => t === first).length === 1);
+}
+
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");
 process.exit(failures ? 1 : 0);

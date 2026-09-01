@@ -320,8 +320,25 @@ export function applyEvent(registry, event) {
   // Title may be reformatted slightly journal to journal — keep the longest/most complete version.
   // Unless someone has corrected it by hand, in which case theirs stands.
   if (!isPinned(manuscript, "title") && event.title && event.title.length > manuscript.title.length) {
+    /*
+     * Keep the old title as a key, exactly as a hand edit does.
+     *
+     * Authors retitle papers between submissions -- one here went out as
+     * "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A
+     * Construct-Stratified..." and came back from the next journal as "How
+     * Often Does Pelvic Fixation Fail After... A Proportional...". Only
+     * applyEdit recorded the previous name, so a rename that arrived by email
+     * silently erased it: searching the dashboard for the title you actually
+     * submitted under found nothing, and the record looked missing when it was
+     * merely renamed.
+     */
+    const previous = manuscript.title;
     manuscript.title = event.title;
     manuscript.titleNormalized = normalizeTitle(event.title);
+    manuscript.titleAliases ||= [];
+    if (previous && previous !== event.title && !manuscript.titleAliases.includes(previous)) {
+      manuscript.titleAliases.push(previous);
+    }
   }
 
   // A backfilled event can land after later ones were already recorded, so

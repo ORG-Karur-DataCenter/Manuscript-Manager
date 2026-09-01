@@ -274,6 +274,10 @@ function matchesQuery(m, q) {
   if (!q) return true;
   const hay = [
     m.title,
+    // Previous titles too. A paper retitled between submissions is still the
+    // one you are looking for, and searching for the name you submitted under
+    // is the most natural thing to try.
+    ...(m.titleAliases || []),
     m.currentJournal,
     m.currentManuscriptNumber,
     ...(m.submissions || []).map((s) => `${s.journal} ${s.manuscriptNumber || ""}`),
