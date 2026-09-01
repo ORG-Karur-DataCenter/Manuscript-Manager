@@ -1377,7 +1377,7 @@
       "actionLabel": null,
       "currentJournal": "Clinical Spine Surgery",
       "currentManuscriptNumber": "CSS-26-537",
-      "currentStatus": "Submitted",
+      "currentStatus": "In review",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -1586,7 +1586,7 @@
       "overrides": {
         "title": "Beyond Body Mass Index: Obesity and Adult Spinal Deformity Surgery - Separating perception from evidence: A systematic review and meta-analysis",
         "currentJournal": "Clinical Spine Surgery",
-        "currentStatus": "Submitted",
+        "currentStatus": "In review",
         "currentManuscriptNumber": "CSS-26-537",
         "bucket": "in_review"
       },
@@ -1621,10 +1621,21 @@
               "to": "in_review"
             }
           ]
+        },
+        {
+          "at": "2026-09-01T17:57:09.101Z",
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "currentStatus",
+              "from": "Submitted",
+              "to": "In review"
+            }
+          ]
         }
       ],
       "titleAliases": [],
-      "editedAt": "2026-09-01T17:56:11.394Z"
+      "editedAt": "2026-09-01T17:57:09.101Z"
     },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
@@ -16973,5 +16984,5 @@
       "updatedAt": "2026-02-27T04:16:41.000Z"
     }
   ],
-  "editedAt": "2026-09-01T17:56:11.394Z"
+  "editedAt": "2026-09-01T17:57:09.101Z"
 }
