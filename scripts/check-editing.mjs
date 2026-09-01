@@ -429,6 +429,42 @@ await check("a failure is reported in the form, not swallowed", async (page) => 
   assert(await page.isEnabled("#edit-save"), "the save button stayed disabled, so there is no way to retry");
 }, { expectErrors: true });
 
+await check("a live-but-old sync service is told apart from a missing one", async (page) => {
+  // A browser reports "not deployed", "DNS failed" and "CORS preflight
+  // rejected" as the same thrown fetch. The difference matters: one needs a
+  // redeploy, the other needs a deployment. /health is a simple GET, never
+  // preflighted, so it answers that question -- and this asserts both readings
+  // rather than only the happy one.
+  // Rather than driving the whole form, assert the message the module builds.
+  const messages = await page.evaluate(async () => {
+    const mod = await import("./assets/sync.js");
+    const out = {};
+    for (const healthOk of [true, false]) {
+      const real = window.fetch;
+      window.fetch = (url) =>
+        String(url).endsWith("/health") && healthOk
+          ? Promise.resolve(new Response("{}", { status: 200 }))
+          : Promise.reject(new TypeError("failed"));
+      try {
+        await mod.callProxy("/manuscripts/m-amend", {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ title: "x" }),
+        });
+      } catch (e) {
+        out[healthOk ? "live" : "dead"] = e.message;
+      }
+      window.fetch = real;
+    }
+    return out;
+  });
+
+  assert(/redeploy/i.test(messages.live || ""), `live service did not say redeploy: ${messages.live}`);
+  assert(/older build/i.test(messages.live || ""), `live service did not name the cause: ${messages.live}`);
+  assert(/may not be\s+deployed/i.test(messages.dead || ""), `dead service message changed: ${messages.dead}`);
+  assert(!/redeploy/i.test(messages.dead || ""), "a missing service was told to redeploy");
+}, { expectErrors: true });
+
 await check("an amendment offers the original email, and a notification does not", async (page) => {
   // The summary in the timeline is this app's reading of the mail. On an
   // amendment that is not enough -- what the editor actually asked for, and

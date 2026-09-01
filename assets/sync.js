@@ -126,12 +126,37 @@ async function proxy(path, options = {}) {
       headers: { Authorization: `Bearer ${passphrase()}`, ...(options.headers || {}) },
     });
   } catch {
-    // Unreachable is recoverable: the caller can offer the personal-token
-    // route rather than leaving someone stuck behind a misconfigured or
-    // undeployed Worker with no way to sync at all.
+    /*
+     * A browser never says WHY a fetch failed -- not deployed, DNS, or a
+     * rejected CORS preflight all arrive as the same thrown error. That
+     * ambiguity cost real time: the sync service was live and answering POST,
+     * while PATCH failed its preflight because the deployed build predated the
+     * edit feature, and the only message available said "may not be deployed".
+     *
+     * /health is a plain GET with no headers, so it is a simple request and
+     * never preflighted. If it answers, the service IS reachable and the
+     * failure was the method or the route -- which for this app means an old
+     * build. That turns one ambiguous sentence into the actual next step.
+     */
+    let live = false;
+    try {
+      const probe = await fetch(`${syncProxyUrl().replace(/\/$/, "")}/health`);
+      live = probe.ok;
+    } catch {
+      live = false;
+    }
+
+    // Unreachable is recoverable either way: the caller can offer the
+    // personal-token route rather than leaving someone stuck behind a
+    // misconfigured or undeployed Worker with no way to sync at all.
     const err = new Error(
-      `Could not reach the sync service at ${syncProxyUrl()}. It may not be deployed, ` +
-      `or ALLOWED_ORIGIN in wrangler.toml may not permit this page.`
+      live
+        ? `The sync service at ${syncProxyUrl()} is running, but rejected this ` +
+          `request before it was sent. That is what an older build does when it ` +
+          `does not recognise the ${options.method || "GET"} method — redeploy it ` +
+          `with \`wrangler deploy\` from the worker/ directory.`
+        : `Could not reach the sync service at ${syncProxyUrl()}. It may not be ` +
+          `deployed, or ALLOWED_ORIGIN in wrangler.toml may not permit this page.`
     );
     err.code = "proxy-unreachable";
     throw err;
