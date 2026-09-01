@@ -424,8 +424,31 @@ export default {
 
       return json({ error: "Not found." }, 404, env, request);
     } catch (err) {
+      /*
+       * A 404 from GitHub itself is not the same as a 404 this Worker raised.
+       *
+       * "That manuscript is no longer in the tracker" is precise and belongs to
+       * the caller. But a raw `GitHub 404: {"message":"Not Found"}` from reading
+       * the data file means the BRANCH or the file is not there -- and by far
+       * the likeliest reason is that this Worker is running a build from before
+       * a branch was renamed, since the branch it asks for is baked into
+       * whichever build is deployed. Passing that through as-is showed the
+       * person raw API JSON for a problem that is one command to fix.
+       */
+      if (err.status === 404 && /^GitHub 404/.test(err.message || "")) {
+        return json({
+          error:
+            "GitHub could not find the tracker data on the branch this sync service " +
+            "is asking for. That usually means the service is running an older " +
+            "build, from before the branch changed — redeploy it with `wrangler " +
+            "deploy` from the worker/ directory. (GitHub said: " +
+            `${(err.message || "").slice(0, 120)})`,
+          recoverable: true,
+        }, 502, env, request);
+      }
+
       // An edit rejected for naming a field that does not exist is the caller's
-      // mistake and should read as one; 404 and 503 are already precise.
+      // mistake and should read as one; 400, our own 404 and 503 are precise.
       if (err.status === 400 || err.status === 404 || err.status === 503) {
         return json({ error: err.message }, err.status, env, request);
       }

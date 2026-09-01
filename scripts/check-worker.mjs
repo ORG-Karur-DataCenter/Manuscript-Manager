@@ -58,7 +58,7 @@ const fromB64 = (text) => Buffer.from(text, "base64").toString("utf8");
  * on each attempt — "conflict" makes GitHub reject the blob SHA the way it does
  * when the sync has committed in between.
  */
-function stubGitHub({ registry, sha = "sha-1", plan = [], defaultBranch = "main", dispatch = "ok" } = {}) {
+function stubGitHub({ registry, sha = "sha-1", plan = [], defaultBranch = "main", dispatch = "ok", read = "ok" } = {}) {
   const calls = [];
   let current = registry;
   let currentSha = sha;
@@ -86,6 +86,9 @@ function stubGitHub({ registry, sha = "sha-1", plan = [], defaultBranch = "main"
     }
 
     if (path.endsWith("/contents/data/manuscripts.json") && (options.method || "GET") === "GET") {
+      if (read === "missing") {
+        return new Response(JSON.stringify({ message: "Not Found" }), { status: 404 });
+      }
       return new Response(JSON.stringify({ content: b64(JSON.stringify(current)), sha: currentSha }), {
         status: 200,
       });
@@ -129,6 +132,19 @@ function patchRequest(id, patch, { password = PASSWORD } = {}) {
 }
 
 const call = (request, e = env) => worker.fetch(request, e);
+
+await check("a missing data file blames the deployment, not the manuscript", async () => {
+  // What a stale Worker actually produces: it asks for a branch that has been
+  // deleted, so reading the data file 404s. Passed through raw that is
+  // `GitHub 404: {"message":"Not Found"}`, which reads as a broken app rather
+  // than a build that needs redeploying.
+  stubGitHub({ registry: registryWith({}), read: "missing" });
+  const res = await call(patchRequest("m1", { title: "A Corrected Title" }));
+  const body = await res.json();
+  assert(!/^GitHub 404/.test(body.error), `raw GitHub JSON reached the caller: ${body.error}`);
+  assert(/redeploy/i.test(body.error), `does not say what to do: ${body.error}`);
+  assert(/branch/i.test(body.error), `does not name the likely cause: ${body.error}`);
+});
 
 // --- which branch the Worker acts on ----------------------------------------
 //
