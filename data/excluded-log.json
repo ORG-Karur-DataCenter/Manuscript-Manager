@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-01T06:37:08.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Journal of Investigative Surgery - Invitation to Review Manuscript ID UIVS-2026-0256",
+      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T06:38:46.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-41550] - [EMID:5eff89640a8783ef]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T08:01:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T08:38:37.000Z",
+      "reason": "unrelated",
+      "subject": "3000312 Clavicle fracture - (US) 2026 SU",
+      "from": "\"Julie Phukan (Google Docs)\" <comments-noreply@docs.google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T10:29:31.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, an article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T12:01:31.000Z",
+      "reason": "unrelated",
+      "subject": "Submit Your Letters of Intent by September 15, 2026",
+      "from": "LSRS  <lsrs@lsrs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T12:38:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "LAST CHANCE: Register Today & Save on IKAF 2026 Registration",
+      "from": "ISAKOS <isakos@isakos.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T14:39:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New Issue Online - eTOC for September 2026 issue",
+      "from": "Indian Journal of Medical Research <etoc@scientificscholar.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-01T07:10:00.000Z",
       "reason": "unrelated",
       "subject": "[Biomedicines] Manuscript ID: biomedicines-2210334 - Update on Your Article Metrics",
@@ -2121,70 +2177,6 @@
       "reason": "unrelated",
       "subject": "International Orthopaedics - ToC Alert",
       "from": "Springer Alert <tocalert@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e2fc51f2575506",
-      "timestamp": "2026-05-16T07:51:45.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-16 07:51:36 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e2fc4ea00bf927",
-      "timestamp": "2026-05-16T07:51:30.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-16 07:51:15 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e2efdf6b14f375",
-      "timestamp": "2026-05-16T04:14:15.000Z",
-      "reason": "unrelated",
-      "subject": "Global Spine Journal  GSJ-26-0904",
-      "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e2bc16da1a93bd",
-      "timestamp": "2026-05-15T13:09:16.000Z",
-      "reason": "unrelated",
-      "subject": "Explore the Latest in Open Access",
-      "from": "Journal of Pediatric Orthopaedics <lww@sci.scientific-direct.net>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e2a5dd485845c6",
-      "timestamp": "2026-05-15T06:40:52.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Invitation to handle manuscript [PONE-D-26-22834] - [EMID:f5ca1a23aa7b3aac]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e29865ae64622f",
-      "timestamp": "2026-05-15T02:45:31.000Z",
-      "reason": "unrelated",
-      "subject": "Please Login to https://www.editorialmanager.com/clinspinesurgery/ and Approve Your PDF",
-      "from": "Clinical Spine Surgery <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e2616a986f6879",
-      "timestamp": "2026-05-14T10:44:39.000Z",
-      "reason": "unrelated",
-      "subject": "Please verify your contribution to Personalizing Regenerative Medicine for Knee Osteoarthritis: The Artificial intelligence Revolution",
-      "from": "Biomaterials <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e22117440fbe41",
-      "timestamp": "2026-05-13T16:00:27.000Z",
-      "reason": "unrelated",
-      "subject": "Is this article of interest to you (ID 1850408)?",
-      "from": "Frontiers in Public Health Editorial Office <publichealth.editorial.office@frontiersin.org>",
       "account": "Sathish Muthu"
     }
   ]
