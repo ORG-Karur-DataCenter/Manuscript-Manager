@@ -1,6 +1,200 @@
 {
-  "generatedAt": "2026-08-31T23:59:45.027Z",
+  "generatedAt": "2026-09-01T05:23:00.148Z",
   "manuscripts": [
+    {
+      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
+      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
+      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Asian Spine Journal",
+      "currentManuscriptNumber": "ASJ-2026-0787",
+      "currentStatus": "Rejected",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "submittedDate": "2026-08-31T19:16:55.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-31T19:16:55.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05940d25498fc9",
+                "messageId": "1a05940d25498fc9",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-01T03:52:32.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected without external peer review.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05b13b9c60dc6b",
+                "messageId": "1a05b18e86f41700",
+                "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-31T19:16:55.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a05940d25498fc9",
+            "messageId": "1a05940d25498fc9",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T03:52:32.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected without external peer review.",
+          "source": {
+            "threadId": "1a05b13b9c60dc6b",
+            "messageId": "1a05b18e86f41700",
+            "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-31T19:16:55.000Z",
+      "updatedAt": "2026-09-01T03:52:32.000Z"
+    },
+    {
+      "id": "methodological-advances-in-synovial-fluid-sequencing-standardization-v",
+      "title": "Methodological Advances in Synovial Fluid Sequencing: Standardization, Validation, and Clinical Translation",
+      "titleNormalized": "methodological advances in synovial fluid sequencing standardization validation and clinical translation",
+      "bucket": "in_review",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": "127479",
+      "currentStatus": "Under review",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": "127479",
+          "submittedDate": "2026-08-29T13:42:59.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-29T13:42:59.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript and outlined the review process.",
+              "manuscriptNumber": "127479",
+              "source": {
+                "threadId": "1a04dc295c609b3d",
+                "messageId": "1a04dc295c609b3d",
+                "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127479",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-01T02:19:01.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
+              "manuscriptNumber": "127479",
+              "source": {
+                "threadId": "1a05ac354890ebdc",
+                "messageId": "1a05ac354890ebdc",
+                "subject": "World Journal of Orthopedics Manuscript No.: 127479 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-29T13:42:59.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "127479",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submitted manuscript and outlined the review process.",
+          "source": {
+            "threadId": "1a04dc295c609b3d",
+            "messageId": "1a04dc295c609b3d",
+            "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127479",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T02:19:01.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "under_review",
+          "manuscriptNumber": "127479",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
+          "source": {
+            "threadId": "1a05ac354890ebdc",
+            "messageId": "1a05ac354890ebdc",
+            "subject": "World Journal of Orthopedics Manuscript No.: 127479 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-29T13:42:59.000Z",
+      "updatedAt": "2026-09-01T02:19:01.000Z"
+    },
     {
       "id": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
       "title": "A Patho-mechanical Classification of Proximal Radius Fractures Predicting Associated Injuries and Functional Outcomes​",
@@ -67,73 +261,6 @@
       ],
       "createdAt": "2026-08-31T19:45:31.000Z",
       "updatedAt": "2026-08-31T19:45:31.000Z"
-    },
-    {
-      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
-      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
-      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Asian Spine Journal",
-      "currentManuscriptNumber": "ASJ-2026-0787",
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Asian Spine Journal",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "submittedDate": "2026-08-31T19:16:55.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-31T19:16:55.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was successfully submitted and is now under consideration.",
-              "manuscriptNumber": "ASJ-2026-0787",
-              "source": {
-                "threadId": "1a05940d25498fc9",
-                "messageId": "1a05940d25498fc9",
-                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-31T19:16:55.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "new_submission",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was successfully submitted and is now under consideration.",
-          "source": {
-            "threadId": "1a05940d25498fc9",
-            "messageId": "1a05940d25498fc9",
-            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-31T19:16:55.000Z",
-      "updatedAt": "2026-08-31T19:16:55.000Z"
     },
     {
       "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
@@ -2941,73 +3068,6 @@
       "updatedAt": "2026-08-29T16:13:02.000Z",
       "deadline": null,
       "deadlineSource": null
-    },
-    {
-      "id": "methodological-advances-in-synovial-fluid-sequencing-standardization-v",
-      "title": "Methodological Advances in Synovial Fluid Sequencing: Standardization, Validation, and Clinical Translation",
-      "titleNormalized": "methodological advances in synovial fluid sequencing standardization validation and clinical translation",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "World Journal of Orthopedics",
-      "currentManuscriptNumber": "127479",
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "World Journal of Orthopedics",
-          "manuscriptNumber": "127479",
-          "submittedDate": "2026-08-29T13:42:59.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-29T13:42:59.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The journal confirmed receipt of the submitted manuscript and outlined the review process.",
-              "manuscriptNumber": "127479",
-              "source": {
-                "threadId": "1a04dc295c609b3d",
-                "messageId": "1a04dc295c609b3d",
-                "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127479",
-                "from": "BPG Submission <submission@wjgnet.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-29T13:42:59.000Z",
-          "journal": "World Journal of Orthopedics",
-          "eventType": "new_submission",
-          "manuscriptNumber": "127479",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The journal confirmed receipt of the submitted manuscript and outlined the review process.",
-          "source": {
-            "threadId": "1a04dc295c609b3d",
-            "messageId": "1a04dc295c609b3d",
-            "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127479",
-            "from": "BPG Submission <submission@wjgnet.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-29T13:42:59.000Z",
-      "updatedAt": "2026-08-29T13:42:59.000Z"
     },
     {
       "id": "factors-influencing-the-yield-of-progenitor-cells-in-bone-marrow-aspir",
