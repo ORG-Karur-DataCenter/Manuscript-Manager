@@ -11391,7 +11391,7 @@
       "overrides": {
         "bucket": "in_review",
         "currentStatus": "Revision submitted",
-        "notes": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+        "notes": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; the submission email is in drsathishmuthu@gmail.com dated 30 Apr 2026. The sync sweeps that mailbox and that date, so why it never filed is still open."
       },
       "edits": [
         {
@@ -11410,12 +11410,12 @@
             {
               "field": "notes",
               "from": null,
-              "to": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+              "to": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; the submission email is in drsathishmuthu@gmail.com dated 30 Apr 2026. The sync sweeps that mailbox and that date, so why it never filed is still open."
             }
           ]
         }
       ],
-      "notes": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+      "notes": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; the submission email is in drsathishmuthu@gmail.com dated 30 Apr 2026. The sync sweeps that mailbox and that date, so why it never filed is still open."
     },
     {
       "id": "autologous-peripheral-blood-derived-orthobiologics-apbos-in-regenerati",
@@ -14922,7 +14922,7 @@
       "overrides": {
         "bucket": "in_review",
         "currentStatus": "Revision submitted",
-        "notes": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+        "notes": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; the submission email is in drsathishmuthu@gmail.com dated 30 Apr 2026. The sync sweeps that mailbox and that date, so why it never filed is still open."
       },
       "edits": [
         {
@@ -14941,12 +14941,12 @@
             {
               "field": "notes",
               "from": null,
-              "to": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+              "to": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; the submission email is in drsathishmuthu@gmail.com dated 30 Apr 2026. The sync sweeps that mailbox and that date, so why it never filed is still open."
             }
           ]
         }
       ],
-      "notes": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; no confirmation email reached either tracked mailbox, so the record had stood at the last request the journal sent."
+      "notes": "Revision submitted to Indian Journal of Orthopaedics. Confirmed by the author on 1 Sep 2026; the submission email is in drsathishmuthu@gmail.com dated 30 Apr 2026. The sync sweeps that mailbox and that date, so why it never filed is still open."
     },
     {
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
@@ -17158,5 +17158,5 @@
       "updatedAt": "2026-08-21T04:25:29.000Z"
     }
   ],
-  "editedAt": "2026-09-01T18:14:57.829Z"
+  "editedAt": "2026-09-01T18:36:59.656Z"
 }
