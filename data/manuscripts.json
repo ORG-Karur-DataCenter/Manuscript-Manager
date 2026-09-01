@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T15:04:59.831Z",
+  "generatedAt": "2026-09-01T18:26:14.248Z",
   "manuscripts": [
     {
       "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
@@ -4230,31 +4230,6 @@
         },
         {
           "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-1654",
-          "submittedDate": "2026-08-21T04:25:29.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-21T04:25:29.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected at editor check without external review.",
-              "manuscriptNumber": "GSJ-26-1654",
-              "source": {
-                "threadId": "1a022911844d356e",
-                "messageId": "1a022911844d356e",
-                "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Global Spine Journal",
           "manuscriptNumber": "GSJ-26-1720",
           "submittedDate": "2026-08-25T18:11:48.000Z",
           "outcome": "active",
@@ -4322,22 +4297,6 @@
           "needsReview": false
         },
         {
-          "timestamp": "2026-08-21T04:25:29.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected at editor check without external review.",
-          "source": {
-            "threadId": "1a022911844d356e",
-            "messageId": "1a022911844d356e",
-            "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
           "timestamp": "2026-08-25T18:11:45.000Z",
           "journal": "Global Spine Journal",
           "eventType": "new_submission",
@@ -4384,10 +4343,7 @@
         }
       ],
       "createdAt": "2026-08-18T05:46:49.000Z",
-      "updatedAt": "2026-08-25T18:11:48.000Z",
-      "titleAliases": [
-        "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A Construct-Stratified Systematic Review and Meta-Analysis"
-      ]
+      "updatedAt": "2026-08-25T18:11:48.000Z"
     },
     {
       "id": "does-failure-to-restore-native-roussouly-alignment-increase-the-risk-o",
@@ -17105,6 +17061,101 @@
       ],
       "createdAt": "2026-02-27T04:16:41.000Z",
       "updatedAt": "2026-02-27T04:16:41.000Z"
+    },
+    {
+      "id": "how-does-pelvic-fixation-fail-in-adult-spinal-deformity-a-construct",
+      "title": "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A Construct-Stratified Systematic Review and Meta-Analysis",
+      "titleNormalized": "how does pelvic fixation fail in adult spinal deformity a construct stratified systematic review and meta analysis",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1654",
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1654",
+          "submittedDate": "2026-08-16T17:43:44.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-16T17:43:44.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1654",
+              "source": {
+                "threadId": "1a00bac1df445c25",
+                "messageId": "1a00bac1df445c25",
+                "subject": "Global Spine Journal  GSJ-26-1654",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-21T04:25:29.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected at editor check without external review.",
+              "manuscriptNumber": "GSJ-26-1654",
+              "source": {
+                "threadId": "1a022911844d356e",
+                "messageId": "1a022911844d356e",
+                "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-16T17:43:44.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-1654",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a00bac1df445c25",
+            "messageId": "1a00bac1df445c25",
+            "subject": "Global Spine Journal  GSJ-26-1654",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-21T04:25:29.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected at editor check without external review.",
+          "source": {
+            "threadId": "1a022911844d356e",
+            "messageId": "1a022911844d356e",
+            "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-16T17:43:44.000Z",
+      "updatedAt": "2026-08-21T04:25:29.000Z"
     }
   ],
   "editedAt": "2026-09-01T18:14:57.829Z"

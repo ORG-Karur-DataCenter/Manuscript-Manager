@@ -247,6 +247,9 @@ function unfiledReview() {
 
 /** Why a filed manuscript was flagged, matched back from the review queue. */
 function reviewReasonFor(m) {
+  // The record's own reason wins: it says why THIS record was flagged, where
+  // the review queue is matched by title and can only ever offer a guess.
+  if (m.reviewReason) return m.reviewReason;
   const hit = state.review.find(
     (r) => r.relevant === true && r.title && m.title && r.title.trim() === m.title.trim()
   );

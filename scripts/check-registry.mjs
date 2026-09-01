@@ -4,7 +4,7 @@
  *
  *   node scripts/check-registry.mjs
  */
-import { applyEvent, applyEdit, isPinned } from "./lib/registry.mjs";
+import { applyEvent, applyEdit, isPinned, titleSimilarity } from "./lib/registry.mjs";
 
 const reg = { manuscripts: [] };
 const ev = (o) => ({ revisionRound: null, doi: null, publicationLink: null, summary: "", needsReview: false, ...o });
@@ -426,30 +426,74 @@ const sinceFor = (state) =>
   check("and it leaves the section once the journal takes it back", reg.manuscripts[0].bucket === "in_review");
 }
 
-// --- a retitled paper stays findable under its old name ----------------------
+// --- two papers that read alike stay two papers ------------------------------
 //
-// Authors rename papers between submissions. One went to Global Spine Journal
-// as "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A
-// Construct-Stratified..." and came back as "How Often Does Pelvic Fixation
-// Fail After... A Proportional...". Only a HAND edit recorded the old name, so
-// a rename arriving by email erased it -- and searching for the title you
-// actually submitted under found nothing, which looks exactly like a lost
-// record rather than a renamed one.
+// These are real titles, from two real studies. Character-bigram Dice scores
+// them 0.835, over the 0.82 the matcher used to merge on, so one record
+// swallowed the other's rejection and a rejected paper showed no sign of ever
+// having been submitted. Nothing in the wording says they are the same work,
+// so nothing in the code may decide that they are.
+{
+  const first =
+    "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A Construct-Stratified Systematic Review and Meta-Analysis";
+  const second =
+    "How Often Does Pelvic Fixation Fail After Adult Spinal Deformity Surgery? A Systematic Review and Proportional Meta-Analysis";
+  check("the two titles really are close enough to have merged", titleSimilarity(first, second) >= 0.82);
+
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: first, journal: "Global Spine Journal", manuscriptNumber: "GSJ-26-1654", eventType: "new_submission", timestamp: "2026-08-16T00:00:00Z", source: { messageId: "pf1" } }));
+  applyEvent(reg, ev({ title: second, journal: "Global Spine Journal", manuscriptNumber: "GSJ-26-1720", eventType: "new_submission", timestamp: "2026-08-25T00:00:00Z", source: { messageId: "pf2" } }));
+
+  check("a near-identical title opens its own record", reg.manuscripts.length === 2);
+  check("and each keeps its own manuscript number", reg.manuscripts.map((m) => m.currentManuscriptNumber).join() === "GSJ-26-1654,GSJ-26-1720");
+
+  // Separating them is the safe default, not the certain answer, so the second
+  // record has to say what it was nearly filed under.
+  const opened = reg.manuscripts[1];
+  check("and asks a human to confirm they differ", opened.needsReview === true);
+  check("and names the paper it resembles", (opened.reviewReason || "").includes(first));
+
+  // The rejection that went missing: it must land on the paper it names.
+  applyEvent(reg, ev({ title: first, journal: "Global Spine Journal", manuscriptNumber: "GSJ-26-1654", eventType: "rejected", timestamp: "2026-08-21T00:00:00Z", source: { messageId: "pf3" } }));
+  check("and a rejection files against its own paper", reg.manuscripts[0].bucket === "needs_action");
+  check("and leaves the other alone", reg.manuscripts[1].bucket === "submissions");
+}
+
+// --- an exact title still matches, however it is punctuated ------------------
+//
+// The bar is an exact title, not an identical string: journals re-typeset what
+// they were given. Normalisation absorbs that, so no alias is needed and none
+// is invented -- a rename is something a person records, by hand.
 {
   const reg = { manuscripts: [] };
-  const first = "How Does Pelvic Fixation Fail in Adult Spinal Deformity";
-  const second = "How Often Does Pelvic Fixation Fail After Adult Spinal Deformity Surgery";
-  applyEvent(reg, ev({ title: first, journal: "Global Spine Journal", eventType: "new_submission", timestamp: "2026-08-16T00:00:00Z", source: { messageId: "pf1" } }));
-  applyEvent(reg, ev({ title: second, journal: "Global Spine Journal", eventType: "new_submission", timestamp: "2026-08-25T00:00:00Z", source: { messageId: "pf2" } }));
+  applyEvent(reg, ev({ title: "Sclerostin Inhibition & Bone Anabolism: A Review", journal: "Journal T", eventType: "new_submission", timestamp: "2026-08-16T00:00:00Z", source: { messageId: "tx1" } }));
+  applyEvent(reg, ev({ title: "Sclerostin inhibition and bone anabolism - a review", journal: "Journal T", eventType: "under_review", timestamp: "2026-08-20T00:00:00Z", source: { messageId: "tx2" } }));
 
-  const m = reg.manuscripts[0];
-  check("a rename by email keeps one manuscript", reg.manuscripts.length === 1);
-  check("and shows the newer title", m.title === second);
-  check("and remembers the one it was submitted under", (m.titleAliases || []).includes(first));
+  check("punctuation and case do not split a record", reg.manuscripts.length === 1);
+  check("and no alias is invented for it", (reg.manuscripts[0].titleAliases || []).length === 0);
+  check("and the flag is not raised on an exact match", reg.manuscripts[0].needsReview === false);
+}
 
-  // The alias must not accumulate duplicates on every later event.
-  applyEvent(reg, ev({ title: second, journal: "Global Spine Journal", eventType: "under_review", timestamp: "2026-08-26T00:00:00Z", source: { messageId: "pf3" } }));
-  check("and records it once, not once per email", (m.titleAliases || []).filter((t) => t === first).length === 1);
+// --- a title far from everything opens quietly -------------------------------
+{
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "Rotator Cuff Repair in Diabetics", journal: "Journal U", eventType: "new_submission", timestamp: "2026-08-16T00:00:00Z", source: { messageId: "fa1" } }));
+  applyEvent(reg, ev({ title: "Bone Cement Leakage After Vertebroplasty", journal: "Journal U", eventType: "new_submission", timestamp: "2026-08-17T00:00:00Z", source: { messageId: "fa2" } }));
+
+  check("an unrelated title opens a record without a flag", reg.manuscripts.length === 2 && reg.manuscripts[1].needsReview === false);
+}
+
+// --- a hand-set alias is still a matching key --------------------------------
+//
+// The one way a rename gets recorded now, so it has to keep working.
+{
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "Old Name For A Paper", journal: "Journal V", eventType: "new_submission", timestamp: "2026-08-16T00:00:00Z", source: { messageId: "al1" } }));
+  applyEdit(reg.manuscripts[0], { title: "New Name For A Paper" });
+  applyEvent(reg, ev({ title: "Old Name For A Paper", journal: "Journal V", eventType: "under_review", timestamp: "2026-08-20T00:00:00Z", source: { messageId: "al2" } }));
+
+  check("an edit records the previous title", (reg.manuscripts[0].titleAliases || []).includes("Old Name For A Paper"));
+  check("and the old title keeps matching", reg.manuscripts.length === 1);
 }
 
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");

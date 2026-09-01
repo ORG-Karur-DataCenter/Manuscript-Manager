@@ -89,8 +89,11 @@ const OVERRIDABLE = [
 ];
 const BUCKETS = ["submissions", "needs_action", "revisions_pending", "in_review", "published"];
 
+// In step with registry.mjs normalizeTitle, ampersand rule included: an
+// exact title is what identifies a paper, so the two must agree on what
+// "exact" means.
 const normalizeTitle = (t) =>
-  (t || "").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+  (t || "").toLowerCase().replace(/&/g, " and ").normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
 
 /**

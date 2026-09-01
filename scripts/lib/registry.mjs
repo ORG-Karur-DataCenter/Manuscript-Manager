@@ -13,6 +13,11 @@ const STATUS_LABELS = {
 export function normalizeTitle(title) {
   return (title || "")
     .toLowerCase()
+    // "&" and "and" are the same word, and journals use both for one title.
+    // Stripping the ampersand as punctuation left "Incidence & Recovery" and
+    // "Incidence and Recovery" as different keys -- which now means a second
+    // record, since an exact title is what identifies a paper.
+    .replace(/&/g, " and ")
     .normalize("NFKD")
     .replace(/[̀-ͯ]/g, "")
     .replace(/[^a-z0-9 ]/g, " ")
@@ -45,7 +50,6 @@ export function titleSimilarity(a, b) {
   return (2 * overlap) / (ba.size + bb.size);
 }
 
-const MATCH_THRESHOLD = 0.82;
 
 /**
  * Fields a person may set by hand, overriding whatever the classifier reads
@@ -94,24 +98,59 @@ function findByManuscriptNumber(registry, journal, manuscriptNumber) {
 }
 
 /**
+ * The score that used to merge two records. It now only raises a question.
+ *
+ * Accepting a Dice score of 0.82 merged two real papers: "How Does Pelvic
+ * Fixation Fail in Adult Spinal Deformity? A Construct-Stratified Systematic
+ * Review and Meta-Analysis" scores 0.835 against "How Often Does Pelvic
+ * Fixation Fail After Adult Spinal Deformity Surgery? A Systematic Review and
+ * Proportional Meta-Analysis". They are separate studies; one record absorbed
+ * the other's rejection, and the rejected paper looked like it had never been
+ * submitted at all.
+ *
+ * No threshold fixes that. Scored across every title in this registry, the
+ * closest pair of genuinely different papers reaches 0.815 -- two hundredths
+ * below the pair that must not merge. Titles in one speciality share too much
+ * vocabulary for character bigrams to carry identity, and word overlap
+ * separates them no better: unrelated papers reach 0.667 where the wrongly
+ * merged pair scored 0.545.
+ *
+ * So identity now comes only from a manuscript number, an exact title, or a
+ * title someone recorded by hand as an alias. A near miss opens its own record
+ * and asks, which is the one thing a machine can do here without guessing.
+ */
+const NEAR_MISS_THRESHOLD = 0.82;
+
+/**
  * Matches on every title a manuscript has been known by, not just its current
  * one. Journals keep sending the title they were given, so once someone
  * corrects a title by hand the old wording has to keep matching -- otherwise
  * the next email opens a second record and the history splits in two.
+ *
+ * Returns the exact match if there is one, and otherwise the nearest title
+ * that a human should look at, so the caller can flag the new record rather
+ * than file it under the wrong paper.
  */
 function findByTitle(registry, title) {
-  let best = null;
-  let bestScore = 0;
+  const target = normalizeTitle(title);
+  if (!target) return { manuscript: null, nearMiss: null };
+
+  let near = null;
+  let nearScore = 0;
   for (const m of registry.manuscripts) {
     for (const known of [m.title, ...(m.titleAliases || [])]) {
+      if (normalizeTitle(known) === target) return { manuscript: m, nearMiss: null };
       const score = titleSimilarity(known, title);
-      if (score > bestScore) {
-        bestScore = score;
-        best = m;
+      if (score > nearScore) {
+        nearScore = score;
+        near = m;
       }
     }
   }
-  return bestScore >= MATCH_THRESHOLD ? best : null;
+
+  const nearMiss =
+    near && nearScore >= NEAR_MISS_THRESHOLD ? { manuscript: near, score: nearScore } : null;
+  return { manuscript: null, nearMiss };
 }
 
 function uniqueId(registry, title) {
@@ -161,9 +200,9 @@ function bucketForEvent(eventType) {
  *          publicationLink, summary, timestamp, authorAccount, source, needsReview }
  */
 export function applyEvent(registry, event) {
-  let manuscript =
-    findByManuscriptNumber(registry, event.journal, event.manuscriptNumber) ||
-    findByTitle(registry, event.title);
+  const byNumber = findByManuscriptNumber(registry, event.journal, event.manuscriptNumber);
+  const byTitle = byNumber ? null : findByTitle(registry, event.title);
+  let manuscript = byNumber || byTitle?.manuscript || null;
 
   // One email describes one event. The sync window deliberately overlaps and a
   // re-import or a replayed run can present the same message twice, so filing
@@ -221,7 +260,16 @@ export function applyEvent(registry, event) {
       title: event.title,
       titleNormalized: normalizeTitle(event.title),
       bucket: "submissions",
-      needsReview: false,
+      // A title close enough that the old matcher would have merged this into
+      // an existing paper. It may be a rename; it may be a second study on the
+      // same question. Only a person can tell, so the record stands on its own
+      // and says who to compare it against -- adding the other title as an
+      // alias merges them for good, and doing nothing leaves them apart.
+      needsReview: Boolean(byTitle?.nearMiss),
+      reviewReason: byTitle?.nearMiss
+        ? `Title closely resembles "${byTitle.nearMiss.manuscript.title}" ` +
+          `(${byTitle.nearMiss.score.toFixed(2)}). Confirm these are different papers.`
+        : null,
       needsActionReason: null,
       actionFlag: false,
       actionLabel: null,
@@ -319,26 +367,14 @@ export function applyEvent(registry, event) {
 
   // Title may be reformatted slightly journal to journal — keep the longest/most complete version.
   // Unless someone has corrected it by hand, in which case theirs stands.
+  //
+  // An event only reaches an existing record now if its title matched exactly
+  // once normalised, so the difference here is punctuation or capitalisation,
+  // never a rename. Recording the old wording as an alias would add a key that
+  // already matches. Renames are recorded by applyEdit, where a person says so.
   if (!isPinned(manuscript, "title") && event.title && event.title.length > manuscript.title.length) {
-    /*
-     * Keep the old title as a key, exactly as a hand edit does.
-     *
-     * Authors retitle papers between submissions -- one here went out as
-     * "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A
-     * Construct-Stratified..." and came back from the next journal as "How
-     * Often Does Pelvic Fixation Fail After... A Proportional...". Only
-     * applyEdit recorded the previous name, so a rename that arrived by email
-     * silently erased it: searching the dashboard for the title you actually
-     * submitted under found nothing, and the record looked missing when it was
-     * merely renamed.
-     */
-    const previous = manuscript.title;
     manuscript.title = event.title;
     manuscript.titleNormalized = normalizeTitle(event.title);
-    manuscript.titleAliases ||= [];
-    if (previous && previous !== event.title && !manuscript.titleAliases.includes(previous)) {
-      manuscript.titleAliases.push(previous);
-    }
   }
 
   // A backfilled event can land after later ones were already recorded, so
