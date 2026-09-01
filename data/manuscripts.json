@@ -10517,7 +10517,7 @@
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
       "title": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews: A PRISMA-trAIce Compliant Evaluation",
       "titleNormalized": "a locally executed agentic ai framework for deduplication screening and structured data extraction in spine surgery systematic reviews a prisma traice compliant evaluation",
-      "bucket": "submissions",
+      "bucket": "published",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -10845,7 +10845,7 @@
         "currentJournal": "JBJS Open Access",
         "currentStatus": "Published in JBJS",
         "currentManuscriptNumber": "JBJSOA-D-26-00102R2",
-        "bucket": "submissions"
+        "bucket": "published"
       },
       "edits": [
         {
@@ -10878,10 +10878,21 @@
               "to": "submissions"
             }
           ]
+        },
+        {
+          "at": "2026-09-01T16:19:29.070Z",
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "bucket",
+              "from": "submissions",
+              "to": "published"
+            }
+          ]
         }
       ],
       "titleAliases": [],
-      "editedAt": "2026-09-01T16:18:16.170Z"
+      "editedAt": "2026-09-01T16:19:29.070Z"
     },
     {
       "id": "systematic-reviews-in-prp-augmented-meniscal-repair-have-limited-metho",
@@ -16920,5 +16931,5 @@
       "updatedAt": "2026-02-27T04:16:41.000Z"
     }
   ],
-  "editedAt": "2026-09-01T16:18:16.170Z"
+  "editedAt": "2026-09-01T16:19:29.070Z"
 }
