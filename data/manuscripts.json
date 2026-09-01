@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-09-01T18:41:53.751Z",
+  "generatedAt": "2026-09-01T21:55:37.886Z",
   "manuscripts": [
+    {
+      "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
+      "title": "Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
+      "titleNormalized": "substance use as a neglected mental health priority after spinal cord injury sci a systematic review and meta analysis of prevalence psychosocial burden and implications for integrated mental health services",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Topics in Spinal Cord Injury Rehabilitation",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "International Journal of Mental Health Systems",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-19T13:41:31.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-19T13:41:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ee01d8895e033c",
+                "messageId": "19ee01d8895e033c",
+                "subject": "International Journal of Mental Health Systems - Receipt of Manuscript 'Substance use as...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Topics in Spinal Cord Injury Rehabilitation",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-01T19:30:34.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-01T19:30:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Topics in Spinal Cord Injury Rehabilitation acknowledged receipt of the submitted manuscript.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a05e73aeaa2aaa0",
+                "messageId": "1a05e73aeaa2aaa0",
+                "subject": "RE: TSCIR / Submission Confirmation",
+                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-19T13:41:31.000Z",
+          "journal": "International Journal of Mental Health Systems",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ee01d8895e033c",
+            "messageId": "19ee01d8895e033c",
+            "subject": "International Journal of Mental Health Systems - Receipt of Manuscript 'Substance use as...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T19:30:34.000Z",
+          "journal": "Topics in Spinal Cord Injury Rehabilitation",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Topics in Spinal Cord Injury Rehabilitation acknowledged receipt of the submitted manuscript.",
+          "source": {
+            "threadId": "1a05e73aeaa2aaa0",
+            "messageId": "1a05e73aeaa2aaa0",
+            "subject": "RE: TSCIR / Submission Confirmation",
+            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-19T13:41:31.000Z",
+      "updatedAt": "2026-09-01T19:30:34.000Z",
+      "deadline": null,
+      "deadlineSource": null
+    },
     {
       "id": "orthopaedics-at-the-frontier-of-industry-6-0-a-comprehensive-review",
       "title": "Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review",
@@ -11673,71 +11781,6 @@
       ],
       "createdAt": "2026-06-28T09:50:39.000Z",
       "updatedAt": "2026-06-28T09:50:39.000Z"
-    },
-    {
-      "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
-      "title": "Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
-      "titleNormalized": "substance use as a neglected mental health priority after spinal cord injury sci a systematic review and meta analysis of prevalence psychosocial burden and implications for integrated mental health services",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "International Journal of Mental Health Systems",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "International Journal of Mental Health Systems",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-19T13:41:31.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-19T13:41:31.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ee01d8895e033c",
-                "messageId": "19ee01d8895e033c",
-                "subject": "International Journal of Mental Health Systems - Receipt of Manuscript 'Substance use as...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-06-19T13:41:31.000Z",
-          "journal": "International Journal of Mental Health Systems",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19ee01d8895e033c",
-            "messageId": "19ee01d8895e033c",
-            "subject": "International Journal of Mental Health Systems - Receipt of Manuscript 'Substance use as...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-06-19T13:41:31.000Z",
-      "updatedAt": "2026-06-19T13:41:31.000Z"
     },
     {
       "id": "extended-antibiotic-prophylaxis-in-primary-total-knee-arthroplasty-a-n",
