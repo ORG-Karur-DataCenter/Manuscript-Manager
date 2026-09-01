@@ -85,6 +85,12 @@ jobs:
           FINAL="${{ inputs.to }}"
           swept=0
           failed=0
+          # A month whose mail was deferred rather than read. It exits 0 and
+          # looks swept, so it has to be counted separately or the run reports
+          # a success it did not have.
+          incomplete=0
+          incomplete_ranges=""
+          export SYNC_SUMMARY_FILE="$RUNNER_TEMP/sync-summary.json"
 
           while [ "$(date -d "$CURSOR" +%s)" -lt "$(date -d "$FINAL" +%s)" ]; do
             NEXT=$(date -d "$CURSOR +1 month" +%Y-%m-%d)
@@ -95,6 +101,7 @@ jobs:
             echo "::group::Sweeping $CURSOR to $NEXT"
             # A month that fails must not take the rest of the range with it --
             # the whole point of this shape is that partial progress survives.
+            rm -f "$SYNC_SUMMARY_FILE"
             if SYNC_SINCE="$CURSOR" SYNC_UNTIL="$NEXT" npm run sync; then
               swept=$((swept + 1))
             else
@@ -102,6 +109,20 @@ jobs:
               echo "::warning::The sweep of $CURSOR to $NEXT failed; carrying on with the next month."
             fi
             echo "::endgroup::"
+
+            # Exiting 0 is not the same as having read the month. The classifier
+            # defers whatever it could not reach, and the cursor below moves on
+            # regardless -- so unless this is said out loud, mail the backfill
+            # skipped is indistinguishable from mail that was never there.
+            if [ -f "$SYNC_SUMMARY_FILE" ]; then
+              DEFERRED=$(node -e 'console.log(require(process.env.SYNC_SUMMARY_FILE).deferred)')
+              FILED=$(node -e 'console.log(require(process.env.SYNC_SUMMARY_FILE).filed)')
+              if [ "$DEFERRED" -gt 0 ]; then
+                incomplete=$((incomplete + 1))
+                incomplete_ranges="$incomplete_ranges $CURSOR..$NEXT($DEFERRED)"
+                echo "::warning::$CURSOR to $NEXT left $DEFERRED message(s) unread and filed $FILED. This month is NOT backfilled."
+              fi
+            fi
 
             # Commit each month as it finishes, so an April failure keeps
             # February and March rather than discarding the lot.
@@ -122,9 +143,15 @@ jobs:
             CURSOR="$NEXT"
           done
 
-          echo "Swept $swept month(s); $failed failed."
+          echo "Swept $swept month(s); $failed failed; $incomplete left mail unread."
+          if [ "$incomplete" -gt 0 ]; then
+            echo "Re-dispatch these ranges once classifier quota is available:"
+            echo " $incomplete_ranges"
+          fi
           echo "SWEPT=$swept" >> "$GITHUB_ENV"
           echo "FAILED=$failed" >> "$GITHUB_ENV"
+          echo "INCOMPLETE=$incomplete" >> "$GITHUB_ENV"
+          echo "INCOMPLETE_RANGES=$incomplete_ranges" >> "$GITHUB_ENV"
 
       # Once, at the end. Running it per month would open an issue for an
       # amendment and then immediately comment on it again for the next month,
@@ -164,4 +191,13 @@ jobs:
         if: env.FAILED != '0'
         run: |
           echo "::error::${{ env.FAILED }} month(s) failed to sweep. Re-run the range for those months."
+          exit 1
+
+      # Deliberately a failure, not a warning. A backfill that read none of its
+      # mail and reported success is how seven months of history went missing
+      # without anyone noticing for three days.
+      - name: Fail the run if a month was left unread
+        if: env.INCOMPLETE != '0'
+        run: |
+          echo "::error::${{ env.INCOMPLETE }} month(s) deferred mail instead of reading it, and the cursor has moved past them. Re-dispatch:${{ env.INCOMPLETE_RANGES }}"
           exit 1

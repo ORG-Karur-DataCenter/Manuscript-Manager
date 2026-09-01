@@ -457,6 +457,35 @@ async function main() {
       `flagged ${totalReview} for review, deferred ${totalDeferred} to the next run` +
       (rateLimitedThisRun ? ` (${rateLimitedThisRun} of them rate limited).` : ".")
   );
+
+  /*
+   * A caller that cannot come back for the deferred mail needs to know there
+   * is any.
+   *
+   * A scheduled run defers freely: the window holds, and the next run an hour
+   * later picks the mail up. A backfill has no next run -- it advances its
+   * cursor to the following month and never looks back -- so a deferral there
+   * is mail dropped, not mail postponed.
+   *
+   * The January-to-August backfill deferred 4,590 messages and filed nothing
+   * at all, because the classifier's daily quota was already spent before it
+   * began. It exited 0 for every month and reported "Swept 7 month(s); 0
+   * failed". Seven months of history looked imported and none of it was, and
+   * that stood for three days.
+   */
+  if (process.env.SYNC_SUMMARY_FILE) {
+    await saveJson(process.env.SYNC_SUMMARY_FILE, {
+      since: SWEEP.since ? SWEEP.since.toISOString() : null,
+      until: SWEEP.until ? SWEEP.until.toISOString() : null,
+      fetched: totalFetched,
+      classified: totalClassified,
+      filed: totalRelevant,
+      excluded: totalExcluded,
+      review: totalReview,
+      deferred: totalDeferred,
+      rateLimited: rateLimitedThisRun,
+    });
+  }
 }
 
 main().catch((err) => {
