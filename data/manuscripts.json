@@ -10517,14 +10517,14 @@
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
       "title": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews: A PRISMA-trAIce Compliant Evaluation",
       "titleNormalized": "a locally executed agentic ai framework for deduplication screening and structured data extraction in spine surgery systematic reviews a prisma traice compliant evaluation",
-      "bucket": "needs_action",
+      "bucket": "submissions",
       "needsReview": false,
-      "needsActionReason": "pre_review_edits",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00102R2",
-      "currentStatus": "Sent back for edits",
+      "currentStatus": "Published in JBJS",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -10839,7 +10839,49 @@
         }
       ],
       "createdAt": "2026-03-12T11:59:46.000Z",
-      "updatedAt": "2026-07-06T13:09:37.000Z"
+      "updatedAt": "2026-07-06T13:09:37.000Z",
+      "overrides": {
+        "title": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews: A PRISMA-trAIce Compliant Evaluation",
+        "currentJournal": "JBJS Open Access",
+        "currentStatus": "Published in JBJS",
+        "currentManuscriptNumber": "JBJSOA-D-26-00102R2",
+        "bucket": "submissions"
+      },
+      "edits": [
+        {
+          "at": "2026-09-01T16:18:16.170Z",
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "title",
+              "from": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews: A PRISMA-trAIce Compliant Evaluation",
+              "to": "A Locally Executed Agentic AI Framework for Deduplication, Screening, and Structured Data Extraction in Spine Surgery Systematic Reviews: A PRISMA-trAIce Compliant Evaluation"
+            },
+            {
+              "field": "currentJournal",
+              "from": "JBJS Open Access",
+              "to": "JBJS Open Access"
+            },
+            {
+              "field": "currentStatus",
+              "from": "Sent back for edits",
+              "to": "Published in JBJS"
+            },
+            {
+              "field": "currentManuscriptNumber",
+              "from": "JBJSOA-D-26-00102R2",
+              "to": "JBJSOA-D-26-00102R2"
+            },
+            {
+              "field": "bucket",
+              "from": "needs_action",
+              "to": "submissions"
+            }
+          ]
+        }
+      ],
+      "titleAliases": [],
+      "editedAt": "2026-09-01T16:18:16.170Z"
     },
     {
       "id": "systematic-reviews-in-prp-augmented-meniscal-repair-have-limited-metho",
@@ -16878,5 +16920,5 @@
       "updatedAt": "2026-02-27T04:16:41.000Z"
     }
   ],
-  "editedAt": "2026-08-30T13:26:51.997Z"
+  "editedAt": "2026-09-01T16:18:16.170Z"
 }
