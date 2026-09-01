@@ -1,6 +1,644 @@
 {
-  "generatedAt": "2026-09-01T18:26:14.248Z",
+  "generatedAt": "2026-09-01T18:41:53.751Z",
   "manuscripts": [
+    {
+      "id": "orthopaedics-at-the-frontier-of-industry-6-0-a-comprehensive-review",
+      "title": "Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review",
+      "titleNormalized": "orthopaedics at the frontier of industry 6 0 a comprehensive review",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Orthopaedic Surgery and Research",
+      "currentManuscriptNumber": "0fb985ec-20aa-49f6-b538-575fe6c82b01",
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "BMC Public Health",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-06T13:47:42.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-06T13:47:42.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d630c990cc2d9b",
+                "messageId": "19d630c990cc2d9b",
+                "subject": "BMC Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-08T10:09:40.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d6c91b5d6a50df",
+                "messageId": "19d6c91b5d6a50df",
+                "subject": "Decision on your submission to BMC Public Health",
+                "from": "BMC Public Health <bmcpublichealth@biomedcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Archives of Public Health",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-09T21:28:24.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-09T21:28:24.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d7425774d7e09e",
+                "messageId": "19d7425774d7e09e",
+                "subject": "Archives of Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-04-15T13:22:14.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19d914e8829c9856",
+                "messageId": "19d914e8829c9856",
+                "subject": "Decision on your submission to Archives of Public Health",
+                "from": "Archives of Public Health <rizalyn.pabillare@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "BMC Musculoskeletal Disorders",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-20T15:44:29.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-20T15:44:29.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19dab908ec6b3cc5",
+                "messageId": "19dab908ec6b3cc5",
+                "subject": "Decision on your submission to BMC Musculoskeletal Disorders",
+                "from": "BMC Musculoskeletal Disorders <bmcmusculoskeletaldisorders@biomedcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Experimental Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-22T18:53:32.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-22T18:53:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19db68a5671fa198",
+                "messageId": "19db68a5671fa198",
+                "subject": "Submission Confirmation for Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review (jeo.202600432)",
+                "from": "JEO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Scientific Reports",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-04-30T21:10:54.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-04-30T21:10:54.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19de03afd46c0be5",
+                "messageId": "19de03afd46c0be5",
+                "subject": "Scientific Reports - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-12T11:20:42.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-12T11:20:42.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e1beaf4415ae3e",
+                "messageId": "19e1beaf4415ae3e",
+                "subject": "Confirm co-authorship of submission to Journal of Orthopaedics",
+                "from": "Journal of Orthopaedics <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Archives of Orthopaedic and Trauma Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-17T12:07:51.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-17T12:07:51.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e35d5ea8a85133",
+                "messageId": "19e35d5ea8a85133",
+                "subject": "Archives of Orthopaedic and Trauma Surgery - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-05-23T16:05:36.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e5595c03305769",
+                "messageId": "19e5595c03305769",
+                "subject": "Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
+                "from": "Archives of Orthopaedic and Trauma Surgery <vinothkumar.raji@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-25T09:38:53.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-25T09:38:53.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e5e806aa0915cc",
+                "messageId": "19e5e806aa0915cc",
+                "subject": "International Orthopaedics - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-11T11:38:31.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-11T11:38:31.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eb67a0f7f7a446",
+                "messageId": "19eb67a0f7f7a446",
+                "subject": "Decision on your submission to International Orthopaedics",
+                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Current Reviews in Musculoskeletal Medicine",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-13T07:54:41.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-13T07:54:41.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ebff9d80a84048",
+                "messageId": "19ebff9d80a84048",
+                "subject": "Current Reviews in Musculoskeletal Medicine - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-21T12:49:32.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-21T12:49:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19eea3aa47737144",
+                "messageId": "19eea3aa47737144",
+                "subject": "Indian Journal of Orthopaedics - Submission Confirmation Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review for co-author - [EMID:f4793ef7ed5d4360]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "manuscriptNumber": "0fb985ec-20aa-49f6-b538-575fe6c82b01",
+          "submittedDate": "2026-07-09T18:05:48.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-07-09T18:05:48.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19f480eaf75dac5c",
+                "messageId": "19f480eaf75dac5c",
+                "subject": "Journal of Orthopaedic Surgery and Research - Receipt of Manuscript 'Orthopaedics at the...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-09-01T12:19:24.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected for publication.",
+              "manuscriptNumber": "0fb985ec-20aa-49f6-b538-575fe6c82b01",
+              "source": {
+                "threadId": "1a05ce8f20973fa8",
+                "messageId": "1a05ce8f20973fa8",
+                "subject": "Decision on your submission to Journal of Orthopaedic Surgery and Research",
+                "from": "Journal of Orthopaedic Surgery and Research <jonlauren.rendon@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-04-06T13:47:42.000Z",
+          "journal": "BMC Public Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d630c990cc2d9b",
+            "messageId": "19d630c990cc2d9b",
+            "subject": "BMC Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-08T10:09:40.000Z",
+          "journal": "BMC Public Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19d6c91b5d6a50df",
+            "messageId": "19d6c91b5d6a50df",
+            "subject": "Decision on your submission to BMC Public Health",
+            "from": "BMC Public Health <bmcpublichealth@biomedcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-09T21:28:24.000Z",
+          "journal": "Archives of Public Health",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19d7425774d7e09e",
+            "messageId": "19d7425774d7e09e",
+            "subject": "Archives of Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-15T13:22:14.000Z",
+          "journal": "Archives of Public Health",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19d914e8829c9856",
+            "messageId": "19d914e8829c9856",
+            "subject": "Decision on your submission to Archives of Public Health",
+            "from": "Archives of Public Health <rizalyn.pabillare@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-20T15:44:29.000Z",
+          "journal": "BMC Musculoskeletal Disorders",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19dab908ec6b3cc5",
+            "messageId": "19dab908ec6b3cc5",
+            "subject": "Decision on your submission to BMC Musculoskeletal Disorders",
+            "from": "BMC Musculoskeletal Disorders <bmcmusculoskeletaldisorders@biomedcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-22T18:53:32.000Z",
+          "journal": "Journal of Experimental Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19db68a5671fa198",
+            "messageId": "19db68a5671fa198",
+            "subject": "Submission Confirmation for Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review (jeo.202600432)",
+            "from": "JEO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-04-30T21:10:54.000Z",
+          "journal": "Scientific Reports",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19de03afd46c0be5",
+            "messageId": "19de03afd46c0be5",
+            "subject": "Scientific Reports - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-12T11:20:42.000Z",
+          "journal": "Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e1beaf4415ae3e",
+            "messageId": "19e1beaf4415ae3e",
+            "subject": "Confirm co-authorship of submission to Journal of Orthopaedics",
+            "from": "Journal of Orthopaedics <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-17T12:07:51.000Z",
+          "journal": "Archives of Orthopaedic and Trauma Surgery",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e35d5ea8a85133",
+            "messageId": "19e35d5ea8a85133",
+            "subject": "Archives of Orthopaedic and Trauma Surgery - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-23T16:05:36.000Z",
+          "journal": "Archives of Orthopaedic and Trauma Surgery",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19e5595c03305769",
+            "messageId": "19e5595c03305769",
+            "subject": "Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
+            "from": "Archives of Orthopaedic and Trauma Surgery <vinothkumar.raji@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-25T09:38:53.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e5e806aa0915cc",
+            "messageId": "19e5e806aa0915cc",
+            "subject": "International Orthopaedics - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-11T11:38:31.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19eb67a0f7f7a446",
+            "messageId": "19eb67a0f7f7a446",
+            "subject": "Decision on your submission to International Orthopaedics",
+            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-13T07:54:41.000Z",
+          "journal": "Current Reviews in Musculoskeletal Medicine",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ebff9d80a84048",
+            "messageId": "19ebff9d80a84048",
+            "subject": "Current Reviews in Musculoskeletal Medicine - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-21T12:49:32.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19eea3aa47737144",
+            "messageId": "19eea3aa47737144",
+            "subject": "Indian Journal of Orthopaedics - Submission Confirmation Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review for co-author - [EMID:f4793ef7ed5d4360]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-07-09T18:05:48.000Z",
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19f480eaf75dac5c",
+            "messageId": "19f480eaf75dac5c",
+            "subject": "Journal of Orthopaedic Surgery and Research - Receipt of Manuscript 'Orthopaedics at the...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T12:19:24.000Z",
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "eventType": "rejected",
+          "manuscriptNumber": "0fb985ec-20aa-49f6-b538-575fe6c82b01",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected for publication.",
+          "source": {
+            "threadId": "1a05ce8f20973fa8",
+            "messageId": "1a05ce8f20973fa8",
+            "subject": "Decision on your submission to Journal of Orthopaedic Surgery and Research",
+            "from": "Journal of Orthopaedic Surgery and Research <jonlauren.rendon@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-11T11:38:31.000Z",
+      "updatedAt": "2026-09-01T12:19:24.000Z",
+      "deadline": null,
+      "deadlineSource": null
+    },
     {
       "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
       "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
@@ -5954,6 +6592,101 @@
       "updatedAt": "2026-08-21T04:43:35.000Z"
     },
     {
+      "id": "how-does-pelvic-fixation-fail-in-adult-spinal-deformity-a-construct",
+      "title": "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A Construct-Stratified Systematic Review and Meta-Analysis",
+      "titleNormalized": "how does pelvic fixation fail in adult spinal deformity a construct stratified systematic review and meta analysis",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1654",
+      "currentStatus": "Rejected",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1654",
+          "submittedDate": "2026-08-16T17:43:44.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-16T17:43:44.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1654",
+              "source": {
+                "threadId": "1a00bac1df445c25",
+                "messageId": "1a00bac1df445c25",
+                "subject": "Global Spine Journal  GSJ-26-1654",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-21T04:25:29.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected at editor check without external review.",
+              "manuscriptNumber": "GSJ-26-1654",
+              "source": {
+                "threadId": "1a022911844d356e",
+                "messageId": "1a022911844d356e",
+                "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-16T17:43:44.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-1654",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a00bac1df445c25",
+            "messageId": "1a00bac1df445c25",
+            "subject": "Global Spine Journal  GSJ-26-1654",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-21T04:25:29.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected at editor check without external review.",
+          "source": {
+            "threadId": "1a022911844d356e",
+            "messageId": "1a022911844d356e",
+            "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-16T17:43:44.000Z",
+      "updatedAt": "2026-08-21T04:25:29.000Z"
+    },
+    {
       "id": "platelet-rich-plasma-injections-in-musculoskeletal-medicine-procedural",
       "title": "Platelet-rich plasma injections in musculoskeletal medicine: procedural recommendations from a modified Delphi study",
       "titleNormalized": "platelet rich plasma injections in musculoskeletal medicine procedural recommendations from a modified delphi study",
@@ -9815,612 +10548,6 @@
       ],
       "createdAt": "2026-07-10T10:11:34.000Z",
       "updatedAt": "2026-07-10T10:11:34.000Z"
-    },
-    {
-      "id": "orthopaedics-at-the-frontier-of-industry-6-0-a-comprehensive-review",
-      "title": "Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review",
-      "titleNormalized": "orthopaedics at the frontier of industry 6 0 a comprehensive review",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Journal of Orthopaedic Surgery and Research",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "BMC Public Health",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-04-06T13:47:42.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-06T13:47:42.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19d630c990cc2d9b",
-                "messageId": "19d630c990cc2d9b",
-                "subject": "BMC Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-04-08T10:09:40.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19d6c91b5d6a50df",
-                "messageId": "19d6c91b5d6a50df",
-                "subject": "Decision on your submission to BMC Public Health",
-                "from": "BMC Public Health <bmcpublichealth@biomedcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Archives of Public Health",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-04-09T21:28:24.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-09T21:28:24.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19d7425774d7e09e",
-                "messageId": "19d7425774d7e09e",
-                "subject": "Archives of Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-04-15T13:22:14.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19d914e8829c9856",
-                "messageId": "19d914e8829c9856",
-                "subject": "Decision on your submission to Archives of Public Health",
-                "from": "Archives of Public Health <rizalyn.pabillare@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "BMC Musculoskeletal Disorders",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-04-20T15:44:29.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-20T15:44:29.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19dab908ec6b3cc5",
-                "messageId": "19dab908ec6b3cc5",
-                "subject": "Decision on your submission to BMC Musculoskeletal Disorders",
-                "from": "BMC Musculoskeletal Disorders <bmcmusculoskeletaldisorders@biomedcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Journal of Experimental Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-04-22T18:53:32.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-22T18:53:32.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19db68a5671fa198",
-                "messageId": "19db68a5671fa198",
-                "subject": "Submission Confirmation for Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review (jeo.202600432)",
-                "from": "JEO Editorial Office <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Scientific Reports",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-04-30T21:10:54.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-04-30T21:10:54.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19de03afd46c0be5",
-                "messageId": "19de03afd46c0be5",
-                "subject": "Scientific Reports - Receipt of Manuscript 'Orthopaedics at the...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Journal of Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-05-12T11:20:42.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-12T11:20:42.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e1beaf4415ae3e",
-                "messageId": "19e1beaf4415ae3e",
-                "subject": "Confirm co-authorship of submission to Journal of Orthopaedics",
-                "from": "Journal of Orthopaedics <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Archives of Orthopaedic and Trauma Surgery",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-05-17T12:07:51.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-17T12:07:51.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e35d5ea8a85133",
-                "messageId": "19e35d5ea8a85133",
-                "subject": "Archives of Orthopaedic and Trauma Surgery - Receipt of Manuscript 'Orthopaedics at the...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-05-23T16:05:36.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e5595c03305769",
-                "messageId": "19e5595c03305769",
-                "subject": "Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
-                "from": "Archives of Orthopaedic and Trauma Surgery <vinothkumar.raji@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-05-25T09:38:53.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-25T09:38:53.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e5e806aa0915cc",
-                "messageId": "19e5e806aa0915cc",
-                "subject": "International Orthopaedics - Receipt of Manuscript 'Orthopaedics at the...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-11T11:38:31.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-11T11:38:31.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19eb67a0f7f7a446",
-                "messageId": "19eb67a0f7f7a446",
-                "subject": "Decision on your submission to International Orthopaedics",
-                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Current Reviews in Musculoskeletal Medicine",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-13T07:54:41.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-13T07:54:41.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ebff9d80a84048",
-                "messageId": "19ebff9d80a84048",
-                "subject": "Current Reviews in Musculoskeletal Medicine - Receipt of Manuscript 'Orthopaedics at the...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Indian Journal of Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-21T12:49:32.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-21T12:49:32.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19eea3aa47737144",
-                "messageId": "19eea3aa47737144",
-                "subject": "Indian Journal of Orthopaedics - Submission Confirmation Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review for co-author - [EMID:f4793ef7ed5d4360]",
-                "from": "JOIO Editorial Office <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Journal of Orthopaedic Surgery and Research",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-07-09T18:05:48.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-09T18:05:48.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19f480eaf75dac5c",
-                "messageId": "19f480eaf75dac5c",
-                "subject": "Journal of Orthopaedic Surgery and Research - Receipt of Manuscript 'Orthopaedics at the...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-04-06T13:47:42.000Z",
-          "journal": "BMC Public Health",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19d630c990cc2d9b",
-            "messageId": "19d630c990cc2d9b",
-            "subject": "BMC Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-08T10:09:40.000Z",
-          "journal": "BMC Public Health",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19d6c91b5d6a50df",
-            "messageId": "19d6c91b5d6a50df",
-            "subject": "Decision on your submission to BMC Public Health",
-            "from": "BMC Public Health <bmcpublichealth@biomedcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-09T21:28:24.000Z",
-          "journal": "Archives of Public Health",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19d7425774d7e09e",
-            "messageId": "19d7425774d7e09e",
-            "subject": "Archives of Public Health - Receipt of Manuscript 'Orthopaedics at the...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-15T13:22:14.000Z",
-          "journal": "Archives of Public Health",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19d914e8829c9856",
-            "messageId": "19d914e8829c9856",
-            "subject": "Decision on your submission to Archives of Public Health",
-            "from": "Archives of Public Health <rizalyn.pabillare@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-20T15:44:29.000Z",
-          "journal": "BMC Musculoskeletal Disorders",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19dab908ec6b3cc5",
-            "messageId": "19dab908ec6b3cc5",
-            "subject": "Decision on your submission to BMC Musculoskeletal Disorders",
-            "from": "BMC Musculoskeletal Disorders <bmcmusculoskeletaldisorders@biomedcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-22T18:53:32.000Z",
-          "journal": "Journal of Experimental Orthopaedics",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19db68a5671fa198",
-            "messageId": "19db68a5671fa198",
-            "subject": "Submission Confirmation for Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review (jeo.202600432)",
-            "from": "JEO Editorial Office <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-04-30T21:10:54.000Z",
-          "journal": "Scientific Reports",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19de03afd46c0be5",
-            "messageId": "19de03afd46c0be5",
-            "subject": "Scientific Reports - Receipt of Manuscript 'Orthopaedics at the...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-12T11:20:42.000Z",
-          "journal": "Journal of Orthopaedics",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19e1beaf4415ae3e",
-            "messageId": "19e1beaf4415ae3e",
-            "subject": "Confirm co-authorship of submission to Journal of Orthopaedics",
-            "from": "Journal of Orthopaedics <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-17T12:07:51.000Z",
-          "journal": "Archives of Orthopaedic and Trauma Surgery",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19e35d5ea8a85133",
-            "messageId": "19e35d5ea8a85133",
-            "subject": "Archives of Orthopaedic and Trauma Surgery - Receipt of Manuscript 'Orthopaedics at the...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-23T16:05:36.000Z",
-          "journal": "Archives of Orthopaedic and Trauma Surgery",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19e5595c03305769",
-            "messageId": "19e5595c03305769",
-            "subject": "Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
-            "from": "Archives of Orthopaedic and Trauma Surgery <vinothkumar.raji@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-25T09:38:53.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19e5e806aa0915cc",
-            "messageId": "19e5e806aa0915cc",
-            "subject": "International Orthopaedics - Receipt of Manuscript 'Orthopaedics at the...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-11T11:38:31.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19eb67a0f7f7a446",
-            "messageId": "19eb67a0f7f7a446",
-            "subject": "Decision on your submission to International Orthopaedics",
-            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-13T07:54:41.000Z",
-          "journal": "Current Reviews in Musculoskeletal Medicine",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19ebff9d80a84048",
-            "messageId": "19ebff9d80a84048",
-            "subject": "Current Reviews in Musculoskeletal Medicine - Receipt of Manuscript 'Orthopaedics at the...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-21T12:49:32.000Z",
-          "journal": "Indian Journal of Orthopaedics",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19eea3aa47737144",
-            "messageId": "19eea3aa47737144",
-            "subject": "Indian Journal of Orthopaedics - Submission Confirmation Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review for co-author - [EMID:f4793ef7ed5d4360]",
-            "from": "JOIO Editorial Office <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-09T18:05:48.000Z",
-          "journal": "Journal of Orthopaedic Surgery and Research",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19f480eaf75dac5c",
-            "messageId": "19f480eaf75dac5c",
-            "subject": "Journal of Orthopaedic Surgery and Research - Receipt of Manuscript 'Orthopaedics at the...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-06-11T11:38:31.000Z",
-      "updatedAt": "2026-07-09T18:05:48.000Z"
     },
     {
       "id": "can-atlantoaxial-stability-be-restored-without-fusion-outcomes-of-temp",
@@ -17061,101 +17188,6 @@
       ],
       "createdAt": "2026-02-27T04:16:41.000Z",
       "updatedAt": "2026-02-27T04:16:41.000Z"
-    },
-    {
-      "id": "how-does-pelvic-fixation-fail-in-adult-spinal-deformity-a-construct",
-      "title": "How Does Pelvic Fixation Fail in Adult Spinal Deformity? A Construct-Stratified Systematic Review and Meta-Analysis",
-      "titleNormalized": "how does pelvic fixation fail in adult spinal deformity a construct stratified systematic review and meta analysis",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-1654",
-      "currentStatus": "Rejected",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu",
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-1654",
-          "submittedDate": "2026-08-16T17:43:44.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-16T17:43:44.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was successfully submitted and is now under consideration.",
-              "manuscriptNumber": "GSJ-26-1654",
-              "source": {
-                "threadId": "1a00bac1df445c25",
-                "messageId": "1a00bac1df445c25",
-                "subject": "Global Spine Journal  GSJ-26-1654",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-21T04:25:29.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected at editor check without external review.",
-              "manuscriptNumber": "GSJ-26-1654",
-              "source": {
-                "threadId": "1a022911844d356e",
-                "messageId": "1a022911844d356e",
-                "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-16T17:43:44.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "new_submission",
-          "manuscriptNumber": "GSJ-26-1654",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "The manuscript was successfully submitted and is now under consideration.",
-          "source": {
-            "threadId": "1a00bac1df445c25",
-            "messageId": "1a00bac1df445c25",
-            "subject": "Global Spine Journal  GSJ-26-1654",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-21T04:25:29.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected at editor check without external review.",
-          "source": {
-            "threadId": "1a022911844d356e",
-            "messageId": "1a022911844d356e",
-            "subject": "Decision on Manuscript ID GSJ-26-1654 - Global Spine Journal",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-16T17:43:44.000Z",
-      "updatedAt": "2026-08-21T04:25:29.000Z"
     }
   ],
   "editedAt": "2026-09-01T18:36:59.656Z"

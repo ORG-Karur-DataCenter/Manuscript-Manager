@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-20T13:00:36.000Z",
+      "reason": "unrelated",
+      "subject": "AI makerspace expands to schools worldwide",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T07:59:15.000Z",
+      "reason": "unrelated",
+      "subject": "Naveen Jeyaraman published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T13:04:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your guide to Stanford football this season",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T00:11:41.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 126308 for World Journal of Diabetes (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T06:17:00.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:609666e71758f41b]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T11:19:15.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Madhan Jeyaraman - new articles",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-01T06:37:08.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Journal of Investigative Surgery - Invitation to Review Manuscript ID UIVS-2026-0256",
@@ -2129,54 +2171,6 @@
       "reason": "unrelated",
       "subject": "Editor summary for Journal of Clinical Orthopaedics and Trauma",
       "from": "Journal of Clinical Orthopaedics and Trauma <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e39b397298fd21",
-      "timestamp": "2026-05-18T06:00:37.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-18 06:00:35 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e38da7fb3f5cec",
-      "timestamp": "2026-05-18T02:11:43.000Z",
-      "reason": "unrelated",
-      "subject": "To Dr. Muthu [VETERINARY SCIENCES] (IF: 2.3, ISSN: 2306-7381) — Call for Paper for Topic on Microbiome and Its Impact on Animal Health and Production",
-      "from": "\"Ms. Florende Fang\" <florende.fang@mdpi.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e3871c5665b7e2",
-      "timestamp": "2026-05-18T00:17:19.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e387013b2e5b20",
-      "timestamp": "2026-05-18T00:15:23.000Z",
-      "reason": "unrelated",
-      "subject": "Number ID: 05395420 Sincerely invite registered Editorial Board Member/Peer Reviewer to write an Editorial article/Letter to the Editor on the in-press articles",
-      "from": "\"BPG Invitation (Yan JP)\" <invitation.yanjp@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e3607a02bd1d7a",
-      "timestamp": "2026-05-17T13:02:06.000Z",
-      "reason": "unrelated",
-      "subject": "A week in Davos distilled into insight",
-      "from": "Frontiers Science News <communications@engage.frontiersin.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e2fc66f453ef9e",
-      "timestamp": "2026-05-16T07:53:13.000Z",
-      "reason": "unrelated",
-      "subject": "International Orthopaedics - ToC Alert",
-      "from": "Springer Alert <tocalert@springernature.com>",
       "account": "Sathish Muthu"
     }
   ]
