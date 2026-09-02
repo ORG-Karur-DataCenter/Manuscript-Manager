@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-19T13:01:34.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Why social feeds elevate outrage",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-19T13:38:03.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Manuscript Consideration for Physiotherapy",
+      "from": "Nancy Miller <contact@physiotherapyoccupational.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-19T21:16:09.000Z",
+      "reason": "unrelated",
+      "subject": "Add Varunselva S",
+      "from": "LinkedIn <messages-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-31T14:03:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The week in physics: Roman Space Telescope and spy tech; Measuring a quantum state",
+      "from": "Physics Today <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-01T11:36:21.000Z",
+      "reason": "unrelated",
+      "subject": "Dhibin Vikash, did this researcher author this publication?",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
       "timestamp": "2026-09-01T07:16:11.000Z",
       "reason": "unrelated",
       "subject": "You have a new full-text request",
@@ -2127,46 +2162,6 @@
       "reason": "unrelated",
       "subject": "Call for Paper Reminder: [Bioengineering] (ISSN: 2306-5354) — Consider Publishing Your Research with Bioengineering",
       "from": "Bioengineering Editorial Office <bioengineering@mdpi.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e46c33eab2b2fa",
-      "timestamp": "2026-05-20T19:00:42.000Z",
-      "reason": "unrelated",
-      "subject": "NEW Episode of Your Case Is On Hold",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e43a5074106af2",
-      "timestamp": "2026-05-20T04:29:08.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-20 04:29:03 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e408ed46df6046",
-      "timestamp": "2026-05-19T14:06:00.000Z",
-      "reason": "unrelated",
-      "subject": "International Clinical and Medical Case Reports Journal (ISSN: 2832-5788)",
-      "from": "Editorial Manager <editorialmanager162@gmail.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4041709b46571",
-      "timestamp": "2026-05-19T12:41:30.000Z",
-      "reason": "unrelated",
-      "subject": "Important update regarding your manuscript",
-      "from": "info@researchsquare.com",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e3f279a66834d3",
-      "timestamp": "2026-05-19T07:33:40.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Request to handle manuscript PONE-D-26-10683 - [EMID:dd54adc55dacf3a6]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
       "account": "Sathish Muthu"
     }
   ]
