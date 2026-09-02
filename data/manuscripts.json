@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T05:59:59.683Z",
+  "generatedAt": "2026-09-02T11:53:31.814Z",
   "manuscripts": [
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
@@ -6094,6 +6094,19 @@
               }
             },
             {
+              "timestamp": "2026-08-18T03:15:28.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned to the author for technical corrections before it can be sent for review.",
+              "manuscriptNumber": "GSJ-26-1643",
+              "source": {
+                "threadId": "1a012dde9b1e2d46",
+                "messageId": "1a012dde9b1e2d46",
+                "subject": "Fwd: Global Spine Journal - GSJ-26-1643 has been unsubmitted",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            },
+            {
               "timestamp": "2026-08-20T01:32:29.000Z",
               "eventType": "new_submission",
               "revisionRound": null,
@@ -6165,6 +6178,27 @@
             "subject": "Global Spine Journal - GSJ-26-1643 has been unsubmitted",
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-18T03:15:28.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "GSJ-26-1643",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-01T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "14 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was returned to the author for technical corrections before it can be sent for review.",
+          "source": {
+            "threadId": "1a012dde9b1e2d46",
+            "messageId": "1a012dde9b1e2d46",
+            "subject": "Fwd: Global Spine Journal - GSJ-26-1643 has been unsubmitted",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
