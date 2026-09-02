@@ -1,6 +1,83 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-18T13:00:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Estrogen therapy associated with lower Alzheimer’s risk",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-18T15:28:06.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The toughest job in tech? Junior developer.",
+      "from": "GitHub via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-18T22:13:12.000Z",
+      "reason": "unrelated",
+      "subject": "[ORCID] DHIBIN VIKASH K P you have new notifications",
+      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-19T05:52:28.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: Springer Nature reprint offer for your article",
+      "from": "no-reply@email.copyright.com",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-19T06:34:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Human Behaviour Contents: Volume 10 Number 8",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-19T06:38:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Energy Contents: Volume 11 Number 8",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-19T07:37:51.000Z",
+      "reason": "unrelated",
+      "subject": "Quality of Elsevier's Author Support",
+      "from": "Elsevier Author Feedback <surveys@surveys.elsevier.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-19T13:20:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "SpaceX’s Cursor just killed GitHub",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T00:06:39.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Aussie Flu Season Implications for North America",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T04:49:30.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow up on review request for JOIO-D-26-01123 - [EMID:79ae56ed4c228ae7]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T04:51:03.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:18d069324d188fda]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-19T13:01:34.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Why social feeds elevate outrage",
@@ -2074,94 +2151,6 @@
       "reason": "unrelated",
       "subject": "Reminder: CARTILAGE",
       "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e5110e2f3a5879",
-      "timestamp": "2026-05-22T19:01:12.000Z",
-      "reason": "unrelated",
-      "subject": "Pre-Summer Savings Are Here: Save 30% at JBJS",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e504d208401a13",
-      "timestamp": "2026-05-22T15:28:11.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: Regenerative Biomaterials",
-      "from": "Regenerative Biomaterials <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4eca3286b932c",
-      "timestamp": "2026-05-22T08:25:34.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Invitation to handle manuscript [PONE-D-26-22626] - [EMID:6550d5d3639df493]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4be99daa6a367",
-      "timestamp": "2026-05-21T19:00:53.000Z",
-      "reason": "unrelated",
-      "subject": "Your Pre-Summer JBJS Savings Start Now",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4b24bb2481b08",
-      "timestamp": "2026-05-21T15:25:58.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Reminder to provide amendments on: \"Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration\"",
-      "from": "Springer Nature Submissions <carissa.rustia@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4b1726417cf01",
-      "timestamp": "2026-05-21T15:11:08.000Z",
-      "reason": "unrelated",
-      "subject": "Confirmation mail for Article (10.1007/s43465-026-01827-w)",
-      "from": "eproofing@springernature.com",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4ae3390a5fe24",
-      "timestamp": "2026-05-21T14:14:20.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-21 14:14:12 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4ae313ef606a3",
-      "timestamp": "2026-05-21T14:14:11.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-21 14:14:01 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4aa7693fcb372",
-      "timestamp": "2026-05-21T13:09:04.000Z",
-      "reason": "unrelated",
-      "subject": "Review invitation: Exploring the Effectiveness and Safety of Stem Cell Therapy...",
-      "from": "\"Ming Pei (Via FrontiersIn)\" <noreply@frontiersin.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4a9b74f2c4962",
-      "timestamp": "2026-05-21T12:54:54.000Z",
-      "reason": "unrelated",
-      "subject": "Final reminder: Patient Safety in Surgery: Collection – Cutting edge innovation for patient safety in trauma surgery",
-      "from": "Laura Chu <laura.chu@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4a886cffed473",
-      "timestamp": "2026-05-21T12:35:14.000Z",
-      "reason": "unrelated",
-      "subject": "Call for Paper Reminder: [Bioengineering] (ISSN: 2306-5354) — Consider Publishing Your Research with Bioengineering",
-      "from": "Bioengineering Editorial Office <bioengineering@mdpi.com>",
       "account": "Sathish Muthu"
     }
   ]
