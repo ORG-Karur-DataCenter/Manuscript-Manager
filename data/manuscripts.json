@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T20:02:33.055Z",
+  "generatedAt": "2026-09-02T22:46:41.321Z",
   "manuscripts": [
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
@@ -240,6 +240,105 @@
       ],
       "createdAt": "2026-09-02T14:45:34.000Z",
       "updatedAt": "2026-09-02T14:45:34.000Z"
+    },
+    {
+      "id": "comparative-physicochemical-biochemical-growth-factor-and-cytokine-cha",
+      "title": "Comparative Physicochemical, Biochemical, Growth Factor and Cytokine Characterization of Platelet-Rich Plasma and Plasma Rich in Growth Factors (PRGF)",
+      "titleNormalized": "comparative physicochemical biochemical growth factor and cytokine characterization of platelet rich plasma and plasma rich in growth factors prgf",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
+      "currentJournal": "World Journal of Experimental Medicine",
+      "currentManuscriptNumber": "126815",
+      "currentStatus": "Revision requested",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Experimental Medicine",
+          "manuscriptNumber": "126815",
+          "submittedDate": "2026-08-24T04:13:17.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-24T04:13:17.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Reviewers completed their review and requested major revision of the manuscript.",
+              "manuscriptNumber": "126815",
+              "source": {
+                "threadId": "1a031f914f1e0f2f",
+                "messageId": "1a031f914f1e0f2f",
+                "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126815",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-02T08:58:20.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The manuscript was returned after peer review with a request for revision, due within 14 days.",
+              "manuscriptNumber": "126815",
+              "source": {
+                "threadId": "1a0615744b1510d7",
+                "messageId": "1a0615744b1510d7",
+                "subject": "Revision Required for Manuscript No. 126815 Submitted to World Journal of Experimental Medicine",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-24T04:13:17.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "revision_requested",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "note": "Reviewers completed their review and requested major revision of the manuscript.",
+          "source": {
+            "threadId": "1a031f914f1e0f2f",
+            "messageId": "1a031f914f1e0f2f",
+            "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126815",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-02T08:58:20.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "126815",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-09-16T18:29:59.999Z",
+            "source": "stated",
+            "basis": "14 days from the email"
+          },
+          "note": "The manuscript was returned after peer review with a request for revision, due within 14 days.",
+          "source": {
+            "threadId": "1a0615744b1510d7",
+            "messageId": "1a0615744b1510d7",
+            "subject": "Revision Required for Manuscript No. 126815 Submitted to World Journal of Experimental Medicine",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-24T04:13:17.000Z",
+      "updatedAt": "2026-09-02T08:58:20.000Z",
+      "deadline": "2026-09-16T18:29:59.999Z",
+      "deadlineSource": "stated"
     },
     {
       "id": "orthopaedics-at-the-frontier-of-industry-6-0-a-comprehensive-review",
@@ -5438,71 +5537,6 @@
       "updatedAt": "2026-08-25T13:41:39.000Z",
       "deadline": "2026-09-01T18:29:59.999Z",
       "deadlineSource": "assumed"
-    },
-    {
-      "id": "comparative-physicochemical-biochemical-growth-factor-and-cytokine-cha",
-      "title": "Comparative Physicochemical, Biochemical, Growth Factor and Cytokine Characterization of Platelet-Rich Plasma and Plasma Rich in Growth Factors (PRGF)",
-      "titleNormalized": "comparative physicochemical biochemical growth factor and cytokine characterization of platelet rich plasma and plasma rich in growth factors prgf",
-      "bucket": "revisions_pending",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision requested",
-      "currentJournal": "World Journal of Experimental Medicine",
-      "currentManuscriptNumber": "126815",
-      "currentStatus": "Revision requested",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "World Journal of Experimental Medicine",
-          "manuscriptNumber": "126815",
-          "submittedDate": "2026-08-24T04:13:17.000Z",
-          "outcome": "active",
-          "status": "revision_requested",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-24T04:13:17.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": 1,
-              "note": "Reviewers completed their review and requested major revision of the manuscript.",
-              "manuscriptNumber": "126815",
-              "source": {
-                "threadId": "1a031f914f1e0f2f",
-                "messageId": "1a031f914f1e0f2f",
-                "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126815",
-                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-24T04:13:17.000Z",
-          "journal": "World Journal of Experimental Medicine",
-          "eventType": "revision_requested",
-          "label": "Revision requested",
-          "revisionRound": 1,
-          "note": "Reviewers completed their review and requested major revision of the manuscript.",
-          "source": {
-            "threadId": "1a031f914f1e0f2f",
-            "messageId": "1a031f914f1e0f2f",
-            "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126815",
-            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-24T04:13:17.000Z",
-      "updatedAt": "2026-08-24T04:13:17.000Z",
-      "deadline": null,
-      "deadlineSource": null
     },
     {
       "id": "are-current-management-strategies-adequate-for-metastatic-sarcoma-of-t",
