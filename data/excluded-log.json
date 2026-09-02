@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-17T20:20:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Kolarpatti Ponnusamy D.V.: Share Your Groundbreaking Research with Leading Scholars at the Conferences",
+      "from": "Chen Meiqi <C.Meiqi@iconfhmed.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-19T06:42:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Clinical Oncology Contents: Volume 23 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T13:00:19.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Meet Stanford’s public art ranger",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T14:54:17.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "Abdullah al mamun <mamuncomc@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T15:42:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Journal of Orthopaedic Case Reports: Latest Issue Published!",
+      "from": "Journal of Orthopaedic Case Reports <jocretocalert@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T16:46:46.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "Andrei Joaquim <andjoaquim@yahoo.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T16:55:34.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "stefano conti <stefanoconti.dr@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T18:41:29.000Z",
+      "reason": "unrelated",
+      "subject": "Categorization and Rationalization of Mutual Fund Schemes - Addendum",
+      "from": "TATA Mutual Fund <donotreplytoTATAMF@camsonline.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-02T14:44:57.000Z",
       "reason": "unrelated",
       "subject": "RE:  ICM-Focus issue-GSJ - From Dr S Rajasekaran",
@@ -2074,70 +2130,6 @@
       "reason": "unrelated",
       "subject": "More reviews required for JCOT-D-26-00082",
       "from": "\"r.ramalingam@elsevier.com\" <no-reply@celonis.cloud>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e68743b382a468",
-      "timestamp": "2026-05-27T08:01:43.000Z",
-      "reason": "unrelated",
-      "subject": "How was your experience with Indian Journal of Orthopaedics?",
-      "from": "Springer Nature <donotreply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e64aa6defaed92",
-      "timestamp": "2026-05-26T14:22:30.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder:  BMJ-2026-090357 BMJ",
-      "from": "BMJ <onbehalfof@manuscriptcentral.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e64985774a97e5",
-      "timestamp": "2026-05-26T14:02:44.000Z",
-      "reason": "unrelated",
-      "subject": "Your article is ready to view and share",
-      "from": "Springer Nature <alerts@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e6352c91b07197",
-      "timestamp": "2026-05-26T08:07:09.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:c2c185e9d9982089]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e632cd56f38d63",
-      "timestamp": "2026-05-26T07:25:42.000Z",
-      "reason": "unrelated",
-      "subject": "PLOS ONE: Regarding Reviewer Invitation for PONE-D-26-13056 - [EMID:913957b190a0e772]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e625f8dc4796bf",
-      "timestamp": "2026-05-26T03:41:26.000Z",
-      "reason": "unrelated",
-      "subject": "RE: Your Springer Book_Madhan Jeyaraman_Evidence based Regenerative Orthopedics (685261)",
-      "from": "Vinodhini Srinivasan <vinodhini.srinivasan.1@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e609dc20ea7725",
-      "timestamp": "2026-05-25T19:30:11.000Z",
-      "reason": "unrelated",
-      "subject": "Is this article of interest to you (ID 1884729)?",
-      "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e606361be72cfe",
-      "timestamp": "2026-05-25T18:26:20.000Z",
-      "reason": "unrelated",
-      "subject": "RE: Your Springer Book_Madhan Jeyaraman_Evidence based Regenerative Orthopedics (685261)",
-      "from": "Vinodhini Srinivasan <vinodhini.srinivasan.1@springernature.com>",
       "account": "Sathish Muthu"
     }
   ]

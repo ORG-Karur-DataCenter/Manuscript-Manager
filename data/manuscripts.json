@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:50:58.505Z",
+  "generatedAt": "2026-09-02T20:02:33.055Z",
   "manuscripts": [
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
@@ -172,6 +172,74 @@
       "updatedAt": "2026-09-02T16:01:34.000Z",
       "deadline": "2026-09-30T18:29:59.999Z",
       "deadlineSource": "stated"
+    },
+    {
+      "id": "validity-and-reliability-of-the-miss-inc-l-invasiveness-classification",
+      "title": "Validity and Reliability of the MISS-INC (L) Invasiveness Classification: A Multicentre Study of 426 Lumbar Procedures",
+      "titleNormalized": "validity and reliability of the miss inc l invasiveness classification a multicentre study of 426 lumbar procedures",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00301",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": "JBJSOA-D-26-00301",
+          "submittedDate": "2026-09-02T14:45:34.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-02T14:45:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a tracking number was assigned.",
+              "manuscriptNumber": "JBJSOA-D-26-00301",
+              "source": {
+                "threadId": "1a062951e073db5b",
+                "messageId": "1a062951e073db5b",
+                "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00301) - [EMID:e388576b6f5176c3]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-02T14:45:34.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JBJSOA-D-26-00301",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a tracking number was assigned.",
+          "source": {
+            "threadId": "1a062951e073db5b",
+            "messageId": "1a062951e073db5b",
+            "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00301) - [EMID:e388576b6f5176c3]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-02T14:45:34.000Z",
+      "updatedAt": "2026-09-02T14:45:34.000Z"
     },
     {
       "id": "orthopaedics-at-the-frontier-of-industry-6-0-a-comprehensive-review",
