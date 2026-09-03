@@ -1,6 +1,144 @@
 {
-  "generatedAt": "2026-09-02T22:46:41.321Z",
+  "generatedAt": "2026-09-03T01:16:43.356Z",
   "manuscripts": [
+    {
+      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
+      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
+      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Indian Spine Journal",
+      "currentManuscriptNumber": "isj_133_26",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "submittedDate": "2026-08-31T19:16:55.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-31T19:16:55.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05940d25498fc9",
+                "messageId": "1a05940d25498fc9",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-01T03:52:32.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected without external peer review.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05b13b9c60dc6b",
+                "messageId": "1a05b18e86f41700",
+                "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Indian Spine Journal",
+          "manuscriptNumber": "isj_133_26",
+          "submittedDate": "2026-09-02T23:15:05.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-02T23:15:05.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
+              "manuscriptNumber": "isj_133_26",
+              "source": {
+                "threadId": "1a06467994de87f2",
+                "messageId": "1a06467994de87f2",
+                "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
+                "from": "Indian Spine Journal <editor@isjonline.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-31T19:16:55.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a05940d25498fc9",
+            "messageId": "1a05940d25498fc9",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T03:52:32.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected without external peer review.",
+          "source": {
+            "threadId": "1a05b13b9c60dc6b",
+            "messageId": "1a05b18e86f41700",
+            "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-02T23:15:05.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "isj_133_26",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
+          "source": {
+            "threadId": "1a06467994de87f2",
+            "messageId": "1a06467994de87f2",
+            "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
+            "from": "Indian Spine Journal <editor@isjonline.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-31T19:16:55.000Z",
+      "updatedAt": "2026-09-02T23:15:05.000Z"
+    },
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
       "title": "Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
@@ -191,7 +329,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -215,6 +354,19 @@
                 "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00301) - [EMID:e388576b6f5176c3]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-02T14:45:36.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The journal requests the author to verify co‑authorship for the submitted manuscript",
+              "manuscriptNumber": "JBJSOA-D-26-00301",
+              "source": {
+                "threadId": "1a06295337c88582",
+                "messageId": "1a06295337c88582",
+                "subject": "Co-authorship confirmation request (JBJSOA-D-26-00301) - [EMID:1c71d4ec3d8a6a2c]",
+                "from": "Sathish Muthu <em@editorialmanager.com>"
+              }
             }
           ]
         }
@@ -236,10 +388,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-02T14:45:36.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": "JBJSOA-D-26-00301",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal requests the author to verify co‑authorship for the submitted manuscript",
+          "source": {
+            "threadId": "1a06295337c88582",
+            "messageId": "1a06295337c88582",
+            "subject": "Co-authorship confirmation request (JBJSOA-D-26-00301) - [EMID:1c71d4ec3d8a6a2c]",
+            "from": "Sathish Muthu <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-02T14:45:34.000Z",
-      "updatedAt": "2026-09-02T14:45:34.000Z"
+      "updatedAt": "2026-09-02T14:45:36.000Z"
     },
     {
       "id": "comparative-physicochemical-biochemical-growth-factor-and-cytokine-cha",
@@ -977,103 +1146,6 @@
       "updatedAt": "2026-09-01T12:19:24.000Z",
       "deadline": null,
       "deadlineSource": null
-    },
-    {
-      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
-      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
-      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Asian Spine Journal",
-      "currentManuscriptNumber": "ASJ-2026-0787",
-      "currentStatus": "Rejected",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Asian Spine Journal",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "submittedDate": "2026-08-31T19:16:55.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-31T19:16:55.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was successfully submitted and is now under consideration.",
-              "manuscriptNumber": "ASJ-2026-0787",
-              "source": {
-                "threadId": "1a05940d25498fc9",
-                "messageId": "1a05940d25498fc9",
-                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T03:52:32.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "The manuscript was rejected without external peer review.",
-              "manuscriptNumber": "ASJ-2026-0787",
-              "source": {
-                "threadId": "1a05b13b9c60dc6b",
-                "messageId": "1a05b18e86f41700",
-                "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-31T19:16:55.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "new_submission",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was successfully submitted and is now under consideration.",
-          "source": {
-            "threadId": "1a05940d25498fc9",
-            "messageId": "1a05940d25498fc9",
-            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-01T03:52:32.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "rejected",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "label": "Rejected",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was rejected without external peer review.",
-          "source": {
-            "threadId": "1a05b13b9c60dc6b",
-            "messageId": "1a05b18e86f41700",
-            "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-31T19:16:55.000Z",
-      "updatedAt": "2026-09-01T03:52:32.000Z"
     },
     {
       "id": "methodological-advances-in-synovial-fluid-sequencing-standardization-v",

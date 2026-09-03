@@ -2746,7 +2746,13 @@
         "1a06234f9c6a0197",
         "1a018c1621094d6d",
         "1a01162026d9cc7d",
-        "1a0642dfbc0756eb"
+        "1a0642dfbc0756eb",
+        "1a06295337c88582",
+        "1a01240d95790944",
+        "1a0114ffd2cc819e",
+        "1a010551b04ea16f",
+        "1a010043ee4bcf29",
+        "1a00fd053655de51"
       ],
       "importedAt": "2026-08-23T12:49:10.227Z",
       "failedAttempts": {
@@ -2755,7 +2761,7 @@
       "holding": true
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-09-02T08:38:03.000Z",
+      "lastSyncedAt": "2026-09-03T01:09:19.579Z",
       "seenIds": [
         "1a00f5a1dbb23ec0",
         "1a00f61ef5fad629",
@@ -9887,7 +9893,14 @@
         "1a0624cac49bebf8",
         "1a06244a1f31080d",
         "1a0622a1a6a9b97f",
-        "1a0615744b1510d7"
+        "1a0615744b1510d7",
+        "1a064ca840abc631",
+        "1a064c4d777ad196",
+        "1a064a69ca6d5594",
+        "1a0647cf4afbf563",
+        "1a06467994de87f2",
+        "1a064635dd22254d",
+        "1a06144bacf59f0c"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
@@ -9900,7 +9913,7 @@
         "19c5d94258ac2e1d": 1,
         "19c5d62bcf8377b7": 1
       },
-      "holding": true
+      "holding": false
     }
   }
 }

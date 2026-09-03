@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-17T13:01:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The sunscreen “game changer” coming to the U.S.",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-17T13:58:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🔑 How Claude's text watermark works",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-17T15:26:48.000Z",
+      "reason": "unrelated",
+      "subject": "Ai Health Highway recently posted",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-17T20:00:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "August 2026 Job Opportunities and Career Advice",
+      "from": "Physics Today Jobs <pt-jobs@aip-info.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-18T00:23:55.000Z",
+      "reason": "unrelated",
+      "subject": "Research & Publication Support for Doctors",
+      "from": "Med Publy <medpubly@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T08:38:03.000Z",
+      "reason": "unrelated",
+      "subject": "International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: feedback on manuscript",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T23:10:26.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "Luiz Gustavo Dal Oglio da Rocha <lgdrocha@yahoo.com.br>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-02T23:38:13.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "Kosei Nagata <koseinagata1984@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-02T12:48:40.000Z",
       "reason": "unrelated",
       "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
@@ -2061,70 +2117,6 @@
       "reason": "unrelated",
       "subject": "Decision on A Novel Nomogram for Predicting the Probability of Surgical Intervention in Lumbar Disc Herniation",
       "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19cac1c959cb6043",
-      "timestamp": "2026-03-02T01:14:39.000Z",
-      "reason": "unrelated",
-      "subject": "[Cells] Manuscript ID: cells-4144726 - Revision Reminder (Due Today)",
-      "from": "Cells Editorial Office <cells@mdpi.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19ca75f396dcaef8",
-      "timestamp": "2026-03-01T03:08:58.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Re: Proofreading for Manuscript Revision NO. 117689 of World Journal of Stem Cells",
-      "from": "\"Wang Jing-Jie (BPG)\" <j.j.wang@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19ca3962d530a970",
-      "timestamp": "2026-02-28T09:30:48.000Z",
-      "reason": "unrelated",
-      "subject": "Proofreading for Manuscript Revision NO. 117689 of World Journal of Stem Cells",
-      "from": "\"Wang, Jing-Jie (Baishideng)\" <j.j.wang@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19c980b6651e6652",
-      "timestamp": "2026-02-26T03:43:19.000Z",
-      "reason": "unrelated",
-      "subject": "Proofreading for Manuscript Revision NO. 116736 of World Journal of Radiology",
-      "from": "\"Zuo, Qian (Baishideng)\" <q.zuo@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e70eee22edd801",
-      "timestamp": "2026-05-28T23:32:43.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-28 23:32:39 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e70eed03786174",
-      "timestamp": "2026-05-28T23:32:36.000Z",
-      "reason": "unrelated",
-      "subject": "2026-05-28 23:32:31 RCA ID: 00000627 Notice of your article being indexed by Reference Citation Analysis",
-      "from": "\"RCA Office (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e7054d6d2a63ff",
-      "timestamp": "2026-05-28T20:43:58.000Z",
-      "reason": "unrelated",
-      "subject": "Read the latest  Clinical Orthopaedics and Related Research® - Vol. 484, No. 6, June 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e7042e1b3d2cb2",
-      "timestamp": "2026-05-28T20:24:49.000Z",
-      "reason": "unrelated",
-      "subject": "Enjoy a FREE Preview of JBJS Journals",
-      "from": "JBJS <info@jbjs.org>",
       "account": "Sathish Muthu"
     }
   ]
