@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-03T13:00:15.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Why lower-class workers don’t ask for raises",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T15:03:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "From crisis response to a global platform: celebrating five years of Policy Labs",
+      "from": "Frontiers Science News <communications@engage.frontiersin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T16:55:31.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
+      "from": "Roger Hartl <roh9005@med.cornell.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T17:42:10.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-03T13:50:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature alert for 03rd September 2026",
@@ -2070,34 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Manuscript JME-2026-0197-RT - Journal of Medical Economics",
       "from": "Journal of Medical Economics <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T15:20:11.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for Does Failure to Restore Native Roussouly Alignment Increase the Risk of Adjacent Segment Degeneration (ASD) after Lumbar Fusion? Analysis of the Relationship between Sagittal Morphotype Discordance and ASD",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T04:48:32.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Follow up on review request for JOIO-D-26-01359 - [EMID:a86cdf789b2ded6b]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T07:06:05.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
-      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T09:06:31.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Reminder: [Osteology] (Now Indexed in ESCI) Invitation for Manuscripts",
-      "from": "Osteology <osteology@mdpi.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
