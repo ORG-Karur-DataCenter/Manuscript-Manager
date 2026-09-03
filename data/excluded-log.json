@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-17T14:03:38.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The week in physics: High-resolution ghost imaging; Child penalty for academic careers",
+      "from": "Physics Today <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T13:00:58.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The Data Science Skills Agents Can't Learn",
+      "from": "Towards Data Science <newsletter@towardsdatascience.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T14:21:10.000Z",
+      "reason": "unrelated",
+      "subject": "You have 3 new messages",
+      "from": "LinkedIn <notifications-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T10:00:52.000Z",
+      "reason": "unrelated",
+      "subject": "Share your expertise: help shape how we assess surgical adequacy in DCM",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T13:07:07.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "\"山田浩司\" <forpatients2008@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T13:13:27.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T14:08:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Bone Marrow Stimulation in Arthroscopic Rotator Cuff Repair: A Meta-Analysis",
+      "from": "ISAKOS Digital Digest <ISAKOS@multibriefs.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T14:15:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your End Of Summer JBJS Savings Start Now",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T14:30:27.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Is Your Research Ready for Publication?",
+      "from": "JoVE Video <access@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-02T20:23:26.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Last Chance: Nanoscale Characterization of 2D Materials and Polymers",
@@ -2035,69 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Dear Dr. Sathish Muthu Today is the Last Day to submit Abstract/Contribution -IOACON2026. Registration Slab Changes after 31st August 2026",
       "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T06:15:40.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS ONE Reminder of Active Assignments - [EMID:03b1866face1526e]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T08:02:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Upcoming events",
-      "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T09:36:58.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Watch the Master in action Dr. Vijay C Bose @ SPARSH COURSE 2026",
-      "from": "SPARSH COURSE 2026 <sparshconference@250907063.mailchimpapp.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T04:25:14.000Z",
-      "reason": "unrelated",
-      "subject": "E-Sign submitted successfully for Healthcare Professional",
-      "from": "noreply.abdm@nha.gov.in",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T06:41:40.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-36067] - [EMID:9f6bff2da8bf9e6e]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T02:37:08.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review for Orthopaedic Surgery: 7421944",
-      "from": "Orthopaedic Surgery <os.office@wiley.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T03:47:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Official Invitation: Invited Speaker – INNOST NANO 2026 - Hybrid Conference | 26–28 October 2026 | GITAM, Jhajjar, Haryana, India",
-      "from": "INNOST NANO 2026 <contact@rpconfseries.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T01:03:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dear Dr. Sathish Muthu Have You Realised ? Today is the Last Day to submit Abstract/Contribution -IOACON2026",
-      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T15:59:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Change in Name of Scheme(s)",
-      "from": "HDFC MUTUAL FUND <donotreplytoHDFCMF@camsonline.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
