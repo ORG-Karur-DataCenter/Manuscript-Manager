@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-03T13:50:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 03rd September 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T15:10:39.000Z",
+      "reason": "unrelated",
+      "subject": "🗓  FISRM,  BATCH: 2  |   CLASS: 16 on September 3, 2026 | Read Meeting Report",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-17T14:03:38.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "The week in physics: High-resolution ghost imaging; Child penalty for academic careers",
@@ -2084,20 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "Reminder: [Osteology] (Now Indexed in ESCI) Invitation for Manuscripts",
       "from": "Osteology <osteology@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T11:24:03.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Reg: Submit your valuable Manuscript",
-      "from": "\"Surgery & Anaesthesia Research\" <surgerysciences@onlinescientificresearch.info>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T12:22:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dear Dr. Sathish Muthu Today is the Last Day to submit Abstract/Contribution -IOACON2026. Registration Slab Changes after 31st August 2026",
-      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
