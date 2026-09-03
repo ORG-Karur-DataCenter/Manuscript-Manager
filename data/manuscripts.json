@@ -7866,11 +7866,11 @@
     },
     {
       "id": "convergence-and-divergence-of-disease-burden-across-the-states-of-indi",
-      "title": "Convergence and divergence of disease burden across the states of India, 1990-2023: a robustness-tested analysis of ten conditions spanning the epidemiological transition",
-      "titleNormalized": "convergence and divergence of disease burden across the states of india 1990 2023 a robustness tested analysis of ten conditions spanning the epidemiological transition",
+      "title": "Are health inequalities between India's states narrowing? A robustness-tested analysis of ten conditions, 1990–2023",
+      "titleNormalized": "are health inequalities between india s states narrowing a robustness tested analysis of ten conditions 1990 2023",
       "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "SSM - Population Health",
@@ -7958,7 +7958,51 @@
         }
       ],
       "createdAt": "2026-07-24T12:09:30.000Z",
-      "updatedAt": "2026-08-18T14:57:46.000Z"
+      "updatedAt": "2026-08-18T14:57:46.000Z",
+      "overrides": {
+        "title": "Are health inequalities between India's states narrowing? A robustness-tested analysis of ten conditions, 1990–2023",
+        "currentJournal": "SSM - Population Health",
+        "currentStatus": "Rejected",
+        "currentManuscriptNumber": "SSMPH-D-26-01590",
+        "bucket": "needs_action"
+      },
+      "edits": [
+        {
+          "at": "2026-09-03T18:02:35.635Z",
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "title",
+              "from": "Convergence and divergence of disease burden across the states of India, 1990-2023: a robustness-tested analysis of ten conditions spanning the epidemiological transition",
+              "to": "Are health inequalities between India's states narrowing? A robustness-tested analysis of ten conditions, 1990–2023"
+            },
+            {
+              "field": "currentJournal",
+              "from": "SSM - Population Health",
+              "to": "SSM - Population Health"
+            },
+            {
+              "field": "currentStatus",
+              "from": "Rejected",
+              "to": "Rejected"
+            },
+            {
+              "field": "currentManuscriptNumber",
+              "from": "SSMPH-D-26-01590",
+              "to": "SSMPH-D-26-01590"
+            },
+            {
+              "field": "bucket",
+              "from": "needs_action",
+              "to": "needs_action"
+            }
+          ]
+        }
+      ],
+      "titleAliases": [
+        "Convergence and divergence of disease burden across the states of India, 1990-2023: a robustness-tested analysis of ten conditions spanning the epidemiological transition"
+      ],
+      "editedAt": "2026-09-03T18:02:35.635Z"
     },
     {
       "id": "complications-of-orthobiologics-a-cross-sectional-study-of-practice-pa",
@@ -17813,5 +17857,5 @@
       "updatedAt": "2026-02-27T04:16:41.000Z"
     }
   ],
-  "editedAt": "2026-09-01T18:36:59.656Z"
+  "editedAt": "2026-09-03T18:02:35.635Z"
 }
