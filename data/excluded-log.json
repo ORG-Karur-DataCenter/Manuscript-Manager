@@ -1,6 +1,139 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-02T20:23:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Last Chance: Nanoscale Characterization of 2D Materials and Polymers",
+      "from": "Physics Today Webinars <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T06:32:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Physics Contents: Volume 8 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T10:28:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "RE: Resources to support your research",
+      "from": "Sage Author Support <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T04:28:31.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "\"박상민\" <grotyx@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T06:03:10.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "Aju Bosco <ajubosco@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T06:04:46.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow-up: Invitation to Review for Journal of Health Psychology",
+      "from": "Journal of Health Psychology <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T06:21:54.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T06:33:18.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "To Dr. Muthu - Prof. Rei Ogawa invites you to contribute to his Special Issue “Basic Science and Clinical Perspectives on Scar Formation and Regenerative Healing”",
+      "from": "Thea <Thea@par-journal.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T07:05:23.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T07:51:16.000Z",
+      "reason": "unrelated",
+      "subject": "CA21110 your help is asked",
+      "from": "Corne Baatenburg de Jong <noreply@cost.eu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T07:54:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Access Thieme's Orthopedics and Trauma Surgery Journals through ONOS ",
+      "from": "Thieme India <marketing@news.thieme.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T08:46:37.000Z",
+      "reason": "unrelated",
+      "subject": "GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T09:01:57.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T09:25:19.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "\"Dr Sudhir's Spine Series\" <sudhiraxon@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T09:29:29.000Z",
+      "reason": "unrelated",
+      "subject": "RE: International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: feedback on manuscript",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T10:17:00.000Z",
+      "reason": "unrelated",
+      "subject": "Subject: Re: Publication of ICM on Spinal Infections – Focus Issue in GSJ",
+      "from": "\"S.A. Jonayed\" <dr.jonayed@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T10:30:01.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Rotary project",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T10:33:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Watch the Master in action Dr. Krishna Kiran E @ SPARSH COURSE 2026",
+      "from": "SPARSH COURSE 2026 <sparshconference@250907063.mailchimpapp.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T11:09:08.000Z",
+      "reason": "unrelated",
+      "subject": "⏪ Pre-Read for your upcoming meeting: FISRM BATCH 4 | CLASS : 3 on Thu, Sep 03 2026 @ 05:30PM IST",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-03T02:38:34.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Manuscript JOIO-D-26-01553R1  for review",
@@ -1966,148 +2099,6 @@
       "subject": "Change in Name of Scheme(s)",
       "from": "HDFC MUTUAL FUND <donotreplytoHDFCMF@camsonline.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T07:36:58.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "2026-08-24 07:36:56 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T14:11:49.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record team member confirmation",
-      "from": "PROSPERO Administrator <irss592@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T10:29:04.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4500501 - Reminder for Invitation to Review for JCM",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T12:46:40.000Z",
-      "reason": "unrelated",
-      "subject": "SLCKAD - Submitted",
-      "from": "Denise Di Salvo <ddisalv1@jh.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T08:32:18.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Reg: Follow up-for Manuscript Submission",
-      "from": "Clinical Trial Journal <clinicaltrial.journal@wmjournals.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T04:46:36.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Follow up on review request for JOIO-D-26-01459 - [EMID:10a9342a15d4b51f]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T04:46:43.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01359 - [EMID:7b66102f3e84f704]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T05:31:19.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Invitation: Learn about responsible AI use in our upcoming session. Register now!",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T04:46:37.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Follow up on review request for JOIO-D-26-01228 - [EMID:4d96204316d29f1b]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T04:46:50.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01123 - [EMID:9918650b699e64ac]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "messageId": "19e5e1b536fac80b",
-      "timestamp": "2026-05-25T07:48:03.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Stem Cells Manuscript Publication-Manuscript NO: 117689",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e6f4e088ce0b04",
-      "timestamp": "2026-05-28T15:57:23.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e6825eb69b6594",
-      "timestamp": "2026-05-27T06:36:00.000Z",
-      "reason": "unrelated",
-      "subject": "Proofreading for Manuscript Revision NO. 120531 of World Journal of Experimental Medicine",
-      "from": "\"Hu, Xin-Yue (Baishideng)\" <x.y.hu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e5e3b312e1a3c9",
-      "timestamp": "2026-05-25T08:23:07.000Z",
-      "reason": "unrelated",
-      "subject": "Proofreading for Manuscript Revision NO. 120195 of World Journal of Orthopedics",
-      "from": "\"Qu, Xin-Liang (BPG)\" <x.l.qu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e5e3a03c58b4f5",
-      "timestamp": "2026-05-25T08:21:57.000Z",
-      "reason": "unrelated",
-      "subject": "Proofreading for Manuscript Revision NO. 120195 of World Journal of Orthopedics",
-      "from": "\"Qu, Xin-Liang (Baishideng)\" <x.l.qu@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19e4851e6da06164",
-      "timestamp": "2026-05-21T02:16:26.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da55855fc1b652",
-      "timestamp": "2026-04-19T10:45:05.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [***SPAM***] Re: Proofreading for Manuscript Revision NO. 119301 of World Journal of Orthopedics",
-      "from": "\"m.l.luo@wjgnet.com\" <m.l.luo@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19da3e36f94e3ae8",
-      "timestamp": "2026-04-19T03:57:40.000Z",
-      "reason": "unrelated",
-      "subject": "Proofreading for Manuscript Revision NO. 119301 of World Journal of Orthopedics",
-      "from": "\"Luo, Meng-Liu (Baishideng)\" <m.l.luo@wjgnet.com>",
-      "account": "Sathish Muthu"
-    },
-    {
-      "messageId": "19d28b298518f6e0",
-      "timestamp": "2026-03-26T05:51:11.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Radiology Manuscript Publication-Manuscript NO: 116736",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "Sathish Muthu"
     }
   ]
 }

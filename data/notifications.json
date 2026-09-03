@@ -95,6 +95,30 @@
         "Dhibin"
       ],
       "failed": []
+    },
+    {
+      "key": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj|2026-09-10T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
+      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
+      "due": "2026-09-10T18:29:59.999Z",
+      "at": "2026-09-03T11:38:02.190Z",
+      "to": [
+        "Dhibin"
+      ],
+      "failed": []
+    },
+    {
+      "key": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict|2026-09-17T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
+      "title": "A Patho-mechanical Classification of Proximal Radius Fractures Predicting Associated Injuries and Functional Outcomes​",
+      "due": "2026-09-17T18:29:59.999Z",
+      "at": "2026-09-03T11:38:03.066Z",
+      "to": [
+        "Dhibin"
+      ],
+      "failed": []
     }
   ],
   "issues": {
@@ -143,6 +167,16 @@
       "title": "Amendment 60 days left — Naive baselines outperform Bayesian age-period-cohort forecasts of Gl…",
       "due": "2026-10-29T18:29:59.999Z",
       "closed": true
+    },
+    "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj": {
+      "number": 18,
+      "title": "Amendment 7 days left — Failure to Restore Native Roussouly Sagittal Alignment and Risk of Ad…",
+      "due": "2026-09-10T18:29:59.999Z"
+    },
+    "a-patho-mechanical-classification-of-proximal-radius-fractures-predict": {
+      "number": 19,
+      "title": "Amendment 14 days left — A Patho-mechanical Classification of Proximal Radius Fractures Predic…",
+      "due": "2026-09-17T18:29:59.999Z"
     }
   }
 }

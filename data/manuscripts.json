@@ -1,6 +1,314 @@
 {
-  "generatedAt": "2026-09-03T06:00:00.111Z",
+  "generatedAt": "2026-09-03T11:37:59.466Z",
   "manuscripts": [
+    {
+      "id": "icm-on-spinal-infections",
+      "title": "ICM on Spinal infections",
+      "titleNormalized": "icm on spinal infections",
+      "bucket": "published",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Published",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": "https://journals.sagepub.com/toc/gsja/16/3_suppl",
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-03T08:12:03.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": null,
+          "publicationLink": "https://journals.sagepub.com/toc/gsja/16/3_suppl",
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-03T08:12:03.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The author's contribution to the ICM on Spinal infections focus issue in Global Spine Journal has been published online.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0614cd513a62b8",
+                "messageId": "1a0665365b8f9aa8",
+                "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+                "from": "Muralidharan Venkatesan <muralidharan.spine@gmail.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-03T08:12:03.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "published",
+          "manuscriptNumber": null,
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's contribution to the ICM on Spinal infections focus issue in Global Spine Journal has been published online.",
+          "source": {
+            "threadId": "1a0614cd513a62b8",
+            "messageId": "1a0665365b8f9aa8",
+            "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+            "from": "Muralidharan Venkatesan <muralidharan.spine@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-03T08:12:03.000Z",
+      "updatedAt": "2026-09-03T08:12:03.000Z"
+    },
+    {
+      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
+      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
+      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Indian Spine Journal",
+      "currentManuscriptNumber": "isj_133_26",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-09-10T18:29:59.999Z",
+      "deadlineSource": "stated",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "submittedDate": "2026-08-31T19:16:55.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-31T19:16:55.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05940d25498fc9",
+                "messageId": "1a05940d25498fc9",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-01T03:52:32.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected without external peer review.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05b13b9c60dc6b",
+                "messageId": "1a05b18e86f41700",
+                "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Indian Spine Journal",
+          "manuscriptNumber": "isj_133_26",
+          "submittedDate": "2026-09-02T23:15:05.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-02T23:15:05.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
+              "manuscriptNumber": "isj_133_26",
+              "source": {
+                "threadId": "1a06467994de87f2",
+                "messageId": "1a06467994de87f2",
+                "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
+                "from": "Indian Spine Journal <editor@isjonline.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-03T07:50:00.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The journal returned the manuscript for technical modifications, requesting changes within 7 days.",
+              "manuscriptNumber": "isj_133_26",
+              "source": {
+                "threadId": "1a066265a5be4cab",
+                "messageId": "1a0663f06bbc9b4d",
+                "subject": "Fwd: isj Article not as per instructions: isj_133_26",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-31T19:16:55.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a05940d25498fc9",
+            "messageId": "1a05940d25498fc9",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T03:52:32.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected without external peer review.",
+          "source": {
+            "threadId": "1a05b13b9c60dc6b",
+            "messageId": "1a05b18e86f41700",
+            "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-02T23:15:05.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "isj_133_26",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
+          "source": {
+            "threadId": "1a06467994de87f2",
+            "messageId": "1a06467994de87f2",
+            "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
+            "from": "Indian Spine Journal <editor@isjonline.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-03T07:50:00.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "isj_133_26",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-10T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The journal returned the manuscript for technical modifications, requesting changes within 7 days.",
+          "source": {
+            "threadId": "1a066265a5be4cab",
+            "messageId": "1a0663f06bbc9b4d",
+            "subject": "Fwd: isj Article not as per instructions: isj_133_26",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-31T19:16:55.000Z",
+      "updatedAt": "2026-09-03T07:50:00.000Z"
+    },
+    {
+      "id": "andrology-current-progress-and-clinical-challenges-in-male-health",
+      "title": "Andrology - Current Progress and Clinical Challenges in Male Health",
+      "titleNormalized": "andrology current progress and clinical challenges in male health",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "IntechOpen",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "IntechOpen",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-03T07:14:07.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-03T07:14:07.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The publisher requests payment to proceed with preparing the typeset proof for the author's chapter.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0661e4107f0912",
+                "messageId": "1a0661e4107f0912",
+                "subject": "IntechOpen: Andrology - Current Progress and Clinical Challenges in Male Health",
+                "from": "Maja Bozicevic <maja.b@intechopen.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-03T07:14:07.000Z",
+          "journal": "IntechOpen",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The publisher requests payment to proceed with preparing the typeset proof for the author's chapter.",
+          "source": {
+            "threadId": "1a0661e4107f0912",
+            "messageId": "1a0661e4107f0912",
+            "subject": "IntechOpen: Andrology - Current Progress and Clinical Challenges in Male Health",
+            "from": "Maja Bozicevic <maja.b@intechopen.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-03T07:14:07.000Z",
+      "updatedAt": "2026-09-03T07:14:07.000Z"
+    },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
       "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
@@ -334,82 +642,59 @@
       "deadlineSource": null
     },
     {
-      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
-      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
-      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
-      "bucket": "submissions",
+      "id": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
+      "title": "A Patho-mechanical Classification of Proximal Radius Fractures Predicting Associated Injuries and Functional Outcomes​",
+      "titleNormalized": "a patho mechanical classification of proximal radius fractures predicting associated injuries and functional outcomes",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Indian Spine Journal",
-      "currentManuscriptNumber": "isj_133_26",
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Indian Journal of Orthopaedics",
+      "currentManuscriptNumber": "JOIO-D-26-01625",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-09-17T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
-          "journal": "Asian Spine Journal",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "submittedDate": "2026-08-31T19:16:55.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": "JOIO-D-26-01625",
+          "submittedDate": "2026-08-31T19:45:31.000Z",
+          "outcome": "active",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
             {
-              "timestamp": "2026-08-31T19:16:55.000Z",
+              "timestamp": "2026-08-31T19:45:31.000Z",
               "eventType": "new_submission",
               "revisionRound": null,
-              "note": "The manuscript was successfully submitted and is now under consideration.",
-              "manuscriptNumber": "ASJ-2026-0787",
+              "note": "The manuscript was received and a submission confirmation was sent.",
+              "manuscriptNumber": "JOIO-D-26-01625",
               "source": {
-                "threadId": "1a05940d25498fc9",
-                "messageId": "1a05940d25498fc9",
-                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+                "threadId": "1a0595b002fbf5ca",
+                "messageId": "1a0595b002fbf5ca",
+                "subject": "Submission Confirmation",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>"
               }
             },
             {
-              "timestamp": "2026-09-01T03:52:32.000Z",
-              "eventType": "rejected",
+              "timestamp": "2026-09-03T04:49:48.000Z",
+              "eventType": "sent_back",
               "revisionRound": null,
-              "note": "The manuscript was rejected without external peer review.",
-              "manuscriptNumber": "ASJ-2026-0787",
+              "note": "The editorial office informed the author that the manuscript submission is incomplete and must be completed within 14 days.",
+              "manuscriptNumber": null,
               "source": {
-                "threadId": "1a05b13b9c60dc6b",
-                "messageId": "1a05b18e86f41700",
-                "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Indian Spine Journal",
-          "manuscriptNumber": "isj_133_26",
-          "submittedDate": "2026-09-02T23:15:05.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-02T23:15:05.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
-              "manuscriptNumber": "isj_133_26",
-              "source": {
-                "threadId": "1a06467994de87f2",
-                "messageId": "1a06467994de87f2",
-                "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
-                "from": "Indian Spine Journal <editor@isjonline.com>"
+                "threadId": "1a0659a18e3d2647",
+                "messageId": "1a0659a18e3d2647",
+                "subject": "JOIO Incomplete Submission - [EMID:c1b5657a86504f31]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>"
               }
             }
           ]
@@ -417,59 +702,173 @@
       ],
       "timeline": [
         {
-          "timestamp": "2026-08-31T19:16:55.000Z",
-          "journal": "Asian Spine Journal",
+          "timestamp": "2026-08-31T19:45:31.000Z",
+          "journal": "Indian Journal of Orthopaedics",
           "eventType": "new_submission",
-          "manuscriptNumber": "ASJ-2026-0787",
+          "manuscriptNumber": "JOIO-D-26-01625",
           "label": "Submitted",
           "revisionRound": null,
           "deadline": null,
-          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "note": "The manuscript was received and a submission confirmation was sent.",
           "source": {
-            "threadId": "1a05940d25498fc9",
-            "messageId": "1a05940d25498fc9",
-            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+            "threadId": "1a0595b002fbf5ca",
+            "messageId": "1a0595b002fbf5ca",
+            "subject": "Submission Confirmation",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>"
           },
           "needsReview": false
         },
         {
-          "timestamp": "2026-09-01T03:52:32.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "rejected",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "label": "Rejected",
+          "timestamp": "2026-09-03T04:49:48.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
           "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was rejected without external peer review.",
-          "source": {
-            "threadId": "1a05b13b9c60dc6b",
-            "messageId": "1a05b18e86f41700",
-            "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          "deadline": {
+            "due": "2026-09-17T18:29:59.999Z",
+            "source": "stated",
+            "basis": "14 days from the email"
           },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-02T23:15:05.000Z",
-          "journal": "Indian Spine Journal",
-          "eventType": "new_submission",
-          "manuscriptNumber": "isj_133_26",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
+          "note": "The editorial office informed the author that the manuscript submission is incomplete and must be completed within 14 days.",
           "source": {
-            "threadId": "1a06467994de87f2",
-            "messageId": "1a06467994de87f2",
-            "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
-            "from": "Indian Spine Journal <editor@isjonline.com>"
+            "threadId": "1a0659a18e3d2647",
+            "messageId": "1a0659a18e3d2647",
+            "subject": "JOIO Incomplete Submission - [EMID:c1b5657a86504f31]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>"
           },
           "needsReview": false
         }
       ],
-      "createdAt": "2026-08-31T19:16:55.000Z",
-      "updatedAt": "2026-09-02T23:15:05.000Z"
+      "createdAt": "2026-08-31T19:45:31.000Z",
+      "updatedAt": "2026-09-03T04:49:48.000Z"
+    },
+    {
+      "id": "interleukin-6-and-tumour-necrosis-factor-alpha-in-osteoimmunology-agin",
+      "title": "Interleukin-6 and tumour necrosis factor-alpha in osteoimmunology: Aging, and anti-cytokine therapies",
+      "titleNormalized": "interleukin 6 and tumour necrosis factor alpha in osteoimmunology aging and anti cytokine therapies",
+      "bucket": "published",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Translational Medicine",
+      "currentManuscriptNumber": "122119",
+      "currentStatus": "Published",
+      "doi": null,
+      "publicationLink": "http://www.f6publishing.com",
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Translational Medicine",
+          "manuscriptNumber": "122119",
+          "submittedDate": "2026-08-18T09:30:37.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": null,
+          "publicationLink": "http://www.f6publishing.com",
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-18T09:30:37.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Accepted for publication with the article processing charge fully waived.",
+              "manuscriptNumber": "122119",
+              "source": {
+                "threadId": "1a014359a0a62e65",
+                "messageId": "1a014359a0a62e65",
+                "subject": "Acceptance of Manuscript No: 122119 for Publication in World Journal of Translational Medicine",
+                "from": "BPG Publication Fee <publicationfee@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-18T09:50:03.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "DOI registered with Crossref; online as an Article in Press pending publication.",
+              "manuscriptNumber": "122119",
+              "source": {
+                "threadId": "1a01447463ac03c9",
+                "messageId": "1a01447463ac03c9",
+                "subject": "Manuscript No. 122119 – DOI Registered via Crossref Pending Publication and Available as Article in Press",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-09-03T02:08:50.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The manuscript has been published online, and the author is asked to complete an evaluation survey within one week.",
+              "manuscriptNumber": "122119",
+              "source": {
+                "threadId": "1a06506bec90a3b1",
+                "messageId": "1a06506bec90a3b1",
+                "subject": "World Journal of Translational Medicine Manuscript Publication-Manuscript NO: 122119",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-18T09:30:37.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "Accepted for publication with the article processing charge fully waived.",
+          "source": {
+            "threadId": "1a014359a0a62e65",
+            "messageId": "1a014359a0a62e65",
+            "subject": "Acceptance of Manuscript No: 122119 for Publication in World Journal of Translational Medicine",
+            "from": "BPG Publication Fee <publicationfee@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-18T09:50:03.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "accepted",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "note": "DOI registered with Crossref; online as an Article in Press pending publication.",
+          "source": {
+            "threadId": "1a01447463ac03c9",
+            "messageId": "1a01447463ac03c9",
+            "subject": "Manuscript No. 122119 – DOI Registered via Crossref Pending Publication and Available as Article in Press",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-03T02:08:50.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "published",
+          "manuscriptNumber": "122119",
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been published online, and the author is asked to complete an evaluation survey within one week.",
+          "source": {
+            "threadId": "1a06506bec90a3b1",
+            "messageId": "1a06506bec90a3b1",
+            "subject": "World Journal of Translational Medicine Manuscript Publication-Manuscript NO: 122119",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-18T09:30:37.000Z",
+      "updatedAt": "2026-09-03T02:08:50.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
@@ -1575,73 +1974,6 @@
       ],
       "createdAt": "2026-08-29T13:42:59.000Z",
       "updatedAt": "2026-09-01T02:19:01.000Z"
-    },
-    {
-      "id": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
-      "title": "A Patho-mechanical Classification of Proximal Radius Fractures Predicting Associated Injuries and Functional Outcomes​",
-      "titleNormalized": "a patho mechanical classification of proximal radius fractures predicting associated injuries and functional outcomes",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": "JOIO-D-26-01625",
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Indian Journal of Orthopaedics",
-          "manuscriptNumber": "JOIO-D-26-01625",
-          "submittedDate": "2026-08-31T19:45:31.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-31T19:45:31.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was received and a submission confirmation was sent.",
-              "manuscriptNumber": "JOIO-D-26-01625",
-              "source": {
-                "threadId": "1a0595b002fbf5ca",
-                "messageId": "1a0595b002fbf5ca",
-                "subject": "Submission Confirmation",
-                "from": "JOIO Editorial Office <em@editorialmanager.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-31T19:45:31.000Z",
-          "journal": "Indian Journal of Orthopaedics",
-          "eventType": "new_submission",
-          "manuscriptNumber": "JOIO-D-26-01625",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was received and a submission confirmation was sent.",
-          "source": {
-            "threadId": "1a0595b002fbf5ca",
-            "messageId": "1a0595b002fbf5ca",
-            "subject": "Submission Confirmation",
-            "from": "JOIO Editorial Office <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-31T19:45:31.000Z",
-      "updatedAt": "2026-08-31T19:45:31.000Z"
     },
     {
       "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
@@ -7787,101 +8119,6 @@
       ],
       "createdAt": "2026-08-17T11:01:11.000Z",
       "updatedAt": "2026-08-18T10:36:35.000Z"
-    },
-    {
-      "id": "interleukin-6-and-tumour-necrosis-factor-alpha-in-osteoimmunology-agin",
-      "title": "Interleukin-6 and tumour necrosis factor-alpha in osteoimmunology: Aging, and anti-cytokine therapies",
-      "titleNormalized": "interleukin 6 and tumour necrosis factor alpha in osteoimmunology aging and anti cytokine therapies",
-      "bucket": "in_review",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "World Journal of Translational Medicine",
-      "currentManuscriptNumber": "122119",
-      "currentStatus": "Accepted (awaiting publication)",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "World Journal of Translational Medicine",
-          "manuscriptNumber": "122119",
-          "submittedDate": "2026-08-18T09:30:37.000Z",
-          "outcome": "active",
-          "status": "accepted",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-18T09:30:37.000Z",
-              "eventType": "accepted",
-              "revisionRound": null,
-              "note": "Accepted for publication with the article processing charge fully waived.",
-              "manuscriptNumber": "122119",
-              "source": {
-                "threadId": "1a014359a0a62e65",
-                "messageId": "1a014359a0a62e65",
-                "subject": "Acceptance of Manuscript No: 122119 for Publication in World Journal of Translational Medicine",
-                "from": "BPG Publication Fee <publicationfee@wjgnet.com>",
-                "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-08-18T09:50:03.000Z",
-              "eventType": "accepted",
-              "revisionRound": null,
-              "note": "DOI registered with Crossref; online as an Article in Press pending publication.",
-              "manuscriptNumber": "122119",
-              "source": {
-                "threadId": "1a01447463ac03c9",
-                "messageId": "1a01447463ac03c9",
-                "subject": "Manuscript No. 122119 – DOI Registered via Crossref Pending Publication and Available as Article in Press",
-                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-18T09:30:37.000Z",
-          "journal": "World Journal of Translational Medicine",
-          "eventType": "accepted",
-          "label": "Accepted (awaiting publication)",
-          "revisionRound": null,
-          "note": "Accepted for publication with the article processing charge fully waived.",
-          "source": {
-            "threadId": "1a014359a0a62e65",
-            "messageId": "1a014359a0a62e65",
-            "subject": "Acceptance of Manuscript No: 122119 for Publication in World Journal of Translational Medicine",
-            "from": "BPG Publication Fee <publicationfee@wjgnet.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-18T09:50:03.000Z",
-          "journal": "World Journal of Translational Medicine",
-          "eventType": "accepted",
-          "label": "Accepted (awaiting publication)",
-          "revisionRound": null,
-          "note": "DOI registered with Crossref; online as an Article in Press pending publication.",
-          "source": {
-            "threadId": "1a01447463ac03c9",
-            "messageId": "1a01447463ac03c9",
-            "subject": "Manuscript No. 122119 – DOI Registered via Crossref Pending Publication and Available as Article in Press",
-            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-18T09:30:37.000Z",
-      "updatedAt": "2026-08-18T09:50:03.000Z"
     },
     {
       "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop",
