@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-17T06:32:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Nephrology Contents: Volume 22 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T21:08:59.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: \"High viral load cascade in sub-Saharan Africa countries: people failing...\" Peer review invitation",
+      "from": "\"Academia.edu\" <updates@academia-mail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T22:02:36.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "benjamin ndeleva <benndeleva@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-03T13:00:15.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Why lower-class workers don’t ask for raises",
@@ -2077,27 +2098,6 @@
       "reason": "unrelated",
       "subject": "👤 Someone at Indian Journal of Orthopaedics you may know",
       "from": "LinkedIn <messages-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T17:25:45.000Z",
-      "reason": "unrelated",
-      "subject": "Register Mini-teams: SurgWeek-2 Weekly update",
-      "from": "noreply@surgweek2.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T17:28:45.000Z",
-      "reason": "unrelated",
-      "subject": "Register Mini-teams: SurgWeek-2 Weekly update",
-      "from": "noreply@surgweek2.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T13:55:32.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Manuscript JME-2026-0197-RT - Journal of Medical Economics",
-      "from": "Journal of Medical Economics <onbehalfof@manuscriptcentral.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

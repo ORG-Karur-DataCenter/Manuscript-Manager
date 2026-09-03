@@ -1,6 +1,208 @@
 {
-  "generatedAt": "2026-09-03T19:58:59.286Z",
+  "generatedAt": "2026-09-03T22:47:54.445Z",
   "manuscripts": [
+    {
+      "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
+      "title": "Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
+      "titleNormalized": "substance use as a neglected mental health priority after spinal cord injury sci a systematic review and meta analysis of prevalence psychosocial burden and implications for integrated mental health services",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Topics in Spinal Cord Injury Rehabilitation",
+      "currentManuscriptNumber": "SCIJOURNAL-D-26-00087R1",
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "International Journal of Mental Health Systems",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-19T13:41:31.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-19T13:41:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ee01d8895e033c",
+                "messageId": "19ee01d8895e033c",
+                "subject": "International Journal of Mental Health Systems - Receipt of Manuscript 'Substance use as...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Topics in Spinal Cord Injury Rehabilitation",
+          "manuscriptNumber": "SCIJOURNAL-D-26-00087R1",
+          "submittedDate": "2026-09-01T19:30:34.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-01T19:30:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Topics in Spinal Cord Injury Rehabilitation acknowledged receipt of the submitted manuscript.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a05e73aeaa2aaa0",
+                "messageId": "1a05e73aeaa2aaa0",
+                "subject": "RE: TSCIR / Submission Confirmation",
+                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-02T16:00:33.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and assigned a manuscript number.",
+              "manuscriptNumber": "SCIJOURNAL-D-26-00087",
+              "source": {
+                "threadId": "1a062d9c342291d7",
+                "messageId": "1a062d9c342291d7",
+                "subject": "RE: TSCIR / Manuscript number assigned Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
+                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-02T16:01:34.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The editor requested a revision of the manuscript, due by 30 Sep 2026.",
+              "manuscriptNumber": "SCIJOURNAL-D-26-00087",
+              "source": {
+                "threadId": "1a062dab2aa32067",
+                "messageId": "1a062dab2aa32067",
+                "subject": "RE: TSCIR / Revision Requested",
+                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-03T20:28:38.000Z",
+              "eventType": "new_submission",
+              "revisionRound": 1,
+              "note": "The journal confirmed receipt of the author's revised manuscript.",
+              "manuscriptNumber": "SCIJOURNAL-D-26-00087R1",
+              "source": {
+                "threadId": "1a05e73aeaa2aaa0",
+                "messageId": "1a068f58edc1b7b9",
+                "subject": "RE: TSCIR / Submission Confirmation",
+                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-19T13:41:31.000Z",
+          "journal": "International Journal of Mental Health Systems",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ee01d8895e033c",
+            "messageId": "19ee01d8895e033c",
+            "subject": "International Journal of Mental Health Systems - Receipt of Manuscript 'Substance use as...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T19:30:34.000Z",
+          "journal": "Topics in Spinal Cord Injury Rehabilitation",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Topics in Spinal Cord Injury Rehabilitation acknowledged receipt of the submitted manuscript.",
+          "source": {
+            "threadId": "1a05e73aeaa2aaa0",
+            "messageId": "1a05e73aeaa2aaa0",
+            "subject": "RE: TSCIR / Submission Confirmation",
+            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-02T16:00:33.000Z",
+          "journal": "Topics in Spinal Cord Injury Rehabilitation",
+          "eventType": "new_submission",
+          "manuscriptNumber": "SCIJOURNAL-D-26-00087",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and assigned a manuscript number.",
+          "source": {
+            "threadId": "1a062d9c342291d7",
+            "messageId": "1a062d9c342291d7",
+            "subject": "RE: TSCIR / Manuscript number assigned Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
+            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-02T16:01:34.000Z",
+          "journal": "Topics in Spinal Cord Injury Rehabilitation",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "SCIJOURNAL-D-26-00087",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-30T18:29:59.999Z",
+            "source": "stated",
+            "basis": "30 Sep 2026"
+          },
+          "note": "The editor requested a revision of the manuscript, due by 30 Sep 2026.",
+          "source": {
+            "threadId": "1a062dab2aa32067",
+            "messageId": "1a062dab2aa32067",
+            "subject": "RE: TSCIR / Revision Requested",
+            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-03T20:28:38.000Z",
+          "journal": "Topics in Spinal Cord Injury Rehabilitation",
+          "eventType": "new_submission",
+          "manuscriptNumber": "SCIJOURNAL-D-26-00087R1",
+          "label": "Submitted",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the author's revised manuscript.",
+          "source": {
+            "threadId": "1a05e73aeaa2aaa0",
+            "messageId": "1a068f58edc1b7b9",
+            "subject": "RE: TSCIR / Submission Confirmation",
+            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-06-19T13:41:31.000Z",
+      "updatedAt": "2026-09-03T20:28:38.000Z",
+      "deadline": null,
+      "deadlineSource": null
+    },
     {
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
       "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
@@ -211,7 +413,7 @@
         },
         {
           "journal": "JBJS Open Access",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "JBJSOA-D-26-00306",
           "submittedDate": "2026-09-03T19:52:33.000Z",
           "outcome": "active",
           "status": "new_submission",
@@ -229,6 +431,19 @@
                 "messageId": "1a068d486a67932c",
                 "subject": "Your JBJS Open Access PDF Has Been Built",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-03T20:07:33.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The journal asks the author to verify co‑authorship for the submitted manuscript.",
+              "manuscriptNumber": "JBJSOA-D-26-00306",
+              "source": {
+                "threadId": "1a068e25d205a58b",
+                "messageId": "1a068e25d205a58b",
+                "subject": "Co-authorship confirmation request (JBJSOA-D-26-00306) - [EMID:9719cfae590bf0e0]",
+                "from": "Sathish Muthu <em@editorialmanager.com>"
               }
             }
           ]
@@ -425,10 +640,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-03T20:07:33.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": "JBJSOA-D-26-00306",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal asks the author to verify co‑authorship for the submitted manuscript.",
+          "source": {
+            "threadId": "1a068e25d205a58b",
+            "messageId": "1a068e25d205a58b",
+            "subject": "Co-authorship confirmation request (JBJSOA-D-26-00306) - [EMID:9719cfae590bf0e0]",
+            "from": "Sathish Muthu <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-24T01:59:00.000Z",
-      "updatedAt": "2026-09-03T19:52:33.000Z",
+      "updatedAt": "2026-09-03T20:07:33.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -1718,178 +1950,6 @@
       "updatedAt": "2026-09-03T02:08:50.000Z",
       "deadline": null,
       "deadlineSource": null
-    },
-    {
-      "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
-      "title": "Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
-      "titleNormalized": "substance use as a neglected mental health priority after spinal cord injury sci a systematic review and meta analysis of prevalence psychosocial burden and implications for integrated mental health services",
-      "bucket": "revisions_pending",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision  requested",
-      "currentJournal": "Topics in Spinal Cord Injury Rehabilitation",
-      "currentManuscriptNumber": "SCIJOURNAL-D-26-00087",
-      "currentStatus": "Revision requested",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "International Journal of Mental Health Systems",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-19T13:41:31.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-19T13:41:31.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ee01d8895e033c",
-                "messageId": "19ee01d8895e033c",
-                "subject": "International Journal of Mental Health Systems - Receipt of Manuscript 'Substance use as...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Topics in Spinal Cord Injury Rehabilitation",
-          "manuscriptNumber": "SCIJOURNAL-D-26-00087",
-          "submittedDate": "2026-09-01T19:30:34.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-01T19:30:34.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Topics in Spinal Cord Injury Rehabilitation acknowledged receipt of the submitted manuscript.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a05e73aeaa2aaa0",
-                "messageId": "1a05e73aeaa2aaa0",
-                "subject": "RE: TSCIR / Submission Confirmation",
-                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-02T16:00:33.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was received and assigned a manuscript number.",
-              "manuscriptNumber": "SCIJOURNAL-D-26-00087",
-              "source": {
-                "threadId": "1a062d9c342291d7",
-                "messageId": "1a062d9c342291d7",
-                "subject": "RE: TSCIR / Manuscript number assigned Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
-                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-02T16:01:34.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": null,
-              "note": "The editor requested a revision of the manuscript, due by 30 Sep 2026.",
-              "manuscriptNumber": "SCIJOURNAL-D-26-00087",
-              "source": {
-                "threadId": "1a062dab2aa32067",
-                "messageId": "1a062dab2aa32067",
-                "subject": "RE: TSCIR / Revision Requested",
-                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-06-19T13:41:31.000Z",
-          "journal": "International Journal of Mental Health Systems",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19ee01d8895e033c",
-            "messageId": "19ee01d8895e033c",
-            "subject": "International Journal of Mental Health Systems - Receipt of Manuscript 'Substance use as...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-01T19:30:34.000Z",
-          "journal": "Topics in Spinal Cord Injury Rehabilitation",
-          "eventType": "new_submission",
-          "manuscriptNumber": null,
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Topics in Spinal Cord Injury Rehabilitation acknowledged receipt of the submitted manuscript.",
-          "source": {
-            "threadId": "1a05e73aeaa2aaa0",
-            "messageId": "1a05e73aeaa2aaa0",
-            "subject": "RE: TSCIR / Submission Confirmation",
-            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-02T16:00:33.000Z",
-          "journal": "Topics in Spinal Cord Injury Rehabilitation",
-          "eventType": "new_submission",
-          "manuscriptNumber": "SCIJOURNAL-D-26-00087",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was received and assigned a manuscript number.",
-          "source": {
-            "threadId": "1a062d9c342291d7",
-            "messageId": "1a062d9c342291d7",
-            "subject": "RE: TSCIR / Manuscript number assigned Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
-            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-02T16:01:34.000Z",
-          "journal": "Topics in Spinal Cord Injury Rehabilitation",
-          "eventType": "revision_requested",
-          "manuscriptNumber": "SCIJOURNAL-D-26-00087",
-          "label": "Revision requested",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-30T18:29:59.999Z",
-            "source": "stated",
-            "basis": "30 Sep 2026"
-          },
-          "note": "The editor requested a revision of the manuscript, due by 30 Sep 2026.",
-          "source": {
-            "threadId": "1a062dab2aa32067",
-            "messageId": "1a062dab2aa32067",
-            "subject": "RE: TSCIR / Revision Requested",
-            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-06-19T13:41:31.000Z",
-      "updatedAt": "2026-09-02T16:01:34.000Z",
-      "deadline": "2026-09-30T18:29:59.999Z",
-      "deadlineSource": "stated"
     },
     {
       "id": "validity-and-reliability-of-the-miss-inc-l-invasiveness-classification",
