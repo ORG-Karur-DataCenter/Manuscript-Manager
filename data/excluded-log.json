@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-14T15:38:09.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Gentle Reminder: Invitation to Submit Your Manuscript to APhOT",
+      "from": "Nancy Miller <contact@physiotherapyoccupational.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-15T07:57:37.000Z",
+      "reason": "unrelated",
+      "subject": "What Will You Learn This Autumn at Stanford Online?",
+      "from": "Stanford Online <no-reply@m.send.coursera.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T17:19:57.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "How No Burp Syndrome Went From Mystery to Diagnosis",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T14:58:28.000Z",
+      "reason": "unrelated",
+      "subject": "Validation of the Hierarchical Nature of the AO Spine Primary Infection Classification System  and the Development of an Infection Severity Score",
+      "from": "\"Knowledge Forum T&I\" <olesja.hazenbiller@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T18:34:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Dr. Sathish Muthu HappY Janmastmi toYou and Family - Last 3 Days to Submit Abstract/ Contribution to IOACOn2026",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T19:38:09.000Z",
+      "reason": "unrelated",
+      "subject": "Re: [External] Re: International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: feedback on manuscript",
+      "from": "Andreas Demetriades <andreas.demetriades@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-14T11:02:42.000Z",
       "reason": "unrelated",
       "subject": "Grand Test 20 is live now | Get familiar with the new pattern",
@@ -2057,48 +2099,6 @@
       "subject": "Congratulations Dhibin Vikash, you reached a milestone",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T09:20:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature alert for 27th August 2026",
-      "from": "Nature <alerts@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T11:43:19.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🚨🚨 OpenAI launches ChatGPT ads in India",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T21:05:16.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Spinal Column | SRS Newsletter",
-      "from": "SRS <info@srs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T03:56:57.000Z",
-      "reason": "unrelated",
-      "subject": "Medical Journals (NMC Approved) — Institutional Print Subscription Proposal -- 60 Embase (Elsevier) listed Journals -- Library Connect, Kolkata",
-      "from": "Library Connect <souvik@libraryconnect.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T04:11:50.000Z",
-      "reason": "unrelated",
-      "subject": "A Friendly Reminder: /Curr. Issues Mol. Biol./ (IF=4.1, Q2) With Appreciation for Your Previous Submission",
-      "from": "cimb <cimb@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T04:48:34.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01123 - [EMID:51f7b9bc63e373b0]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
