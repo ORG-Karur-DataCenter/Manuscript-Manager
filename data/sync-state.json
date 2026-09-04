@@ -2793,7 +2793,28 @@
         "1a00b57034978bb8",
         "1a00b560d9ad88f6",
         "1a00aae5b6cd265c",
-        "1a00aab889d43d76"
+        "1a00aab889d43d76",
+        "1a06c222f7ec0188",
+        "1a06c1e11b65dae5",
+        "1a06c03f806095bb",
+        "1a06bf849c3bc654",
+        "1a06b5d1d991cc4e",
+        "1a06aeeb607f0f34",
+        "1a067e93353b0b61",
+        "1a00bf61c6373be5",
+        "1a00aac7241ad508",
+        "1a00aab8811cd45c",
+        "1a00a71daf2ec102",
+        "1a00a1ec968f8746",
+        "1a00a1d79c74c233",
+        "1a008e67da1d939c",
+        "1a004cb67e08325a",
+        "1a0041ece114f06d",
+        "1a003e7a4ba5898f",
+        "1a003cdfedd8885e",
+        "1a0015f137be8274",
+        "1a00137dfe2ee668",
+        "1a00132d287a9fb7"
       ],
       "importedAt": "2026-08-23T12:49:10.227Z",
       "failedAttempts": {
@@ -2802,7 +2823,7 @@
       "holding": true
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-09-03T23:44:10.000Z",
+      "lastSyncedAt": "2026-09-04T11:29:28.417Z",
       "seenIds": [
         "1a00f5a1dbb23ec0",
         "1a00f61ef5fad629",
@@ -10042,7 +10063,27 @@
         "1a06a7189bc4f154",
         "1a06a55b1ce983e6",
         "1a06a20dda14656e",
-        "1a069f3894525944"
+        "1a069f3894525944",
+        "1a06c28e187b2b2c",
+        "1a06c156195ab095",
+        "1a06c11462e2dffe",
+        "1a06bf25ae78a615",
+        "1a06be9077755890",
+        "1a06bca2c460c20b",
+        "1a06bb87df2faa5f",
+        "1a06ba0b11fdde0d",
+        "1a06b909aec9fe82",
+        "1a06b8a23f5734f3",
+        "1a06b89136a60a41",
+        "1a06b847d2d6c851",
+        "1a06b4da9eff98f6",
+        "1a06b4907135ed6f",
+        "1a06b41df30b58ef",
+        "1a06b2b2f4ff3a40",
+        "1a06b287fb0e9660",
+        "1a06b22aa7df7f2c",
+        "1a06b20e967f3cd3",
+        "1a069a8d17ce35d7"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
@@ -10055,7 +10096,7 @@
         "19c5d94258ac2e1d": 1,
         "19c5d62bcf8377b7": 1
       },
-      "holding": true
+      "holding": false
     }
   }
 }

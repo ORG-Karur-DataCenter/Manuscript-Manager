@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T06:13:42.573Z",
+  "generatedAt": "2026-09-04T11:44:59.122Z",
   "manuscripts": [
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
@@ -6817,10 +6817,23 @@
           "manuscriptNumber": "GSJ-26-1643",
           "submittedDate": "2026-08-17T21:37:39.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
+            {
+              "timestamp": "2026-08-15T05:03:47.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Global Spine Journal acknowledged receipt of the newly submitted manuscript.",
+              "manuscriptNumber": "GSJ-26-1643",
+              "source": {
+                "threadId": "1a003cdfedd8885e",
+                "messageId": "1a003cdfedd8885e",
+                "subject": "Global Spine Journal  GSJ-26-1643",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
             {
               "timestamp": "2026-08-17T21:37:39.000Z",
               "eventType": "sent_back",
@@ -6907,6 +6920,23 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-08-15T05:03:47.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-1643",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Global Spine Journal acknowledged receipt of the newly submitted manuscript.",
+          "source": {
+            "threadId": "1a003cdfedd8885e",
+            "messageId": "1a003cdfedd8885e",
+            "subject": "Global Spine Journal  GSJ-26-1643",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-17T21:37:39.000Z",
           "journal": "Global Spine Journal",
@@ -7828,6 +7858,30 @@
         {
           "journal": "Asian Journal of Psychiatry",
           "manuscriptNumber": "ASJP-D-26-02873",
+          "submittedDate": "2026-08-16T12:00:29.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-16T12:00:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal requests the co‑author to confirm authorship for a newly submitted manuscript.",
+              "manuscriptNumber": "ASJP-D-26-02873",
+              "source": {
+                "threadId": "1a00a71daf2ec102",
+                "messageId": "1a00a71daf2ec102",
+                "subject": "Confirm co-authorship of submission to Asian Journal of Psychiatry",
+                "from": "Asian Journal of Psychiatry <em@editorialmanager.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Asian Journal of Psychiatry",
+          "manuscriptNumber": "ASJP-D-26-02873",
           "submittedDate": "2026-08-16T16:09:44.000Z",
           "outcome": "rejected",
           "status": "rejected",
@@ -7975,6 +8029,23 @@
             "subject": "Clinical Psychologist - CPAPS-OA-2026-136 requires some revisions [ref: SE-1-a]",
             "from": "Clinical Psychologist <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-16T12:00:29.000Z",
+          "journal": "Asian Journal of Psychiatry",
+          "eventType": "new_submission",
+          "manuscriptNumber": "ASJP-D-26-02873",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal requests the co‑author to confirm authorship for a newly submitted manuscript.",
+          "source": {
+            "threadId": "1a00a71daf2ec102",
+            "messageId": "1a00a71daf2ec102",
+            "subject": "Confirm co-authorship of submission to Asian Journal of Psychiatry",
+            "from": "Asian Journal of Psychiatry <em@editorialmanager.com>"
           },
           "needsReview": false
         },
@@ -8879,6 +8950,172 @@
       ],
       "createdAt": "2026-08-17T10:52:38.000Z",
       "updatedAt": "2026-08-17T10:52:38.000Z"
+    },
+    {
+      "id": "obstructive-sleep-apnea-and-spine-surgery-implications-for-spinal-path",
+      "title": "Obstructive Sleep Apnea and Spine Surgery: Implications for Spinal Pathology and Perioperative Outcomes — A Systematic Review and Meta-analysis",
+      "titleNormalized": "obstructive sleep apnea and spine surgery implications for spinal pathology and perioperative outcomes a systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-15T09:40:34.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-15T09:40:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Springer Nature confirmed receipt of the new manuscript submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a004cb67e08325a",
+                "messageId": "1a004cb67e08325a",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-15T09:40:34.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Springer Nature confirmed receipt of the new manuscript submission.",
+          "source": {
+            "threadId": "1a004cb67e08325a",
+            "messageId": "1a004cb67e08325a",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-15T09:40:34.000Z",
+      "updatedAt": "2026-08-15T09:40:34.000Z"
+    },
+    {
+      "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
+      "title": "Industry funding and outcome reporting in single-level cervical disc arthroplasty versus anterior cervical discectomy and fusion: a systematic review and meta-analysis of randomized controlled trials with funding- and device-stratified analyses",
+      "titleNormalized": "industry funding and outcome reporting in single level cervical disc arthroplasty versus anterior cervical discectomy and fusion a systematic review and meta analysis of randomized controlled trials with funding and device stratified analyses",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00274",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": "JBJSOA-D-26-00274",
+          "submittedDate": "2026-08-15T05:31:48.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-14T17:00:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The submission PDF has been built in Editorial Manager and requires author review and approval to complete submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a00137dfe2ee668",
+                "messageId": "1a00137dfe2ee668",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-15T05:31:48.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "JBJS Open Access confirmed receipt of the manuscript submission.",
+              "manuscriptNumber": "JBJSOA-D-26-00274",
+              "source": {
+                "threadId": "1a003e7a4ba5898f",
+                "messageId": "1a003e7a4ba5898f",
+                "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00274) - [EMID:a27c9a14e7ab6ca8]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-14T17:00:34.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The submission PDF has been built in Editorial Manager and requires author review and approval to complete submission.",
+          "source": {
+            "threadId": "1a00137dfe2ee668",
+            "messageId": "1a00137dfe2ee668",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-15T05:31:48.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JBJSOA-D-26-00274",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "JBJS Open Access confirmed receipt of the manuscript submission.",
+          "source": {
+            "threadId": "1a003e7a4ba5898f",
+            "messageId": "1a003e7a4ba5898f",
+            "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00274) - [EMID:a27c9a14e7ab6ca8]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-15T05:31:48.000Z",
+      "updatedAt": "2026-08-15T05:31:48.000Z"
     },
     {
       "id": "management-of-meniscal-ramp-lesions-in-acl-deficient-knees-to-repair-o",
