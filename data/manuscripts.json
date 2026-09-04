@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T01:05:59.911Z",
+  "generatedAt": "2026-09-04T06:13:42.573Z",
   "manuscripts": [
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
@@ -7732,7 +7732,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -7820,6 +7821,54 @@
                 "subject": "Clinical Psychologist - CPAPS-OA-2026-136 requires some revisions [ref: SE-1-a]",
                 "from": "Clinical Psychologist <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Asian Journal of Psychiatry",
+          "manuscriptNumber": "ASJP-D-26-02873",
+          "submittedDate": "2026-08-16T16:09:44.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-16T16:09:44.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected due to insufficient scientific significance.",
+              "manuscriptNumber": "ASJP-D-26-02873",
+              "source": {
+                "threadId": "1a00b560d9ad88f6",
+                "messageId": "1a00b560d9ad88f6",
+                "subject": "Fwd: Your Submission ASJP-D-26-02873",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Public Health",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-16T19:19:34.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-16T19:19:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The recipient is asked to confirm co-authorship for a newly submitted manuscript.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a00c03d8f1f95bc",
+                "messageId": "1a00c03d8f1f95bc",
+                "subject": "Please verify your contribution to The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
+                "from": "Public Health <em@editorialmanager.com>"
               }
             }
           ]
@@ -7926,6 +7975,40 @@
             "subject": "Clinical Psychologist - CPAPS-OA-2026-136 requires some revisions [ref: SE-1-a]",
             "from": "Clinical Psychologist <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-16T16:09:44.000Z",
+          "journal": "Asian Journal of Psychiatry",
+          "eventType": "rejected",
+          "manuscriptNumber": "ASJP-D-26-02873",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected due to insufficient scientific significance.",
+          "source": {
+            "threadId": "1a00b560d9ad88f6",
+            "messageId": "1a00b560d9ad88f6",
+            "subject": "Fwd: Your Submission ASJP-D-26-02873",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-16T19:19:34.000Z",
+          "journal": "Public Health",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The recipient is asked to confirm co-authorship for a newly submitted manuscript.",
+          "source": {
+            "threadId": "1a00c03d8f1f95bc",
+            "messageId": "1a00c03d8f1f95bc",
+            "subject": "Please verify your contribution to The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
+            "from": "Public Health <em@editorialmanager.com>"
           },
           "needsReview": false
         },

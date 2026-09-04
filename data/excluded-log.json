@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-16T13:03:29.000Z",
+      "reason": "unrelated",
+      "subject": "Verify your email address",
+      "from": "Identity <no-reply@editorialmanager.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-16T13:06:34.000Z",
+      "reason": "unrelated",
+      "subject": "Editorial Manager Registration",
+      "from": "Asian Journal of Psychiatry <em@editorialmanager.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-16T16:10:47.000Z",
+      "reason": "unrelated",
+      "subject": "Fwd: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T01:55:32.000Z",
+      "reason": "unrelated",
+      "subject": "Re: avaisor Research on Use Case - Situation B, Next steps before Phase 2",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T02:49:13.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 127660 for World Journal of Neurology (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T03:23:40.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Submit your manuscript to Neurology® Education",
+      "from": "\"Neurology® Education\" <lww@sci.scientific-direct.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T04:05:35.000Z",
+      "reason": "unrelated",
+      "subject": "In case you missed this",
+      "from": "Emergent <crew@hey.emergent.sh>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T04:07:46.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "Siddharth Aiyer <aiyer.siddharth@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T04:51:40.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01553R1 - [EMID:2ca5f5fed1134d57]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-17T06:05:12.000Z",
       "reason": "unrelated",
       "subject": "Interested in your research: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review",
@@ -2035,69 +2098,6 @@
       "reason": "unrelated",
       "subject": "Dennis Bardoe recommended this article",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T05:17:09.000Z",
-      "reason": "unrelated",
-      "subject": "[ORCID] Sathish Muthu you have new notifications",
-      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T08:15:18.000Z",
-      "reason": "unrelated",
-      "subject": "Funds / Securities Balance",
-      "from": "BSE ALERTS <info@bseindia.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T00:07:22.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "GLP-1 Patient With a Belching Problem? Singing May Help",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T04:23:07.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T04:23:07.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T04:50:48.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:d7158e4564310abf]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T06:40:50.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "[Bioengineering] (IF 4.4, CiteScore 7.5) Congratulations on Your Publication – Join BIOENG 2026",
-      "from": "Bioengineering Editorial Office <bioengineering@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T02:09:10.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Science Progress",
-      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T21:42:08.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "SICOT-J CALL FOR APPLICATIONS - Two Co-Editors-in-Chief",
-      "from": "SICOT <president@sicot.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
