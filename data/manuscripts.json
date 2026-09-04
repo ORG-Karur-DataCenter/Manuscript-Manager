@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T11:44:59.122Z",
+  "generatedAt": "2026-09-04T16:34:48.038Z",
   "manuscripts": [
     {
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
@@ -9063,6 +9063,19 @@
               }
             },
             {
+              "timestamp": "2026-08-14T17:10:39.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The journal built a PDF of the author's submission and requests approval before final submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a00137dfe2ee668",
+                "messageId": "1a001411b6a569a2",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
               "timestamp": "2026-08-15T05:31:48.000Z",
               "eventType": "new_submission",
               "revisionRound": null,
@@ -9091,6 +9104,23 @@
           "source": {
             "threadId": "1a00137dfe2ee668",
             "messageId": "1a00137dfe2ee668",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-14T17:10:39.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": null,
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal built a PDF of the author's submission and requests approval before final submission.",
+          "source": {
+            "threadId": "1a00137dfe2ee668",
+            "messageId": "1a001411b6a569a2",
             "subject": "Your JBJS Open Access PDF Has Been Built",
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },

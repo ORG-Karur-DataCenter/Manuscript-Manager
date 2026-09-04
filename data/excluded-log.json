@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-14T11:02:42.000Z",
+      "reason": "unrelated",
+      "subject": "Grand Test 20 is live now | Get familiar with the new pattern",
+      "from": "Team Marrow <noreply@marrowmed.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-14T13:02:15.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Mapping the brain’s language network",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-03T21:25:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Image, analyze, and fabricate at the nanoscale: Advances in SEM and FIB SEM  for quantum materials research",
+      "from": "Physics Today Webinars <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T13:02:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Boosting clean hydrogen production",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T13:49:27.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Manuscript UIVS-2026-0256 - Journal of Investigative Surgery",
+      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T14:06:31.000Z",
+      "reason": "unrelated",
+      "subject": "RE: [External] Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T14:19:56.000Z",
+      "reason": "unrelated",
+      "subject": "RE: [External] Re: International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: feedback on manuscript",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T15:24:23.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Is this article of interest to you (ID 1962267)?",
+      "from": "\"Orestis Ioannidis (Via FrontiersIn)\" <noreply@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T15:59:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "A new conference season and resources for you.",
+      "from": "The Keystone Symposia Team <marketing@keystonesymposia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-14T16:55:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Considering publishing your work as a book?",
@@ -2036,69 +2099,6 @@
       "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01123 - [EMID:51f7b9bc63e373b0]",
       "from": "JOIO Editorial Office <em@editorialmanager.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T05:35:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Hi Dr. Muthu, Sathish: Please Have a Quick Look Inside!!",
-      "from": "\"Adv. Materials Science 2027\" <adv.materialsscience@researchroadway.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T05:48:21.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Don’t Miss Our Latest Articles in The Surgery Journal ",
-      "from": "Thieme India <marketing@news.thieme.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T07:31:35.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Follow-up: Invitation to Review Manuscript JME-2026-0197-RT - for Journal of Medical Economics",
-      "from": "Journal of Medical Economics <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T07:56:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "European Spine Journal - ToC Alert",
-      "from": "Springer Alert <tocalert@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T12:30:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Surgical Insights: The unstable total hip arthroplasty",
-      "from": "AO Recon <aorecon@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T12:43:11.000Z",
-      "reason": "unrelated",
-      "subject": "NSF Is Set to Award 30% Fewer New Grants—What Does That Mean for Researchers?",
-      "from": "LetPub <Research.communication@letpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T13:58:38.000Z",
-      "reason": "unrelated",
-      "subject": "E-Sign submitted successfully for Healthcare Professional",
-      "from": "noreply.abdm@nha.gov.in",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T03:15:20.000Z",
-      "reason": "unrelated",
-      "subject": "EUROPEAN SPINE JOURNAL: What researchers love—and where they struggle with journals like yours",
-      "from": "Peeref <info@peerefmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T04:11:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Hi Dr. Ponnusamy Dhibin Vikash Kolarpatti-- We Value Your Expertise!! \n\n",
-      "from": "\"Adv. Materials Science 2027\" <adv.materialsscience@researchroadway.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
