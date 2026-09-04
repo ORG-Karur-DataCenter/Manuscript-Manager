@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-13T09:14:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 13th August 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-13T13:03:27.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Unpacking peptide science",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-13T14:06:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the August issue today",
+      "from": "Physics Today <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-14T06:32:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Aging Contents: Volume 6 Number 8",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-14T10:52:15.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Is survival in primary spinal osteosarcoma determi | World Nursing 2027 in Barcelona",
+      "from": "mary.jane@mail.nursing-world.org",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T20:49:05.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-14T15:38:09.000Z",
       "reason": "predatory_solicitation",
       "subject": "Gentle Reminder: Invitation to Submit Your Manuscript to APhOT",
@@ -2057,48 +2099,6 @@
       "subject": "IntechOpen - CPC Final Notice",
       "from": "Payments <payments@info.intechopen.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-22T07:38:03.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Gentle Reminder: Invitation to Submit Your Manuscript to APhOT",
-      "from": "Nancy Miller <contact@physiotherapyoccupational.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-23T11:30:37.000Z",
-      "reason": "unrelated",
-      "subject": "Status Update Request – Manuscript CSS-26-379",
-      "from": "\"Dr. DHIBIN VIKASH K P\" <dhibinvikash@outlook.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-23T11:31:52.000Z",
-      "reason": "unrelated",
-      "subject": "Follow-up on Manuscript Status – CSS-26-300",
-      "from": "\"Dr. DHIBIN VIKASH K P\" <dhibinvikash@outlook.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T05:02:14.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Invitation to Submit Your Dermatology Research",
-      "from": "<dermatology@medwinjournal.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T17:38:49.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Call for Paper: Surgery",
-      "from": "Mary Cynthia <contact@surgeryglobalhub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T11:38:21.000Z",
-      "reason": "unrelated",
-      "subject": "Congratulations Dhibin Vikash, you reached a milestone",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }

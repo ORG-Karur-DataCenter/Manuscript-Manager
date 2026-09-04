@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T19:43:59.965Z",
+  "generatedAt": "2026-09-04T22:28:59.519Z",
   "manuscripts": [
     {
       "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
@@ -3544,6 +3544,19 @@
           "publicationLink": null,
           "statusHistory": [
             {
+              "timestamp": "2026-08-13T14:50:43.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "19ffb9aa0640051c",
+                "messageId": "19ffb9aa0640051c",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:2981e7e7ecdd0c7d]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
               "timestamp": "2026-08-21T14:18:36.000Z",
               "eventType": "sent_back",
               "revisionRound": null,
@@ -3612,6 +3625,27 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-08-13T14:50:43.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-08-20T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+          "source": {
+            "threadId": "19ffb9aa0640051c",
+            "messageId": "19ffb9aa0640051c",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:2981e7e7ecdd0c7d]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-21T14:18:36.000Z",
           "journal": "JBJS Open Access",
@@ -9131,6 +9165,30 @@
       ],
       "submissions": [
         {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": "3ae32099-d266-42b9-9aa1-e212e417785b v1.0",
+          "submittedDate": "2026-08-14T07:22:26.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-14T07:22:26.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check, requesting the author to make amendments within 2 days before resubmission.",
+              "manuscriptNumber": "3ae32099-d266-42b9-9aa1-e212e417785b v1.0",
+              "source": {
+                "threadId": "19fff2693d506215",
+                "messageId": "19fff2693d506215",
+                "subject": "Fwd: European Spine Journal-Amendment required",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            }
+          ]
+        },
+        {
           "journal": "Springer Nature",
           "manuscriptNumber": null,
           "submittedDate": "2026-08-15T09:40:34.000Z",
@@ -9156,6 +9214,27 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-08-14T07:22:26.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "3ae32099-d266-42b9-9aa1-e212e417785b v1.0",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-08-16T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check, requesting the author to make amendments within 2 days before resubmission.",
+          "source": {
+            "threadId": "19fff2693d506215",
+            "messageId": "19fff2693d506215",
+            "subject": "Fwd: European Spine Journal-Amendment required",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-15T09:40:34.000Z",
           "journal": "Springer Nature",
