@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T01:07:59.845Z",
+  "generatedAt": "2026-09-05T05:56:45.257Z",
   "manuscripts": [
     {
       "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
@@ -3536,13 +3536,26 @@
       "submissions": [
         {
           "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "manuscriptNumber": "JBJSOA-D-26-00231",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
+            {
+              "timestamp": "2026-08-11T15:41:32.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The editors requested a revised manuscript with a deadline of Sep 01 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00231",
+              "source": {
+                "threadId": "19ff17c6f85bd9ea",
+                "messageId": "19ff17c6f85bd9ea",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231) - [EMID:2f969b6068e2b3e4]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
             {
               "timestamp": "2026-08-12T17:10:32.000Z",
               "eventType": "new_submission",
@@ -3553,6 +3566,19 @@
                 "threadId": "19ff6dab146dd539",
                 "messageId": "19ff6f44733e901d",
                 "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-12T17:43:32.000Z",
+              "eventType": "under_review",
+              "revisionRound": 1,
+              "note": "The journal confirmed receipt of the author's revised manuscript.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "19ff7127d1cbe7f8",
+                "messageId": "19ff7127d1cbe7f8",
+                "subject": "JBJS Open Access Resubmission Confirmation",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             },
@@ -3639,6 +3665,27 @@
       ],
       "timeline": [
         {
+          "timestamp": "2026-08-11T15:41:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00231",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-09-01T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Sep 01 2026 11:59PM"
+          },
+          "note": "The editors requested a revised manuscript with a deadline of Sep 01 2026.",
+          "source": {
+            "threadId": "19ff17c6f85bd9ea",
+            "messageId": "19ff17c6f85bd9ea",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231) - [EMID:2f969b6068e2b3e4]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
           "timestamp": "2026-08-12T17:10:32.000Z",
           "journal": "JBJS Open Access",
           "eventType": "new_submission",
@@ -3651,6 +3698,23 @@
             "threadId": "19ff6dab146dd539",
             "messageId": "19ff6f44733e901d",
             "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-12T17:43:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Under review",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the author's revised manuscript.",
+          "source": {
+            "threadId": "19ff7127d1cbe7f8",
+            "messageId": "19ff7127d1cbe7f8",
+            "subject": "JBJS Open Access Resubmission Confirmation",
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
@@ -5627,15 +5691,16 @@
       "doi": "10.1007/s00586-026-10091-3",
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
           "journal": "European Spine Journal",
           "manuscriptNumber": "41d7c415-214d-4bea-b15b-e4e6929bc794",
           "submittedDate": "2026-03-29T15:28:37.000Z",
-          "outcome": "active",
-          "status": "accepted",
+          "outcome": "published",
+          "status": "published",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -5665,6 +5730,19 @@
                 "subject": "European Spine Journal: Decision on your manuscript",
                 "from": "European Spine Journal <kavinaya.palraj@springernature.com>",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-08-12T02:04:57.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The author is offered the option to order reprints of their already published article.",
+              "manuscriptNumber": "41d7c415-214d-4bea-b15b-e4e6929bc794",
+              "source": {
+                "threadId": "19ff3b730cd0522f",
+                "messageId": "19ff3b730cd0522f",
+                "subject": "Springer Nature reprint offer for your article",
+                "from": "no-reply@email.copyright.com"
               }
             },
             {
@@ -5844,6 +5922,23 @@
             "subject": "Sharing Information for \"The enigma of culture-negative spondylodiscitis: comparable outcomes despite diagnostic uncertainty – a systematic review and meta-analysis\"",
             "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>",
             "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-12T02:04:57.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "published",
+          "manuscriptNumber": "41d7c415-214d-4bea-b15b-e4e6929bc794",
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is offered the option to order reprints of their already published article.",
+          "source": {
+            "threadId": "19ff3b730cd0522f",
+            "messageId": "19ff3b730cd0522f",
+            "subject": "Springer Nature reprint offer for your article",
+            "from": "no-reply@email.copyright.com"
           },
           "needsReview": false
         },

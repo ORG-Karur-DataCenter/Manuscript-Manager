@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-11T17:10:04.000Z",
+      "reason": "unrelated",
+      "subject": "It took 30 years to write this textbook",
+      "from": "Steven Kotler <sk@stevenkotler.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-12T00:08:09.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Calcium Scores May Refine Statin Decisions",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-12T14:23:42.000Z",
+      "reason": "unrelated",
+      "subject": "IIT Madras BS in Data Science Programme shared a post: JEE Didn’t Go as…",
+      "from": "LinkedIn <notifications-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-12T15:13:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🧬 Your AI documents have DNA now",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-12T17:06:54.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Looking to publish your research?",
+      "from": "Journal of Ambient Intelligence and Smart Environments <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T02:00:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "APPLY & LEARN with ESSKA!",
+      "from": "ESSKA Educational Newsletter <academy@esska.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T04:38:32.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation Reminder - Review of Manuscript:  8696 Comparative clinical outcomes after intra-articular injection with adipose-Derived stromal vascular fraction versus Hyaluronic acid for the knee joint OA, a retrospective cohort study",
+      "from": "SQU Med J Oman <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-13T06:36:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Reviews Microbiology Contents: Volume 24 Number 9",
@@ -2049,55 +2098,6 @@
       "reason": "unrelated",
       "subject": "International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: Final Review and Conflict of Interest Forms",
       "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-20T04:22:52.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to review manuscript EM-2026-00097---Exploration of Medicine",
-      "from": "OEP editor-Bambi <bambi@explorationpub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-21T01:42:38.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Request to Share Your Valuable Research Paper",
-      "from": "\"JSUR 21.08.2026\" <contact@paperexplorereviews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-22T00:44:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dear Kolarpatti Ponnusamy D.V.: You Are Invited to Submit Papers/Abstracts to International Conferences (December 2026)",
-      "from": "Wang Fang <Wang.Fang@intcm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-23T11:32:56.000Z",
-      "reason": "unrelated",
-      "subject": "Urgent Status Inquiry – Manuscript CSS-26-253",
-      "from": "\"Dr. DHIBIN VIKASH K P\" <dhibinvikash@outlook.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T18:06:08.000Z",
-      "reason": "unrelated",
-      "subject": "How Did You Learn To Think Like That?",
-      "from": "Steven Kotler <sk@stevenkotler.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T11:13:17.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Paraplegic Center, Hayatabad, Peshawar, Khyber PakhtunKhwa, Pakistan.",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T14:06:05.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Structural Gains Without Symptomatic Benefit After Microfracture During High Tibial Osteotomy",
-      "from": "ISAKOS Digital Digest <ISAKOS@multibriefs.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
