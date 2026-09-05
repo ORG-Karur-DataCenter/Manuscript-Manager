@@ -131,6 +131,36 @@
         "Dhibin"
       ],
       "failed": []
+    },
+    {
+      "key": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di|2026-08-13T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
+      "at": "2026-09-05T10:57:48.685Z"
+    },
+    {
+      "key": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di|2026-08-13T18:29:59.999Z|t-1",
+      "kind": "superseded",
+      "manuscriptId": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
+      "at": "2026-09-05T10:57:48.685Z"
+    },
+    {
+      "key": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di|2026-08-13T18:29:59.999Z|overdue",
+      "kind": "superseded",
+      "manuscriptId": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
+      "at": "2026-09-05T10:57:48.685Z"
+    },
+    {
+      "key": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di|2026-08-13T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
+      "title": "Should spinal Ewing's sarcoma be managed differently from extremity disease? A systematic review of outcomes and treatment limitations",
+      "due": "2026-08-13T18:29:59.999Z",
+      "at": "2026-09-05T10:57:48.685Z",
+      "to": [
+        "Dhibin"
+      ],
+      "failed": []
     }
   ],
   "issues": {
@@ -189,6 +219,11 @@
       "number": 19,
       "title": "Amendment 12 days left — A Patho-mechanical Classification of Proximal Radius Fractures Predic…",
       "due": "2026-09-17T18:29:59.999Z"
+    },
+    "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di": {
+      "number": 20,
+      "title": "Amendment 23 days overdue — Should spinal Ewing's sarcoma be managed differently from extremity d…",
+      "due": "2026-08-13T18:29:59.999Z"
     }
   }
 }

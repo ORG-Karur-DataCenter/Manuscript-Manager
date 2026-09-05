@@ -1,6 +1,132 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-07T15:16:08.000Z",
+      "reason": "unrelated",
+      "subject": "Dr. Bibhuti Parida - Assistant Professor of Physics reacted to this post: Happy to join WPI, Hiroshima…",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-07T17:22:41.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "To Beat Cigarette Addiction, Experts Embrace Vapes",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-08T06:34:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Heredity Contents: Volume 135 Number 7",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-08T06:40:40.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation to Submit Your Dermatology Research: CDOAJ",
+      "from": "Andrea Leslie <contact@clinicaldermatologypublishers.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-08T09:58:12.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Manuscript Consideration for Physiotherapy",
+      "from": "Nancy Miller <contact@physiotherapyoccupational.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-10T09:54:18.000Z",
+      "reason": "unrelated",
+      "subject": "Fwd:",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-10T13:02:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AI-designed virus could point to new antibiotics",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-10T14:10:18.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The week in physics: Dissecting the decline in physics bachelor’s degrees",
+      "from": "Physics Today <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-11T06:34:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Cell Biology Contents: Volume 28 Number 8",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-11T10:20:52.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Naveen Jeyaraman published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-11T13:00:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "A surprising way to measure hurricanes",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-11T21:07:47.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Seeing the Whole Picture: 3D X-ray Imaging of Engineering Materials, Micro to Macro",
+      "from": "Physics Today Webinars <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-12T13:02:11.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AI’s age and wealth divide",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T06:32:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Heredity Contents: Volume 135 Number 8",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T06:38:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cell Death & Differentiation Contents: Volume 33 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T07:34:11.000Z",
+      "reason": "unrelated",
+      "subject": "Fwd: Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T07:21:45.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T07:34:11.000Z",
+      "reason": "unrelated",
+      "subject": "Fwd: Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-11T17:10:04.000Z",
       "reason": "unrelated",
       "subject": "It took 30 years to write this textbook",
@@ -1973,132 +2099,6 @@
       "subject": "Naveen Jeyaraman published an article",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T10:46:22.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Science Needs A Better Way To Think About The Future",
-      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T18:04:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New AJSM Webinar on September 30th",
-      "from": "\"Sage & AOSSM\" <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-26T13:03:47.000Z",
-      "reason": "unrelated",
-      "subject": "Stanford’s new football coach on service and leadership",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T03:58:57.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
-      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T13:00:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Scientists are on the hunt for dark matter",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T15:34:39.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New therapies in neurology  | Ready to publish?",
-      "from": "Therapeutic Advances in Neurological Disorders <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T17:06:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Explore featured research on orthopedics",
-      "from": "Journal of International Medical Research <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T08:30:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Best Examples Of Digital Health For Patients With Intellectual Disability",
-      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T13:00:37.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Compounded GLP-1s explained",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T14:30:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "NVIDIA spent more than $12.9 billion in one week",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T10:03:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Bariatric surgery & arthroplasty.",
-      "from": "OrthoEvidence <info@myorthoevidence.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T21:38:20.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clinical Spine Surgery Decision CSS-25-259R1",
-      "from": "Amit Jain <amitjain012@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T00:31:30.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO-D-25-00892R2 - New manuscript received",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T00:40:32.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO-D-26-01566 - New manuscript received",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T02:30:08.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The August ESSKA Times - all the latest ESSKA news in your monthly newsletter!",
-      "from": "ESSKA Times <info@esska.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T03:02:41.000Z",
-      "reason": "unrelated",
-      "subject": "Delivery Status Notification (Failure)",
-      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T13:21:08.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the latest  Spine - Vol. 51, No. 18, September 15, 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T14:36:35.000Z",
-      "reason": "unrelated",
-      "subject": "International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: Final Review and Conflict of Interest Forms",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
