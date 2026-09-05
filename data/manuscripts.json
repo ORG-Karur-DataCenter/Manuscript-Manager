@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T22:28:59.519Z",
+  "generatedAt": "2026-09-05T01:07:59.845Z",
   "manuscripts": [
     {
       "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
@@ -3539,10 +3539,23 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R1",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
+            {
+              "timestamp": "2026-08-12T17:10:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The submission PDF has been generated in Editorial Manager and requires author approval to finalize submission to JBJS Open Access.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ff6dab146dd539",
+                "messageId": "19ff6f44733e901d",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
             {
               "timestamp": "2026-08-13T14:50:43.000Z",
               "eventType": "sent_back",
@@ -3625,6 +3638,23 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-08-12T17:10:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The submission PDF has been generated in Editorial Manager and requires author approval to finalize submission to JBJS Open Access.",
+          "source": {
+            "threadId": "19ff6dab146dd539",
+            "messageId": "19ff6f44733e901d",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-13T14:50:43.000Z",
           "journal": "JBJS Open Access",
@@ -6385,7 +6415,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -6456,6 +6487,19 @@
               "source": {
                 "messageId": "jbjs-EMID-55662412f18854ee",
                 "account": "drsathishmuthu@gmail.com"
+              }
+            },
+            {
+              "timestamp": "2026-08-13T00:34:59.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The revised manuscript was returned to the author for formatting corrections prior to editorial evaluation.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R1",
+              "source": {
+                "threadId": "19ff88b2f820d6de",
+                "messageId": "19ff88b2f820d6de",
+                "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R1) - [EMID:55662412f18854ee]",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
             }
           ]
@@ -6648,6 +6692,27 @@
           "source": {
             "messageId": "jbjs-EMID-55662412f18854ee",
             "account": "drsathishmuthu@gmail.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-13T00:34:59.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00213R1",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-08-20T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The revised manuscript was returned to the author for formatting corrections prior to editorial evaluation.",
+          "source": {
+            "threadId": "19ff88b2f820d6de",
+            "messageId": "19ff88b2f820d6de",
+            "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R1) - [EMID:55662412f18854ee]",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
@@ -9198,6 +9263,19 @@
           "publicationLink": null,
           "statusHistory": [
             {
+              "timestamp": "2026-08-13T11:43:56.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgment was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ffaefa148d029b",
+                "messageId": "19ffaefa148d029b",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
               "timestamp": "2026-08-15T09:40:34.000Z",
               "eventType": "new_submission",
               "revisionRound": null,
@@ -9214,6 +9292,23 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-08-13T11:43:56.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgment was sent.",
+          "source": {
+            "threadId": "19ffaefa148d029b",
+            "messageId": "19ffaefa148d029b",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-08-14T07:22:26.000Z",
           "journal": "European Spine Journal",

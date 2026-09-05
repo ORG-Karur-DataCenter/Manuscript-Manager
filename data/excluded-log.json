@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-13T06:36:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Microbiology Contents: Volume 24 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-13T06:40:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Structural & Molecular Biology Contents: Volume 33 Number 8",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-13T07:39:36.000Z",
+      "reason": "unrelated",
+      "subject": "Quality of Elsevier's Author Support",
+      "from": "Elsevier Author Feedback <surveys@surveys.elsevier.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-14T06:38:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Gene Therapy Contents: Volume 33 Number 4",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T23:03:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "End of Summer: Exclusive Offers Inside",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-13T09:14:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature alert for 13th August 2026",
@@ -2063,41 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Structural Gains Without Symptomatic Benefit After Microfracture During High Tibial Osteotomy",
       "from": "ISAKOS Digital Digest <ISAKOS@multibriefs.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T15:29:50.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "EBM Newsletter - Updates and New Articles",
-      "from": "Experimental Biology and Medicine <development@ebm-journal.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T16:47:10.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Journal of Health Psychology",
-      "from": "Journal of Health Psychology <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T21:17:08.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clinical Spine Surgery Decision CSS-25-259R1",
-      "from": "Aiyush <aiyush87@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T21:49:42.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [External] Re: Clinical Spine Surgery Decision CSS-25-259R1",
-      "from": "\"Yoon, Tim\" <styoon@emory.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T22:00:32.000Z",
-      "reason": "unrelated",
-      "subject": "IntechOpen - CPC Final Notice",
-      "from": "Payments <payments@info.intechopen.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
