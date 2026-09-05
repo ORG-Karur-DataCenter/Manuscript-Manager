@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-05T06:32:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Physics Contents: Volume 8 Number 8",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
       "timestamp": "2026-08-05T00:07:47.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Why Docs Have Bad Dreams",
@@ -2091,13 +2098,6 @@
       "reason": "unrelated",
       "subject": "Follow Up on Previous Message",
       "from": "\"Dr. Karim\" <karim@paperlens.science>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T05:00:37.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Only 3 Days Left to Register and Save for IKAF 2026!",
-      "from": "ISAKOS <isakos@isakos.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
