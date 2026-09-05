@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-05T00:07:47.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Why Docs Have Bad Dreams",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-05T10:10:12.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation to Submit Your Dermatology Research: CDOAJ",
+      "from": "Andrea Leslie <contact@clinicaldermatologypublishers.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-05T13:03:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "How AI could worsen loneliness",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-05T15:27:17.000Z",
+      "reason": "unrelated",
+      "subject": "Class of 2026 summed up in one photo 🎓 😎",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-05T20:44:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "You're Invited to the COMSOL Conference 2026 Boston from our Partners at COMSOL, Inc.",
+      "from": "Physics Today Partners <Physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-07T13:00:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Extreme heat keeps older adults closer to home",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T14:17:52.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Manuscript Reminder : JOJS_26_85",
+      "from": "noreply@jaypeejournals.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T15:50:17.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "Nelson Astur <nelsonan@yahoo.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-06T12:40:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature alert for 06th August 2026",
@@ -2042,62 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Only 3 Days Left to Register and Save for IKAF 2026!",
       "from": "ISAKOS <isakos@isakos.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T05:45:39.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Official Invitation: Invited Speaker – INNOST NANO 2026 - Hybrid Conference | 26–28 October 2026 | GITAM, Jhajjar, Haryana, India",
-      "from": "INNOST NANO 2026 <contact@rpconfseries.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T06:29:00.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Follow-up: Invitation to Review for Science Progress",
-      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T08:30:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "NSpine Event Updates: London Highlights | Cape Town 8 Weeks Away | Addis Ababa | Arosa 2027",
-      "from": "Nspine <info@nspine.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-07-20T11:38:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Sathish Muthu",
-      "from": "Clinical Surgery 2027 <Clinicalsurgery@wisdom-conferences.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-10T14:18:28.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Draft PROSPERO registrations",
-      "from": "\"Massie, Harrison A\" <ham2@uab.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-10T16:51:22.000Z",
-      "reason": "unrelated",
-      "subject": "R: [ESTERNA] [External] WG: AO Spine KF Degenerative Monthly meetings reminder and proposed agendas",
-      "from": "Tilotta Veronica <v.tilotta@policlinicocampus.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-10T16:56:40.000Z",
-      "reason": "unrelated",
-      "subject": "RE: [External] Global practice of osteobiologics use in acdf",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-10T19:37:19.000Z",
-      "reason": "unrelated",
-      "subject": "IMPORTANT: Rare Lumbar To-Do List",
-      "from": "Christopher Martin <mart1865@umn.edu>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
