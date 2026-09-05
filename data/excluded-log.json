@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-08-06T12:40:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 06th August 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-06T13:01:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Graduate School of Education dean announced",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-06T14:08:34.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The week in physics: Exoplanet orbiting a white dwarf; Ending the Cold War arms race",
+      "from": "Physics Today <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-07T04:53:14.000Z",
+      "reason": "unrelated",
+      "subject": "View community ratings for your paper at EUROPEAN SPINE JOURNAL, plus journal insights from your field",
+      "from": "Peeref <info@peerefmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-07T14:44:12.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AI designed 16 viruses that actually work",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-08-11T15:09:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore the August Issue of HSS",
+      "from": "HSS Journal on behalf of Arthrex <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-04T18:01:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the September issue today",
+      "from": "Physics Today <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-05T10:49:03.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were cited in a new article by an author from University of Texas at Austin",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-08-07T15:16:08.000Z",
       "reason": "unrelated",
       "subject": "Dr. Bibhuti Parida - Assistant Professor of Physics reacted to this post: Happy to join WPI, Hiroshima…",
@@ -2043,62 +2099,6 @@
       "subject": "IMPORTANT: Rare Lumbar To-Do List",
       "from": "Christopher Martin <mart1865@umn.edu>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-10T20:43:17.000Z",
-      "reason": "unrelated",
-      "subject": "Re: IMPORTANT: Rare Lumbar To-Do List",
-      "from": "\"Cho, Samuel\" <Samuel.Cho@mountsinai.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-23T18:37:04.000Z",
-      "reason": "unrelated",
-      "subject": "RE: Follow-up on Manuscript Status – CSS-26-300",
-      "from": "\"Porter, Samantha\" <samantha.porter@wolterskluwer.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T06:34:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Cell Research Contents: Volume 36 Number 9",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T13:00:53.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "An unexpected way to reduce addiction stigma",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T14:10:50.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The week in physics: Swirls on the Sun; Physics Olympiads",
-      "from": "Physics Today <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T16:15:22.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Claude answered a question from 1948",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T20:03:05.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "August 2026 Job Opportunities and Career Advice",
-      "from": "Physics Today Jobs <pt-jobs@aip-info.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T09:15:38.000Z",
-      "reason": "unrelated",
-      "subject": "Naveen Jeyaraman published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
