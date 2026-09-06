@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-06T14:16:06.000Z",
+      "reason": "unrelated",
+      "subject": "You have 3 new messages",
+      "from": "LinkedIn <notifications-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T10:03:12.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from Baylor College of Medicine",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T13:43:27.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Manuscript UIVS-2026-0256 - Journal of Investigative Surgery",
+      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T16:03:32.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Manuscript JOIO-D-26-00960  for review",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T16:23:59.000Z",
+      "reason": "unrelated",
+      "subject": "Roger accepted your invitation, explore their network",
+      "from": "\"Roger Härtl via LinkedIn\" <invitations@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-06T11:54:26.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Breaking News: (compiled copy)Delhi building collapse: Six rescued, several feared trapped",
@@ -2064,41 +2099,6 @@
       "subject": "View Aaron Buckland’s post and your next steps",
       "from": "LinkedIn <messages-noreply@linkedin.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T12:49:27.000Z",
-      "reason": "unrelated",
-      "subject": "\"Manuscript_manager\" space - Invitation to join",
-      "from": "\"Dhibin Vikash K P (via Google Chat)\" <chat-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T13:44:59.000Z",
-      "reason": "unrelated",
-      "subject": "Rod Fractures Combined Manuscript Methods & Results",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T14:07:56.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Rod Fractures Combined Manuscript Methods & Results",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T14:09:22.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Rod Fractures Combined Manuscript Methods & Results",
-      "from": "Vibhu Krishnan <drvibu007@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-05-14T13:01:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "BTS comes to Stanford campus this weekend",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
