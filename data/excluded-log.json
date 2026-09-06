@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-06T06:14:10.000Z",
+      "reason": "unrelated",
+      "subject": "New articles in my profile",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T09:21:48.000Z",
+      "reason": "unrelated",
+      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "\"Jorge Nuñez camarena\" <hassan2803med@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-06T03:50:28.000Z",
       "reason": "unrelated",
       "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
@@ -2084,20 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Welcome to the July issue of the Brain & Spine Editors' Choice newsletter",
       "from": "\"EUROSPINE, the Spine Society of Europe via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T16:15:29.000Z",
-      "reason": "unrelated",
-      "subject": "Cartilage - Account Modified in ScholarOne Manuscripts",
-      "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T16:33:28.000Z",
-      "reason": "unrelated",
-      "subject": "Re: International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: Final Review and Conflict of Interest Forms",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
