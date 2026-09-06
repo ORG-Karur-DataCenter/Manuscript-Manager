@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-06T03:50:28.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T04:22:00.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, someone just recommended your data",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-05T23:46:46.000Z",
       "reason": "unrelated",
       "subject": "Bill for your Airtel Wi-Fi 0432417056983_wifi - September'26",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: Final Review and Conflict of Interest Forms",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T18:45:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Final reminder: You're invited to submit to our special issue - Neural Plasticity in Neurotrauma and Repair",
-      "from": "Neural Plasticity <np.office@wiley.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T02:37:08.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder - Invitation to Review for Orthopaedic Surgery: 7421944",
-      "from": "Orthopaedic Surgery <os.office@wiley.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
