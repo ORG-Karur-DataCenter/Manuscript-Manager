@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-06T11:54:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Breaking News: (compiled copy)Delhi building collapse: Six rescued, several feared trapped",
+      "from": "The Hindu <news@newsalertth.thehindu.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T11:15:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🏆 All OSCE recalls solved top DNB / NEET-SS Exams with MentorExam Solved Papers”",
+      "from": "Mentorexam Foundation <mentorexam.com@5328873.brevosend.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T12:30:47.000Z",
+      "reason": "unrelated",
+      "subject": "Enjoy 30% OFF our all-inclusive package, JBJS Platinum",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-06T13:10:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Keep up with The Latest Trends in Treating Tumors",
+      "from": "Brew with Bones <brewwithbones@substack.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-06T06:14:10.000Z",
       "reason": "unrelated",
       "subject": "New articles in my profile",
@@ -2071,34 +2099,6 @@
       "subject": "BTS comes to Stanford campus this weekend",
       "from": "Stanford Report <noreply@stanford.edu>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-02-14T17:57:32.000Z",
-      "reason": "unrelated",
-      "subject": "Re: MRSpec Project update - reg",
-      "from": "Amit Jain <amitjain@jhmi.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-02-14T18:33:19.000Z",
-      "reason": "unrelated",
-      "subject": "Initiation of Data Collection – SCOPE Study",
-      "from": "\"Dr. DHIBIN VIKASH K P\" <dhibinvikash@outlook.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-02-14T19:26:21.000Z",
-      "reason": "unrelated",
-      "subject": "Re: SCOPE Study - Reg",
-      "from": "Hussam Jabri <hussamjabri@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-07-01T20:40:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Welcome to the July issue of the Brain & Spine Editors' Choice newsletter",
-      "from": "\"EUROSPINE, the Spine Society of Europe via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
