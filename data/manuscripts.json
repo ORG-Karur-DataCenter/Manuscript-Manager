@@ -1,6 +1,133 @@
 {
-  "generatedAt": "2026-09-06T23:58:27.987Z",
+  "generatedAt": "2026-09-07T04:50:28.091Z",
   "manuscripts": [
+    {
+      "id": "methodological-advances-in-synovial-fluid-sequencing-standardization-v",
+      "title": "Methodological Advances in Synovial Fluid Sequencing: Standardization, Validation, and Clinical Translation",
+      "titleNormalized": "methodological advances in synovial fluid sequencing standardization validation and clinical translation",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": "127479",
+      "currentStatus": "Revision requested",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": "127479",
+          "submittedDate": "2026-08-29T13:42:59.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-29T13:42:59.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript and outlined the review process.",
+              "manuscriptNumber": "127479",
+              "source": {
+                "threadId": "1a04dc295c609b3d",
+                "messageId": "1a04dc295c609b3d",
+                "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127479",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-01T02:19:01.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
+              "manuscriptNumber": "127479",
+              "source": {
+                "threadId": "1a05ac354890ebdc",
+                "messageId": "1a05ac354890ebdc",
+                "subject": "World Journal of Orthopedics Manuscript No.: 127479 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-07T02:43:53.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The reviewer completed the review and requested substantial revisions to the manuscript.",
+              "manuscriptNumber": "127479",
+              "source": {
+                "threadId": "1a079c03a38746d1",
+                "messageId": "1a079c03a38746d1",
+                "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 127479",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-29T13:42:59.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "127479",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submitted manuscript and outlined the review process.",
+          "source": {
+            "threadId": "1a04dc295c609b3d",
+            "messageId": "1a04dc295c609b3d",
+            "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127479",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T02:19:01.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "under_review",
+          "manuscriptNumber": "127479",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
+          "source": {
+            "threadId": "1a05ac354890ebdc",
+            "messageId": "1a05ac354890ebdc",
+            "subject": "World Journal of Orthopedics Manuscript No.: 127479 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-07T02:43:53.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "127479",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The reviewer completed the review and requested substantial revisions to the manuscript.",
+          "source": {
+            "threadId": "1a079c03a38746d1",
+            "messageId": "1a079c03a38746d1",
+            "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 127479",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-29T13:42:59.000Z",
+      "updatedAt": "2026-09-07T02:43:53.000Z"
+    },
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
       "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
@@ -3395,103 +3522,6 @@
       "updatedAt": "2026-09-01T12:19:24.000Z",
       "deadline": null,
       "deadlineSource": null
-    },
-    {
-      "id": "methodological-advances-in-synovial-fluid-sequencing-standardization-v",
-      "title": "Methodological Advances in Synovial Fluid Sequencing: Standardization, Validation, and Clinical Translation",
-      "titleNormalized": "methodological advances in synovial fluid sequencing standardization validation and clinical translation",
-      "bucket": "in_review",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "World Journal of Orthopedics",
-      "currentManuscriptNumber": "127479",
-      "currentStatus": "Under review",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "World Journal of Orthopedics",
-          "manuscriptNumber": "127479",
-          "submittedDate": "2026-08-29T13:42:59.000Z",
-          "outcome": "active",
-          "status": "under_review",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-29T13:42:59.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The journal confirmed receipt of the submitted manuscript and outlined the review process.",
-              "manuscriptNumber": "127479",
-              "source": {
-                "threadId": "1a04dc295c609b3d",
-                "messageId": "1a04dc295c609b3d",
-                "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127479",
-                "from": "BPG Submission <submission@wjgnet.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T02:19:01.000Z",
-              "eventType": "under_review",
-              "revisionRound": null,
-              "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
-              "manuscriptNumber": "127479",
-              "source": {
-                "threadId": "1a05ac354890ebdc",
-                "messageId": "1a05ac354890ebdc",
-                "subject": "World Journal of Orthopedics Manuscript No.: 127479 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
-                "from": "BPG Submission <submission@wjgnet.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-29T13:42:59.000Z",
-          "journal": "World Journal of Orthopedics",
-          "eventType": "new_submission",
-          "manuscriptNumber": "127479",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The journal confirmed receipt of the submitted manuscript and outlined the review process.",
-          "source": {
-            "threadId": "1a04dc295c609b3d",
-            "messageId": "1a04dc295c609b3d",
-            "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 127479",
-            "from": "BPG Submission <submission@wjgnet.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-01T02:19:01.000Z",
-          "journal": "World Journal of Orthopedics",
-          "eventType": "under_review",
-          "manuscriptNumber": "127479",
-          "label": "Under review",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
-          "source": {
-            "threadId": "1a05ac354890ebdc",
-            "messageId": "1a05ac354890ebdc",
-            "subject": "World Journal of Orthopedics Manuscript No.: 127479 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
-            "from": "BPG Submission <submission@wjgnet.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-29T13:42:59.000Z",
-      "updatedAt": "2026-09-01T02:19:01.000Z"
     },
     {
       "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
