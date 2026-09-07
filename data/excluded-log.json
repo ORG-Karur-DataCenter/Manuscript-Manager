@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-07T16:55:13.000Z",
+      "reason": "unrelated",
+      "subject": "Want to publish a book but don’t have time? ",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T11:15:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The Scientific Programme | SPARSH REVISION COURSE 2026",
+      "from": "SPARSH COURSE 2026 <sparshconference@250907063.mailchimpapp.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T13:40:02.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T15:24:18.000Z",
+      "reason": "unrelated",
+      "subject": "AO Spine KF Degenerative Monthly meetings reminder and proposed agendas and news items",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T17:39:33.000Z",
+      "reason": "unrelated",
+      "subject": "Register your mini-teams: SurgWeek-2 Weekly update",
+      "from": "noreply@surgweek2.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T17:43:04.000Z",
+      "reason": "unrelated",
+      "subject": "Register your mini-teams: SurgWeek-2 Weekly update",
+      "from": "noreply@surgweek2.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T17:59:10.000Z",
+      "reason": "unrelated",
+      "subject": "Re: [External] Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T18:20:12.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-07T10:31:25.000Z",
       "reason": "unrelated",
       "subject": "Your Sage & Corwin account",
@@ -2042,62 +2098,6 @@
       "reason": "unrelated",
       "subject": "Important Update: Upcoming Migration of Your Journal to the Upgraded Scriptor Zone",
       "from": "Jaypee Journals <donotreply@jaypeejournals.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-30T10:22:01.000Z",
-      "reason": "unrelated",
-      "subject": "Welcome to Sage – Discover our extensive range of books, journals, and digital resources.",
-      "from": "Sage <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-30T12:50:33.000Z",
-      "reason": "unrelated",
-      "subject": "Editorial Manager Registration",
-      "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T11:00:48.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from University of Rostock",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-30T12:50:33.000Z",
-      "reason": "unrelated",
-      "subject": "Editorial Manager Registration",
-      "from": "Journal of Clinical Epidemiology <em@editorialmanager.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-30T16:55:04.000Z",
-      "reason": "unrelated",
-      "subject": "No time to write a book?",
-      "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T19:02:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your OrthoBuzz August Newsletter",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T10:10:17.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Important Update: Upgrade to Jaypee’s Scriptor Zone",
-      "from": "Jaypee Journals <donotreply@jaypeejournals.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-25T13:01:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "A new tool to compress data with AI",
-      "from": "Stanford Report <noreply@stanford.edu>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
