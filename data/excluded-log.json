@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-07T17:41:54.000Z",
+      "reason": "unrelated",
+      "subject": "Register your mini-teams: SurgWeek-2 Weekly update",
+      "from": "noreply@surgweek2.com",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T21:40:43.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T22:30:54.000Z",
+      "reason": "unrelated",
+      "subject": "30% OFF Sitewide | Find Your Perfect Package Today",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T22:58:39.000Z",
+      "reason": "unrelated",
+      "subject": "Re: [External] Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
+      "from": "Roger Hartl <roh9005@med.cornell.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-07T16:55:13.000Z",
       "reason": "unrelated",
       "subject": "Want to publish a book but don’t have time? ",
@@ -2071,34 +2099,6 @@
       "subject": "Review invitation: Clinical Evaluation of Large Language Models in the...",
       "from": "Frontiers in Medicine Editorial Office <medicine.editorial.office@frontiersin.org>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T05:23:02.000Z",
-      "reason": "unrelated",
-      "subject": "Thank you for submitting authorship for the IHME ID: 5338 GBD 2023 Global Type 1 Diabetes paper",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T05:30:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Register now! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
-      "from": "AO Recon <aorecon@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-27T10:28:17.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Resources to support your research",
-      "from": "Sage Author Support <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-29T16:00:29.000Z",
-      "reason": "unrelated",
-      "subject": "Important Update: Upcoming Migration of Your Journal to the Upgraded Scriptor Zone",
-      "from": "Jaypee Journals <donotreply@jaypeejournals.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
