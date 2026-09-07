@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-09-07T04:50:28.091Z",
+  "generatedAt": "2026-09-07T10:26:20.358Z",
   "manuscripts": [
+    {
+      "id": "microbial-and-immunological-signatures-in-synovial-fluid-next-generati",
+      "title": "Microbial and Immunological Signatures in Synovial Fluid: Next-Generation Sequencing Perspectives in Osteoarthritis",
+      "titleNormalized": "microbial and immunological signatures in synovial fluid next generation sequencing perspectives in osteoarthritis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "MedScience",
+      "currentManuscriptNumber": "FMD-2026-0766",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "MedScience",
+          "manuscriptNumber": "FMD-2026-0766",
+          "submittedDate": "2026-09-07T06:49:01.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-07T06:49:01.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "A manuscript you co-authored was submitted and an account was created for you in ScholarOne.",
+              "manuscriptNumber": "FMD-2026-0766",
+              "source": {
+                "threadId": "1a07aa09fb30df68",
+                "messageId": "1a07aa09fb30df68",
+                "subject": "MedScience - Account Created in ScholarOne Manuscripts",
+                "from": "MedScience <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-07T06:49:01.000Z",
+          "journal": "MedScience",
+          "eventType": "new_submission",
+          "manuscriptNumber": "FMD-2026-0766",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "A manuscript you co-authored was submitted and an account was created for you in ScholarOne.",
+          "source": {
+            "threadId": "1a07aa09fb30df68",
+            "messageId": "1a07aa09fb30df68",
+            "subject": "MedScience - Account Created in ScholarOne Manuscripts",
+            "from": "MedScience <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-07T06:49:01.000Z",
+      "updatedAt": "2026-09-07T06:49:01.000Z"
+    },
     {
       "id": "methodological-advances-in-synovial-fluid-sequencing-standardization-v",
       "title": "Methodological Advances in Synovial Fluid Sequencing: Standardization, Validation, and Clinical Translation",

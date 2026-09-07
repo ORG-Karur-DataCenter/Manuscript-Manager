@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-07T04:53:42.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01553R1 - [EMID:50906ddd9c7ee830]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T05:00:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Secure your seat! AO Spine Advanced Seminar—Deformity (Pediatrics and Adults), Ho Chi Minh City, Vietnam | October 3, 2026",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T07:04:10.000Z",
+      "reason": "unrelated",
+      "subject": "15% off CRC Press titles!",
+      "from": "Routledge Books <routledgebooks@email.routledge.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-07T07:11:14.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "2026-09-07 07:11:12 RCA ID: 00000627 2026 Highlight Articles available for view",
+      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-07T02:26:45.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "ET AI: OpenAI calls for transparency after agents hijacked German wiki site",
@@ -2070,34 +2098,6 @@
       "reason": "unrelated",
       "subject": "Cartilage - ScholarOne Manuscripts Password Request",
       "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T16:14:36.000Z",
-      "reason": "unrelated",
-      "subject": "Fwd: Cartilage - ScholarOne Manuscripts Password Request",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T16:19:51.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your guide to publishing success",
-      "from": "\"Lippincott®\" <info@ovid.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-30T02:52:37.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [EXTERN] Re: Multicenter Registry Study – Study Overview & CRFs",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-30T03:17:05.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, someone just recommended your data",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
