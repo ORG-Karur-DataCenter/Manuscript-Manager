@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-08T11:00:24.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Sathish Muthu published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T13:01:12.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Joint replacements that last a lifetime",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T11:02:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Upcoming events",
+      "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T11:09:52.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a recent article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T12:46:59.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, someone just recommended your data",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T13:03:00.000Z",
+      "reason": "unrelated",
+      "subject": "Elevate your trauma surgery expertise with JBJS MRC Oxford",
+      "from": "\"Lippincott® Journals\" <info@ovid.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-08T04:52:30.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-00960 - [EMID:ed2f6c3c908acfc7]",
@@ -2056,48 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "OpenAI stopped charging for tokens",
       "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T06:41:32.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T10:37:49.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T10:46:55.000Z",
-      "reason": "unrelated",
-      "subject": "Re: IntechOpen - CPC Final Notice 237451",
-      "from": "Dominik Samardzija <dominik@intechopen.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T13:06:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "1 Day Left to Register and Save for IKAF 2026!",
-      "from": "ISAKOS <isakos@isakos.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T13:19:36.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "COST Newsletter - August 2026",
-      "from": "COST Association <communications@cost.eu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-21T06:07:17.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Invitation to Submit Your Dermatology Research",
-      "from": "<dermatology@medwinjournal.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
