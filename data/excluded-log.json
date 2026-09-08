@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-07T14:03:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The week in physics: Graviton detection; Worsening geomagnetic storms",
+      "from": "Physics Today <physicstoday@aipcomm.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T15:35:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Introducing ShipAI",
+      "from": "Towards Data Science <newsletter@towardsdatascience.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
       "timestamp": "2026-09-08T11:00:24.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Sathish Muthu published an article",
@@ -2084,20 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "Considering publishing your work as a book?",
       "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T13:02:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "A breakthrough in battery technology",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T13:53:41.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "OpenAI stopped charging for tokens",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
