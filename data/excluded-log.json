@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-08T04:52:30.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-00960 - [EMID:ed2f6c3c908acfc7]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T05:41:45.000Z",
+      "reason": "unrelated",
+      "subject": "Your paper in Cells - a figure draft",
+      "from": "Alex Carter <alex@mail.scifig.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T06:12:40.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One Reminder of Active Assignments - [EMID:3656aba3326f9bfa]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-08T01:08:38.000Z",
       "reason": "predatory_solicitation",
       "subject": "[Bioengineering, IF 4.4] Consider Publishing Your Research with Bioengineering",
@@ -2077,27 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "Invitation to Submit Your Dermatology Research",
       "from": "<dermatology@medwinjournal.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-21T13:16:08.000Z",
-      "reason": "unrelated",
-      "subject": "Tisha Dash - Graduate Research Assistant reacted to this post: Finally, I will be doing my…",
-      "from": "LinkedIn <updates-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-22T01:09:46.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Cheery Friday Greetings from Barb Oakley!",
-      "from": "Deep Teaching Solutions <no-reply@m.send.coursera.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-24T19:16:27.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Last Chance: Seeing the Whole Picture: 3D X-ray Imaging of Engineering Materials, Micro to Macro",
-      "from": "Physics Today Webinars <physicstoday@aipcomm.org>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
