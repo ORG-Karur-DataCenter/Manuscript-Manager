@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-08T01:08:38.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "[Bioengineering, IF 4.4] Consider Publishing Your Research with Bioengineering",
+      "from": "Bioengineering Editorial Office <bioengineering@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T02:37:08.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Final Reminder - Invitation to Review for Orthopaedic Surgery: 7421944",
+      "from": "Orthopaedic Surgery <os.office@wiley.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T03:37:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Official Invitation: Invited Speaker - ICAMET 2026 - Hybrid Mode - RNS Institute of Technology, Bengaluru, Karnataka, INDIA (24–26 November 2026)",
+      "from": "ICAMET 2026 <contact@rpconfseries.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-08T04:40:39.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation Reminder - Review of Manuscript:  8696 Comparative clinical outcomes after intra-articular injection with adipose-Derived stromal vascular fraction versus Hyaluronic acid for the knee joint OA, a retrospective cohort study",
+      "from": "SQU Med J Oman <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-07T17:41:54.000Z",
       "reason": "unrelated",
       "subject": "Register your mini-teams: SurgWeek-2 Weekly update",
@@ -2071,34 +2099,6 @@
       "subject": "Last Chance: Seeing the Whole Picture: 3D X-ray Imaging of Engineering Materials, Micro to Macro",
       "from": "Physics Today Webinars <physicstoday@aipcomm.org>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-28T17:14:55.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Clinical Pearls for Managing Insect Bites",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T04:01:56.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New content, new insights, new opportunities for libraries",
-      "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T05:03:37.000Z",
-      "reason": "unrelated",
-      "subject": "Medical Journals (NMC Approved) — Institutional Print Subscription Proposal -- 60 Embase (Elsevier) listed Journals -- Library Connect, Kolkata",
-      "from": "Library Connect <souvik@libraryconnect.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T05:15:02.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Review invitation: Clinical Evaluation of Large Language Models in the...",
-      "from": "Frontiers in Medicine Editorial Office <medicine.editorial.office@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
