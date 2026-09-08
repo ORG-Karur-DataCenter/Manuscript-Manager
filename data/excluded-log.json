@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-08T21:32:07.000Z",
+      "reason": "unrelated",
+      "subject": "Sale Extended! 30% OFF Sitewide | One Final Chance",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-07T14:03:32.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "The week in physics: Graviton detection; Worsening geomagnetic storms",
@@ -2091,13 +2098,6 @@
       "reason": "unrelated",
       "subject": "Suvrankar Datta - Simons Ashoka Early Career Fellow reacted to this post: Ten years in, Social Alpha is…",
       "from": "LinkedIn <updates-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-22T16:55:04.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Considering publishing your work as a book?",
-      "from": "Springer Nature <springernature@research.springernature.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
