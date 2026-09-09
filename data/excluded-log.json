@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-09T00:06:51.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Long-Term Primary Care Saves Lives — and Is Hard to Achieve",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T03:03:45.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "🟠RFCSR | Warm Greetings and Invitation to Contribute to Science Factors",
+      "from": "\"Dr. Christine Thomas\" <christine.thomas@rfcsr.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T03:34:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Webinar Invitation: Smarter Research with Web of Science Research Assistant",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T04:30:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Discover What’s Happening at the AO Spine AP Regional Conference 2026",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T04:32:22.000Z",
+      "reason": "unrelated",
+      "subject": "*** Discounted Priced -- EMBASE-indexed and NMC-Approved Medical Journals -- (For Library Subscription) -- Library Connect, Kolkata",
+      "from": "Library Connect <souvik@libraryconnect.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T04:50:46.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:ef2ec11799fbfd40]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T05:11:42.000Z",
+      "reason": "unrelated",
+      "subject": "Funds / Securities Balance",
+      "from": "BSE ALERTS <info@bseindia.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-08T21:32:07.000Z",
       "reason": "unrelated",
       "subject": "Sale Extended! 30% OFF Sitewide | One Final Chance",
@@ -2050,55 +2099,6 @@
       "subject": "International Association for the Study of Pain - NEW ISSUE LIVE",
       "from": "\"Lippincott®\" <email@lww.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T18:03:06.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Journal of Health Psychology",
-      "from": "Journal of Health Psychology <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T19:00:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Enjoy a FREE Preview of JBJS Journals",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-20T13:40:34.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "A quick follow-up | Waste Management & Xenobiotics",
-      "from": "Shirley Victoria <contact@environmentaltoxicsjournal.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-20T14:08:34.000Z",
-      "reason": "unrelated",
-      "subject": "Fwd: TSCIR / Editorial Manager Registration",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-20T15:11:31.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Cochrane supporters' eNews August 2026",
-      "from": "Cochrane <no-reply@cochrane.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-21T13:22:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Anthropic wants the biggest IPO ever",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-22T15:22:37.000Z",
-      "reason": "unrelated",
-      "subject": "Suvrankar Datta - Simons Ashoka Early Career Fellow reacted to this post: Ten years in, Social Alpha is…",
-      "from": "LinkedIn <updates-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
