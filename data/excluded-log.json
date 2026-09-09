@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-09T09:22:39.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T13:01:17.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Young patients help paint Stanford hospital mural",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T14:16:07.000Z",
+      "reason": "unrelated",
+      "subject": "You have 3 new messages",
+      "from": "LinkedIn <notifications-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T15:29:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "💸 ChatGPT solved a $1 million math problem",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T15:20:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  Spine - Vol. 51, No. 19, October 1, 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T15:40:13.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "JOJS_26_85_R2 has been Un-assigned",
+      "from": "noreply@jaypeejournals.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T16:00:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Invitation: Surgery Systems LIVE 2026, ICC Birmingham, 24 November",
+      "from": "Surgery Systems LIVE 2026 <noreply@surgweek2.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T16:01:12.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Welcome to the September issue of the Brain & Spine Editors' Choice newsletter",
+      "from": "\"EUROSPINE, the Spine Society of Europe via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-09T04:31:20.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Invitation: Understand Plain Language Summaries and its impact for your work. Register Now!",
@@ -2043,62 +2099,6 @@
       "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
       "from": "Julie Phukan <jphukan@bmj.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T08:59:46.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Manuscript  8696: Comparative clinical outcomes after intra-articular injection with adipose-Derived stromal vascular fraction versus Hyaluronic acid for the knee joint OA, a retrospective cohort study",
-      "from": "SQU Med J Oman <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T10:05:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T15:52:52.000Z",
-      "reason": "unrelated",
-      "subject": "Nanoscale Characterization of 2D Materials and Polymers",
-      "from": "Physics Today Webinars <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-20T08:34:53.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Your work deserves expert recognition",
-      "from": "Global Spine Journal <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T11:26:21.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Is this article of interest to you (ID 1962267)?",
-      "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T02:37:09.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Second Reminder - Invitation to Review for Orthopaedic Surgery: 7421944",
-      "from": "Orthopaedic Surgery <os.office@wiley.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T04:52:32.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01123 - [EMID:6578a30f07a8956d]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-20T10:20:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Breaking News: Sajjan Kumar, former Congress MP convicted in anti-Sikh riots case, passes away",
-      "from": "The Hindu <news@newsalertth.thehindu.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }

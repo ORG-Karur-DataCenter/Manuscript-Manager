@@ -1,6 +1,389 @@
 {
-  "generatedAt": "2026-09-09T11:32:49.202Z",
+  "generatedAt": "2026-09-09T16:48:22.309Z",
   "manuscripts": [
+    {
+      "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
+      "title": "Preparation of Bone Marrow Aspirate Concentrate (BMAC): A Standardized Clinical Protocol for Wound Regeneration",
+      "titleNormalized": "preparation of bone marrow aspirate concentrate bmac a standardized clinical protocol for wound regeneration",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": "10.1007/978-1-0716-5614-3_9",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-08T17:49:08.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": "10.1007/978-1-0716-5614-3_9",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-08T17:49:08.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Proofs of the chapter are available and the author must submit corrections by 16 September 2026.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08223564d3f9eb",
+                "messageId": "1a08223564d3f9eb",
+                "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 9), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
+                "from": "eproofing@springernature.com"
+              }
+            },
+            {
+              "timestamp": "2026-09-09T16:36:13.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The author's corrections for the book chapter have been received and the work will be finalized for publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08706f3c9a1fbe",
+                "messageId": "1a08706f3c9a1fbe",
+                "subject": "Confirmation mail for Chapter 10.1007/978-1-0716-5614-3_9 Wound Regeneration",
+                "from": "eproofing@springernature.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-08T17:49:08.000Z",
+          "journal": "Springer Nature",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Proofs of the chapter are available and the author must submit corrections by 16 September 2026.",
+          "source": {
+            "threadId": "1a08223564d3f9eb",
+            "messageId": "1a08223564d3f9eb",
+            "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 9), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
+            "from": "eproofing@springernature.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T16:36:13.000Z",
+          "journal": "Springer Nature",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's corrections for the book chapter have been received and the work will be finalized for publication.",
+          "source": {
+            "threadId": "1a08706f3c9a1fbe",
+            "messageId": "1a08706f3c9a1fbe",
+            "subject": "Confirmation mail for Chapter 10.1007/978-1-0716-5614-3_9 Wound Regeneration",
+            "from": "eproofing@springernature.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-08T17:49:08.000Z",
+      "updatedAt": "2026-09-09T16:36:13.000Z"
+    },
+    {
+      "id": "gut-microbiome-and-regenerative-medicine",
+      "title": "Gut Microbiome & Regenerative Medicine",
+      "titleNormalized": "gut microbiome and regenerative medicine",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": null,
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": "89610755",
+          "submittedDate": "2026-09-09T10:21:18.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-09T10:21:18.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
+              "manuscriptNumber": "89610755",
+              "source": {
+                "threadId": "19ee60d233f7db1d",
+                "messageId": "1a085afc00c7ac57",
+                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-09T10:21:18.000Z",
+          "journal": "Springer Nature",
+          "eventType": "sent_back",
+          "manuscriptNumber": "89610755",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-16T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a085afc00c7ac57",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T12:51:02.000Z",
+          "journal": "Springer Nature",
+          "eventType": "other",
+          "manuscriptNumber": "89610755",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The production editor requested missing figure license documents to proceed with publication of the author's manuscript.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a08638f94e66312",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-09T12:51:02.000Z",
+      "updatedAt": "2026-09-09T12:51:02.000Z"
+    },
+    {
+      "id": "preparation-of-platelet-derived-biologics-for-wound-regeneration-a-sta",
+      "title": "Preparation of Platelet-Derived Biologics for Wound Regeneration: A Standardized Point-of-Care Protocol",
+      "titleNormalized": "preparation of platelet derived biologics for wound regeneration a standardized point of care protocol",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": "10.1007/978-1-0716-5614-3_10",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-08T17:48:11.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": "10.1007/978-1-0716-5614-3_10",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-08T17:48:11.000Z",
+              "eventType": "accepted",
+              "revisionRound": 1,
+              "note": "Proofs of the author's book chapter are available and must be corrected by 16 September 2026.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0822279c39020a",
+                "messageId": "1a0822279c39020a",
+                "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 10), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
+                "from": "eproofing@springernature.com"
+              }
+            },
+            {
+              "timestamp": "2026-09-09T12:27:13.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "Springer Nature confirmed receipt of the submitted proof corrections for the book chapter.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a086230a2256e3e",
+                "messageId": "1a086230a2256e3e",
+                "subject": "Confirmation mail for Chapter 10.1007/978-1-0716-5614-3_10 Wound Regeneration",
+                "from": "eproofing@springernature.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-08T17:48:11.000Z",
+          "journal": "Springer Nature",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "Proofs of the author's book chapter are available and must be corrected by 16 September 2026.",
+          "source": {
+            "threadId": "1a0822279c39020a",
+            "messageId": "1a0822279c39020a",
+            "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 10), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
+            "from": "eproofing@springernature.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T12:27:13.000Z",
+          "journal": "Springer Nature",
+          "eventType": "other",
+          "manuscriptNumber": null,
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Springer Nature confirmed receipt of the submitted proof corrections for the book chapter.",
+          "source": {
+            "threadId": "1a086230a2256e3e",
+            "messageId": "1a086230a2256e3e",
+            "subject": "Confirmation mail for Chapter 10.1007/978-1-0716-5614-3_10 Wound Regeneration",
+            "from": "eproofing@springernature.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-08T17:48:11.000Z",
+      "updatedAt": "2026-09-09T12:27:13.000Z"
+    },
+    {
+      "id": "preparation-of-stromal-vascular-fraction-svf-for-wound-regeneration-a-",
+      "title": "Preparation of Stromal Vascular Fraction (SVF) for Wound Regeneration: A Standardized Clinical Protocol",
+      "titleNormalized": "preparation of stromal vascular fraction svf for wound regeneration a standardized clinical protocol",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Preparation of Bone Marrow Aspirate Concentrate (BMAC): A Standardized Clinical Protocol for Wound Regeneration\" (0.82). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": "10.1007/978-1-0716-5614-3",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-08T17:49:01.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": "10.1007/978-1-0716-5614-3",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-08T17:49:01.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Proofs of the author's book chapter are now available for correction before publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a082233a6c9a152",
+                "messageId": "1a082233a6c9a152",
+                "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 8), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
+                "from": "eproofing@springernature.com"
+              }
+            },
+            {
+              "timestamp": "2026-09-09T12:22:02.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The author's corrected chapter has been received and will be processed for final publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0861e3d129fea9",
+                "messageId": "1a0861e3d129fea9",
+                "subject": "Confirmation mail for Chapter 10.1007/978-1-0716-5614-3_8 Wound Regeneration",
+                "from": "eproofing@springernature.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-08T17:49:01.000Z",
+          "journal": "Springer Nature",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Proofs of the author's book chapter are now available for correction before publication.",
+          "source": {
+            "threadId": "1a082233a6c9a152",
+            "messageId": "1a082233a6c9a152",
+            "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 8), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
+            "from": "eproofing@springernature.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T12:22:02.000Z",
+          "journal": "Springer Nature",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's corrected chapter has been received and will be processed for final publication.",
+          "source": {
+            "threadId": "1a0861e3d129fea9",
+            "messageId": "1a0861e3d129fea9",
+            "subject": "Confirmation mail for Chapter 10.1007/978-1-0716-5614-3_8 Wound Regeneration",
+            "from": "eproofing@springernature.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-08T17:49:01.000Z",
+      "updatedAt": "2026-09-09T12:22:02.000Z"
+    },
     {
       "id": "comparative-in-vitro-evaluation-of-the-antimicrobial-activity-of-leuko",
       "title": "Comparative In-Vitro Evaluation of the Antimicrobial Activity of Leukocyte-Rich versus Leukocyte-Poor Platelet-Rich Plasma against Bacterial Pathogens",
@@ -552,210 +935,6 @@
         }
       ],
       "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
-    },
-    {
-      "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
-      "title": "Preparation of Bone Marrow Aspirate Concentrate (BMAC): A Standardized Clinical Protocol for Wound Regeneration",
-      "titleNormalized": "preparation of bone marrow aspirate concentrate bmac a standardized clinical protocol for wound regeneration",
-      "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Accepted (awaiting publication)",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-09-08T17:49:08.000Z",
-          "outcome": "active",
-          "status": "accepted",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-08T17:49:08.000Z",
-              "eventType": "accepted",
-              "revisionRound": null,
-              "note": "Proofs of the chapter are available and the author must submit corrections by 16 September 2026.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a08223564d3f9eb",
-                "messageId": "1a08223564d3f9eb",
-                "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 9), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
-                "from": "eproofing@springernature.com"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-09-08T17:49:08.000Z",
-          "journal": "Springer Nature",
-          "eventType": "accepted",
-          "manuscriptNumber": null,
-          "label": "Accepted (awaiting publication)",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Proofs of the chapter are available and the author must submit corrections by 16 September 2026.",
-          "source": {
-            "threadId": "1a08223564d3f9eb",
-            "messageId": "1a08223564d3f9eb",
-            "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 9), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
-            "from": "eproofing@springernature.com"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-09-08T17:49:08.000Z",
-      "updatedAt": "2026-09-08T17:49:08.000Z"
-    },
-    {
-      "id": "preparation-of-stromal-vascular-fraction-svf-for-wound-regeneration-a-",
-      "title": "Preparation of Stromal Vascular Fraction (SVF) for Wound Regeneration: A Standardized Clinical Protocol",
-      "titleNormalized": "preparation of stromal vascular fraction svf for wound regeneration a standardized clinical protocol",
-      "bucket": "in_review",
-      "needsReview": true,
-      "reviewReason": "Title closely resembles \"Preparation of Bone Marrow Aspirate Concentrate (BMAC): A Standardized Clinical Protocol for Wound Regeneration\" (0.82). Confirm these are different papers.",
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Accepted (awaiting publication)",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-09-08T17:49:01.000Z",
-          "outcome": "active",
-          "status": "accepted",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-08T17:49:01.000Z",
-              "eventType": "accepted",
-              "revisionRound": null,
-              "note": "Proofs of the author's book chapter are now available for correction before publication.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a082233a6c9a152",
-                "messageId": "1a082233a6c9a152",
-                "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 8), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
-                "from": "eproofing@springernature.com"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-09-08T17:49:01.000Z",
-          "journal": "Springer Nature",
-          "eventType": "accepted",
-          "manuscriptNumber": null,
-          "label": "Accepted (awaiting publication)",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Proofs of the author's book chapter are now available for correction before publication.",
-          "source": {
-            "threadId": "1a082233a6c9a152",
-            "messageId": "1a082233a6c9a152",
-            "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 8), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
-            "from": "eproofing@springernature.com"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-09-08T17:49:01.000Z",
-      "updatedAt": "2026-09-08T17:49:01.000Z"
-    },
-    {
-      "id": "preparation-of-platelet-derived-biologics-for-wound-regeneration-a-sta",
-      "title": "Preparation of Platelet-Derived Biologics for Wound Regeneration: A Standardized Point-of-Care Protocol",
-      "titleNormalized": "preparation of platelet derived biologics for wound regeneration a standardized point of care protocol",
-      "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Accepted (awaiting publication)",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-09-08T17:48:11.000Z",
-          "outcome": "active",
-          "status": "accepted",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-08T17:48:11.000Z",
-              "eventType": "accepted",
-              "revisionRound": 1,
-              "note": "Proofs of the author's book chapter are available and must be corrected by 16 September 2026.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a0822279c39020a",
-                "messageId": "1a0822279c39020a",
-                "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 10), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
-                "from": "eproofing@springernature.com"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-09-08T17:48:11.000Z",
-          "journal": "Springer Nature",
-          "eventType": "accepted",
-          "manuscriptNumber": null,
-          "label": "Accepted (awaiting publication)",
-          "revisionRound": 1,
-          "deadline": null,
-          "note": "Proofs of the author's book chapter are available and must be corrected by 16 September 2026.",
-          "source": {
-            "threadId": "1a0822279c39020a",
-            "messageId": "1a0822279c39020a",
-            "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 10), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
-            "from": "eproofing@springernature.com"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-09-08T17:48:11.000Z",
-      "updatedAt": "2026-09-08T17:48:11.000Z"
     },
     {
       "id": "preparation-of-platelet-lysate-pl-a-standardized-protocol-for-clinical",
