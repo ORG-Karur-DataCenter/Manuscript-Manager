@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-09T09:22:39.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T21:05:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Spinal Column | SRS Newsletter",
+      "from": "SRS <info@srs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-09T19:01:25.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Introducing the StanfordNext plan",
@@ -2084,20 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Latest news and upcoming events",
       "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T08:09:42.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T08:38:42.000Z",
-      "reason": "unrelated",
-      "subject": "Document shared with you: \"3000312 Clavicle fracture - (US) 2026 SU\"",
-      "from": "\"Julie Phukan (via Google Docs)\" <drive-shares-dm-noreply@google.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
