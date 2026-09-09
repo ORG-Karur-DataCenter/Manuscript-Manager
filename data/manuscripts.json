@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T16:48:22.309Z",
+  "generatedAt": "2026-09-09T19:49:45.195Z",
   "manuscripts": [
     {
       "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
@@ -383,6 +383,104 @@
       ],
       "createdAt": "2026-09-08T17:49:01.000Z",
       "updatedAt": "2026-09-09T12:22:02.000Z"
+    },
+    {
+      "id": "preparation-of-platelet-lysate-pl-a-standardized-protocol-for-clinical",
+      "title": "Preparation of Platelet Lysate (PL): A Standardized Protocol for Clinical and Research Applications",
+      "titleNormalized": "preparation of platelet lysate pl a standardized protocol for clinical and research applications",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": "10.1007/978-1-0716-5614-3_11",
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-08T17:36:35.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": "10.1007/978-1-0716-5614-3_11",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-08T17:36:35.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Proofs of the author's book chapter are available and need correction by 16 September 2026.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08217da1c43587",
+                "messageId": "1a08217da1c43587",
+                "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 11), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
+                "from": "eproofing@springernature.com"
+              }
+            },
+            {
+              "timestamp": "2026-09-09T12:17:15.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The author submitted corrections for a book chapter, and the publisher will finalize it for publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08619dbbed6988",
+                "messageId": "1a08619dbbed6988",
+                "subject": "Confirmation mail for Chapter 10.1007/978-1-0716-5614-3_11 Wound Regeneration",
+                "from": "eproofing@springernature.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-08T17:36:35.000Z",
+          "journal": "Springer Nature",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Proofs of the author's book chapter are available and need correction by 16 September 2026.",
+          "source": {
+            "threadId": "1a08217da1c43587",
+            "messageId": "1a08217da1c43587",
+            "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 11), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
+            "from": "eproofing@springernature.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T12:17:15.000Z",
+          "journal": "Springer Nature",
+          "eventType": "other",
+          "manuscriptNumber": null,
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author submitted corrections for a book chapter, and the publisher will finalize it for publication.",
+          "source": {
+            "threadId": "1a08619dbbed6988",
+            "messageId": "1a08619dbbed6988",
+            "subject": "Confirmation mail for Chapter 10.1007/978-1-0716-5614-3_11 Wound Regeneration",
+            "from": "eproofing@springernature.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-08T17:36:35.000Z",
+      "updatedAt": "2026-09-09T12:17:15.000Z"
     },
     {
       "id": "comparative-in-vitro-evaluation-of-the-antimicrobial-activity-of-leuko",
@@ -935,74 +1033,6 @@
         }
       ],
       "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
-    },
-    {
-      "id": "preparation-of-platelet-lysate-pl-a-standardized-protocol-for-clinical",
-      "title": "Preparation of Platelet Lysate (PL): A Standardized Protocol for Clinical and Research Applications",
-      "titleNormalized": "preparation of platelet lysate pl a standardized protocol for clinical and research applications",
-      "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Accepted (awaiting publication)",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-09-08T17:36:35.000Z",
-          "outcome": "active",
-          "status": "accepted",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-08T17:36:35.000Z",
-              "eventType": "accepted",
-              "revisionRound": null,
-              "note": "Proofs of the author's book chapter are available and need correction by 16 September 2026.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a08217da1c43587",
-                "messageId": "1a08217da1c43587",
-                "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 11), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
-                "from": "eproofing@springernature.com"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-09-08T17:36:35.000Z",
-          "journal": "Springer Nature",
-          "eventType": "accepted",
-          "manuscriptNumber": null,
-          "label": "Accepted (awaiting publication)",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Proofs of the author's book chapter are available and need correction by 16 September 2026.",
-          "source": {
-            "threadId": "1a08217da1c43587",
-            "messageId": "1a08217da1c43587",
-            "subject": "978-1-0716-5613-6, 667990_1_En, (Chapter 11), Methods Molecular Biology, Vol. 3088, Francesco De Francesco and Kursad Turksen (Eds): Wound Regeneration",
-            "from": "eproofing@springernature.com"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-09-08T17:36:35.000Z",
-      "updatedAt": "2026-09-08T17:36:35.000Z"
     },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",

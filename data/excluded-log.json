@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-09T19:01:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Introducing the StanfordNext plan",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T13:16:32.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Mini Review or Commentary on your paper- Journal of Pediatrics and Pediatric Medicine",
+      "from": "Journal of Pediatrics and Pediatric Medicine <editor@pediatricsresearchjournal.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-09T09:22:39.000Z",
       "reason": "unrelated",
       "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Document shared with you: \"3000312 Clavicle fracture - (US) 2026 SU\"",
       "from": "\"Julie Phukan (via Google Docs)\" <drive-shares-dm-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T08:39:36.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "SQU Med J: Confirming your Registration to use Editorial Manager for Sultan Qaboos University Medical Journal",
-      "from": "SQU Med J Oman <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T08:46:40.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
-      "from": "Julie Phukan <jphukan@bmj.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
