@@ -1,6 +1,103 @@
 {
-  "generatedAt": "2026-09-09T06:04:31.988Z",
+  "generatedAt": "2026-09-09T11:32:49.202Z",
   "manuscripts": [
+    {
+      "id": "comparative-in-vitro-evaluation-of-the-antimicrobial-activity-of-leuko",
+      "title": "Comparative In-Vitro Evaluation of the Antimicrobial Activity of Leukocyte-Rich versus Leukocyte-Poor Platelet-Rich Plasma against Bacterial Pathogens",
+      "titleNormalized": "comparative in vitro evaluation of the antimicrobial activity of leukocyte rich versus leukocyte poor platelet rich plasma against bacterial pathogens",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision  requested",
+      "currentJournal": "World Journal of Translational Medicine",
+      "currentManuscriptNumber": "126837",
+      "currentStatus": "Revision requested",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Translational Medicine",
+          "manuscriptNumber": "126837",
+          "submittedDate": "2026-08-28T19:27:53.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-28T19:27:53.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "One of the peer reviewers has completed their review of the submitted manuscript.",
+              "manuscriptNumber": "126837",
+              "source": {
+                "threadId": "1a049d7ce4f6b46e",
+                "messageId": "1a049d7ce4f6b46e",
+                "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-09T11:19:28.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "A reviewer completed the review and provided comments indicating revisions are needed.",
+              "manuscriptNumber": "126837",
+              "source": {
+                "threadId": "1a085e4f6747d963",
+                "messageId": "1a085e4f6747d963",
+                "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-28T19:27:53.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "under_review",
+          "manuscriptNumber": "126837",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "One of the peer reviewers has completed their review of the submitted manuscript.",
+          "source": {
+            "threadId": "1a049d7ce4f6b46e",
+            "messageId": "1a049d7ce4f6b46e",
+            "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T11:19:28.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "126837",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "A reviewer completed the review and provided comments indicating revisions are needed.",
+          "source": {
+            "threadId": "1a085e4f6747d963",
+            "messageId": "1a085e4f6747d963",
+            "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-28T19:27:53.000Z",
+      "updatedAt": "2026-09-09T11:19:28.000Z"
+    },
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
       "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
@@ -5640,73 +5737,6 @@
       ],
       "createdAt": "2026-08-29T06:16:05.000Z",
       "updatedAt": "2026-08-29T06:16:05.000Z"
-    },
-    {
-      "id": "comparative-in-vitro-evaluation-of-the-antimicrobial-activity-of-leuko",
-      "title": "Comparative In-Vitro Evaluation of the Antimicrobial Activity of Leukocyte-Rich versus Leukocyte-Poor Platelet-Rich Plasma against Bacterial Pathogens",
-      "titleNormalized": "comparative in vitro evaluation of the antimicrobial activity of leukocyte rich versus leukocyte poor platelet rich plasma against bacterial pathogens",
-      "bucket": "in_review",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "World Journal of Translational Medicine",
-      "currentManuscriptNumber": "126837",
-      "currentStatus": "Under review",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "World Journal of Translational Medicine",
-          "manuscriptNumber": "126837",
-          "submittedDate": "2026-08-28T19:27:53.000Z",
-          "outcome": "active",
-          "status": "under_review",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-28T19:27:53.000Z",
-              "eventType": "under_review",
-              "revisionRound": null,
-              "note": "One of the peer reviewers has completed their review of the submitted manuscript.",
-              "manuscriptNumber": "126837",
-              "source": {
-                "threadId": "1a049d7ce4f6b46e",
-                "messageId": "1a049d7ce4f6b46e",
-                "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
-                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-28T19:27:53.000Z",
-          "journal": "World Journal of Translational Medicine",
-          "eventType": "under_review",
-          "manuscriptNumber": "126837",
-          "label": "Under review",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "One of the peer reviewers has completed their review of the submitted manuscript.",
-          "source": {
-            "threadId": "1a049d7ce4f6b46e",
-            "messageId": "1a049d7ce4f6b46e",
-            "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
-            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-28T19:27:53.000Z",
-      "updatedAt": "2026-08-28T19:27:53.000Z"
     },
     {
       "id": "ferroptosis-in-osteoarthritis-a-novel-mechanism-of-chondrocyte-death",

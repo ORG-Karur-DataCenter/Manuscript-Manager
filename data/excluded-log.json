@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-09T04:31:20.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Invitation: Understand Plain Language Summaries and its impact for your work. Register Now!",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T07:29:15.000Z",
+      "reason": "unrelated",
+      "subject": "New in Jenni: Charts 📊",
+      "from": "Marc from Jenni AI <marc@mail.jenni.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T07:26:43.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Sathish Muthu, Publish Up to 5 Research Papers in One Simple Step",
+      "from": "Editor IJRMCS <jesse.noel@journalserapublications.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T07:53:27.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4500501 - Review Request Reminder",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T10:02:48.000Z",
+      "reason": "unrelated",
+      "subject": "Your publication: Recommendations of the International Consensus Meeting (ICM) 2025 on Spinal Infections: Part A Pyogenic Spondylodiscitis",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-09T11:19:38.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, an article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-09T00:06:51.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Long-Term Primary Care Saves Lives — and Is Hard to Achieve",
@@ -2057,48 +2099,6 @@
       "subject": "Breaking News: Sajjan Kumar, former Congress MP convicted in anti-Sikh riots case, passes away",
       "from": "The Hindu <news@newsalertth.thehindu.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-21T13:01:21.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "A roadmap for cities facing extreme heat",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T11:27:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🚨🚨 AI agent-led threats to rise multifold",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T15:27:19.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Publish your next paper with Biomolecules and Biomedicine",
-      "from": "Biomolecules and Biomedicine <office@mail.bjbms.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T07:09:27.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "2026-08-31 07:09:24 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T14:52:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New Issue Online - eTOC for August 2026 issue",
-      "from": "Journal of Orthopaedics <etoc@scientificscholar.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T17:15:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "International Association for the Study of Pain - NEW ISSUE LIVE",
-      "from": "\"Lippincott®\" <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
