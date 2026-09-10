@@ -1,6 +1,290 @@
 {
-  "generatedAt": "2026-09-10T01:07:43.000Z",
+  "generatedAt": "2026-09-10T06:03:37.813Z",
   "manuscripts": [
+    {
+      "id": "comparative-in-vitro-evaluation-of-the-antimicrobial-activity-of-leuko",
+      "title": "Comparative In-Vitro Evaluation of the Antimicrobial Activity of Leukocyte-Rich versus Leukocyte-Poor Platelet-Rich Plasma against Bacterial Pathogens",
+      "titleNormalized": "comparative in vitro evaluation of the antimicrobial activity of leukocyte rich versus leukocyte poor platelet rich plasma against bacterial pathogens",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Translational Medicine",
+      "currentManuscriptNumber": "126837",
+      "currentStatus": "Revision requested",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Translational Medicine",
+          "manuscriptNumber": "126837",
+          "submittedDate": "2026-08-28T19:27:53.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-28T19:27:53.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "One of the peer reviewers has completed their review of the submitted manuscript.",
+              "manuscriptNumber": "126837",
+              "source": {
+                "threadId": "1a049d7ce4f6b46e",
+                "messageId": "1a049d7ce4f6b46e",
+                "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-09T11:19:28.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "A reviewer completed the review and provided comments indicating revisions are needed.",
+              "manuscriptNumber": "126837",
+              "source": {
+                "threadId": "1a085e4f6747d963",
+                "messageId": "1a085e4f6747d963",
+                "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T02:30:50.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The journal asks the author to sign the copyright license agreement and revise the manuscript before final acceptance.",
+              "manuscriptNumber": "126837",
+              "source": {
+                "threadId": "1a0892752529618a",
+                "messageId": "1a0892752529618a",
+                "subject": "World Journal of Translational Medicine - 126837 - Copyright License Agreement - Sathish Muthu",
+                "from": "Baishideng_CLA <baishideng_cla@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T04:08:35.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The manuscript was withdrawn from consideration.",
+              "manuscriptNumber": "126837",
+              "source": {
+                "threadId": "1a08980e30ccacc0",
+                "messageId": "1a08980e30ccacc0",
+                "subject": "World Journal of Translational Medicine Manuscript withdrawn - Manuscript NO.: 126837",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-28T19:27:53.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "under_review",
+          "manuscriptNumber": "126837",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "One of the peer reviewers has completed their review of the submitted manuscript.",
+          "source": {
+            "threadId": "1a049d7ce4f6b46e",
+            "messageId": "1a049d7ce4f6b46e",
+            "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T11:19:28.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "126837",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "A reviewer completed the review and provided comments indicating revisions are needed.",
+          "source": {
+            "threadId": "1a085e4f6747d963",
+            "messageId": "1a085e4f6747d963",
+            "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T02:30:50.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "126837",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-09-15T18:29:59.999Z",
+            "source": "stated",
+            "basis": "5 days from the email"
+          },
+          "note": "The journal asks the author to sign the copyright license agreement and revise the manuscript before final acceptance.",
+          "source": {
+            "threadId": "1a0892752529618a",
+            "messageId": "1a0892752529618a",
+            "subject": "World Journal of Translational Medicine - 126837 - Copyright License Agreement - Sathish Muthu",
+            "from": "Baishideng_CLA <baishideng_cla@wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T04:08:35.000Z",
+          "journal": "World Journal of Translational Medicine",
+          "eventType": "other",
+          "manuscriptNumber": "126837",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was withdrawn from consideration.",
+          "source": {
+            "threadId": "1a08980e30ccacc0",
+            "messageId": "1a08980e30ccacc0",
+            "subject": "World Journal of Translational Medicine Manuscript withdrawn - Manuscript NO.: 126837",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-28T19:27:53.000Z",
+      "updatedAt": "2026-09-10T04:08:35.000Z"
+    },
+    {
+      "id": "gut-microbiome-and-regenerative-medicine",
+      "title": "Gut Microbiome & Regenerative Medicine",
+      "titleNormalized": "gut microbiome and regenerative medicine",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": "89610755",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-09-17T18:29:59.999Z",
+      "deadlineSource": "assumed",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": "89610755",
+          "submittedDate": "2026-09-09T10:21:18.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-09T10:21:18.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
+              "manuscriptNumber": "89610755",
+              "source": {
+                "threadId": "19ee60d233f7db1d",
+                "messageId": "1a085afc00c7ac57",
+                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T02:45:56.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Production editor asked the author to submit missing BioRender license files for figures to continue the publication process.",
+              "manuscriptNumber": "89610755",
+              "source": {
+                "threadId": "19ee60d233f7db1d",
+                "messageId": "1a089352ec11f416",
+                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-09T10:21:18.000Z",
+          "journal": "Springer Nature",
+          "eventType": "sent_back",
+          "manuscriptNumber": "89610755",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-16T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a085afc00c7ac57",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T12:51:02.000Z",
+          "journal": "Springer Nature",
+          "eventType": "other",
+          "manuscriptNumber": "89610755",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The production editor requested missing figure license documents to proceed with publication of the author's manuscript.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a08638f94e66312",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T02:45:56.000Z",
+          "journal": "Springer Nature",
+          "eventType": "sent_back",
+          "manuscriptNumber": "89610755",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-17T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "Production editor asked the author to submit missing BioRender license files for figures to continue the publication process.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a089352ec11f416",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-09T12:51:02.000Z",
+      "updatedAt": "2026-09-10T02:45:56.000Z"
+    },
     {
       "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
       "title": "Preparation of Bone Marrow Aspirate Concentrate (BMAC): A Standardized Clinical Protocol for Wound Regeneration",
@@ -98,95 +382,6 @@
       ],
       "createdAt": "2026-09-08T17:49:08.000Z",
       "updatedAt": "2026-09-09T16:36:13.000Z"
-    },
-    {
-      "id": "gut-microbiome-and-regenerative-medicine",
-      "title": "Gut Microbiome & Regenerative Medicine",
-      "titleNormalized": "gut microbiome and regenerative medicine",
-      "bucket": "submissions",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": null,
-      "currentManuscriptNumber": null,
-      "currentStatus": null,
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": "89610755",
-          "submittedDate": "2026-09-09T10:21:18.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-09T10:21:18.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
-              "manuscriptNumber": "89610755",
-              "source": {
-                "threadId": "19ee60d233f7db1d",
-                "messageId": "1a085afc00c7ac57",
-                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
-                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-09-09T10:21:18.000Z",
-          "journal": "Springer Nature",
-          "eventType": "sent_back",
-          "manuscriptNumber": "89610755",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-16T18:29:59.999Z",
-            "source": "assumed",
-            "basis": "7 days — this journal's usual window, not stated in the email"
-          },
-          "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
-          "source": {
-            "threadId": "19ee60d233f7db1d",
-            "messageId": "1a085afc00c7ac57",
-            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
-            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-09T12:51:02.000Z",
-          "journal": "Springer Nature",
-          "eventType": "other",
-          "manuscriptNumber": "89610755",
-          "label": "Update",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The production editor requested missing figure license documents to proceed with publication of the author's manuscript.",
-          "source": {
-            "threadId": "19ee60d233f7db1d",
-            "messageId": "1a08638f94e66312",
-            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
-            "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-09-09T12:51:02.000Z",
-      "updatedAt": "2026-09-09T12:51:02.000Z"
     },
     {
       "id": "preparation-of-platelet-derived-biologics-for-wound-regeneration-a-sta",
@@ -481,103 +676,6 @@
       ],
       "createdAt": "2026-09-08T17:36:35.000Z",
       "updatedAt": "2026-09-09T12:17:15.000Z"
-    },
-    {
-      "id": "comparative-in-vitro-evaluation-of-the-antimicrobial-activity-of-leuko",
-      "title": "Comparative In-Vitro Evaluation of the Antimicrobial Activity of Leukocyte-Rich versus Leukocyte-Poor Platelet-Rich Plasma against Bacterial Pathogens",
-      "titleNormalized": "comparative in vitro evaluation of the antimicrobial activity of leukocyte rich versus leukocyte poor platelet rich plasma against bacterial pathogens",
-      "bucket": "revisions_pending",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision  requested",
-      "currentJournal": "World Journal of Translational Medicine",
-      "currentManuscriptNumber": "126837",
-      "currentStatus": "Revision requested",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "World Journal of Translational Medicine",
-          "manuscriptNumber": "126837",
-          "submittedDate": "2026-08-28T19:27:53.000Z",
-          "outcome": "active",
-          "status": "revision_requested",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-28T19:27:53.000Z",
-              "eventType": "under_review",
-              "revisionRound": null,
-              "note": "One of the peer reviewers has completed their review of the submitted manuscript.",
-              "manuscriptNumber": "126837",
-              "source": {
-                "threadId": "1a049d7ce4f6b46e",
-                "messageId": "1a049d7ce4f6b46e",
-                "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
-                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-09T11:19:28.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": null,
-              "note": "A reviewer completed the review and provided comments indicating revisions are needed.",
-              "manuscriptNumber": "126837",
-              "source": {
-                "threadId": "1a085e4f6747d963",
-                "messageId": "1a085e4f6747d963",
-                "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
-                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-28T19:27:53.000Z",
-          "journal": "World Journal of Translational Medicine",
-          "eventType": "under_review",
-          "manuscriptNumber": "126837",
-          "label": "Under review",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "One of the peer reviewers has completed their review of the submitted manuscript.",
-          "source": {
-            "threadId": "1a049d7ce4f6b46e",
-            "messageId": "1a049d7ce4f6b46e",
-            "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
-            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-09T11:19:28.000Z",
-          "journal": "World Journal of Translational Medicine",
-          "eventType": "revision_requested",
-          "manuscriptNumber": "126837",
-          "label": "Revision requested",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "A reviewer completed the review and provided comments indicating revisions are needed.",
-          "source": {
-            "threadId": "1a085e4f6747d963",
-            "messageId": "1a085e4f6747d963",
-            "subject": "World Journal of Translational Medicine Manuscript review of Manuscript NO: 126837",
-            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-28T19:27:53.000Z",
-      "updatedAt": "2026-09-09T11:19:28.000Z"
     },
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",

@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-10T01:58:03.000Z",
+      "reason": "unrelated",
+      "subject": "2nd rod fracture manuscript",
+      "from": "Vibhu Krishnan <drvibu007@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T05:32:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Sathish, Curious about the future of publishing? Secure your seat in our upcoming session!",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-10T00:53:12.000Z",
       "reason": "unrelated",
       "subject": "Re:  ICM-Focus issue-GSJ - From Dr S Rajasekaran",
@@ -2084,20 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "New Issue Online - eTOC for September 2026 issue",
       "from": "Indian Journal of Medical Research <etoc@scientificscholar.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T07:10:00.000Z",
-      "reason": "unrelated",
-      "subject": "[Biomedicines] Manuscript ID: biomedicines-2210334 - Update on Your Article Metrics",
-      "from": "\"MDPI – System Report\" <noreply@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T07:54:14.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
-      "from": "Julie Phukan <jphukan@bmj.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

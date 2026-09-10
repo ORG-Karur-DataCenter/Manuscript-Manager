@@ -209,6 +209,18 @@
         "Dhibin"
       ],
       "failed": []
+    },
+    {
+      "key": "gut-microbiome-and-regenerative-medicine|2026-09-17T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "gut-microbiome-and-regenerative-medicine",
+      "title": "Gut Microbiome & Regenerative Medicine",
+      "due": "2026-09-17T18:29:59.999Z",
+      "at": "2026-09-10T06:03:40.779Z",
+      "to": [
+        "Dhibin"
+      ],
+      "failed": []
     }
   ],
   "issues": {
@@ -272,6 +284,11 @@
       "number": 20,
       "title": "Amendment 28 days overdue — Should spinal Ewing's sarcoma be managed differently from extremity d…",
       "due": "2026-08-13T18:29:59.999Z"
+    },
+    "gut-microbiome-and-regenerative-medicine": {
+      "number": 21,
+      "title": "Amendment 7 days left — Gut Microbiome & Regenerative Medicine",
+      "due": "2026-09-17T18:29:59.999Z"
     }
   }
 }
