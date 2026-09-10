@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-10T06:34:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Microbiology Contents: Volume 24 Number 10",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T10:28:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Is your research ready to be published?",
+      "from": "Sage Author Support <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T10:30:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 10th September 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T07:05:23.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T07:26:00.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "11554: Original Article: JOCR Article for Review",
+      "from": "Nutan Saroj <sarojnutan@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T09:00:27.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Rare Lumbar Data",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T09:50:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Damilare M. Akintunde recommended this article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T10:30:26.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Review invitation: A retrospective study of Accidental Injury Epidemiology...",
+      "from": "Maria from Frontiers <physiology.editorial.office@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-10T01:58:03.000Z",
       "reason": "unrelated",
       "subject": "2nd rod fracture manuscript",
@@ -2042,62 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Madhan Jeyaraman - new articles",
       "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T06:37:08.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Journal of Investigative Surgery - Invitation to Review Manuscript ID UIVS-2026-0256",
-      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T06:38:46.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-41550] - [EMID:5eff89640a8783ef]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T08:01:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T08:38:37.000Z",
-      "reason": "unrelated",
-      "subject": "3000312 Clavicle fracture - (US) 2026 SU",
-      "from": "\"Julie Phukan (Google Docs)\" <comments-noreply@docs.google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T10:29:31.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, an article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T12:01:31.000Z",
-      "reason": "unrelated",
-      "subject": "Submit Your Letters of Intent by September 15, 2026",
-      "from": "LSRS  <lsrs@lsrs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T12:38:44.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "LAST CHANCE: Register Today & Save on IKAF 2026 Registration",
-      "from": "ISAKOS <isakos@isakos.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T14:39:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New Issue Online - eTOC for September 2026 issue",
-      "from": "Indian Journal of Medical Research <etoc@scientificscholar.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
