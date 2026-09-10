@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-10T20:31:28.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID 05395420 | Invitation to Submit an Original Research Manuscript to WJTM – USD 600 Honorarium and No APC",
+      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-10T17:57:08.000Z",
       "reason": "unrelated",
       "subject": "Activate your account",
@@ -2092,13 +2099,6 @@
       "subject": "Aussie Flu Season Implications for North America",
       "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T04:49:30.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Follow up on review request for JOIO-D-26-01123 - [EMID:79ae56ed4c228ae7]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
