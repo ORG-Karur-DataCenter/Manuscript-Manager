@@ -3743,108 +3743,6 @@
       "deadlineSource": null
     },
     {
-      "id": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
-      "title": "A Patho-mechanical Classification of Proximal Radius Fractures Predicting Associated Injuries and Functional Outcomes​",
-      "titleNormalized": "a patho mechanical classification of proximal radius fractures predicting associated injuries and functional outcomes",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
-      "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": "JOIO-D-26-01625",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-09-17T18:29:59.999Z",
-      "deadlineSource": "stated",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu",
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "Indian Journal of Orthopaedics",
-          "manuscriptNumber": "JOIO-D-26-01625",
-          "submittedDate": "2026-08-31T19:45:31.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-31T19:45:31.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was received and a submission confirmation was sent.",
-              "manuscriptNumber": "JOIO-D-26-01625",
-              "source": {
-                "threadId": "1a0595b002fbf5ca",
-                "messageId": "1a0595b002fbf5ca",
-                "subject": "Submission Confirmation",
-                "from": "JOIO Editorial Office <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-03T04:49:48.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The editorial office informed the author that the manuscript submission is incomplete and must be completed within 14 days.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a0659a18e3d2647",
-                "messageId": "1a0659a18e3d2647",
-                "subject": "JOIO Incomplete Submission - [EMID:c1b5657a86504f31]",
-                "from": "JOIO Editorial Office <em@editorialmanager.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-31T19:45:31.000Z",
-          "journal": "Indian Journal of Orthopaedics",
-          "eventType": "new_submission",
-          "manuscriptNumber": "JOIO-D-26-01625",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was received and a submission confirmation was sent.",
-          "source": {
-            "threadId": "1a0595b002fbf5ca",
-            "messageId": "1a0595b002fbf5ca",
-            "subject": "Submission Confirmation",
-            "from": "JOIO Editorial Office <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-03T04:49:48.000Z",
-          "journal": "Indian Journal of Orthopaedics",
-          "eventType": "sent_back",
-          "manuscriptNumber": null,
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-17T18:29:59.999Z",
-            "source": "stated",
-            "basis": "14 days from the email"
-          },
-          "note": "The editorial office informed the author that the manuscript submission is incomplete and must be completed within 14 days.",
-          "source": {
-            "threadId": "1a0659a18e3d2647",
-            "messageId": "1a0659a18e3d2647",
-            "subject": "JOIO Incomplete Submission - [EMID:c1b5657a86504f31]",
-            "from": "JOIO Editorial Office <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-31T19:45:31.000Z",
-      "updatedAt": "2026-09-03T04:49:48.000Z"
-    },
-    {
       "id": "interleukin-6-and-tumour-necrosis-factor-alpha-in-osteoimmunology-agin",
       "title": "Interleukin-6 and tumour necrosis factor-alpha in osteoimmunology: Aging, and anti-cytokine therapies",
       "titleNormalized": "interleukin 6 and tumour necrosis factor alpha in osteoimmunology aging and anti cytokine therapies",
@@ -19603,5 +19501,5 @@
       "updatedAt": "2026-02-27T04:16:41.000Z"
     }
   ],
-  "editedAt": "2026-09-03T18:02:35.635Z"
+  "editedAt": "2026-09-10T18:14:38.387Z"
 }
