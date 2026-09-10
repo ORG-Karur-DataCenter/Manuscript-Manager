@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-10T00:53:12.000Z",
+      "reason": "unrelated",
+      "subject": "Re:  ICM-Focus issue-GSJ - From Dr S Rajasekaran",
+      "from": "\"周非非\" <orthozhou@163.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-09T09:22:39.000Z",
       "reason": "unrelated",
       "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
@@ -2091,13 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
       "from": "Julie Phukan <jphukan@bmj.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-01T08:01:39.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
