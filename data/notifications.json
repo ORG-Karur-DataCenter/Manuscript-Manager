@@ -288,7 +288,8 @@
     "gut-microbiome-and-regenerative-medicine": {
       "number": 21,
       "title": "Amendment 7 days left — Gut Microbiome & Regenerative Medicine",
-      "due": "2026-09-17T18:29:59.999Z"
+      "due": "2026-09-17T18:29:59.999Z",
+      "closed": true
     }
   }
 }

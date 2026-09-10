@@ -1,6 +1,644 @@
 {
-  "generatedAt": "2026-09-10T11:29:35.368Z",
+  "generatedAt": "2026-09-10T16:36:13.493Z",
   "manuscripts": [
+    {
+      "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
+      "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
+      "currentStatus": "Revision submitted — Editor changes approved",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "submittedDate": "2026-08-28T15:10:08.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-11T15:41:32.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The editors requested a revised manuscript with a deadline of Sep 01 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00231",
+              "source": {
+                "threadId": "19ff17c6f85bd9ea",
+                "messageId": "19ff17c6f85bd9ea",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231) - [EMID:2f969b6068e2b3e4]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-12T17:10:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The submission PDF has been generated in Editorial Manager and requires author approval to finalize submission to JBJS Open Access.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ff6dab146dd539",
+                "messageId": "19ff6f44733e901d",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-12T17:43:32.000Z",
+              "eventType": "under_review",
+              "revisionRound": 1,
+              "note": "The journal confirmed receipt of the author's revised manuscript.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "19ff7127d1cbe7f8",
+                "messageId": "19ff7127d1cbe7f8",
+                "subject": "JBJS Open Access Resubmission Confirmation",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-13T14:50:43.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "19ffb9aa0640051c",
+                "messageId": "19ffb9aa0640051c",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:2981e7e7ecdd0c7d]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-21T14:18:36.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a024b01b93236ad",
+                "messageId": "1a024b01b93236ad",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-28T15:10:08.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a048ec17fb24a28",
+                "messageId": "1a048ec17fb24a28",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
+                "from": "Josh Modarres <jmodarres@jbjs.org>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T12:09:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0528a3dc8cfb00",
+                "messageId": "1a0529340bfc8c7b",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-30T12:15:30.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a05298b89ad07bc",
+                "messageId": "1a05298b89ad07bc",
+                "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-08-31T14:48:39.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The revised manuscript was returned to the author for additional changes, with a one‑week deadline.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a0584b57070607c",
+                "messageId": "1a0584b57070607c",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:bcf78cd657118d4a]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-05T20:26:31.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal built a PDF of the author's submission and requests approval before the submission is finalized",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0732d303a074b6",
+                "messageId": "1a07340624d288fc",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-05T20:29:29.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The author approved editorial changes to their submission and the journal acknowledges the submission and invites the author to check its progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a07343207ab9f03",
+                "messageId": "1a07343207ab9f03",
+                "subject": "Thank you - [EMID:5a7a449fee827490]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-08T21:16:32.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The revised manuscript was sent back to the author for additional changes, with a request to complete them within a week.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a082e18c6739195",
+                "messageId": "1a082e18c6739195",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:9ce54584f002dfd8]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T16:17:39.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal built a PDF of the author's submission and requests approval before the submission is finalized.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08c0e99315917b",
+                "messageId": "1a08c1c70a32582c",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-11T15:41:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00231",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-09-01T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Sep 01 2026 11:59PM"
+          },
+          "note": "The editors requested a revised manuscript with a deadline of Sep 01 2026.",
+          "source": {
+            "threadId": "19ff17c6f85bd9ea",
+            "messageId": "19ff17c6f85bd9ea",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231) - [EMID:2f969b6068e2b3e4]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-12T17:10:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The submission PDF has been generated in Editorial Manager and requires author approval to finalize submission to JBJS Open Access.",
+          "source": {
+            "threadId": "19ff6dab146dd539",
+            "messageId": "19ff6f44733e901d",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-12T17:43:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Under review",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the author's revised manuscript.",
+          "source": {
+            "threadId": "19ff7127d1cbe7f8",
+            "messageId": "19ff7127d1cbe7f8",
+            "subject": "JBJS Open Access Resubmission Confirmation",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-13T14:50:43.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-08-20T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+          "source": {
+            "threadId": "19ffb9aa0640051c",
+            "messageId": "19ffb9aa0640051c",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:2981e7e7ecdd0c7d]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-21T14:18:36.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-08-28T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
+          "source": {
+            "threadId": "1a024b01b93236ad",
+            "messageId": "1a024b01b93236ad",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-28T15:10:08.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
+          "source": {
+            "threadId": "1a048ec17fb24a28",
+            "messageId": "1a048ec17fb24a28",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
+            "from": "Josh Modarres <jmodarres@jbjs.org>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T12:09:31.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
+          "source": {
+            "threadId": "1a0528a3dc8cfb00",
+            "messageId": "1a0529340bfc8c7b",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-30T12:15:30.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": null,
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
+          "source": {
+            "threadId": "1a05298b89ad07bc",
+            "messageId": "1a05298b89ad07bc",
+            "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-31T14:48:39.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-07T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The revised manuscript was returned to the author for additional changes, with a one‑week deadline.",
+          "source": {
+            "threadId": "1a0584b57070607c",
+            "messageId": "1a0584b57070607c",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:bcf78cd657118d4a]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-05T20:26:31.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal built a PDF of the author's submission and requests approval before the submission is finalized",
+          "source": {
+            "threadId": "1a0732d303a074b6",
+            "messageId": "1a07340624d288fc",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-05T20:29:29.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": null,
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author approved editorial changes to their submission and the journal acknowledges the submission and invites the author to check its progress.",
+          "source": {
+            "threadId": "1a07343207ab9f03",
+            "messageId": "1a07343207ab9f03",
+            "subject": "Thank you - [EMID:5a7a449fee827490]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-08T21:16:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-09-16T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The revised manuscript was sent back to the author for additional changes, with a request to complete them within a week.",
+          "source": {
+            "threadId": "1a082e18c6739195",
+            "messageId": "1a082e18c6739195",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:9ce54584f002dfd8]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T16:17:39.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal built a PDF of the author's submission and requests approval before the submission is finalized.",
+          "source": {
+            "threadId": "1a08c0e99315917b",
+            "messageId": "1a08c1c70a32582c",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-28T15:10:08.000Z",
+      "updatedAt": "2026-09-10T16:17:39.000Z",
+      "deadline": null,
+      "deadlineSource": null,
+      "overrides": {
+        "bucket": "submissions",
+        "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
+        "currentStatus": "Revision submitted — Editor changes approved"
+      },
+      "edits": [
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "bucket",
+              "from": "needs_action",
+              "to": "submissions"
+            },
+            {
+              "field": "notes",
+              "from": null,
+              "to": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
+            },
+            {
+              "field": "deadline",
+              "from": null,
+              "to": null,
+              "clearedByMove": true
+            }
+          ]
+        },
+        {
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "currentStatus",
+              "from": "Sent back for edits",
+              "to": "Revision submitted — Editor changes approved"
+            }
+          ]
+        }
+      ],
+      "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
+    },
+    {
+      "id": "gut-microbiome-and-regenerative-medicine",
+      "title": "Gut Microbiome & Regenerative Medicine",
+      "titleNormalized": "gut microbiome and regenerative medicine",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": "89610755",
+      "currentStatus": "Under review",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": "89610755",
+          "submittedDate": "2026-09-09T10:21:18.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-09T10:21:18.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
+              "manuscriptNumber": "89610755",
+              "source": {
+                "threadId": "19ee60d233f7db1d",
+                "messageId": "1a085afc00c7ac57",
+                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T02:45:56.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Production editor asked the author to submit missing BioRender license files for figures to continue the publication process.",
+              "manuscriptNumber": "89610755",
+              "source": {
+                "threadId": "19ee60d233f7db1d",
+                "messageId": "1a089352ec11f416",
+                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T15:40:00.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The production editor confirmed receipt of permission documents and indicated the manuscript will undergo plagiarism check before editorial approval and publication.",
+              "manuscriptNumber": "89610755",
+              "source": {
+                "threadId": "19ee60d233f7db1d",
+                "messageId": "1a08bfa0741b76b5",
+                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+                "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-09T10:21:18.000Z",
+          "journal": "Springer Nature",
+          "eventType": "sent_back",
+          "manuscriptNumber": "89610755",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-16T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a085afc00c7ac57",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-09T12:51:02.000Z",
+          "journal": "Springer Nature",
+          "eventType": "other",
+          "manuscriptNumber": "89610755",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The production editor requested missing figure license documents to proceed with publication of the author's manuscript.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a08638f94e66312",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T02:45:56.000Z",
+          "journal": "Springer Nature",
+          "eventType": "sent_back",
+          "manuscriptNumber": "89610755",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-17T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "Production editor asked the author to submit missing BioRender license files for figures to continue the publication process.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a089352ec11f416",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T15:40:00.000Z",
+          "journal": "Springer Nature",
+          "eventType": "under_review",
+          "manuscriptNumber": "89610755",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The production editor confirmed receipt of permission documents and indicated the manuscript will undergo plagiarism check before editorial approval and publication.",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a08bfa0741b76b5",
+            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-09T12:51:02.000Z",
+      "updatedAt": "2026-09-10T15:40:00.000Z"
+    },
     {
       "id": "comparative-in-vitro-evaluation-of-the-antimicrobial-activity-of-leuko",
       "title": "Comparative In-Vitro Evaluation of the Antimicrobial Activity of Leukocyte-Rich versus Leukocyte-Poor Platelet-Rich Plasma against Bacterial Pathogens",
@@ -161,129 +799,6 @@
       ],
       "createdAt": "2026-08-28T19:27:53.000Z",
       "updatedAt": "2026-09-10T04:08:35.000Z"
-    },
-    {
-      "id": "gut-microbiome-and-regenerative-medicine",
-      "title": "Gut Microbiome & Regenerative Medicine",
-      "titleNormalized": "gut microbiome and regenerative medicine",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": "89610755",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-09-17T18:29:59.999Z",
-      "deadlineSource": "assumed",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": "89610755",
-          "submittedDate": "2026-09-09T10:21:18.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-09T10:21:18.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
-              "manuscriptNumber": "89610755",
-              "source": {
-                "threadId": "19ee60d233f7db1d",
-                "messageId": "1a085afc00c7ac57",
-                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
-                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-10T02:45:56.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Production editor asked the author to submit missing BioRender license files for figures to continue the publication process.",
-              "manuscriptNumber": "89610755",
-              "source": {
-                "threadId": "19ee60d233f7db1d",
-                "messageId": "1a089352ec11f416",
-                "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
-                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-09-09T10:21:18.000Z",
-          "journal": "Springer Nature",
-          "eventType": "sent_back",
-          "manuscriptNumber": "89610755",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-16T18:29:59.999Z",
-            "source": "assumed",
-            "basis": "7 days — this journal's usual window, not stated in the email"
-          },
-          "note": "The production editor asks the author to provide BioRender license documents for two figures before the manuscript can proceed to publication.",
-          "source": {
-            "threadId": "19ee60d233f7db1d",
-            "messageId": "1a085afc00c7ac57",
-            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
-            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-09T12:51:02.000Z",
-          "journal": "Springer Nature",
-          "eventType": "other",
-          "manuscriptNumber": "89610755",
-          "label": "Update",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The production editor requested missing figure license documents to proceed with publication of the author's manuscript.",
-          "source": {
-            "threadId": "19ee60d233f7db1d",
-            "messageId": "1a08638f94e66312",
-            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
-            "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-10T02:45:56.000Z",
-          "journal": "Springer Nature",
-          "eventType": "sent_back",
-          "manuscriptNumber": "89610755",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-17T18:29:59.999Z",
-            "source": "assumed",
-            "basis": "7 days — this journal's usual window, not stated in the email"
-          },
-          "note": "Production editor asked the author to submit missing BioRender license files for figures to continue the publication process.",
-          "source": {
-            "threadId": "19ee60d233f7db1d",
-            "messageId": "1a089352ec11f416",
-            "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
-            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-09-09T12:51:02.000Z",
-      "updatedAt": "2026-09-10T02:45:56.000Z"
     },
     {
       "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
@@ -676,461 +1191,6 @@
       ],
       "createdAt": "2026-09-08T17:36:35.000Z",
       "updatedAt": "2026-09-09T12:17:15.000Z"
-    },
-    {
-      "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
-      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
-      "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
-      "currentJournal": "JBJS Open Access",
-      "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
-      "currentStatus": "Revision submitted — Editor changes approved",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "submittedDate": "2026-08-28T15:10:08.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-11T15:41:32.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": 1,
-              "note": "The editors requested a revised manuscript with a deadline of Sep 01 2026.",
-              "manuscriptNumber": "JBJSOA-D-26-00231",
-              "source": {
-                "threadId": "19ff17c6f85bd9ea",
-                "messageId": "19ff17c6f85bd9ea",
-                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231) - [EMID:2f969b6068e2b3e4]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-12T17:10:32.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The submission PDF has been generated in Editorial Manager and requires author approval to finalize submission to JBJS Open Access.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ff6dab146dd539",
-                "messageId": "19ff6f44733e901d",
-                "subject": "Your JBJS Open Access PDF Has Been Built",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-12T17:43:32.000Z",
-              "eventType": "under_review",
-              "revisionRound": 1,
-              "note": "The journal confirmed receipt of the author's revised manuscript.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "19ff7127d1cbe7f8",
-                "messageId": "19ff7127d1cbe7f8",
-                "subject": "JBJS Open Access Resubmission Confirmation",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-13T14:50:43.000Z",
-              "eventType": "sent_back",
-              "revisionRound": 1,
-              "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "19ffb9aa0640051c",
-                "messageId": "19ffb9aa0640051c",
-                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:2981e7e7ecdd0c7d]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-21T14:18:36.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "1a024b01b93236ad",
-                "messageId": "1a024b01b93236ad",
-                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-28T15:10:08.000Z",
-              "eventType": "sent_back",
-              "revisionRound": 1,
-              "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "1a048ec17fb24a28",
-                "messageId": "1a048ec17fb24a28",
-                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
-                "from": "Josh Modarres <jmodarres@jbjs.org>"
-              }
-            },
-            {
-              "timestamp": "2026-08-30T12:09:31.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a0528a3dc8cfb00",
-                "messageId": "1a0529340bfc8c7b",
-                "subject": "Your JBJS Open Access PDF Has Been Built",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-30T12:15:30.000Z",
-              "eventType": "under_review",
-              "revisionRound": null,
-              "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a05298b89ad07bc",
-                "messageId": "1a05298b89ad07bc",
-                "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-31T14:48:39.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The revised manuscript was returned to the author for additional changes, with a one‑week deadline.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "1a0584b57070607c",
-                "messageId": "1a0584b57070607c",
-                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:bcf78cd657118d4a]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-05T20:26:31.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The journal built a PDF of the author's submission and requests approval before the submission is finalized",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a0732d303a074b6",
-                "messageId": "1a07340624d288fc",
-                "subject": "Your JBJS Open Access PDF Has Been Built",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-05T20:29:29.000Z",
-              "eventType": "other",
-              "revisionRound": null,
-              "note": "The author approved editorial changes to their submission and the journal acknowledges the submission and invites the author to check its progress.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a07343207ab9f03",
-                "messageId": "1a07343207ab9f03",
-                "subject": "Thank you - [EMID:5a7a449fee827490]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-08T21:16:32.000Z",
-              "eventType": "sent_back",
-              "revisionRound": 1,
-              "note": "The revised manuscript was sent back to the author for additional changes, with a request to complete them within a week.",
-              "manuscriptNumber": "JBJSOA-D-26-00231R1",
-              "source": {
-                "threadId": "1a082e18c6739195",
-                "messageId": "1a082e18c6739195",
-                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:9ce54584f002dfd8]",
-                "from": "JBJS Open Access <em@editorialmanager.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-11T15:41:32.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "revision_requested",
-          "manuscriptNumber": "JBJSOA-D-26-00231",
-          "label": "Revision requested",
-          "revisionRound": 1,
-          "deadline": {
-            "due": "2026-09-01T18:29:59.999Z",
-            "source": "stated",
-            "basis": "Sep 01 2026 11:59PM"
-          },
-          "note": "The editors requested a revised manuscript with a deadline of Sep 01 2026.",
-          "source": {
-            "threadId": "19ff17c6f85bd9ea",
-            "messageId": "19ff17c6f85bd9ea",
-            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231) - [EMID:2f969b6068e2b3e4]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-12T17:10:32.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "new_submission",
-          "manuscriptNumber": null,
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The submission PDF has been generated in Editorial Manager and requires author approval to finalize submission to JBJS Open Access.",
-          "source": {
-            "threadId": "19ff6dab146dd539",
-            "messageId": "19ff6f44733e901d",
-            "subject": "Your JBJS Open Access PDF Has Been Built",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-12T17:43:32.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "under_review",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Under review",
-          "revisionRound": 1,
-          "deadline": null,
-          "note": "The journal confirmed receipt of the author's revised manuscript.",
-          "source": {
-            "threadId": "19ff7127d1cbe7f8",
-            "messageId": "19ff7127d1cbe7f8",
-            "subject": "JBJS Open Access Resubmission Confirmation",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-13T14:50:43.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Sent back for edits",
-          "revisionRound": 1,
-          "deadline": {
-            "due": "2026-08-20T18:29:59.999Z",
-            "source": "stated",
-            "basis": "7 days from the email"
-          },
-          "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
-          "source": {
-            "threadId": "19ffb9aa0640051c",
-            "messageId": "19ffb9aa0640051c",
-            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:2981e7e7ecdd0c7d]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-21T14:18:36.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-08-28T18:29:59.999Z",
-            "source": "stated",
-            "basis": "7 days from the email"
-          },
-          "note": "The journal returned the revised manuscript to the author, requesting further changes before processing can continue.",
-          "source": {
-            "threadId": "1a024b01b93236ad",
-            "messageId": "1a024b01b93236ad",
-            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:8631d8f484445ff7]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-28T15:10:08.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Sent back for edits",
-          "revisionRound": 1,
-          "note": "The manuscript was returned to the author for further revisions before it can proceed in the review process.",
-          "source": {
-            "threadId": "1a048ec17fb24a28",
-            "messageId": "1a048ec17fb24a28",
-            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1)",
-            "from": "Josh Modarres <jmodarres@jbjs.org>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-30T12:09:31.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "new_submission",
-          "manuscriptNumber": null,
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The author is instructed to review and approve the generated PDF before the manuscript is officially submitted.",
-          "source": {
-            "threadId": "1a0528a3dc8cfb00",
-            "messageId": "1a0529340bfc8c7b",
-            "subject": "Your JBJS Open Access PDF Has Been Built",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-30T12:15:30.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "under_review",
-          "manuscriptNumber": null,
-          "label": "Under review",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The author approved editorial changes, and the manuscript is now proceeding in the review process.",
-          "source": {
-            "threadId": "1a05298b89ad07bc",
-            "messageId": "1a05298b89ad07bc",
-            "subject": "Thank you - [EMID:3c716ed78c3c36b4]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-31T14:48:39.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-07T18:29:59.999Z",
-            "source": "stated",
-            "basis": "7 days from the email"
-          },
-          "note": "The revised manuscript was returned to the author for additional changes, with a one‑week deadline.",
-          "source": {
-            "threadId": "1a0584b57070607c",
-            "messageId": "1a0584b57070607c",
-            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:bcf78cd657118d4a]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-05T20:26:31.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "new_submission",
-          "manuscriptNumber": null,
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The journal built a PDF of the author's submission and requests approval before the submission is finalized",
-          "source": {
-            "threadId": "1a0732d303a074b6",
-            "messageId": "1a07340624d288fc",
-            "subject": "Your JBJS Open Access PDF Has Been Built",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-05T20:29:29.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "other",
-          "manuscriptNumber": null,
-          "label": "Update",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The author approved editorial changes to their submission and the journal acknowledges the submission and invites the author to check its progress.",
-          "source": {
-            "threadId": "1a07343207ab9f03",
-            "messageId": "1a07343207ab9f03",
-            "subject": "Thank you - [EMID:5a7a449fee827490]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-08T21:16:32.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
-          "label": "Sent back for edits",
-          "revisionRound": 1,
-          "deadline": {
-            "due": "2026-09-16T18:29:59.999Z",
-            "source": "stated",
-            "basis": "7 days from the email"
-          },
-          "note": "The revised manuscript was sent back to the author for additional changes, with a request to complete them within a week.",
-          "source": {
-            "threadId": "1a082e18c6739195",
-            "messageId": "1a082e18c6739195",
-            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R1) - [EMID:9ce54584f002dfd8]",
-            "from": "JBJS Open Access <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-09-08T21:16:32.000Z",
-      "deadline": "2026-09-16T18:29:59.999Z",
-      "deadlineSource": "stated",
-      "overrides": {
-        "bucket": "submissions",
-        "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
-        "currentStatus": "Revision submitted — Editor changes approved"
-      },
-      "edits": [
-        {
-          "by": "dashboard",
-          "changes": [
-            {
-              "field": "bucket",
-              "from": "needs_action",
-              "to": "submissions"
-            },
-            {
-              "field": "notes",
-              "from": null,
-              "to": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
-            },
-            {
-              "field": "deadline",
-              "from": null,
-              "to": null,
-              "clearedByMove": true
-            }
-          ]
-        },
-        {
-          "by": "dashboard",
-          "changes": [
-            {
-              "field": "currentStatus",
-              "from": "Sent back for edits",
-              "to": "Revision submitted — Editor changes approved"
-            }
-          ]
-        }
-      ],
-      "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent."
     },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
