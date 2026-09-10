@@ -131,6 +131,13 @@ function patchRequest(id, patch, { password = PASSWORD } = {}) {
   });
 }
 
+function deleteRequest(id, { password = PASSWORD } = {}) {
+  return new Request(`https://proxy.test/manuscripts/${id}`, {
+    method: "DELETE",
+    headers: { Authorization: `Bearer ${password}` },
+  });
+}
+
 const call = (request, e = env) => worker.fetch(request, e);
 
 await check("a missing data file blames the deployment, not the manuscript", async () => {
@@ -209,12 +216,14 @@ await check("a wrong password is refused", async () => {
 await check("no response body ever contains the GitHub token", async () => {
   const paths = ["/health", "/manuscripts/m1", "/sync", "/sync/12345", "/nope"];
   for (const path of paths) {
-    for (const method of ["GET", "POST", "PATCH"]) {
+    for (const method of ["GET", "POST", "PATCH", "DELETE"]) {
       stubGitHub({ registry: registryWith({}) });
       const res = await call(new Request(`https://proxy.test${path}`, {
         method,
         headers: { Authorization: `Bearer ${PASSWORD}` },
-        ...(method === "GET" ? {} : { body: JSON.stringify({ bucket: "in_review" }) }),
+        ...(method === "GET" || method === "DELETE"
+          ? {}
+          : { body: JSON.stringify({ bucket: "in_review" }) }),
       }));
       const text = await res.text();
       assert(!text.includes(TOKEN), `${method} ${path} leaked the token`);
@@ -454,8 +463,9 @@ await check("a browser preflight is answered", async () => {
     headers: { Origin: "https://org-karur-datacenter.github.io" },
   }));
   assert(res.status === 204, `expected 204, got ${res.status}`);
-  assert(/PATCH/.test(res.headers.get("Access-Control-Allow-Methods") || ""),
-    "PATCH is not allowed, so the browser will block every edit");
+  const allowed = res.headers.get("Access-Control-Allow-Methods") || "";
+  assert(/PATCH/.test(allowed), "PATCH is not allowed, so the browser will block every edit");
+  assert(/DELETE/.test(allowed), "DELETE is not allowed, so the browser will block every deletion");
 });
 
 await check("edits are written to the branch the dashboard reads", async () => {
@@ -463,6 +473,86 @@ await check("edits are written to the branch the dashboard reads", async () => {
   await call(patchRequest("m1", { bucket: "published" }));
   const put = gh.calls.find((c) => c.method === "PUT");
   assert(JSON.parse(put.options.body).branch === BRANCH, "the edit went to the wrong branch");
+});
+
+
+// --- deleting a manuscript --------------------------------------------------
+//
+// A delete has one property an edit does not: get it wrong and there is
+// nothing left on the page to notice it by. So it is checked for what it
+// removes AND for what it leaves.
+
+await check("a delete removes only the manuscript named", async () => {
+  const gh = stubGitHub({
+    registry: registryWith({ id: "m1" }, { id: "m2", title: "A Second Paper Left Alone" }),
+  });
+  const res = await call(deleteRequest("m1"));
+  assert(res.status === 200, `expected 200, got ${res.status}`);
+  const left = gh.written().manuscripts;
+  assert(left.length === 1, `expected 1 manuscript left, got ${left.length}`);
+  assert(left[0].id === "m2", `the wrong manuscript survived: ${left[0].id}`);
+});
+
+await check("and hands back what it removed", async () => {
+  stubGitHub({ registry: registryWith({ id: "m1", title: "A Paper About Knees" }) });
+  const body = await (await call(deleteRequest("m1"))).json();
+  assert(body.ok === true, "delete did not report success");
+  assert(body.deleted && body.deleted.id === "m1", `deleted is ${JSON.stringify(body.deleted)}`);
+});
+
+await check("and says in the commit what can no longer be seen on the page", async () => {
+  const gh = stubGitHub({
+    registry: registryWith({
+      id: "m1",
+      title: "A Paper About Knees",
+      currentManuscriptNumber: "JOIO-D-26-01625",
+      timeline: [{ eventType: "new_submission" }, { eventType: "rejected" }],
+    }),
+  });
+  await call(deleteRequest("m1"));
+  const message = JSON.parse(gh.calls.find((c) => c.method === "PUT").options.body).message;
+  assert(/^Delete "A Paper About Knees"/.test(message), `message was: ${message}`);
+  assert(message.includes("JOIO-D-26-01625"), "the manuscript number is not recoverable from history");
+  assert(/2/.test(message.split("timeline entries removed:")[1] || ""), "does not say how much history went");
+});
+
+await check("a delete losing the race to the sync is replayed, not dropped", async () => {
+  const gh = stubGitHub({
+    registry: registryWith({ id: "m1" }, { id: "m2" }),
+    plan: ["conflict", "ok"],
+  });
+  const res = await call(deleteRequest("m1"));
+  assert(res.status === 200, `expected 200, got ${res.status}`);
+  assert(gh.written().manuscripts.length === 1, "the retry did not delete anything");
+  const puts = gh.calls.filter((c) => c.method === "PUT");
+  assert(puts.length === 2, `expected 2 write attempts, got ${puts.length}`);
+});
+
+await check("deleting something already gone says so rather than half-succeeding", async () => {
+  stubGitHub({ registry: registryWith({ id: "m1" }) });
+  const res = await call(deleteRequest("m2"));
+  assert(res.status === 404, `expected 404, got ${res.status}`);
+});
+
+await check("a delete without the password is refused", async () => {
+  const gh = stubGitHub({ registry: registryWith({ id: "m1" }) });
+  const res = await call(new Request("https://proxy.test/manuscripts/m1", { method: "DELETE" }));
+  assert(res.status === 401, `expected 401, got ${res.status}`);
+  assert(!gh.calls.some((c) => c.method === "PUT"), "an unauthenticated delete still wrote");
+});
+
+await check("a wrong password cannot delete", async () => {
+  const gh = stubGitHub({ registry: registryWith({ id: "m1" }) });
+  const res = await call(deleteRequest("m1", { password: "wrong" }));
+  assert(res.status === 401, `expected 401, got ${res.status}`);
+  assert(!gh.calls.some((c) => c.method === "PUT"), "a wrong password still wrote");
+});
+
+await check("a delete goes to the branch the dashboard reads", async () => {
+  const gh = stubGitHub({ registry: registryWith({ id: "m1" }) });
+  await call(deleteRequest("m1"));
+  const put = gh.calls.find((c) => c.method === "PUT");
+  assert(JSON.parse(put.options.body).branch === BRANCH, "the delete went to the wrong branch");
 });
 
 // ---------------------------------------------------------------------------

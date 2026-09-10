@@ -106,6 +106,33 @@ export async function saveEdit(id, patch) {
 }
 
 /**
+ * Remove a manuscript from the tracker.
+ *
+ * This deletes the RECORD, not the emails behind it. Those message ids stay in
+ * the sync's ledger, so the mail already read will not rebuild it -- but a new
+ * email about the same paper will file it again from scratch. The confirmation
+ * step says so, because a card quietly reappearing is worse than one that
+ * never went away.
+ *
+ * The commit stays in the repository's history either way, so nothing here is
+ * unrecoverable by someone with the log.
+ */
+export async function deleteManuscript(id) {
+  const available = editingAvailable();
+  if (!available.ok) {
+    const err = new Error(available.reason);
+    err.code = "unavailable";
+    throw err;
+  }
+  if (!hasPassphrase()) {
+    const err = new Error("Confirm the dashboard password to delete this manuscript.");
+    err.code = "auth";
+    throw err;
+  }
+  return callProxy(`/manuscripts/${encodeURIComponent(id)}`, { method: "DELETE" });
+}
+
+/**
  * What actually changed between the record and what was typed. Sending only
  * the differences keeps the edit history honest: it should record what a
  * person changed, not every field that happened to be on screen.

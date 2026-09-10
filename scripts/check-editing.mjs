@@ -494,6 +494,103 @@ await check("an amendment offers the original email, and a notification does not
   );
 });
 
+await check("every section chip is labelled, and none of them says undefined", async (page) => {
+  // The icon lived in a second list that adding "Revisions pending" missed, so
+  // the chip rendered the string "undefined" in the circle, sitting on top of
+  // the label. Nothing failed and nothing logged -- it could only be seen.
+  await startEditing(page);
+  const chips = await page.$$eval(".section-chip", (nodes) =>
+    nodes.map((n) => ({
+      bucket: n.dataset.bucket,
+      text: n.textContent.trim(),
+      icon: (n.querySelector(".bucket-icon")?.textContent || "").trim(),
+    }))
+  );
+  assert(chips.length === 5, `expected 5 section chips, got ${chips.length}`);
+  for (const c of chips) {
+    assert(c.icon, `the ${c.bucket} chip has no icon`);
+    assert(!/undefined|null/.test(c.text), `the ${c.bucket} chip reads "${c.text}"`);
+  }
+  // And the icon must stay inside its circle rather than run under the label.
+  const overflowing = await page.$$eval(".section-chip", (nodes) =>
+    nodes.filter((n) => {
+      const i = n.querySelector(".bucket-icon");
+      return i && i.scrollWidth > i.clientWidth + 1;
+    }).map((n) => n.dataset.bucket)
+  );
+  assert(!overflowing.length, `icon overflows its circle on: ${overflowing.join(", ")}`);
+});
+
+await check("the buttons in the edit form line up", async (page) => {
+  // Cancel and Save are borrowed from two other dialogs, each with its own
+  // top margin. Side by side those margins became a visible stagger.
+  await startEditing(page);
+  const boxes = await page.$$eval(".edit-actions button", (nodes) =>
+    nodes.map((n) => {
+      const r = n.getBoundingClientRect();
+      return { id: n.id, top: Math.round(r.top), height: Math.round(r.height) };
+    })
+  );
+  assert(boxes.length === 3, `expected 3 buttons in the row, got ${boxes.length}`);
+  const tops = boxes.map((b) => b.top);
+  assert(Math.max(...tops) - Math.min(...tops) <= 1,
+    `the buttons do not share a baseline: ${JSON.stringify(boxes)}`);
+  const heights = boxes.map((b) => b.height);
+  assert(Math.max(...heights) - Math.min(...heights) <= 1,
+    `the buttons are different heights: ${JSON.stringify(boxes)}`);
+});
+
+await check("deleting asks first, and says what a delete does not undo", async (page) => {
+  await startEditing(page);
+  assert(await page.isHidden("#edit-delete-confirm"), "the confirmation was showing before it was asked for");
+  await page.click("#edit-delete");
+  await page.waitForSelector("#edit-delete-confirm:not([hidden])");
+
+  // Read the title from the record rather than naming it here: an earlier
+  // check corrects it, and this file's registry carries over between checks.
+  const title = registry.manuscripts.find((m) => m.id === "m-knees").title;
+  const text = await page.textContent("#edit-delete-confirm");
+  assert(text.includes(title), `the panel does not name the paper: ${text.slice(0, 120)}`);
+  assert(/new/i.test(text) && /file it again/i.test(text),
+    "the panel does not say a later email will bring it back");
+
+  // Save must not be reachable while a delete is being confirmed.
+  assert(await page.isHidden("#edit-save"), "Save was still offered mid-confirmation");
+
+  await page.click("#edit-delete-cancel");
+  await page.waitForSelector("#edit-delete-confirm", { state: "hidden" });
+  assert(registry.manuscripts.some((m) => m.id === "m-knees"), "backing out still deleted it");
+  assert(await page.isVisible("#edit-save"), "Save did not come back after backing out");
+});
+
+await check("a confirmed delete removes the card, the record and nothing else", async (page) => {
+  // The registry is shared by every check in this file, so put it back --
+  // otherwise the checks after this one open a drawer on a paper that is gone.
+  const snapshot = JSON.parse(JSON.stringify(registry));
+  try {
+    const others = registry.manuscripts.filter((m) => m.id !== "m-knees").map((m) => m.id);
+    const bucket = registry.manuscripts.find((m) => m.id === "m-knees").bucket;
+    const before = Number(await page.textContent(`[data-count="${bucket}"]`));
+
+    await startEditing(page);
+    await page.click("#edit-delete");
+    await page.click("#edit-delete-go");
+    await page.waitForSelector("#drawer", { state: "hidden" });
+
+    assert(!(await page.$('.card[data-id="m-knees"]')), "the card is still on the page");
+    assert(!registry.manuscripts.some((m) => m.id === "m-knees"), "the record is still in the file");
+    assert(
+      Number(await page.textContent(`[data-count="${bucket}"]`)) === before - 1,
+      `the ${bucket} count did not go down`
+    );
+    for (const id of others) {
+      assert(registry.manuscripts.some((m) => m.id === id), `deleting one manuscript took ${id} with it`);
+    }
+  } finally {
+    registry = snapshot;
+  }
+});
+
 await check("a resumed session is asked for the password before it can save", async (page) => {
   // What "stay signed in" leaves behind: the session flag is durable, the
   // password deliberately is not. Clearing it is what a new browser session

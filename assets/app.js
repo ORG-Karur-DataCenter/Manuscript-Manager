@@ -1,16 +1,26 @@
 import { requireUnlock, signOut } from "./auth.js";
 import { runSync, waitForFreshData, hasToken, hasOwnToken, setToken, usingProxy, rememberPassphrase } from "./sync.js";
 import { loadConfig } from "./config.js";
-import { FIELDS, SECTIONS, isPinned, editingAvailable, saveEdit, diff } from "./edit.js";
+import { FIELDS, SECTIONS, isPinned, editingAvailable, saveEdit, deleteManuscript, diff } from "./edit.js";
 
 "use strict";
 
+/*
+ * One entry per section, icon included.
+ *
+ * The icon used to live in its own object further down the file, and adding
+ * "Revisions pending" updated this list but not that one -- so the section
+ * picker rendered the string "undefined" inside the icon circle, on top of the
+ * label. Same shape of mistake as the section counts, which read zero for the
+ * same reason. Anything per-section belongs here, where adding a section means
+ * filling in the row rather than remembering the other places.
+ */
 const BUCKET_META = {
-  submissions: { label: "Submissions", pill: "submissions" },
-  needs_action: { label: "Needs action", pill: "needs_action" },
-  revisions_pending: { label: "Revisions pending", pill: "revisions_pending" },
-  in_review: { label: "In review", pill: "in_review" },
-  published: { label: "Published", pill: "published" },
+  submissions: { label: "Submissions", pill: "submissions", icon: "↑" },
+  needs_action: { label: "Needs action", pill: "needs_action", icon: "!" },
+  revisions_pending: { label: "Revisions pending", pill: "revisions_pending", icon: "↻" },
+  in_review: { label: "In review", pill: "in_review", icon: "◷" },
+  published: { label: "Published", pill: "published", icon: "✓" },
 };
 
 const BUCKET_HINTS = {
@@ -588,7 +598,7 @@ function editFormHtml(m) {
   const sections = SECTIONS.map((s) => `
     <button type="button" class="section-chip ${m.bucket === s.bucket ? "active" : ""}"
             data-bucket="${s.bucket}" aria-pressed="${m.bucket === s.bucket}">
-      <span class="bucket-icon ${s.bucket}">${BUCKET_ICON[s.bucket]}</span>${esc(s.label)}
+      <span class="bucket-icon ${s.bucket}">${BUCKET_META[s.bucket]?.icon || ""}</span>${esc(s.label)}
     </button>`).join("");
 
   const fields = FIELDS.map((f) => {
@@ -635,14 +645,36 @@ function editFormHtml(m) {
       ${fields}
 
       <p id="edit-error" class="lock-error" hidden role="alert"></p>
+
       <div class="edit-actions">
+        <button type="button" id="edit-delete" class="edit-danger">Delete this manuscript</button>
         <button type="button" id="edit-cancel" class="sync-close">Cancel</button>
         <button type="submit" id="edit-save" class="lock-btn">Save changes</button>
+      </div>
+
+      <!--
+        The confirmation is a panel rather than a browser prompt so it can show
+        what is actually about to be lost -- this paper's own title and how
+        much history goes with it -- and say the one thing a person cannot
+        guess: that a later email will file the paper again.
+      -->
+      <div id="edit-delete-confirm" class="edit-confirm" hidden>
+        <p class="edit-confirm-lead">Delete <b>${esc(m.title)}</b>?</p>
+        <p class="edit-confirm-body">
+          This removes the card and its ${(m.timeline || []).length} timeline
+          ${(m.timeline || []).length === 1 ? "entry" : "entries"} from the tracker.
+          The emails behind it are untouched, so a <b>new</b> message about this paper
+          will file it again. The change is a commit, so it stays in the repository's
+          history either way.
+        </p>
+        <div class="edit-confirm-actions">
+          <button type="button" id="edit-delete-cancel" class="sync-close">Keep it</button>
+          <button type="button" id="edit-delete-go" class="edit-danger-solid">Delete permanently</button>
+        </div>
       </div>
     </form>`;
 }
 
-const BUCKET_ICON = { submissions: "↑", needs_action: "!", in_review: "◷", published: "✓" };
 
 // The manuscript on screen, and which of its fields the person has asked to
 // hand back to automation during this edit.
@@ -716,7 +748,62 @@ function wireEditForm(m) {
     editing = null;
     renderDrawer();
   });
+
+  // Deleting is two clicks with the consequences in between, and the panel
+  // hides the save row while it is open -- there is no sensible reading of
+  // "Save changes" pressed on a manuscript being deleted.
+  const confirmPanel = $("#edit-delete-confirm");
+  const actions = form.querySelector(".edit-actions");
+  $("#edit-delete").addEventListener("click", () => {
+    actions.hidden = true;
+    confirmPanel.hidden = false;
+    $("#edit-delete-go").focus();
+  });
+  $("#edit-delete-cancel").addEventListener("click", () => {
+    confirmPanel.hidden = true;
+    actions.hidden = false;
+    $("#edit-delete").focus();
+  });
+  $("#edit-delete-go").addEventListener("click", () => { void submitDelete(m); });
+
   form.addEventListener("submit", (e) => { e.preventDefault(); void submitEdit(m); });
+}
+
+async function submitDelete(m) {
+  const error = $("#edit-error");
+  const go = $("#edit-delete-go");
+
+  error.hidden = true;
+  go.disabled = true;
+  go.textContent = "Deleting…";
+
+  try {
+    await deleteManuscript(m.id);
+    // Drop it locally rather than re-reading the data file: the commit takes a
+    // minute or two to reach the served copy, and re-reading now would show the
+    // card come back before disappearing again.
+    state.manuscripts = state.manuscripts.filter((x) => x.id !== m.id);
+    editing = null;
+    closeDrawer();
+    renderCounts();
+    render();
+  } catch (err) {
+    if (err.code === "auth") {
+      go.disabled = false;
+      go.textContent = "Delete permanently";
+      if (await askForToken()) void submitDelete(m);
+      return;
+    }
+    // Put the person back where they can decide again, rather than leaving a
+    // dead confirm panel with an error under it.
+    $("#edit-delete-confirm").hidden = true;
+    $("#edit-form").querySelector(".edit-actions").hidden = false;
+    error.textContent = err.message || "The manuscript could not be deleted.";
+    error.hidden = false;
+    go.disabled = false;
+    go.textContent = "Delete permanently";
+    console.error(err);
+  }
 }
 
 async function submitEdit(m) {

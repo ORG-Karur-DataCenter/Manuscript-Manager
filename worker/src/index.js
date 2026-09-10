@@ -167,7 +167,7 @@ function corsHeaders(env, request) {
   return {
     "Access-Control-Allow-Origin": value,
     "Access-Control-Allow-Headers": "Authorization, Content-Type",
-    "Access-Control-Allow-Methods": "GET, POST, PATCH, OPTIONS",
+    "Access-Control-Allow-Methods": "GET, POST, PATCH, DELETE, OPTIONS",
     "Access-Control-Max-Age": "86400",
     Vary: "Origin",
   };
@@ -316,6 +316,90 @@ function commitMessage(manuscript, changes) {
   return `${summary}\n\n${detail}`;
 }
 
+/**
+ * Read the registry, remove one manuscript, commit it back.
+ *
+ * Same stale-SHA loop as commitEdit and for the same reason: the sync rewrites
+ * this file every hour. A delete cannot be replayed as blindly as an edit,
+ * though -- if the re-read no longer has the manuscript, someone else already
+ * removed it, and that is the outcome the caller wanted rather than an error.
+ *
+ * WHAT A DELETE DOES NOT DO. It removes the record, not the emails it was
+ * built from. Those message ids stay in the sync's seenIds, so the mail
+ * already read will not rebuild it -- but a NEW email about the same paper
+ * will file it afresh, because nothing here says the paper does not exist.
+ * That is deliberate: a tracker that could be told to permanently ignore a
+ * real journal decision is a tracker that loses one. The dashboard says so
+ * before it asks for confirmation.
+ */
+async function commitDelete(id, env) {
+  let lastConflict = null;
+  const branch = await defaultBranch(env);
+
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const file = await gh(`/contents/${DATA_PATH}?ref=${branch}&_=${Date.now()}`, env);
+    const registry = JSON.parse(decodeBase64(file.content));
+
+    const list = registry.manuscripts || [];
+    const index = list.findIndex((m) => m.id === id);
+    if (index === -1) {
+      // Not an error on a replay: a delete that finds nothing to delete has
+      // already happened. Only say so on the first look.
+      if (attempt > 0) return { deleted: null, alreadyGone: true };
+      const err = new Error("That manuscript is no longer in the tracker.");
+      err.status = 404;
+      throw err;
+    }
+
+    const [manuscript] = list.splice(index, 1);
+    registry.manuscripts = list;
+    registry.editedAt = new Date().toISOString();
+
+    try {
+      await gh(`/contents/${DATA_PATH}`, env, {
+        method: "PUT",
+        body: JSON.stringify({
+          message: deleteMessage(manuscript),
+          content: encodeBase64(`${JSON.stringify(registry, null, 2)}\n`),
+          sha: file.sha,
+          branch,
+        }),
+      });
+      return { deleted: manuscript, alreadyGone: false };
+    } catch (err) {
+      if (err.status !== 409 && err.status !== 422) throw err;
+      lastConflict = err;
+      await new Promise((r) => setTimeout(r, 400 * (attempt + 1)));
+    }
+  }
+
+  const err = new Error(
+    "The tracker was being updated at the same moment and the deletion could not be saved. Try again."
+  );
+  err.status = 503;
+  err.cause = lastConflict;
+  throw err;
+}
+
+/**
+ * A delete is the one edit git cannot show as a diff of fields, so the message
+ * has to carry what was removed -- enough to find the paper again in history.
+ */
+function deleteMessage(manuscript) {
+  const title = (manuscript.title || "manuscript").slice(0, 60);
+  const detail = [
+    `id: ${manuscript.id}`,
+    manuscript.currentJournal ? `journal: ${manuscript.currentJournal}` : null,
+    manuscript.currentManuscriptNumber ? `number: ${manuscript.currentManuscriptNumber}` : null,
+    `section: ${manuscript.bucket}`,
+    `timeline entries removed: ${(manuscript.timeline || []).length}`,
+    "",
+    "Removed from the dashboard. The emails behind it are untouched, so a new",
+    "message about this paper will file it again.",
+  ].filter(Boolean).join("\n");
+  return `Delete "${title}"\n\n${detail}`;
+}
+
 /** A dispatch returns no body, so the new run has to be found by its start time. */
 async function findRunSince(since, env) {
   for (let i = 0; i < 12; i++) {
@@ -411,6 +495,15 @@ export default {
           unchanged: result.unchanged,
           changes: result.changes,
           manuscript: result.manuscript,
+        }, 200, env, request);
+      }
+
+      if (edit && request.method === "DELETE") {
+        const result = await commitDelete(edit[1], env);
+        return json({
+          ok: true,
+          alreadyGone: result.alreadyGone,
+          deleted: result.deleted,
         }, 200, env, request);
       }
 

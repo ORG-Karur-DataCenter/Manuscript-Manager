@@ -381,14 +381,58 @@ html[data-theme="dark"] .hero-acronym {
   border-color: var(--brand); background: var(--brand-wash);
   color: var(--brand); font-weight: 600;
 }
-.section-chip .bucket-icon { width: 22px; height: 22px; font-size: .8rem; }
+/* A fixed circle beside a label: anything wider than it has to be clipped
+   rather than allowed to run under the text, which is how a stray "undefined"
+   ended up sitting on top of "Revisions pending". */
+.section-chip .bucket-icon { width: 22px; height: 22px; font-size: .8rem; overflow: hidden; }
+.section-chip { max-width: 100%; }
+.section-chip > :not(.bucket-icon) { min-width: 0; }
 
 .edit-actions {
-  display: flex; justify-content: flex-end; gap: 10px;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
   margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--line);
 }
-.edit-actions .lock-btn { width: auto; padding: 0 22px; }
+/* These buttons are borrowed from the lock and sync dialogs, where each sits
+   alone under something and carries its own top margin -- 6px on one, 14px on
+   the other. Side by side in a row that spacing became an 8px stagger and two
+   different heights. In a row the row does the spacing. */
+/* The border counts. Save is drawn without one and the other two with, so the
+   same padding made Save two pixels shorter than its neighbours -- give every
+   button in the row a border box, transparent where it should not show. */
+.edit-actions button {
+  margin-top: 0; padding: 11px 20px; font-size: .88rem; line-height: 1.2;
+  border: 1px solid transparent;
+}
+.edit-actions .lock-btn { width: auto; }
 .edit-actions .lock-btn[disabled] { opacity: .6; cursor: progress; }
+/* Pushed away from Save and Cancel: the gap is the point. */
+.edit-actions .edit-danger { margin-right: auto; }
+
+.edit-danger {
+  border: 1px solid transparent; border-radius: 10px; background: none;
+  color: var(--needs); font: inherit; font-weight: 600; cursor: pointer;
+}
+.edit-danger:hover { border-color: var(--needs); background: var(--needs-wash); }
+
+.edit-confirm {
+  margin-top: 26px; padding: 18px 18px 16px; border-radius: 12px;
+  border: 1px solid var(--needs); background: var(--needs-wash);
+}
+.edit-confirm-lead { font-size: .95rem; color: var(--ink); margin: 0 0 8px; line-height: 1.45; }
+.edit-confirm-body { font-size: .82rem; color: var(--ink-soft); margin: 0 0 16px; line-height: 1.55; }
+.edit-confirm-actions { display: flex; align-items: center; justify-content: flex-end; gap: 10px; }
+.edit-confirm-actions button {
+  margin-top: 0; padding: 11px 20px; font-size: .88rem; line-height: 1.2;
+  border: 1px solid transparent;
+}
+.edit-danger-solid {
+  border: 0; border-radius: 10px; background: var(--needs); color: #fff;
+  font: inherit; font-size: .88rem; font-weight: 600; cursor: pointer;
+  transition: filter .18s, transform .1s;
+}
+.edit-danger-solid:hover { filter: brightness(.92); }
+.edit-danger-solid:active { transform: translateY(1px); }
+.edit-danger-solid[disabled] { opacity: .6; cursor: progress; }
 #edit-error { margin-top: 4px; }
 .drawer-body { padding: 4px 26px 40px; overflow-y: auto; }
 .d-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.5rem; line-height: 1.22; letter-spacing: -.01em; margin-bottom: 14px; }
