@@ -1,6 +1,378 @@
 {
-  "generatedAt": "2026-09-10T16:36:13.493Z",
+  "generatedAt": "2026-09-10T19:48:49.378Z",
   "manuscripts": [
+    {
+      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
+      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
+      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Indian Spine Journal",
+      "currentManuscriptNumber": "isj_133_26",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "submittedDate": "2026-08-31T19:16:55.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-31T19:16:55.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05940d25498fc9",
+                "messageId": "1a05940d25498fc9",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-01T03:52:32.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected without external peer review.",
+              "manuscriptNumber": "ASJ-2026-0787",
+              "source": {
+                "threadId": "1a05b13b9c60dc6b",
+                "messageId": "1a05b18e86f41700",
+                "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Indian Spine Journal",
+          "manuscriptNumber": "isj_133_26",
+          "submittedDate": "2026-09-02T23:15:05.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-02T23:15:05.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
+              "manuscriptNumber": "isj_133_26",
+              "source": {
+                "threadId": "1a06467994de87f2",
+                "messageId": "1a06467994de87f2",
+                "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
+                "from": "Indian Spine Journal <editor@isjonline.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-03T07:50:00.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The journal returned the manuscript for technical modifications, requesting changes within 7 days.",
+              "manuscriptNumber": "isj_133_26",
+              "source": {
+                "threadId": "1a066265a5be4cab",
+                "messageId": "1a0663f06bbc9b4d",
+                "subject": "Fwd: isj Article not as per instructions: isj_133_26",
+                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T18:39:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": 1,
+              "note": "The journal acknowledges receipt of the revised manuscript.",
+              "manuscriptNumber": "isj_133_26",
+              "source": {
+                "threadId": "1a08c9dc437b99ce",
+                "messageId": "1a08c9dc437b99ce",
+                "subject": "isj Author Resubmission Acknowledgement letter: isj_133_26",
+                "from": "Indian Spine Journal <editor@isjonline.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-08-31T19:16:55.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a05940d25498fc9",
+            "messageId": "1a05940d25498fc9",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-01T03:52:32.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "ASJ-2026-0787",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected without external peer review.",
+          "source": {
+            "threadId": "1a05b13b9c60dc6b",
+            "messageId": "1a05b18e86f41700",
+            "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-02T23:15:05.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "isj_133_26",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
+          "source": {
+            "threadId": "1a06467994de87f2",
+            "messageId": "1a06467994de87f2",
+            "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
+            "from": "Indian Spine Journal <editor@isjonline.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-03T07:50:00.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "isj_133_26",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-10T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The journal returned the manuscript for technical modifications, requesting changes within 7 days.",
+          "source": {
+            "threadId": "1a066265a5be4cab",
+            "messageId": "1a0663f06bbc9b4d",
+            "subject": "Fwd: isj Article not as per instructions: isj_133_26",
+            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T18:39:04.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "isj_133_26",
+          "label": "Submitted",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The journal acknowledges receipt of the revised manuscript.",
+          "source": {
+            "threadId": "1a08c9dc437b99ce",
+            "messageId": "1a08c9dc437b99ce",
+            "subject": "isj Author Resubmission Acknowledgement letter: isj_133_26",
+            "from": "Indian Spine Journal <editor@isjonline.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-31T19:16:55.000Z",
+      "updatedAt": "2026-09-10T18:39:04.000Z"
+    },
+    {
+      "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop-2",
+      "title": "Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)",
+      "titleNormalized": "evaluating large language models for patient facing total knee arthroplasty information in knee osteoarthritis development and application of the composite clinical reliability score ccrs",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Comparative Clinical Reliability of Large Language Models in Patient-Facing Information on Platelet-Rich Plasma for Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\" (0.94). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "The Journal of Arthroplasty",
+      "currentManuscriptNumber": "JOA-D-26-01135R4",
+      "currentStatus": "Under review",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "The Journal of Arthroplasty",
+          "manuscriptNumber": "JOA-D-26-01135R4",
+          "submittedDate": "2026-09-10T17:44:45.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-10T17:44:45.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript is with the developmental editor, with an estimated six‑week processing time.",
+              "manuscriptNumber": "JOA-D-26-01135R4",
+              "source": {
+                "threadId": "1a08c6c14881e82e",
+                "messageId": "1a08c6c14881e82e",
+                "subject": "Re: Query regarding JOA-D-26-01135R4",
+                "from": "Taylor Bowen <journalofarthroplasty@gmail.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-10T17:44:45.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "under_review",
+          "manuscriptNumber": "JOA-D-26-01135R4",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript is with the developmental editor, with an estimated six‑week processing time.",
+          "source": {
+            "threadId": "1a08c6c14881e82e",
+            "messageId": "1a08c6c14881e82e",
+            "subject": "Re: Query regarding JOA-D-26-01135R4",
+            "from": "Taylor Bowen <journalofarthroplasty@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-10T17:44:45.000Z",
+      "updatedAt": "2026-09-10T17:44:45.000Z"
+    },
+    {
+      "id": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
+      "title": "A Patho-mechanical Classification of Proximal Radius Fractures Predicting Associated Injuries and Functional Outcomes​",
+      "titleNormalized": "a patho mechanical classification of proximal radius fractures predicting associated injuries and functional outcomes",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Indian Journal of Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-09-17T18:29:59.999Z",
+      "deadlineSource": "assumed",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-10T16:44:35.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-10T16:40:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript PDF has been built and the author must approve it to complete the submission",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08c3155ceb8ab8",
+                "messageId": "1a08c3155ceb8ab8",
+                "subject": "JOIO: Your PDF Has Been Built",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T16:44:35.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Your submission was removed from the queue due to no response, and you may resubmit as a new submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08c351b814bdb4",
+                "messageId": "1a08c351b814bdb4",
+                "subject": "Your submission to Indian Journal of Orthopaedics has been removed - [EMID:443ba10a921676cf]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-10T16:40:32.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript PDF has been built and the author must approve it to complete the submission",
+          "source": {
+            "threadId": "1a08c3155ceb8ab8",
+            "messageId": "1a08c3155ceb8ab8",
+            "subject": "JOIO: Your PDF Has Been Built",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T16:44:35.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-17T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "Your submission was removed from the queue due to no response, and you may resubmit as a new submission.",
+          "source": {
+            "threadId": "1a08c351b814bdb4",
+            "messageId": "1a08c351b814bdb4",
+            "subject": "Your submission to Indian Journal of Orthopaedics has been removed - [EMID:443ba10a921676cf]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-10T16:44:35.000Z",
+      "updatedAt": "2026-09-10T16:44:35.000Z"
+    },
     {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
       "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
@@ -8,8 +380,8 @@
       "bucket": "submissions",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
       "currentStatus": "Revision submitted — Editor changes approved",
@@ -24,7 +396,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R1",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -194,6 +566,19 @@
                 "threadId": "1a08c0e99315917b",
                 "messageId": "1a08c1c70a32582c",
                 "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-10T16:36:29.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The author approved editorial changes to their submitted manuscript, confirming its progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08c2dbb6142d90",
+                "messageId": "1a08c2dbb6142d90",
+                "subject": "Thank you - [EMID:06f3309664cf78ad]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -440,12 +825,33 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-10T16:36:29.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-24T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "14 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The author approved editorial changes to their submitted manuscript, confirming its progress.",
+          "source": {
+            "threadId": "1a08c2dbb6142d90",
+            "messageId": "1a08c2dbb6142d90",
+            "subject": "Thank you - [EMID:06f3309664cf78ad]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-09-10T16:17:39.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-09-10T16:36:29.000Z",
+      "deadline": "2026-09-24T18:29:59.999Z",
+      "deadlineSource": "assumed",
       "overrides": {
         "bucket": "submissions",
         "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
@@ -638,6 +1044,159 @@
       ],
       "createdAt": "2026-09-09T12:51:02.000Z",
       "updatedAt": "2026-09-10T15:40:00.000Z"
+    },
+    {
+      "id": "evaluation-of-allelic-variants-of-the-single-nucleotide-polymorphism-p",
+      "title": "Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis",
+      "titleNormalized": "evaluation of allelic variants of the single nucleotide polymorphism pthlh rs267606985 in patients undergoing stem cell therapy for knee osteoarthritis",
+      "bucket": "needs_action",
+      "needsReview": true,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "European Journal of Orthopaedic Surgery & Traumatology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Sent back for edits",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-06-14T17:38:37.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-14T17:38:37.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19ec736cf81ff411",
+                "messageId": "19ec736cf81ff411",
+                "subject": "Indian Journal of Orthopaedics - Submission Confirmation Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis for co-author - [EMID:61a2cf92d39967ee]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-08-21T04:46:52.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-08-21T04:46:52.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged by Springer Nature.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a022a4afd0bc2f8",
+                "messageId": "1a022a4afd0bc2f8",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-10T15:23:22.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-10T15:23:22.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The journal reminded the author to make required amendments and finalize the submission, warning the manuscript will be removed after 3 days",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08bea9feb258c5",
+                "messageId": "1a08bea9feb258c5",
+                "subject": "Re: Final reminder about your submission, \"Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis\"",
+                "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-06-14T17:38:37.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19ec736cf81ff411",
+            "messageId": "19ec736cf81ff411",
+            "subject": "Indian Journal of Orthopaedics - Submission Confirmation Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis for co-author - [EMID:61a2cf92d39967ee]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-08-21T04:46:52.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged by Springer Nature.",
+          "source": {
+            "threadId": "1a022a4afd0bc2f8",
+            "messageId": "1a022a4afd0bc2f8",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": true
+        },
+        {
+          "timestamp": "2026-09-10T15:23:22.000Z",
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-13T18:29:59.999Z",
+            "source": "stated",
+            "basis": "3 days from the email"
+          },
+          "note": "The journal reminded the author to make required amendments and finalize the submission, warning the manuscript will be removed after 3 days",
+          "source": {
+            "threadId": "1a08bea9feb258c5",
+            "messageId": "1a08bea9feb258c5",
+            "subject": "Re: Final reminder about your submission, \"Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis\"",
+            "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-08-21T04:46:52.000Z",
+      "updatedAt": "2026-09-10T15:23:22.000Z",
+      "deadline": "2026-09-13T18:29:59.999Z",
+      "deadlineSource": "stated"
     },
     {
       "id": "comparative-in-vitro-evaluation-of-the-antimicrobial-activity-of-leuko",
@@ -3169,178 +3728,6 @@
       ],
       "createdAt": "2026-09-03T08:12:03.000Z",
       "updatedAt": "2026-09-03T08:12:03.000Z"
-    },
-    {
-      "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
-      "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
-      "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
-      "currentJournal": "Indian Spine Journal",
-      "currentManuscriptNumber": "isj_133_26",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-09-10T18:29:59.999Z",
-      "deadlineSource": "stated",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Asian Spine Journal",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "submittedDate": "2026-08-31T19:16:55.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-31T19:16:55.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript was successfully submitted and is now under consideration.",
-              "manuscriptNumber": "ASJ-2026-0787",
-              "source": {
-                "threadId": "1a05940d25498fc9",
-                "messageId": "1a05940d25498fc9",
-                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
-                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T03:52:32.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "The manuscript was rejected without external peer review.",
-              "manuscriptNumber": "ASJ-2026-0787",
-              "source": {
-                "threadId": "1a05b13b9c60dc6b",
-                "messageId": "1a05b18e86f41700",
-                "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Indian Spine Journal",
-          "manuscriptNumber": "isj_133_26",
-          "submittedDate": "2026-09-02T23:15:05.000Z",
-          "outcome": "active",
-          "status": "sent_back",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-02T23:15:05.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
-              "manuscriptNumber": "isj_133_26",
-              "source": {
-                "threadId": "1a06467994de87f2",
-                "messageId": "1a06467994de87f2",
-                "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
-                "from": "Indian Spine Journal <editor@isjonline.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-03T07:50:00.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The journal returned the manuscript for technical modifications, requesting changes within 7 days.",
-              "manuscriptNumber": "isj_133_26",
-              "source": {
-                "threadId": "1a066265a5be4cab",
-                "messageId": "1a0663f06bbc9b4d",
-                "subject": "Fwd: isj Article not as per instructions: isj_133_26",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-08-31T19:16:55.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "new_submission",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was successfully submitted and is now under consideration.",
-          "source": {
-            "threadId": "1a05940d25498fc9",
-            "messageId": "1a05940d25498fc9",
-            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
-            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-01T03:52:32.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "rejected",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "label": "Rejected",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was rejected without external peer review.",
-          "source": {
-            "threadId": "1a05b13b9c60dc6b",
-            "messageId": "1a05b18e86f41700",
-            "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-02T23:15:05.000Z",
-          "journal": "Indian Spine Journal",
-          "eventType": "new_submission",
-          "manuscriptNumber": "isj_133_26",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The journal confirmed receipt of the manuscript and asked the author to complete a copyright agreement within a week.",
-          "source": {
-            "threadId": "1a06467994de87f2",
-            "messageId": "1a06467994de87f2",
-            "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
-            "from": "Indian Spine Journal <editor@isjonline.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-03T07:50:00.000Z",
-          "journal": "Indian Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "isj_133_26",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-10T18:29:59.999Z",
-            "source": "stated",
-            "basis": "7 days from the email"
-          },
-          "note": "The journal returned the manuscript for technical modifications, requesting changes within 7 days.",
-          "source": {
-            "threadId": "1a066265a5be4cab",
-            "messageId": "1a0663f06bbc9b4d",
-            "subject": "Fwd: isj Article not as per instructions: isj_133_26",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-08-31T19:16:55.000Z",
-      "updatedAt": "2026-09-03T07:50:00.000Z"
     },
     {
       "id": "andrology-current-progress-and-clinical-challenges-in-male-health",
@@ -8282,112 +8669,6 @@
       ],
       "createdAt": "2026-08-21T05:51:45.000Z",
       "updatedAt": "2026-08-21T05:51:45.000Z"
-    },
-    {
-      "id": "evaluation-of-allelic-variants-of-the-single-nucleotide-polymorphism-p",
-      "title": "Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis",
-      "titleNormalized": "evaluation of allelic variants of the single nucleotide polymorphism pthlh rs267606985 in patients undergoing stem cell therapy for knee osteoarthritis",
-      "bucket": "submissions",
-      "needsReview": true,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "Indian Journal of Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-06-14T17:38:37.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-14T17:38:37.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19ec736cf81ff411",
-                "messageId": "19ec736cf81ff411",
-                "subject": "Indian Journal of Orthopaedics - Submission Confirmation Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis for co-author - [EMID:61a2cf92d39967ee]",
-                "from": "JOIO Editorial Office <em@editorialmanager.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Springer Nature",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-08-21T04:46:52.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-21T04:46:52.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged by Springer Nature.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a022a4afd0bc2f8",
-                "messageId": "1a022a4afd0bc2f8",
-                "subject": "Track the status of your manuscript",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-06-14T17:38:37.000Z",
-          "journal": "Indian Journal of Orthopaedics",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19ec736cf81ff411",
-            "messageId": "19ec736cf81ff411",
-            "subject": "Indian Journal of Orthopaedics - Submission Confirmation Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis for co-author - [EMID:61a2cf92d39967ee]",
-            "from": "JOIO Editorial Office <em@editorialmanager.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-21T04:46:52.000Z",
-          "journal": "Springer Nature",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged by Springer Nature.",
-          "source": {
-            "threadId": "1a022a4afd0bc2f8",
-            "messageId": "1a022a4afd0bc2f8",
-            "subject": "Track the status of your manuscript",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": true
-        }
-      ],
-      "createdAt": "2026-08-21T04:46:52.000Z",
-      "updatedAt": "2026-08-21T04:46:52.000Z"
     },
     {
       "id": "is-motion-preservation-with-three-level-hybrid-cervical-surgery-achiev",

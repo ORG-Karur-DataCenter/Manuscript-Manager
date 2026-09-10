@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-10T17:57:08.000Z",
+      "reason": "unrelated",
+      "subject": "Activate your account",
+      "from": "Indian Journal of Psychiatry <donotreply_uniprr@wolterskluwer.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T02:47:01.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+      "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T13:09:36.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "How Should Researchers Report AI Use? Nature Commentary Proposes a New Framework",
+      "from": "LetPub <Research.communication@letpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T17:21:36.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID 05395420 | Invitation to Submit an Original Research Manuscript to WJTM – USD 600 Honorarium and No APC",
+      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-10T17:38:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "One Month Away! Don't Miss these Expert Sessions at IKAF 2026",
+      "from": "ISAKOS <isakos@isakos.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-10T13:00:58.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Narcolepsy research wins Lasker Award",
@@ -2064,41 +2099,6 @@
       "subject": "Follow up on review request for JOIO-D-26-01123 - [EMID:79ae56ed4c228ae7]",
       "from": "JOIO Editorial Office <em@editorialmanager.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T04:51:03.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:18d069324d188fda]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T13:01:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Why social feeds elevate outrage",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T13:38:03.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Manuscript Consideration for Physiotherapy",
-      "from": "Nancy Miller <contact@physiotherapyoccupational.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T21:16:09.000Z",
-      "reason": "unrelated",
-      "subject": "Add Varunselva S",
-      "from": "LinkedIn <messages-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-31T14:03:55.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The week in physics: Roman Space Telescope and spy tech; Measuring a quantum state",
-      "from": "Physics Today <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
