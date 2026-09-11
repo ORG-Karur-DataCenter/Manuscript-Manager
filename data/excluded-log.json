@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-11T20:02:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Meet The JBJS Audio Narrators 🎧",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T20:45:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "J. Clin. Med., Volume 15, Issue 17 (September-1 2026) Table of Contents",
+      "from": "\"MDPI – Office of the Publisher\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-11T14:06:22.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "⚠️  Anthropic published the risky requests made to Claude",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
       "from": "Andrei Joaquim <andjoaquim@yahoo.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T16:55:34.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "stefano conti <stefanoconti.dr@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T18:41:29.000Z",
-      "reason": "unrelated",
-      "subject": "Categorization and Rationalization of Mutual Fund Schemes - Addendum",
-      "from": "TATA Mutual Fund <donotreplytoTATAMF@camsonline.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
