@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-09-11T06:05:10.083Z",
+  "generatedAt": "2026-09-11T11:31:24.119Z",
   "manuscripts": [
+    {
+      "id": "comprehensive-characterization-of-injectable-platelet-rich-fibrin-i-pr",
+      "title": "Comprehensive Characterization of Injectable Platelet-Rich Fibrin (i-PRF): Cellular, Biochemical, Architectural, Rheological, and Release-Kinetic Profiling of Ten Independent Preparations",
+      "titleNormalized": "comprehensive characterization of injectable platelet rich fibrin i prf cellular biochemical architectural rheological and release kinetic profiling of ten independent preparations",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-11T07:49:51.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-11T07:49:51.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a08f71c31b4a60b",
+                "messageId": "1a08f71c31b4a60b",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-11T07:49:51.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a08f71c31b4a60b",
+            "messageId": "1a08f71c31b4a60b",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-11T07:49:51.000Z",
+      "updatedAt": "2026-09-11T07:49:51.000Z"
+    },
     {
       "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
       "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",

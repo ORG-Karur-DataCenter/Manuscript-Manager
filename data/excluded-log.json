@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-11T06:28:49.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-41294] - [EMID:3533c796e4292a52]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T06:42:57.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review for OPEC Energy Review [email ref: IE-SW-1-a]",
+      "from": "Diana Khoury <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T06:46:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Invitation to Contribute to the Cartilage (SAGE) Special Collection on Cartilage Regeneration",
+      "from": "Shreyathaa  P <shreyathaa.p@cmcvellore.ac.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T07:07:01.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow-up: Invitation to Review for Journal of Investigative Surgery - Manuscript ID: UIVS-2026-0256",
+      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T08:28:32.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO-D-26-01624 - New manuscript received",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T09:44:39.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation to Publish Manuscript: International Journal of Biomedical Research & Practice",
+      "from": "\"Biomedical Research & Practice\" <submissions.brp@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T10:00:21.000Z",
+      "reason": "unrelated",
+      "subject": "[Reminder] Validation of the Hierarchical Nature of the AO Spine Primary Infection Classification System  and the Development of an Infection Severity Score",
+      "from": "\"Knowledge Forum T&I\" <olesja.hazenbiller@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T10:00:52.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "10 days left: share your research at GSC 2027",
+      "from": "Global Spine Congress <gsc@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T11:17:33.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a recent article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-11T02:02:55.000Z",
       "reason": "predatory_solicitation",
       "subject": "Scopus-Indexed JDSIS (Q1 Ranked) - Call for Manuscript Submissions",
@@ -2036,69 +2099,6 @@
       "subject": "[ORCID] Sathish Muthu you have new notifications",
       "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T08:46:27.000Z",
-      "reason": "unrelated",
-      "subject": "ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Rajasekaran Shanmuganathan <rajasekaran.orth@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T09:41:09.000Z",
-      "reason": "unrelated",
-      "subject": "AW: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "\"von der Höh, Nicolas\" <Nicolas.vonderHoeh@medizin.uni-leipzig.de>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T11:09:09.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Dalian Medical University",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-18T13:00:49.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Estrogen therapy associated with lower Alzheimer’s risk",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-18T15:28:06.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The toughest job in tech? Junior developer.",
-      "from": "GitHub via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-18T22:13:12.000Z",
-      "reason": "unrelated",
-      "subject": "[ORCID] DHIBIN VIKASH K P you have new notifications",
-      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T05:52:28.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: Springer Nature reprint offer for your article",
-      "from": "no-reply@email.copyright.com",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T06:34:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Human Behaviour Contents: Volume 10 Number 8",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T06:38:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Energy Contents: Volume 11 Number 8",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
