@@ -251,6 +251,18 @@
         "Dhibin"
       ],
       "failed": []
+    },
+    {
+      "key": "evaluation-of-allelic-variants-of-the-single-nucleotide-polymorphism-p|2026-09-13T18:29:59.999Z|t-1",
+      "kind": "t-1",
+      "manuscriptId": "evaluation-of-allelic-variants-of-the-single-nucleotide-polymorphism-p",
+      "title": "Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis",
+      "due": "2026-09-13T18:29:59.999Z",
+      "at": "2026-09-11T19:47:05.979Z",
+      "to": [
+        "Dhibin"
+      ],
+      "failed": []
     }
   ],
   "issues": {
@@ -262,7 +274,7 @@
     },
     "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-": {
       "number": 10,
-      "title": "Amendment 23 days overdue — National and subnational burden of low back pain in India, 1990–2023:…",
+      "title": "Amendment 24 days overdue — National and subnational burden of low back pain in India, 1990–2023:…",
       "due": "2026-08-19T18:29:59.999Z"
     },
     "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s": {
@@ -273,7 +285,7 @@
     },
     "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-": {
       "number": 12,
-      "title": "Amendment 10 days overdue — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
+      "title": "Amendment 11 days overdue — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
       "due": "2026-09-01T18:29:59.999Z"
     },
     "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s": {
@@ -290,7 +302,7 @@
     },
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
-      "title": "Amendment 13 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "title": "Amendment 12 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
       "due": "2026-09-24T18:29:59.999Z",
       "closed": true
     },
@@ -308,12 +320,12 @@
     },
     "a-patho-mechanical-classification-of-proximal-radius-fractures-predict": {
       "number": 19,
-      "title": "Amendment 6 days left — A Patho-mechanical Classification of Proximal Radius Fractures Predic…",
+      "title": "Amendment 5 days left — A Patho-mechanical Classification of Proximal Radius Fractures Predic…",
       "due": "2026-09-17T18:29:59.999Z"
     },
     "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di": {
       "number": 20,
-      "title": "Amendment 29 days overdue — Should spinal Ewing's sarcoma be managed differently from extremity d…",
+      "title": "Amendment 30 days overdue — Should spinal Ewing's sarcoma be managed differently from extremity d…",
       "due": "2026-08-13T18:29:59.999Z"
     },
     "gut-microbiome-and-regenerative-medicine": {
@@ -324,7 +336,7 @@
     },
     "evaluation-of-allelic-variants-of-the-single-nucleotide-polymorphism-p": {
       "number": 22,
-      "title": "Amendment 2 days left — Evaluation of allelic variants of the single-nucleotide polymorphism…",
+      "title": "Amendment due tomorrow — Evaluation of allelic variants of the single-nucleotide polymorphism…",
       "due": "2026-09-13T18:29:59.999Z"
     }
   }

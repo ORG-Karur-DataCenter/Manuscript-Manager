@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-11T14:06:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "⚠️  Anthropic published the risky requests made to Claude",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T17:22:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Doc Sues Malpractice Insurer for Refusing to Settle Lawsuit",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T13:24:00.000Z",
+      "reason": "unrelated",
+      "subject": "C7 Required List",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T19:06:05.000Z",
+      "reason": "unrelated",
+      "subject": "VERTEBRA has been accepted!",
+      "from": "Ambrosio Luca <l.ambrosio@unicampus.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-11T11:48:15.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "🚨🚨 India Inc seeks AI adoption managers",
@@ -2070,34 +2098,6 @@
       "reason": "unrelated",
       "subject": "Categorization and Rationalization of Mutual Fund Schemes - Addendum",
       "from": "TATA Mutual Fund <donotreplytoTATAMF@camsonline.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T14:44:57.000Z",
-      "reason": "unrelated",
-      "subject": "RE:  ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Alex Vaccaro <Alex.Vaccaro@rothmanortho.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T14:49:30.000Z",
-      "reason": "unrelated",
-      "subject": "Re: International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: feedback on manuscript",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T14:57:10.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "chan chris <chrnat01@yahoo.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T15:39:04.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Gaurav <spinegaurav@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
