@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-11T02:02:55.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Scopus-Indexed JDSIS (Q1 Ranked) - Call for Manuscript Submissions",
+      "from": "jenny@jdsiseditorial.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T04:55:46.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-00960 - [EMID:6e5f96e0c97bb868]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-11T05:22:30.000Z",
+      "reason": "unrelated",
+      "subject": "Funds/Securities Balance",
+      "from": "nse_alerts@nse.co.in",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-10T20:31:28.000Z",
       "reason": "predatory_solicitation",
       "subject": "Number ID 05395420 | Invitation to Submit an Original Research Manuscript to WJTM – USD 600 Honorarium and No APC",
@@ -2077,27 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Nature Energy Contents: Volume 11 Number 8",
       "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T07:37:51.000Z",
-      "reason": "unrelated",
-      "subject": "Quality of Elsevier's Author Support",
-      "from": "Elsevier Author Feedback <surveys@surveys.elsevier.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-19T13:20:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "SpaceX’s Cursor just killed GitHub",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T00:06:39.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Aussie Flu Season Implications for North America",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
