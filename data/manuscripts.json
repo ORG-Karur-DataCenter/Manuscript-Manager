@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:53:15.040Z",
+  "generatedAt": "2026-09-12T10:54:09.096Z",
   "manuscripts": [
     {
       "id": "comprehensive-characterization-of-injectable-platelet-rich-fibrin-i-pr",
@@ -43,6 +43,19 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-12T10:01:45.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a09510e1b9653bb",
+                "messageId": "1a09510e1b9653bb",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
             }
           ]
         }
@@ -64,10 +77,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-12T10:01:45.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a09510e1b9653bb",
+            "messageId": "1a09510e1b9653bb",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-11T07:49:51.000Z",
-      "updatedAt": "2026-09-11T07:49:51.000Z"
+      "updatedAt": "2026-09-12T10:01:45.000Z"
     },
     {
       "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
