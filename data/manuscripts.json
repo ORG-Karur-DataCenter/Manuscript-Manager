@@ -340,108 +340,6 @@
       "updatedAt": "2026-09-10T17:44:45.000Z"
     },
     {
-      "id": "a-patho-mechanical-classification-of-proximal-radius-fractures-predict",
-      "title": "A Patho-mechanical Classification of Proximal Radius Fractures Predicting Associated Injuries and Functional Outcomes​",
-      "titleNormalized": "a patho mechanical classification of proximal radius fractures predicting associated injuries and functional outcomes",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
-      "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-09-17T18:29:59.999Z",
-      "deadlineSource": "assumed",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
-      ],
-      "submissions": [
-        {
-          "journal": "Indian Journal of Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-09-10T16:44:35.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-10T16:40:32.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "The manuscript PDF has been built and the author must approve it to complete the submission",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a08c3155ceb8ab8",
-                "messageId": "1a08c3155ceb8ab8",
-                "subject": "JOIO: Your PDF Has Been Built",
-                "from": "JOIO Editorial Office <em@editorialmanager.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-10T16:44:35.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Your submission was removed from the queue due to no response, and you may resubmit as a new submission.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "1a08c351b814bdb4",
-                "messageId": "1a08c351b814bdb4",
-                "subject": "Your submission to Indian Journal of Orthopaedics has been removed - [EMID:443ba10a921676cf]",
-                "from": "JOIO Editorial Office <em@editorialmanager.com>"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-09-10T16:40:32.000Z",
-          "journal": "Indian Journal of Orthopaedics",
-          "eventType": "new_submission",
-          "manuscriptNumber": null,
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript PDF has been built and the author must approve it to complete the submission",
-          "source": {
-            "threadId": "1a08c3155ceb8ab8",
-            "messageId": "1a08c3155ceb8ab8",
-            "subject": "JOIO: Your PDF Has Been Built",
-            "from": "JOIO Editorial Office <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-10T16:44:35.000Z",
-          "journal": "Indian Journal of Orthopaedics",
-          "eventType": "sent_back",
-          "manuscriptNumber": null,
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-17T18:29:59.999Z",
-            "source": "assumed",
-            "basis": "7 days — this journal's usual window, not stated in the email"
-          },
-          "note": "Your submission was removed from the queue due to no response, and you may resubmit as a new submission.",
-          "source": {
-            "threadId": "1a08c351b814bdb4",
-            "messageId": "1a08c351b814bdb4",
-            "subject": "Your submission to Indian Journal of Orthopaedics has been removed - [EMID:443ba10a921676cf]",
-            "from": "JOIO Editorial Office <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-09-10T16:44:35.000Z",
-      "updatedAt": "2026-09-10T16:44:35.000Z"
-    },
-    {
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
       "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
       "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
@@ -19850,5 +19748,5 @@
       "updatedAt": "2026-02-27T04:16:41.000Z"
     }
   ],
-  "editedAt": "2026-09-10T18:14:38.387Z"
+  "editedAt": "2026-09-12T03:12:29.772Z"
 }
