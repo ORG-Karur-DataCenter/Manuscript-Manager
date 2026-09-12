@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-12T02:26:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI: ChatGPT invented fake police testimony in murder appeal, New Mexico high court says",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-12T01:45:20.000Z",
+      "reason": "unrelated",
+      "subject": "additional articles in C7 laminoplasty",
+      "from": "\"Viswanathan, Vibhu K\" <vviswanathan@uabmc.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-12T04:45:38.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01553R1 - [EMID:fd47bf57e50e4f67]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-11T20:02:32.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Meet The JBJS Audio Narrators 🎧",
@@ -2078,27 +2099,6 @@
       "subject": "Meet Stanford’s public art ranger",
       "from": "Stanford Report <noreply@stanford.edu>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T14:54:17.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Abdullah al mamun <mamuncomc@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T15:42:53.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Journal of Orthopaedic Case Reports: Latest Issue Published!",
-      "from": "Journal of Orthopaedic Case Reports <jocretocalert@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T16:46:46.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Andrei Joaquim <andjoaquim@yahoo.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
