@@ -456,6 +456,30 @@ await check("health reports a missing secret by name", async () => {
   assert(body.missing.includes("GITHUB_TOKEN"), `missing is ${JSON.stringify(body.missing)}`);
 });
 
+await check("/health says what the deployed build can do", async () => {
+  // The one question a browser can ask without a password: is what is running
+  // current? A Worker is deployed separately from this repository, and a stale
+  // one refuses new methods at CORS -- which a browser reports the same way as
+  // a Worker that was never deployed.
+  stubGitHub({ registry: registryWith({}) });
+  const res = await call(new Request("https://proxy.test/health"));
+  const body = await res.json();
+  assert(Array.isArray(body.methods), `methods is ${JSON.stringify(body.methods)}`);
+  for (const m of ["PATCH", "DELETE"]) {
+    assert(body.methods.includes(m), `/health does not admit to ${m}`);
+  }
+  // And it must agree with what CORS actually permits, or it is worse than
+  // saying nothing.
+  const preflight = await call(new Request("https://proxy.test/manuscripts/m1", {
+    method: "OPTIONS",
+    headers: { Origin: "https://org-karur-datacenter.github.io" },
+  }));
+  const allowed = preflight.headers.get("Access-Control-Allow-Methods") || "";
+  for (const m of body.methods) {
+    assert(allowed.includes(m), `/health claims ${m} but CORS does not allow it`);
+  }
+});
+
 await check("a browser preflight is answered", async () => {
   stubGitHub({ registry: registryWith({}) });
   const res = await call(new Request("https://proxy.test/manuscripts/m1", {

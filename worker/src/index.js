@@ -158,6 +158,21 @@ function safeEqual(a, b) {
   return diff === 0;
 }
 
+/*
+ * What this build can do, in one list, so a browser can be shown it.
+ *
+ * A Worker is deployed by hand and separately from this repository, so the
+ * code here and the code running are two different things -- and the way that
+ * shows up is a CORS rejection, which a browser reports identically to a
+ * Worker that does not exist. It has now happened twice: once when editing
+ * added PATCH, and again when deleting added DELETE.
+ *
+ * So the same list that gates CORS is also reported by /health, which needs no
+ * password. Loading /health in the address bar answers "is what is deployed
+ * current?" without guessing.
+ */
+const ALLOWED_METHODS = ["GET", "POST", "PATCH", "DELETE", "OPTIONS"];
+
 function corsHeaders(env, request) {
   const allowed = env.ALLOWED_ORIGIN || "*";
   const origin = request.headers.get("Origin") || "";
@@ -167,7 +182,7 @@ function corsHeaders(env, request) {
   return {
     "Access-Control-Allow-Origin": value,
     "Access-Control-Allow-Headers": "Authorization, Content-Type",
-    "Access-Control-Allow-Methods": "GET, POST, PATCH, DELETE, OPTIONS",
+    "Access-Control-Allow-Methods": ALLOWED_METHODS.join(", "),
     "Access-Control-Max-Age": "86400",
     Vary: "Origin",
   };
@@ -433,6 +448,9 @@ export default {
         ok: true,
         configured: missing.length === 0,
         missing,
+        // The build's own account of itself. "DELETE" here means a deployed
+        // Worker that can delete; its absence means this one predates it.
+        methods: ALLOWED_METHODS,
         // Everything else this Worker can see, so a misspelled name shows up
         // as an unexpected entry rather than as silence. Names only.
         secretsFound: Object.keys(env).filter((k) => typeof env[k] === "string" && k !== "ALLOWED_ORIGIN"),
