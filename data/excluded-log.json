@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-12T17:06:24.000Z",
+      "reason": "unrelated",
+      "subject": "Why your work matters more than others",
+      "from": "Steven Kotler <sk@stevenkotler.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-12T14:27:04.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-12T11:51:08.000Z",
       "reason": "unrelated",
       "subject": "[Journal of Minimally Invasive Spine Surgery & Technique] Registration",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
       "from": "Luiz Gustavo Dal Oglio da Rocha <lgdrocha@yahoo.com.br>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T23:38:13.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Kosei Nagata <koseinagata1984@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T12:48:40.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "\"Prof. Yong Hai\" <prof.haiyong@yahoo.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
