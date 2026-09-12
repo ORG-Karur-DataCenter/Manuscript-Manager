@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-12T17:32:35.000Z",
+      "reason": "unrelated",
+      "subject": "PROSPERO record team member confirmation",
+      "from": "PROSPERO Administrator <irss592@york.ac.uk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-12T18:23:59.000Z",
+      "reason": "unrelated",
+      "subject": "Gowtham Multi-specialty Hospital Managing Director you may know",
+      "from": "LinkedIn <messages-noreply@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-12T17:06:24.000Z",
       "reason": "unrelated",
       "subject": "Why your work matters more than others",
@@ -2085,20 +2099,6 @@
       "subject": "Research & Publication Support for Doctors",
       "from": "Med Publy <medpubly@gmail.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T08:38:03.000Z",
-      "reason": "unrelated",
-      "subject": "International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: feedback on manuscript",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T23:10:26.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Luiz Gustavo Dal Oglio da Rocha <lgdrocha@yahoo.com.br>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

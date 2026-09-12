@@ -1,6 +1,253 @@
 {
-  "generatedAt": "2026-09-12T17:14:18.628Z",
+  "generatedAt": "2026-09-12T19:27:21.788Z",
   "manuscripts": [
+    {
+      "id": "does-obesity-reduce-the-value-of-spine-surgery-a-systematic-review-of-",
+      "title": "Does obesity reduce the value of spine surgery? A systematic review of cost-effectiveness across surgical approaches",
+      "titleNormalized": "does obesity reduce the value of spine surgery a systematic review of cost effectiveness across surgical approaches",
+      "bucket": "submissions",
+      "needsReview": false,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1103",
+      "currentStatus": "Submitted",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-16T15:02:12.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-16T15:02:12.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e314f2f2cf7e86",
+                "messageId": "19e314f2f2cf7e86",
+                "subject": "International Orthopaedics - Receipt of Manuscript 'Does obesity reduce...'",
+                "from": "Springer Nature <do-not-reply@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-05-31T03:41:59.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-05-31T03:41:59.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "Rejected.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "19e7c1fd9ddc1396",
+                "messageId": "19e7c1fd9ddc1396",
+                "subject": "Decision on your submission to International Orthopaedics",
+                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+                "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1103",
+          "submittedDate": "2026-06-05T15:55:40.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-06-05T15:55:40.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Submission acknowledged.",
+              "manuscriptNumber": "GSJ-26-1103",
+              "source": {
+                "threadId": "19e987f526c79901",
+                "messageId": "19e987f526c79901",
+                "subject": "Global Spine Journal  GSJ-26-1103",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+                "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T19:17:14.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1103",
+              "source": {
+                "threadId": "1a0970d6fce59c7c",
+                "messageId": "1a0970d6fce59c7c",
+                "subject": "Global Spine Journal  GSJ-26-1103",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-05-16T15:02:12.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e314f2f2cf7e86",
+            "messageId": "19e314f2f2cf7e86",
+            "subject": "International Orthopaedics - Receipt of Manuscript 'Does obesity reduce...'",
+            "from": "Springer Nature <do-not-reply@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-05-31T03:41:59.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "rejected",
+          "label": "Rejected",
+          "revisionRound": null,
+          "note": "Rejected.",
+          "source": {
+            "threadId": "19e7c1fd9ddc1396",
+            "messageId": "19e7c1fd9ddc1396",
+            "subject": "Decision on your submission to International Orthopaedics",
+            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-06-05T15:55:40.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "label": "Submitted",
+          "revisionRound": null,
+          "note": "Submission acknowledged.",
+          "source": {
+            "threadId": "19e987f526c79901",
+            "messageId": "19e987f526c79901",
+            "subject": "Global Spine Journal  GSJ-26-1103",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
+            "via": "offline-import"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-12T19:17:14.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-1103",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a0970d6fce59c7c",
+            "messageId": "1a0970d6fce59c7c",
+            "subject": "Global Spine Journal  GSJ-26-1103",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-05-31T03:41:59.000Z",
+      "updatedAt": "2026-09-12T19:17:14.000Z",
+      "deadline": null,
+      "deadlineSource": null
+    },
+    {
+      "id": "incidence-chronology-and-risk-factors-of-rod-fracture-following-adult-",
+      "title": "Incidence, Chronology, and Risk Factors of Rod Fracture Following Adult Spinal Deformity Surgery: A Systematic Review and Meta-Analysis",
+      "titleNormalized": "incidence chronology and risk factors of rod fracture following adult spinal deformity surgery a systematic review and meta analysis",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1881",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1881",
+          "submittedDate": "2026-09-12T17:18:41.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-12T17:18:41.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1881",
+              "source": {
+                "threadId": "1a096a0e2b672b37",
+                "messageId": "1a096a0e2b672b37",
+                "subject": "Global Spine Journal  GSJ-26-1881",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-12T17:18:41.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-1881",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a096a0e2b672b37",
+            "messageId": "1a096a0e2b672b37",
+            "subject": "Global Spine Journal  GSJ-26-1881",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-12T17:18:41.000Z",
+      "updatedAt": "2026-09-12T17:18:41.000Z"
+    },
     {
       "id": "comprehensive-characterization-of-injectable-platelet-rich-fibrin-i-pr",
       "title": "Comprehensive Characterization of Injectable Platelet-Rich Fibrin (i-PRF): Cellular, Biochemical, Architectural, Rheological, and Release-Kinetic Profiling of Ten Independent Preparations",
@@ -15366,153 +15613,6 @@
       ],
       "createdAt": "2026-06-07T12:32:32.000Z",
       "updatedAt": "2026-06-07T12:32:32.000Z"
-    },
-    {
-      "id": "does-obesity-reduce-the-value-of-spine-surgery-a-systematic-review-of-",
-      "title": "Does obesity reduce the value of spine surgery? A systematic review of cost-effectiveness across surgical approaches",
-      "titleNormalized": "does obesity reduce the value of spine surgery a systematic review of cost effectiveness across surgical approaches",
-      "bucket": "submissions",
-      "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-1103",
-      "currentStatus": "Submitted",
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-05-16T15:02:12.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-16T15:02:12.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e314f2f2cf7e86",
-                "messageId": "19e314f2f2cf7e86",
-                "subject": "International Orthopaedics - Receipt of Manuscript 'Does obesity reduce...'",
-                "from": "Springer Nature <do-not-reply@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
-          "submittedDate": "2026-05-31T03:41:59.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-05-31T03:41:59.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected.",
-              "manuscriptNumber": null,
-              "source": {
-                "threadId": "19e7c1fd9ddc1396",
-                "messageId": "19e7c1fd9ddc1396",
-                "subject": "Decision on your submission to International Orthopaedics",
-                "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        },
-        {
-          "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-1103",
-          "submittedDate": "2026-06-05T15:55:40.000Z",
-          "outcome": "active",
-          "status": "new_submission",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-06-05T15:55:40.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submission acknowledged.",
-              "manuscriptNumber": "GSJ-26-1103",
-              "source": {
-                "threadId": "19e987f526c79901",
-                "messageId": "19e987f526c79901",
-                "subject": "Global Spine Journal  GSJ-26-1103",
-                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-                "via": "offline-import"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-05-16T15:02:12.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19e314f2f2cf7e86",
-            "messageId": "19e314f2f2cf7e86",
-            "subject": "International Orthopaedics - Receipt of Manuscript 'Does obesity reduce...'",
-            "from": "Springer Nature <do-not-reply@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-05-31T03:41:59.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "rejected",
-          "label": "Rejected",
-          "revisionRound": null,
-          "note": "Rejected.",
-          "source": {
-            "threadId": "19e7c1fd9ddc1396",
-            "messageId": "19e7c1fd9ddc1396",
-            "subject": "Decision on your submission to International Orthopaedics",
-            "from": "International Orthopaedics <MariaMerrieJul.Ladag@springernature.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-06-05T15:55:40.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "new_submission",
-          "label": "Submitted",
-          "revisionRound": null,
-          "note": "Submission acknowledged.",
-          "source": {
-            "threadId": "19e987f526c79901",
-            "messageId": "19e987f526c79901",
-            "subject": "Global Spine Journal  GSJ-26-1103",
-            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
-            "via": "offline-import"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-05-31T03:41:59.000Z",
-      "updatedAt": "2026-06-05T15:55:40.000Z"
     },
     {
       "id": "osteoprotegerin-and-receptor-activator-of-nf-kappab-ligand-as-biomarke",
