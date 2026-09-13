@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-13T01:11:33.000Z",
+      "reason": "unrelated",
+      "subject": "PROSPERO record confirmation",
+      "from": "PROSPERO Administrator <irss583@york.ac.uk>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-13T02:22:52.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI: Europe eyes battle over 'pervert' AI glasses",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-13T01:11:34.000Z",
+      "reason": "unrelated",
+      "subject": "PROSPERO record confirmation",
+      "from": "PROSPERO Administrator <irss583@york.ac.uk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-13T04:45:33.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow up on review request for JOIO-D-26-01553R1 - [EMID:1ce683da2b395066]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-13T04:49:45.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Welcome to IOACON 2026 as an Abstract Reviewer",
+      "from": "IOACON 2026 <scientific@ioacon2026gujarat.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-12T17:32:35.000Z",
       "reason": "unrelated",
       "subject": "PROSPERO record team member confirmation",
@@ -2064,41 +2099,6 @@
       "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
       "from": "sudhir srivastava <kemh_sks@yahoo.co.in>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-17T13:01:46.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The sunscreen “game changer” coming to the U.S.",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-17T13:58:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🔑 How Claude's text watermark works",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-17T15:26:48.000Z",
-      "reason": "unrelated",
-      "subject": "Ai Health Highway recently posted",
-      "from": "LinkedIn <updates-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-17T20:00:50.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "August 2026 Job Opportunities and Career Advice",
-      "from": "Physics Today Jobs <pt-jobs@aip-info.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-18T00:23:55.000Z",
-      "reason": "unrelated",
-      "subject": "Research & Publication Support for Doctors",
-      "from": "Med Publy <medpubly@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
