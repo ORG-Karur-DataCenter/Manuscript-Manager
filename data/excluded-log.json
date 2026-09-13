@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-13T09:48:28.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Call for Papers: Journal of Orthopedics & Trauma Surgery",
+      "from": "Thieme <thieme@sci.scientific-direct.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-13T20:17:47.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-13T14:55:29.000Z",
       "reason": "unrelated",
       "subject": "Transfer Not Completed",
@@ -2084,20 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Are JAK inhibitors less effective at higher BMI? ",
       "from": "EMJ 6 at 6am <circulation@emjreviews.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T05:16:38.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Online Publication : Call for Papers - September 2026",
-      "from": "International Journal of Recent Advances <Publicationramr2025@11792914.brevosend.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T05:20:09.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Shahid Akon <shahid.akon@yahoo.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

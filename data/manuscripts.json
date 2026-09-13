@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T19:30:07.813Z",
+  "generatedAt": "2026-09-13T22:27:52.317Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9707,15 +9707,15 @@
       "id": "incidence-chronology-and-risk-factors-of-rod-fracture-following-adult-",
       "title": "Incidence, Chronology, and Risk Factors of Rod Fracture Following Adult Spinal Deformity Surgery: A Systematic Review and Meta-Analysis",
       "titleNormalized": "incidence chronology and risk factors of rod fracture following adult spinal deformity surgery a systematic review and meta analysis",
-      "bucket": "submissions",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-1881",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -9728,8 +9728,8 @@
           "journal": "Global Spine Journal",
           "manuscriptNumber": "GSJ-26-1881",
           "submittedDate": "2026-09-12T17:18:41.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -9744,6 +9744,19 @@
                 "messageId": "1a096a0e2b672b37",
                 "subject": "Global Spine Journal  GSJ-26-1881",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-13T21:10:25.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after editorial assessment and was not sent for peer review.",
+              "manuscriptNumber": "GSJ-26-1881",
+              "source": {
+                "threadId": "1a09c9b99e6e62dd",
+                "messageId": "1a09c9b99e6e62dd",
+                "subject": "Fwd: Decision on Manuscript ID GSJ-26-1881 - Global Spine Journal",
+                "from": "Vibhu Krishnan <drvibu007@gmail.com>"
               }
             }
           ]
@@ -9766,10 +9779,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-13T21:10:25.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "GSJ-26-1881",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after editorial assessment and was not sent for peer review.",
+          "source": {
+            "threadId": "1a09c9b99e6e62dd",
+            "messageId": "1a09c9b99e6e62dd",
+            "subject": "Fwd: Decision on Manuscript ID GSJ-26-1881 - Global Spine Journal",
+            "from": "Vibhu Krishnan <drvibu007@gmail.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-12T17:18:41.000Z",
-      "updatedAt": "2026-09-12T17:18:41.000Z"
+      "updatedAt": "2026-09-13T21:10:25.000Z"
     },
     {
       "id": "incidence-recovery-of-sexual-dysfunction-in-cauda-equina-syndrome-foll",
