@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:23:48.432Z",
+  "generatedAt": "2026-09-13T19:30:07.813Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9930,21 +9930,22 @@
       "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
       "title": "Industry funding and outcome reporting in single-level cervical disc arthroplasty versus anterior cervical discectomy and fusion: a systematic review and meta-analysis of randomized controlled trials with funding- and device-stratified analyses",
       "titleNormalized": "industry funding and outcome reporting in single level cervical disc arthroplasty versus anterior cervical discectomy and fusion a systematic review and meta analysis of randomized controlled trials with funding and device stratified analyses",
-      "bucket": "needs_action",
+      "bucket": "submissions",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "JBJS Open Access",
-      "currentManuscriptNumber": "JBJSOA-D-26-00274",
-      "currentStatus": "Rejected",
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-1886",
+      "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
         {
@@ -10006,6 +10007,30 @@
                 "messageId": "1a06d719118fc3d3",
                 "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00274) - [EMID:abb8bd1484de13d6]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-1886",
+          "submittedDate": "2026-09-13T16:28:46.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-13T16:28:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1886",
+              "source": {
+                "threadId": "1a09b998df29c3e8",
+                "messageId": "1a09b998df29c3e8",
+                "subject": "Global Spine Journal  GSJ-26-1886",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
               }
             }
           ]
@@ -10079,10 +10104,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-13T16:28:46.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-1886",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a09b998df29c3e8",
+            "messageId": "1a09b998df29c3e8",
+            "subject": "Global Spine Journal  GSJ-26-1886",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-15T05:31:48.000Z",
-      "updatedAt": "2026-09-04T17:22:29.000Z"
+      "updatedAt": "2026-09-13T16:28:46.000Z"
     },
     {
       "id": "infrared-thermography-as-adjunctive-imaging-in-spine-surgery-evaluatin",
