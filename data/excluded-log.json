@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-13T14:55:29.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-13T07:56:43.000Z",
       "reason": "unrelated",
       "subject": "Re: Reg regenerative series",
@@ -2091,13 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
       "from": "Shahid Akon <shahid.akon@yahoo.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T05:21:03.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Rod fractures - manuscript 1",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
