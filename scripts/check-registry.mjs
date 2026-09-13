@@ -4,7 +4,8 @@
  *
  *   node scripts/check-registry.mjs
  */
-import { applyEvent, applyEdit, isPinned, titleSimilarity } from "./lib/registry.mjs";
+import { applyEvent, applyEdit, isPinned, titleSimilarity, baseManuscriptNumber,
+  isPlausibleManuscriptNumber, tombstoneFor, silence } from "./lib/registry.mjs";
 
 const reg = { manuscripts: [] };
 const ev = (o) => ({ revisionRound: null, doi: null, publicationLink: null, summary: "", needsReview: false, ...o });
@@ -494,6 +495,87 @@ const sinceFor = (state) =>
 
   check("an edit records the previous title", (reg.manuscripts[0].titleAliases || []).includes("Old Name For A Paper"));
   check("and the old title keeps matching", reg.manuscripts.length === 1);
+}
+
+// --- a revision round is the same paper --------------------------------------
+//
+// JOA-D-26-01135R1 and JOA-D-26-01135R4 are one submission on its first and
+// fourth revision. Compared literally they were two, and the registry duly
+// carried two records for one paper -- the revision emails, the ones bearing
+// deadlines, landing on the half with no history.
+{
+  check("the round is not part of the number", baseManuscriptNumber("JOA-D-26-01135R4") === "joa-d-26-01135");
+  check("however the journal punctuates it", baseManuscriptNumber("GSJ-26-0695.R1") === "gsj-26-0695");
+  check("and a number without one is unchanged", baseManuscriptNumber("GSJ-26-1654") === "gsj-26-1654");
+
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "A Paper Under Revision", journal: "The Journal of Arthroplasty", manuscriptNumber: "JOA-D-26-01135R1", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "jr1" } }));
+  applyEvent(reg, ev({ title: "A Completely Different Wording The Journal Used", journal: "The Journal of Arthroplasty", manuscriptNumber: "JOA-D-26-01135R4", eventType: "revision_requested", timestamp: "2026-09-01T00:00:00Z", source: { messageId: "jr2" } }));
+  check("a later round lands on the same record", reg.manuscripts.length === 1);
+  check("and brings its event with it", reg.manuscripts[0].timeline.length === 2);
+
+  // But a different paper at the same journal must still be its own record.
+  applyEvent(reg, ev({ title: "An Unrelated Paper Entirely", journal: "The Journal of Arthroplasty", manuscriptNumber: "JOA-D-26-09999", eventType: "new_submission", timestamp: "2026-09-02T00:00:00Z", source: { messageId: "jr3" } }));
+  check("a different number is still a different paper", reg.manuscripts.length === 2);
+}
+
+// --- not everything shaped like an id is a manuscript number -----------------
+//
+// This registry has a paper whose number is "EMID:8291c19a770456c2", read out
+// of a mail footer. A wrong number is worse than none: it is what the next
+// email matches on.
+{
+  for (const good of ["JOA-D-26-01135R4", "GSJ-26-0695.R1", "127479", "JBJSOA-D-26-00274"]) {
+    check(`"${good}" is a manuscript number`, isPlausibleManuscriptNumber(good));
+  }
+  for (const junk of ["EMID:8291c19a770456c2", "10.1007/978-1-0716-5614-3_10", "", "a b c", "no-digits-here"]) {
+    check(`"${junk}" is not`, !isPlausibleManuscriptNumber(junk));
+  }
+
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "First Paper With A Junk Number", journal: "Journal X", manuscriptNumber: "EMID:8291c19a770456c2", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "e1" } }));
+  applyEvent(reg, ev({ title: "Second Paper With The Same Junk Number", journal: "Journal X", manuscriptNumber: "EMID:8291c19a770456c2", eventType: "new_submission", timestamp: "2026-08-02T00:00:00Z", source: { messageId: "e2" } }));
+  check("a junk id does not merge two papers", reg.manuscripts.length === 2);
+}
+
+// --- a delete has to hold ----------------------------------------------------
+//
+// Deleting removed the record but not the mail, so the next email rebuilt it.
+// One paper here was deleted on 10 September, returned, and deleted again on
+// the 12th.
+{
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "A Paper Somebody Deleted", journal: "Journal Y", manuscriptNumber: "JY-26-001", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "t1" } }));
+  const doomed = reg.manuscripts[0];
+
+  reg.tombstones = [tombstoneFor(doomed, "2026-09-01T00:00:00Z")];
+  reg.manuscripts = [];
+
+  const again = applyEvent(reg, ev({ title: "A Paper Somebody Deleted", journal: "Journal Y", manuscriptNumber: "JY-26-001", eventType: "rejected", timestamp: "2026-09-02T00:00:00Z", source: { messageId: "t2" } }));
+  check("a later email does not rebuild a deleted paper", reg.manuscripts.length === 0);
+  check("and the caller is told it was refused", again === null);
+
+  // A revision of the deleted submission is the same paper, so also suppressed.
+  applyEvent(reg, ev({ title: "Retitled By The Journal Meanwhile", journal: "Journal Y", manuscriptNumber: "JY-26-001R2", eventType: "revision_requested", timestamp: "2026-09-03T00:00:00Z", source: { messageId: "t3" } }));
+  check("nor by a later round of the same submission", reg.manuscripts.length === 0);
+
+  // But it is not a ban on the subject: a genuinely new submission files.
+  applyEvent(reg, ev({ title: "A Brand New Paper About Something Else", journal: "Journal Y", manuscriptNumber: "JY-26-777", eventType: "new_submission", timestamp: "2026-09-04T00:00:00Z", source: { messageId: "t4" } }));
+  check("a different paper still files normally", reg.manuscripts.length === 1);
+}
+
+// --- silence is itself information -------------------------------------------
+{
+  const now = Date.parse("2026-09-13T00:00:00Z");
+  const at = (bucket, daysAgo) => ({ bucket, updatedAt: new Date(now - daysAgo * 86400000).toISOString() });
+
+  check("a fresh submission is not stale", silence(at("submissions", 10), now).stale === false);
+  check("a submission silent for six months is", silence(at("submissions", 180), now).stale === true);
+  check("and it says how long", silence(at("submissions", 180), now).days === 180);
+  check("a revision owed for six weeks is stale sooner", silence(at("revisions_pending", 45), now).stale === true);
+  check("but not at a fortnight", silence(at("revisions_pending", 14), now).stale === false);
+  check("a published paper is never stale", silence(at("published", 900), now).stale === false);
+  check("a record with no date says nothing", silence({ bucket: "submissions" }, now) === null);
 }
 
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");

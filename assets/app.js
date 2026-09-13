@@ -1,7 +1,7 @@
 import { requireUnlock, signOut } from "./auth.js";
 import { runSync, waitForFreshData, hasToken, hasOwnToken, setToken, usingProxy, rememberPassphrase } from "./sync.js";
 import { loadConfig } from "./config.js";
-import { FIELDS, SECTIONS, isPinned, editingAvailable, saveEdit, deleteManuscript, diff } from "./edit.js";
+import { FIELDS, SECTIONS, isPinned, editingAvailable, saveEdit, deleteManuscript, mergeManuscripts, diff } from "./edit.js";
 
 "use strict";
 
@@ -376,6 +376,45 @@ function reviewCardHtml(r) {
   </article>`;
 }
 
+/*
+ * How long each section may go quiet before the silence is the news.
+ *
+ * Duplicated from STALE_AFTER_DAYS in scripts/lib/registry.mjs, which the
+ * browser cannot import from. Keep the two in step.
+ *
+ * Sixty-two of the 128 papers here sit in Submissions, silent for a median of
+ * 76 days and 29 of them for over 90 with one email to their name. Those were
+ * not still under consideration -- the tracker never heard the answer. Without
+ * this a section cannot tell waiting from lost, and the largest one on the
+ * board is mostly lost.
+ */
+const STALE_AFTER_DAYS = {
+  submissions: 90,
+  in_review: 120,
+  revisions_pending: 30,
+  needs_action: 45,
+  published: Infinity,
+};
+
+function silence(m, now = Date.now()) {
+  const last = m && m.updatedAt ? Date.parse(m.updatedAt) : NaN;
+  if (!Number.isFinite(last)) return null;
+  const days = Math.floor((now - last) / 86400000);
+  return { days, stale: days > (STALE_AFTER_DAYS[m.bucket] ?? Infinity) };
+}
+
+/**
+ * Shown only once the silence is longer than the section allows, so it stays
+ * a signal. A badge on every card is wallpaper.
+ */
+function silenceChip(m) {
+  const q = silence(m);
+  if (!q || !q.stale) return "";
+  const months = Math.floor(q.days / 30);
+  const howLong = months >= 2 ? `${months} months` : `${q.days} days`;
+  return `<span class="silence-chip" title="Nothing has been heard about this since ${esc(fmtDate(m.updatedAt))}. Chase the journal, or correct the record by hand.">◌ Silent ${esc(howLong)}</span>`;
+}
+
 function cardHtml(m) {
   const pill = BUCKET_META[m.bucket];
   const attnReason = m.needsActionReason ? NEEDS_ACTION_REASON[m.needsActionReason] : null;
@@ -393,6 +432,7 @@ function cardHtml(m) {
     <div class="card-top">
       <span class="pill ${pill.pill}">${esc(pill.label)}</span>
       ${deadlineChip(m)}
+      ${silenceChip(m)}
       ${m.actionFlag ? `<span class="action-flag">● ${esc(m.actionLabel || "Action")}</span>` : ""}
       ${m.needsReview ? `<span class="review-flag" title="${esc(reviewReasonFor(m))}">⚑ Check</span>` : ""}
     </div>
@@ -581,6 +621,44 @@ function drawerHtml(m) {
 }
 
 /**
+ * Records that might be this same paper.
+ *
+ * Scored the way the matcher scores, so the list is exactly the population it
+ * could have split: a shared manuscript number once the revision round is
+ * stripped, or a title close enough that the old matcher would have merged
+ * them. Ordered with the strongest first.
+ */
+function mergeCandidates(m) {
+  const base = (n) => (n || "").trim().replace(/[._\s-]*R\d+$/i, "").toLowerCase();
+  const mine = new Set((m.submissions || []).map((s) => base(s.manuscriptNumber)).filter(Boolean));
+  const out = [];
+  for (const other of state.manuscripts) {
+    if (other.id === m.id) continue;
+    const theirs = (other.submissions || []).map((s) => base(s.manuscriptNumber)).filter(Boolean);
+    const sharesNumber = theirs.some((n) => mine.has(n));
+    const score = titleCloseness(m.title, other.title);
+    if (sharesNumber || score >= 0.82) out.push({ m: other, score: sharesNumber ? 2 : score });
+  }
+  return out.sort((a, b) => b.score - a.score).slice(0, 8);
+}
+
+/** The matcher's own measure: Dice over character bigrams. */
+function titleCloseness(a, b) {
+  const norm = (t) => (t || "").toLowerCase().replace(/&/g, " and ")
+    .normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+  const na = norm(a), nb = norm(b);
+  if (!na || !nb) return 0;
+  if (na === nb) return 1;
+  const grams = (x) => { const s = new Set(); for (let i = 0; i < x.length - 1; i++) s.add(x.slice(i, i + 2)); return s; };
+  const ga = grams(na), gb = grams(nb);
+  if (!ga.size || !gb.size) return 0;
+  let hit = 0;
+  for (const g of ga) if (gb.has(g)) hit++;
+  return (2 * hit) / (ga.size + gb.size);
+}
+
+/**
  * The edit form.
  *
  * Two things here are worth more than they look. The first is the section
@@ -645,6 +723,28 @@ function editFormHtml(m) {
       ${fields}
 
       <p id="edit-error" class="lock-error" hidden role="alert"></p>
+
+      <!--
+        Offered only where there is something to merge with. A picker listing
+        127 papers invites the mistake it exists to repair, so it shows the
+        records whose titles actually resemble this one, which is the way a
+        paper gets split in the first place.
+      -->
+      ${mergeCandidates(m).length ? `
+      <div class="edit-field" data-field="merge">
+        <div class="edit-label-row"><label for="merge-into">Same paper as another card?</label></div>
+        <div class="merge-row">
+          <select id="merge-into">
+            <option value="">Choose the duplicate to fold in…</option>
+            ${mergeCandidates(m).map((c) => `<option value="${esc(c.m.id)}">${esc(c.m.title.slice(0, 70))}${c.m.currentManuscriptNumber ? ` — ${esc(c.m.currentManuscriptNumber)}` : ""}</option>`).join("")}
+          </select>
+          <button type="button" id="edit-merge" class="sync-close">Merge in</button>
+        </div>
+        <p class="edit-help">
+          Its events, submissions and title all move onto this card, and this card's
+          title is the one that stays. The other card goes.
+        </p>
+      </div>` : ""}
 
       <div class="edit-actions">
         <button type="button" id="edit-delete" class="edit-danger">Delete this manuscript</button>
@@ -766,7 +866,53 @@ function wireEditForm(m) {
   });
   $("#edit-delete-go").addEventListener("click", () => { void submitDelete(m); });
 
+  const mergeBtn = $("#edit-merge");
+  if (mergeBtn) mergeBtn.addEventListener("click", () => {
+    const from = $("#merge-into").value;
+    if (!from) return;
+    const other = state.manuscripts.find((x) => x.id === from);
+    if (!other) return;
+    if (!confirm(
+      `Fold "${other.title.slice(0, 70)}" into this card?\n\n` +
+      `Its ${(other.timeline || []).length} timeline entr${(other.timeline || []).length === 1 ? "y" : "ies"} ` +
+      `and ${(other.submissions || []).length} submission(s) move here. That card then goes, and this card's title stays.`
+    )) return;
+    void submitMerge(m, from);
+  });
+
   form.addEventListener("submit", (e) => { e.preventDefault(); void submitEdit(m); });
+}
+
+async function submitMerge(m, fromId) {
+  const error = $("#edit-error");
+  const btn = $("#edit-merge");
+  error.hidden = true;
+  btn.disabled = true;
+  btn.textContent = "Merging…";
+  try {
+    const result = await mergeManuscripts(m.id, fromId);
+    // Both halves change at once, so replace the survivor and drop the other
+    // rather than re-reading the data file, which lags the commit by minutes.
+    state.manuscripts = state.manuscripts.filter((x) => x.id !== fromId);
+    const i = state.manuscripts.findIndex((x) => x.id === m.id);
+    if (i >= 0 && result.manuscript) state.manuscripts[i] = result.manuscript;
+    editing = null;
+    renderCounts();
+    render();
+    renderDrawer();
+  } catch (err) {
+    if (err.code === "auth") {
+      btn.disabled = false;
+      btn.textContent = "Merge in";
+      if (await askForToken()) void submitMerge(m, fromId);
+      return;
+    }
+    error.textContent = err.message || "The records could not be merged.";
+    error.hidden = false;
+    btn.disabled = false;
+    btn.textContent = "Merge in";
+    console.error(err);
+  }
 }
 
 async function submitDelete(m) {

@@ -685,3 +685,21 @@ body.locked .foot { filter: blur(7px); pointer-events: none; user-select: none; 
 #token-modal.proxy-mode .proxy-title { display: block; }
 #token-modal.proxy-mode .proxy-only { display: block; }
 #token-modal.proxy-mode #token-input::placeholder { content: ""; }
+
+/* A paper nobody has heard about for longer than its section allows. Quiet
+   because it is a question, not an alarm -- the journal may simply be slow. */
+.silence-chip {
+  display: inline-flex; align-items: center; gap: 5px; white-space: nowrap;
+  padding: 3px 9px; border-radius: 100px; font-size: .7rem; font-weight: 600;
+  background: var(--surface-2); color: var(--muted);
+  border: 1px dashed var(--line-strong);
+}
+
+.merge-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.merge-row select {
+  flex: 1 1 220px; min-width: 0; padding: 10px 12px; border-radius: 10px;
+  border: 1px solid var(--line-strong); background: var(--surface);
+  color: var(--ink); font: inherit; font-size: .9rem;
+}
+.merge-row select:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-wash); }
+.merge-row .sync-close { margin-top: 0; flex: none; }

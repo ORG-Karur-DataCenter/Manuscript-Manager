@@ -591,6 +591,80 @@ await check("a confirmed delete removes the card, the record and nothing else", 
   }
 });
 
+await check("a paper nobody has heard about is marked silent", async (page) => {
+  // Sixty-two of 128 real papers sit in Submissions, median 76 days quiet.
+  // Without this the section cannot tell waiting from lost.
+  const snapshot = JSON.parse(JSON.stringify(registry));
+  try {
+    const old = registry.manuscripts.find((m) => m.id === "m-knees");
+    old.bucket = "submissions";
+    old.updatedAt = new Date(Date.now() - 200 * 86400000).toISOString();
+    await page.reload();
+    await unlock(page);
+
+    const chip = await page.$('.card[data-id="m-knees"] .silence-chip');
+    assert(chip, "a paper silent for 200 days carries no signal at all");
+    assert(/silent/i.test(await chip.textContent()), "the chip does not say what it means");
+
+    // And it must stay a signal: a recent paper gets nothing.
+    const fresh = await page.$$('.card:not([data-id="m-knees"]) .silence-chip');
+    assert(!fresh.length, "every card is badged, which makes the badge wallpaper");
+  } finally {
+    registry = snapshot;
+  }
+});
+
+await check("two records for one paper can be merged back together", async (page) => {
+  const snapshot = JSON.parse(JSON.stringify(registry));
+  try {
+    // The way a paper really splits: a revision round the matcher did not
+    // recognise as the same submission.
+    registry.manuscripts.push({
+      id: "m-knees-split",
+      title: "Origional Title As The Journal Typed It",
+      titleNormalized: "origional title as the journal typed it",
+      bucket: "in_review",
+      currentJournal: "Journal of Experimental Orthopaedics",
+      currentStatus: "Under review",
+      currentManuscriptNumber: "JEO-1234R2",
+      authorAccounts: ["dhibin@example.org"],
+      createdAt: "2026-08-25T10:00:00.000Z",
+      updatedAt: "2026-08-25T10:00:00.000Z",
+      submissions: [{
+        journal: "Journal of Experimental Orthopaedics", manuscriptNumber: "JEO-1234R2",
+        submittedDate: "2026-08-25T10:00:00.000Z", outcome: "active", status: "under_review", statusHistory: [],
+      }],
+      timeline: [{
+        timestamp: "2026-08-25T10:00:00.000Z", journal: "Journal of Experimental Orthopaedics",
+        eventType: "under_review", label: "Under review",
+        source: { threadId: "t-split", messageId: "m-split", subject: "Revision received", from: "x@example.org" },
+      }],
+      events: [],
+    });
+    await page.reload();
+    await unlock(page);
+
+    const before = registry.manuscripts.find((m) => m.id === "m-knees").timeline.length;
+    await startEditing(page);
+
+    const option = await page.$('#merge-into option[value="m-knees-split"]');
+    assert(option, "the duplicate was not offered as something to merge");
+
+    await page.selectOption("#merge-into", "m-knees-split");
+    page.once("dialog", (d) => d.accept());
+    await page.click("#edit-merge");
+    await page.waitForFunction(() => !document.querySelector('.card[data-id="m-knees-split"]'));
+
+    const kept = registry.manuscripts.find((m) => m.id === "m-knees");
+    assert(!registry.manuscripts.some((m) => m.id === "m-knees-split"), "the duplicate is still in the file");
+    assert(kept.timeline.length === before + 1, `timeline is ${kept.timeline.length}, expected ${before + 1}`);
+    assert(kept.submissions.some((x) => x.manuscriptNumber === "JEO-1234R2"), "the other half's submission was lost");
+    assert(!(registry.tombstones || []).length, "a merge suppressed the paper as if it had been deleted");
+  } finally {
+    registry = snapshot;
+  }
+});
+
 await check("a resumed session is asked for the password before it can save", async (page) => {
   // What "stay signed in" leaves behind: the session flag is durable, the
   // password deliberately is not. Clearing it is what a new browser session

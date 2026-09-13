@@ -368,7 +368,42 @@ async function commitDelete(id, env) {
 
     const [manuscript] = list.splice(index, 1);
     registry.manuscripts = list;
-    registry.editedAt = new Date().toISOString();
+    const at = new Date().toISOString();
+    registry.editedAt = at;
+
+    /*
+     * Leave a marker, or the delete does not hold.
+     *
+     * Removing the record does not remove the mail it was built from, so the
+     * next email about the same paper filed it again -- one paper here was
+     * deleted on 10 September, returned, and was deleted again on 12. The sync
+     * reads these and declines to rebuild anything it recognises.
+     *
+     * Kept narrow deliberately: this paper's own manuscript numbers, with the
+     * revision round stripped, and its exact title. Not a ban on the subject.
+     * It is a plain list in the data file, so undoing one is an edit.
+     *
+     * The rule is duplicated in registry.mjs, which the Worker cannot import
+     * from; tombstoneFor there is the definition, and check-worker asserts the
+     * two agree.
+     */
+    registry.tombstones = [
+      ...(registry.tombstones || []).filter((t) => t.id !== manuscript.id),
+      {
+        id: manuscript.id,
+        title: manuscript.title,
+        titleNormalized: normalizeTitle(manuscript.title),
+        numbers: [
+          ...new Set(
+            (manuscript.submissions || [])
+              .map((sub) => sub.manuscriptNumber)
+              .filter(Boolean)
+              .map((n) => n.trim().replace(/[._\s-]*R\d+$/i, "").toLowerCase())
+          ),
+        ].filter(Boolean),
+        deletedAt: at,
+      },
+    ];
 
     try {
       await gh(`/contents/${DATA_PATH}`, env, {
@@ -390,6 +425,130 @@ async function commitDelete(id, env) {
 
   const err = new Error(
     "The tracker was being updated at the same moment and the deletion could not be saved. Try again."
+  );
+  err.status = 503;
+  err.cause = lastConflict;
+  throw err;
+}
+
+/**
+ * Fold one manuscript into another and keep both halves of the history.
+ *
+ * The matcher can split a paper in two -- a revision number it did not
+ * recognise, a title a journal retyped -- and until now the only repair was to
+ * delete one, which threw away whichever events had landed on it. This
+ * registry currently holds two such pairs, one of them the same paper at two
+ * journals, which is exactly the chain the tracker exists to show as one
+ * story.
+ *
+ * The surviving record keeps its own id, title and any pinned fields: it is
+ * the one the person chose to keep. Everything the other has that it lacks is
+ * carried across -- submissions, timeline, author accounts -- and the loser's
+ * title becomes an alias so later email still matches. Timeline entries are
+ * de-duplicated by message id, because the reason a paper split is often that
+ * both records were fed the same notice.
+ *
+ * No tombstone: the paper is not gone, it moved.
+ */
+async function commitMerge(keepId, mergeId, env) {
+  if (keepId === mergeId) {
+    const err = new Error("A manuscript cannot be merged into itself.");
+    err.status = 400;
+    throw err;
+  }
+
+  let lastConflict = null;
+  const branch = await defaultBranch(env);
+
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const file = await gh(`/contents/${DATA_PATH}?ref=${branch}&_=${Date.now()}`, env);
+    const registry = JSON.parse(decodeBase64(file.content));
+    const list = registry.manuscripts || [];
+
+    const keep = list.find((m) => m.id === keepId);
+    const drop = list.find((m) => m.id === mergeId);
+    if (!keep || !drop) {
+      const err = new Error("One of those manuscripts is no longer in the tracker.");
+      err.status = 404;
+      throw err;
+    }
+
+    const seen = new Set((keep.timeline || []).map((t) => t.source?.messageId).filter(Boolean));
+    const broughtOver = (drop.timeline || []).filter(
+      (t) => !t.source?.messageId || !seen.has(t.source.messageId)
+    );
+    keep.timeline = [...(keep.timeline || []), ...broughtOver].sort(
+      (a, b) => new Date(a.timestamp) - new Date(b.timestamp)
+    );
+
+    const haveSubmission = new Set(
+      (keep.submissions || []).map((x) => `${(x.journal || "").toLowerCase()}|${x.manuscriptNumber || ""}`)
+    );
+    for (const sub of drop.submissions || []) {
+      const key = `${(sub.journal || "").toLowerCase()}|${sub.manuscriptNumber || ""}`;
+      if (!haveSubmission.has(key)) {
+        keep.submissions = [...(keep.submissions || []), sub];
+        haveSubmission.add(key);
+      }
+    }
+    keep.submissions.sort((a, b) => new Date(a.submittedDate || 0) - new Date(b.submittedDate || 0));
+
+    keep.authorAccounts = [...new Set([...(keep.authorAccounts || []), ...(drop.authorAccounts || [])])];
+    keep.titleAliases = [
+      ...new Set([
+        ...(keep.titleAliases || []),
+        ...(drop.titleAliases || []),
+        ...(drop.title && drop.title !== keep.title ? [drop.title] : []),
+      ]),
+    ];
+    // Facts, not status: take them from whichever record has them.
+    keep.doi ||= drop.doi || null;
+    keep.publicationLink ||= drop.publicationLink || null;
+    // A flag on either half is a flag on the whole.
+    if (drop.needsReview) {
+      keep.needsReview = true;
+      keep.reviewReason ||= drop.reviewReason || null;
+    }
+
+    const newest = keep.timeline[keep.timeline.length - 1];
+    keep.updatedAt = newest ? newest.timestamp : keep.updatedAt;
+    keep.createdAt = [keep.createdAt, drop.createdAt].filter(Boolean).sort()[0] || keep.createdAt;
+    keep.edits = [
+      ...(keep.edits || []),
+      {
+        at: new Date().toISOString(),
+        by: "dashboard",
+        changes: [{ field: "merged", from: drop.id, to: keep.id, events: broughtOver.length }],
+      },
+    ];
+
+    registry.manuscripts = list.filter((m) => m.id !== mergeId);
+    registry.editedAt = new Date().toISOString();
+
+    try {
+      await gh(`/contents/${DATA_PATH}`, env, {
+        method: "PUT",
+        body: JSON.stringify({
+          message:
+            `Merge "${(drop.title || "").slice(0, 50)}" into "${(keep.title || "").slice(0, 50)}"\n\n` +
+            `kept: ${keep.id}\nmerged away: ${drop.id}\n` +
+            `timeline entries carried over: ${broughtOver.length}\n` +
+            `submissions after merge: ${keep.submissions.length}`,
+          content: encodeBase64(`${JSON.stringify(registry, null, 2)}\n`),
+          sha: file.sha,
+          branch,
+        }),
+      });
+      return { manuscript: keep, mergedAway: drop.id, events: broughtOver.length };
+    } catch (err) {
+      if (err.status !== 409 && err.status !== 422) throw err;
+      lastConflict = err;
+      await new Promise((r) => setTimeout(r, 400 * (attempt + 1)));
+    }
+  }
+
+  const err = new Error(
+    "The tracker was being updated at the same moment and the merge could not be saved. Try again."
   );
   err.status = 503;
   err.cause = lastConflict;
@@ -522,6 +681,21 @@ export default {
           ok: true,
           alreadyGone: result.alreadyGone,
           deleted: result.deleted,
+        }, 200, env, request);
+      }
+
+      const merge = url.pathname.match(/^\/manuscripts\/([A-Za-z0-9_-]+)\/merge$/);
+      if (merge && request.method === "POST") {
+        const body = await request.json().catch(() => null);
+        if (!body || typeof body.from !== "string" || !body.from) {
+          return json({ error: 'Send {"from": "<id of the record to merge away>"}.' }, 400, env, request);
+        }
+        const result = await commitMerge(merge[1], body.from, env);
+        return json({
+          ok: true,
+          manuscript: result.manuscript,
+          mergedAway: result.mergedAway,
+          events: result.events,
         }, 200, env, request);
       }
 

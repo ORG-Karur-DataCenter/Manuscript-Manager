@@ -480,6 +480,127 @@ await check("/health says what the deployed build can do", async () => {
   }
 });
 
+// --- merging two records into one -------------------------------------------
+
+function mergeRequest(keepId, fromId, { password = PASSWORD } = {}) {
+  return new Request(`https://proxy.test/manuscripts/${keepId}/merge`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${password}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ from: fromId }),
+  });
+}
+
+await check("a merge keeps both histories under one record", async () => {
+  const gh = stubGitHub({
+    registry: registryWith(
+      {
+        id: "keep", title: "The Title To Keep",
+        submissions: [{ journal: "Journal A", manuscriptNumber: "A-1", submittedDate: "2026-01-01T00:00:00Z", statusHistory: [] }],
+        timeline: [{ timestamp: "2026-01-01T00:00:00Z", eventType: "new_submission", source: { messageId: "k1" } }],
+        authorAccounts: ["Sathish"],
+      },
+      {
+        id: "dupe", title: "The Same Paper Under Another Name",
+        submissions: [{ journal: "Journal B", manuscriptNumber: "B-2", submittedDate: "2026-02-01T00:00:00Z", statusHistory: [] }],
+        timeline: [{ timestamp: "2026-02-01T00:00:00Z", eventType: "rejected", source: { messageId: "d1" } }],
+        authorAccounts: ["Dhibin"],
+        doi: "10.1000/found-here",
+      }
+    ),
+  });
+
+  const res = await call(mergeRequest("keep", "dupe"));
+  assert(res.status === 200, `expected 200, got ${res.status}`);
+
+  const left = gh.written().manuscripts;
+  assert(left.length === 1 && left[0].id === "keep", `survivors: ${JSON.stringify(left.map((m) => m.id))}`);
+  assert(left[0].timeline.length === 2, `timeline has ${left[0].timeline.length} entries, expected 2`);
+  assert(left[0].submissions.length === 2, `submissions: ${left[0].submissions.length}`);
+  assert(left[0].title === "The Title To Keep", "the surviving record lost its own title");
+  assert((left[0].titleAliases || []).includes("The Same Paper Under Another Name"),
+    "the other title was not kept as an alias, so later email will split them again");
+  assert(left[0].authorAccounts.includes("Dhibin"), "an author was lost in the merge");
+  assert(left[0].doi === "10.1000/found-here", "a fact only the merged record had was dropped");
+});
+
+await check("and does not duplicate an event both records had", async () => {
+  // The usual reason a paper splits: the same notice reached both halves.
+  const gh = stubGitHub({
+    registry: registryWith(
+      { id: "keep", timeline: [{ timestamp: "2026-01-01T00:00:00Z", eventType: "new_submission", source: { messageId: "shared" } }] },
+      { id: "dupe", timeline: [{ timestamp: "2026-01-01T00:00:00Z", eventType: "new_submission", source: { messageId: "shared" } }] }
+    ),
+  });
+  await call(mergeRequest("keep", "dupe"));
+  assert(gh.written().manuscripts[0].timeline.length === 1, "the shared event was filed twice");
+});
+
+await check("a merge leaves no tombstone, because the paper is not gone", async () => {
+  const gh = stubGitHub({ registry: registryWith({ id: "keep" }, { id: "dupe" }) });
+  await call(mergeRequest("keep", "dupe"));
+  assert(!(gh.written().tombstones || []).length, "merging away a record suppressed it as if deleted");
+});
+
+await check("a manuscript cannot be merged into itself", async () => {
+  stubGitHub({ registry: registryWith({ id: "keep" }) });
+  const res = await call(mergeRequest("keep", "keep"));
+  assert(res.status === 400, `expected 400, got ${res.status}`);
+});
+
+await check("a merge without the password is refused", async () => {
+  const gh = stubGitHub({ registry: registryWith({ id: "keep" }, { id: "dupe" }) });
+  const res = await call(new Request("https://proxy.test/manuscripts/keep/merge", {
+    method: "POST", body: JSON.stringify({ from: "dupe" }),
+  }));
+  assert(res.status === 401, `expected 401, got ${res.status}`);
+  assert(!gh.calls.some((c) => c.method === "PUT"), "an unauthenticated merge still wrote");
+});
+
+// --- a delete must leave something behind ------------------------------------
+
+await check("deleting records a tombstone so the paper cannot rebuild itself", async () => {
+  const gh = stubGitHub({
+    registry: registryWith({
+      id: "m1", title: "A Paper About Knees",
+      submissions: [{ journal: "Journal A", manuscriptNumber: "JOA-D-26-01135R4", submittedDate: "2026-01-01T00:00:00Z", statusHistory: [] }],
+    }),
+  });
+  await call(deleteRequest("m1"));
+  const stones = gh.written().tombstones || [];
+  assert(stones.length === 1, `expected 1 tombstone, got ${stones.length}`);
+  assert(stones[0].id === "m1", `tombstone names ${stones[0].id}`);
+  // Stored with the revision round stripped, exactly as registry.mjs matches.
+  assert(stones[0].numbers.includes("joa-d-26-01135"),
+    `numbers are ${JSON.stringify(stones[0].numbers)} — a later round would slip past`);
+  assert(stones[0].titleNormalized === "a paper about knees",
+    `titleNormalized is ${JSON.stringify(stones[0].titleNormalized)}`);
+});
+
+await check("the Worker and the sync agree on what a tombstone looks like", async () => {
+  // The Worker cannot import from registry.mjs, so the rule is written twice.
+  // This is the check that the copies have not drifted.
+  const { tombstoneFor, isTombstoned } = await import("./lib/registry.mjs");
+  const manuscript = {
+    id: "m1", title: "A Paper About Knees", currentJournal: "Journal A",
+    submissions: [{ journal: "Journal A", manuscriptNumber: "JOA-D-26-01135R4" }],
+  };
+  const gh = stubGitHub({
+    registry: registryWith({
+      id: "m1", title: "A Paper About Knees",
+      submissions: [{ journal: "Journal A", manuscriptNumber: "JOA-D-26-01135R4", submittedDate: "2026-01-01T00:00:00Z", statusHistory: [] }],
+    }),
+  });
+  await call(deleteRequest("m1"));
+  const fromWorker = (gh.written().tombstones || [])[0];
+  const fromSync = tombstoneFor(manuscript, fromWorker.deletedAt);
+  assert(JSON.stringify(fromWorker) === JSON.stringify(fromSync),
+    `the two differ:\n      worker: ${JSON.stringify(fromWorker)}\n      sync:   ${JSON.stringify(fromSync)}`);
+  // And the sync must actually honour what the Worker wrote.
+  assert(isTombstoned({ tombstones: [fromWorker] },
+    { title: "A Paper About Knees", manuscriptNumber: "JOA-D-26-01135R9", journal: "Journal A" }),
+    "the sync does not recognise the Worker's own tombstone");
+});
+
 await check("a browser preflight is answered", async () => {
   stubGitHub({ registry: registryWith({}) });
   const res = await call(new Request("https://proxy.test/manuscripts/m1", {

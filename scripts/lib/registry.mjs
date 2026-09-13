@@ -79,22 +79,58 @@ export function isPinned(manuscript, field) {
   return Boolean(o && Object.prototype.hasOwnProperty.call(o, field));
 }
 
+/**
+ * A manuscript number without its revision round.
+ *
+ * JOA-D-26-01135R1 and JOA-D-26-01135R4 are one paper on its first and fourth
+ * revision. Compared literally they are two papers, and the matcher duly
+ * opened a second record for the same submission -- the revision emails, which
+ * are the ones carrying deadlines, went to a record that had no history and
+ * showed no deadline. Nineteen of this registry's 115 numbers carry a round.
+ *
+ * Journals write the round as R1, .R1, -R1 or _R1, always at the end.
+ */
+export function baseManuscriptNumber(number) {
+  return (number || "").trim().replace(/[._\s-]*R\d+$/i, "").toLowerCase();
+}
+
+/**
+ * True for something that could be a manuscript number.
+ *
+ * The classifier reads these out of prose, and prose contains other
+ * identifiers: this registry has a paper whose manuscript number is
+ * "EMID:8291c19a770456c2", an internal id from the mail footer. A wrong number
+ * is worse than none, because it is what the next email matches against.
+ */
+export function isPlausibleManuscriptNumber(number) {
+  const n = (number || "").trim();
+  if (n.length < 3 || n.length > 40) return false;
+  if (/^(emid|msgid|message-?id|doi|pmid|issn|isbn)\b/i.test(n)) return false;
+  if (/^10\.\d{4,}\//.test(n)) return false; // a DOI, which names the article not the submission
+  if (n.includes("@") || /\s/.test(n)) return false;
+  // A real one carries a digit, and is not a bare word.
+  return /\d/.test(n) && /^[A-Za-z0-9][A-Za-z0-9._/-]*$/.test(n);
+}
+
 function findByManuscriptNumber(registry, journal, manuscriptNumber) {
   if (!manuscriptNumber || !journal) return null;
+  if (!isPlausibleManuscriptNumber(manuscriptNumber)) return null;
   const j = journal.trim().toLowerCase();
   const mn = manuscriptNumber.trim().toLowerCase();
+  const base = baseManuscriptNumber(manuscriptNumber);
+
+  // An exact number is the stronger claim, so it wins outright; the round-
+  // stripped comparison is the fallback, never a way to overrule one.
+  let revisionMatch = null;
   for (const m of registry.manuscripts) {
     for (const s of m.submissions) {
-      if (
-        s.manuscriptNumber &&
-        s.manuscriptNumber.trim().toLowerCase() === mn &&
-        s.journal.trim().toLowerCase() === j
-      ) {
-        return m;
-      }
+      if (!s.manuscriptNumber || s.journal.trim().toLowerCase() !== j) continue;
+      const theirs = s.manuscriptNumber.trim().toLowerCase();
+      if (theirs === mn) return m;
+      if (base && baseManuscriptNumber(s.manuscriptNumber) === base) revisionMatch = m;
     }
   }
-  return null;
+  return revisionMatch;
 }
 
 /**
@@ -195,11 +231,97 @@ function bucketForEvent(eventType) {
 }
 
 /**
+ * Papers a person has deleted, so a later email does not quietly rebuild them.
+ *
+ * Deleting removed the record but not the mail behind it, so the next message
+ * about the same paper filed it again. That is not hypothetical: one paper in
+ * this registry was deleted on 10 September, came back, and was deleted again
+ * on 12 September. A delete nobody can make stick is not a delete.
+ *
+ * A tombstone is deliberately narrow. It suppresses the paper by the identity
+ * it was deleted under -- its manuscript numbers and its exact title -- and it
+ * records why and when, so it can be read and undone. It is not a permanent
+ * ban on the subject: a genuinely new submission, with a new number, files
+ * normally. What it stops is the same paper reappearing on its own.
+ */
+export function tombstoneFor(manuscript, at) {
+  return {
+    id: manuscript.id,
+    title: manuscript.title,
+    titleNormalized: normalizeTitle(manuscript.title),
+    numbers: [
+      ...new Set(
+        (manuscript.submissions || [])
+          .map((sub) => sub.manuscriptNumber)
+          .filter(Boolean)
+          .map(baseManuscriptNumber)
+      ),
+    ].filter(Boolean),
+    deletedAt: at,
+  };
+}
+
+/** True when this event describes a paper somebody deleted on purpose. */
+export function isTombstoned(registry, event) {
+  const stones = registry.tombstones || [];
+  if (!stones.length) return false;
+
+  const title = normalizeTitle(event.title);
+  const base = baseManuscriptNumber(event.manuscriptNumber);
+  const usableNumber = base && isPlausibleManuscriptNumber(event.manuscriptNumber);
+
+  return stones.some((t) => {
+    if (usableNumber && (t.numbers || []).includes(base)) return true;
+    // Without a number to go on, only an exact title suppresses -- a fuzzy
+    // match here would silently swallow a different paper for ever.
+    return Boolean(title) && t.titleNormalized === title;
+  });
+}
+
+/**
+ * How long a manuscript may sit in its section before its silence is itself
+ * worth showing.
+ *
+ * Sixty-two of this registry's 128 papers sit in Submissions, silent for a
+ * median of 76 days, 29 of them for over 90 with a single email to their name.
+ * Those papers were not still being considered; the tracker simply never heard
+ * the answer. A section that cannot tell "waiting" from "lost" is a list, not
+ * a tracker.
+ *
+ * The thresholds are per section because the sections mean different things: a
+ * submission awaiting a first look is slow at three months, whereas a revision
+ * you owe a journal is late in one.
+ */
+export const STALE_AFTER_DAYS = {
+  submissions: 90,
+  in_review: 120,
+  revisions_pending: 30,
+  needs_action: 45,
+  published: Infinity,
+};
+
+/**
+ * Days since anything was heard, and whether that is longer than this section
+ * should go quiet for. `null` when the record has no usable date.
+ */
+export function silence(manuscript, now = Date.now()) {
+  const last = manuscript && manuscript.updatedAt ? Date.parse(manuscript.updatedAt) : NaN;
+  if (!Number.isFinite(last)) return null;
+  const days = Math.floor((now - last) / 86400000);
+  const limit = STALE_AFTER_DAYS[manuscript.bucket] ?? Infinity;
+  return { days, stale: days > limit, limit };
+}
+
+/**
  * Applies one classified email event to the registry in place.
  * event: { title, journal, manuscriptNumber, eventType, revisionRound, doi,
  *          publicationLink, summary, timestamp, authorAccount, source, needsReview }
  */
 export function applyEvent(registry, event) {
+  // Somebody deleted this paper. Rebuilding it from the same mail they deleted
+  // it over is the one thing a delete has to prevent.
+  if (isTombstoned(registry, event)) return null;
+
   const byNumber = findByManuscriptNumber(registry, event.journal, event.manuscriptNumber);
   const byTitle = byNumber ? null : findByTitle(registry, event.title);
   let manuscript = byNumber || byTitle?.manuscript || null;

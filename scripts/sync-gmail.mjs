@@ -5,6 +5,7 @@ import { buildClient, fetchNewMessages, credentialsFor, providerOf } from "./lib
 import { classifyEmail } from "./lib/classify.mjs";
 import { applyEvent } from "./lib/registry.mjs";
 import { PREFILTER } from "./lib/prefilter.mjs";
+import { classifyBySubject } from "./lib/subject-rules.mjs";
 import { resolveDeadline } from "./lib/deadline.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -160,6 +161,7 @@ async function main() {
   }
 
   let totalFetched = 0;
+  let totalSuppressed = 0;
   let totalRelevant = 0;
   let totalExcluded = 0;
   let totalReview = 0;
@@ -342,6 +344,29 @@ async function main() {
         from: msg.from,
       };
 
+      /*
+       * A second opinion that costs nothing.
+       *
+       * Some subject lines have meant exactly one thing across every email
+       * this tracker has read -- "...-Amendment required" has never been
+       * anything but sent back. check-subject-rules.mjs proves that against
+       * the whole registry and refuses any rule that has ever been two things.
+       * So when the model reads one of those and answers something else, one
+       * of them is wrong and a person should look.
+       *
+       * It flags rather than overrules: the rule sees a subject, the model saw
+       * the body, and the body is usually the better witness. But this is how
+       * the mislabelled ones get found instead of sitting there.
+       */
+      const bySubject = classifyBySubject(msg.subject);
+      if (bySubject && result.relevant && result.event_type &&
+          bySubject.eventType !== result.event_type) {
+        result.needsReview = true;
+        result.reviewReason =
+          `The subject says "${bySubject.why}" (${bySubject.eventType}), ` +
+          `but it was read as ${result.event_type}. One of the two is wrong.`;
+      }
+
       if (result.needsReview) {
         totalReview++;
         reviewQueue.review.unshift({
@@ -374,8 +399,7 @@ async function main() {
         continue; // not enough to file — err on the side of not creating junk records
       }
 
-      totalRelevant++;
-      applyEvent(manuscriptsDb, {
+      const filed = applyEvent(manuscriptsDb, {
         title: result.title,
         journal: result.journal,
         manuscriptNumber: result.manuscript_number || null,
@@ -403,6 +427,13 @@ async function main() {
         source,
         needsReview: result.needsReview || false,
       });
+
+      // A tombstoned paper is refused, on purpose: somebody deleted it and a
+      // later email must not rebuild it. Counted separately so a run that files
+      // nothing because everything was deleted does not read as a run that
+      // found nothing.
+      if (filed) totalRelevant++;
+      else totalSuppressed++;
     }
 
     if (sweeping) {
@@ -442,9 +473,20 @@ async function main() {
   excludedLog.excluded = excludedLog.excluded.slice(0, MAX_EXCLUDED_LOG);
   reviewQueue.review = reviewQueue.review.slice(0, MAX_REVIEW_QUEUE);
   manuscriptsDb.generatedAt = new Date().toISOString();
-  manuscriptsDb.manuscripts.sort(
-    (a, b) => new Date(b.updatedAt) - new Date(a.updatedAt)
-  );
+  /*
+   * Stored in a fixed order, not the order it is read in.
+   *
+   * This used to sort by updatedAt, so the two papers that moved in a run were
+   * lifted to the top and every line below them shifted: a run that changed two
+   * records of 128 produced a 5,912-line diff. The repository is this tracker's
+   * only audit trail -- the sole record of what it believed and when, and the
+   * only way back from a bad classification -- and every commit read as a total
+   * rewrite, so none of it could be reviewed.
+   *
+   * Sorting by id makes a commit show the papers that actually changed. The
+   * dashboard sorts for reading, which is where that belongs.
+   */
+  manuscriptsDb.manuscripts.sort((a, b) => a.id.localeCompare(b.id));
 
   await saveJson(P.manuscripts, manuscriptsDb);
   await saveJson(P.state, state);
@@ -454,7 +496,9 @@ async function main() {
   console.log(
     `Done. Inspected ${totalFetched}, classified ${totalClassified}, ` +
       `filed ${totalRelevant} manuscript event(s), excluded ${totalExcluded}, ` +
-      `flagged ${totalReview} for review, deferred ${totalDeferred} to the next run` +
+      `flagged ${totalReview} for review, ` +
+      (totalSuppressed ? `suppressed ${totalSuppressed} about deleted paper(s), ` : "") +
+      `deferred ${totalDeferred} to the next run` +
       (rateLimitedThisRun ? ` (${rateLimitedThisRun} of them rate limited).` : ".")
   );
 
@@ -482,6 +526,7 @@ async function main() {
       filed: totalRelevant,
       excluded: totalExcluded,
       review: totalReview,
+      suppressed: totalSuppressed,
       deferred: totalDeferred,
       rateLimited: rateLimitedThisRun,
     });
