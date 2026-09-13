@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T06:16:31.660Z",
+  "generatedAt": "2026-09-13T12:03:15.114Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3344,6 +3344,19 @@
                 "subject": "Revision Required for Manuscript No. 126815 Submitted to World Journal of Experimental Medicine",
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-13T09:11:30.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The author was asked to revise the manuscript after preliminary acceptance and is requesting an extension.",
+              "manuscriptNumber": "126815",
+              "source": {
+                "threadId": "1a099ed9f2417629",
+                "messageId": "1a09a09654be8b9f",
+                "subject": "Re: Reminder to World Journal of Experimental Medicine Manuscript NO: 126815 – Manuscript status is “Revise”",
+                "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
+              }
             }
           ]
         }
@@ -3384,12 +3397,29 @@
             "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-13T09:11:30.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "126815",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The author was asked to revise the manuscript after preliminary acceptance and is requesting an extension.",
+          "source": {
+            "threadId": "1a099ed9f2417629",
+            "messageId": "1a09a09654be8b9f",
+            "subject": "Re: Reminder to World Journal of Experimental Medicine Manuscript NO: 126815 – Manuscript status is “Revise”",
+            "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-24T04:13:17.000Z",
-      "updatedAt": "2026-09-02T08:58:20.000Z",
-      "deadline": "2026-09-16T18:29:59.999Z",
-      "deadlineSource": "stated"
+      "updatedAt": "2026-09-13T09:11:30.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "comparison-of-characteristics-and-surgical-outcomes-between-chin-on-ch",
