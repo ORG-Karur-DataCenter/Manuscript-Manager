@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-14T14:59:48.000Z",
+      "reason": "unrelated",
+      "subject": "⏸️ People building AI want to slow down, except one",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T17:14:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Dr. Sathish Muthu Happy Ganesh Chaturthi  to You and Family -Last  2 Day for abstract/ Contribution Submission",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-14T09:13:00.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Breaking News: Former Tehelka editor Tarun Tejpal surrenders before Goa Court; sent to jail to serve 10-year sentence",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T06:33:18.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "To Dr. Muthu - Prof. Rei Ogawa invites you to contribute to his Special Issue “Basic Science and Clinical Perspectives on Scar Formation and Regenerative Healing”",
-      "from": "Thea <Thea@par-journal.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T07:05:23.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
