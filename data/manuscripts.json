@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T06:22:39.060Z",
+  "generatedAt": "2026-09-14T14:18:26.878Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3680,15 +3680,15 @@
       "id": "comprehensive-characterization-of-injectable-platelet-rich-fibrin-i-pr",
       "title": "Comprehensive Characterization of Injectable Platelet-Rich Fibrin (i-PRF): Cellular, Biochemical, Architectural, Rheological, and Release-Kinetic Profiling of Ten Independent Preparations",
       "titleNormalized": "comprehensive characterization of injectable platelet rich fibrin i prf cellular biochemical architectural rheological and release kinetic profiling of ten independent preparations",
-      "bucket": "submissions",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentJournal": "Stem Cell Reviews and Reports",
+      "currentManuscriptNumber": "b1f247f4-7581-48f2-b3ea-e0074a269c76",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -3733,6 +3733,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Stem Cell Reviews and Reports",
+          "manuscriptNumber": "b1f247f4-7581-48f2-b3ea-e0074a269c76",
+          "submittedDate": "2026-09-14T08:39:02.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-14T08:39:02.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected for publication in Stem Cell Reviews and Reports.",
+              "manuscriptNumber": "b1f247f4-7581-48f2-b3ea-e0074a269c76",
+              "source": {
+                "threadId": "1a09f11e24ceb44e",
+                "messageId": "1a09f11e24ceb44e",
+                "subject": "Decision on your submission to Stem Cell Reviews and Reports",
+                "from": "Stem Cell Reviews and Reports <eloisa.magnaye@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -3769,10 +3793,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-14T08:39:02.000Z",
+          "journal": "Stem Cell Reviews and Reports",
+          "eventType": "rejected",
+          "manuscriptNumber": "b1f247f4-7581-48f2-b3ea-e0074a269c76",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected for publication in Stem Cell Reviews and Reports.",
+          "source": {
+            "threadId": "1a09f11e24ceb44e",
+            "messageId": "1a09f11e24ceb44e",
+            "subject": "Decision on your submission to Stem Cell Reviews and Reports",
+            "from": "Stem Cell Reviews and Reports <eloisa.magnaye@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-11T07:49:51.000Z",
-      "updatedAt": "2026-09-12T10:01:45.000Z"
+      "updatedAt": "2026-09-14T08:39:02.000Z"
     },
     {
       "id": "convergence-and-divergence-of-disease-burden-across-the-states-of-indi",

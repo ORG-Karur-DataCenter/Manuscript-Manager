@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-14T13:03:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Keeping humans in control of AI",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T06:31:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "UTTHAN T&F Champions continues with Module 2! Register now to be a Champion!",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T07:04:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Bestselling Paperbacks You Don't Want To Miss!",
+      "from": "Routledge Books <routledgebooks@email.routledge.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T07:14:54.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "2026-09-14 07:14:52 RCA ID: 00000627 2026 Highlight Articles available for view",
+      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T07:33:43.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, someone just recommended your data",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T09:12:37.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-45442] - [EMID:c972b7a2ca43a6e7]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T09:15:11.000Z",
+      "reason": "unrelated",
+      "subject": "New articles in my profile",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T10:47:08.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Dear Sathish, Could Your Agriculture Research Reach a Wider Audience?",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T13:12:51.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Can AI help streamline orthopaedic triage in the ED?",
+      "from": "\"Lippincott® Orthopaedics\" <info@ovid.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-14T05:30:51.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Explore the Preliminary Program Online! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
@@ -2035,69 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T09:25:19.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "\"Dr Sudhir's Spine Series\" <sudhiraxon@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T09:29:29.000Z",
-      "reason": "unrelated",
-      "subject": "RE: International Guideline on Anticoagulant Chemoprophylaxis in Lumbar Spine Surgery: feedback on manuscript",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T10:17:00.000Z",
-      "reason": "unrelated",
-      "subject": "Subject: Re: Publication of ICM on Spinal Infections – Focus Issue in GSJ",
-      "from": "\"S.A. Jonayed\" <dr.jonayed@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T10:30:01.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Rotary project",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T10:33:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Watch the Master in action Dr. Krishna Kiran E @ SPARSH COURSE 2026",
-      "from": "SPARSH COURSE 2026 <sparshconference@250907063.mailchimpapp.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T11:09:08.000Z",
-      "reason": "unrelated",
-      "subject": "⏪ Pre-Read for your upcoming meeting: FISRM BATCH 4 | CLASS : 3 on Thu, Sep 03 2026 @ 05:30PM IST",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T02:38:34.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Manuscript JOIO-D-26-01553R1  for review",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T02:51:07.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Chee Kidd Chiu <cheekidd@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T04:08:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dear Dr. Sathish Muthu Heavy demand - Date extended to 7th September - Last 5 Days to submit Abstract/ Contribution to IOACON2026.",
-      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
