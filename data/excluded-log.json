@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-14T00:12:23.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 127779 for World Journal of Gastrointestinal Endoscopy (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_Peer_Review <bpg.peer.review@wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-13T09:48:28.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Call for Papers: Journal of Orthopedics & Trauma Surgery",
@@ -2091,13 +2098,6 @@
       "reason": "unrelated",
       "subject": "Osama Mohamed Elsayed Ramadan recommended this article",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T05:00:20.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Are JAK inhibitors less effective at higher BMI? ",
-      "from": "EMJ 6 at 6am <circulation@emjreviews.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
