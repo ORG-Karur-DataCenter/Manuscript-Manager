@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-14T05:30:51.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore the Preliminary Program Online! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
+      "from": "AO Recon <aorecon@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-14T00:12:23.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Invitation to Review Manuscript No. 127779 for World Journal of Gastrointestinal Endoscopy (Reviewer’s Code: 05395420)",
@@ -2091,13 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Dear Dr. Sathish Muthu Heavy demand - Date extended to 7th September - Last 5 Days to submit Abstract/ Contribution to IOACON2026.",
       "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-02T12:13:53.000Z",
-      "reason": "unrelated",
-      "subject": "Osama Mohamed Elsayed Ramadan recommended this article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
