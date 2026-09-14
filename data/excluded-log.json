@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-14T09:13:00.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Breaking News: Former Tehelka editor Tarun Tejpal surrenders before Goa Court; sent to jail to serve 10-year sentence",
+      "from": "The Hindu <news@newsalertth.thehindu.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T07:24:51.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Harvard scanned her brain and saw this…",
+      "from": "Isha Offerings <isha.offerings@sadhguru.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T14:48:31.000Z",
+      "reason": "unrelated",
+      "subject": "Re: VERTEBRA has been accepted!",
+      "from": "Matteo Santin <M.Santin@brighton.ac.uk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T18:01:09.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID 05395420 | Invitation to Submit an Original Research Manuscript to AIMI with a USD 600 Honorarium",
+      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-14T13:03:21.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Keeping humans in control of AI",
@@ -2070,34 +2098,6 @@
       "reason": "unrelated",
       "subject": "Reminder: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
       "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T07:51:16.000Z",
-      "reason": "unrelated",
-      "subject": "CA21110 your help is asked",
-      "from": "Corne Baatenburg de Jong <noreply@cost.eu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T07:54:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Access Thieme's Orthopedics and Trauma Surgery Journals through ONOS ",
-      "from": "Thieme India <marketing@news.thieme.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T08:46:37.000Z",
-      "reason": "unrelated",
-      "subject": "GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T09:01:57.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
