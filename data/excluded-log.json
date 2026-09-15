@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-14T10:41:12.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Dear Sathish, Could Your Agriculture Research Reach a Wider Audience?",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-14T23:42:26.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, someone just recommended your data",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-14T14:59:48.000Z",
       "reason": "unrelated",
       "subject": "⏸️ People building AI want to slow down, except one",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
       "from": "Aju Bosco <ajubosco@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T06:04:46.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Follow-up: Invitation to Review for Journal of Health Psychology",
-      "from": "Journal of Health Psychology <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T06:21:54.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
