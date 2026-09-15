@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-15T07:34:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "James Thomas published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T06:46:03.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, review this open access full-text we added to your article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T07:57:33.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ASP - [STI] Manuscript ID: STI026380043 -   Review Request",
+      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T08:02:11.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T09:04:54.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Faculty Announcement Dr Roshan M Wade @ Bangalore Knee Conference",
+      "from": "BKC 2026 <bangalorekneeconf@250907063.mailchimpapp.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T09:08:16.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T09:33:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Citation Alert: Your work has been cited 1 time",
+      "from": "Scilit Citation Alert <alert@scilit.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T10:45:46.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from Universidade São Judas Tadeu",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-15T01:39:15.000Z",
       "reason": "unrelated",
       "subject": "Updated Invitation: IHME GBD Brain Health Webinar Series (Asia Pacific)",
@@ -2043,62 +2099,6 @@
       "subject": "The week in physics: High-resolution ghost imaging; Child penalty for academic careers",
       "from": "Physics Today <physicstoday@aipcomm.org>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T13:00:58.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The Data Science Skills Agents Can't Learn",
-      "from": "Towards Data Science <newsletter@towardsdatascience.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T14:21:10.000Z",
-      "reason": "unrelated",
-      "subject": "You have 3 new messages",
-      "from": "LinkedIn <notifications-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T10:00:52.000Z",
-      "reason": "unrelated",
-      "subject": "Share your expertise: help shape how we assess surgical adequacy in DCM",
-      "from": "AO Spine <aospine@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T13:07:07.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "\"山田浩司\" <forpatients2008@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T13:13:27.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T14:08:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Bone Marrow Stimulation in Arthroscopic Rotator Cuff Repair: A Meta-Analysis",
-      "from": "ISAKOS Digital Digest <ISAKOS@multibriefs.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T14:15:01.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your End Of Summer JBJS Savings Start Now",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T14:30:27.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Is Your Research Ready for Publication?",
-      "from": "JoVE Video <access@jove.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

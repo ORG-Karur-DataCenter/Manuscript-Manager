@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T07:52:14.491Z",
+  "generatedAt": "2026-09-15T13:42:23.001Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -10544,6 +10544,74 @@
       "updatedAt": "2026-09-03T02:08:50.000Z",
       "deadline": null,
       "deadlineSource": null
+    },
+    {
+      "id": "intra-articular-versus-subchondral-leukocyte-poor-platelet-rich-plasma",
+      "title": "Intra-Articular versus Subchondral Leukocyte-Poor Platelet-Rich Plasma Injections in Kellgren-Lawrence Grade 2–3 Knee Osteoarthritis: A Double-blinded, Randomized Controlled Trial",
+      "titleNormalized": "intra articular versus subchondral leukocyte poor platelet rich plasma injections in kellgren lawrence grade 2 3 knee osteoarthritis a double blinded randomized controlled trial",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision  requested",
+      "currentJournal": "Journal of Orthopaedic Surgery and Research",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Revision requested",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-15T12:49:13.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-15T12:49:13.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The journal requested a revision of the manuscript and asked authors to verify their details.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0a51d4e57e2fb0",
+                "messageId": "1a0a51d4e57e2fb0",
+                "subject": "Journal of Orthopaedic Surgery and Research: Decision on \"Intra-Articular versus Subchondral Leukocyte-Poor Platelet-Rich Plasma Injections in Kellgren-Lawrence Grade 2–3 Knee Osteoarthritis: A Double-blinded, Randomized Controlled Trial\"",
+                "from": "Journal of Orthopaedic Surgery and Research <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-15T12:49:13.000Z",
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "eventType": "revision_requested",
+          "manuscriptNumber": null,
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal requested a revision of the manuscript and asked authors to verify their details.",
+          "source": {
+            "threadId": "1a0a51d4e57e2fb0",
+            "messageId": "1a0a51d4e57e2fb0",
+            "subject": "Journal of Orthopaedic Surgery and Research: Decision on \"Intra-Articular versus Subchondral Leukocyte-Poor Platelet-Rich Plasma Injections in Kellgren-Lawrence Grade 2–3 Knee Osteoarthritis: A Double-blinded, Randomized Controlled Trial\"",
+            "from": "Journal of Orthopaedic Surgery and Research <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-15T12:49:13.000Z",
+      "updatedAt": "2026-09-15T12:49:13.000Z"
     },
     {
       "id": "is-implant-removal-after-thoracolumbar-fracture-fixation-truly-necessa",
