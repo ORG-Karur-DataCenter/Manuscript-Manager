@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:42:23.001Z",
+  "generatedAt": "2026-09-15T18:20:48.159Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -10716,7 +10716,7 @@
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "actionLabel": "Revision 1 requested",
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
       "currentStatus": "Revision submitted — Editor changes approved",
@@ -10731,7 +10731,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R1",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -10914,6 +10914,19 @@
                 "threadId": "1a08c2dbb6142d90",
                 "messageId": "1a08c2dbb6142d90",
                 "subject": "Thank you - [EMID:06f3309664cf78ad]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-15T16:40:34.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The editor requested a revised manuscript with a response to reviewer comments, due by Sep 29 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R1",
+              "source": {
+                "threadId": "1a0a5f12230c77e5",
+                "messageId": "1a0a5f12230c77e5",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231R1) - [EMID:3649d81012eb7513]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -11181,12 +11194,33 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-15T16:40:34.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-09-29T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Sep 29 2026 11:59PM"
+          },
+          "note": "The editor requested a revised manuscript with a response to reviewer comments, due by Sep 29 2026.",
+          "source": {
+            "threadId": "1a0a5f12230c77e5",
+            "messageId": "1a0a5f12230c77e5",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231R1) - [EMID:3649d81012eb7513]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-09-10T16:36:29.000Z",
-      "deadline": "2026-09-24T18:29:59.999Z",
-      "deadlineSource": "assumed",
+      "updatedAt": "2026-09-15T16:40:34.000Z",
+      "deadline": "2026-09-29T18:29:59.999Z",
+      "deadlineSource": "stated",
       "overrides": {
         "bucket": "submissions",
         "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
@@ -14254,11 +14288,11 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "revisions_pending",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
+      "needsActionReason": "pre_review_edits",
       "actionFlag": true,
-      "actionLabel": "Revision requested",
+      "actionLabel": "Amendments requested",
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
       "currentManuscriptNumber": "isj_110_26",
       "currentStatus": "Returned to author — one citation fix outstanding",
@@ -14299,7 +14333,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00213R1",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14350,6 +14384,19 @@
                 "messageId": "19ff88b2f820d6de",
                 "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R1) - [EMID:55662412f18854ee]",
                 "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-15T16:43:38.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Reviewers raised concerns and the author must submit a revised manuscript by Sep 29 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R1",
+              "source": {
+                "threadId": "1a0a5f3e15a9df84",
+                "messageId": "1a0a5f3e15a9df84",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00213R1) - [EMID:d2dc1b8ebca2b7e5]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
           ]
@@ -14409,7 +14456,7 @@
           "manuscriptNumber": "isj_110_26",
           "submittedDate": "2026-08-23T10:35:04.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14437,6 +14484,19 @@
                 "messageId": "1a02f6b9465f1107",
                 "subject": "Fwd: isj Manuscript for revision: isj_110_26",
                 "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-15T16:54:04.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The journal acknowledged receipt of the author's request to withdraw the manuscript.",
+              "manuscriptNumber": "isj_110_26",
+              "source": {
+                "threadId": "1a0a5fd7176d604f",
+                "messageId": "1a0a5fd7176d604f",
+                "subject": "isj - Request for Manuscript Withdrawal:isj_110_26",
+                "from": "Indian Spine Journal <editor@isjonline.com>"
               }
             }
           ]
@@ -14595,10 +14655,52 @@
             "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-15T16:43:38.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00213R1",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-09-29T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Sep 29 2026 11:59PM"
+          },
+          "note": "Reviewers raised concerns and the author must submit a revised manuscript by Sep 29 2026.",
+          "source": {
+            "threadId": "1a0a5f3e15a9df84",
+            "messageId": "1a0a5f3e15a9df84",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00213R1) - [EMID:d2dc1b8ebca2b7e5]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-15T16:54:04.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "isj_110_26",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-22T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The journal acknowledged receipt of the author's request to withdraw the manuscript.",
+          "source": {
+            "threadId": "1a0a5fd7176d604f",
+            "messageId": "1a0a5fd7176d604f",
+            "subject": "isj - Request for Manuscript Withdrawal:isj_110_26",
+            "from": "Indian Spine Journal <editor@isjonline.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-08-23T16:19:37.000Z",
+      "updatedAt": "2026-09-15T16:54:04.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

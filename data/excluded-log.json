@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-15T13:06:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What’s hidden in wildfire smoke",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T15:50:42.000Z",
+      "reason": "unrelated",
+      "subject": "PROSPERO record confirmation",
+      "from": "PROSPERO Administrator <irss593@york.ac.uk>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T16:55:08.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Book author support: Free services, courses and AI tools",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T14:10:24.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T14:52:35.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T15:17:36.000Z",
+      "reason": "unrelated",
+      "subject": "PROSPERO record team member confirmation",
+      "from": "PROSPERO Administrator <irss593@york.ac.uk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-15T15:50:43.000Z",
+      "reason": "unrelated",
+      "subject": "PROSPERO record confirmation",
+      "from": "PROSPERO Administrator <irss593@york.ac.uk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-15T07:34:07.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "James Thomas published an article",
@@ -2050,55 +2099,6 @@
       "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
       "from": "benjamin ndeleva <benndeleva@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T13:00:15.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Why lower-class workers don’t ask for raises",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T15:03:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "From crisis response to a global platform: celebrating five years of Policy Labs",
-      "from": "Frontiers Science News <communications@engage.frontiersin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T16:55:31.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
-      "from": "Roger Hartl <roh9005@med.cornell.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T17:42:10.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T13:50:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature alert for 03rd September 2026",
-      "from": "Nature <alerts@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-03T15:10:39.000Z",
-      "reason": "unrelated",
-      "subject": "🗓  FISRM,  BATCH: 2  |   CLASS: 16 on September 3, 2026 | Read Meeting Report",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-17T14:03:38.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The week in physics: High-resolution ghost imaging; Child penalty for academic careers",
-      "from": "Physics Today <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
