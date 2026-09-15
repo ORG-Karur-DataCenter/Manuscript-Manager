@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T01:32:16.748Z",
+  "generatedAt": "2026-09-15T07:52:14.491Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1387,7 +1387,7 @@
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-1263.R2",
       "currentStatus": "Accepted (awaiting publication)",
-      "doi": null,
+      "doi": "10.1177/21925682261492223",
       "publicationLink": null,
       "authorAccounts": [
         "Sathish Muthu"
@@ -1399,7 +1399,7 @@
           "submittedDate": "2026-06-24T15:27:30.000Z",
           "outcome": "active",
           "status": "accepted",
-          "doi": null,
+          "doi": "10.1177/21925682261492223",
           "publicationLink": null,
           "statusHistory": [
             {
@@ -1440,6 +1440,19 @@
                 "messageId": "1a0a0a74cbca01e7",
                 "subject": "Global Spine Journal - Next steps for your article",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-15T07:01:14.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The paper was accepted and the author is asked to choose an Open Access license before publication",
+              "manuscriptNumber": "GSJ-26-1263.R2",
+              "source": {
+                "threadId": "1a0a3deaf3915be3",
+                "messageId": "1a0a3deaf3915be3",
+                "subject": "Complete the Open Access process for your article 10.1177/21925682261492223 now",
+                "from": "licensing-payment@sagepub.com"
               }
             }
           ]
@@ -1493,10 +1506,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-15T07:01:14.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "manuscriptNumber": "GSJ-26-1263.R2",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The paper was accepted and the author is asked to choose an Open Access license before publication",
+          "source": {
+            "threadId": "1a0a3deaf3915be3",
+            "messageId": "1a0a3deaf3915be3",
+            "subject": "Complete the Open Access process for your article 10.1177/21925682261492223 now",
+            "from": "licensing-payment@sagepub.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-24T15:27:30.000Z",
-      "updatedAt": "2026-09-14T16:01:52.000Z",
+      "updatedAt": "2026-09-15T07:01:14.000Z",
       "deadline": null,
       "deadlineSource": null
     },
