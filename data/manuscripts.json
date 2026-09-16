@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:47:13.957Z",
+  "generatedAt": "2026-09-16T17:19:00.912Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -14329,13 +14329,13 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "needs_action",
+      "bucket": "submissions",
       "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
-      "currentManuscriptNumber": "isj_110_26",
+      "currentManuscriptNumber": "JBJSOA-D-26-00213R1",
       "currentStatus": "Returned to author — one citation fix outstanding",
       "doi": null,
       "publicationLink": null,
@@ -14374,7 +14374,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00213R1",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14437,6 +14437,32 @@
                 "threadId": "1a0a5f3e15a9df84",
                 "messageId": "1a0a5f3e15a9df84",
                 "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00213R1) - [EMID:d2dc1b8ebca2b7e5]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-16T15:01:33.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The journal built a PDF of the author's submission and requests approval before the submission is received.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0aabcc6494264f",
+                "messageId": "1a0aabcc6494264f",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-16T15:16:35.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal built a PDF of the author's submission and requests approval before final submission",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0aabcc6494264f",
+                "messageId": "1a0aaca8e059e66e",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -14738,10 +14764,44 @@
             "from": "Indian Spine Journal <editor@isjonline.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-16T15:01:33.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": null,
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal built a PDF of the author's submission and requests approval before the submission is received.",
+          "source": {
+            "threadId": "1a0aabcc6494264f",
+            "messageId": "1a0aabcc6494264f",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-16T15:16:35.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal built a PDF of the author's submission and requests approval before final submission",
+          "source": {
+            "threadId": "1a0aabcc6494264f",
+            "messageId": "1a0aaca8e059e66e",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-09-15T16:54:04.000Z",
+      "updatedAt": "2026-09-16T15:16:35.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {
