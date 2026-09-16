@@ -221,9 +221,19 @@ async function check(name, fn, { expectErrors = false } = {}) {
   const context = await browser.newContext();
   const page = await context.newPage();
   const errors = [];
-  // Fonts come from Google and this sandbox has no route to them; that is the
-  // environment, not the app.
-  const ours = (t) => !/fonts\.(googleapis|gstatic)\.com|ERR_CONNECTION_RESET|favicon/.test(t);
+  /*
+   * Fonts come from Google and a sandbox may have no route to them -- that is
+   * the environment, not the app.
+   *
+   * ERR_CERT_AUTHORITY_INVALID belongs in the same list, and safely: both
+   * servers in this file are plain http on 127.0.0.1, so nothing first-party
+   * can produce a TLS error at all. One can only come from an external asset
+   * fetched through whatever proxy the machine is behind. Without this, a
+   * sandbox with an intercepting CA fails all twenty checks and says nothing
+   * about the app.
+   */
+  const ours = (t) =>
+    !/fonts\.(googleapis|gstatic)\.com|ERR_CONNECTION_RESET|ERR_CERT_AUTHORITY_INVALID|favicon/.test(t);
   page.on("console", (m) => { if (m.type() === "error" && ours(m.text())) errors.push(m.text()); });
   page.on("pageerror", (e) => { if (ours(String(e))) errors.push(String(e)); });
   try {
@@ -660,6 +670,64 @@ await check("two records for one paper can be merged back together", async (page
     assert(kept.timeline.length === before + 1, `timeline is ${kept.timeline.length}, expected ${before + 1}`);
     assert(kept.submissions.some((x) => x.manuscriptNumber === "JEO-1234R2"), "the other half's submission was lost");
     assert(!(registry.tombstones || []).length, "a merge suppressed the paper as if it had been deleted");
+  } finally {
+    registry = snapshot;
+  }
+});
+
+await check("journals are listed, opened, and left again", async (page) => {
+  await page.click('[data-bucket="journals"]');
+  await page.waitForSelector(".journal-card");
+
+  const names = await page.$$eval(".journal-card .card-title", (n) => n.map((x) => x.textContent.trim()));
+  assert(names.includes("Journal of Experimental Orthopaedics"),
+    `the journals are ${JSON.stringify(names)}`);
+
+  // Opening one shows its papers, not the whole board.
+  await page.click('.journal-card[data-journal="Journal of Experimental Orthopaedics"]');
+  await page.waitForSelector(".journal-paper");
+  const heading = await page.textContent(".journal-heading");
+  assert(heading.includes("Journal of Experimental Orthopaedics"), `heading reads "${heading}"`);
+  const shown = await page.$$eval(".journal-paper .card-title", (n) => n.map((x) => x.textContent.trim()));
+  assert(shown.length, "the journal opened onto nothing");
+
+  // And each paper says where it stands WITH THIS JOURNAL.
+  const stage = await page.textContent(".journal-paper .pill");
+  assert(stage.trim().length, "a paper is listed with no stage against it");
+
+  // A paper still opens its own drawer from here.
+  await page.click(".journal-paper");
+  await page.waitForSelector("#drawer:not([hidden])");
+  await page.click("#drawer-close");
+
+  await page.click("#journal-back");
+  await page.waitForSelector(".journal-card");
+  assert(!(await page.$(".journal-paper")), "backing out stayed inside the journal");
+});
+
+await check("a rejection still counts as that journal's history", async (page) => {
+  // Grouped by submission, not by where the paper is now: a paper rejected
+  // here and living elsewhere is the most useful thing this journal has said.
+  const snapshot = JSON.parse(JSON.stringify(registry));
+  try {
+    const m = registry.manuscripts.find((x) => x.id === "m-knees");
+    m.bucket = "in_review";
+    m.currentJournal = "Somewhere Else Entirely";
+    m.submissions = [{
+      journal: "Journal of Experimental Orthopaedics", manuscriptNumber: "JEO-1234",
+      submittedDate: "2026-03-01T10:00:00.000Z", outcome: "rejected", status: "rejected", statusHistory: [],
+    }];
+    await page.reload();
+    await unlock(page);
+
+    await page.click('[data-bucket="journals"]');
+    await page.waitForSelector(".journal-card");
+    await page.click('.journal-card[data-journal="Journal of Experimental Orthopaedics"]');
+    await page.waitForSelector(".journal-paper");
+
+    const stage = (await page.textContent(".journal-paper .pill")).trim();
+    assert(/rejected/i.test(stage),
+      `the paper reads "${stage}" under the journal that rejected it, not its outcome there`);
   } finally {
     registry = snapshot;
   }

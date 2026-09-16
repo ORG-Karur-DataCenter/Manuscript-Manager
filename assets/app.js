@@ -31,6 +31,7 @@ const BUCKET_HINTS = {
   in_review: "With the journal — under peer review, revision in progress, or accepted and awaiting publication.",
   published: "Published, with DOI and article link where available.",
   review: "Emails the classifier would not guess at. Nothing here has been filed on a guess — check each one and correct the record.",
+  journals: "Every journal this group has submitted to, and what happened at each. Open one to see its papers and where each stands with that journal — not where the paper is now, which may be somewhere else entirely.",
 };
 
 const NEEDS_ACTION_REASON = {
@@ -53,7 +54,7 @@ const EVENT_LABELS = {
 // `review` holds the entries the classifier declined to guess at. Some
 // correspond to a filed manuscript (flagged on its card); the rest were never
 // filable at all and would otherwise be invisible.
-let state = { manuscripts: [], review: [], bucket: "all", query: "", generatedAt: null };
+let state = { manuscripts: [], review: [], bucket: "all", query: "", generatedAt: null, journal: null };
 
 /**
  * How long is left on an amendment. Counted in whole calendar days in the
@@ -245,6 +246,9 @@ async function load() {
 /** Select a filter and sync the nav, so a bucket can be reached by URL hash too. */
 function selectBucket(bucket) {
   if (!BUCKET_HINTS[bucket]) bucket = "all";
+  // Leaving the journals view drops whichever journal was open, or coming back
+  // to it later would land inside a journal nobody asked for.
+  if (bucket !== "journals") state.journal = null;
   state.bucket = bucket;
   $$(".bucket-btn").forEach((b) => b.classList.toggle("active", b.dataset.bucket === bucket));
   render();
@@ -275,6 +279,7 @@ function counts() {
   for (const bucket of Object.keys(BUCKET_META)) c[bucket] = 0;
   for (const m of state.manuscripts) if (c[m.bucket] !== undefined) c[m.bucket]++;
   c.review = state.manuscripts.filter((m) => m.needsReview).length + unfiledReview().length;
+  c.journals = journalGroups().length;
   return c;
 }
 
@@ -415,6 +420,119 @@ function silenceChip(m) {
   return `<span class="silence-chip" title="Nothing has been heard about this since ${esc(fmtDate(m.updatedAt))}. Chase the journal, or correct the record by hand.">◌ Silent ${esc(howLong)}</span>`;
 }
 
+/*
+ * Every journal this group has dealt with, and what happened at each.
+ *
+ * Grouped by SUBMISSION, not by where the paper is now. A paper rejected by
+ * Global Spine Journal and later published elsewhere still belongs in Global
+ * Spine Journal's history -- that rejection is the most useful thing that
+ * journal has told you, and grouping by current journal would hide it. So one
+ * paper can appear under several journals, once per submission, which is what
+ * "which journal has which papers" actually means when papers move.
+ *
+ * Journal names arrive as the journal types them, so "International
+ * Orthopaedics" and "international orthopaedics" are one journal; the longest
+ * spelling seen is used as the label, being the one most likely to be complete.
+ */
+function journalGroups() {
+  const byKey = new Map();
+
+  for (const m of state.manuscripts) {
+    // A paper with no submission record still belongs somewhere, or it would
+    // vanish from this view entirely.
+    const entries = (m.submissions || []).length
+      ? (m.submissions || []).map((sub) => ({ journal: sub.journal, sub }))
+      : [{ journal: m.currentJournal, sub: null }];
+
+    for (const { journal, sub } of entries) {
+      const name = (journal || "").trim();
+      if (!name) continue;
+      const key = name.toLowerCase();
+      if (!byKey.has(key)) byKey.set(key, { name, papers: [] });
+      const group = byKey.get(key);
+      if (name.length > group.name.length) group.name = name;
+      group.papers.push({ m, sub, standing: standingAt(m, sub) });
+    }
+  }
+
+  for (const g of byKey.values()) {
+    g.live = g.papers.filter((p) => p.standing.live).length;
+    g.papers.sort((a, b) => {
+      if (a.standing.live !== b.standing.live) return a.standing.live ? -1 : 1;
+      return new Date(b.m.updatedAt || 0) - new Date(a.m.updatedAt || 0);
+    });
+  }
+
+  return [...byKey.values()].sort(
+    (a, b) => b.live - a.live || b.papers.length - a.papers.length || a.name.localeCompare(b.name)
+  );
+}
+
+/**
+ * Where a paper stands WITH THIS JOURNAL, which is not the same as where the
+ * paper stands. A paper rejected here and now under review elsewhere reads
+ * "Rejected" under this journal and "In review" on its own card, and both are
+ * true.
+ */
+function standingAt(m, sub) {
+  if (!sub) {
+    const meta = BUCKET_META[m.bucket];
+    return { live: m.bucket !== "published", label: meta ? meta.label : "Tracked", tone: m.bucket };
+  }
+  const outcome = (sub.outcome || "").toLowerCase();
+  if (outcome === "rejected") return { live: false, label: "Rejected", tone: "needs_action" };
+  if (outcome === "transferred") return { live: false, label: "Transferred out", tone: "needs_action" };
+  if (outcome === "published") return { live: false, label: "Published", tone: "published" };
+  // Still open here: say which stage, taking it from the paper's own section
+  // since that is what the last email about it established.
+  const meta = BUCKET_META[m.bucket];
+  return { live: true, label: meta ? meta.label : "Open", tone: m.bucket };
+}
+
+function journalMatches(g, q) {
+  if (!q) return true;
+  const needle = q.toLowerCase();
+  if (g.name.toLowerCase().includes(needle)) return true;
+  return g.papers.some((p) => matchesQuery(p.m, q));
+}
+
+function journalCardHtml(g) {
+  const stages = {};
+  for (const p of g.papers) stages[p.standing.label] = (stages[p.standing.label] || 0) + 1;
+  const newest = g.papers.map((p) => p.m.updatedAt).filter(Boolean).sort().pop();
+
+  return `
+  <article class="card journal-card" data-journal="${esc(g.name)}" tabindex="0" role="button">
+    <div class="card-top">
+      <span class="pill ${g.live ? "in_review" : "published"}">${g.live ? `${g.live} open` : "None open"}</span>
+      <span class="journal-total">${g.papers.length} paper${g.papers.length === 1 ? "" : "s"}</span>
+    </div>
+    <h3 class="card-title">${esc(g.name)}</h3>
+    <div class="journal-stages">
+      ${Object.entries(stages).map(([label, n]) => `<span class="journal-stage">${esc(label)} · ${n}</span>`).join("")}
+    </div>
+    <div class="card-foot">
+      <span class="card-when">${newest ? "Last heard " + esc(fmtRelative(newest)) : "No dated activity"}</span>
+    </div>
+  </article>`;
+}
+
+function journalPaperRowHtml(p) {
+  const ref = p.sub?.manuscriptNumber || p.m.currentManuscriptNumber;
+  return `
+  <article class="card journal-paper" data-id="${esc(p.m.id)}" tabindex="0" role="button">
+    <div class="card-top">
+      <span class="pill ${p.standing.tone}">${esc(p.standing.label)}</span>
+      ${ref ? `<span class="journal-total">${esc(ref)}</span>` : ""}
+      ${silenceChip(p.m)}
+    </div>
+    <h3 class="card-title">${esc(p.m.title)}</h3>
+    <div class="card-foot">
+      <span class="card-when">Updated ${esc(fmtRelative(p.m.updatedAt))}</span>
+    </div>
+  </article>`;
+}
+
 function cardHtml(m) {
   const pill = BUCKET_META[m.bucket];
   const attnReason = m.needsActionReason ? NEEDS_ACTION_REASON[m.needsActionReason] : null;
@@ -454,10 +572,13 @@ function cardHtml(m) {
 }
 
 function render() {
-  const list = filtered();
   const cards = $("#cards");
   const empty = $("#empty");
   $("#bucket-hint").textContent = BUCKET_HINTS[state.bucket] || "";
+
+  if (state.bucket === "journals") return renderJournals(cards, empty);
+
+  const list = filtered();
 
   // The review view also surfaces items that never became a manuscript.
   const extras =
@@ -477,6 +598,47 @@ function render() {
   }
   empty.hidden = true;
   cards.innerHTML = list.map(cardHtml).join("") + extras.map(reviewCardHtml).join("");
+}
+
+/**
+ * Two screens behind one button: the journals, and one journal's papers.
+ *
+ * Kept inside the ordinary card grid rather than given a page of its own, so
+ * search, the detail drawer and the back button all go on working -- a second
+ * page would have had to reimplement each of them.
+ */
+function renderJournals(cards, empty) {
+  if (state.journal) {
+    const group = journalGroups().find((g) => g.name === state.journal);
+    if (!group) { state.journal = null; return renderJournals(cards, empty); }
+
+    const papers = group.papers.filter((p) => matchesQuery(p.m, state.query));
+    $("#bucket-hint").innerHTML =
+      `<button type="button" id="journal-back" class="journal-back">← All journals</button>` +
+      `<span class="journal-heading">${esc(group.name)} — ${papers.length} paper${papers.length === 1 ? "" : "s"}</span>`;
+
+    if (!papers.length) {
+      cards.innerHTML = "";
+      empty.hidden = false;
+      empty.innerHTML = `<h3>Nothing matches</h3><p>No paper at ${esc(group.name)} matches this search.</p>`;
+      return;
+    }
+    empty.hidden = true;
+    cards.innerHTML = papers.map(journalPaperRowHtml).join("");
+    return;
+  }
+
+  const groups = journalGroups().filter((g) => journalMatches(g, state.query));
+  if (!groups.length) {
+    cards.innerHTML = "";
+    empty.hidden = false;
+    empty.innerHTML = state.manuscripts.length
+      ? `<h3>No journals match</h3><p>Nothing here matches this search.</p>`
+      : `<h3>No journals yet</h3><p>Once the sync files a submission, the journals appear here.</p>`;
+    return;
+  }
+  empty.hidden = true;
+  cards.innerHTML = groups.map(journalCardHtml).join("");
 }
 
 // A pinned field is one the sync is no longer allowed to touch. That is a
@@ -1032,15 +1194,28 @@ function wire() {
     if (history.replaceState) history.replaceState(null, "", `#${btn.dataset.bucket}`);
   });
   $("#search").addEventListener("input", (e) => { state.query = e.target.value.trim(); render(); });
-  $("#cards").addEventListener("click", (e) => {
-    const card = e.target.closest(".card");
-    if (card) openDrawer(card.dataset.id);
-  });
+  // A journal card opens its papers; everything else opens the drawer.
+  const activate = (card) => {
+    if (!card) return;
+    if (card.dataset.journal) {
+      state.journal = card.dataset.journal;
+      render();
+      return;
+    }
+    if (card.dataset.id) openDrawer(card.dataset.id);
+  };
+  $("#cards").addEventListener("click", (e) => activate(e.target.closest(".card")));
   $("#cards").addEventListener("keydown", (e) => {
     if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("card")) {
       e.preventDefault();
-      openDrawer(e.target.dataset.id);
+      activate(e.target);
     }
+  });
+  // The hint strip carries the way back out of a journal.
+  $("#bucket-hint").addEventListener("click", (e) => {
+    if (!e.target.closest("#journal-back")) return;
+    state.journal = null;
+    render();
   });
   $("#drawer-edit").addEventListener("click", () => {
     editing = { released: new Set(), dirty: false };

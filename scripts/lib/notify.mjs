@@ -21,11 +21,8 @@ import { daysLeft, describeDeadline } from "./deadline.mjs";
 import { isPinned } from "./registry.mjs";
 
 export const DEFAULT_POLICY = {
-  // Which events are worth a message. Amendments returned before peer review
-  // are the sharp case -- five to fourteen days, and missing one usually
-  // withdraws the submission. Add "revision_requested" here to be reminded
-  // about post-review revisions too; they run on far longer windows.
-  eventTypes: ["sent_back"],
+  // Which events are worth a message.
+  eventTypes: ["sent_back", "revision_requested"],
   // Days remaining at which to send. `null` means "when first seen".
   remindAt: [null, 3, 1],
   // One message when it goes past, and then silence.
@@ -33,7 +30,42 @@ export const DEFAULT_POLICY = {
   // Never message about something that fell due long ago -- on a first run
   // against a year of history that would be a flood of dead news.
   ignoreOlderThanDays: 30,
+
+  /*
+   * The two clocks are not the same clock.
+   *
+   * An amendment returned before peer review runs five to fourteen days and
+   * missing one usually withdraws the submission, so it is announced the
+   * moment it appears and chased twice after. A revision runs on weeks or
+   * months; being told about it on day one, and then again for months, is how
+   * a person learns to swipe these away. So a revision is silent until it is
+   * nearly due, and the first word about it is the word that matters.
+   */
+  byKind: {
+    revision: { remindAt: [5, 1], remindWhenOverdue: true },
+  },
 };
+
+/**
+ * Which clock a manuscript is on.
+ *
+ * The driving event is normally the last one, but not always: a deadline
+ * someone typed in by hand outranks whatever arrived since, and a paper can be
+ * at two journals at once. The section is the fallback, since that is what
+ * a person reading the card would say it was.
+ */
+export function reminderKindOf(manuscript) {
+  const last = lastEventOf(manuscript);
+  if (last?.eventType === "revision_requested") return "revision";
+  if (last?.eventType === "sent_back") return "amendment";
+  return manuscript.bucket === "revisions_pending" ? "revision" : "amendment";
+}
+
+/** The policy in force for one manuscript, with its per-kind overrides applied. */
+function policyFor(policy, manuscript) {
+  const kind = reminderKindOf(manuscript);
+  return { ...policy, ...((policy.byKind || {})[kind] || {}), kind };
+}
 
 /**
  * Which manuscripts are on a clock right now.
@@ -84,15 +116,17 @@ export function dueReminders(registry, ledger, { policy = DEFAULT_POLICY, now = 
 
   for (const { manuscript, left } of pendingDeadlines(registry, { policy, now })) {
     const due = manuscript.deadline;
+    const mine = policyFor(policy, manuscript);
 
     // "First seen" always goes first, so nobody's introduction to an amendment
-    // is a message saying it is due tomorrow.
+    // is a message saying it is due tomorrow. A revision has no such stage --
+    // see byKind above -- so its first word arrives when the date is close.
     const stages = [];
-    if ((policy.remindAt || []).includes(null)) stages.push({ kind: "new", at: null });
-    for (const threshold of (policy.remindAt || []).filter((d) => d !== null).sort((a, b) => b - a)) {
+    if ((mine.remindAt || []).includes(null)) stages.push({ kind: "new", at: null });
+    for (const threshold of (mine.remindAt || []).filter((d) => d !== null).sort((a, b) => b - a)) {
       if (left <= threshold) stages.push({ kind: `t-${threshold}`, at: threshold });
     }
-    if (policy.remindWhenOverdue && left < 0) stages.push({ kind: "overdue", at: -1 });
+    if (mine.remindWhenOverdue && left < 0) stages.push({ kind: "overdue", at: -1 });
 
     const unsent = stages
       .map((stage) => ({ ...stage, key: `${manuscript.id}|${due}|${stage.kind}` }))
@@ -113,6 +147,8 @@ export function dueReminders(registry, ledger, { policy = DEFAULT_POLICY, now = 
     out.push({
       key: chosen.key,
       kind: chosen.kind,
+      // "amendment" or "revision" -- what the message should call this.
+      about: mine.kind,
       supersedes: unsent.filter((s) => s !== chosen).map((s) => s.key),
       manuscript,
       left,
@@ -120,6 +156,23 @@ export function dueReminders(registry, ledger, { policy = DEFAULT_POLICY, now = 
     });
   }
   return out;
+}
+
+/**
+ * What to call this, in the four words a phone notification shows.
+ *
+ * A revision is not an amendment and must not be announced as one: they are
+ * different work, on different clocks, and telling someone their amendment is
+ * due when the journal asked for a revision sends them to the wrong task.
+ *
+ * This is the first template parameter, so the approved Meta template carries
+ * it without needing re-approval -- the wording is a value, not the template.
+ */
+export function headlineFor(reminder) {
+  const revision = reminder.about === "revision";
+  if (reminder.kind === "new") return revision ? "Revision requested" : "Amendments requested";
+  if (reminder.left < 0) return revision ? "Revision overdue" : "Amendment overdue";
+  return revision ? "Revision due" : "Amendment due";
 }
 
 /**
@@ -136,11 +189,7 @@ export function composeMessage(reminder, { now = Date.now(), dashboardUrl = "" }
   // Urgency comes from the clock, wording from the stage — so an amendment
   // first seen with two days left reads as urgent AND as news.
   const mark = reminder.left <= 1 ? "🔴" : reminder.left <= 3 ? "🟠" : "📄";
-  const what =
-    reminder.kind === "new" ? "Amendments requested"
-    : reminder.left < 0 ? "Amendment overdue"
-    : "Amendment due";
-  const heading = `${mark} ${what}`;
+  const heading = `${mark} ${headlineFor(reminder)}`;
 
   const dueDate = new Date(reminder.due).toLocaleDateString("en-GB", {
     weekday: "short", day: "numeric", month: "short", timeZone: "Asia/Kolkata",
@@ -177,9 +226,7 @@ export function composeTemplateParams(reminder, { now = Date.now() } = {}) {
     weekday: "short", day: "numeric", month: "short", timeZone: "Asia/Kolkata",
   });
   return [
-    reminder.kind === "new" ? "Amendments requested"
-      : reminder.left < 0 ? "Amendment overdue"
-      : "Amendment due",
+    headlineFor(reminder),
     describeDeadline(reminder.due, now),
     truncate(m.title, 90),
     m.currentJournal || "the journal",

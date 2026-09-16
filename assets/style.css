@@ -703,3 +703,27 @@ body.locked .foot { filter: blur(7px); pointer-events: none; user-select: none; 
 }
 .merge-row select:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-wash); }
 .merge-row .sync-close { margin-top: 0; flex: none; }
+
+/* --- By journal ----------------------------------------------------------
+   The same card grid as everywhere else: a journal is just another thing with
+   a name, a count and a state, and reusing the grid keeps search and the
+   drawer working rather than needing a second page that reimplements both. */
+.bucket-icon.journals { background: var(--brand-wash); color: var(--brand); }
+
+.journal-card { cursor: pointer; }
+.journal-total {
+  font-size: .72rem; font-weight: 600; color: var(--muted);
+  font-family: "IBM Plex Mono", monospace;
+}
+.journal-stages { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.journal-stage {
+  padding: 3px 9px; border-radius: 100px; font-size: .7rem; font-weight: 600;
+  background: var(--surface-2); color: var(--ink-soft); border: 1px solid var(--line);
+  white-space: nowrap;
+}
+.journal-back {
+  padding: 0; border: 0; background: none; cursor: pointer;
+  color: var(--brand); font: inherit; font-size: .82rem; font-weight: 600;
+}
+.journal-heading { margin-left: 12px; font-weight: 600; color: var(--ink); }
+.journal-paper { cursor: pointer; }

@@ -15,7 +15,7 @@
  *   node scripts/check-notify.mjs
  */
 import {
-  DEFAULT_POLICY, pendingDeadlines, dueReminders, composeMessage, composeFor,
+  DEFAULT_POLICY, pendingDeadlines, dueReminders, composeMessage, composeFor, reminderKindOf,
   composeTemplateParams, recordSent, reachedSomeone, pruneLedger,
 } from "./lib/notify.mjs";
 import {
@@ -138,12 +138,56 @@ await check("a manuscript that has moved on is no longer chased", () => {
   assert(pendingDeadlines(registryOf(done), { now: NOW }).length === 0, "it is still being chased");
 });
 
-await check("a revision is left alone unless the policy asks for it", () => {
-  const revision = amendment({ due: ahead(3), eventType: "revision_requested" });
-  assert(pendingDeadlines(registryOf(revision), { now: NOW }).length === 0, "revisions were chased by default");
+await check("a revision is chased, but only once it is nearly due", () => {
+  // The two clocks are not the same clock. An amendment is announced the day
+  // it appears -- five to fourteen days, and missing one withdraws the paper.
+  // A revision runs for weeks, so being told on day one and then every few
+  // days for a month is how somebody learns to swipe these away. It stays
+  // silent until the date is close, and then the first word is the one that
+  // matters.
+  const far = amendment({ due: ahead(20), eventType: "revision_requested", bucket: "revisions_pending" });
+  assert(pendingDeadlines(registryOf(far), { now: NOW }).length === 1, "a revision is not even being watched");
+  assert(dueReminders(registryOf(far), { sent: [] }, { now: NOW }).length === 0,
+    "a revision three weeks out was announced anyway");
 
-  const policy = { ...DEFAULT_POLICY, eventTypes: ["sent_back", "revision_requested"] };
-  assert(pendingDeadlines(registryOf(revision), { policy, now: NOW }).length === 1, "the policy was ignored");
+  const near = amendment({ due: ahead(4), eventType: "revision_requested", bucket: "revisions_pending" });
+  const [soon] = dueReminders(registryOf(near), { sent: [] }, { now: NOW });
+  assert(soon, "a revision due in four days was not raised");
+  assert(soon.about === "revision", `it is being treated as ${soon.about}`);
+
+  // And it must not call itself an amendment -- that is different work.
+  const text = composeMessage(soon, { now: NOW });
+  assert(/revision/i.test(text), `the message never says revision: ${text.slice(0, 80)}`);
+  assert(!/amendment/i.test(text), `a revision announced itself as an amendment: ${text.slice(0, 80)}`);
+  assert(composeFor(soon, { now: NOW }).params[0] === "Revision due",
+    `the template's first field reads "${composeFor(soon, { now: NOW }).params[0]}"`);
+});
+
+await check("an amendment is still announced the day it appears", () => {
+  // The change above must not have quietened the sharp case.
+  const fresh = amendment({ due: ahead(11), eventType: "sent_back" });
+  const [first] = dueReminders(registryOf(fresh), { sent: [] }, { now: NOW });
+  assert(first && first.kind === "new", "an amendment eleven days out was no longer announced on sight");
+  assert(first.about === "amendment", `it is being treated as ${first.about}`);
+  assert(/amendment/i.test(composeMessage(first, { now: NOW })), "the wording lost the word amendment");
+});
+
+await check("which clock a paper is on is read from its own record", () => {
+  assert(reminderKindOf({ timeline: [{ eventType: "revision_requested", timestamp: "2026-01-01T00:00:00Z" }] }) === "revision");
+  assert(reminderKindOf({ timeline: [{ eventType: "sent_back", timestamp: "2026-01-01T00:00:00Z" }] }) === "amendment");
+  // A paper at two journals: the newest event belongs to the other one, so the
+  // section is what a person reading the card would go by.
+  assert(reminderKindOf({ bucket: "revisions_pending", timeline: [{ eventType: "under_review", timestamp: "2026-01-01T00:00:00Z" }] }) === "revision");
+  assert(reminderKindOf({ bucket: "needs_action", timeline: [] }) === "amendment");
+});
+
+await check("a revision still gets chased once it goes past", () => {
+  const late = amendment({ due: ahead(-2), eventType: "revision_requested", bucket: "revisions_pending" });
+  const [overdue] = dueReminders(registryOf(late), { sent: [] }, { now: NOW });
+  assert(overdue, "an overdue revision was dropped");
+  assert(/overdue/i.test(composeMessage(overdue, { now: NOW })), "it does not say it is overdue");
+  assert(composeFor(overdue, { now: NOW }).params[0] === "Revision overdue",
+    `first field reads "${composeFor(overdue, { now: NOW }).params[0]}"`);
 });
 
 await check("a date set by hand stands even when the classifier raised no flag", () => {
