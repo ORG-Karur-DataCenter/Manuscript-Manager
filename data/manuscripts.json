@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T00:26:16.632Z",
+  "generatedAt": "2026-09-16T06:16:13.018Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -18894,14 +18894,14 @@
       "id": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
       "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
       "titleNormalized": "the burden of knee osteoarthritis in older adults in india and south asia 1990 2023 a subnational analysis from the global burden of disease study 2023",
-      "bucket": "submissions",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "JOIO-D-26-01272",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -19060,10 +19060,10 @@
         },
         {
           "journal": "Indian Journal of Orthopaedics",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "JOIO-D-26-01272",
           "submittedDate": "2026-07-14T18:44:07.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -19079,6 +19079,19 @@
                 "subject": "Track the status of your submission to Indian Journal of Orthopaedics",
                 "from": "info@researchsquare.com",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-09-16T02:12:34.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after peer review.",
+              "manuscriptNumber": "JOIO-D-26-01272",
+              "source": {
+                "threadId": "1a0a7fcc3874609e",
+                "messageId": "1a0a7fcc3874609e",
+                "subject": "Your Submission JOIO-D-26-01272 - [EMID:ed16a7e6d501d4d8]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>"
               }
             }
           ]
@@ -19196,10 +19209,29 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-16T02:12:34.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "rejected",
+          "manuscriptNumber": "JOIO-D-26-01272",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after peer review.",
+          "source": {
+            "threadId": "1a0a7fcc3874609e",
+            "messageId": "1a0a7fcc3874609e",
+            "subject": "Your Submission JOIO-D-26-01272 - [EMID:ed16a7e6d501d4d8]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-04T12:04:40.000Z",
-      "updatedAt": "2026-07-14T18:44:07.000Z"
+      "updatedAt": "2026-09-16T02:12:34.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "the-burden-of-mental-disorders-in-india-and-its-states-1990-2023-and-t",

@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-16T03:09:10.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: OPEC Energy Review [email ref: SE-32-a]",
+      "from": "Diana Khoury <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T03:44:20.000Z",
+      "reason": "unrelated",
+      "subject": "Your early access granted: GBD 2023 MCP Connector for Claude AI",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T04:25:59.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T04:37:14.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T04:39:42.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Re: Invitation to Review MS # 8696 Comparative clinical outcomes after intra-articular injection with adipose-Derived stromal vascular fraction versus Hyaluronic acid for the knee joint OA, a retrospective cohort study",
+      "from": "SQU Med J Oman <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T04:50:40.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:ee25fee34ad8f8bd]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-15T21:38:06.000Z",
       "reason": "unrelated",
       "subject": "Future-proof your healthcare career with new skills",
@@ -2057,48 +2099,6 @@
       "subject": "Re: avaisor Research on Use Case - Situation B, Next steps before Phase 2",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T02:49:13.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Manuscript No. 127660 for World Journal of Neurology (Reviewer’s Code: 05395420)",
-      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T03:23:40.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Submit your manuscript to Neurology® Education",
-      "from": "\"Neurology® Education\" <lww@sci.scientific-direct.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T04:05:35.000Z",
-      "reason": "unrelated",
-      "subject": "In case you missed this",
-      "from": "Emergent <crew@hey.emergent.sh>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T04:07:46.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Siddharth Aiyer <aiyer.siddharth@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T04:51:40.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01553R1 - [EMID:2ca5f5fed1134d57]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-17T06:05:12.000Z",
-      "reason": "unrelated",
-      "subject": "Interested in your research: Is survival in primary spinal osteosarcoma determined by surgical margins or tumour biology? A systematic review",
-      "from": "\"Prof. Dr. Kais B. Singh\" <qzakfmqh@xhsr6.cn>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
