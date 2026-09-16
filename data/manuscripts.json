@@ -17861,8 +17861,7 @@
         "title": "Should spinal Ewing's sarcoma be managed differently from extremity disease? A systematic review of outcomes and treatment limitations",
         "currentJournal": "European Spine Journal",
         "currentStatus": "In review",
-        "currentManuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
-        "deadline": "2026-08-13T18:29:59.999Z"
+        "currentManuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0"
       },
       "edits": [
         {
@@ -17928,10 +17927,22 @@
               "to": "In review"
             }
           ]
+        },
+        {
+          "at": "2026-09-16T17:28:51.872Z",
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "deadline",
+              "from": "2026-08-13T18:29:59.999Z",
+              "to": null,
+              "released": true
+            }
+          ]
         }
       ],
       "notes": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so.",
-      "editedAt": "2026-09-16T17:28:33.003Z",
+      "editedAt": "2026-09-16T17:28:51.872Z",
       "titleAliases": []
     },
     {
@@ -20371,5 +20382,5 @@
       "updatedAt": "2026-08-17T10:52:38.000Z"
     }
   ],
-  "editedAt": "2026-09-16T17:28:33.003Z"
+  "editedAt": "2026-09-16T17:28:51.872Z"
 }
