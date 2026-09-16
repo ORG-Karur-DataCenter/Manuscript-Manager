@@ -52,10 +52,13 @@ export const FIELDS = [
 ];
 
 export const SECTIONS = [
-  { bucket: "submissions", label: "Submissions" },
+  // "Submissions" and "In review" were one thing wearing two names: not every
+  // journal acknowledges a submission, and none announces that a paper has
+  // reached an editor, so which section a paper landed in said more about the
+  // journal's mail habits than about the paper.
+  { bucket: "in_review", label: "With the journal" },
   { bucket: "needs_action", label: "Needs action" },
   { bucket: "revisions_pending", label: "Revisions pending" },
-  { bucket: "in_review", label: "In review" },
   { bucket: "published", label: "Published" },
 ];
 

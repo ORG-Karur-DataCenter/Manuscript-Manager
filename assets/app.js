@@ -16,19 +16,35 @@ import { FIELDS, SECTIONS, isPinned, editingAvailable, saveEdit, deleteManuscrip
  * filling in the row rather than remembering the other places.
  */
 const BUCKET_META = {
-  submissions: { label: "Submissions", pill: "submissions", icon: "↑" },
+  in_review: { label: "With the journal", pill: "in_review", icon: "◷" },
   needs_action: { label: "Needs action", pill: "needs_action", icon: "!" },
   revisions_pending: { label: "Revisions pending", pill: "revisions_pending", icon: "↻" },
-  in_review: { label: "In review", pill: "in_review", icon: "◷" },
   published: { label: "Published", pill: "published", icon: "✓" },
 };
 
+/*
+ * A section this build does not know must not blank the page.
+ *
+ * Reading BUCKET_META directly threw on any unrecognised bucket, and the
+ * whole card list went with it -- one stale record, or a browser holding the
+ * previous data file after "Submissions" was merged away, and the dashboard
+ * renders nothing at all. A card for an unknown section is still a card worth
+ * showing; it just says what it does not recognise.
+ */
+function bucketMeta(bucket) {
+  return BUCKET_META[bucket] || {
+    label: bucket ? String(bucket).replace(/_/g, " ") : "Unfiled",
+    pill: "in_review",
+    icon: "·",
+  };
+}
+
 const BUCKET_HINTS = {
   all: "Every manuscript being tracked. Anything on a deadline comes first, most urgent at the top; the rest follow by newest activity.",
-  submissions: "Freshly submitted — acknowledged by a journal, awaiting a first editorial check.",
+
   needs_action: "Needs you: rejected papers to resubmit elsewhere, or manuscripts returned for edits before peer review.",
   revisions_pending: "Reviewed, and coming back to you: the journal has asked for revisions and is waiting on the revised manuscript.",
-  in_review: "With the journal — under peer review, revision in progress, or accepted and awaiting publication.",
+  in_review: "With the journal — submitted, under peer review, or accepted and awaiting publication. Submissions and review are one section: not every journal acknowledges a submission, and none writes to say a paper reached an editor, so separating them sorted papers by their journal's mail habits rather than by where they stood.",
   published: "Published, with DOI and article link where available.",
   review: "Emails the classifier would not guess at. Nothing here has been filed on a guess — check each one and correct the record.",
   journals: "Every journal this group has submitted to, and what happened at each. Open one to see its papers and where each stands with that journal — not where the paper is now, which may be somewhere else entirely.",
@@ -394,8 +410,7 @@ function reviewCardHtml(r) {
  * board is mostly lost.
  */
 const STALE_AFTER_DAYS = {
-  submissions: 90,
-  in_review: 120,
+  in_review: 90,
   revisions_pending: 30,
   needs_action: 45,
   published: Infinity,
@@ -476,8 +491,8 @@ function journalGroups() {
  */
 function standingAt(m, sub) {
   if (!sub) {
-    const meta = BUCKET_META[m.bucket];
-    return { live: m.bucket !== "published", label: meta ? meta.label : "Tracked", tone: m.bucket };
+    const meta = bucketMeta(m.bucket);
+    return { live: m.bucket !== "published", label: meta.label, tone: m.bucket };
   }
   const outcome = (sub.outcome || "").toLowerCase();
   if (outcome === "rejected") return { live: false, label: "Rejected", tone: "needs_action" };
@@ -485,8 +500,8 @@ function standingAt(m, sub) {
   if (outcome === "published") return { live: false, label: "Published", tone: "published" };
   // Still open here: say which stage, taking it from the paper's own section
   // since that is what the last email about it established.
-  const meta = BUCKET_META[m.bucket];
-  return { live: true, label: meta ? meta.label : "Open", tone: m.bucket };
+  const meta = bucketMeta(m.bucket);
+  return { live: true, label: meta.label, tone: m.bucket };
 }
 
 function journalMatches(g, q) {
@@ -534,7 +549,7 @@ function journalPaperRowHtml(p) {
 }
 
 function cardHtml(m) {
-  const pill = BUCKET_META[m.bucket];
+  const pill = bucketMeta(m.bucket);
   const attnReason = m.needsActionReason ? NEEDS_ACTION_REASON[m.needsActionReason] : null;
   const chain = (m.submissions || []).length;
   const lastEvent = m.timeline?.[m.timeline.length - 1];
@@ -698,7 +713,7 @@ function sourceMailHtml(e) {
 }
 
 function drawerHtml(m) {
-  const pill = BUCKET_META[m.bucket];
+  const pill = bucketMeta(m.bucket);
   const attnReason = m.needsActionReason ? NEEDS_ACTION_REASON[m.needsActionReason] : null;
   const lastEdit = (m.edits || [])[m.edits?.length - 1];
 

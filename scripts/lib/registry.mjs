@@ -10,6 +10,36 @@ const STATUS_LABELS = {
   other: "Update",
 };
 
+/**
+ * Names that are a publisher, not a journal.
+ *
+ * "Springer Nature" is the house; the journal is European Spine Journal or
+ * Stem Cell Reviews and Reports. Its mail is signed by the house, so the
+ * classifier reads the house, and ten cards in this registry ended up filed
+ * under a company that does not review anything -- which makes the By journal
+ * view group unrelated papers together and tells you nothing about where a
+ * paper actually is.
+ *
+ * A named list, deliberately, not a pattern: "Frontiers in Surgery", "BMC
+ * Public Health" and "Nature Medicine" are real journals whose names start
+ * with their publisher's, and a pattern would swallow all of them.
+ *
+ * Some papers really do belong to the house and not to any journal -- a
+ * Springer book chapter has no journal. Those are flagged, not guessed at.
+ */
+const PUBLISHERS = new Set([
+  "springer", "springer nature", "springer nature submissions",
+  "elsevier", "wiley", "wiley-blackwell", "sage", "sage publications",
+  "taylor & francis", "taylor and francis", "wolters kluwer", "lippincott",
+  "lippincott williams & wilkins", "nature portfolio", "biomed central",
+  "frontiers", "frontiers media", "mdpi", "karger", "thieme",
+]);
+
+/** True when this names a publisher rather than a journal. */
+export function isPublisherName(name) {
+  return PUBLISHERS.has(String(name || "").trim().toLowerCase().replace(/\s+/g, " "));
+}
+
 export function normalizeTitle(title) {
   return (title || "")
     .toLowerCase()
@@ -215,8 +245,17 @@ function bucketForEvent(eventType) {
       return { bucket: "needs_action", needsActionReason: "rejected_needs_resubmission" };
     case "sent_back":
       return { bucket: "needs_action", needsActionReason: "pre_review_edits" };
+    /*
+     * A submission and a paper under review are the same section now.
+     *
+     * Not every journal acknowledges a submission, and none of them writes to
+     * say a paper has reached an editor -- so "Submissions" and "In review"
+     * held the same thing, sorted only by whether that particular journal
+     * happened to send an acknowledgement. Sixty-two papers sat in one and
+     * thirty-six in the other on no real distinction.
+     */
     case "new_submission":
-      return { bucket: "submissions", needsActionReason: null };
+      return { bucket: "in_review", needsActionReason: null };
     case "revision_requested":
       // Its own section. "In review" means the journal is working; a revision
       // request means YOU are, and the two were sitting in one pile.
@@ -293,8 +332,9 @@ export function isTombstoned(registry, event) {
  * you owe a journal is late in one.
  */
 export const STALE_AFTER_DAYS = {
-  submissions: 90,
-  in_review: 120,
+  // Submissions and review are one section; a paper with a journal is slow at
+  // three months whether or not that journal ever acknowledged it.
+  in_review: 90,
   revisions_pending: 30,
   needs_action: 45,
   published: Infinity,
@@ -527,8 +567,31 @@ export function applyEvent(registry, event) {
     // A section chosen by hand outranks the one inferred from the email. The
     // event still joins the timeline; it just does not get to move the card.
     if (derived && !isPinned(manuscript, "bucket")) {
-      manuscript.bucket = derived.bucket;
-      manuscript.needsActionReason = derived.needsActionReason;
+      /*
+       * A rejection closes one submission, not the paper.
+       *
+       * A paper rejected by Archives of Orthopaedic and Trauma Surgery on 5
+       * September had already gone to JBJS Open Access on the 3rd -- and the
+       * rejection, being the newest event, moved the card to "needs action"
+       * as though a new home had to be found. It did not: the paper was with a
+       * journal the whole time, and the board said otherwise.
+       *
+       * So a rejection or a transfer only asks for action when nothing else is
+       * live. Anything else -- an amendment, a revision -- is work the author
+       * owes on a submission that is still open, and still belongs in front of
+       * them.
+       */
+      const closesOne = event.eventType === "rejected" || event.eventType === "transferred";
+      const stillSomewhere = (manuscript.submissions || []).some(
+        (sub) => sub.outcome === "active" && sub.journal.trim().toLowerCase() !== (event.journal || "").trim().toLowerCase()
+      );
+      if (closesOne && stillSomewhere) {
+        manuscript.bucket = "in_review";
+        manuscript.needsActionReason = null;
+      } else {
+        manuscript.bucket = derived.bucket;
+        manuscript.needsActionReason = derived.needsActionReason;
+      }
     }
     // What the person actually has to do something about. Amendments belong
     // here as much as revisions do -- more, in fact, since they run on a clock
@@ -561,7 +624,23 @@ export function applyEvent(registry, event) {
     // already refuses to move the bucket for it; current status follows the
     // same principle, or a real "Rejected" gets overwritten with "Update".
     if (submission && event.eventType !== "other") {
-      if (!isPinned(manuscript, "currentJournal")) manuscript.currentJournal = submission.journal;
+      /*
+       * A publisher is not where the paper is.
+       *
+       * Springer signs its own mail, so the classifier reads "Springer Nature"
+       * and the card then claims to be at a company rather than a journal.
+       * Better to keep the last real journal and say the name is wrong than to
+       * overwrite a true answer with a useless one.
+       */
+      if (!isPinned(manuscript, "currentJournal")) {
+        if (isPublisherName(submission.journal)) {
+          manuscript.needsReview = true;
+          manuscript.reviewReason ||=
+            `"${submission.journal}" is a publisher, not a journal — set the journal this paper is actually with.`;
+        } else {
+          manuscript.currentJournal = submission.journal;
+        }
+      }
       if (!isPinned(manuscript, "currentManuscriptNumber")) {
         manuscript.currentManuscriptNumber = submission.manuscriptNumber;
       }

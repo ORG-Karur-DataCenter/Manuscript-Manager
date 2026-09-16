@@ -5,7 +5,8 @@
  *   node scripts/check-registry.mjs
  */
 import { applyEvent, applyEdit, isPinned, titleSimilarity, baseManuscriptNumber,
-  isPlausibleManuscriptNumber, tombstoneFor, silence } from "./lib/registry.mjs";
+  isPlausibleManuscriptNumber, tombstoneFor, silence, isPublisherName } from "./lib/registry.mjs";
+import { ourAddresses, isFromOurselves, addressOf } from "./lib/ourselves.mjs";
 
 const reg = { manuscripts: [] };
 const ev = (o) => ({ revisionRound: null, doi: null, publicationLink: null, summary: "", needsReview: false, ...o });
@@ -88,7 +89,7 @@ const m6 = reg6.manuscripts[0];
 
 applyEdit(m6, { bucket: "in_review" });
 check("an edit moves the card", m6.bucket === "in_review");
-check("and records the previous value", m6.edits[0].changes[0].from === "submissions");
+check("and records the previous value", m6.edits[0].changes[0].from === "in_review");
 
 // The event that would have moved it back.
 applyEvent(reg6, ev({ title: "Pinned Paper", journal: "Journal D", eventType: "rejected", timestamp: "2026-08-05T00:00:00Z", source: { messageId: "p2" } }));
@@ -457,7 +458,7 @@ const sinceFor = (state) =>
   // The rejection that went missing: it must land on the paper it names.
   applyEvent(reg, ev({ title: first, journal: "Global Spine Journal", manuscriptNumber: "GSJ-26-1654", eventType: "rejected", timestamp: "2026-08-21T00:00:00Z", source: { messageId: "pf3" } }));
   check("and a rejection files against its own paper", reg.manuscripts[0].bucket === "needs_action");
-  check("and leaves the other alone", reg.manuscripts[1].bucket === "submissions");
+  check("and leaves the other alone", reg.manuscripts[1].bucket === "in_review");
 }
 
 // --- an exact title still matches, however it is punctuated ------------------
@@ -569,13 +570,81 @@ const sinceFor = (state) =>
   const now = Date.parse("2026-09-13T00:00:00Z");
   const at = (bucket, daysAgo) => ({ bucket, updatedAt: new Date(now - daysAgo * 86400000).toISOString() });
 
-  check("a fresh submission is not stale", silence(at("submissions", 10), now).stale === false);
-  check("a submission silent for six months is", silence(at("submissions", 180), now).stale === true);
-  check("and it says how long", silence(at("submissions", 180), now).days === 180);
+  check("a fresh submission is not stale", silence(at("in_review", 10), now).stale === false);
+  check("a submission silent for six months is", silence(at("in_review", 180), now).stale === true);
+  check("and it says how long", silence(at("in_review", 180), now).days === 180);
   check("a revision owed for six weeks is stale sooner", silence(at("revisions_pending", 45), now).stale === true);
   check("but not at a fortnight", silence(at("revisions_pending", 14), now).stale === false);
   check("a published paper is never stale", silence(at("published", 900), now).stale === false);
-  check("a record with no date says nothing", silence({ bucket: "submissions" }, now) === null);
+  check("a record with no date says nothing", silence({ bucket: "in_review" }, now) === null);
+}
+
+// --- a rejection closes a submission, not the paper -------------------------
+//
+// "Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF" went to
+// JBJS Open Access on 3 September and was rejected by Archives of Orthopaedic
+// and Trauma Surgery on the 5th. The rejection, being newest, moved the card to
+// "needs action" as though a new home were wanted. It was already in one.
+{
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "A Paper At Two Journals", journal: "Journal A", manuscriptNumber: "A-1", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "x1" } }));
+  applyEvent(reg, ev({ title: "A Paper At Two Journals", journal: "Journal B", manuscriptNumber: "B-1", eventType: "new_submission", timestamp: "2026-09-03T00:00:00Z", source: { messageId: "x2" } }));
+  applyEvent(reg, ev({ title: "A Paper At Two Journals", journal: "Journal A", manuscriptNumber: "A-1", eventType: "rejected", timestamp: "2026-09-05T00:00:00Z", source: { messageId: "x3" } }));
+
+  const m = reg.manuscripts[0];
+  check("a rejection at one journal does not ask for action while another is live", m.bucket === "in_review");
+  check("and the rejection is still on the record", m.timeline.some((t) => t.eventType === "rejected"));
+
+  // But when nothing is left, it does need a new home.
+  applyEvent(reg, ev({ title: "A Paper At Two Journals", journal: "Journal B", manuscriptNumber: "B-1", eventType: "rejected", timestamp: "2026-09-06T00:00:00Z", source: { messageId: "x4" } }));
+  check("and once the last one goes, it asks", m.bucket === "needs_action");
+}
+
+// --- submitted and under review are one section -----------------------------
+{
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "Freshly Submitted Paper", journal: "Journal C", eventType: "new_submission", timestamp: "2026-09-01T00:00:00Z", source: { messageId: "s1" } }));
+  check("a new submission sits with the journal", reg.manuscripts[0].bucket === "in_review");
+  applyEvent(reg, ev({ title: "Freshly Submitted Paper", journal: "Journal C", eventType: "under_review", timestamp: "2026-09-02T00:00:00Z", source: { messageId: "s2" } }));
+  check("and going under review does not move it", reg.manuscripts[0].bucket === "in_review");
+}
+
+// --- a publisher is not a journal -------------------------------------------
+{
+  check("Springer Nature is a publisher", isPublisherName("Springer Nature"));
+  check("and so is Wolters Kluwer", isPublisherName("wolters kluwer"));
+  // A named list, not a pattern: these are real journals named after houses.
+  for (const journal of ["Frontiers in Surgery", "BMC Public Health", "Nature Medicine", "European Spine Journal"]) {
+    check(`"${journal}" is a journal`, !isPublisherName(journal));
+  }
+
+  const reg = { manuscripts: [] };
+  applyEvent(reg, ev({ title: "A Paper Springer Signed For", journal: "European Spine Journal", eventType: "new_submission", timestamp: "2026-08-01T00:00:00Z", source: { messageId: "p1" } }));
+  applyEvent(reg, ev({ title: "A Paper Springer Signed For", journal: "Springer Nature", eventType: "under_review", timestamp: "2026-09-01T00:00:00Z", source: { messageId: "p2" } }));
+  const m = reg.manuscripts[0];
+  check("a publisher does not overwrite the journal a paper is with", m.currentJournal === "European Spine Journal");
+  check("and the record says the name was wrong", m.needsReview === true && /publisher/i.test(m.reviewReason || ""));
+}
+
+// --- the group forwarding to itself -----------------------------------------
+//
+// A forward arrives dated today, not when the journal wrote, so a rejection
+// passed on weeks later becomes the newest thing known about a paper.
+{
+  const ours = ourAddresses(
+    [{ email: "drsathishmuthu@gmail.com" }, { email: "dhibinvikash1@gmail.com" }],
+    ["dhibinvikash@outlook.com"]
+  );
+  check("one of us forwarding is ours", isFromOurselves("Dr Sathish Muthu <drsathishmuthu@gmail.com>", ours));
+  check("however the address is capitalised", isFromOurselves("<DHIbinvikash@outlook.com>", ours));
+
+  // Narrow on purpose: journals and editors write from personal addresses too,
+  // and this registry has real events from both.
+  check("a journal on gmail still files", !isFromOurselves("journalofarthroplasty@gmail.com", ours));
+  check("and an editor writing personally still files", !isFromOurselves("louie.philip@gmail.com", ours));
+  check("and a journal's own system files", !isFromOurselves("Global Spine Journal <onbehalfof@manuscriptcentral.com>", ours));
+  check("a From with no address is not ours", !isFromOurselves("Editorial Office", ours));
+  check("an address is read out of a display name", addressOf("Dr Sathish Muthu <drsathishmuthu@gmail.com>") === "drsathishmuthu@gmail.com");
 }
 
 console.log(failures ? `\n${failures} registry check(s) failed.` : "\nAll registry checks passed.");

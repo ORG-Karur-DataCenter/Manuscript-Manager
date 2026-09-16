@@ -6,6 +6,7 @@ import { classifyEmail } from "./lib/classify.mjs";
 import { applyEvent } from "./lib/registry.mjs";
 import { PREFILTER } from "./lib/prefilter.mjs";
 import { classifyBySubject } from "./lib/subject-rules.mjs";
+import { ourAddresses, isFromOurselves } from "./lib/ourselves.mjs";
 import { resolveDeadline } from "./lib/deadline.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -145,6 +146,22 @@ function hasClassifierKey() {
 
 async function main() {
   const { accounts } = await loadJson(P.accounts, { accounts: [] });
+
+  /*
+   * Everyone whose own mail is the group talking to itself.
+   *
+   * Built from the polled accounts, plus OUR_OTHER_ADDRESSES for anything that
+   * forwards into one of them -- dhibinvikash@outlook.com is not polled
+   * directly but its mail lands in the Gmail account, so a forward from it is
+   * still internal.
+   */
+  const ours = ourAddresses(
+    accounts,
+    (process.env.OUR_OTHER_ADDRESSES || "dhibinvikash@outlook.com")
+      .split(",")
+      .map((x) => x.trim())
+      .filter(Boolean)
+  );
   const manuscriptsDb = await loadJson(P.manuscripts, { generatedAt: null, manuscripts: [] });
   const state = await loadJson(P.state, { accounts: {} });
   const excludedLog = await loadJson(P.excluded, { excluded: [] });
@@ -252,6 +269,29 @@ async function main() {
       const candidateText = `${msg.subject} ${msg.from} ${msg.text}`;
       if (!PREFILTER.test(candidateText)) {
         seenIds.add(msg.id); // a decision: not journal correspondence, never revisit
+        continue;
+      }
+
+      /*
+       * One of us forwarding a journal's letter to another of us.
+       *
+       * The forward carries today's date, not the journal's, and the registry
+       * reads the newest event as the present -- so a rejection forwarded
+       * weeks later drags a paper back to "rejected" after it has already been
+       * submitted somewhere else. It also carries nothing new: if the journal
+       * wrote to a mailbox we poll, the original is filed already, correctly
+       * dated. Settled here rather than at the classifier, so it costs nothing.
+       */
+      if (isFromOurselves(msg.from, ours)) {
+        seenIds.add(msg.id);
+        totalExcluded++;
+        excludedLog.excluded.unshift({
+          timestamp: msg.internalDate,
+          reason: "forwarded_between_us",
+          subject: msg.subject,
+          from: msg.from,
+          account: account.email,
+        });
         continue;
       }
 

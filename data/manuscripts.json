@@ -451,7 +451,7 @@
       "id": "adoption-of-mibo-guidelines-in-orthobiologics-practice-a-framework-for",
       "title": "Adoption of MIBO Guidelines in Orthobiologics Practice: A Framework for Standardized Reporting, Clinical Translation, and Regulatory Compliance",
       "titleNormalized": "adoption of mibo guidelines in orthobiologics practice a framework for standardized reporting clinical translation and regulatory compliance",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -516,7 +516,7 @@
       "id": "advancing-osteochondral-regeneration-intra-articular-delivery-of-mesen",
       "title": "Advancing Osteochondral Regeneration: Intra-Articular Delivery of Mesenchymal Stem Cells",
       "titleNormalized": "advancing osteochondral regeneration intra articular delivery of mesenchymal stem cells",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -622,7 +622,7 @@
       "id": "aggressive-lesions-of-the-c2-vertebra-a-systematic-review-of-tumour-bi",
       "title": "Aggressive Lesions of the C2 Vertebra: A Systematic Review of Tumour Biology, Clinical Presentation and Management Strategies",
       "titleNormalized": "aggressive lesions of the c2 vertebra a systematic review of tumour biology clinical presentation and management strategies",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -829,7 +829,7 @@
       "id": "air-normalised-vertebral-bone-quality-c-vbqair-score-a-reproducible-qu",
       "title": "Air-Normalised Vertebral Bone Quality (C-VBQair) Score: A Reproducible, Quantitative Imaging Biomarker for Opportunistic Osteoporosis Screening on Cervical Spine MRI",
       "titleNormalized": "air normalised vertebral bone quality c vbqair score a reproducible quantitative imaging biomarker for opportunistic osteoporosis screening on cervical spine mri",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -1630,7 +1630,7 @@
       "title": "Are Current Management Strategies Adequate for Metastatic Sarcoma of the Spine? A Systematic Review",
       "titleNormalized": "are current management strategies adequate for metastatic sarcoma of the spine a systematic review",
       "bucket": "in_review",
-      "needsReview": false,
+      "needsReview": true,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -1687,13 +1687,14 @@
         }
       ],
       "createdAt": "2026-08-23T18:34:27.000Z",
-      "updatedAt": "2026-08-23T18:34:27.000Z"
+      "updatedAt": "2026-08-23T18:34:27.000Z",
+      "reviewReason": "\"Wolters Kluwer\" is a publisher, not a journal. No journal is recorded for it (a book chapter has none) — set it, or leave it."
     },
     {
       "id": "autologous-peripheral-blood-derived-orthobiologics-apbos-in-regenerati",
       "title": "Autologous Peripheral Blood-Derived Orthobiologics (APBOs) in Regenerative Orthopaedics: Biology, Isolation Techniques, Clinical Evidence, Comparative Analysis, and Rehabilitation Principles",
       "titleNormalized": "autologous peripheral blood derived orthobiologics apbos in regenerative orthopaedics biology isolation techniques clinical evidence comparative analysis and rehabilitation principles",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -2051,7 +2052,7 @@
       "id": "bone-marrow-mesenchymal-stromal-cell-derived-exosomes-in-knee-osteoart",
       "title": "Bone marrow mesenchymal stromal cell-derived exosomes in knee osteoarthritis: Bridging mechanistic understanding to clinical applications",
       "titleNormalized": "bone marrow mesenchymal stromal cell derived exosomes in knee osteoarthritis bridging mechanistic understanding to clinical applications",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -2269,7 +2270,7 @@
       "id": "can-atlantoaxial-stability-be-restored-without-fusion-outcomes-of-temp",
       "title": "Can Atlantoaxial Stability be Restored Without Fusion? Outcomes of Temporary C1-C2 Fixation with Implant Removal: Systematic Review and Meta-analysis",
       "titleNormalized": "can atlantoaxial stability be restored without fusion outcomes of temporary c1 c2 fixation with implant removal systematic review and meta analysis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -2673,7 +2674,7 @@
       "id": "car-t-cell-therapy-in-solid-musculoskeletal-tumours-implications-for-r",
       "title": "CAR-T Cell Therapy in Solid Musculoskeletal Tumours: Implications for Regenerative Orthopaedics - A Scoping Review",
       "titleNormalized": "car t cell therapy in solid musculoskeletal tumours implications for regenerative orthopaedics a scoping review",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -3179,7 +3180,7 @@
       "id": "comparative-outcomes-of-intra-articular-subchondral-and-combined-injec",
       "title": "Comparative outcomes of intra-articular, subchondral, and combined injections of peripheral blood mesenchymal stromal cells in knee osteoarthritis",
       "titleNormalized": "comparative outcomes of intra articular subchondral and combined injections of peripheral blood mesenchymal stromal cells in knee osteoarthritis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -3403,7 +3404,7 @@
       "id": "comparison-of-characteristics-and-surgical-outcomes-between-chin-on-ch",
       "title": "Comparison of characteristics and surgical outcomes between chin-on-chest deformity and dropped-head syndrome: a comprehensive systematic review and meta-analysis of severe cervical kyphosis ​",
       "titleNormalized": "comparison of characteristics and surgical outcomes between chin on chest deformity and dropped head syndrome a comprehensive systematic review and meta analysis of severe cervical kyphosis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -3658,9 +3659,9 @@
       "id": "comprehensive-characterization-of-injectable-platelet-rich-fibrin-i-pr",
       "title": "Comprehensive Characterization of Injectable Platelet-Rich Fibrin (i-PRF): Cellular, Biochemical, Architectural, Rheological, and Release-Kinetic Profiling of Ten Independent Preparations",
       "titleNormalized": "comprehensive characterization of injectable platelet rich fibrin i prf cellular biochemical architectural rheological and release kinetic profiling of ten independent preparations",
-      "bucket": "submissions",
-      "needsReview": false,
-      "reviewReason": null,
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Stem Cell Reviews and Reports — set the right one.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -3967,7 +3968,7 @@
       "id": "cross-talk-between-gut-microbiota-and-the-development-of-alzheimer-s-d",
       "title": "Cross-Talk Between Gut Microbiota and the Development of Alzheimer’s Disease",
       "titleNormalized": "cross talk between gut microbiota and the development of alzheimer s disease",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -4392,7 +4393,7 @@
       "id": "dickkopf-1-in-rheumatoid-arthritis-mechanistic-insights-imaging-associ",
       "title": "Dickkopf-1 in rheumatoid arthritis: Mechanistic insights, imaging associations, and emerging therapeutic strategies",
       "titleNormalized": "dickkopf 1 in rheumatoid arthritis mechanistic insights imaging associations and emerging therapeutic strategies",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -4618,7 +4619,7 @@
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",
       "title": "Does Anatomy Outweigh Biology in Cervical Spine Giant Cell Tumours? A Systematic Review and Meta-analysis",
       "titleNormalized": "does anatomy outweigh biology in cervical spine giant cell tumours a systematic review and meta analysis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": true,
       "needsActionReason": null,
       "actionFlag": false,
@@ -4808,19 +4809,6 @@
               }
             },
             {
-              "timestamp": "2026-08-24T03:04:53.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The manuscript was returned to the author after technical check, requesting specific amendments before it can proceed.",
-              "manuscriptNumber": "bf68a212-4125-42db-a6d4-5b15095d4a88 v1.0",
-              "source": {
-                "threadId": "1a0316a337773b7b",
-                "messageId": "1a031ba6b39bb2a2",
-                "subject": "Fwd: International Orthopaedics-Amendment required",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            },
-            {
               "timestamp": "2026-08-27T15:32:31.000Z",
               "eventType": "sent_back",
               "revisionRound": null,
@@ -4982,21 +4970,6 @@
             "messageId": "1a0316a337773b7b",
             "subject": "Re: International Orthopaedics-Amendment required",
             "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-24T03:04:53.000Z",
-          "journal": "International Orthopaedics",
-          "eventType": "sent_back",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "The manuscript was returned to the author after technical check, requesting specific amendments before it can proceed.",
-          "source": {
-            "threadId": "1a0316a337773b7b",
-            "messageId": "1a031ba6b39bb2a2",
-            "subject": "Fwd: International Orthopaedics-Amendment required",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
@@ -5347,7 +5320,7 @@
       "id": "does-obesity-reduce-the-value-of-spine-surgery-a-systematic-review-of-",
       "title": "Does obesity reduce the value of spine surgery? A systematic review of cost-effectiveness across surgical approaches",
       "titleNormalized": "does obesity reduce the value of spine surgery a systematic review of cost effectiveness across surgical approaches",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -5704,7 +5677,7 @@
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",
       "title": "Engineered Exosomes and Small Extracellular Vesicles (sEVs) for Knee Osteoarthritis​",
       "titleNormalized": "engineered exosomes and small extracellular vesicles sevs for knee osteoarthritis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -6214,7 +6187,7 @@
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
       "title": "Evaluating the efficacy of intra-articular bone marrow aspirate concentrate injection vs steroid injections in knee osteoarthritis: A randomized controlled trial",
       "titleNormalized": "evaluating the efficacy of intra articular bone marrow aspirate concentrate injection vs steroid injections in knee osteoarthritis a randomized controlled trial",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -6527,7 +6500,7 @@
       "id": "extended-antibiotic-prophylaxis-in-primary-total-knee-arthroplasty-a-n",
       "title": "Extended antibiotic prophylaxis in primary total knee arthroplasty: A narrative review of current evidence and controversies",
       "titleNormalized": "extended antibiotic prophylaxis in primary total knee arthroplasty a narrative review of current evidence and controversies",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -6816,7 +6789,7 @@
       "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
       "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
       "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -6853,19 +6826,6 @@
                 "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-0787",
                 "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
               }
-            },
-            {
-              "timestamp": "2026-09-01T03:52:32.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "The manuscript was rejected without external peer review.",
-              "manuscriptNumber": "ASJ-2026-0787",
-              "source": {
-                "threadId": "1a05b13b9c60dc6b",
-                "messageId": "1a05b18e86f41700",
-                "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
             }
           ]
         },
@@ -6889,19 +6849,6 @@
                 "messageId": "1a06467994de87f2",
                 "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
                 "from": "Indian Spine Journal <editor@isjonline.com>"
-              }
-            },
-            {
-              "timestamp": "2026-09-03T07:50:00.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The journal returned the manuscript for technical modifications, requesting changes within 7 days.",
-              "manuscriptNumber": "isj_133_26",
-              "source": {
-                "threadId": "1a066265a5be4cab",
-                "messageId": "1a0663f06bbc9b4d",
-                "subject": "Fwd: isj Article not as per instructions: isj_133_26",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
             },
             {
@@ -6939,23 +6886,6 @@
           "needsReview": false
         },
         {
-          "timestamp": "2026-09-01T03:52:32.000Z",
-          "journal": "Asian Spine Journal",
-          "eventType": "rejected",
-          "manuscriptNumber": "ASJ-2026-0787",
-          "label": "Rejected",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was rejected without external peer review.",
-          "source": {
-            "threadId": "1a05b13b9c60dc6b",
-            "messageId": "1a05b18e86f41700",
-            "subject": "Fwd: Asian Spine Journal - Decision on Manuscript ID ASJ-2026-0787",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
           "timestamp": "2026-09-02T23:15:05.000Z",
           "journal": "Indian Spine Journal",
           "eventType": "new_submission",
@@ -6969,27 +6899,6 @@
             "messageId": "1a06467994de87f2",
             "subject": "isj Author New Submission Acknowledgement letter: isj_133_26",
             "from": "Indian Spine Journal <editor@isjonline.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-03T07:50:00.000Z",
-          "journal": "Indian Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "isj_133_26",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-10T18:29:59.999Z",
-            "source": "stated",
-            "basis": "7 days from the email"
-          },
-          "note": "The journal returned the manuscript for technical modifications, requesting changes within 7 days.",
-          "source": {
-            "threadId": "1a066265a5be4cab",
-            "messageId": "1a0663f06bbc9b4d",
-            "subject": "Fwd: isj Article not as per instructions: isj_133_26",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
@@ -7018,7 +6927,7 @@
       "id": "ferroptosis-in-osteoarthritis-a-novel-mechanism-of-chondrocyte-death",
       "title": "Ferroptosis in Osteoarthritis: A Novel Mechanism of Chondrocyte Death",
       "titleNormalized": "ferroptosis in osteoarthritis a novel mechanism of chondrocyte death",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -7085,7 +6994,7 @@
       "id": "filgotinib-jyseleca-in-orthopaedic-rheumatological-conditions-a-narrat",
       "title": "Filgotinib (Jyseleca) in Orthopaedic Rheumatological Conditions: A Narrative Review of Efficacy, Selectivity, and Long-Term Safety",
       "titleNormalized": "filgotinib jyseleca in orthopaedic rheumatological conditions a narrative review of efficacy selectivity and long term safety",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -7385,8 +7294,8 @@
       "id": "financial-implications-of-platelet-rich-plasma-therapy-in-musculoskele",
       "title": "Financial Implications of Platelet-Rich Plasma Therapy in Musculoskeletal Disorders: A Cross-Sectional Analysis",
       "titleNormalized": "financial implications of platelet rich plasma therapy in musculoskeletal disorders a cross sectional analysis",
-      "bucket": "submissions",
-      "needsReview": false,
+      "bucket": "in_review",
+      "needsReview": true,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -7555,13 +7464,14 @@
         }
       ],
       "createdAt": "2026-08-17T12:23:01.000Z",
-      "updatedAt": "2026-08-28T11:30:28.000Z"
+      "updatedAt": "2026-08-28T11:30:28.000Z",
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Frontiers in Public Health, Indian Journal of Orthopaedics — set the right one."
     },
     {
       "id": "fragility-fracture-risk-prediction-using-quantitative-magnetic-resonan",
       "title": "Fragility fracture risk prediction using quantitative magnetic resonance and Vertebral Bone Quality scoring beyond density",
       "titleNormalized": "fragility fracture risk prediction using quantitative magnetic resonance and vertebral bone quality scoring beyond density",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -7656,7 +7566,7 @@
       "id": "future-perspectives-on-mesenchymal-stromal-cell-derived-secretomes-in-",
       "title": "Future perspectives on mesenchymal stromal cell-derived secretomes in knee osteoarthritis",
       "titleNormalized": "future perspectives on mesenchymal stromal cell derived secretomes in knee osteoarthritis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -7721,7 +7631,7 @@
       "id": "genipin-crosslinked-gelatin-pva-hydrogels-loaded-with-hydroxytyrosol-f",
       "title": "Genipin-Crosslinked Gelatin/PVA Hydrogels Loaded with Hydroxytyrosol for Cartilage Tissue Engineering: Fabrication, Characterization, and Chondrocyte Biocompatibility",
       "titleNormalized": "genipin crosslinked gelatin pva hydrogels loaded with hydroxytyrosol for cartilage tissue engineering fabrication characterization and chondrocyte biocompatibility",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -7787,8 +7697,8 @@
       "title": "Gut Microbiome & Regenerative Medicine",
       "titleNormalized": "gut microbiome and regenerative medicine",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. No journal is recorded for it (a book chapter has none) — set it, or leave it.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -7939,7 +7849,7 @@
       "id": "higher-risk-comparable-recovery-the-impact-of-obesity-on-outcomes-afte",
       "title": "Higher Risk, Comparable Recovery: The Impact of Obesity on Outcomes after Lumbar Spine Surgery – A Systematic Review and Meta-Analysis",
       "titleNormalized": "higher risk comparable recovery the impact of obesity on outcomes after lumbar spine surgery a systematic review and meta analysis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -8374,7 +8284,7 @@
       "id": "how-often-does-pelvic-fixation-fail-after-adult-spinal-deformity-surge",
       "title": "How Often Does Pelvic Fixation Fail After Adult Spinal Deformity Surgery? A Systematic Review and Proportional Meta-Analysis",
       "titleNormalized": "how often does pelvic fixation fail after adult spinal deformity surgery a systematic review and proportional meta analysis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -8587,19 +8497,6 @@
               }
             },
             {
-              "timestamp": "2026-08-18T03:15:28.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The manuscript was returned to the author for technical corrections before it can be sent for review.",
-              "manuscriptNumber": "GSJ-26-1643",
-              "source": {
-                "threadId": "1a012dde9b1e2d46",
-                "messageId": "1a012dde9b1e2d46",
-                "subject": "Fwd: Global Spine Journal - GSJ-26-1643 has been unsubmitted",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            },
-            {
               "timestamp": "2026-08-20T01:32:29.000Z",
               "eventType": "new_submission",
               "revisionRound": null,
@@ -8625,19 +8522,6 @@
                 "subject": "Global Spine Journal - GSJ-26-1643 has been unsubmitted",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
-              }
-            },
-            {
-              "timestamp": "2026-08-21T00:57:34.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The manuscript was unsubmitted and returned to the author for technical corrections.",
-              "manuscriptNumber": "GSJ-26-1643",
-              "source": {
-                "threadId": "1a021d2bd2f50a14",
-                "messageId": "1a021d2bd2f50a14",
-                "subject": "Fwd: Global Spine Journal - GSJ-26-1643 has been unsubmitted",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
             },
             {
@@ -8705,27 +8589,6 @@
           "needsReview": false
         },
         {
-          "timestamp": "2026-08-18T03:15:28.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "GSJ-26-1643",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-01T18:29:59.999Z",
-            "source": "assumed",
-            "basis": "14 days — this journal's usual window, not stated in the email"
-          },
-          "note": "The manuscript was returned to the author for technical corrections before it can be sent for review.",
-          "source": {
-            "threadId": "1a012dde9b1e2d46",
-            "messageId": "1a012dde9b1e2d46",
-            "subject": "Fwd: Global Spine Journal - GSJ-26-1643 has been unsubmitted",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
           "timestamp": "2026-08-20T01:32:29.000Z",
           "journal": "Global Spine Journal",
           "eventType": "new_submission",
@@ -8754,27 +8617,6 @@
             "subject": "Global Spine Journal - GSJ-26-1643 has been unsubmitted",
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
             "via": "offline-import"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-21T00:57:34.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "GSJ-26-1643",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-09-04T18:29:59.999Z",
-            "source": "assumed",
-            "basis": "14 days — this journal's usual window, not stated in the email"
-          },
-          "note": "The manuscript was unsubmitted and returned to the author for technical corrections.",
-          "source": {
-            "threadId": "1a021d2bd2f50a14",
-            "messageId": "1a021d2bd2f50a14",
-            "subject": "Fwd: Global Spine Journal - GSJ-26-1643 has been unsubmitted",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
@@ -8821,7 +8663,7 @@
       "id": "hydrotherapy-in-musculoskeletal-care-current-insights-and-review",
       "title": "Hydrotherapy in Musculoskeletal Care: Current Insights and Review",
       "titleNormalized": "hydrotherapy in musculoskeletal care current insights and review",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -9219,8 +9061,8 @@
       "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
       "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
       "titleNormalized": "identification of therapeutic targets and gene expression profiling to unravel the underlying mechanisms and their comprehensive role in intervertebral disc degeneration",
-      "bucket": "submissions",
-      "needsReview": false,
+      "bucket": "in_review",
+      "needsReview": true,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -9728,13 +9570,14 @@
       "createdAt": "2026-07-14T15:04:57.000Z",
       "updatedAt": "2026-09-16T07:50:37.000Z",
       "deadline": null,
-      "deadlineSource": null
+      "deadlineSource": null,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
     },
     {
       "id": "il-6-and-tnf-in-osteoimmunology-aging-and-anti-cytokine-therapies",
       "title": "IL-6 and TNF-α in Osteoimmunology: Aging, and anti-cytokine therapies",
       "titleNormalized": "il 6 and tnf in osteoimmunology aging and anti cytokine therapies",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -10082,7 +9925,7 @@
       "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
       "title": "Industry funding and outcome reporting in single-level cervical disc arthroplasty versus anterior cervical discectomy and fusion: a systematic review and meta-analysis of randomized controlled trials with funding- and device-stratified analyses",
       "titleNormalized": "industry funding and outcome reporting in single level cervical disc arthroplasty versus anterior cervical discectomy and fusion a systematic review and meta analysis of randomized controlled trials with funding and device stratified analyses",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
@@ -10282,7 +10125,7 @@
       "id": "infrared-thermography-as-adjunctive-imaging-in-spine-surgery-evaluatin",
       "title": "Infrared thermography as adjunctive imaging in spine surgery: Evaluating thermal asymmetry for predicting symptomatic level and recovery",
       "titleNormalized": "infrared thermography as adjunctive imaging in spine surgery evaluating thermal asymmetry for predicting symptomatic level and recovery",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -10637,7 +10480,7 @@
       "id": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
       "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
       "titleNormalized": "is morbid obesity a risk factor or simply a surgical challenge a systematic review and meta analysis of spine surgery outcomes",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
@@ -11147,7 +10990,7 @@
       "deadline": "2026-09-29T18:29:59.999Z",
       "deadlineSource": "stated",
       "overrides": {
-        "bucket": "submissions",
+        "bucket": "in_review",
         "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
         "currentStatus": "Revision submitted — Editor changes approved"
       },
@@ -11190,14 +11033,14 @@
       "id": "is-motion-preservation-with-three-level-hybrid-cervical-surgery-achiev",
       "title": "Is motion preservation with three-level hybrid cervical surgery achieved without compromising clinical outcomes? A systematic review and meta-analysis",
       "titleNormalized": "is motion preservation with three level hybrid cervical surgery achieved without compromising clinical outcomes a systematic review and meta analysis",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Archives of Orthopaedic and Trauma Surgery",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Rejected",
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-25-2098.R3",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -11714,7 +11557,7 @@
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-anterior-cervical-di",
       "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Anterior Cervical Discectomy and Fusion?",
       "titleNormalized": "is three level hybrid cervical surgery as safe as anterior cervical discectomy and fusion",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": true,
       "needsActionReason": null,
       "actionFlag": false,
@@ -11779,14 +11622,14 @@
       "id": "is-three-level-hybrid-cervical-surgery-as-safe-as-three-level-acdf-a-s",
       "title": "Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
       "titleNormalized": "is three level hybrid cervical surgery as safe as three level acdf a systematic review and meta analysis",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Archives of Orthopaedic and Trauma Surgery",
-      "currentManuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876",
-      "currentStatus": "Rejected",
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00306",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -11953,32 +11796,6 @@
                 "messageId": "1a04c88752853317",
                 "subject": "Re: Archives of Orthopaedic and Trauma Surgery-Amendment required",
                 "from": "Springer Nature Submissions <vinothkumar.raji@springernature.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-29T08:38:22.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The manuscript was returned to the author after technical check to remove funding info for blinding, with updates requested within 2 days.",
-              "manuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876 v1.0",
-              "source": {
-                "threadId": "1a04c88752853317",
-                "messageId": "1a04cab81afa4b3f",
-                "subject": "Fwd: Archives of Orthopaedic and Trauma Surgery-Amendment required",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-29T08:38:22.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Technical check returned the manuscript to the author for amendments, with a 2‑day deadline to submit revisions.",
-              "manuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876 v1.0",
-              "source": {
-                "threadId": "1a04cac2239983e9",
-                "messageId": "1a04cac2239983e9",
-                "subject": "Fwd: Archives of Orthopaedic and Trauma Surgery-Amendment required",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
             },
             {
@@ -12151,48 +11968,6 @@
           "needsReview": false
         },
         {
-          "timestamp": "2026-08-29T08:38:22.000Z",
-          "journal": "Archives of Orthopaedic and Trauma Surgery",
-          "eventType": "sent_back",
-          "manuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876 v1.0",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-08-31T18:29:59.999Z",
-            "source": "stated",
-            "basis": "2 days from the email"
-          },
-          "note": "The manuscript was returned to the author after technical check to remove funding info for blinding, with updates requested within 2 days.",
-          "source": {
-            "threadId": "1a04c88752853317",
-            "messageId": "1a04cab81afa4b3f",
-            "subject": "Fwd: Archives of Orthopaedic and Trauma Surgery-Amendment required",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-29T08:38:22.000Z",
-          "journal": "Archives of Orthopaedic and Trauma Surgery",
-          "eventType": "sent_back",
-          "manuscriptNumber": "80eb4dbb-0b91-4884-8209-101fb9547876 v1.0",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-08-31T18:29:59.999Z",
-            "source": "stated",
-            "basis": "2 days from the email"
-          },
-          "note": "Technical check returned the manuscript to the author for amendments, with a 2‑day deadline to submit revisions.",
-          "source": {
-            "threadId": "1a04cac2239983e9",
-            "messageId": "1a04cac2239983e9",
-            "subject": "Fwd: Archives of Orthopaedic and Trauma Surgery-Amendment required",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
           "timestamp": "2026-08-29T16:13:02.000Z",
           "journal": "Springer Nature",
           "eventType": "new_submission",
@@ -12270,7 +12045,7 @@
       "id": "letter-to-the-editor-intradiscal-platelet-rich-plasma-for-discogenic-l",
       "title": "Letter to the Editor: Intradiscal platelet-rich plasma for discogenic low back pain - promise or premature adoption?",
       "titleNormalized": "letter to the editor intradiscal platelet rich plasma for discogenic low back pain promise or premature adoption",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -12335,7 +12110,7 @@
       "id": "leukocyte-poor-versus-leukocyte-rich-platelet-rich-plasma-for-discogen",
       "title": "Leukocyte-Poor versus Leukocyte-Rich Platelet-Rich Plasma for Discogenic Lumbar Disc Disease: A unicentric, double-blinded, randomized controlled trial",
       "titleNormalized": "leukocyte poor versus leukocyte rich platelet rich plasma for discogenic lumbar disc disease a unicentric double blinded randomized controlled trial",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -12400,7 +12175,7 @@
       "id": "management-and-prevention-of-iatrogenic-ipsilateral-femoral-neck-fract",
       "title": "Management and prevention of iatrogenic ipsilateral femoral neck fracture during intramedullary nailing of femoral shaft",
       "titleNormalized": "management and prevention of iatrogenic ipsilateral femoral neck fracture during intramedullary nailing of femoral shaft",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -12759,7 +12534,7 @@
       "id": "management-strategies-for-adhesive-capsulitis-an-umbrella-review-of-sy",
       "title": "Management Strategies for Adhesive Capsulitis: An Umbrella Review of Systematic Reviews and Meta-Analyses",
       "titleNormalized": "management strategies for adhesive capsulitis an umbrella review of systematic reviews and meta analyses",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -12824,7 +12599,7 @@
       "id": "mapping-sclerostin-inhibition-in-bone-formation-insights-from-romosozu",
       "title": "Mapping Sclerostin Inhibition in Bone Formation: Insights from Romosozumab",
       "titleNormalized": "mapping sclerostin inhibition in bone formation insights from romosozumab",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -13111,7 +12886,7 @@
       "id": "microbial-and-immunological-signatures-in-synovial-fluid-next-generati",
       "title": "Microbial and Immunological Signatures in Synovial Fluid: Next-Generation Sequencing Perspectives in Osteoarthritis",
       "titleNormalized": "microbial and immunological signatures in synovial fluid next generation sequencing perspectives in osteoarthritis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
@@ -13179,7 +12954,7 @@
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
       "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
       "titleNormalized": "minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden a systematic review and meta analysis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -13303,32 +13078,6 @@
                 "subject": "Re: European Spine Journal-Amendment required",
                 "from": "Springer Nature Submissions <kavinaya.palraj@springernature.com>"
               }
-            },
-            {
-              "timestamp": "2026-08-27T05:47:32.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The manuscript was returned during technical check to remove author details and statements for blinded review.",
-              "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
-              "source": {
-                "threadId": "1a041a8003415e9a",
-                "messageId": "1a041c26846919fb",
-                "subject": "Fwd: European Spine Journal-Amendment required",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-27T05:47:32.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The manuscript was returned after technical check, asking the author to make amendments before it can proceed further.",
-              "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
-              "source": {
-                "threadId": "1a041c2ce5a6c014",
-                "messageId": "1a041c2ce5a6c014",
-                "subject": "Fwd: European Spine Journal-Amendment required",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
             }
           ]
         },
@@ -13340,21 +13089,7 @@
           "status": "rejected",
           "doi": null,
           "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-09-03T05:38:50.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "The manuscript was rejected after peer review.",
-              "manuscriptNumber": "GSJ-26-1521",
-              "source": {
-                "threadId": "1a01b5ed88ebb6a0",
-                "messageId": "1a065c6ecbc70c13",
-                "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            }
-          ]
+          "statusHistory": []
         },
         {
           "journal": "Journal of Minimally Invasive Spine Surgery & Technique",
@@ -13460,38 +13195,6 @@
           "needsReview": false
         },
         {
-          "timestamp": "2026-08-27T05:47:32.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "The manuscript was returned during technical check to remove author details and statements for blinded review.",
-          "source": {
-            "threadId": "1a041a8003415e9a",
-            "messageId": "1a041c26846919fb",
-            "subject": "Fwd: European Spine Journal-Amendment required",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-27T05:47:32.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "note": "The manuscript was returned after technical check, asking the author to make amendments before it can proceed further.",
-          "source": {
-            "threadId": "1a041c2ce5a6c014",
-            "messageId": "1a041c2ce5a6c014",
-            "subject": "Fwd: European Spine Journal-Amendment required",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
           "timestamp": "2026-08-29T16:27:11.000Z",
           "journal": "Springer Nature",
           "eventType": "new_submission",
@@ -13505,23 +13208,6 @@
             "messageId": "1a04e58b6b41da7c",
             "subject": "Track the status of your manuscript",
             "from": "Springer Nature <do-not-reply@springernature.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-09-03T05:38:50.000Z",
-          "journal": "Global Spine Journal",
-          "eventType": "rejected",
-          "manuscriptNumber": "GSJ-26-1521",
-          "label": "Rejected",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was rejected after peer review.",
-          "source": {
-            "threadId": "1a01b5ed88ebb6a0",
-            "messageId": "1a065c6ecbc70c13",
-            "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
@@ -13552,7 +13238,7 @@
       "id": "mir-26a-as-a-stage-dependent-biomarker-and-therapeutic-regulator-of-in",
       "title": "MiR 26a as a stage-dependent biomarker and therapeutic regulator of inflammation in knee osteoarthritis",
       "titleNormalized": "mir 26a as a stage dependent biomarker and therapeutic regulator of inflammation in knee osteoarthritis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -13767,14 +13453,14 @@
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
       "title": "Naive baselines outperform Bayesian age-period-cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
       "titleNormalized": "naive baselines outperform bayesian age period cohort forecasts of global burden of disease estimates an out of sample evaluation of low back pain in india",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Journal of Clinical Epidemiology",
-      "currentManuscriptNumber": "JCEPI-D-26-01503",
-      "currentStatus": "Rejected",
+      "currentJournal": "Annals of Epidemiology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -14213,7 +13899,7 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -14296,19 +13982,6 @@
               "source": {
                 "messageId": "jbjs-EMID-55662412f18854ee",
                 "account": "drsathishmuthu@gmail.com"
-              }
-            },
-            {
-              "timestamp": "2026-08-13T00:34:59.000Z",
-              "eventType": "sent_back",
-              "revisionRound": 1,
-              "note": "The revised manuscript was returned to the author for formatting corrections prior to editorial evaluation.",
-              "manuscriptNumber": "JBJSOA-D-26-00213R1",
-              "source": {
-                "threadId": "19ff88b2f820d6de",
-                "messageId": "19ff88b2f820d6de",
-                "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R1) - [EMID:55662412f18854ee]",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
             },
             {
@@ -14422,19 +14095,6 @@
                 "messageId": "1a02e303118796db",
                 "subject": "isj Manuscript for revision: isj_110_26",
                 "from": "Indian Spine Journal <editor@isjonline.com>"
-              }
-            },
-            {
-              "timestamp": "2026-08-23T16:19:37.000Z",
-              "eventType": "revision_requested",
-              "revisionRound": null,
-              "note": "The Indian Spine Journal requested a revised manuscript within four weeks addressing the referees' comments.",
-              "manuscriptNumber": "isj_110_26",
-              "source": {
-                "threadId": "1a02e303118796db",
-                "messageId": "1a02f6b9465f1107",
-                "subject": "Fwd: isj Manuscript for revision: isj_110_26",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
               }
             },
             {
@@ -14557,27 +14217,6 @@
           "needsReview": false
         },
         {
-          "timestamp": "2026-08-13T00:34:59.000Z",
-          "journal": "JBJS Open Access",
-          "eventType": "sent_back",
-          "manuscriptNumber": "JBJSOA-D-26-00213R1",
-          "label": "Sent back for edits",
-          "revisionRound": 1,
-          "deadline": {
-            "due": "2026-08-20T18:29:59.999Z",
-            "source": "stated",
-            "basis": "7 days from the email"
-          },
-          "note": "The revised manuscript was returned to the author for formatting corrections prior to editorial evaluation.",
-          "source": {
-            "threadId": "19ff88b2f820d6de",
-            "messageId": "19ff88b2f820d6de",
-            "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R1) - [EMID:55662412f18854ee]",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
-        },
-        {
           "timestamp": "2026-08-23T10:35:04.000Z",
           "journal": "Indian Spine Journal",
           "eventType": "revision_requested",
@@ -14589,21 +14228,6 @@
             "messageId": "1a02e303118796db",
             "subject": "isj Manuscript for revision: isj_110_26",
             "from": "Indian Spine Journal <editor@isjonline.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-23T16:19:37.000Z",
-          "journal": "Indian Spine Journal",
-          "eventType": "revision_requested",
-          "label": "Revision requested",
-          "revisionRound": null,
-          "note": "The Indian Spine Journal requested a revised manuscript within four weeks addressing the referees' comments.",
-          "source": {
-            "threadId": "1a02e303118796db",
-            "messageId": "1a02f6b9465f1107",
-            "subject": "Fwd: isj Manuscript for revision: isj_110_26",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
@@ -14729,7 +14353,7 @@
       "id": "no-116723-to-the-world-journal-of-orthopedics-i-am-pleased-to-inform-y",
       "title": "(NO.: 119301) to the World Journal of Orthopedics . I am pleased to inform you that I have added an additional comment regarding your manuscript. The comment is as follows: Dear Dr. [Jeyaraman], Your manuscript",
       "titleNormalized": "no 119301 to the world journal of orthopedics i am pleased to inform you that i have added an additional comment regarding your manuscript the comment is as follows dear dr jeyaraman your manuscript",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -14971,9 +14595,9 @@
       "id": "obstructive-sleep-apnea-and-spine-surgery-implications-for-spinal-path",
       "title": "Obstructive Sleep Apnea and Spine Surgery: Implications for Spinal Pathology and Perioperative Outcomes — A Systematic Review and Meta-analysis",
       "titleNormalized": "obstructive sleep apnea and spine surgery implications for spinal pathology and perioperative outcomes a systematic review and meta analysis",
-      "bucket": "submissions",
-      "needsReview": false,
-      "reviewReason": null,
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: European Spine Journal — set the right one.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -14996,21 +14620,7 @@
           "status": "sent_back",
           "doi": null,
           "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-14T07:22:26.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The manuscript was returned after technical check, requesting the author to make amendments within 2 days before resubmission.",
-              "manuscriptNumber": "3ae32099-d266-42b9-9aa1-e212e417785b v1.0",
-              "source": {
-                "threadId": "19fff2693d506215",
-                "messageId": "19fff2693d506215",
-                "subject": "Fwd: European Spine Journal-Amendment required",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            }
-          ]
+          "statusHistory": []
         },
         {
           "journal": "Springer Nature",
@@ -15065,27 +14675,6 @@
             "messageId": "19ffaefa148d029b",
             "subject": "Track the status of your manuscript",
             "from": "Springer Nature <do-not-reply@springernature.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-14T07:22:26.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "3ae32099-d266-42b9-9aa1-e212e417785b v1.0",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-08-16T18:29:59.999Z",
-            "source": "stated",
-            "basis": "2 days from the email"
-          },
-          "note": "The manuscript was returned after technical check, requesting the author to make amendments within 2 days before resubmission.",
-          "source": {
-            "threadId": "19fff2693d506215",
-            "messageId": "19fff2693d506215",
-            "subject": "Fwd: European Spine Journal-Amendment required",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
@@ -15220,14 +14809,14 @@
       "id": "orthopaedics-at-the-frontier-of-industry-6-0-a-comprehensive-review",
       "title": "Orthopaedics at the Frontier of Industry 6.0: A Comprehensive Review",
       "titleNormalized": "orthopaedics at the frontier of industry 6 0 a comprehensive review",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Journal of Orthopaedic Surgery and Research",
-      "currentManuscriptNumber": "0fb985ec-20aa-49f6-b538-575fe6c82b01",
-      "currentStatus": "Rejected",
+      "currentJournal": "Indian Journal of Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -15858,7 +15447,7 @@
       "id": "osteoprotegerin-and-rankl-as-biomarkers-predicting-bone-resorption-rel",
       "title": "Osteoprotegerin and RANKL as Biomarkers Predicting Bone Resorption-Related Disorders",
       "titleNormalized": "osteoprotegerin and rankl as biomarkers predicting bone resorption related disorders",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -15923,7 +15512,7 @@
       "id": "osteoprotegerin-and-receptor-activator-of-nf-kappab-ligand-as-biomarke",
       "title": "Osteoprotegerin and receptor activator of NF-kappaB ligand as biomarkers predicting bone resorption-related disorders",
       "titleNormalized": "osteoprotegerin and receptor activator of nf kappab ligand as biomarkers predicting bone resorption related disorders",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -16048,7 +15637,7 @@
       "id": "perioperative-bleeding-risk-associated-with-ssris-in-spinal-surgery-a-",
       "title": "Perioperative Bleeding Risk Associated with selective serotonin reuptake inhibitors (SSRIs) in Spinal Surgery: A Narrative Review",
       "titleNormalized": "perioperative bleeding risk associated with selective serotonin reuptake inhibitors ssris in spinal surgery a narrative review",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -16143,7 +15732,7 @@
       "id": "personalizing-regenerative-medicine-for-knee-osteoarthritis-the-artifi",
       "title": "Personalizing Regenerative Medicine for Knee Osteoarthritis: The Artificial intelligence Revolution",
       "titleNormalized": "personalizing regenerative medicine for knee osteoarthritis the artificial intelligence revolution",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -16208,7 +15797,7 @@
       "id": "platelet-rich-plasma-injections-in-musculoskeletal-medicine-procedural",
       "title": "Platelet-rich plasma injections in musculoskeletal medicine: procedural recommendations from a modified Delphi study",
       "titleNormalized": "platelet rich plasma injections in musculoskeletal medicine procedural recommendations from a modified delphi study",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -16355,7 +15944,7 @@
       "id": "posterior-ankle-endoscopy-for-the-management-of-os-trigonum-and-flexor",
       "title": "Posterior Ankle Endoscopy for the Management of Os Trigonum and Flexor Hallucis Longus Tenosynovitis: A Scoping Review",
       "titleNormalized": "posterior ankle endoscopy for the management of os trigonum and flexor hallucis longus tenosynovitis a scoping review",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -16484,8 +16073,8 @@
       "title": "Preparation of Bone Marrow Aspirate Concentrate (BMAC): A Standardized Clinical Protocol for Wound Regeneration",
       "titleNormalized": "preparation of bone marrow aspirate concentrate bmac a standardized clinical protocol for wound regeneration",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. No journal is recorded for it (a book chapter has none) — set it, or leave it.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -16582,8 +16171,8 @@
       "title": "Preparation of Platelet-Derived Biologics for Wound Regeneration: A Standardized Point-of-Care Protocol",
       "titleNormalized": "preparation of platelet derived biologics for wound regeneration a standardized point of care protocol",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. No journal is recorded for it (a book chapter has none) — set it, or leave it.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -16680,8 +16269,8 @@
       "title": "Preparation of Platelet Lysate (PL): A Standardized Protocol for Clinical and Research Applications",
       "titleNormalized": "preparation of platelet lysate pl a standardized protocol for clinical and research applications",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. No journal is recorded for it (a book chapter has none) — set it, or leave it.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -16779,7 +16368,7 @@
       "titleNormalized": "preparation of stromal vascular fraction svf for wound regeneration a standardized clinical protocol",
       "bucket": "in_review",
       "needsReview": true,
-      "reviewReason": "Title closely resembles \"Preparation of Bone Marrow Aspirate Concentrate (BMAC): A Standardized Clinical Protocol for Wound Regeneration\" (0.82). Confirm these are different papers.",
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. No journal is recorded for it (a book chapter has none) — set it, or leave it.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -17376,7 +16965,7 @@
       "id": "sclerostin-inhibition-and-bone-anabolism-mapping-evidence-from-romosoz",
       "title": "Sclerostin Inhibition and Bone Anabolism: Mapping Evidence from Romosozumab",
       "titleNormalized": "sclerostin inhibition and bone anabolism mapping evidence from romosozumab",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -17625,19 +17214,6 @@
                 "messageId": "esj-ewing-amendment-2026-08-10",
                 "account": "drsathishmuthu@gmail.com"
               }
-            },
-            {
-              "timestamp": "2026-08-11T13:27:49.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "The manuscript was returned after technical check and the author is requested to make amendments and resubmit within 2 days.",
-              "manuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
-              "source": {
-                "threadId": "19feb144c2670b56",
-                "messageId": "19ff10204985e28d",
-                "subject": "Re: European Spine Journal-Amendment required",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
             }
           ]
         },
@@ -17828,31 +17404,10 @@
             "account": "drsathishmuthu@gmail.com"
           },
           "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-11T13:27:49.000Z",
-          "journal": "European Spine Journal",
-          "eventType": "sent_back",
-          "manuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": {
-            "due": "2026-08-13T18:29:59.999Z",
-            "source": "stated",
-            "basis": "2 days from the email"
-          },
-          "note": "The manuscript was returned after technical check and the author is requested to make amendments and resubmit within 2 days.",
-          "source": {
-            "threadId": "19feb144c2670b56",
-            "messageId": "19ff10204985e28d",
-            "subject": "Re: European Spine Journal-Amendment required",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-          },
-          "needsReview": false
         }
       ],
       "createdAt": "2026-04-15T21:54:00.000Z",
-      "updatedAt": "2026-08-11T13:27:49.000Z",
+      "updatedAt": "2026-08-10T06:54:00.000Z",
       "deadline": "2026-08-13T18:29:59.999Z",
       "deadlineSource": "stated",
       "overrides": {
@@ -17949,7 +17504,7 @@
       "id": "shoulder-imbalance-in-adolescent-idiopathic-scoliosis-where-are-we-now",
       "title": "Shoulder Imbalance in Adolescent Idiopathic Scoliosis: Where Are We Now? A Scoping Review of Current concepts and Future directions",
       "titleNormalized": "shoulder imbalance in adolescent idiopathic scoliosis where are we now a scoping review of current concepts and future directions",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -18016,7 +17571,7 @@
       "id": "spatial-multiomics-advances-in-osteoarthritis-from-molecular-landscape",
       "title": "Spatial Multiomics Advances in Osteoarthritis From Molecular Landscapes to Precision Medicine",
       "titleNormalized": "spatial multiomics advances in osteoarthritis from molecular landscapes to precision medicine",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -18122,7 +17677,7 @@
       "id": "study-on-the-efficacy-and-safety-of-treating-osteoporotic-vertebral-co",
       "title": "Study on the Efficacy and Safety of Treating Osteoporotic Vertebral Compression Fractures with Unilateral Pedicle Approach Vertebroplasty Based on Preoperative CT Design",
       "titleNormalized": "study on the efficacy and safety of treating osteoporotic vertebral compression fractures with unilateral pedicle approach vertebroplasty based on preoperative ct design",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -18187,7 +17742,7 @@
       "id": "submission-during-our-initial-checks-the-abstract",
       "title": "submission. During our initial checks, the abstract",
       "titleNormalized": "submission during our initial checks the abstract",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -18334,7 +17889,7 @@
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
       "title": "Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
       "titleNormalized": "substance use as a neglected mental health priority after spinal cord injury sci a systematic review and meta analysis of prevalence psychosocial burden and implications for integrated mental health services",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -18536,7 +18091,7 @@
       "id": "systematic-review-and-meta-analysis-on-vitamin-c-in-musculoskeletal-di",
       "title": "Systematic review and meta-analysis on vitamin C in musculoskeletal disorders",
       "titleNormalized": "systematic review and meta analysis on vitamin c in musculoskeletal disorders",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -18767,7 +18322,7 @@
       "id": "the-alarming-deficiency-of-high-quality-systematic-reviews-in-prp-augm",
       "title": "The Alarming Deficiency of High-Quality Systematic Reviews in PRP-Augmented Meniscal Repair: A systematic overview",
       "titleNormalized": "the alarming deficiency of high quality systematic reviews in prp augmented meniscal repair a systematic overview",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -18832,7 +18387,7 @@
       "id": "the-burden-of-fragility-and-fall-related-fractures-in-older-adults-in-",
       "title": "The burden of fragility and fall-related fractures in older adults in India and South Asia, 1990–2023: a subnational analysis from the Global Burden of Disease Study 2023 and the health-system gaps that must be closed",
       "titleNormalized": "the burden of fragility and fall related fractures in older adults in india and south asia 1990 2023 a subnational analysis from the global burden of disease study 2023 and the health system gaps that must be closed",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -18938,14 +18493,14 @@
       "id": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
       "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
       "titleNormalized": "the burden of knee osteoarthritis in older adults in india and south asia 1990 2023 a subnational analysis from the global burden of disease study 2023",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": "JOIO-D-26-01272",
-      "currentStatus": "Rejected",
+      "currentJournal": "Archives of Gerontology and Geriatrics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -19281,14 +18836,14 @@
       "id": "the-burden-of-mental-disorders-in-india-and-its-states-1990-2023-and-t",
       "title": "The burden of mental disorders in India and its states, 1990-2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
       "titleNormalized": "the burden of mental disorders in india and its states 1990 2023 and the mental health system response a subnational analysis from the global burden of disease study 2023",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Public Health",
-      "currentManuscriptNumber": "PUHE-D-26-03801",
-      "currentStatus": "Rejected",
+      "currentJournal": "Asian Journal of Psychiatry",
+      "currentManuscriptNumber": "ASJP-D-26-02873",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -19417,21 +18972,7 @@
           "status": "rejected",
           "doi": null,
           "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-08-16T16:09:44.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "The manuscript was rejected due to insufficient scientific significance.",
-              "manuscriptNumber": "ASJP-D-26-02873",
-              "source": {
-                "threadId": "1a00b560d9ad88f6",
-                "messageId": "1a00b560d9ad88f6",
-                "subject": "Fwd: Your Submission ASJP-D-26-02873",
-                "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
-              }
-            }
-          ]
+          "statusHistory": []
         },
         {
           "journal": "Public Health",
@@ -19576,23 +19117,6 @@
             "messageId": "1a00a71daf2ec102",
             "subject": "Confirm co-authorship of submission to Asian Journal of Psychiatry",
             "from": "Asian Journal of Psychiatry <em@editorialmanager.com>"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-16T16:09:44.000Z",
-          "journal": "Asian Journal of Psychiatry",
-          "eventType": "rejected",
-          "manuscriptNumber": "ASJP-D-26-02873",
-          "label": "Rejected",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "The manuscript was rejected due to insufficient scientific significance.",
-          "source": {
-            "threadId": "1a00b560d9ad88f6",
-            "messageId": "1a00b560d9ad88f6",
-            "subject": "Fwd: Your Submission ASJP-D-26-02873",
-            "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>"
           },
           "needsReview": false
         },
@@ -19938,7 +19462,7 @@
       "id": "the-statistical-fragility-of-trials-comparing-decompression-alone-to-d",
       "title": "The Statistical Fragility of Trials Comparing Decompression Alone to Decompression with Spinal Fusion in Lumbar Spondylolisthesis",
       "titleNormalized": "the statistical fragility of trials comparing decompression alone to decompression with spinal fusion in lumbar spondylolisthesis",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -20161,7 +19685,7 @@
       "id": "validity-and-reliability-of-the-miss-inc-l-invasiveness-classification",
       "title": "Validity and Reliability of the MISS-INC (L) Invasiveness Classification: A Multicentre Study of 426 Lumbar Procedures",
       "titleNormalized": "validity and reliability of the miss inc l invasiveness classification a multicentre study of 426 lumbar procedures",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
@@ -20260,7 +19784,7 @@
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
       "title": "When do Bayesian age-period-cohort forecasts of Global Burden of Disease estimates help, and when do they harm? An out-of-sample evaluation across four conditions and 31 Indian states",
       "titleNormalized": "when do bayesian age period cohort forecasts of global burden of disease estimates help and when do they harm an out of sample evaluation across four conditions and 31 indian states",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
@@ -20382,5 +19906,5 @@
       "updatedAt": "2026-08-17T10:52:38.000Z"
     }
   ],
-  "editedAt": "2026-09-16T17:28:51.872Z"
+  "editedAt": "2026-09-16T19:36:12.297Z"
 }

@@ -40,7 +40,7 @@ let registry = {
       id: "m-knees",
       title: "Origional Title As The Journal Typed It",
       titleNormalized: "origional title as the journal typed it",
-      bucket: "submissions",
+      bucket: "in_review",
       currentJournal: "Journal of Experimental Orthopaedics",
       currentStatus: "Submitted",
       currentManuscriptNumber: "JEO-1234",
@@ -516,7 +516,10 @@ await check("every section chip is labelled, and none of them says undefined", a
       icon: (n.querySelector(".bucket-icon")?.textContent || "").trim(),
     }))
   );
-  assert(chips.length === 5, `expected 5 section chips, got ${chips.length}`);
+  // Four, since submitted and under review became one section.
+  assert(chips.length === 4, `expected 4 section chips, got ${chips.length}`);
+  assert(!chips.some((c) => c.bucket === "submissions"),
+    "Submissions is still offered as a section to move a paper into");
   for (const c of chips) {
     assert(c.icon, `the ${c.bucket} chip has no icon`);
     assert(!/undefined|null/.test(c.text), `the ${c.bucket} chip reads "${c.text}"`);
@@ -607,7 +610,7 @@ await check("a paper nobody has heard about is marked silent", async (page) => {
   const snapshot = JSON.parse(JSON.stringify(registry));
   try {
     const old = registry.manuscripts.find((m) => m.id === "m-knees");
-    old.bucket = "submissions";
+    old.bucket = "in_review";
     old.updatedAt = new Date(Date.now() - 200 * 86400000).toISOString();
     await page.reload();
     await unlock(page);
@@ -728,6 +731,27 @@ await check("a rejection still counts as that journal's history", async (page) =
     const stage = (await page.textContent(".journal-paper .pill")).trim();
     assert(/rejected/i.test(stage),
       `the paper reads "${stage}" under the journal that rejected it, not its outcome there`);
+  } finally {
+    registry = snapshot;
+  }
+});
+
+await check("a section this build does not know does not blank the page", async (page) => {
+  // Merging "Submissions" away left BUCKET_META without that key, and reading
+  // it directly threw -- taking the whole card list with it. A browser holding
+  // yesterday's data file would have shown an empty dashboard rather than a
+  // card it could not label.
+  const snapshot = JSON.parse(JSON.stringify(registry));
+  try {
+    registry.manuscripts.find((m) => m.id === "m-knees").bucket = "submissions";
+    await page.reload();
+    await unlock(page);
+
+    const cards = await page.$$("#cards .card");
+    assert(cards.length === registry.manuscripts.length,
+      `${cards.length} of ${registry.manuscripts.length} cards rendered`);
+    const pill = await page.textContent('.card[data-id="m-knees"] .pill');
+    assert(pill.trim().length, "the card rendered with no section label at all");
   } finally {
     registry = snapshot;
   }
