@@ -1690,122 +1690,6 @@
       "updatedAt": "2026-08-23T18:34:27.000Z"
     },
     {
-      "id": "are-health-inequalities-between-india-s-states-narrowing-a-robustness-",
-      "title": "Are health inequalities between India's states narrowing? A robustness-tested analysis of ten conditions, 1990–2023",
-      "titleNormalized": "are health inequalities between india s states narrowing a robustness tested analysis of ten conditions 1990 2023",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "The International Journal of Health Planning and Management",
-      "currentManuscriptNumber": "6288522",
-      "currentStatus": "Rejected",
-      "deadline": null,
-      "deadlineSource": null,
-      "doi": null,
-      "publicationLink": null,
-      "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy",
-        "Sathish Muthu"
-      ],
-      "submissions": [
-        {
-          "journal": "The International Journal of Health Planning and Management",
-          "manuscriptNumber": "6288522",
-          "submittedDate": "2026-07-31T20:17:00.000Z",
-          "outcome": "rejected",
-          "status": "rejected",
-          "doi": null,
-          "publicationLink": null,
-          "statusHistory": [
-            {
-              "timestamp": "2026-07-31T06:17:00.000Z",
-              "eventType": "sent_back",
-              "revisionRound": null,
-              "note": "Returned to draft by the journal before review.",
-              "manuscriptNumber": "6288522",
-              "source": {
-                "messageId": "hpm-6288522-returned-to-draft",
-                "account": "dhibinvikash1@gmail.com"
-              }
-            },
-            {
-              "timestamp": "2026-07-31T20:17:00.000Z",
-              "eventType": "new_submission",
-              "revisionRound": null,
-              "note": "Submitted to The International Journal of Health Planning and Management.",
-              "manuscriptNumber": "6288522",
-              "source": {
-                "messageId": "hpm-6288522-submitted",
-                "account": "dhibinvikash1@gmail.com"
-              }
-            },
-            {
-              "timestamp": "2026-08-09T21:10:00.000Z",
-              "eventType": "rejected",
-              "revisionRound": null,
-              "note": "Rejected without review as outside the journal's scope. Wiley's Transfer Desk offered to suggest alternative journals; nothing has moved yet, so this needs resubmitting elsewhere.",
-              "manuscriptNumber": "6288522",
-              "source": {
-                "messageId": "hpm-6288522-decision",
-                "account": "drsathishmuthu@gmail.com"
-              }
-            }
-          ]
-        }
-      ],
-      "timeline": [
-        {
-          "timestamp": "2026-07-31T06:17:00.000Z",
-          "journal": "The International Journal of Health Planning and Management",
-          "eventType": "sent_back",
-          "manuscriptNumber": "6288522",
-          "label": "Sent back for edits",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Returned to draft by the journal before review.",
-          "source": {
-            "messageId": "hpm-6288522-returned-to-draft",
-            "account": "dhibinvikash1@gmail.com"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-07-31T20:17:00.000Z",
-          "journal": "The International Journal of Health Planning and Management",
-          "eventType": "new_submission",
-          "manuscriptNumber": "6288522",
-          "label": "Submitted",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Submitted to The International Journal of Health Planning and Management.",
-          "source": {
-            "messageId": "hpm-6288522-submitted",
-            "account": "dhibinvikash1@gmail.com"
-          },
-          "needsReview": false
-        },
-        {
-          "timestamp": "2026-08-09T21:10:00.000Z",
-          "journal": "The International Journal of Health Planning and Management",
-          "eventType": "rejected",
-          "manuscriptNumber": "6288522",
-          "label": "Rejected",
-          "revisionRound": null,
-          "deadline": null,
-          "note": "Rejected without review as outside the journal's scope. Wiley's Transfer Desk offered to suggest alternative journals; nothing has moved yet, so this needs resubmitting elsewhere.",
-          "source": {
-            "messageId": "hpm-6288522-decision",
-            "account": "drsathishmuthu@gmail.com"
-          },
-          "needsReview": false
-        }
-      ],
-      "createdAt": "2026-07-31T20:17:00.000Z",
-      "updatedAt": "2026-08-09T21:10:00.000Z"
-    },
-    {
       "id": "autologous-peripheral-blood-derived-orthobiologics-apbos-in-regenerati",
       "title": "Autologous Peripheral Blood-Derived Orthobiologics (APBOs) in Regenerative Orthopaedics: Biology, Isolation Techniques, Clinical Evidence, Comparative Analysis, and Rehabilitation Principles",
       "titleNormalized": "autologous peripheral blood derived orthobiologics apbos in regenerative orthopaedics biology isolation techniques clinical evidence comparative analysis and rehabilitation principles",
@@ -20439,5 +20323,5 @@
       "updatedAt": "2026-08-17T10:52:38.000Z"
     }
   ],
-  "editedAt": "2026-09-13T18:31:46.011Z"
+  "editedAt": "2026-09-16T17:25:34.982Z"
 }
