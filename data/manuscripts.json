@@ -17448,7 +17448,7 @@
       "actionLabel": "Amendments requested",
       "currentJournal": "European Spine Journal",
       "currentManuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
-      "currentStatus": "Sent back for edits",
+      "currentStatus": "In review",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -17860,7 +17860,7 @@
         "notes": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so.",
         "title": "Should spinal Ewing's sarcoma be managed differently from extremity disease? A systematic review of outcomes and treatment limitations",
         "currentJournal": "European Spine Journal",
-        "currentStatus": "Sent back for edits",
+        "currentStatus": "In review",
         "currentManuscriptNumber": "d7502467-a75c-4806-a902-d26f1701ff67 v2.0",
         "deadline": "2026-08-13T18:29:59.999Z"
       },
@@ -17917,10 +17917,21 @@
               "to": "2026-08-13T18:29:59.999Z"
             }
           ]
+        },
+        {
+          "at": "2026-09-16T17:28:33.003Z",
+          "by": "dashboard",
+          "changes": [
+            {
+              "field": "currentStatus",
+              "from": "Sent back for edits",
+              "to": "In review"
+            }
+          ]
         }
       ],
       "notes": "Amendment completed 11 Aug 2026 — Sathish removed all author details and uploaded the revised files through the Springer portal, confirmed by email. The journal has not acknowledged receipt, so there is no email in the trail saying so.",
-      "editedAt": "2026-09-16T17:27:21.711Z",
+      "editedAt": "2026-09-16T17:28:33.003Z",
       "titleAliases": []
     },
     {
@@ -20360,5 +20371,5 @@
       "updatedAt": "2026-08-17T10:52:38.000Z"
     }
   ],
-  "editedAt": "2026-09-16T17:27:21.711Z"
+  "editedAt": "2026-09-16T17:28:33.003Z"
 }
