@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T06:16:13.018Z",
+  "generatedAt": "2026-09-16T11:47:13.957Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9335,14 +9335,14 @@
       "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
       "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
       "titleNormalized": "identification of therapeutic targets and gene expression profiling to unravel the underlying mechanisms and their comprehensive role in intervertebral disc degeneration",
-      "bucket": "needs_action",
+      "bucket": "submissions",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Stem Cell Reviews and Reports",
-      "currentManuscriptNumber": "8e0d8ea5-5f2c-4928-9139-3f47ff062b25",
-      "currentStatus": "Rejected",
+      "currentJournal": "Springer Nature",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -9603,6 +9603,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-16T07:50:37.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-16T07:50:37.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0a93240993b18b",
+                "messageId": "1a0a93240993b18b",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -9798,10 +9822,27 @@
             "from": "Stem Cell Reviews and Reports <eloisa.magnaye@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-16T07:50:37.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a0a93240993b18b",
+            "messageId": "1a0a93240993b18b",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-08-31T19:04:25.000Z",
+      "updatedAt": "2026-09-16T07:50:37.000Z",
       "deadline": null,
       "deadlineSource": null
     },

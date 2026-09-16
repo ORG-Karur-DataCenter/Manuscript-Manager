@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-16T06:32:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Nephrology Contents: Volume 22 Number 10",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T04:01:40.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "An Exclusive 35% Discount, Just for Authors ✏️",
+      "from": "Routledge Books <routledgebooks@email.routledge.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T06:09:55.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for The burden of knee osteoarthritis in older adults in India and South Asia, 1990–2023: a subnational analysis from the Global Burden of Disease Study 2023",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T06:29:28.000Z",
+      "reason": "unrelated",
+      "subject": "RE: Reg regenerative book series",
+      "from": "Raman Shukla <raman.shukla@springer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T07:44:50.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "JDSIS (Scopus-indexed, ranked Q1-SJR): Invitation for Manuscript Submission",
+      "from": "jenny@jdsiseditorial.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T11:18:46.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
+      "from": "Julie Phukan <jphukan@bmj.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T11:23:02.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from Jagiellonian University",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-16T03:09:10.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: OPEC Energy Review [email ref: SE-32-a]",
@@ -2049,55 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "EC Orthopaedics quality submissions",
       "from": "EC Orthopaedics <eliza.j@ecorthojrnl.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T07:11:13.000Z",
-      "reason": "unrelated",
-      "subject": "Deadline extended: Emergent x Kevin O'Leary",
-      "from": "Emergent <team@ship.emergent.sh>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T07:24:06.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "NIH Considers New Three-Tier System for Grant Review Outcomes—What Would Change for Applicants?",
-      "from": "Peeref <info@peerefmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T11:02:13.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Tehran University of Medical Sciences",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-16T13:03:29.000Z",
-      "reason": "unrelated",
-      "subject": "Verify your email address",
-      "from": "Identity <no-reply@editorialmanager.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-16T13:06:34.000Z",
-      "reason": "unrelated",
-      "subject": "Editorial Manager Registration",
-      "from": "Asian Journal of Psychiatry <em@editorialmanager.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-16T16:10:47.000Z",
-      "reason": "unrelated",
-      "subject": "Fwd: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T01:55:32.000Z",
-      "reason": "unrelated",
-      "subject": "Re: avaisor Research on Use Case - Situation B, Next steps before Phase 2",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
