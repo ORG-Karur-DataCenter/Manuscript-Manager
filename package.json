@@ -18,6 +18,7 @@
     "check": "npm run check-registry && npm run check-subject-rules && npm run check-timestamps && npm run check-worker && npm run check-notify && npm run check-stamp && npm run check-editing",
     "notify": "node scripts/notify.mjs",
     "check-notify": "node scripts/check-notify.mjs",
+    "check-whatsapp-sender": "node scripts/check-whatsapp-sender.mjs",
     "stamp": "node scripts/stamp-assets.mjs",
     "check-stamp": "node scripts/stamp-assets.mjs --check"
   },

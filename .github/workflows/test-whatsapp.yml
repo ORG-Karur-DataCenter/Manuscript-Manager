@@ -71,6 +71,18 @@ jobs:
             ' --input-type=module
           fi
 
+      # Which number the app sends FROM. Meta's allow list belongs to a phone
+      # number, so a recipient verified against a different test number is
+      # refused however plainly they appear in the console's picker -- and
+      # nothing on either screen shows which number the app is using.
+      - name: Report which number it sends from
+        continue-on-error: true
+        env:
+          META_WHATSAPP_TOKEN: ${{ secrets.META_WHATSAPP_TOKEN }}
+          META_WHATSAPP_PHONE_ID: ${{ secrets.META_WHATSAPP_PHONE_ID }}
+          META_API_VERSION: ${{ vars.META_API_VERSION || 'v21.0' }}
+        run: npm run check-whatsapp-sender
+
       - name: Run
         env:
           WHATSAPP_RECIPIENTS: ${{ secrets.WHATSAPP_RECIPIENTS }}
