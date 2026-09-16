@@ -1,6 +1,104 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-16T00:08:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Do Pilots, Flight Crew Have Higher Cancer Mortality Risk?",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T16:40:45.000Z",
+      "reason": "unrelated",
+      "subject": "🧠 ChatGPT's co-creator built AI that can't write",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T04:49:38.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-00960 - [EMID:d995e8c94c573438]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:06:40.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:08:12.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:10:14.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:11:16.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:18:22.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:42:11.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T13:05:30.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T13:17:11.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Rare Lumbar Data",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T17:46:09.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "[Life, IF 3.9] Invitations to submit to Special Issue “The Microbiome and Dysbiosis in Various Pathologies” ",
+      "from": "Liana Lucaciu <liana.lucaciu@umfcluj.ro>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T17:47:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AI for Materials - Featured Articles from Journal of Materials Informatics (IF 8.0, JCR Q1)",
+      "from": "Journal of Materials Informatics <GGO@webofscience-authorconnect.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T18:38:00.000Z",
+      "reason": "unrelated",
+      "subject": "Contact Information",
+      "from": "Kari Odland <kodland@umn.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-16T13:04:59.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Stanford’s newest students arrive on campus",
@@ -2000,104 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Looking to publish your research?",
       "from": "Journal of Ambient Intelligence and Smart Environments <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T02:00:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "APPLY & LEARN with ESSKA!",
-      "from": "ESSKA Educational Newsletter <academy@esska.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T04:38:32.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation Reminder - Review of Manuscript:  8696 Comparative clinical outcomes after intra-articular injection with adipose-Derived stromal vascular fraction versus Hyaluronic acid for the knee joint OA, a retrospective cohort study",
-      "from": "SQU Med J Oman <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-13T06:36:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Reviews Microbiology Contents: Volume 24 Number 9",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-13T06:40:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Structural & Molecular Biology Contents: Volume 33 Number 8",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-13T07:39:36.000Z",
-      "reason": "unrelated",
-      "subject": "Quality of Elsevier's Author Support",
-      "from": "Elsevier Author Feedback <surveys@surveys.elsevier.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-14T06:38:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Gene Therapy Contents: Volume 33 Number 4",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T23:03:30.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "End of Summer: Exclusive Offers Inside",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-13T09:14:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature alert for 13th August 2026",
-      "from": "Nature <alerts@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-13T13:03:27.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Unpacking peptide science",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-13T14:06:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the August issue today",
-      "from": "Physics Today <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-14T06:32:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Aging Contents: Volume 6 Number 8",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-14T10:52:15.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Is survival in primary spinal osteosarcoma determi | World Nursing 2027 in Barcelona",
-      "from": "mary.jane@mail.nursing-world.org",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T20:49:05.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-14T15:38:09.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Gentle Reminder: Invitation to Submit Your Manuscript to APhOT",
-      "from": "Nancy Miller <contact@physiotherapyoccupational.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]

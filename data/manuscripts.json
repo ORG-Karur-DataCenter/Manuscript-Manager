@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:19:00.912Z",
+  "generatedAt": "2026-09-16T20:17:25.570Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -13905,7 +13905,7 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
-      "currentManuscriptNumber": "JBJSOA-D-26-00213R1",
+      "currentManuscriptNumber": "JBJSOA-D-26-00213R2",
       "currentStatus": "Returned to author — one citation fix outstanding",
       "doi": null,
       "publicationLink": null,
@@ -13941,10 +13941,10 @@
         },
         {
           "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00213R1",
+          "manuscriptNumber": "JBJSOA-D-26-00213R2",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14020,6 +14020,19 @@
                 "threadId": "1a0aabcc6494264f",
                 "messageId": "1a0aaca8e059e66e",
                 "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-16T15:20:29.000Z",
+              "eventType": "under_review",
+              "revisionRound": 2,
+              "note": "The journal confirmed receipt of the author's revised manuscript.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R2",
+              "source": {
+                "threadId": "1a0aace219e80334",
+                "messageId": "1a0aace219e80334",
+                "subject": "JBJS Open Access Resubmission Confirmation",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -14306,10 +14319,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-16T15:20:29.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": "JBJSOA-D-26-00213R2",
+          "label": "Under review",
+          "revisionRound": 2,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the author's revised manuscript.",
+          "source": {
+            "threadId": "1a0aace219e80334",
+            "messageId": "1a0aace219e80334",
+            "subject": "JBJS Open Access Resubmission Confirmation",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-09-16T15:16:35.000Z",
+      "updatedAt": "2026-09-16T15:20:29.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {
