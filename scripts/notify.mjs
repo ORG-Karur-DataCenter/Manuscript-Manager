@@ -107,9 +107,28 @@ async function main() {
       "This is a one-off test. Real messages arrive when a journal returns a " +
       "manuscript for amendments, and again as the deadline approaches.";
 
+    /*
+     * The five fields the approved template expects, in its own order.
+     *
+     * A test now goes through the same template as a real reminder, so it has
+     * to fill it properly -- Meta rejects a template sent with the wrong number
+     * of parameters, and a test that cannot be sent is the thing this whole
+     * mode exists to avoid. The wording says plainly that it is a test, since
+     * it arrives looking exactly like a deadline notice.
+     */
+    const params = [
+      "Test message",
+      "no action needed",
+      "ORG Karur COMMS wiring test",
+      "not a real submission",
+      new Date().toLocaleDateString("en-GB", {
+        weekday: "short", day: "numeric", month: "short", timeZone: "Asia/Kolkata",
+      }),
+    ];
+
     const results = await sendToAll(
       recipients,
-      text,
+      { text, params },
       {
         transport,
         pauseMs: 2000,

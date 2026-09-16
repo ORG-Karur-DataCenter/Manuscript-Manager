@@ -748,16 +748,24 @@ await check("a parameter-count mismatch names the count each template wants", ()
   });
 });
 
-await check("the test mode sends hello_world in en_US, with no body component", () => {
-  // hello_world is the only template a brand-new account has approved, and it
-  // takes no parameters. Sending an empty body component is a count of nought
-  // against a template declaring none, which Meta still refuses.
+await check("a test sends the real template, so passing it means reminders work", () => {
+  // This used to send hello_world. That was right only while the custom
+  // template was awaiting approval; afterwards it meant the test exercised a
+  // message the app never sends, in a different language code. It then failed
+  // while real reminders were reaching the same person on the same token --
+  // and was believed, costing an evening spent on a phone number that was
+  // never at fault. A test that can fail while the thing it tests works is
+  // worse than no test, because it is trusted.
   let sent = null;
-  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "wired up", params: [] }, {
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], {
+    text: "wired up",
+    params: ["Test message", "no action needed", "wiring test", "not a real submission", "Tue 16 Sep"],
+  }, {
     transport: "meta",
     env: {
       META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1",
       META_WHATSAPP_TEMPLATE: "amendment_deadline",
+      META_WHATSAPP_LANGUAGE: "en",
       META_WHATSAPP_TEST: "true",
     },
     fetchImpl: async (_url, init) => {
@@ -766,8 +774,30 @@ await check("the test mode sends hello_world in en_US, with no body component", 
     },
   }).then((results) => {
     assert(results[0].ok, `test send failed: ${results[0].error}`);
-    assert(sent.template.name === "hello_world", `used ${sent.template.name}, not hello_world`);
-    assert(sent.template.language.code === "en_US", `language was ${sent.template.language.code}, not en_US`);
+    assert(sent.template.name === "amendment_deadline",
+      `a test sent ${sent.template.name}, which is not what a reminder sends`);
+    assert(sent.template.language.code === "en",
+      `test used language ${sent.template.language.code}, not the reminder's`);
+    const params = sent.template.components?.[0]?.parameters || [];
+    assert(params.length === 5, `sent ${params.length} parameters; the template needs five`);
+  });
+});
+
+await check("but hello_world is still the fallback with no template configured", () => {
+  // The case it was written for: a brand-new account whose only approved
+  // template is Meta's own. There is nothing else that could be sent.
+  let sent = null;
+  return sendToAll([{ name: "Dhibin", phone: "918778138148" }], { text: "wired up", params: [] }, {
+    transport: "meta",
+    env: { META_WHATSAPP_TOKEN: "t", META_WHATSAPP_PHONE_ID: "1", META_WHATSAPP_TEST: "true" },
+    fetchImpl: async (_url, init) => {
+      sent = JSON.parse(init.body);
+      return new Response(JSON.stringify({ messages: [{ id: "wamid.1" }] }), { status: 200 });
+    },
+  }).then((results) => {
+    assert(results[0].ok, `fallback send failed: ${results[0].error}`);
+    assert(sent.template.name === "hello_world", `used ${sent.template.name}`);
+    assert(sent.template.language.code === "en_US", `language was ${sent.template.language.code}`);
     assert(!sent.template.components, "sent a body component for a template that takes none");
   });
 });
