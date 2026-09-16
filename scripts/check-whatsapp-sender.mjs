@@ -63,13 +63,59 @@ if (!res.ok) {
 }
 
 const data = JSON.parse(body);
+
+/*
+ * The display number is not an identity.
+ *
+ * Meta hands test numbers out of a shared pool, so +1 555-202-0133 is issued
+ * to many apps at once, each with its own phone number id and its own allow
+ * list. Seeing the same number on the console and in this log therefore proves
+ * nothing -- it was read here as a match once, and the real mismatch survived
+ * another round.
+ *
+ * The id would settle it, but GitHub masks it in the log for being a secret.
+ * So ask the token which business accounts it can act on: those ids are not
+ * secrets, they differ between apps, and the console prints one at the top of
+ * the API Setup page to compare against.
+ */
+async function businessAccounts() {
+  const url =
+    `https://graph.facebook.com/${version}/debug_token` +
+    `?input_token=${encodeURIComponent(token)}&access_token=${encodeURIComponent(token)}`;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    const { data: info } = await res.json();
+    const scopes = info?.granular_scopes || [];
+    const ids = new Set();
+    for (const g of scopes) for (const id of g.target_ids || []) ids.add(id);
+    return { ids: [...ids], expires: info?.expires_at, app: info?.app_id };
+  } catch {
+    return null;
+  }
+}
+
 console.log("Sending from:");
 console.log(`  phone number id : ${phoneId}`);
 console.log(`  which is        : ${data.display_phone_number || "(not reported)"}`);
 console.log(`  named           : ${data.verified_name || "(not reported)"}`);
 if (data.quality_rating) console.log(`  quality rating  : ${data.quality_rating}`);
 console.log("");
-console.log("This id must match the one on WhatsApp -> API Setup, above the Recipient");
-console.log("picker. A recipient verified against a DIFFERENT test number is refused with");
-console.log("\"(#131030) Recipient phone number not in allowed list\", however plainly that");
-console.log("recipient appears in the picker you are looking at.");
+const scoped = await businessAccounts();
+if (scoped) {
+  console.log("This token can act on WhatsApp Business account(s):");
+  for (const id of scoped.ids) console.log(`  ${id}`);
+  if (scoped.app) console.log(`  (app id ${scoped.app})`);
+  console.log(
+    scoped.expires === 0 || scoped.expires === undefined
+      ? "  token does not expire"
+      : `  token expires ${new Date(scoped.expires * 1000).toISOString()}`
+  );
+  console.log("");
+}
+
+console.log("Compare the account id above with the \"WhatsApp Business account ID\" shown");
+console.log("on WhatsApp -> API Setup. If they differ, the app is sending from a DIFFERENT");
+console.log("test number that merely displays the same pooled +1 555 number, with its own");
+console.log("allow list -- which is why a recipient you can see in the console's picker is");
+console.log("refused with \"(#131030) Recipient phone number not in allowed list\".");
