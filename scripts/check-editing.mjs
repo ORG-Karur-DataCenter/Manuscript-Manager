@@ -757,6 +757,88 @@ await check("a section this build does not know does not blank the page", async 
   }
 });
 
+await check("any card can be merged, not only the ones that look alike", async (page) => {
+  // The pair this exists for: "…as Safe as Three-Level ACDF" and "…as Safe as
+  // Anterior Cervical Discectomy and Fusion" are one paper whose title a
+  // journal truncated. They score 0.70 against each other -- well under the
+  // matcher's 0.82 -- so a picker limited to suggestions could not reach them,
+  // which is the one case a person needs a manual merge for.
+  const snapshot = JSON.parse(JSON.stringify(registry));
+  try {
+    registry.manuscripts.push({
+      id: "m-unlike",
+      title: "Bone Cement Leakage After Vertebroplasty: An Entirely Different Paper",
+      titleNormalized: "bone cement leakage after vertebroplasty an entirely different paper",
+      bucket: "in_review", currentJournal: "Journal of Spine", currentStatus: "Submitted",
+      authorAccounts: [], createdAt: "2026-04-01T00:00:00.000Z", updatedAt: "2026-04-01T00:00:00.000Z",
+      submissions: [], timeline: [{
+        timestamp: "2026-04-01T00:00:00.000Z", journal: "Journal of Spine",
+        eventType: "new_submission", label: "Submitted",
+        source: { threadId: "t-u", messageId: "m-u", subject: "Received", from: "x@example.org" },
+      }], events: [],
+    });
+    await page.reload();
+    await unlock(page);
+    await startEditing(page);
+
+    const option = await page.$('#merge-into option[value="m-unlike"]');
+    assert(option, "a dissimilar card was not offered at all, so it could never be merged by hand");
+
+    const groups = await page.$$eval("#merge-into optgroup", (n) => n.map((x) => x.label));
+    assert(groups.length >= 1, "the options are not grouped, so suggestions do not stand out");
+
+    // Every other manuscript must be reachable, not just a shortlist.
+    const offered = await page.$$eval("#merge-into option[value]", (n) =>
+      n.map((x) => x.value).filter(Boolean));
+    const others = registry.manuscripts.filter((x) => x.id !== "m-knees").map((x) => x.id);
+    for (const id of others) {
+      assert(offered.includes(id), `${id} cannot be chosen, so it can never be merged`);
+    }
+    assert(!offered.includes("m-knees"), "a card is offered to merge into itself");
+  } finally {
+    registry = snapshot;
+  }
+});
+
+await check("a journal's papers are listed in date order", async (page) => {
+  const snapshot = JSON.parse(JSON.stringify(registry));
+  try {
+    const at = (id, title, when) => ({
+      id, title, titleNormalized: title.toLowerCase(), bucket: "in_review",
+      currentJournal: "Journal of Order", currentStatus: "Submitted",
+      authorAccounts: [], createdAt: when, updatedAt: "2026-09-01T00:00:00.000Z",
+      submissions: [{
+        journal: "Journal of Order", manuscriptNumber: id, submittedDate: when,
+        outcome: "active", status: "new_submission", statusHistory: [],
+      }],
+      timeline: [{
+        timestamp: when, journal: "Journal of Order", eventType: "new_submission", label: "Submitted",
+        source: { threadId: "t-" + id, messageId: "m-" + id, subject: "Received", from: "x@example.org" },
+      }], events: [],
+    });
+    // Deliberately out of order, and with identical updatedAt -- the old sort
+    // used updatedAt, so any unrelated email could shuffle a journal's history.
+    registry.manuscripts.push(at("ord-b", "Middle Paper", "2026-05-01T00:00:00.000Z"));
+    registry.manuscripts.push(at("ord-c", "Newest Paper", "2026-08-01T00:00:00.000Z"));
+    registry.manuscripts.push(at("ord-a", "Oldest Paper", "2026-01-01T00:00:00.000Z"));
+    await page.reload();
+    await unlock(page);
+
+    await page.click('[data-bucket="journals"]');
+    await page.waitForSelector(".journal-card");
+    await page.click('.journal-card[data-journal="Journal of Order"]');
+    await page.waitForSelector(".journal-paper");
+
+    const order = await page.$$eval(".journal-paper", (n) => n.map((x) => x.dataset.id));
+    assert(order.join() === "ord-c,ord-b,ord-a", `listed as ${order.join()}, not newest-first by date`);
+
+    const when = await page.textContent(".journal-paper .card-when");
+    assert(/submitted/i.test(when), `the row does not show its date: "${when}"`);
+  } finally {
+    registry = snapshot;
+  }
+});
+
 await check("a resumed session is asked for the password before it can save", async (page) => {
   // What "stay signed in" leaves behind: the session flag is durable, the
   // password deliberately is not. Clearing it is what a new browser session

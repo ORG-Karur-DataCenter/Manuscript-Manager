@@ -472,9 +472,18 @@ function journalGroups() {
 
   for (const g of byKey.values()) {
     g.live = g.papers.filter((p) => p.standing.live).length;
+    /*
+     * In date order, newest first, by when the paper went to THIS journal --
+     * not by when the record last changed, which mixed a 2026 submission in
+     * among 2025 ones because some unrelated email touched it yesterday.
+     * Papers whose submission carries no date fall to the end rather than
+     * being sorted as though they arrived in 1970.
+     */
     g.papers.sort((a, b) => {
-      if (a.standing.live !== b.standing.live) return a.standing.live ? -1 : 1;
-      return new Date(b.m.updatedAt || 0) - new Date(a.m.updatedAt || 0);
+      const at = dateOfSubmission(a);
+      const bt = dateOfSubmission(b);
+      if (at === null || bt === null) return at === null ? (bt === null ? 0 : 1) : -1;
+      return bt - at;
     });
   }
 
@@ -502,6 +511,13 @@ function standingAt(m, sub) {
   // since that is what the last email about it established.
   const meta = bucketMeta(m.bucket);
   return { live: true, label: meta.label, tone: m.bucket };
+}
+
+/** When this paper went to this journal, or null when nothing says. */
+function dateOfSubmission(p) {
+  const raw = p.sub?.submittedDate || p.sub?.statusHistory?.[0]?.timestamp || p.m.createdAt;
+  const at = raw ? Date.parse(raw) : NaN;
+  return Number.isFinite(at) ? at : null;
 }
 
 function journalMatches(g, q) {
@@ -543,7 +559,9 @@ function journalPaperRowHtml(p) {
     </div>
     <h3 class="card-title">${esc(p.m.title)}</h3>
     <div class="card-foot">
-      <span class="card-when">Updated ${esc(fmtRelative(p.m.updatedAt))}</span>
+      <span class="card-when">${dateOfSubmission(p) === null
+        ? "No submission date"
+        : "Submitted " + esc(fmtDate(new Date(dateOfSubmission(p)).toISOString()))}</span>
     </div>
   </article>`;
 }
@@ -798,6 +816,35 @@ function drawerHtml(m) {
 }
 
 /**
+ * Every other manuscript, with the likely duplicates lifted to the top.
+ *
+ * Grouped rather than filtered: the suggestions are a convenience, not a
+ * gate. A person merging two cards can see something the similarity score
+ * cannot, and the list must not argue with them.
+ */
+function mergeOptionsHtml(m) {
+  const label = (x) =>
+    `${x.title.slice(0, 70)}${x.currentJournal ? ` — ${x.currentJournal}` : ""}` +
+    `${x.currentManuscriptNumber ? ` (${x.currentManuscriptNumber})` : ""}`;
+
+  const suggested = mergeCandidates(m);
+  const suggestedIds = new Set(suggested.map((c) => c.m.id));
+  const rest = state.manuscripts
+    .filter((x) => x.id !== m.id && !suggestedIds.has(x.id))
+    .sort((a, b) => a.title.localeCompare(b.title));
+
+  const group = (name, rows) =>
+    rows.length
+      ? `<optgroup label="${esc(name)}">` +
+        rows.map((x) => `<option value="${esc(x.id)}">${esc(label(x))}</option>`).join("") +
+        `</optgroup>`
+      : "";
+
+  return group("Likely the same paper", suggested.map((c) => c.m)) +
+         group(suggested.length ? "Every other manuscript" : "All manuscripts", rest);
+}
+
+/**
  * Records that might be this same paper.
  *
  * Scored the way the matcher scores, so the list is exactly the population it
@@ -902,26 +949,32 @@ function editFormHtml(m) {
       <p id="edit-error" class="lock-error" hidden role="alert"></p>
 
       <!--
-        Offered only where there is something to merge with. A picker listing
-        127 papers invites the mistake it exists to repair, so it shows the
-        records whose titles actually resemble this one, which is the way a
-        paper gets split in the first place.
+        Any card, not only the ones that score as similar.
+        
+        This used to offer only records above the matcher's own similarity bar,
+        which meant the merge could not reach the very cases a person can see
+        and the machine cannot: "…as Safe as Three-Level ACDF" and "…as Safe as
+        Anterior Cervical Discectomy and Fusion" are one paper whose title a
+        journal truncated, and they score 0.70 -- well under the bar. A manual
+        merge that only offers the automatic guesses is not a manual merge.
+        
+        The likely ones still come first, since they are usually right.
       -->
-      ${mergeCandidates(m).length ? `
       <div class="edit-field" data-field="merge">
         <div class="edit-label-row"><label for="merge-into">Same paper as another card?</label></div>
         <div class="merge-row">
           <select id="merge-into">
             <option value="">Choose the duplicate to fold in…</option>
-            ${mergeCandidates(m).map((c) => `<option value="${esc(c.m.id)}">${esc(c.m.title.slice(0, 70))}${c.m.currentManuscriptNumber ? ` — ${esc(c.m.currentManuscriptNumber)}` : ""}</option>`).join("")}
+            ${mergeOptionsHtml(m)}
           </select>
           <button type="button" id="edit-merge" class="sync-close">Merge in</button>
         </div>
         <p class="edit-help">
           Its events, submissions and title all move onto this card, and this card's
-          title is the one that stays. The other card goes.
+          title is the one that stays. The other card goes. Type in the list to search
+          it — every manuscript is there, not only the ones that look alike.
         </p>
-      </div>` : ""}
+      </div>
 
       <div class="edit-actions">
         <button type="button" id="edit-delete" class="edit-danger">Delete this manuscript</button>
