@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T20:17:25.570Z",
+  "generatedAt": "2026-09-16T23:02:50.063Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9672,15 +9672,15 @@
       "id": "incidence-chronology-and-risk-factors-of-rod-fracture-following-adult-",
       "title": "Incidence, Chronology, and Risk Factors of Rod Fracture Following Adult Spinal Deformity Surgery: A Systematic Review and Meta-Analysis",
       "titleNormalized": "incidence chronology and risk factors of rod fracture following adult spinal deformity surgery a systematic review and meta analysis",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": "rejected_needs_resubmission",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-1881",
-      "currentStatus": "Rejected",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -9725,6 +9725,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-16T22:18:35.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-16T22:18:35.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0ac4ce914fe81a",
+                "messageId": "1a0ac4ce914fe81a",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -9761,10 +9785,27 @@
             "from": "Vibhu Krishnan <drvibu007@gmail.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-16T22:18:35.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a0ac4ce914fe81a",
+            "messageId": "1a0ac4ce914fe81a",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-12T17:18:41.000Z",
-      "updatedAt": "2026-09-13T21:10:25.000Z"
+      "updatedAt": "2026-09-16T22:18:35.000Z"
     },
     {
       "id": "incidence-recovery-of-sexual-dysfunction-in-cauda-equina-syndrome-foll",

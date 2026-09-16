@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-16T10:21:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Upcoming discussion on Resolving Inflammation or Driving Fibrosis: Immune Determinants of Muscle Regenerative Outcomes",
+      "from": "\"Federica Cirillo (Via Frontiersin)\" <cellbiology@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:09:13.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:16:50.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T12:41:31.000Z",
+      "reason": "unrelated",
+      "subject": "🗓 FISRM:,  BATCH: 3  | CLASS: 1 on September 16, 2026 | Read Meeting Report",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T14:56:58.000Z",
+      "reason": "unrelated",
+      "subject": "PROSPERO record confirmation",
+      "from": "PROSPERO Administrator <irss592@york.ac.uk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-16T00:08:31.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Do Pilots, Flight Crew Have Higher Cancer Mortality Risk?",
@@ -2064,41 +2099,6 @@
       "subject": "Fwd: Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-11T17:10:04.000Z",
-      "reason": "unrelated",
-      "subject": "It took 30 years to write this textbook",
-      "from": "Steven Kotler <sk@stevenkotler.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-12T00:08:09.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Calcium Scores May Refine Statin Decisions",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-12T14:23:42.000Z",
-      "reason": "unrelated",
-      "subject": "IIT Madras BS in Data Science Programme shared a post: JEE Didn’t Go as…",
-      "from": "LinkedIn <notifications-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-12T15:13:30.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🧬 Your AI documents have DNA now",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-12T17:06:54.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Looking to publish your research?",
-      "from": "Journal of Ambient Intelligence and Smart Environments <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
