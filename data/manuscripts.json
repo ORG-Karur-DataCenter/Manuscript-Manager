@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:37:23.939Z",
+  "generatedAt": "2026-09-17T18:24:06.461Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3723,6 +3723,19 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-17T15:34:50.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0b001a0c0a6501",
+                "messageId": "1a0b001a0c0a6501",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
             }
           ]
         },
@@ -3819,10 +3832,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-17T15:34:50.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a0b001a0c0a6501",
+            "messageId": "1a0b001a0c0a6501",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-11T07:49:51.000Z",
-      "updatedAt": "2026-09-14T08:51:32.000Z"
+      "updatedAt": "2026-09-17T15:34:50.000Z"
     },
     {
       "id": "convergence-and-divergence-of-disease-burden-across-the-states-of-indi",
@@ -9351,6 +9381,43 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-17T15:42:01.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and the submission is acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0b001a0c0a6501",
+                "messageId": "1a0b008309b60774",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Molecular Biology Reports",
+          "manuscriptNumber": "1ba209ac-28cd-47b2-a9e8-5be2a9fcb135",
+          "submittedDate": "2026-09-17T15:03:20.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-17T15:03:20.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected as out of scope, with an offer to transfer to another journal.",
+              "manuscriptNumber": "1ba209ac-28cd-47b2-a9e8-5be2a9fcb135",
+              "source": {
+                "threadId": "1a0af923e3d1b713",
+                "messageId": "1a0afe4c8e0382aa",
+                "subject": "Decision on your submission to Molecular Biology Reports",
+                "from": "Molecular Biology Reports <ranjith.ayyapan@springernature.com>"
+              }
             }
           ]
         }
@@ -9565,10 +9632,44 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-17T15:03:20.000Z",
+          "journal": "Molecular Biology Reports",
+          "eventType": "rejected",
+          "manuscriptNumber": "1ba209ac-28cd-47b2-a9e8-5be2a9fcb135",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected as out of scope, with an offer to transfer to another journal.",
+          "source": {
+            "threadId": "1a0af923e3d1b713",
+            "messageId": "1a0afe4c8e0382aa",
+            "subject": "Decision on your submission to Molecular Biology Reports",
+            "from": "Molecular Biology Reports <ranjith.ayyapan@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-17T15:42:01.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and the submission is acknowledged.",
+          "source": {
+            "threadId": "1a0b001a0c0a6501",
+            "messageId": "1a0b008309b60774",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-09-16T07:50:37.000Z",
+      "updatedAt": "2026-09-17T15:42:01.000Z",
       "deadline": null,
       "deadlineSource": null,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
@@ -13940,11 +14041,11 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
       "currentManuscriptNumber": "JBJSOA-D-26-00213R2",
       "currentStatus": "Returned to author — one citation fix outstanding",
@@ -13985,7 +14086,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00213R2",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "under_review",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14074,6 +14175,19 @@
                 "threadId": "1a0aace219e80334",
                 "messageId": "1a0aace219e80334",
                 "subject": "JBJS Open Access Resubmission Confirmation",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-17T17:12:32.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 2,
+              "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R2",
+              "source": {
+                "threadId": "1a0b05b0c773a987",
+                "messageId": "1a0b05b0c773a987",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:130e3109b0ff3981]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -14377,10 +14491,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-17T17:12:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00213R2",
+          "label": "Sent back for edits",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-09-24T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+          "source": {
+            "threadId": "1a0b05b0c773a987",
+            "messageId": "1a0b05b0c773a987",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:130e3109b0ff3981]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-09-16T15:20:29.000Z",
+      "updatedAt": "2026-09-17T17:12:32.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

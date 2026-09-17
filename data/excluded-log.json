@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-17T14:58:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AI Assistance In Clinical Trials: The Practical Opportunities",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T09:27:06.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: \"Stem Cells from Human Exfoliated Deciduous Teeth in Craniofacial Tissue...\" Peer review invitation",
+      "from": "\"Academia.edu\" <updates@academia-mail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T13:33:10.000Z",
+      "reason": "unrelated",
+      "subject": "Decision on your submission to Molecular Biology Reports",
+      "from": "Molecular Biology Reports <ranjith.ayyapan@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T13:58:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your September Issue Alert",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T14:22:15.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "RE-Query on your article",
+      "from": "Journal of Orthopaedic Science and Research <orthopaedicres@athenaeumpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T15:44:02.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JMC5426] Request for Peer Review: A Cadaveric Case of Lusoria Artery with Calcification",
+      "from": "Editorial Assistant <submissions@elmerjournalreview.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T16:42:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ASSICON 2027 abstract submission deadline extension.",
+      "from": "ASSI <assisecretariat@5494102.brevosend.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-17T12:05:11.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "⚠️⚠️ OpenAI agents go rogue, again",
@@ -2049,55 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Graduate School of Education dean announced",
       "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-06T14:08:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The week in physics: Exoplanet orbiting a white dwarf; Ending the Cold War arms race",
-      "from": "Physics Today <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-07T04:53:14.000Z",
-      "reason": "unrelated",
-      "subject": "View community ratings for your paper at EUROPEAN SPINE JOURNAL, plus journal insights from your field",
-      "from": "Peeref <info@peerefmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-07T14:44:12.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "AI designed 16 viruses that actually work",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-11T15:09:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Explore the August Issue of HSS",
-      "from": "HSS Journal on behalf of Arthrex <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-04T18:01:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the September issue today",
-      "from": "Physics Today <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T10:49:03.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were cited in a new article by an author from University of Texas at Austin",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-07T15:16:08.000Z",
-      "reason": "unrelated",
-      "subject": "Dr. Bibhuti Parida - Assistant Professor of Physics reacted to this post: Happy to join WPI, Hiroshima…",
-      "from": "LinkedIn <updates-noreply@linkedin.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
