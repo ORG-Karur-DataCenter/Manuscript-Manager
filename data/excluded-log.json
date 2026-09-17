@@ -1,6 +1,76 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-17T12:05:11.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "⚠️⚠️ OpenAI agents go rogue, again",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T12:36:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 17th September 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T13:00:57.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New students begin their Stanford journey",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T13:12:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Supporters' eNews September 2026",
+      "from": "Cochrane <no-reply@cochrane.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T08:52:45.000Z",
+      "reason": "unrelated",
+      "subject": "Bhavik Bansal recommended this article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T09:53:17.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4597111 - Invitation to Review for JCM",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T10:03:38.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New in the New England Journal of Medicine.",
+      "from": "OrthoEvidence <info@myorthoevidence.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T11:08:18.000Z",
+      "reason": "unrelated",
+      "subject": "⏪ Pre-Read for your upcoming meeting: FISRM BATCH 4 | CLASS : 3 on Thu, Sep 17 2026 @ 05:30PM IST",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T12:46:31.000Z",
+      "reason": "unrelated",
+      "subject": "🗓 FISRM BATCH 4 | CLASS : 3 on September 17, 2026 | Read Meeting Report",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T13:08:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Supporters' eNews September 2026",
+      "from": "Cochrane <no-reply@cochrane.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-17T06:32:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Astronomy Contents: Volume 10 Number 9",
@@ -2028,76 +2098,6 @@
       "reason": "unrelated",
       "subject": "Dr. Bibhuti Parida - Assistant Professor of Physics reacted to this post: Happy to join WPI, Hiroshima…",
       "from": "LinkedIn <updates-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-07T17:22:41.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "To Beat Cigarette Addiction, Experts Embrace Vapes",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-08T06:34:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Heredity Contents: Volume 135 Number 7",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-08T06:40:40.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Invitation to Submit Your Dermatology Research: CDOAJ",
-      "from": "Andrea Leslie <contact@clinicaldermatologypublishers.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-08T09:58:12.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Manuscript Consideration for Physiotherapy",
-      "from": "Nancy Miller <contact@physiotherapyoccupational.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-10T09:54:18.000Z",
-      "reason": "unrelated",
-      "subject": "Fwd:",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-10T13:02:26.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "AI-designed virus could point to new antibiotics",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-10T14:10:18.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The week in physics: Dissecting the decline in physics bachelor’s degrees",
-      "from": "Physics Today <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-11T06:34:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Cell Biology Contents: Volume 28 Number 8",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-11T10:20:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Naveen Jeyaraman published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-11T13:00:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "A surprising way to measure hurricanes",
-      "from": "Stanford Report <noreply@stanford.edu>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
