@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-17T06:32:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Astronomy Contents: Volume 10 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T03:18:20.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ASP - [STI] Manuscript ID: STI026380043 - Review Request Reminder",
+      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T04:47:40.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow up on review request for JOIO-D-26-00960 - [EMID:a2663ee45df327d3]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T05:00:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Registration Is Now Open! AO Trauma/ AO Recon Course—Comprehensive Periprosthetic Fracture Management of the Hip and Knee Course with Anatomical Specimens, Yogyakarta, Indonesia | November 16-18, 2026",
+      "from": "AO Foundation <news@communications.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-17T05:02:47.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your sleep timing may influence osteoarthritis risk ",
+      "from": "EMJ 6 at 6am <circulation@emjreviews.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-16T20:35:23.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Invitation - JoVE Researcher Innovation Award",
@@ -2063,41 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "A surprising way to measure hurricanes",
       "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-11T21:07:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Seeing the Whole Picture: 3D X-ray Imaging of Engineering Materials, Micro to Macro",
-      "from": "Physics Today Webinars <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-12T13:02:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "AI’s age and wealth divide",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T06:32:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Heredity Contents: Volume 135 Number 8",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T06:38:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Cell Death & Differentiation Contents: Volume 33 Number 9",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T07:34:11.000Z",
-      "reason": "unrelated",
-      "subject": "Fwd: Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
