@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-16T20:35:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Invitation - JoVE Researcher Innovation Award",
+      "from": "Benjamin Werth <benjamin.werth@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-16T23:57:01.000Z",
+      "reason": "unrelated",
+      "subject": "Academic Peer Review Availability (PLOS ONE) - Faruk Danis, MD [Trauma & Acute Care Surgery]",
+      "from": "\"Faruk Danış\" <farukdanis@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-16T10:21:35.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Upcoming discussion on Resolving Inflammation or Driving Fibrosis: Immune Determinants of Muscle Regenerative Outcomes",
@@ -2085,20 +2099,6 @@
       "subject": "Fwd: Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T07:21:45.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for Is Three-Level Hybrid Cervical Surgery as Safe as Three-Level ACDF? A systematic review and Meta-analysis",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T07:34:11.000Z",
-      "reason": "unrelated",
-      "subject": "Fwd: Decision on your submission to Archives of Orthopaedic and Trauma Surgery",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
