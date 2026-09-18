@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T22:14:45.210Z",
+  "generatedAt": "2026-09-18T00:27:10.593Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9848,6 +9848,19 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-18T00:09:39.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0b001a0c0a6501",
+                "messageId": "1a0b1d8f213f6632",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
             }
           ]
         }
@@ -9903,10 +9916,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T00:09:39.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a0b001a0c0a6501",
+            "messageId": "1a0b1d8f213f6632",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-12T17:18:41.000Z",
-      "updatedAt": "2026-09-16T22:18:35.000Z"
+      "updatedAt": "2026-09-18T00:09:39.000Z"
     },
     {
       "id": "incidence-recovery-of-sexual-dysfunction-in-cauda-equina-syndrome-foll",
