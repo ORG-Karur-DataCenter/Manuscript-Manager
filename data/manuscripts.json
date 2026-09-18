@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:27:10.593Z",
+  "generatedAt": "2026-09-18T06:00:04.275Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1252,15 +1252,15 @@
       "id": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the",
       "title": "AO Spine Clinical Practice Recommendations for Interbody Fusion at the Lumbo-Sacral Junction",
       "titleNormalized": "ao spine clinical practice recommendations for interbody fusion at the lumbo sacral junction",
-      "bucket": "in_review",
+      "bucket": "published",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-0112.R2",
-      "currentStatus": "Accepted (awaiting publication)",
-      "doi": null,
+      "currentStatus": "Published",
+      "doi": "10.1177/21925682261492226",
       "publicationLink": null,
       "authorAccounts": [
         "Sathish Muthu"
@@ -1270,9 +1270,9 @@
           "journal": "Global Spine Journal",
           "manuscriptNumber": "GSJ-26-0112.R2",
           "submittedDate": "2026-07-12T22:18:58.000Z",
-          "outcome": "active",
-          "status": "accepted",
-          "doi": null,
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1177/21925682261492226",
           "publicationLink": null,
           "statusHistory": [
             {
@@ -1314,6 +1314,19 @@
                 "messageId": "1a0a0a6d44787d17",
                 "subject": "Global Spine Journal - Next steps for your article",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-18T01:02:15.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Sage reminds the author to choose an Open Access license to finalize publication of their article.",
+              "manuscriptNumber": "GSJ-26-0112.R2",
+              "source": {
+                "threadId": "1a0b2091cdc55cb8",
+                "messageId": "1a0b2091cdc55cb8",
+                "subject": "Reminder: Complete the Open Access process for your article 10.1177/21925682261492226 now",
+                "from": "licensing-payment@sagepub.com"
               }
             }
           ]
@@ -1368,10 +1381,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T01:02:15.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "published",
+          "manuscriptNumber": "GSJ-26-0112.R2",
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Sage reminds the author to choose an Open Access license to finalize publication of their article.",
+          "source": {
+            "threadId": "1a0b2091cdc55cb8",
+            "messageId": "1a0b2091cdc55cb8",
+            "subject": "Reminder: Complete the Open Access process for your article 10.1177/21925682261492226 now",
+            "from": "licensing-payment@sagepub.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-12T22:18:58.000Z",
-      "updatedAt": "2026-09-14T16:01:20.000Z",
+      "updatedAt": "2026-09-18T01:02:15.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -1454,6 +1484,19 @@
                 "subject": "Complete the Open Access process for your article 10.1177/21925682261492223 now",
                 "from": "licensing-payment@sagepub.com"
               }
+            },
+            {
+              "timestamp": "2026-09-18T01:02:15.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The author is asked to choose an Open Access license to proceed with publication of their accepted article.",
+              "manuscriptNumber": "GSJ-26-1263.R2",
+              "source": {
+                "threadId": "1a0b2091da0cd975",
+                "messageId": "1a0b2091da0cd975",
+                "subject": "Reminder: Complete the Open Access process for your article 10.1177/21925682261492223 now",
+                "from": "licensing-payment@sagepub.com"
+              }
             }
           ]
         }
@@ -1523,10 +1566,27 @@
             "from": "licensing-payment@sagepub.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T01:02:15.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "manuscriptNumber": "GSJ-26-1263.R2",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is asked to choose an Open Access license to proceed with publication of their accepted article.",
+          "source": {
+            "threadId": "1a0b2091da0cd975",
+            "messageId": "1a0b2091da0cd975",
+            "subject": "Reminder: Complete the Open Access process for your article 10.1177/21925682261492223 now",
+            "from": "licensing-payment@sagepub.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-24T15:27:30.000Z",
-      "updatedAt": "2026-09-15T07:01:14.000Z",
+      "updatedAt": "2026-09-18T01:02:15.000Z",
       "deadline": null,
       "deadlineSource": null
     },

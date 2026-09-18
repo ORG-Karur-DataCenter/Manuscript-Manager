@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-17T06:05:28.000Z",
+      "reason": "unrelated",
+      "subject": "Marrow Edition 8.5 | Clinical Edge is live now ✨",
+      "from": "Team Marrow <noreply@marrowmed.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T05:14:46.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-43796] - [EMID:0a65ce99f27c7815]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-17T23:42:48.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "GBD Collaborator Newsletter, September 2026 Issue",
@@ -2085,20 +2099,6 @@
       "subject": "Bill for your Airtel Wi-Fi 0432417056983_wifi - September'26",
       "from": "ebill@airtel.com",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-05T06:32:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Reviews Physics Contents: Volume 8 Number 8",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-08-05T00:07:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Why Docs Have Bad Dreams",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
