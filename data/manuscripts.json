@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:28:46.367Z",
+  "generatedAt": "2026-09-18T16:32:49.570Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1629,9 +1629,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Frontiers in Medicine",
+      "currentJournal": "Frontiers in Surgery",
       "currentManuscriptNumber": "1970299",
-      "currentStatus": "Under review",
+      "currentStatus": "Transferred to another journal",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -1642,7 +1642,7 @@
           "journal": "Frontiers in Medicine",
           "manuscriptNumber": "1970299",
           "submittedDate": "2026-08-17T11:01:11.000Z",
-          "outcome": "active",
+          "outcome": "transferred",
           "status": "under_review",
           "doi": null,
           "publicationLink": null,
@@ -1673,6 +1673,30 @@
                 "subject": "Your manuscript has moved forward",
                 "from": "Frontiers <noreply@frontiersin.org>",
                 "via": "offline-import"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Frontiers in Surgery",
+          "manuscriptNumber": "1970299",
+          "submittedDate": "2026-09-18T16:23:38.000Z",
+          "outcome": "active",
+          "status": "transferred",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-18T16:23:38.000Z",
+              "eventType": "transferred",
+              "revisionRound": null,
+              "note": "Your manuscript was transferred from Frontiers in Medicine to Frontiers in Surgery.",
+              "manuscriptNumber": "1970299",
+              "source": {
+                "threadId": "1a0b554a73837b7b",
+                "messageId": "1a0b554a73837b7b",
+                "subject": "Your manuscript’s transfer is complete (ID 1970299) ",
+                "from": "Frontiers in Medicine Editorial Office <medicine.editorial.office@frontiersin.org>"
               }
             }
           ]
@@ -1710,10 +1734,29 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T16:23:38.000Z",
+          "journal": "Frontiers in Surgery",
+          "eventType": "transferred",
+          "manuscriptNumber": "1970299",
+          "label": "Transferred to another journal",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your manuscript was transferred from Frontiers in Medicine to Frontiers in Surgery.",
+          "source": {
+            "threadId": "1a0b554a73837b7b",
+            "messageId": "1a0b554a73837b7b",
+            "subject": "Your manuscript’s transfer is complete (ID 1970299) ",
+            "from": "Frontiers in Medicine Editorial Office <medicine.editorial.office@frontiersin.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T11:01:11.000Z",
-      "updatedAt": "2026-08-18T10:36:35.000Z"
+      "updatedAt": "2026-09-18T16:23:38.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "are-current-management-strategies-adequate-for-metastatic-sarcoma-of-t",
