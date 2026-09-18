@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:32:49.570Z",
+  "generatedAt": "2026-09-18T19:43:19.761Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -14204,11 +14204,11 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
       "currentManuscriptNumber": "JBJSOA-D-26-00213R2",
       "currentStatus": "Returned to author — one citation fix outstanding",
@@ -14249,7 +14249,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00213R2",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14351,6 +14351,32 @@
                 "threadId": "1a0b05b0c773a987",
                 "messageId": "1a0b05b0c773a987",
                 "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:130e3109b0ff3981]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-18T18:14:33.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is requested to review and approve the PDF, completing the submission process.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0b5ba31641b82b",
+                "messageId": "1a0b5ba31641b82b",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-18T18:22:30.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The author approved editorial changes to their submission, and the manuscript is now proceeding in the review process.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0b5c17b859e7ba",
+                "messageId": "1a0b5c17b859e7ba",
+                "subject": "Thank you - [EMID:0acc80b0e4e216c7]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -14675,10 +14701,44 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T18:14:33.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is requested to review and approve the PDF, completing the submission process.",
+          "source": {
+            "threadId": "1a0b5ba31641b82b",
+            "messageId": "1a0b5ba31641b82b",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T18:22:30.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": null,
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author approved editorial changes to their submission, and the manuscript is now proceeding in the review process.",
+          "source": {
+            "threadId": "1a0b5c17b859e7ba",
+            "messageId": "1a0b5c17b859e7ba",
+            "subject": "Thank you - [EMID:0acc80b0e4e216c7]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-09-17T17:12:32.000Z",
+      "updatedAt": "2026-09-18T18:22:30.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

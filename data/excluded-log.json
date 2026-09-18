@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-18T16:40:59.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1643",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T16:45:05.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T16:55:04.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for your trust. Enjoy 40% book discount",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T17:13:06.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Laughter Really Is The Best Medicine",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T09:00:35.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for your trust. Enjoy 40% book discount",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T13:09:31.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Draft PROSPERO registrations",
+      "from": "\"Massie, Harrison A\" <ham2@uab.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T14:02:06.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Draft PROSPERO registrations",
+      "from": "\"Massie, Harrison A\" <ham2@uab.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T16:40:59.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1643",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T16:45:05.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-18T06:38:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Reviews Clinical Oncology Contents: Volume 23 Number 10",
@@ -2036,69 +2099,6 @@
       "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
       "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T04:53:42.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01553R1 - [EMID:50906ddd9c7ee830]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T05:00:46.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Secure your seat! AO Spine Advanced Seminar—Deformity (Pediatrics and Adults), Ho Chi Minh City, Vietnam | October 3, 2026",
-      "from": "AO Spine <aospine@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T07:04:10.000Z",
-      "reason": "unrelated",
-      "subject": "15% off CRC Press titles!",
-      "from": "Routledge Books <routledgebooks@email.routledge.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T07:11:14.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "2026-09-07 07:11:12 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T02:26:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "ET AI: OpenAI calls for transparency after agents hijacked German wiki site",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T00:59:00.000Z",
-      "reason": "unrelated",
-      "subject": "Rare Lumbar Data",
-      "from": "Kari Odland <kodland@umn.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T03:15:55.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Manuscript No. 127795 for World Journal of Radiology (Reviewer’s Code: 05395420)",
-      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T03:12:40.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "🟠RFCSR | Warm Greetings and Invitation to Contribute to Science Factors",
-      "from": "\"Dr. Christine Thomas\" <christine.thomas@rfcsr.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-06T23:16:08.000Z",
-      "reason": "unrelated",
-      "subject": "👤 Someone at University Hospitals you may know",
-      "from": "LinkedIn <messages-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
