@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:43:19.761Z",
+  "generatedAt": "2026-09-18T22:38:19.559Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -10788,10 +10788,10 @@
       "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "JBJS Open Access",
-      "currentManuscriptNumber": "JBJSOA-D-26-00231R1",
+      "currentManuscriptNumber": "JBJSOA-D-26-00231R2",
       "currentStatus": "Revision submitted — Editor changes approved",
       "doi": null,
       "publicationLink": null,
@@ -10801,10 +10801,10 @@
       "submissions": [
         {
           "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00231R1",
+          "manuscriptNumber": "JBJSOA-D-26-00231R2",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -11000,6 +11000,32 @@
                 "threadId": "1a0a5f12230c77e5",
                 "messageId": "1a0a5f12230c77e5",
                 "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231R1) - [EMID:3649d81012eb7513]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-18T19:51:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal built a PDF of the submission and asks the author to review and approve it before the manuscript is officially submitted.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0b6131788c0300",
+                "messageId": "1a0b6131788c0300",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-18T19:58:30.000Z",
+              "eventType": "under_review",
+              "revisionRound": 2,
+              "note": "The journal confirmed receipt of the author's revised manuscript",
+              "manuscriptNumber": "JBJSOA-D-26-00231R2",
+              "source": {
+                "threadId": "1a0b6196fe8e9637",
+                "messageId": "1a0b6196fe8e9637",
+                "subject": "JBJS Open Access Resubmission Confirmation",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -11288,12 +11314,46 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T19:51:29.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal built a PDF of the submission and asks the author to review and approve it before the manuscript is officially submitted.",
+          "source": {
+            "threadId": "1a0b6131788c0300",
+            "messageId": "1a0b6131788c0300",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T19:58:30.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": "JBJSOA-D-26-00231R2",
+          "label": "Under review",
+          "revisionRound": 2,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the author's revised manuscript",
+          "source": {
+            "threadId": "1a0b6196fe8e9637",
+            "messageId": "1a0b6196fe8e9637",
+            "subject": "JBJS Open Access Resubmission Confirmation",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-09-15T16:40:34.000Z",
-      "deadline": "2026-09-29T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "updatedAt": "2026-09-18T19:58:30.000Z",
+      "deadline": null,
+      "deadlineSource": null,
       "overrides": {
         "bucket": "in_review",
         "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",

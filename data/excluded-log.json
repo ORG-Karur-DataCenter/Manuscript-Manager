@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-18T13:00:28.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What wearable data reveals about menstrual cycles",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
       "timestamp": "2026-09-18T16:40:59.000Z",
       "reason": "forwarded_between_us",
       "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1643",
@@ -2091,13 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: [External] Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
       "from": "Roger Hartl <roh9005@med.cornell.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T16:15:37.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
