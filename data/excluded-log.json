@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-18T06:36:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Gene Therapy Contents: Volume 33 Number 5",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T07:55:12.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Your Discount to Frontiers in Surgery (IF: 1.9, CiteScore 3.9)",
+      "from": "Frontiers In Surgery <surgery@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T08:56:45.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID: 05395420 World Journal of Clinical Cases Article Quality Tracking-Peer Review for Volume 14 Issue 26 2026-09-16",
+      "from": "\"BPG Invitation (Ma LS)\" <invitation@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T10:00:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Abstract deadline closing in 3 days - submit your research for GSC 2027",
+      "from": "Global Spine Congress <gsc@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-18T11:08:53.000Z",
+      "reason": "unrelated",
+      "subject": "⏪ Pre-Read for your upcoming meeting: FISRM,   BATCH: 5   |   CLASS: INTRODUCTORY WELCOME CLASS on Fri, Sep 18 2026 @ 05:30PM IST",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-17T06:05:28.000Z",
       "reason": "unrelated",
       "subject": "Marrow Edition 8.5 | Clinical Edge is live now ✨",
@@ -2063,41 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Keep up with The Latest Trends in Treating Tumors",
       "from": "Brew with Bones <brewwithbones@substack.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-06T06:14:10.000Z",
-      "reason": "unrelated",
-      "subject": "New articles in my profile",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-06T09:21:48.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "\"Jorge Nuñez camarena\" <hassan2803med@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-06T03:50:28.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-06T04:22:00.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, someone just recommended your data",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-05T23:46:46.000Z",
-      "reason": "unrelated",
-      "subject": "Bill for your Airtel Wi-Fi 0432417056983_wifi - September'26",
-      "from": "ebill@airtel.com",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

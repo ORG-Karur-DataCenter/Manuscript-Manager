@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T06:00:04.275Z",
+  "generatedAt": "2026-09-18T11:28:46.367Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1409,14 +1409,14 @@
       "id": "ao-spine-clinical-practice-recommendations-when-to-operate-in-lumbar-d",
       "title": "AO Spine Clinical Practice Recommendations: When to Operate in Lumbar Disc Herniation",
       "titleNormalized": "ao spine clinical practice recommendations when to operate in lumbar disc herniation",
-      "bucket": "in_review",
+      "bucket": "published",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-1263.R2",
-      "currentStatus": "Accepted (awaiting publication)",
+      "currentStatus": "Published",
       "doi": "10.1177/21925682261492223",
       "publicationLink": null,
       "authorAccounts": [
@@ -1427,8 +1427,8 @@
           "journal": "Global Spine Journal",
           "manuscriptNumber": "GSJ-26-1263.R2",
           "submittedDate": "2026-06-24T15:27:30.000Z",
-          "outcome": "active",
-          "status": "accepted",
+          "outcome": "published",
+          "status": "published",
           "doi": "10.1177/21925682261492223",
           "publicationLink": null,
           "statusHistory": [
@@ -1495,6 +1495,19 @@
                 "threadId": "1a0b2091da0cd975",
                 "messageId": "1a0b2091da0cd975",
                 "subject": "Reminder: Complete the Open Access process for your article 10.1177/21925682261492223 now",
+                "from": "licensing-payment@sagepub.com"
+              }
+            },
+            {
+              "timestamp": "2026-09-18T08:21:57.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The author's article has been licensed and will be published open access in Global Spine Journal.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0b39bab02ae255",
+                "messageId": "1a0b39bab02ae255",
+                "subject": "License chosen for your article in Global Spine Journal",
                 "from": "licensing-payment@sagepub.com"
               }
             }
@@ -1583,10 +1596,27 @@
             "from": "licensing-payment@sagepub.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-18T08:21:57.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "published",
+          "manuscriptNumber": null,
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's article has been licensed and will be published open access in Global Spine Journal.",
+          "source": {
+            "threadId": "1a0b39bab02ae255",
+            "messageId": "1a0b39bab02ae255",
+            "subject": "License chosen for your article in Global Spine Journal",
+            "from": "licensing-payment@sagepub.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-24T15:27:30.000Z",
-      "updatedAt": "2026-09-18T01:02:15.000Z",
+      "updatedAt": "2026-09-18T08:21:57.000Z",
       "deadline": null,
       "deadlineSource": null
     },
