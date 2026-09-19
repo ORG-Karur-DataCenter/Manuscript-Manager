@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-19T11:20:21.000Z",
+      "reason": "unrelated",
+      "subject": "Re: avaisor Research on Use Case - Situation B, Next steps before Phase 2",
+      "from": "Yabin Wu <yabin.wu@avaisor.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T11:38:30.000Z",
+      "reason": "unrelated",
+      "subject": "Fw: [External] Submitting KFD abstracts to the 9th Saudi Spine society annual conference",
+      "from": "Waeel Hamouda <wohamouda@outlook.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T13:13:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New Issue Online - eTOC for July-September 2026 issue",
+      "from": "Indian Journal of Physiology and Pharmacology <etoc@scientificscholar.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T13:48:14.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Fw: [External] Submitting KFD abstracts to the 9th Saudi Spine society annual conference",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T13:59:27.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation to Contribute to an Upcoming Issue in Scholastic Orthopaedics Journal",
+      "from": "<ortho@scholasticopenaccess.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-19T01:16:06.000Z",
       "reason": "unrelated",
       "subject": "Re: Rare Lumbar Data",
@@ -2064,41 +2099,6 @@
       "subject": "Register your mini-teams: SurgWeek-2 Weekly update",
       "from": "noreply@surgweek2.com",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T17:43:04.000Z",
-      "reason": "unrelated",
-      "subject": "Register your mini-teams: SurgWeek-2 Weekly update",
-      "from": "noreply@surgweek2.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T17:59:10.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [External] Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T18:20:12.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T10:31:25.000Z",
-      "reason": "unrelated",
-      "subject": "Your Sage & Corwin account",
-      "from": "\"Sage | Corwin\" <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T13:45:22.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🚨 AGI arrived on Sunday",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
