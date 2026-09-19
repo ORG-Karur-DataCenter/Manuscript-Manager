@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-19T16:40:59.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Manuscript ID [JMISST-26-0601] Letter of decision 1st - Reject and Resubmission",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T16:20:31.000Z",
+      "reason": "unrelated",
+      "subject": "Your paper \"Does progress in microfracture techniques…\" — a note from Magellan Longevity",
+      "from": "Gabriel Radu <gabriel@magellanlongevity.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T16:40:59.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Manuscript ID [JMISST-26-0601] Letter of decision 1st - Reject and Resubmission",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-19T11:20:21.000Z",
       "reason": "unrelated",
       "subject": "Re: avaisor Research on Use Case - Situation B, Next steps before Phase 2",
@@ -2077,27 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "The Scientific Programme | SPARSH REVISION COURSE 2026",
       "from": "SPARSH COURSE 2026 <sparshconference@250907063.mailchimpapp.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T13:40:02.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T15:24:18.000Z",
-      "reason": "unrelated",
-      "subject": "AO Spine KF Degenerative Monthly meetings reminder and proposed agendas and news items",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T17:39:33.000Z",
-      "reason": "unrelated",
-      "subject": "Register your mini-teams: SurgWeek-2 Weekly update",
-      "from": "noreply@surgweek2.com",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

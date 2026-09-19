@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:29:11.194Z",
+  "generatedAt": "2026-09-19T18:05:04.773Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -13319,14 +13319,14 @@
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
       "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
       "titleNormalized": "minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden a systematic review and meta analysis",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
       "currentJournal": "Journal of Minimally Invasive Spine Surgery & Technique",
-      "currentManuscriptNumber": "20260169",
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "JMISST-26-0601",
+      "currentStatus": "Revision requested",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -13458,10 +13458,10 @@
         },
         {
           "journal": "Journal of Minimally Invasive Spine Surgery & Technique",
-          "manuscriptNumber": "20260169",
+          "manuscriptNumber": "JMISST-26-0601",
           "submittedDate": "2026-09-12T20:30:35.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -13475,6 +13475,19 @@
                 "threadId": "1a09750980fed387",
                 "messageId": "1a09750998f1e13c",
                 "subject": "[Journal of Minimally Invasive Spine Surgery & Technique] Complete submissions. Temporary number  [20260169]",
+                "from": "JMISST <office@jmisst.org>"
+              }
+            },
+            {
+              "timestamp": "2026-09-19T16:35:58.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The manuscript was rejected in its current form but the authors were invited to submit a substantially revised version.",
+              "manuscriptNumber": "JMISST-26-0601",
+              "source": {
+                "threadId": "1a0ba86523a6f3cb",
+                "messageId": "1a0ba86523a6f3cb",
+                "subject": "Manuscript ID [JMISST-26-0601] Letter of decision 1st - Reject and Resubmission",
                 "from": "JMISST <office@jmisst.org>"
               }
             }
@@ -13592,10 +13605,27 @@
             "from": "JMISST <office@jmisst.org>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-19T16:35:58.000Z",
+          "journal": "Journal of Minimally Invasive Spine Surgery & Technique",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JMISST-26-0601",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The manuscript was rejected in its current form but the authors were invited to submit a substantially revised version.",
+          "source": {
+            "threadId": "1a0ba86523a6f3cb",
+            "messageId": "1a0ba86523a6f3cb",
+            "subject": "Manuscript ID [JMISST-26-0601] Letter of decision 1st - Reject and Resubmission",
+            "from": "JMISST <office@jmisst.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-19T18:53:15.000Z",
-      "updatedAt": "2026-09-12T20:30:35.000Z",
+      "updatedAt": "2026-09-19T16:35:58.000Z",
       "deadline": null,
       "deadlineSource": null
     },
