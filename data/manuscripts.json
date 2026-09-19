@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:05:04.773Z",
+  "generatedAt": "2026-09-19T20:45:46.963Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -13461,7 +13461,7 @@
           "manuscriptNumber": "JMISST-26-0601",
           "submittedDate": "2026-09-12T20:30:35.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -13475,6 +13475,19 @@
                 "threadId": "1a09750980fed387",
                 "messageId": "1a09750998f1e13c",
                 "subject": "[Journal of Minimally Invasive Spine Surgery & Technique] Complete submissions. Temporary number  [20260169]",
+                "from": "JMISST <office@jmisst.org>"
+              }
+            },
+            {
+              "timestamp": "2026-09-19T16:33:57.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and the submission was confirmed.",
+              "manuscriptNumber": "JMISST-26-0601",
+              "source": {
+                "threadId": "1a0ba847be0da067",
+                "messageId": "1a0ba847be0da067",
+                "subject": "Completion of manuscript submission to Journal of Minimally Invasive Spine Surgery & Technique",
                 "from": "JMISST <office@jmisst.org>"
               }
             },
@@ -13602,6 +13615,23 @@
             "threadId": "1a09750980fed387",
             "messageId": "1a09750998f1e13c",
             "subject": "[Journal of Minimally Invasive Spine Surgery & Technique] Complete submissions. Temporary number  [20260169]",
+            "from": "JMISST <office@jmisst.org>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-19T16:33:57.000Z",
+          "journal": "Journal of Minimally Invasive Spine Surgery & Technique",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JMISST-26-0601",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and the submission was confirmed.",
+          "source": {
+            "threadId": "1a0ba847be0da067",
+            "messageId": "1a0ba847be0da067",
+            "subject": "Completion of manuscript submission to Journal of Minimally Invasive Spine Surgery & Technique",
             "from": "JMISST <office@jmisst.org>"
           },
           "needsReview": false

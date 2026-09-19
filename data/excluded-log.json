@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-19T18:50:30.000Z",
+      "reason": "unrelated",
+      "subject": "GSC 2027 affiliations",
+      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T20:15:58.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: GSC 2027 affiliations",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-19T16:40:59.000Z",
       "reason": "forwarded_between_us",
       "subject": "Fwd: Manuscript ID [JMISST-26-0601] Letter of decision 1st - Reject and Resubmission",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: [External] Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
       "from": "Roger Hartl <roh9005@med.cornell.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T16:55:13.000Z",
-      "reason": "unrelated",
-      "subject": "Want to publish a book but don’t have time? ",
-      "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T11:15:49.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The Scientific Programme | SPARSH REVISION COURSE 2026",
-      "from": "SPARSH COURSE 2026 <sparshconference@250907063.mailchimpapp.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
