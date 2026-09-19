@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-19T22:25:49.000Z",
+      "reason": "unrelated",
+      "subject": "Madhan Jeyaraman - new articles",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T23:02:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Suez Canal University × PaperLens — see the conference research",
+      "from": "\"Dr. Karim\" <karim@paperlens.science>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-19T18:50:30.000Z",
       "reason": "unrelated",
       "subject": "GSC 2027 affiliations",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
       "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T22:30:54.000Z",
-      "reason": "unrelated",
-      "subject": "30% OFF Sitewide | Find Your Perfect Package Today",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T22:58:39.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [External] Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
-      "from": "Roger Hartl <roh9005@med.cornell.edu>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
