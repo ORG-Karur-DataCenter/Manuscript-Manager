@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-18T05:50:15.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Request to Present your Precious Report",
+      "from": "\"JSUR 18.09.2026\" <contact@paperexplorereviews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T02:00:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "WATCH & LEARN with ESSKA!",
+      "from": "ESSKA Educational Newsletter <academy@esska.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-19T03:55:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Official Invitation: Invited Speaker - ICAMET 2026 - Hybrid Mode - RNS Institute of Technology, Bengaluru, Karnataka, INDIA (24–26 November 2026)",
+      "from": "ICAMET 2026 <contact@rpconfseries.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-18T13:00:28.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "What wearable data reveals about menstrual cycles",
@@ -2077,27 +2098,6 @@
       "reason": "unrelated",
       "subject": "A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
       "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T16:01:46.000Z",
-      "reason": "unrelated",
-      "subject": "Madhan Jeyaraman - new articles",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T16:01:46.000Z",
-      "reason": "unrelated",
-      "subject": "New articles in my profile",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T16:04:45.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [External] Re: GSC 2027 Yokohama — AO MISS classification pre-course: attendance & faculty interest",
-      "from": "Roger Hartl <roh9005@med.cornell.edu>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
