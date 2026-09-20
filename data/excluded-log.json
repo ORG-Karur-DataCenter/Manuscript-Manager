@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-20T00:17:13.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 128152 for World Journal of Gastrointestinal Endoscopy (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-19T22:25:49.000Z",
       "reason": "unrelated",
       "subject": "Madhan Jeyaraman - new articles",
@@ -2092,13 +2099,6 @@
       "subject": "Register your mini-teams: SurgWeek-2 Weekly update",
       "from": "noreply@surgweek2.com",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T21:40:43.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
