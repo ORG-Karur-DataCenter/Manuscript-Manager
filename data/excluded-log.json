@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-20T14:16:08.000Z",
+      "reason": "unrelated",
+      "subject": "You appeared in 8 searches this week",
+      "from": "LinkedIn <notifications-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-20T09:01:47.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to review a manuscript for World Journal of Surgical Oncology from Dr Pandey",
+      "from": "World Journal of Surgical Oncology <peer-review@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-20T03:24:12.000Z",
       "reason": "unrelated",
       "subject": "Proposal for Book Publication with Innovative Publication",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Your paper in Cells - a figure draft",
       "from": "Alex Carter <alex@mail.scifig.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-08T06:12:40.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One Reminder of Active Assignments - [EMID:3656aba3326f9bfa]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-08T01:08:38.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "[Bioengineering, IF 4.4] Consider Publishing Your Research with Bioengineering",
-      "from": "Bioengineering Editorial Office <bioengineering@mdpi.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
