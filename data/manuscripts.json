@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:13:36.799Z",
+  "generatedAt": "2026-09-20T06:24:09.402Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6758,14 +6758,14 @@
       "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
       "title": "Factor XIIIa Controls Fibrin Ultrastructure and Protein Release in Injectable Platelet-Rich Fibrin: A Mechanistic In-Vitro Study",
       "titleNormalized": "factor xiiia controls fibrin ultrastructure and protein release in injectable platelet rich fibrin a mechanistic in vitro study",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
       "currentJournal": "World Journal of Experimental Medicine",
       "currentManuscriptNumber": "126998",
-      "currentStatus": "Under review",
+      "currentStatus": "Revision requested",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6777,7 +6777,7 @@
           "manuscriptNumber": "126998",
           "submittedDate": "2026-08-18T06:30:40.000Z",
           "outcome": "active",
-          "status": "under_review",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -6818,6 +6818,19 @@
               "source": {
                 "threadId": "1a0541259fda6896",
                 "messageId": "1a0541259fda6896",
+                "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126998",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-20T03:20:58.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Reviewer completed review and requested substantial revisions.",
+              "manuscriptNumber": "126998",
+              "source": {
+                "threadId": "1a0bcd4d72dcea11",
+                "messageId": "1a0bcd4d72dcea11",
                 "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126998",
                 "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
               }
@@ -6874,10 +6887,27 @@
             "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T03:20:58.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "126998",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "Reviewer completed review and requested substantial revisions.",
+          "source": {
+            "threadId": "1a0bcd4d72dcea11",
+            "messageId": "1a0bcd4d72dcea11",
+            "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126998",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-18T06:30:40.000Z",
-      "updatedAt": "2026-08-30T19:08:02.000Z",
+      "updatedAt": "2026-09-20T03:20:58.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -16061,14 +16091,14 @@
       "id": "osteoprotegerin-and-receptor-activator-of-nf-kappab-ligand-as-biomarke",
       "title": "Osteoprotegerin and receptor activator of NF-kappaB ligand as biomarkers predicting bone resorption-related disorders",
       "titleNormalized": "osteoprotegerin and receptor activator of nf kappab ligand as biomarkers predicting bone resorption related disorders",
-      "bucket": "in_review",
+      "bucket": "published",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "World Journal of Experimental Medicine",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "120531",
+      "currentStatus": "Published",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -16079,8 +16109,8 @@
           "journal": "World Journal of Experimental Medicine",
           "manuscriptNumber": "120531",
           "submittedDate": "2026-06-04T08:59:27.000Z",
-          "outcome": "active",
-          "status": "under_review",
+          "outcome": "published",
+          "status": "published",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -16124,6 +16154,19 @@
                 "subject": "Manuscript No. 120531 – DOI Registered via Crossref Pending Publication and Available as Article in Press",
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-09-20T03:29:02.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The manuscript has been published online and the author is asked to complete a post‑publication surveys within one week.",
+              "manuscriptNumber": "120531",
+              "source": {
+                "threadId": "1a0bcdc748d00cb7",
+                "messageId": "1a0bcdc748d00cb7",
+                "subject": "World Journal of Experimental Medicine Manuscript Publication-Manuscript NO: 120531",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
               }
             }
           ]
@@ -16177,10 +16220,29 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T03:29:02.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "published",
+          "manuscriptNumber": "120531",
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been published online and the author is asked to complete a post‑publication surveys within one week.",
+          "source": {
+            "threadId": "1a0bcdc748d00cb7",
+            "messageId": "1a0bcdc748d00cb7",
+            "subject": "World Journal of Experimental Medicine Manuscript Publication-Manuscript NO: 120531",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-04T08:59:27.000Z",
-      "updatedAt": "2026-06-04T08:59:27.000Z"
+      "updatedAt": "2026-09-20T03:29:02.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "perioperative-bleeding-risk-associated-with-ssris-in-spinal-surgery-a-",
