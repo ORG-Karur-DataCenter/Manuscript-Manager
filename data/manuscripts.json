@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:32:44.935Z",
+  "generatedAt": "2026-09-20T22:32:01.990Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -4149,7 +4149,7 @@
       "submissions": [
         {
           "journal": "Spine Deformity",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "SDEF-D-26-00741",
           "submittedDate": "2026-09-20T15:43:32.000Z",
           "outcome": "active",
           "status": "new_submission",
@@ -8875,14 +8875,14 @@
       "id": "how-safe-are-s2-alar-iliac-screws-a-systematic-review-and-meta-analysi",
       "title": "How Safe Are S2 Alar-Iliac Screws? A Systematic Review and Meta-analysis of Cortical Breach, Prevention Strategies, and a Proposed Unified Breach Classification",
       "titleNormalized": "how safe are s2 alar iliac screws a systematic review and meta analysis of cortical breach prevention strategies and a proposed unified breach classification",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-1643",
-      "currentStatus": "Rejected",
+      "currentJournal": "Journal of Neurosurgery Publishing Group",
+      "currentManuscriptNumber": "SPINE26-1301",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -8979,6 +8979,30 @@
                 "messageId": "1a0a1283b2e17175",
                 "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1643",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Neurosurgery Publishing Group",
+          "manuscriptNumber": "SPINE26-1301",
+          "submittedDate": "2026-09-20T19:49:51.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-20T19:49:51.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and acknowledged by the journal.",
+              "manuscriptNumber": "SPINE26-1301",
+              "source": {
+                "threadId": "1a0c05e29c560e14",
+                "messageId": "1a0c05e29c560e14",
+                "subject": "SPINE26-1301 How Safe Are S2 Alar-Iliac Screws? A Systematic Review and Meta-analysis of Cortical Breach, Prevention Strategies, and a Proposed Unified Breach Classification manuscript received by Journal of Neurosurgery Publishing Group",
+                "from": "jnsspine@msubmit.net"
               }
             }
           ]
@@ -9082,10 +9106,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T19:49:51.000Z",
+          "journal": "Journal of Neurosurgery Publishing Group",
+          "eventType": "new_submission",
+          "manuscriptNumber": "SPINE26-1301",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and acknowledged by the journal.",
+          "source": {
+            "threadId": "1a0c05e29c560e14",
+            "messageId": "1a0c05e29c560e14",
+            "subject": "SPINE26-1301 How Safe Are S2 Alar-Iliac Screws? A Systematic Review and Meta-analysis of Cortical Breach, Prevention Strategies, and a Proposed Unified Breach Classification manuscript received by Journal of Neurosurgery Publishing Group",
+            "from": "jnsspine@msubmit.net"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T21:37:39.000Z",
-      "updatedAt": "2026-09-14T18:22:43.000Z",
+      "updatedAt": "2026-09-20T19:49:51.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -13627,14 +13668,14 @@
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
       "title": "Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
       "titleNormalized": "minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden a systematic review and meta analysis",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Journal of Minimally Invasive Spine Surgery & Technique",
-      "currentManuscriptNumber": "JMISST-26-0601",
-      "currentStatus": "Revision requested",
+      "currentManuscriptNumber": "20260177",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -13766,7 +13807,7 @@
         },
         {
           "journal": "Journal of Minimally Invasive Spine Surgery & Technique",
-          "manuscriptNumber": "JMISST-26-0601",
+          "manuscriptNumber": "20260177",
           "submittedDate": "2026-09-12T20:30:35.000Z",
           "outcome": "active",
           "status": "new_submission",
@@ -13809,6 +13850,19 @@
                 "threadId": "1a0ba86523a6f3cb",
                 "messageId": "1a0ba86523a6f3cb",
                 "subject": "Manuscript ID [JMISST-26-0601] Letter of decision 1st - Reject and Resubmission",
+                "from": "JMISST <office@jmisst.org>"
+              }
+            },
+            {
+              "timestamp": "2026-09-20T20:40:59.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and assigned a temporary number; the journal will assign an official number later.",
+              "manuscriptNumber": "20260177",
+              "source": {
+                "threadId": "1a0c08d0084fdd00",
+                "messageId": "1a0c08d01a4136b8",
+                "subject": "[Journal of Minimally Invasive Spine Surgery & Technique] Complete submissions. Temporary number  [20260177]",
                 "from": "JMISST <office@jmisst.org>"
               }
             }
@@ -13960,10 +14014,27 @@
             "from": "JMISST <office@jmisst.org>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T20:40:59.000Z",
+          "journal": "Journal of Minimally Invasive Spine Surgery & Technique",
+          "eventType": "new_submission",
+          "manuscriptNumber": "20260177",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and assigned a temporary number; the journal will assign an official number later.",
+          "source": {
+            "threadId": "1a0c08d0084fdd00",
+            "messageId": "1a0c08d01a4136b8",
+            "subject": "[Journal of Minimally Invasive Spine Surgery & Technique] Complete submissions. Temporary number  [20260177]",
+            "from": "JMISST <office@jmisst.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-19T18:53:15.000Z",
-      "updatedAt": "2026-09-19T16:35:58.000Z",
+      "updatedAt": "2026-09-20T20:40:59.000Z",
       "deadline": null,
       "deadlineSource": null
     },

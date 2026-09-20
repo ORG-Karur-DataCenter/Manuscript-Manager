@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-20T20:47:31.000Z",
+      "reason": "unrelated",
+      "subject": "Editorial Manager Registration",
+      "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-20T19:56:50.000Z",
+      "reason": "unrelated",
+      "subject": "MIS Facet Fusion survey: abstract for GSC 2027",
+      "from": "David Gendelberg <gendelda@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-20T14:16:08.000Z",
       "reason": "unrelated",
       "subject": "You appeared in 8 searches this week",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Elevate your trauma surgery expertise with JBJS MRC Oxford",
       "from": "\"Lippincott® Journals\" <info@ovid.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-08T04:52:30.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-00960 - [EMID:ed2f6c3c908acfc7]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-08T05:41:45.000Z",
-      "reason": "unrelated",
-      "subject": "Your paper in Cells - a figure draft",
-      "from": "Alex Carter <alex@mail.scifig.ai>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
