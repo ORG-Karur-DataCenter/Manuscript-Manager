@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:55:36.662Z",
+  "generatedAt": "2026-09-20T19:32:44.935Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1258,7 +1258,7 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-0112.R2",
+      "currentManuscriptNumber": null,
       "currentStatus": "Published",
       "doi": "10.1177/21925682261492226",
       "publicationLink": null,
@@ -1326,6 +1326,30 @@
                 "threadId": "1a0b2091cdc55cb8",
                 "messageId": "1a0b2091cdc55cb8",
                 "subject": "Reminder: Complete the Open Access process for your article 10.1177/21925682261492226 now",
+                "from": "licensing-payment@sagepub.com"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-20T14:40:29.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1177/21925682261492226",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-20T14:40:29.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The author's article has been published open access in Global Spine Journal with DOI 10.1177/21925682261492226.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0bf42f0d99e1c4",
+                "messageId": "1a0bf42f0d99e1c4",
+                "subject": "License chosen for your article in Global Spine Journal",
                 "from": "licensing-payment@sagepub.com"
               }
             }
@@ -1398,10 +1422,27 @@
             "from": "licensing-payment@sagepub.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T14:40:29.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "published",
+          "manuscriptNumber": null,
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's article has been published open access in Global Spine Journal with DOI 10.1177/21925682261492226.",
+          "source": {
+            "threadId": "1a0bf42f0d99e1c4",
+            "messageId": "1a0bf42f0d99e1c4",
+            "subject": "License chosen for your article in Global Spine Journal",
+            "from": "licensing-payment@sagepub.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-12T22:18:58.000Z",
-      "updatedAt": "2026-09-18T01:02:15.000Z",
+      "updatedAt": "2026-09-20T14:40:29.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -14151,7 +14192,7 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Annals of Epidemiology",
-      "currentManuscriptNumber": null,
+      "currentManuscriptNumber": "AEP-D-26-01659",
       "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
@@ -14226,7 +14267,7 @@
         },
         {
           "journal": "Annals of Epidemiology",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "AEP-D-26-01659",
           "submittedDate": "2026-07-14T14:44:52.000Z",
           "outcome": "active",
           "status": "new_submission",
@@ -14245,6 +14286,19 @@
                 "subject": "Submission to Annals of Epidemiology requires action",
                 "from": "Annals of Epidemiology <em@editorialmanager.com>",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-09-20T18:37:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and assigned a handling editor.",
+              "manuscriptNumber": "AEP-D-26-01659",
+              "source": {
+                "threadId": "1a0c01bef452a79c",
+                "messageId": "1a0c01bef452a79c",
+                "subject": "Confirming handling editor for submission to Annals of Epidemiology",
+                "from": "Annals of Epidemiology <em@editorialmanager.com>"
               }
             }
           ]
@@ -14580,10 +14634,27 @@
             "from": "Anneke Germeraad-Uriot <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T18:37:30.000Z",
+          "journal": "Annals of Epidemiology",
+          "eventType": "new_submission",
+          "manuscriptNumber": "AEP-D-26-01659",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and assigned a handling editor.",
+          "source": {
+            "threadId": "1a0c01bef452a79c",
+            "messageId": "1a0c01bef452a79c",
+            "subject": "Confirming handling editor for submission to Annals of Epidemiology",
+            "from": "Annals of Epidemiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T11:02:23.000Z",
-      "updatedAt": "2026-09-07T14:36:31.000Z",
+      "updatedAt": "2026-09-20T18:37:30.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -19346,7 +19417,7 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Archives of Gerontology and Geriatrics",
+      "currentJournal": "International Orthopaedics",
       "currentManuscriptNumber": null,
       "currentStatus": "Submitted",
       "doi": null,
@@ -19542,6 +19613,54 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-20T17:56:17.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-20T17:56:17.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and submitted, confirming the new submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0bff6339d80ad0",
+                "messageId": "1a0bff6339d80ad0",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "International Orthopaedics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-20T18:09:17.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-20T18:09:17.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been submitted and is now under consideration at International Orthopaedics.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0c002171c63603",
+                "messageId": "1a0c002171c63603",
+                "subject": "Track the status of your submission to International Orthopaedics",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -19673,10 +19792,44 @@
             "from": "JOIO Editorial Office <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T17:56:17.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and submitted, confirming the new submission.",
+          "source": {
+            "threadId": "1a0bff6339d80ad0",
+            "messageId": "1a0bff6339d80ad0",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T18:09:17.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been submitted and is now under consideration at International Orthopaedics.",
+          "source": {
+            "threadId": "1a0c002171c63603",
+            "messageId": "1a0c002171c63603",
+            "subject": "Track the status of your submission to International Orthopaedics",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-04T12:04:40.000Z",
-      "updatedAt": "2026-09-16T02:12:34.000Z",
+      "updatedAt": "2026-09-20T18:09:17.000Z",
       "deadline": null,
       "deadlineSource": null
     },
