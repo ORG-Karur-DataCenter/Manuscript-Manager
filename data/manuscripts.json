@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T06:28:58.459Z",
+  "generatedAt": "2026-09-21T14:26:35.473Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3068,15 +3068,15 @@
       "id": "clinical-and-radiographic-outcomes-of-c7-preserving-versus-conventiona",
       "title": "Clinical and Radiographic Outcomes of C7-Preserving Versus Conventional Cervical Laminoplasty: A Systematic Review and Meta-analysis",
       "titleNormalized": "clinical and radiographic outcomes of c7 preserving versus conventional cervical laminoplasty a systematic review and meta analysis",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Journal of Clinical Neuroscience",
       "currentManuscriptNumber": "JOCN-D-26-03443",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -3089,8 +3089,8 @@
           "journal": "Journal of Clinical Neuroscience",
           "manuscriptNumber": "JOCN-D-26-03443",
           "submittedDate": "2026-09-20T16:12:34.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -3117,6 +3117,19 @@
                 "threadId": "1a0bf973c55f1b3d",
                 "messageId": "1a0bf973c55f1b3d",
                 "subject": "Confirming handling editor for submission to Journal of Clinical Neuroscience",
+                "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-21T08:41:32.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected without external review due to lack of sufficient novelty.",
+              "manuscriptNumber": "JOCN-D-26-03443",
+              "source": {
+                "threadId": "1a0c320a72cf5c11",
+                "messageId": "1a0c320a72cf5c11",
+                "subject": "Decision on submission to Journal of Clinical Neuroscience",
                 "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>"
               }
             }
@@ -3157,10 +3170,27 @@
             "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T08:41:32.000Z",
+          "journal": "Journal of Clinical Neuroscience",
+          "eventType": "rejected",
+          "manuscriptNumber": "JOCN-D-26-03443",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected without external review due to lack of sufficient novelty.",
+          "source": {
+            "threadId": "1a0c320a72cf5c11",
+            "messageId": "1a0c320a72cf5c11",
+            "subject": "Decision on submission to Journal of Clinical Neuroscience",
+            "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-20T16:12:34.000Z",
-      "updatedAt": "2026-09-20T16:12:34.000Z"
+      "updatedAt": "2026-09-21T08:41:32.000Z"
     },
     {
       "id": "comparative-efficacy-and-safety-of-osteobiologics-in-posterior-lumbar-",
@@ -5014,6 +5044,74 @@
       ],
       "createdAt": "2026-06-09T08:31:55.000Z",
       "updatedAt": "2026-06-09T08:31:55.000Z"
+    },
+    {
+      "id": "digital-twins-in-orthopaedic-arthroscopy-enabling-precision-surgery-an",
+      "title": "Digital Twins in Orthopaedic Arthroscopy: Enabling Precision Surgery and Personalised Care",
+      "titleNormalized": "digital twins in orthopaedic arthroscopy enabling precision surgery and personalised care",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Cureus",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Cureus",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-21T12:45:20.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-21T12:45:20.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "You have been listed as a co‑author of a manuscript submitted to Cureus and are asked to confirm or reject authorship.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0c3ffdd9627831",
+                "messageId": "1a0c3ffdd9627831",
+                "subject": "Dr. Muthu, you've been listed as co-author of an article manuscript submitted to Cureus.",
+                "from": "Cureus <no-reply@cureus.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-21T12:45:20.000Z",
+          "journal": "Cureus",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "You have been listed as a co‑author of a manuscript submitted to Cureus and are asked to confirm or reject authorship.",
+          "source": {
+            "threadId": "1a0c3ffdd9627831",
+            "messageId": "1a0c3ffdd9627831",
+            "subject": "Dr. Muthu, you've been listed as co-author of an article manuscript submitted to Cureus.",
+            "from": "Cureus <no-reply@cureus.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-21T12:45:20.000Z",
+      "updatedAt": "2026-09-21T12:45:20.000Z"
     },
     {
       "id": "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s",

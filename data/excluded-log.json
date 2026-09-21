@@ -1,6 +1,167 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-21T06:32:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Energy Contents: Volume 11 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T09:09:13.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Decision on submission to Journal of Clinical Neuroscience",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T13:04:57.000Z",
+      "reason": "unrelated",
+      "subject": "First real-time quantum jumps observed in sound",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:34:05.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:34:36.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:36:10.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:39:43.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:40:14.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:41:16.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:41:49.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:42:50.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:43:22.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T07:26:05.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "GSC Abstract Submission - Reg",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T07:26:46.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T07:34:41.000Z",
+      "reason": "unrelated",
+      "subject": "Delivery Status Notification (Failure)",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T08:39:30.000Z",
+      "reason": "unrelated",
+      "subject": "Re: MIS Facet Fusion survey: abstract for GSC 2027",
+      "from": "\"Σωτήριος Βεράνης\" <veranissotiris@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T09:00:16.000Z",
+      "reason": "unrelated",
+      "subject": "A recommendation for Clinical and Radiographic Outcomes of C7-Preserving Versus Conventional Cervical Laminoplasty: A Systematic Review and Meta-analysis",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T09:09:13.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Decision on submission to Journal of Clinical Neuroscience",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T09:28:46.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC Abstract Submission - Reg",
+      "from": "Vadim Byvaltsev <vadim75byvaltsev@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T10:00:52.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Good news: abstract deadline extended to October 8",
+      "from": "Global Spine Congress <gsc@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T12:37:23.000Z",
+      "reason": "unrelated",
+      "subject": "Your IPO application for National Stock Exchange is submitted",
+      "from": "Zerodha <noreply-ipo@qmailer.zerodha.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T13:51:04.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ijc Manuscript for Peer-Review: ijc_625_26",
+      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T14:11:50.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC Abstract Submission - Reg",
+      "from": "\"Wang, Jeffrey\" <Jeffrey.Wang@med.usc.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-21T02:54:06.000Z",
       "reason": "unrelated",
       "subject": "Follow articles by Kuldeep Dhama",
@@ -1937,167 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re:  ICM-Focus issue-GSJ - From Dr S Rajasekaran",
       "from": "\"周非非\" <orthozhou@163.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T09:22:39.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
-      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T21:05:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Spinal Column | SRS Newsletter",
-      "from": "SRS <info@srs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T19:01:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Introducing the StanfordNext plan",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T13:16:32.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Mini Review or Commentary on your paper- Journal of Pediatrics and Pediatric Medicine",
-      "from": "Journal of Pediatrics and Pediatric Medicine <editor@pediatricsresearchjournal.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T09:22:39.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
-      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T13:01:17.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Young patients help paint Stanford hospital mural",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T14:16:07.000Z",
-      "reason": "unrelated",
-      "subject": "You have 3 new messages",
-      "from": "LinkedIn <notifications-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T15:29:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "💸 ChatGPT solved a $1 million math problem",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T15:20:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the latest  Spine - Vol. 51, No. 19, October 1, 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T15:40:13.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "JOJS_26_85_R2 has been Un-assigned",
-      "from": "noreply@jaypeejournals.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T16:00:46.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Invitation: Surgery Systems LIVE 2026, ICC Birmingham, 24 November",
-      "from": "Surgery Systems LIVE 2026 <noreply@surgweek2.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T16:01:12.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Welcome to the September issue of the Brain & Spine Editors' Choice newsletter",
-      "from": "\"EUROSPINE, the Spine Society of Europe via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T04:31:20.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Invitation: Understand Plain Language Summaries and its impact for your work. Register Now!",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T07:29:15.000Z",
-      "reason": "unrelated",
-      "subject": "New in Jenni: Charts 📊",
-      "from": "Marc from Jenni AI <marc@mail.jenni.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T07:26:43.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Sathish Muthu, Publish Up to 5 Research Papers in One Simple Step",
-      "from": "Editor IJRMCS <jesse.noel@journalserapublications.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T07:53:27.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4500501 - Review Request Reminder",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T10:02:48.000Z",
-      "reason": "unrelated",
-      "subject": "Your publication: Recommendations of the International Consensus Meeting (ICM) 2025 on Spinal Infections: Part A Pyogenic Spondylodiscitis",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T11:19:38.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, an article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T00:06:51.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Long-Term Primary Care Saves Lives — and Is Hard to Achieve",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T03:03:45.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "🟠RFCSR | Warm Greetings and Invitation to Contribute to Science Factors",
-      "from": "\"Dr. Christine Thomas\" <christine.thomas@rfcsr.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T03:34:43.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Webinar Invitation: Smarter Research with Web of Science Research Assistant",
-      "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T04:30:44.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Discover What’s Happening at the AO Spine AP Regional Conference 2026",
-      "from": "AO Spine <aospine@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T04:32:22.000Z",
-      "reason": "unrelated",
-      "subject": "*** Discounted Priced -- EMBASE-indexed and NMC-Approved Medical Journals -- (For Library Subscription) -- Library Connect, Kolkata",
-      "from": "Library Connect <souvik@libraryconnect.in>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
