@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T01:10:24.929Z",
+  "generatedAt": "2026-09-21T06:28:58.459Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -16812,6 +16812,74 @@
       ],
       "createdAt": "2026-05-19T07:26:09.000Z",
       "updatedAt": "2026-05-19T07:26:09.000Z"
+    },
+    {
+      "id": "piezo-channels-and-mechanotransduction-in-osteoarthritis-emerging-mole",
+      "title": "Piezo Channels and Mechanotransduction in Osteoarthritis: Emerging Molecular Targets",
+      "titleNormalized": "piezo channels and mechanotransduction in osteoarthritis emerging molecular targets",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Cartilage",
+      "currentManuscriptNumber": "CART-26-0193",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Cartilage",
+          "manuscriptNumber": "CART-26-0193",
+          "submittedDate": "2026-09-21T05:51:40.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-21T05:51:40.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "CART-26-0193",
+              "source": {
+                "threadId": "1a0c285267e2cd99",
+                "messageId": "1a0c285267e2cd99",
+                "subject": "Cartilage  CART-26-0193",
+                "from": "Cartilage <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-21T05:51:40.000Z",
+          "journal": "Cartilage",
+          "eventType": "new_submission",
+          "manuscriptNumber": "CART-26-0193",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a0c285267e2cd99",
+            "messageId": "1a0c285267e2cd99",
+            "subject": "Cartilage  CART-26-0193",
+            "from": "Cartilage <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-21T05:51:40.000Z",
+      "updatedAt": "2026-09-21T05:51:40.000Z"
     },
     {
       "id": "platelet-rich-plasma-injections-in-musculoskeletal-medicine-procedural",

@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-21T02:54:06.000Z",
+      "reason": "unrelated",
+      "subject": "Follow articles by Kuldeep Dhama",
+      "from": "Google Scholar Citations <scholarcitations-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T03:18:30.000Z",
+      "reason": "unrelated",
+      "subject": "Web of Science Alert - Sathish Muthu Profile Citation Alert - 192 results from articles",
+      "from": "alerts-noreply@clarivate.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T04:00:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Secure your seat! AO Spine Advanced Seminar—Deformity (Pediatrics and Adults), Ho Chi Minh City, Vietnam | October 3, 2026",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T04:06:17.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4597111 - Reminder for Invitation to Review for JCM",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T05:23:57.000Z",
+      "reason": "unrelated",
+      "subject": "Cartilage - ScholarOne Manuscripts Password Request",
+      "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T05:25:06.000Z",
+      "reason": "unrelated",
+      "subject": "Cartilage - Account Modified in ScholarOne Manuscripts",
+      "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T05:45:41.000Z",
+      "reason": "unrelated",
+      "subject": "Call for applications! AO Trauma Asia Pacific Regional Board Chairperson and AO Trauma Asia Pacific Research Committee Chairperson",
+      "from": "AO Trauma <aotrauma@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-20T23:32:07.000Z",
       "reason": "unrelated",
       "subject": "Re: MIS Facet Fusion survey: abstract for GSC 2027",
@@ -2050,55 +2099,6 @@
       "subject": "*** Discounted Priced -- EMBASE-indexed and NMC-Approved Medical Journals -- (For Library Subscription) -- Library Connect, Kolkata",
       "from": "Library Connect <souvik@libraryconnect.in>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T04:50:46.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:ef2ec11799fbfd40]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-09T05:11:42.000Z",
-      "reason": "unrelated",
-      "subject": "Funds / Securities Balance",
-      "from": "BSE ALERTS <info@bseindia.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-08T21:32:07.000Z",
-      "reason": "unrelated",
-      "subject": "Sale Extended! 30% OFF Sitewide | One Final Chance",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-07T14:03:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The week in physics: Graviton detection; Worsening geomagnetic storms",
-      "from": "Physics Today <physicstoday@aipcomm.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-08T15:35:53.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Introducing ShipAI",
-      "from": "Towards Data Science <newsletter@towardsdatascience.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-08T11:00:24.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Sathish Muthu published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-08T13:01:12.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Joint replacements that last a lifetime",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
