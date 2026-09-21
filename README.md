@@ -139,6 +139,20 @@ manuscript, are in the message rather than in any summary of it.
 ---
 
 <br>
+
+> ### 📘 Setting this up for yourself, from scratch?
+>
+> **[SETUP-GUIDE.md](SETUP-GUIDE.md)** is a step-by-step walkthrough written for
+> someone who has never used GitHub and will not open a terminal. It starts from
+> a ZIP of this repository and ends with a working dashboard, WhatsApp reminders
+> included — every step in a browser, with the traps called out where they bite.
+> Also as [PDF](docs/Manuscript-Manager-Setup-Guide.pdf) and
+> [Word](docs/Manuscript-Manager-Setup-Guide.docx).
+>
+> The section below is the same ground in the compressed form a developer wants.
+
+<br>
+
 ## One-time setup
 
 ### 1. Google Cloud — create OAuth credentials
