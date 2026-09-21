@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-21T14:55:40.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🧥 Huang says the doomers are bluffing",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T19:27:57.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:76dceb763dedcd1a]",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T10:46:47.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from National Institute of Occupational Health and Poison Control, Chinese Center For Disease Control And Prevention",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T14:55:01.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC Abstract Submission - Reg",
+      "from": "\"Hsieh, Patrick\" <Patrick.Hsieh@med.usc.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T19:20:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Meet The JBJS Audio Narrators 🎧",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T19:27:57.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:76dceb763dedcd1a]",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-21T05:30:59.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Have you registered for the webinar: Smarter Research with Web of Science Research Assistant",
@@ -2056,48 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Rare Lumbar Data",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T14:11:16.000Z",
-      "reason": "unrelated",
-      "subject": "Re: ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "Ronald Tangente <rtangente@yahoo.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T14:38:38.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T06:34:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Reviews Microbiology Contents: Volume 24 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T10:28:23.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Is your research ready to be published?",
-      "from": "Sage Author Support <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T10:30:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature alert for 10th September 2026",
-      "from": "Nature <alerts@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T07:05:23.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

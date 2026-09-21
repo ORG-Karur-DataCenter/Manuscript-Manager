@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:55:11.819Z",
+  "generatedAt": "2026-09-21T19:37:35.166Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3967,9 +3967,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentJournal": "The Protein Journal",
+      "currentManuscriptNumber": "2d67db16-8834-425e-b816-417c0f4a036c",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -4064,6 +4064,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "The Protein Journal",
+          "manuscriptNumber": "2d67db16-8834-425e-b816-417c0f4a036c",
+          "submittedDate": "2026-09-21T18:11:11.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-21T18:11:11.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected as out of scope.",
+              "manuscriptNumber": "2d67db16-8834-425e-b816-417c0f4a036c",
+              "source": {
+                "threadId": "1a0c52a363b5e622",
+                "messageId": "1a0c52a363b5e622",
+                "subject": "Decision on your submission to The Protein Journal",
+                "from": "The Protein Journal <sangeetha.janardhanan@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -4151,10 +4175,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T18:11:11.000Z",
+          "journal": "The Protein Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "2d67db16-8834-425e-b816-417c0f4a036c",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected as out of scope.",
+          "source": {
+            "threadId": "1a0c52a363b5e622",
+            "messageId": "1a0c52a363b5e622",
+            "subject": "Decision on your submission to The Protein Journal",
+            "from": "The Protein Journal <sangeetha.janardhanan@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-11T07:49:51.000Z",
-      "updatedAt": "2026-09-17T15:34:50.000Z"
+      "updatedAt": "2026-09-21T18:11:11.000Z"
     },
     {
       "id": "construct-design-and-the-prevention-of-rod-fracture-in-adult-spinal-de",
@@ -9008,7 +9049,7 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Journal of Neurosurgery Publishing Group",
+      "currentJournal": "Journal of Neurosurgery: Spine",
       "currentManuscriptNumber": "SPINE26-1301",
       "currentStatus": "Submitted",
       "doi": null,
@@ -9134,6 +9175,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Journal of Neurosurgery: Spine",
+          "manuscriptNumber": "SPINE26-1301",
+          "submittedDate": "2026-09-21T18:31:40.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-21T18:31:40.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Your manuscript was successfully submitted and received by the Journal of Neurosurgery: Spine.",
+              "manuscriptNumber": "SPINE26-1301",
+              "source": {
+                "threadId": "1a0c53cf1e645734",
+                "messageId": "1a0c53cf1e645734",
+                "subject": "Your Journal of Neurosurgery: Spine submission - SPINE26-1301",
+                "from": "jnsspine@msubmit.net"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -9251,10 +9316,27 @@
             "from": "jnsspine@msubmit.net"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T18:31:40.000Z",
+          "journal": "Journal of Neurosurgery: Spine",
+          "eventType": "new_submission",
+          "manuscriptNumber": "SPINE26-1301",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your manuscript was successfully submitted and received by the Journal of Neurosurgery: Spine.",
+          "source": {
+            "threadId": "1a0c53cf1e645734",
+            "messageId": "1a0c53cf1e645734",
+            "subject": "Your Journal of Neurosurgery: Spine submission - SPINE26-1301",
+            "from": "jnsspine@msubmit.net"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T21:37:39.000Z",
-      "updatedAt": "2026-09-20T19:49:51.000Z",
+      "updatedAt": "2026-09-21T18:31:40.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -11281,7 +11363,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R2",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -11503,6 +11585,45 @@
                 "threadId": "1a0b6196fe8e9637",
                 "messageId": "1a0b6196fe8e9637",
                 "subject": "JBJS Open Access Resubmission Confirmation",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-21T18:02:31.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 2,
+              "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R2",
+              "source": {
+                "threadId": "1a0c5226cb207447",
+                "messageId": "1a0c5226cb207447",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R2) - [EMID:8dbad4b72500af1f]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-21T18:52:35.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal built a PDF of the author's submission and requests approval before the manuscript is officially submitted",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0c5502fb927f5f",
+                "messageId": "1a0c5502fb927f5f",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-21T18:56:35.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The author approved editorial changes and the manuscript is now proceeding; they can check its progress in the system.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0c553dec90ec8c",
+                "messageId": "1a0c553dec90ec8c",
+                "subject": "Thank you - [EMID:5f458e3f464e76ac]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -11825,10 +11946,65 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T18:02:31.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R2",
+          "label": "Sent back for edits",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-09-28T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+          "source": {
+            "threadId": "1a0c5226cb207447",
+            "messageId": "1a0c5226cb207447",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R2) - [EMID:8dbad4b72500af1f]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T18:52:35.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal built a PDF of the author's submission and requests approval before the manuscript is officially submitted",
+          "source": {
+            "threadId": "1a0c5502fb927f5f",
+            "messageId": "1a0c5502fb927f5f",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T18:56:35.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "under_review",
+          "manuscriptNumber": null,
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author approved editorial changes and the manuscript is now proceeding; they can check its progress in the system.",
+          "source": {
+            "threadId": "1a0c553dec90ec8c",
+            "messageId": "1a0c553dec90ec8c",
+            "subject": "Thank you - [EMID:5f458e3f464e76ac]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-09-18T19:58:30.000Z",
+      "updatedAt": "2026-09-21T18:56:35.000Z",
       "deadline": null,
       "deadlineSource": null,
       "overrides": {
