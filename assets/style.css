@@ -5,7 +5,8 @@
   --surface-2: #f9fafc;
   --ink: #0e1a2b;
   --ink-soft: #3a4a61;
-  --muted: #6b7c94;
+  --muted: #5d6f88;          /* 5.2:1 on --surface; #6b7c94 measured 4.3:1 and
+                                 carries every timestamp and helper line */
   --line: #e3e9f1;
   --line-strong: #d3dbe7;
   --brand: #1667c4;
@@ -16,6 +17,14 @@
   --submissions-wash: #e6eefb;
   --needs: #d5604a;
   --needs-wash: #fbe9e5;
+  /* Solid chips -- the ones painted IN a status colour rather than tinted with
+     it. They need a darker hue than the text version so the label on top has
+     somewhere to stand, and the label itself is a token because the dark theme
+     flips it: a light coral chip wants dark text, not white. */
+  --needs-strong: #bf4229;
+  --flag-strong: #9a660f;
+  --on-strong: #ffffff;
+  --on-brand: #ffffff;
   --flag: #b7791f;
   --flag-wash: #fdf3dd;
   --flag-card: #fffdf7;
@@ -26,38 +35,78 @@
   --published: #2e9e6b;
   --published-wash: #e2f4ec;
 
+  /* One scrim for the drawer and both modals. The modal's was mixed from
+     --ink, which is near-white in the dark theme -- so dimming the page lit
+     it up instead. */
+  --scrim: rgba(9, 17, 31, .48);
+
   --shadow-sm: 0 1px 2px rgba(13, 27, 46, .05), 0 3px 10px rgba(13, 27, 46, .05);
   --shadow: 0 6px 26px rgba(13, 27, 46, .1);
   --shadow-lg: 0 20px 55px rgba(13, 27, 46, .22);
   --radius: 16px;
   --maxw: 1120px;
 }
+/* --- Dark theme ---------------------------------------------------------
+   The status hues are not shared with the light theme. They were, and the
+   result was a board whose most important words were the hardest to read:
+   --needs #d5604a on the dark surface measures 4.4:1, --submissions 3.6:1,
+   and both carry text at .68rem bold uppercase -- pill labels, the "Action"
+   and "Check" rows, every error line. Under WCAG that size needs 4.5:1, so
+   the labels that exist to be noticed were the ones fading out.
+
+   Each hue below is chosen against --surface (#121e33), which is the darkest
+   background any of them is painted on, so they clear the bar everywhere they
+   appear. Measured ratios are noted beside each one.
+
+   The washes are separate from the hues for the same reason. A wash is a
+   translucent tint whose job is to separate a pill from the card behind it,
+   which wants a few percent of the hue -- not the near-transparent #...10 and
+   #...30 hex-alpha values that were there, which flattened every pill into
+   the card. */
 html[data-theme="dark"] {
   --bg: #0a1120;
   --bg-2: #0e1728;
   --surface: #121e33;
-  --surface-2: #0f1a2d;
-  --ink: #eaf1fb;
-  --ink-soft: #b6c6dd;
-  --muted: #7e91ad;
-  --line: #21304a;
-  --line-strong: #2b3d5c;
-  --brand: #4d9bf0;
-  --brand-deep: #6fb0f5;
-  --brand-wash: #12294510;
-  --submissions-wash: #12294530;
-  --needs-wash: #3a1c1830;
-  --flag: #d9a441;
-  --flag-wash: #3a2f1830;
+  --surface-2: #17243c;
+  --ink: #eef4fd;            /* 15.9:1 on --surface */
+  --ink-soft: #c3d2e7;       /* 10.9:1 */
+  --muted: #94a7c2;          /* 7.0:1  -- was 5.2:1, and it carries every
+                                 timestamp, hint and helper line on the page */
+  --line: #24334e;
+  --line-strong: #33466a;    /* was #2b3d5c: the input and card borders were
+                                 all but invisible against the surface */
+  --brand: #63a9f2;          /* 6.6:1 */
+  --brand-deep: #8cc0f7;
+  --brand-wash: rgba(99, 169, 242, .16);
+  --on-brand: #08172b;
+
+  --submissions: #6aa9ee;    /* 6.6:1 -- was 3.6:1, the worst on the board */
+  --submissions-wash: rgba(106, 169, 238, .16);
+  --needs: #f3907a;          /* 7.0:1 -- was 4.4:1 */
+  --needs-wash: rgba(243, 144, 122, .15);
+  --needs-strong: #f3907a;   /* solid chips flip to dark-on-light in this
+                                 theme; white on a light coral was 2.2:1 */
+  --on-strong: #2b0d06;
+  --flag: #e3b355;           /* 8.7:1 */
+  --flag-strong: #e3b355;
+  --flag-wash: rgba(227, 179, 85, .15);
   --flag-card: transparent;
-  --review-wash: #35290f30;
-  --revision: #a78bfa;
-  --revision-wash: #2a1f4a55;
-  --published-wash: #10301f40;
+  --review: #e8b45a;         /* 8.8:1 */
+  --review-wash: rgba(232, 180, 90, .15);
+  --revision: #b79dfb;       /* 7.0:1 */
+  --revision-wash: rgba(183, 157, 251, .16);
+  --published: #54d69d;      /* 9.9:1 -- was 5.0:1 */
+  --published-wash: rgba(84, 214, 157, .15);
+
+  /* A scrim tinted with --ink, which is near-white here: every modal and
+     drawer dimmed the page by laying a 42% WHITE sheet over it. */
+  --scrim: rgba(3, 7, 15, .66);
+
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, .3), 0 3px 10px rgba(0, 0, 0, .35);
   --shadow: 0 6px 26px rgba(0, 0, 0, .45);
   --shadow-lg: 0 20px 55px rgba(0, 0, 0, .6);
 }
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { -webkit-text-size-adjust: 100%; }
 body {
@@ -69,7 +118,13 @@ body {
 }
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
 .mono { font-family: 'IBM Plex Mono', monospace; }
-button { font-family: inherit; cursor: pointer; }
+/* color: inherit is the important one. A button does not inherit colour --
+   it falls back to the system ButtonText, which is black. That was invisible
+   in the light theme, where black on a white tile is what we wanted anyway,
+   and in the dark theme it painted every section tile's name and count in
+   near-black on a near-black card. Anything that sets its own colour below
+   still does; this is the floor. */
+button { font-family: inherit; color: inherit; cursor: pointer; }
 a { color: var(--brand); }
 
 /* topbar */
@@ -84,7 +139,7 @@ a { color: var(--brand); }
 .brand-mark {
   height: 40px; padding: 0 12px; border-radius: 11px; flex: none;
   background: linear-gradient(135deg, var(--brand), var(--brand-deep));
-  color: #fff; display: grid; place-items: center;
+  color: var(--on-brand); display: grid; place-items: center;
   font-weight: 700; font-size: .82rem; letter-spacing: .06em;
 }
 .brand-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.16rem; letter-spacing: .01em; }
@@ -145,7 +200,7 @@ a { color: var(--brand); }
 }
 html[data-theme="dark"] .hero {
   background:
-    radial-gradient(120% 140% at 12% -20%, rgba(77,155,240,.12), transparent 55%),
+    radial-gradient(120% 140% at 12% -20%, rgba(99,169,242,.13), transparent 55%),
     linear-gradient(180deg, var(--surface-2), var(--bg));
 }
 .hero-inner { padding: 34px 0 30px; text-align: center; }
@@ -161,7 +216,7 @@ html[data-theme="dark"] .hero {
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 html[data-theme="dark"] .hero-acronym {
-  background: linear-gradient(120deg, #7fb6f7, #4d9bf0);
+  background: linear-gradient(120deg, #9ac6f8, #63a9f2);
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .hero-expand {
@@ -170,19 +225,34 @@ html[data-theme="dark"] .hero-acronym {
 }
 .hero-expand b { color: var(--brand); font-weight: 700; }
 
+/* --- the nav rail -------------------------------------------------------
+   Two groups, deliberately different shapes. The status tiles are a set of
+   filters over one pile of papers; "By journal" regroups that pile entirely
+   and opens a second screen. When both were tiles in one grid, "By journal"
+   read as another status -- somewhere a paper could be -- and people looked
+   for their paper in it. A wide rail under its own heading cannot be misread
+   that way. */
+.board-nav { margin: 26px 0 18px; display: flex; flex-direction: column; gap: 20px; }
+.nav-group-label {
+  display: flex; align-items: center; gap: 12px;
+  margin: 0 0 10px; font-family: 'Inter', sans-serif;
+  font-size: .68rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .14em; color: var(--muted);
+}
+.nav-group-label::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
 /* buckets */
 /* auto-fit, not a fixed column count. The count was 5, hardcoded, and adding a
    section made seven tiles share five columns -- so the new one was squeezed
    until its label clipped to "Revisions pendin". Sizing to content means a
    future section needs no CSS at all. */
 .buckets {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(186px, 1fr)); gap: 12px;
-  margin: 26px 0 18px;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(168px, 1fr)); gap: 12px;
 }
 .bucket-btn {
   display: flex; align-items: center; gap: 12px; text-align: left;
   background: var(--surface); border: 1px solid var(--line);
-  border-radius: var(--radius); padding: 15px 16px;
+  border-radius: var(--radius); padding: 15px 16px 17px;
   box-shadow: var(--shadow-sm); transition: transform .15s, border-color .2s, box-shadow .2s;
   position: relative; overflow: hidden;
 }
@@ -207,7 +277,60 @@ html[data-theme="dark"] .hero-acronym {
 .bucket-count { font-family: 'Fraunces', serif; font-weight: 700; font-size: 1.5rem; line-height: 1; }
 .bucket-btn.attn .bucket-count { color: var(--needs); }
 
-.bucket-hint { font-size: .84rem; color: var(--muted); margin-bottom: 16px; min-height: 1.1em; }
+/* How much of the board this section holds. The count says how many; this
+   says how much, which is the question a glance at the rail is actually
+   asking. Sized against the total so the bars compare with each other. */
+.bucket-share {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 3px;
+  background: var(--line);
+}
+.bucket-share i { display: block; height: 100%; width: 0; background: var(--brand); transition: width .45s ease; }
+.bucket-share i[data-share="needs_action"] { background: var(--needs); }
+.bucket-share i[data-share="revisions_pending"] { background: var(--revision); }
+.bucket-share i[data-share="in_review"] { background: var(--review); }
+.bucket-share i[data-share="published"] { background: var(--published); }
+.bucket-share i[data-share="review"] { background: var(--flag); }
+@media (prefers-reduced-motion: reduce) { .bucket-share i { transition: none; } }
+
+/* "By journal": a rail, not a tile. Full width, horizontal, with a chevron
+   that says it opens something rather than filtering what is already here. */
+.journal-switch {
+  width: 100%; display: flex; align-items: center; gap: 16px; text-align: left;
+  padding: 16px 20px; border-radius: var(--radius);
+  border: 1px solid var(--line-strong);
+  background:
+    linear-gradient(115deg, var(--brand-wash), transparent 62%),
+    var(--surface);
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s, border-color .2s, box-shadow .2s;
+}
+.journal-switch:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--brand); }
+.journal-switch.active { border-color: var(--brand); box-shadow: 0 0 0 2px var(--brand-wash), var(--shadow); }
+.journal-switch-icon {
+  width: 42px; height: 42px; border-radius: 12px; flex: none;
+  display: grid; place-items: center; font-size: 1.25rem; font-weight: 700;
+  background: var(--brand-wash); color: var(--brand);
+}
+.journal-switch-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+.journal-switch-name { font-weight: 600; font-size: .98rem; color: var(--ink); line-height: 1.25; }
+.journal-switch-sub { font-size: .78rem; color: var(--muted); line-height: 1.4; }
+.journal-switch-meter {
+  flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: 1px;
+  padding-left: 16px; border-left: 1px solid var(--line);
+}
+.journal-switch-count {
+  font-family: 'Fraunces', serif; font-weight: 700; font-size: 1.5rem;
+  line-height: 1; color: var(--brand);
+}
+.journal-switch-unit {
+  font-size: .66rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .08em; color: var(--muted);
+}
+.journal-switch-go { flex: none; font-size: 1.1rem; color: var(--brand); transition: transform .18s; }
+.journal-switch:hover .journal-switch-go { transform: translateX(3px); }
+@media (prefers-reduced-motion: reduce) { .journal-switch-go { transition: none; } }
+
+.bucket-hint { font-size: .84rem; color: var(--ink-soft); margin-bottom: 16px; min-height: 1.1em; }
 
 /* cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 15px; padding-bottom: 40px; }
@@ -246,7 +369,7 @@ html[data-theme="dark"] .hero-acronym {
    lines, and a two-line box with a 100px radius is not a pill -- it renders as
    a fat blob that swallows the badge beside it. */
 .action-flag {
-  font-size: .68rem; font-weight: 700; color: #fff; background: var(--needs);
+  font-size: .68rem; font-weight: 700; color: var(--on-strong); background: var(--needs-strong);
   padding: 4px 9px; border-radius: 100px; display: inline-flex; align-items: center; gap: 5px;
   white-space: nowrap; line-height: 1.45;
   animation: pulse 2s ease-in-out infinite;
@@ -276,7 +399,7 @@ html[data-theme="dark"] .hero-acronym {
 
 /* drawer */
 [hidden] { display: none !important; }
-.drawer-overlay { position: fixed; inset: 0; background: rgba(6, 12, 22, .5); z-index: 50; }
+.drawer-overlay { position: fixed; inset: 0; background: var(--scrim); z-index: 50; }
 .drawer {
   position: fixed; top: 0; right: 0; height: 100vh; width: min(560px, 94vw);
   background: var(--bg); z-index: 60; box-shadow: var(--shadow-lg);
@@ -323,7 +446,7 @@ html[data-theme="dark"] .hero-acronym {
 }
 .deadline-chip.soon { background: var(--needs-wash); color: var(--needs); }
 .deadline-chip.urgent,
-.deadline-chip.overdue { background: var(--needs); color: #fff; }
+.deadline-chip.overdue { background: var(--needs-strong); color: var(--on-strong); }
 .deadline-chip.overdue { animation: deadline-pulse 2.4s ease-in-out infinite; }
 @keyframes deadline-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .62; } }
 @media (prefers-reduced-motion: reduce) { .deadline-chip.overdue { animation: none; } }
@@ -426,7 +549,7 @@ html[data-theme="dark"] .hero-acronym {
   border: 1px solid transparent;
 }
 .edit-danger-solid {
-  border: 0; border-radius: 10px; background: var(--needs); color: #fff;
+  border: 0; border-radius: 10px; background: var(--needs-strong); color: var(--on-strong);
   font: inherit; font-size: .88rem; font-weight: 600; cursor: pointer;
   transition: filter .18s, transform .1s;
 }
@@ -499,7 +622,7 @@ html[data-theme="dark"] .hero-acronym {
 .tl-mail-btn {
   display: inline-flex; align-items: center; gap: 5px;
   font-size: .76rem; font-weight: 700; text-decoration: none;
-  color: #fff; background: var(--needs);
+  color: var(--on-strong); background: var(--needs-strong);
   padding: 5px 11px; border-radius: 100px; white-space: nowrap;
 }
 .tl-mail-btn::before { content: "✉"; }
@@ -529,7 +652,7 @@ html[data-theme="dark"] .hero-acronym {
 .card.b-review { border-left-color: var(--flag); }
 .pill.review { background: var(--flag-wash); color: var(--flag); }
 .review-flag {
-  font-size: .68rem; font-weight: 700; color: #fff; background: var(--flag);
+  font-size: .68rem; font-weight: 700; color: var(--on-strong); background: var(--flag-strong);
   padding: 3px 8px; border-radius: 999px; letter-spacing: .02em; white-space: nowrap;
 }
 /* Unfiled items are records to act on, not tracked submissions — keep them
@@ -581,7 +704,7 @@ body.locked .foot { filter: blur(7px); pointer-events: none; user-select: none; 
 }
 .lock-btn {
   margin-top: 6px; padding: 11px 16px; font-size: .92rem; font-weight: 600;
-  color: #fff; background: var(--brand); border: 0; border-radius: 10px;
+  color: var(--on-brand); background: var(--brand); border: 0; border-radius: 10px;
   cursor: pointer; transition: background .18s, transform .1s;
 }
 .lock-btn:hover { background: var(--brand-deep); }
@@ -611,7 +734,7 @@ body.locked .foot { filter: blur(7px); pointer-events: none; user-select: none; 
 .sync-modal {
   position: fixed; inset: 0; z-index: 90;
   display: grid; place-items: center; padding: 24px;
-  background: color-mix(in srgb, var(--ink) 42%, transparent);
+  background: var(--scrim);
   backdrop-filter: blur(3px);
 }
 .sync-panel {
@@ -727,3 +850,35 @@ body.locked .foot { filter: blur(7px); pointer-events: none; user-select: none; 
 }
 .journal-heading { margin-left: 12px; font-weight: 600; color: var(--ink); }
 .journal-paper { cursor: pointer; }
+
+/* --- footer -------------------------------------------------------------
+   Unstyled until now, which on a dark background meant a line of default
+   black-on-dark at the bottom of every page. */
+.foot {
+  border-top: 1px solid var(--line);
+  margin-top: 8px; padding: 24px 0 30px;
+  text-align: center;
+}
+.foot-line { font-size: .82rem; color: var(--muted); }
+.foot-credit { margin-top: 6px; font-size: .78rem; color: var(--ink-soft); line-height: 1.6; }
+.foot-credit b { font-weight: 600; color: var(--ink); }
+.lock-credit {
+  margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--line);
+  font-size: .72rem; color: var(--muted); line-height: 1.6;
+}
+.lock-credit b { font-weight: 600; color: var(--ink-soft); }
+
+/* The journal rail stacks rather than squeezing: the description is the part
+   that earns it a rail of its own, so it is the last thing to go. */
+@media (max-width: 620px) {
+  .journal-switch { flex-wrap: wrap; column-gap: 14px; row-gap: 12px; padding: 14px 16px; }
+  .journal-switch-text { flex: 1 1 0; min-width: 0; }
+  /* Decorative, and the whole rail is the tap target anyway. Keeping it would
+     have cost the count its own row. */
+  .journal-switch-go { display: none; }
+  .journal-switch-meter {
+    flex: 1 1 100%; flex-direction: row; align-items: baseline;
+    justify-content: flex-start; gap: 7px;
+    padding: 11px 0 0; border-left: 0; border-top: 1px solid var(--line);
+  }
+}

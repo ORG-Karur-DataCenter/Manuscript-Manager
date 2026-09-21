@@ -189,10 +189,19 @@ function esc(s) {
 function initials(name) {
   return String(name || "?").split(/\s+/).map((w) => w[0]).slice(0, 2).join("").toUpperCase();
 }
+/*
+ * A stable colour per inbox, dark enough to carry white initials.
+ *
+ * At 45% lightness the yellow-green end of the wheel landed around 3.3:1
+ * against the white letters on top -- legible as a blob, not as initials, and
+ * worse in the dark theme where the surrounding card is dark too. 34% holds
+ * every hue above roughly 4.3:1 while keeping the accounts distinguishable
+ * from each other, which is the whole point of colouring them.
+ */
 function avatarColor(name) {
   let h = 0;
   for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360;
-  return `hsl(${h}, 55%, 45%)`;
+  return `hsl(${h}, 48%, 34%)`;
 }
 
 function renderSyncStatus(iso, failure) {
@@ -266,7 +275,10 @@ function selectBucket(bucket) {
   // to it later would land inside a journal nobody asked for.
   if (bucket !== "journals") state.journal = null;
   state.bucket = bucket;
-  $$(".bucket-btn").forEach((b) => b.classList.toggle("active", b.dataset.bucket === bucket));
+  // Scoped to the nav rail: the edit form's section chips carry data-bucket
+  // too, and an unscoped query would mark one of them active behind the
+  // drawer every time a filter changed.
+  $$("#board-nav [data-bucket]").forEach((b) => b.classList.toggle("active", b.dataset.bucket === bucket));
   render();
 }
 
@@ -302,6 +314,24 @@ function counts() {
 function renderCounts() {
   const c = counts();
   $$("[data-count]").forEach((el) => { el.textContent = c[el.dataset.count] ?? 0; });
+
+  /*
+   * A bar under each tile showing that section's share of the board.
+   *
+   * The number alone says how many; it does not say how much. "In review: 62"
+   * reads the same whether the board holds 70 papers or 700, and the one
+   * question a glance at this rail should answer -- where is the weight right
+   * now -- needed arithmetic. The bar answers it without any.
+   *
+   * Measured against the total, so the six bars are comparable with each
+   * other. "All" is always full, being the total itself.
+   */
+  const total = c.all || 0;
+  $$("[data-share]").forEach((el) => {
+    const key = el.dataset.share;
+    const share = key === "all" ? 1 : total ? (c[key] ?? 0) / total : 0;
+    el.style.width = `${Math.round(share * 100)}%`;
+  });
 }
 
 function matchesQuery(m, q) {
@@ -1255,8 +1285,10 @@ function toggleTheme() {
 }
 
 function wire() {
-  $("#buckets").addEventListener("click", (e) => {
-    const btn = e.target.closest(".bucket-btn");
+  // The whole rail, since "By journal" sits outside the status nav now and
+  // must still behave like one of the filters: same selection, same hash.
+  $("#board-nav").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-bucket]");
     if (!btn) return;
     selectBucket(btn.dataset.bucket);
     if (history.replaceState) history.replaceState(null, "", `#${btn.dataset.bucket}`);
@@ -1468,13 +1500,20 @@ function wireSync() {
   });
 }
 
+// The theme comes first, ahead of the gate and ahead of the config fetch.
+// It ran after requireUnlock resolved, which meant the lock screen -- the
+// first and sometimes only thing anyone sees -- was painted in the light
+// theme however the device was set, then flipped to dark the instant the
+// password was accepted. It reads nothing but localStorage, so there is no
+// reason for it to wait on either.
+initTheme();
+
 // Nothing renders, and no data is fetched, until the gate is passed.
 // Config first: whether a sync proxy is in use decides what the sync button
 // asks for, so nothing may run before it is known.
 loadConfig()
   .then(() => requireUnlock((password) => rememberPassphrase(password)))
   .then(() => {
-    initTheme();
     wire();
     wireSync();
     load();

@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/style.css?v=4162bb7e" />
+<link rel="stylesheet" href="assets/style.css?v=5419c65e" />
 </head>
 <body class="locked">
 
@@ -27,6 +27,10 @@
       <input id="lock-remember" type="checkbox" checked /> Stay signed in on this device
     </label>
     <button type="submit" class="lock-btn">Open tracker</button>
+    <p class="lock-credit">
+      Co-created by <b>Dr&nbsp;Sathish&nbsp;Muthu</b> MS DNB PhD and
+      <b>Dr&nbsp;Dhibin&nbsp;Vikash&nbsp;Kolarpatti&nbsp;Ponnusamy</b> BS MBBS
+    </p>
   </form>
 </div>
 
@@ -71,37 +75,71 @@
 </section>
 
 <main class="wrap">
-  <!-- Action buttons / filters -->
-  <nav class="buckets" id="buckets" aria-label="Filter by status">
-    <button class="bucket-btn active" data-bucket="all">
-      <span class="bucket-icon all">◎</span>
-      <span class="bucket-text"><span class="bucket-name">All manuscripts</span><span class="bucket-count" data-count="all">0</span></span>
-    </button>
-    <button class="bucket-btn attn" data-bucket="needs_action">
-      <span class="bucket-icon needs_action">!</span>
-      <span class="bucket-text"><span class="bucket-name">Needs action</span><span class="bucket-count" data-count="needs_action">0</span></span>
-    </button>
-    <button class="bucket-btn" data-bucket="revisions_pending">
-      <span class="bucket-icon revisions_pending">↻</span>
-      <span class="bucket-text"><span class="bucket-name">Revisions pending</span><span class="bucket-count" data-count="revisions_pending">0</span></span>
-    </button>
-    <button class="bucket-btn" data-bucket="in_review">
-      <span class="bucket-icon in_review">◷</span>
-      <span class="bucket-text"><span class="bucket-name">With the journal</span><span class="bucket-count" data-count="in_review">0</span></span>
-    </button>
-    <button class="bucket-btn" data-bucket="published">
-      <span class="bucket-icon published">✓</span>
-      <span class="bucket-text"><span class="bucket-name">Published</span><span class="bucket-count" data-count="published">0</span></span>
-    </button>
-    <button class="bucket-btn" data-bucket="journals">
-      <span class="bucket-icon journals">◫</span>
-      <span class="bucket-text"><span class="bucket-name">By journal</span><span class="bucket-count" data-count="journals">0</span></span>
-    </button>
-    <button class="bucket-btn review" data-bucket="review">
-      <span class="bucket-icon review">⚑</span>
-      <span class="bucket-text"><span class="bucket-name">Needs review</span><span class="bucket-count" data-count="review">0</span></span>
-    </button>
-  </nav>
+  <!--
+    Two different kinds of control, so two different shapes.
+
+    The status tiles are one set of mutually exclusive filters over the same
+    pile of manuscripts: pick one, the grid below shows that slice. "By
+    journal" is not that. It regroups every paper by where it was sent and
+    shows a different kind of card entirely, with a second screen behind it.
+    Sitting in the same grid it read as a seventh status -- a section a paper
+    could be "in" -- which it never was. It is now a wide rail of its own,
+    under its own heading, so its shape says what it does before the label
+    has to.
+  -->
+  <div class="board-nav" id="board-nav">
+    <section class="nav-group" aria-labelledby="nav-status-label">
+      <h2 class="nav-group-label" id="nav-status-label">Status</h2>
+      <nav class="buckets" id="buckets" aria-label="Filter by status">
+        <button class="bucket-btn active" data-bucket="all">
+          <span class="bucket-icon all">◎</span>
+          <span class="bucket-text"><span class="bucket-name">All manuscripts</span><span class="bucket-count" data-count="all">0</span></span>
+          <span class="bucket-share" aria-hidden="true"><i data-share="all"></i></span>
+        </button>
+        <button class="bucket-btn attn" data-bucket="needs_action">
+          <span class="bucket-icon needs_action">!</span>
+          <span class="bucket-text"><span class="bucket-name">Needs action</span><span class="bucket-count" data-count="needs_action">0</span></span>
+          <span class="bucket-share" aria-hidden="true"><i data-share="needs_action"></i></span>
+        </button>
+        <button class="bucket-btn" data-bucket="revisions_pending">
+          <span class="bucket-icon revisions_pending">↻</span>
+          <span class="bucket-text"><span class="bucket-name">Revisions pending</span><span class="bucket-count" data-count="revisions_pending">0</span></span>
+          <span class="bucket-share" aria-hidden="true"><i data-share="revisions_pending"></i></span>
+        </button>
+        <button class="bucket-btn" data-bucket="in_review">
+          <span class="bucket-icon in_review">◷</span>
+          <span class="bucket-text"><span class="bucket-name">With the journal</span><span class="bucket-count" data-count="in_review">0</span></span>
+          <span class="bucket-share" aria-hidden="true"><i data-share="in_review"></i></span>
+        </button>
+        <button class="bucket-btn" data-bucket="published">
+          <span class="bucket-icon published">✓</span>
+          <span class="bucket-text"><span class="bucket-name">Published</span><span class="bucket-count" data-count="published">0</span></span>
+          <span class="bucket-share" aria-hidden="true"><i data-share="published"></i></span>
+        </button>
+        <button class="bucket-btn review" data-bucket="review">
+          <span class="bucket-icon review">⚑</span>
+          <span class="bucket-text"><span class="bucket-name">Needs review</span><span class="bucket-count" data-count="review">0</span></span>
+          <span class="bucket-share" aria-hidden="true"><i data-share="review"></i></span>
+        </button>
+      </nav>
+    </section>
+
+    <section class="nav-group nav-group-browse" aria-labelledby="nav-browse-label">
+      <h2 class="nav-group-label" id="nav-browse-label">Browse</h2>
+      <button class="journal-switch" id="journal-switch" data-bucket="journals" aria-label="Browse by journal">
+        <span class="journal-switch-icon" aria-hidden="true">◫</span>
+        <span class="journal-switch-text">
+          <span class="journal-switch-name">By journal</span>
+          <span class="journal-switch-sub">Every journal this group has submitted to, and where each paper stands with it</span>
+        </span>
+        <span class="journal-switch-meter">
+          <span class="journal-switch-count" data-count="journals">0</span>
+          <span class="journal-switch-unit">journals</span>
+        </span>
+        <span class="journal-switch-go" aria-hidden="true">→</span>
+      </button>
+    </section>
+  </div>
 
   <div id="bucket-hint" class="bucket-hint"></div>
 
@@ -124,7 +162,11 @@
 
 <footer class="foot">
   <div class="wrap">
-    Orthopaedic Research Group, Karur · Collaborative Manuscript Management System
+    <div class="foot-line">Orthopaedic Research Group, Karur · Collaborative Manuscript Management System</div>
+    <div class="foot-credit">
+      Co-created by <b>Dr&nbsp;Sathish&nbsp;Muthu</b> MS DNB PhD and
+      <b>Dr&nbsp;Dhibin&nbsp;Vikash&nbsp;Kolarpatti&nbsp;Ponnusamy</b> BS MBBS
+    </div>
   </div>
 </footer>
 
@@ -182,6 +224,6 @@
   </form>
 </div>
 
-<script type="module" src="assets/app.js?v=2c5dcfe4"></script>
+<script type="module" src="assets/app.js?v=911706d2"></script>
 </body>
 </html>
