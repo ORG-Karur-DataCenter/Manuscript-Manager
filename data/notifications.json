@@ -352,7 +352,8 @@
     "evaluation-of-allelic-variants-of-the-single-nucleotide-polymorphism-p": {
       "number": 22,
       "title": "Amendment 8 days overdue — Evaluation of allelic variants of the single-nucleotide polymorphism…",
-      "due": "2026-09-13T18:29:59.999Z"
+      "due": "2026-09-13T18:29:59.999Z",
+      "closed": true
     }
   }
 }

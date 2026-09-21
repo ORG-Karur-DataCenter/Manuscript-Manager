@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:32:01.990Z",
+  "generatedAt": "2026-09-21T01:10:24.929Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6652,14 +6652,14 @@
       "id": "evaluation-of-allelic-variants-of-the-single-nucleotide-polymorphism-p",
       "title": "Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis",
       "titleNormalized": "evaluation of allelic variants of the single nucleotide polymorphism pthlh rs267606985 in patients undergoing stem cell therapy for knee osteoarthritis",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": true,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "European Journal of Orthopaedic Surgery & Traumatology",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Sent back for edits",
+      "currentManuscriptNumber": "1e1ae5ca-fb3e-4d56-bb33-089a9ca74f32",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6718,10 +6718,10 @@
         },
         {
           "journal": "European Journal of Orthopaedic Surgery & Traumatology",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "1e1ae5ca-fb3e-4d56-bb33-089a9ca74f32",
           "submittedDate": "2026-09-10T15:23:22.000Z",
-          "outcome": "active",
-          "status": "sent_back",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -6736,6 +6736,19 @@
                 "messageId": "1a08bea9feb258c5",
                 "subject": "Re: Final reminder about your submission, \"Evaluation of allelic variants of the single-nucleotide polymorphism PTHLH (rs267606985) in patients undergoing stem cell therapy for knee osteoarthritis\"",
                 "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-20T23:01:43.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected for publication.",
+              "manuscriptNumber": "1e1ae5ca-fb3e-4d56-bb33-089a9ca74f32",
+              "source": {
+                "threadId": "1a0c10dd918f987e",
+                "messageId": "1a0c10dd918f987e",
+                "subject": "Decision on your submission to European Journal of Orthopaedic Surgery & Traumatology",
+                "from": "\"European Journal of Orthopaedic Surgery & Traumatology\" <masroorahmed.sharfudeen@springernature.com>"
               }
             }
           ]
@@ -6794,12 +6807,29 @@
             "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-20T23:01:43.000Z",
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "eventType": "rejected",
+          "manuscriptNumber": "1e1ae5ca-fb3e-4d56-bb33-089a9ca74f32",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected for publication.",
+          "source": {
+            "threadId": "1a0c10dd918f987e",
+            "messageId": "1a0c10dd918f987e",
+            "subject": "Decision on your submission to European Journal of Orthopaedic Surgery & Traumatology",
+            "from": "\"European Journal of Orthopaedic Surgery & Traumatology\" <masroorahmed.sharfudeen@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-21T04:46:52.000Z",
-      "updatedAt": "2026-09-10T15:23:22.000Z",
-      "deadline": "2026-09-13T18:29:59.999Z",
-      "deadlineSource": "stated"
+      "updatedAt": "2026-09-20T23:01:43.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "exosomal-biomarkers-paving-the-way-for-precision-diagnosis-in-orthoped",
