@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T14:26:35.473Z",
+  "generatedAt": "2026-09-21T16:55:11.819Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -18211,6 +18211,115 @@
       ],
       "createdAt": "2026-03-09T13:22:36.000Z",
       "updatedAt": "2026-03-09T13:22:36.000Z"
+    },
+    {
+      "id": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie",
+      "title": "Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Review and Meta-analysis",
+      "titleNormalized": "should c7 be preserved during cervical laminoplasty a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Neurosurgical Review",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-21T15:11:09.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-21T15:11:09.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0c4856683b4073",
+                "messageId": "1a0c4856683b4073",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Neurosurgical Review",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-21T15:28:13.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-21T15:28:13.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and is under consideration; the author can track its progress via the Research Square dashboard.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0c49502a8777f7",
+                "messageId": "1a0c49502a8777f7",
+                "subject": "Track the status of your submission to Neurosurgical Review",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-21T15:11:09.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a0c4856683b4073",
+            "messageId": "1a0c4856683b4073",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T15:28:13.000Z",
+          "journal": "Neurosurgical Review",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and is under consideration; the author can track its progress via the Research Square dashboard.",
+          "source": {
+            "threadId": "1a0c49502a8777f7",
+            "messageId": "1a0c49502a8777f7",
+            "subject": "Track the status of your submission to Neurosurgical Review",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-21T15:28:13.000Z",
+      "updatedAt": "2026-09-21T15:28:13.000Z"
     },
     {
       "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",

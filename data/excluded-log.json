@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-21T05:30:59.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Have you registered for the webinar: Smarter Research with Web of Science Research Assistant",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T06:35:08.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T09:49:17.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Pain Management - Invitation to Review Manuscript ID IPMT-2026-ST-0488",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T13:50:50.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC Abstract Submission - Reg",
+      "from": "Zori Buser <buserzori@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T14:38:38.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T14:47:26.000Z",
+      "reason": "unrelated",
+      "subject": "Abstract submission confirmation - GSC Congress 2027",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-21T16:20:58.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC Abstract Submission - Reg",
+      "from": "Giovanni Barbanti Brodano <giovanni@barbantibrodano.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-21T06:32:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Energy Contents: Volume 11 Number 9",
@@ -2049,55 +2098,6 @@
       "reason": "unrelated",
       "subject": "Reminder: A recommendation for The burden of mental disorders in India and its states, 1990–2023, and the mental health system response: a subnational analysis from the Global Burden of Disease Study 2023",
       "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T07:26:00.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "11554: Original Article: JOCR Article for Review",
-      "from": "Nutan Saroj <sarojnutan@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T09:00:27.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Rare Lumbar Data",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T09:50:53.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Damilare M. Akintunde recommended this article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T10:30:26.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Review invitation: A retrospective study of Accidental Injury Epidemiology...",
-      "from": "Maria from Frontiers <physiology.editorial.office@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T01:58:03.000Z",
-      "reason": "unrelated",
-      "subject": "2nd rod fracture manuscript",
-      "from": "Vibhu Krishnan <drvibu007@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T05:32:01.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dear Sathish, Curious about the future of publishing? Secure your seat in our upcoming session!",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T00:53:12.000Z",
-      "reason": "unrelated",
-      "subject": "Re:  ICM-Focus issue-GSJ - From Dr S Rajasekaran",
-      "from": "\"周非非\" <orthozhou@163.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
