@@ -283,13 +283,13 @@ Find the part that looks like this:
   {
     "label": "Sathish Muthu",
     "email": "drsathishmuthu@gmail.com",
-    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH",
+    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_1",
     "provider": "gmail"
   },
   {
     "label": "Dhibin Vikash Kolarpatti Ponnusamy",
     "email": "dhibinvikash1@gmail.com",
-    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_DHIBIN",
+    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_2",
     "provider": "gmail"
   }
 ]
@@ -302,22 +302,23 @@ Change **only** the `label` and `email` lines to your own people:
   {
     "label": "Dr Sarah Chen",
     "email": "sarah.chen@gmail.com",
-    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH",
+    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_1",
     "provider": "gmail"
   },
   {
     "label": "Dr Raj Patel",
     "email": "raj.patel.ortho@gmail.com",
-    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_DHIBIN",
+    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_2",
     "provider": "gmail"
   }
 ]
 ```
 
-> **Leave `refreshTokenEnv` exactly as it is.** `GMAIL_REFRESH_TOKEN_SATHISH`
-> looks like a name but it is just the label on a storage box. Renaming it
-> means changing it in a second file too, and forgetting the second one is a
-> classic half-hour lost. Keep the odd names; they harm nothing.
+> **Leave the `refreshTokenEnv` lines exactly as they are.**
+> `GMAIL_REFRESH_TOKEN_1` is not a name — it is the label on a storage box, and
+> Part 6 fills box 1 with the key for whichever inbox you listed first. The
+> numbering is all that matters, and it must match between this file and your
+> secrets.
 
 **Watching only one inbox?** Delete the second block, including the comma that
 ends the first one:
@@ -327,15 +328,16 @@ ends the first one:
   {
     "label": "Dr Sarah Chen",
     "email": "sarah.chen@gmail.com",
-    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH",
+    "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_1",
     "provider": "gmail"
   }
 ]
 ```
 
 **Watching three or more?** Copy a block, change the label and email, and give
-it a new `refreshTokenEnv` name such as `GMAIL_REFRESH_TOKEN_THIRD`. You must
-then add that name to the workflow file as well — see Appendix C.
+it the next slot — `GMAIL_REFRESH_TOKEN_3`, then `_4`, then `_5`. Add the
+matching secret in Part 6 and that is all; there are five slots ready and
+nothing else to edit.
 
 ## Step 3.2 — `assets/sync.js` — where your repository lives
 
@@ -628,15 +630,18 @@ You are on the **Secrets** tab. For each row of the table below:
 | --- | --- |
 | `GMAIL_CLIENT_ID` | the Client ID from Step 4.4 |
 | `GMAIL_CLIENT_SECRET` | the Client secret from Step 4.4 |
-| `GMAIL_REFRESH_TOKEN_SATHISH` | the refresh token for your **first** inbox |
-| `GMAIL_REFRESH_TOKEN_DHIBIN` | the refresh token for your **second** inbox |
+| `GMAIL_REFRESH_TOKEN_1` | the refresh token for your **first** inbox |
+| `GMAIL_REFRESH_TOKEN_2` | the refresh token for your **second** inbox |
 | `GROQ_API_KEY` | the Groq key from Step 5.1 |
 | `GEMINI_API_KEY` | the Gemini key from Step 5.2 *(skip if you did not make one)* |
 
-> **Yes, the names really are `SATHISH` and `DHIBIN`.** They are the labels on
-> the boxes, left over from the group this was built for, and they must match
-> what you left in `config/accounts.json` in Step 3.1. The app does not read
-> them as names. Watching only one inbox? Add only the first one.
+> **The numbers are what matter.** `GMAIL_REFRESH_TOKEN_1` must hold the key
+> for whichever inbox you listed **first** in `config/accounts.json` back in
+> Step 3.1, and `_2` the second. Swap them and each inbox is opened with the
+> other's key, which fails as `invalid_grant` rather than as anything that
+> mentions the mix-up.
+>
+> Watching only one inbox? Add only `GMAIL_REFRESH_TOKEN_1`.
 
 ## Step 6.3 — Check your spelling
 
@@ -1080,8 +1085,8 @@ are named there in plain words.
 | --- | --- | --- |
 | `GMAIL_CLIENT_ID` | Yes | Step 4.4 |
 | `GMAIL_CLIENT_SECRET` | Yes | Step 4.4 |
-| `GMAIL_REFRESH_TOKEN_SATHISH` | Yes | Step 4.5, first inbox |
-| `GMAIL_REFRESH_TOKEN_DHIBIN` | If a second inbox | Step 4.5, second inbox |
+| `GMAIL_REFRESH_TOKEN_1` | Yes | Step 4.5, first inbox |
+| `GMAIL_REFRESH_TOKEN_2` | If a second inbox | Step 4.5, second inbox |
 | `GROQ_API_KEY` | At least one AI key | Step 5.1 |
 | `GEMINI_API_KEY` | Optional backup | Step 5.2 |
 | `WHATSAPP_RECIPIENTS` | Optional | Step 10.2 |
@@ -1137,25 +1142,26 @@ make the tracker skip the gap between the sweep and today.
 
 ## More than two inboxes
 
-After adding a third block to `config/accounts.json` (Step 3.1) with a new
-`refreshTokenEnv` such as `GMAIL_REFRESH_TOKEN_THIRD`, you must also tell the
-workflow about it.
+Two steps, both of which you have already done once.
 
-Open **`.github`** → **`workflows`** → **`sync-manuscripts.yml`**, find the
-list that reads:
+1. Add another block to `config/accounts.json` (Step 3.1) with the next slot —
+   `GMAIL_REFRESH_TOKEN_3`, then `_4`, then `_5`:
 
-```yaml
-GMAIL_REFRESH_TOKEN_SATHISH: ${{ secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
-GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
-```
+   ```json
+   {
+     "label": "Dr Anita Rao",
+     "email": "anita.rao.spine@gmail.com",
+     "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_3",
+     "provider": "gmail"
+   }
+   ```
 
-and add a matching line underneath, keeping the indentation identical:
+2. Get a refresh token for that inbox (Step 4.5) and add it as the secret
+   `GMAIL_REFRESH_TOKEN_3` (Step 6.2).
 
-```yaml
-GMAIL_REFRESH_TOKEN_THIRD: ${{ secrets.GMAIL_REFRESH_TOKEN_THIRD }}
-```
-
-Then add the secret itself, exactly as in Step 6.2.
+There is nothing else to change. Five slots are already wired up, so no
+workflow file needs editing. Watching a sixth inbox would, and at that point
+it is worth asking whether one shared inbox would serve you better.
 
 ## Google Chat instead of, or as well as, WhatsApp
 

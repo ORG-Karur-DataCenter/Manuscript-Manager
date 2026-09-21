@@ -65,11 +65,27 @@ jobs:
         env:
           GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
-          GMAIL_REFRESH_TOKEN_SATHISH: ${{ secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
-          GMAIL_REFRESH_TOKEN_DHIBIN: ${{ secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
+          # One numbered slot per mailbox, matching refreshTokenEnv in
+          # config/accounts.json. Numbered rather than named: these were once
+          # GMAIL_REFRESH_TOKEN_SATHISH and _DHIBIN, which meant anyone setting
+          # up their own copy had to type two strangers' names into their
+          # secrets. Five slots is more than this needs so that adding a third
+          # mailbox is a secret and a line of JSON, with no workflow to edit.
+          #
+          # The old names are still read when the new one is unset. A GitHub
+          # secret cannot be read back, so renaming one is not a copy -- it is
+          # minting a fresh OAuth token for a mailbox that may not be yours to
+          # sign into. The fallback means an existing install keeps working and
+          # can migrate whenever it next re-mints anyway.
+          GMAIL_REFRESH_TOKEN_1: ${{ secrets.GMAIL_REFRESH_TOKEN_1 || secrets.GMAIL_REFRESH_TOKEN_SATHISH }}
+          GMAIL_REFRESH_TOKEN_2: ${{ secrets.GMAIL_REFRESH_TOKEN_2 || secrets.GMAIL_REFRESH_TOKEN_DHIBIN }}
+          GMAIL_REFRESH_TOKEN_3: ${{ secrets.GMAIL_REFRESH_TOKEN_3 }}
+          GMAIL_REFRESH_TOKEN_4: ${{ secrets.GMAIL_REFRESH_TOKEN_4 }}
+          GMAIL_REFRESH_TOKEN_5: ${{ secrets.GMAIL_REFRESH_TOKEN_5 }}
           OUTLOOK_CLIENT_ID: ${{ secrets.OUTLOOK_CLIENT_ID }}
           OUTLOOK_CLIENT_SECRET: ${{ secrets.OUTLOOK_CLIENT_SECRET }}
-          OUTLOOK_REFRESH_TOKEN_DHIBIN: ${{ secrets.OUTLOOK_REFRESH_TOKEN_DHIBIN }}
+          OUTLOOK_REFRESH_TOKEN_1: ${{ secrets.OUTLOOK_REFRESH_TOKEN_1 || secrets.OUTLOOK_REFRESH_TOKEN_DHIBIN }}
+          OUTLOOK_REFRESH_TOKEN_2: ${{ secrets.OUTLOOK_REFRESH_TOKEN_2 }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}

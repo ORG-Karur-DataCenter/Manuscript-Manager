@@ -70,7 +70,7 @@ const server = http.createServer(async (req, res) => {
   }
 
   res.end("Done. The refresh token is in your terminal — close this tab.");
-  console.log("\nRefresh token (store as a GitHub Actions secret, e.g. OUTLOOK_REFRESH_TOKEN_DHIBIN):\n");
+  console.log("\nRefresh token (store as a GitHub Actions secret, e.g. OUTLOOK_REFRESH_TOKEN_1):\n");
   console.log(data.refresh_token + "\n");
   server.close();
   process.exit(0);

@@ -1,16 +1,16 @@
 {
-  "_comment": "One entry per inbox to poll. 'provider' is \"gmail\" (the default when absent) or \"outlook\". 'refreshTokenEnv' names the GitHub Actions secret holding that account's OAuth refresh token — generate with `npm run get-refresh-token` for Gmail or `npm run get-outlook-token` for Outlook. Add or remove accounts here; no code changes needed. dhibinvikash@outlook.com is deliberately absent: it forwards into dhibinvikash1@gmail.com, so polling it directly would only re-read the same mail. Listing an account whose secrets are unset is worse than omitting it — it is skipped with a warning nobody reads, while the dashboard implies a coverage it does not have. That is how seven backfill months reported success without ever opening that mailbox.",
+  "_comment": "One entry per inbox to poll. 'provider' is \"gmail\" (the default when absent) or \"outlook\". 'refreshTokenEnv' names the GitHub Actions secret holding that account's OAuth refresh token -- generate with `npm run get-refresh-token` for Gmail or `npm run get-outlook-token` for Outlook. Add or remove accounts here; no code changes needed. Use the numbered slots GMAIL_REFRESH_TOKEN_1..5 and OUTLOOK_REFRESH_TOKEN_1..2, which every workflow already passes through, so a third mailbox costs a secret and a line here rather than an edit to three workflow files. They are numbered rather than named because anyone setting up their own copy of this app would otherwise have to type two strangers' names into their own secrets. The older GMAIL_REFRESH_TOKEN_SATHISH and _DHIBIN are still read when slots 1 and 2 are unset: a GitHub secret cannot be read back, so renaming one is not a copy but a fresh OAuth token for a mailbox you may not be able to sign into. dhibinvikash@outlook.com is deliberately absent: it forwards into dhibinvikash1@gmail.com, so polling it directly would only re-read the same mail. Listing an account whose secrets are unset is worse than omitting it -- it is skipped with a warning nobody reads, while the dashboard implies a coverage it does not have. That is how seven backfill months reported success without ever opening that mailbox.",
   "accounts": [
     {
       "label": "Sathish Muthu",
       "email": "drsathishmuthu@gmail.com",
-      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_SATHISH",
+      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_1",
       "provider": "gmail"
     },
     {
       "label": "Dhibin Vikash Kolarpatti Ponnusamy",
       "email": "dhibinvikash1@gmail.com",
-      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_DHIBIN",
+      "refreshTokenEnv": "GMAIL_REFRESH_TOKEN_2",
       "provider": "gmail"
     }
   ]

@@ -200,8 +200,8 @@ In the repo: **Settings → Secrets and variables → Actions → New repository
 | --- | --- |
 | `GMAIL_CLIENT_ID` | OAuth client ID from step 1 |
 | `GMAIL_CLIENT_SECRET` | OAuth client secret from step 1 |
-| `GMAIL_REFRESH_TOKEN_SATHISH` | refresh token for drsathishmuthu@gmail.com |
-| `GMAIL_REFRESH_TOKEN_DHIBIN` | refresh token for dhibinvikash1@gmail.com |
+| `GMAIL_REFRESH_TOKEN_1` | refresh token for the first inbox in `config/accounts.json` |
+| `GMAIL_REFRESH_TOKEN_2` | refresh token for the second |
 | **at least one** classifier key below | see [The classifier](#the-classifier) |
 
 | Classifier secret | Where to get it (all free, no card) |
@@ -233,8 +233,23 @@ grant every future workflow more than it needs, for no benefit.
 ## Adding or removing an inbox
 
 Edit `config/accounts.json` — add an object with the account's `label`, `email`, and
-a `refreshTokenEnv` name, mint a token for it (step 2), add that secret (step 3), and
-reference the secret in `.github/workflows/sync-manuscripts.yml`. No code changes.
+the next free `refreshTokenEnv` slot, then mint a token for it (step 2) and add that
+secret (step 3). No code changes and no workflow edit: the workflows already pass
+`GMAIL_REFRESH_TOKEN_1` … `_5` and `OUTLOOK_REFRESH_TOKEN_1` … `_2` through. A sixth
+mailbox is one more line in each of the three workflows that read mail.
+
+### Why the slots are numbered
+
+They used to be named after the two people whose inboxes these are, which was
+readable right up until someone else set up their own copy and found themselves
+typing two strangers' names into their own repository's secrets.
+
+The old names are still honoured when the matching slot is empty, so an existing
+install keeps running untouched. That fallback is not politeness: **a GitHub secret
+cannot be read back**, so renaming one is not a copy-and-paste — it means going
+through the whole OAuth flow again for a mailbox that may belong to a colleague who
+has to be there to sign in. Migrate whenever a token is being re-minted anyway, or
+never.
 
 ## Privacy note
 
@@ -746,7 +761,7 @@ In the repository, **Settings → Secrets and variables → Actions**:
 | --- | --- |
 | `OUTLOOK_CLIENT_ID` | the Application (client) ID |
 | `OUTLOOK_CLIENT_SECRET` | only if you created one |
-| `OUTLOOK_REFRESH_TOKEN_DHIBIN` | the refresh token from step 2 |
+| `OUTLOOK_REFRESH_TOKEN_1` | the refresh token from step 2 |
 
 The next scheduled run picks the mailbox up. A missing credential skips only
 that account and logs which variable is absent — a half-configured Outlook

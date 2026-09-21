@@ -15,7 +15,7 @@
  * the right one at the account picker.
  *
  * Prints a refresh_token — store it as the matching GitHub Actions secret
- * named in config/accounts.json (refreshTokenEnv), e.g. GMAIL_REFRESH_TOKEN_SATHISH.
+ * named in config/accounts.json (refreshTokenEnv), e.g. GMAIL_REFRESH_TOKEN_1.
  */
 import http from "node:http";
 import { google } from "googleapis";
