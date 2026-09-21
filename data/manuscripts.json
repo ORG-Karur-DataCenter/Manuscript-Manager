@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:37:35.166Z",
+  "generatedAt": "2026-09-21T23:22:43.694Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -14568,7 +14568,7 @@
       "actionLabel": null,
       "currentJournal": "Annals of Epidemiology",
       "currentManuscriptNumber": "AEP-D-26-01659",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -14644,8 +14644,8 @@
           "journal": "Annals of Epidemiology",
           "manuscriptNumber": "AEP-D-26-01659",
           "submittedDate": "2026-07-14T14:44:52.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14673,6 +14673,19 @@
                 "threadId": "1a0c01bef452a79c",
                 "messageId": "1a0c01bef452a79c",
                 "subject": "Confirming handling editor for submission to Annals of Epidemiology",
+                "from": "Annals of Epidemiology <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-21T21:50:32.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after preliminary editorial review.",
+              "manuscriptNumber": "AEP-D-26-01659",
+              "source": {
+                "threadId": "1a0c5f31fcad62bc",
+                "messageId": "1a0c5f31fcad62bc",
+                "subject": "Decision on submission to Annals of Epidemiology",
                 "from": "Annals of Epidemiology <em@editorialmanager.com>"
               }
             }
@@ -15026,10 +15039,27 @@
             "from": "Annals of Epidemiology <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T21:50:32.000Z",
+          "journal": "Annals of Epidemiology",
+          "eventType": "rejected",
+          "manuscriptNumber": "AEP-D-26-01659",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after preliminary editorial review.",
+          "source": {
+            "threadId": "1a0c5f31fcad62bc",
+            "messageId": "1a0c5f31fcad62bc",
+            "subject": "Decision on submission to Annals of Epidemiology",
+            "from": "Annals of Epidemiology <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T11:02:23.000Z",
-      "updatedAt": "2026-09-20T18:37:30.000Z",
+      "updatedAt": "2026-09-21T21:50:32.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -15037,11 +15067,11 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
       "currentManuscriptNumber": "JBJSOA-D-26-00213R2",
       "currentStatus": "Returned to author — one citation fix outstanding",
@@ -15082,7 +15112,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00213R2",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -15210,6 +15240,19 @@
                 "threadId": "1a0b5c17b859e7ba",
                 "messageId": "1a0b5c17b859e7ba",
                 "subject": "Thank you - [EMID:0acc80b0e4e216c7]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-21T17:42:34.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 2,
+              "note": "The manuscript was sent back to the author for further revisions before processing can continue.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R2",
+              "source": {
+                "threadId": "1a0c50ffd3b7e840",
+                "messageId": "1a0c50ffd3b7e840",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:76dceb763dedcd1a]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -15568,10 +15611,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-21T17:42:34.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00213R2",
+          "label": "Sent back for edits",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-09-28T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The manuscript was sent back to the author for further revisions before processing can continue.",
+          "source": {
+            "threadId": "1a0c50ffd3b7e840",
+            "messageId": "1a0c50ffd3b7e840",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:76dceb763dedcd1a]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-09-18T18:22:30.000Z",
+      "updatedAt": "2026-09-21T17:42:34.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {
