@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:08:00.144Z",
+  "generatedAt": "2026-09-22T10:07:06.268Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3638,6 +3638,19 @@
                 "subject": "Re: Reminder to World Journal of Experimental Medicine Manuscript NO: 126815 – Manuscript status is “Revise”",
                 "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-22T06:23:46.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The journal reminded the author to accept the revision and submit the revised manuscript.",
+              "manuscriptNumber": "126815",
+              "source": {
+                "threadId": "1a099ed9f2417629",
+                "messageId": "1a0c7c8f6eaaabc5",
+                "subject": "Re: Re: Reminder to World Journal of Experimental Medicine Manuscript NO: 126815 – Manuscript status is “Revise”",
+                "from": "\"s.r.bai@wjgnet.com\" <s.r.bai@wjgnet.com>"
+              }
             }
           ]
         }
@@ -3695,10 +3708,27 @@
             "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-22T06:23:46.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "126815",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The journal reminded the author to accept the revision and submit the revised manuscript.",
+          "source": {
+            "threadId": "1a099ed9f2417629",
+            "messageId": "1a0c7c8f6eaaabc5",
+            "subject": "Re: Re: Reminder to World Journal of Experimental Medicine Manuscript NO: 126815 – Manuscript status is “Revise”",
+            "from": "\"s.r.bai@wjgnet.com\" <s.r.bai@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-24T04:13:17.000Z",
-      "updatedAt": "2026-09-13T09:11:30.000Z",
+      "updatedAt": "2026-09-22T06:23:46.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -3967,9 +3997,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "The Protein Journal",
-      "currentManuscriptNumber": "2d67db16-8834-425e-b816-417c0f4a036c",
-      "currentStatus": "Rejected",
+      "currentJournal": "Biologics",
+      "currentManuscriptNumber": "biologics-4612427",
+      "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -4088,6 +4118,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Biologics",
+          "manuscriptNumber": "biologics-4612427",
+          "submittedDate": "2026-09-22T07:18:14.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-22T07:18:14.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript.",
+              "manuscriptNumber": "biologics-4612427",
+              "source": {
+                "threadId": "1a0c7fac53820d40",
+                "messageId": "1a0c7fac53820d40",
+                "subject": "[Biologics] Manuscript ID: biologics-4612427 - Submission Received",
+                "from": "Editorial Office <biologics@mdpi.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -4192,10 +4246,27 @@
             "from": "The Protein Journal <sangeetha.janardhanan@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-22T07:18:14.000Z",
+          "journal": "Biologics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "biologics-4612427",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submitted manuscript.",
+          "source": {
+            "threadId": "1a0c7fac53820d40",
+            "messageId": "1a0c7fac53820d40",
+            "subject": "[Biologics] Manuscript ID: biologics-4612427 - Submission Received",
+            "from": "Editorial Office <biologics@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-11T07:49:51.000Z",
-      "updatedAt": "2026-09-21T18:11:11.000Z"
+      "updatedAt": "2026-09-22T07:18:14.000Z"
     },
     {
       "id": "construct-design-and-the-prevention-of-rod-fracture-in-adult-spinal-de",
@@ -4540,6 +4611,74 @@
       ],
       "createdAt": "2026-06-07T12:32:32.000Z",
       "updatedAt": "2026-06-07T12:32:32.000Z"
+    },
+    {
+      "id": "current-progress-and-clinical-challenges-in-male-health",
+      "title": "Current Progress and Clinical Challenges in Male Health",
+      "titleNormalized": "current progress and clinical challenges in male health",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Andrology - Current Progress and Clinical Challenges in Male Health\" (0.95). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "IntechOpen",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "IntechOpen",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-22T08:15:54.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-22T08:15:54.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The author is requested to review and correct proofs of their accepted chapter before publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0c82f94f8817fa",
+                "messageId": "1a0c82f94f8817fa",
+                "subject": "IntechOpen - Action Required - Proof Corrections - Andrology - Current Progress and Clinical Challenges in Male Health",
+                "from": "Maja Bozicevic <maja.b@info.intechopen.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-22T08:15:54.000Z",
+          "journal": "IntechOpen",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is requested to review and correct proofs of their accepted chapter before publication.",
+          "source": {
+            "threadId": "1a0c82f94f8817fa",
+            "messageId": "1a0c82f94f8817fa",
+            "subject": "IntechOpen - Action Required - Proof Corrections - Andrology - Current Progress and Clinical Challenges in Male Health",
+            "from": "Maja Bozicevic <maja.b@info.intechopen.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-22T08:15:54.000Z",
+      "updatedAt": "2026-09-22T08:15:54.000Z"
     },
     {
       "id": "design-strategies-to-target-joint-resident-mesenchymal-stem-cells-for-",
@@ -6796,9 +6935,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "European Journal of Orthopaedic Surgery & Traumatology",
-      "currentManuscriptNumber": "1e1ae5ca-fb3e-4d56-bb33-089a9ca74f32",
-      "currentStatus": "Rejected",
+      "currentJournal": "Cartilage",
+      "currentManuscriptNumber": "CART-26-0197",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6891,6 +7030,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Cartilage",
+          "manuscriptNumber": "CART-26-0197",
+          "submittedDate": "2026-09-22T05:52:10.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-22T05:52:10.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "CART-26-0197",
+              "source": {
+                "threadId": "1a0c7abf61db3004",
+                "messageId": "1a0c7abf61db3004",
+                "subject": "Cartilage  CART-26-0197",
+                "from": "Cartilage <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -6963,10 +7126,27 @@
             "from": "\"European Journal of Orthopaedic Surgery & Traumatology\" <masroorahmed.sharfudeen@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-22T05:52:10.000Z",
+          "journal": "Cartilage",
+          "eventType": "new_submission",
+          "manuscriptNumber": "CART-26-0197",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a0c7abf61db3004",
+            "messageId": "1a0c7abf61db3004",
+            "subject": "Cartilage  CART-26-0197",
+            "from": "Cartilage <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-21T04:46:52.000Z",
-      "updatedAt": "2026-09-20T23:01:43.000Z",
+      "updatedAt": "2026-09-22T05:52:10.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -16024,6 +16204,91 @@
       ],
       "createdAt": "2026-08-15T09:40:34.000Z",
       "updatedAt": "2026-08-15T09:40:34.000Z"
+    },
+    {
+      "id": "ochondrial-dysfunction-in-knee-osteoarthritis-mechanisms-biomarkers-an",
+      "title": "ochondrial Dysfunction in Knee Osteoarthritis: Mechanisms, Biomarkers, and Therapeutic Targets",
+      "titleNormalized": "ochondrial dysfunction in knee osteoarthritis mechanisms biomarkers and therapeutic targets",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": null,
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": "05395420",
+          "submittedDate": "2026-09-22T05:24:26.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-22T05:24:26.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript and will inform the author of acceptance within 5 working days.",
+              "manuscriptNumber": "05395420",
+              "source": {
+                "threadId": "1a0c7929283724dc",
+                "messageId": "1a0c7929283724dc",
+                "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-22T05:24:26.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "05395420",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submitted manuscript and will inform the author of acceptance within 5 working days.",
+          "source": {
+            "threadId": "1a0c7929283724dc",
+            "messageId": "1a0c7929283724dc",
+            "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-22T07:24:11.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "other",
+          "manuscriptNumber": "05395420",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal accepted the proposed manuscript title and set a full submission deadline of 2026-12-25.",
+          "source": {
+            "threadId": "1a0c8003505af4e0",
+            "messageId": "1a0c8003505af4e0",
+            "subject": "Number ID: 05395420 Acceptance of invitation to contribute manuscripts to the World Journal of Orthopedics",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-22T07:24:11.000Z",
+      "updatedAt": "2026-09-22T07:24:11.000Z"
     },
     {
       "id": "orthobiologics-in-regenerative-orthopedics-a-scoping-review-of-current",
