@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T10:07:06.268Z",
+  "generatedAt": "2026-09-22T15:05:32.973Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -21666,14 +21666,14 @@
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
       "title": "When do Bayesian age-period-cohort forecasts of Global Burden of Disease estimates help, and when do they harm? An out-of-sample evaluation across four conditions and 31 Indian states",
       "titleNormalized": "when do bayesian age period cohort forecasts of global burden of disease estimates help and when do they harm an out of sample evaluation across four conditions and 31 indian states",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
       "currentJournal": "Journal of Evaluation in Clinical Practice",
       "currentManuscriptNumber": "4623523",
-      "currentStatus": "Submitted",
+      "currentStatus": "Revision requested",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -21685,7 +21685,7 @@
           "manuscriptNumber": "4623523",
           "submittedDate": "2026-08-17T10:52:38.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -21729,6 +21729,19 @@
                 "subject": "Manuscript submitted to Journal of Evaluation in Clinical Practice",
                 "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-09-22T11:53:49.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The manuscript requires major revisions and the author is asked to submit a revised version by December 21, 2026.",
+              "manuscriptNumber": "4623523",
+              "source": {
+                "threadId": "1a0c8f71494fef9b",
+                "messageId": "1a0c8f71494fef9b",
+                "subject": "Major revision requested: 4623523",
+                "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>"
               }
             }
           ]
@@ -21782,10 +21795,33 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-22T11:53:49.000Z",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "4623523",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-12-21T18:29:59.999Z",
+            "source": "stated",
+            "basis": "December 21, 2026"
+          },
+          "note": "The manuscript requires major revisions and the author is asked to submit a revised version by December 21, 2026.",
+          "source": {
+            "threadId": "1a0c8f71494fef9b",
+            "messageId": "1a0c8f71494fef9b",
+            "subject": "Major revision requested: 4623523",
+            "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T10:52:38.000Z",
-      "updatedAt": "2026-08-17T10:52:38.000Z"
+      "updatedAt": "2026-09-22T11:53:49.000Z",
+      "deadline": "2026-12-21T18:29:59.999Z",
+      "deadlineSource": "stated"
     }
   ],
   "editedAt": "2026-09-16T19:36:12.297Z"
