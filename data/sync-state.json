@@ -1,7 +1,7 @@
 {
   "accounts": {
     "dhibinvikash1@gmail.com": {
-      "lastSyncedAt": "2026-09-22T10:20:21.000Z",
+      "lastSyncedAt": "2026-09-22T19:03:18.523Z",
       "seenIds": [
         "1a0103eff244d8fe",
         "1a01f47bc9dacb9b",
@@ -3186,32 +3186,23 @@
         "1a0c90ddfd89add8",
         "1a0c909903fd12b8",
         "1a0c8b9a29bb7711",
-        "1a0c8abec52a1f8d"
+        "1a0c8abec52a1f8d",
+        "1a0ca1e449b1ae8e",
+        "1a0c9dba0115017f",
+        "1a0c9c62b9f40497",
+        "1a0c9b054fe9066a",
+        "1a0c9a8ebe425f88",
+        "1a0c8a19f4b60a7c"
       ],
       "importedAt": "2026-08-23T12:49:10.227Z",
       "failedAttempts": {
         "19e280c6f1ebd420": 1
       },
-      "holding": true
+      "holding": false
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-09-22T10:03:44.000Z",
+      "lastSyncedAt": "2026-09-22T10:04:23.000Z",
       "seenIds": [
-        "1a0245ecba37db58",
-        "1a0244aaf047a788",
-        "1a02436d7845d400",
-        "1a0241c5007a77fa",
-        "1a0241ad9b5073d0",
-        "1a02416f3897d953",
-        "1a02414b43ae944b",
-        "1a023feca2475ae7",
-        "1a023f6e245b153c",
-        "1a023a096f4102ff",
-        "1a0239fdd61e3106",
-        "1a023967cad331d3",
-        "1a02372841524607",
-        "1a0236b6ffb0b08a",
-        "1a0235d2bc2b3114",
         "1a0233a7c560944d",
         "1a023343a2c75f4e",
         "1a023207a95fadc3",
@@ -11196,7 +11187,22 @@
         "1a0c8ac24b2bf268",
         "1a0c8a4d1b52fe5c",
         "1a0c89a905f74eaa",
-        "1a0c5791a535a936"
+        "1a0c5791a535a936",
+        "1a0ca67d6a779af3",
+        "1a0ca66965deac89",
+        "1a0ca4f9f493777a",
+        "1a0ca4c6ae6d5762",
+        "1a0ca3cb53aa1485",
+        "1a0ca356a6b63b43",
+        "1a0ca309c601799c",
+        "1a0ca2e842f8cacf",
+        "1a0c9bfb236e5f1c",
+        "1a0c9ae0a1c02061",
+        "1a0c9a289ba95857",
+        "1a0c8e6d0dedb727",
+        "1a0c8cee6583d0fb",
+        "1a0c8c1b87fdfcf8",
+        "1a0c89a97d4ba43c"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {

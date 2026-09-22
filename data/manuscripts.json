@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:05:32.973Z",
+  "generatedAt": "2026-09-22T19:03:18.523Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9231,7 +9231,7 @@
       "actionLabel": null,
       "currentJournal": "Journal of Neurosurgery: Spine",
       "currentManuscriptNumber": "SPINE26-1301",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -9360,8 +9360,8 @@
           "journal": "Journal of Neurosurgery: Spine",
           "manuscriptNumber": "SPINE26-1301",
           "submittedDate": "2026-09-21T18:31:40.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -9375,6 +9375,19 @@
                 "threadId": "1a0c53cf1e645734",
                 "messageId": "1a0c53cf1e645734",
                 "subject": "Your Journal of Neurosurgery: Spine submission - SPINE26-1301",
+                "from": "jnsspine@msubmit.net"
+              }
+            },
+            {
+              "timestamp": "2026-09-22T17:34:01.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after peer review.",
+              "manuscriptNumber": "SPINE26-1301",
+              "source": {
+                "threadId": "1a0ca2e842f8cacf",
+                "messageId": "1a0ca2e842f8cacf",
+                "subject": "SPINE26-1301: Decision Letter",
                 "from": "jnsspine@msubmit.net"
               }
             }
@@ -9513,10 +9526,27 @@
             "from": "jnsspine@msubmit.net"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-22T17:34:01.000Z",
+          "journal": "Journal of Neurosurgery: Spine",
+          "eventType": "rejected",
+          "manuscriptNumber": "SPINE26-1301",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after peer review.",
+          "source": {
+            "threadId": "1a0ca2e842f8cacf",
+            "messageId": "1a0ca2e842f8cacf",
+            "subject": "SPINE26-1301: Decision Letter",
+            "from": "jnsspine@msubmit.net"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T21:37:39.000Z",
-      "updatedAt": "2026-09-21T18:31:40.000Z",
+      "updatedAt": "2026-09-22T17:34:01.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -10969,17 +10999,17 @@
       "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
       "title": "Industry funding and outcome reporting in single-level cervical disc arthroplasty versus anterior cervical discectomy and fusion: a systematic review and meta-analysis of randomized controlled trials with funding- and device-stratified analyses",
       "titleNormalized": "industry funding and outcome reporting in single level cervical disc arthroplasty versus anterior cervical discectomy and fusion a systematic review and meta analysis of randomized controlled trials with funding and device stratified analyses",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-1886",
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-10-06T18:29:59.999Z",
+      "deadlineSource": "assumed",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -11055,7 +11085,7 @@
           "manuscriptNumber": "GSJ-26-1886",
           "submittedDate": "2026-09-13T16:28:46.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -11069,6 +11099,19 @@
                 "threadId": "1a09b998df29c3e8",
                 "messageId": "1a09b998df29c3e8",
                 "subject": "Global Spine Journal  GSJ-26-1886",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-22T17:36:18.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was unsubmitted and returned to the author for missing technical elements before peer review.",
+              "manuscriptNumber": "GSJ-26-1886",
+              "source": {
+                "threadId": "1a0ca309c601799c",
+                "messageId": "1a0ca309c601799c",
+                "subject": "Global Spine Journal - GSJ-26-1886 has been unsubmitted",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
               }
             }
@@ -11160,10 +11203,31 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-22T17:36:18.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "GSJ-26-1886",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-06T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "14 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was unsubmitted and returned to the author for missing technical elements before peer review.",
+          "source": {
+            "threadId": "1a0ca309c601799c",
+            "messageId": "1a0ca309c601799c",
+            "subject": "Global Spine Journal - GSJ-26-1886 has been unsubmitted",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-15T05:31:48.000Z",
-      "updatedAt": "2026-09-13T16:28:46.000Z"
+      "updatedAt": "2026-09-22T17:36:18.000Z"
     },
     {
       "id": "infrared-thermography-as-adjunctive-imaging-in-spine-surgery-evaluatin",
@@ -19309,8 +19373,8 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-1745",
+      "currentJournal": "Spine Deformity",
+      "currentManuscriptNumber": null,
       "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
@@ -19343,6 +19407,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Spine Deformity",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-22T17:49:30.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-22T17:49:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "A submission confirmation indicating the manuscript has been received by the journal",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0ca3cb53aa1485",
+                "messageId": "1a0ca3cb53aa1485",
+                "subject": "Spine Deformity - Submission Confirmation Shoulder Imbalance in Adolescent Idiopathic Scoliosis: Where Are We Now? A Scoping Review of Current Concepts and Future Directions for co-author - [EMID:b04a0bed59d32934]",
+                "from": "Spine Deformity - Editorial Office <em@editorialmanager.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -19362,10 +19450,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-22T17:49:30.000Z",
+          "journal": "Spine Deformity",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "A submission confirmation indicating the manuscript has been received by the journal",
+          "source": {
+            "threadId": "1a0ca3cb53aa1485",
+            "messageId": "1a0ca3cb53aa1485",
+            "subject": "Spine Deformity - Submission Confirmation Shoulder Imbalance in Adolescent Idiopathic Scoliosis: Where Are We Now? A Scoping Review of Current Concepts and Future Directions for co-author - [EMID:b04a0bed59d32934]",
+            "from": "Spine Deformity - Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-29T06:16:05.000Z",
-      "updatedAt": "2026-08-29T06:16:05.000Z"
+      "updatedAt": "2026-09-22T17:49:30.000Z"
     },
     {
       "id": "spatial-multiomics-advances-in-osteoarthritis-from-molecular-landscape",

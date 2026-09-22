@@ -275,6 +275,23 @@
         "Dhibin"
       ],
       "failed": []
+    },
+    {
+      "key": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a|2026-10-06T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
+      "title": "Industry funding and outcome reporting in single-level cervical disc arthroplasty versus anterior cervical discectomy and fusion: a systematic review and meta-analysis of randomized controlled trials with funding- and device-stratified analyses",
+      "due": "2026-10-06T18:29:59.999Z",
+      "at": "2026-09-22T19:03:23.284Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -298,7 +315,7 @@
     },
     "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-": {
       "number": 12,
-      "title": "Amendment 21 days overdue — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
+      "title": "Amendment 22 days overdue — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
       "due": "2026-09-01T18:29:59.999Z"
     },
     "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s": {
@@ -354,6 +371,11 @@
       "title": "Amendment 8 days overdue — Evaluation of allelic variants of the single-nucleotide polymorphism…",
       "due": "2026-09-13T18:29:59.999Z",
       "closed": true
+    },
+    "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a": {
+      "number": 23,
+      "title": "Amendment 13 days left — Industry funding and outcome reporting in single-level cervical disc…",
+      "due": "2026-10-06T18:29:59.999Z"
     }
   }
 }

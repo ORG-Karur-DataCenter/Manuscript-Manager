@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-22T10:20:21.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish Muthu published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T15:16:07.000Z",
+      "reason": "unrelated",
+      "subject": "UCL Medical Physics & Biomedical Engineering recently posted",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T16:02:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The Current State Of Over 1600 FDA-Approved, AI-Based Medical Devices",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T10:03:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Upcoming events",
+      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T10:54:17.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID: 05395420 Sincerely invite Editorial Board Member/Peer Reviewer to write an Editorial article/Correspondence/Opinion Review on the in-press articles",
+      "from": "\"BPG Invitation (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T11:09:56.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from University of Gothenburg",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T11:36:04.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Dr. Muthu, From Reviewer to Author: Your Next Step with Cureus",
+      "from": "Cureus Journal of Medical Science <no-reply@journal.cureus.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T18:10:09.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID 05395420: Invitation to Submit an Original Research Manuscript to the World Journal of Biological Chemistry",
+      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T18:36:37.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dr. Muthu, personalize your public profile",
+      "from": "Cureus Journal of Medical Science <no-reply@journal.cureus.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-22T10:46:35.000Z",
       "reason": "unrelated",
       "subject": "Resources to support your research",
@@ -2035,69 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Meet The JBJS Audio Narrators 🎧",
       "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T20:45:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "J. Clin. Med., Volume 15, Issue 17 (September-1 2026) Table of Contents",
-      "from": "\"MDPI – Office of the Publisher\" <noreply@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T14:06:22.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "⚠️  Anthropic published the risky requests made to Claude",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T17:22:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Doc Sues Malpractice Insurer for Refusing to Settle Lawsuit",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T13:24:00.000Z",
-      "reason": "unrelated",
-      "subject": "C7 Required List",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T19:06:05.000Z",
-      "reason": "unrelated",
-      "subject": "VERTEBRA has been accepted!",
-      "from": "Ambrosio Luca <l.ambrosio@unicampus.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T11:48:15.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🚨🚨 India Inc seeks AI adoption managers",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T13:01:36.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Wearable scanner follows the brain at work",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T13:24:00.000Z",
-      "reason": "unrelated",
-      "subject": "C7 Required List",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T12:31:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dr. Sathish Muthu, explore our September research highlights",
-      "from": "Biomolecules and Biomedicine <office@biomolbiomed.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
