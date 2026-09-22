@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-22T10:04:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Upcoming events",
+      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T15:33:43.000Z",
+      "reason": "unrelated",
+      "subject": "What the OSF Projects changes mean for your research",
+      "from": "Open Science Framework <contact@cos.io>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T21:26:44.000Z",
+      "reason": "unrelated",
+      "subject": "Important communication: 2026 Rare Lumbar Complications project",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-22T10:20:21.000Z",
       "reason": "unrelated",
       "subject": "Sathish Muthu published an article",
@@ -2078,27 +2099,6 @@
       "subject": "ET AI: ChatGPT invented fake police testimony in murder appeal, New Mexico high court says",
       "from": "ET AI <newsletter@economictimesnews.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T01:45:20.000Z",
-      "reason": "unrelated",
-      "subject": "additional articles in C7 laminoplasty",
-      "from": "\"Viswanathan, Vibhu K\" <vviswanathan@uabmc.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T04:45:38.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01553R1 - [EMID:fd47bf57e50e4f67]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-11T20:02:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Meet The JBJS Audio Narrators 🎧",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
