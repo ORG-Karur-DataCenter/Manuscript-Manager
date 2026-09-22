@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-22T01:29:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Applications Open: APOA–Vilex Foot & Ankle Fellowship 2027",
+      "from": "Asia Pacific Orthopaedic Association <admin@apoaonline.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T01:43:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Applications Open: APOA–Vilex Foot & Ankle Fellowship 2027",
+      "from": "Asia Pacific Orthopaedic Association <admin@apoaonline.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T01:50:24.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, someone just recommended your data",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T04:01:40.000Z",
+      "reason": "unrelated",
+      "subject": "Textbook of Regenerative Orthopaedics (2 Volume Set)",
+      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T04:05:04.000Z",
+      "reason": "unrelated",
+      "subject": "Soft Launch of Covers – Textbook of Regenerative Orthopaedics (2‑Volume Set)",
+      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T04:07:02.000Z",
+      "reason": "unrelated",
+      "subject": "Phased Submission of Chapters – Textbook of Regenerative Orthopaedics (2‑Volume Set)",
+      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T04:09:18.000Z",
+      "reason": "unrelated",
+      "subject": "Proposal for Publishing Regenerative Medicine Handbook Series – 9 Volumes",
+      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-22T04:25:57.000Z",
+      "reason": "unrelated",
+      "subject": "Proposal for Publishing Indian Orthobiologics Consensus – IOACON 2026, Ahmedabad",
+      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-21T07:04:04.000Z",
       "reason": "unrelated",
       "subject": "Save 25% on Every eBook 📚",
@@ -2042,62 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
       "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T13:09:36.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "How Should Researchers Report AI Use? Nature Commentary Proposes a New Framework",
-      "from": "LetPub <Research.communication@letpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T17:21:36.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Number ID 05395420 | Invitation to Submit an Original Research Manuscript to WJTM – USD 600 Honorarium and No APC",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T17:38:23.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "One Month Away! Don't Miss these Expert Sessions at IKAF 2026",
-      "from": "ISAKOS <isakos@isakos.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T13:00:58.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Narcolepsy research wins Lasker Award",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T14:09:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🚨🚨 OpenAI, Anthropic to decide humanity’s fate?",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T11:38:27.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "Edit invitation: Effects of Anti-osteoporosis Medications on Subsequent...",
-      "from": "Katarzyna from Frontiers <pharmacology.editorial.office@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T12:58:49.000Z",
-      "reason": "unrelated",
-      "subject": "🗓 FISRM BATCH 4 | CLASS : 3 on September 10, 2026 | Read Meeting Report",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-10T13:09:02.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "Edit invitation: Prevalence and associated factors of work-related...",
-      "from": "Ani from Frontiers <publichealth.editorial.office@frontiersin.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
