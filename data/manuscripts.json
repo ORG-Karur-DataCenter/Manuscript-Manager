@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:15:20.333Z",
+  "generatedAt": "2026-09-23T00:41:18.450Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1247,6 +1247,74 @@
       ],
       "createdAt": "2026-08-27T20:48:52.000Z",
       "updatedAt": "2026-08-28T03:26:40.000Z"
+    },
+    {
+      "id": "ao-eans-eurospine-clinical-practice-guidelines-on-the-use-of-pharmacol",
+      "title": "AO-EANS-EUROSPINE Clinical Practice Guidelines on the use of pharmacological prophylactic anticoagulation in elective lumbar fusion surgery",
+      "titleNormalized": "ao eans eurospine clinical practice guidelines on the use of pharmacological prophylactic anticoagulation in elective lumbar fusion surgery",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-2001",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-2001",
+          "submittedDate": "2026-09-22T22:38:28.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-22T22:38:28.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-2001",
+              "source": {
+                "threadId": "1a0cb4545adf54f7",
+                "messageId": "1a0cb4545adf54f7",
+                "subject": "Global Spine Journal  GSJ-26-2001",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-22T22:38:28.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-2001",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a0cb4545adf54f7",
+            "messageId": "1a0cb4545adf54f7",
+            "subject": "Global Spine Journal  GSJ-26-2001",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-22T22:38:28.000Z",
+      "updatedAt": "2026-09-22T22:38:28.000Z"
     },
     {
       "id": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the",

@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-23T00:05:58.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What Extreme Athletes Teach Us About Sleep Deprivation",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T00:36:58.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: SPINE26-1301: Decision Letter",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T00:37:17.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Global Spine Journal - GSJ-26-1886 has been unsubmitted",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T00:36:58.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: SPINE26-1301: Decision Letter",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T00:37:17.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Global Spine Journal - GSJ-26-1886 has been unsubmitted",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-22T10:04:23.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Upcoming events",
@@ -2064,41 +2099,6 @@
       "subject": "Re: Manuscript Infiltrations AO Spine Degenerative Knowledge Forum",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T06:38:01.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Structural & Molecular Biology Contents: Volume 33 Number 9",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T07:36:15.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, someone just recommended your data",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T10:27:27.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, a recent article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T10:30:28.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Is this article of interest to you (ID 1963557)?",
-      "from": "Frontiers in Physiology <physiology.editorial.office@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T02:26:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "ET AI: ChatGPT invented fake police testimony in murder appeal, New Mexico high court says",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
