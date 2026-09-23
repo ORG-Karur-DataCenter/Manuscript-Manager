@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T17:11:55.183Z",
+  "generatedAt": "2026-09-23T20:29:01.315Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -19030,17 +19030,17 @@
       "id": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie",
       "title": "Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Review and Meta-analysis",
       "titleNormalized": "should c7 be preserved during cervical laminoplasty a systematic review and meta analysis",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "Neurosurgical Review",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentManuscriptNumber": "882331d2-0847-405b-bfc2-a88771c559fb",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-09-25T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -19073,10 +19073,10 @@
         },
         {
           "journal": "Neurosurgical Review",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "882331d2-0847-405b-bfc2-a88771c559fb",
           "submittedDate": "2026-09-21T15:28:13.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -19091,6 +19091,19 @@
                 "messageId": "1a0c49502a8777f7",
                 "subject": "Track the status of your submission to Neurosurgical Review",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-09-23T15:53:44.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check and the author is requested to make amendments within 2 days.",
+              "manuscriptNumber": "882331d2-0847-405b-bfc2-a88771c559fb",
+              "source": {
+                "threadId": "1a0cef916f8a4c9a",
+                "messageId": "1a0cef916f8a4c9a",
+                "subject": "Re: Neurosurgical Review-Amendment required",
+                "from": "Springer Nature Submissions <jenine.navarro@springernature.com>"
               }
             }
           ]
@@ -19130,10 +19143,31 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-23T15:53:44.000Z",
+          "journal": "Neurosurgical Review",
+          "eventType": "sent_back",
+          "manuscriptNumber": "882331d2-0847-405b-bfc2-a88771c559fb",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-25T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check and the author is requested to make amendments within 2 days.",
+          "source": {
+            "threadId": "1a0cef916f8a4c9a",
+            "messageId": "1a0cef916f8a4c9a",
+            "subject": "Re: Neurosurgical Review-Amendment required",
+            "from": "Springer Nature Submissions <jenine.navarro@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-21T15:28:13.000Z",
-      "updatedAt": "2026-09-21T15:28:13.000Z"
+      "updatedAt": "2026-09-23T15:53:44.000Z"
     },
     {
       "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",

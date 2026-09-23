@@ -315,6 +315,52 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie|2026-09-25T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie",
+      "at": "2026-09-23T20:29:07.693Z"
+    },
+    {
+      "key": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie|2026-09-25T18:29:59.999Z|t-1",
+      "kind": "superseded",
+      "manuscriptId": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie",
+      "at": "2026-09-23T20:29:07.693Z"
+    },
+    {
+      "key": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie|2026-09-25T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie",
+      "title": "Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Review and Meta-analysis",
+      "due": "2026-09-25T18:29:59.999Z",
+      "at": "2026-09-23T20:29:07.693Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a|2026-09-25T18:29:59.999Z|t-1",
+      "kind": "t-1",
+      "manuscriptId": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
+      "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
+      "due": "2026-09-25T18:29:59.999Z",
+      "at": "2026-09-23T20:29:10.855Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -338,7 +384,7 @@
     },
     "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-": {
       "number": 12,
-      "title": "Amendment 22 days overdue — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
+      "title": "Amendment 23 days overdue — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
       "due": "2026-09-01T18:29:59.999Z"
     },
     "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s": {
@@ -397,12 +443,17 @@
     },
     "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a": {
       "number": 23,
-      "title": "Amendment 13 days left — Industry funding and outcome reporting in single-level cervical disc…",
+      "title": "Amendment 12 days left — Industry funding and outcome reporting in single-level cervical disc…",
       "due": "2026-10-06T18:29:59.999Z"
     },
     "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a": {
       "number": 24,
-      "title": "Amendment 2 days left — The burden of knee osteoarthritis in older adults in India and South…",
+      "title": "Amendment due tomorrow — The burden of knee osteoarthritis in older adults in India and South…",
+      "due": "2026-09-25T18:29:59.999Z"
+    },
+    "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie": {
+      "number": 25,
+      "title": "Amendment due tomorrow — Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Rev…",
       "due": "2026-09-25T18:29:59.999Z"
     }
   }

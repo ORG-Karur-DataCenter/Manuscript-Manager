@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-23T17:11:12.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Reminder - New AJSM Webinar on September 30th",
+      "from": "\"Sage & AOSSM\" <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T18:24:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The Journal of Bone & Joint Surgery - NEW ISSUE LIVE",
+      "from": "\"Lippincott®\" <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T19:35:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "\"Citrus leaf essential oils as sustainable alternatives for the control of Tetranychus urticae with enhanced selectivity toward Neoseiulus californicus\" is ready to read",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-23T13:00:53.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "What teens say about online harms",
@@ -2077,27 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Explore the Preliminary Program Online! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
       "from": "AO Recon <aorecon@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T00:12:23.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Manuscript No. 127779 for World Journal of Gastrointestinal Endoscopy (Reviewer’s Code: 05395420)",
-      "from": "Baishideng_Peer_Review <bpg.peer.review@wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-13T09:48:28.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Papers: Journal of Orthopedics & Trauma Surgery",
-      "from": "Thieme <thieme@sci.scientific-direct.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-13T20:17:47.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
