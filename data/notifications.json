@@ -292,6 +292,29 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a|2026-09-25T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
+      "at": "2026-09-23T17:11:59.337Z"
+    },
+    {
+      "key": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a|2026-09-25T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
+      "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
+      "due": "2026-09-25T18:29:59.999Z",
+      "at": "2026-09-23T17:11:59.337Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -376,6 +399,11 @@
       "number": 23,
       "title": "Amendment 13 days left — Industry funding and outcome reporting in single-level cervical disc…",
       "due": "2026-10-06T18:29:59.999Z"
+    },
+    "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a": {
+      "number": 24,
+      "title": "Amendment 2 days left — The burden of knee osteoarthritis in older adults in India and South…",
+      "due": "2026-09-25T18:29:59.999Z"
     }
   }
 }

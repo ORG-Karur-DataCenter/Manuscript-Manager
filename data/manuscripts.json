@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T11:46:55.583Z",
+  "generatedAt": "2026-09-23T17:11:55.183Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3965,12 +3965,12 @@
       "title": "Complications of Orthobiologics: A Cross-Sectional Study of Practice Patterns, Adverse Events, and Governance Gaps Among Orthopaedic Surgeons",
       "titleNormalized": "complications of orthobiologics a cross sectional study of practice patterns adverse events and governance gaps among orthopaedic surgeons",
       "bucket": "in_review",
-      "needsReview": false,
+      "needsReview": true,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Frontiers in Surgery",
-      "currentManuscriptNumber": "1970329",
+      "currentManuscriptNumber": null,
       "currentStatus": "Under review",
       "doi": null,
       "publicationLink": null,
@@ -4016,6 +4016,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Frontiers",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-23T17:01:15.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-23T17:01:15.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript has progressed to the independent review stage, with no action required from the author at this time.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0cf36e523e0f2e",
+                "messageId": "1a0cf36e523e0f2e",
+                "subject": "Your manuscript is making progress",
+                "from": "Frontiers <noreply@frontiersin.org>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -4050,10 +4074,30 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-23T17:01:15.000Z",
+          "journal": "Frontiers",
+          "eventType": "under_review",
+          "manuscriptNumber": null,
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has progressed to the independent review stage, with no action required from the author at this time.",
+          "source": {
+            "threadId": "1a0cf36e523e0f2e",
+            "messageId": "1a0cf36e523e0f2e",
+            "subject": "Your manuscript is making progress",
+            "from": "Frontiers <noreply@frontiersin.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T11:36:13.000Z",
-      "updatedAt": "2026-08-18T11:14:18.000Z"
+      "updatedAt": "2026-09-23T17:01:15.000Z",
+      "deadline": null,
+      "deadlineSource": null,
+      "reviewReason": "\"Frontiers\" is a publisher, not a journal — set the journal this paper is actually with."
     },
     {
       "id": "comprehensive-characterization-of-injectable-platelet-rich-fibrin-i-pr",
@@ -20599,14 +20643,14 @@
       "id": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
       "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
       "titleNormalized": "the burden of knee osteoarthritis in older adults in india and south asia 1990 2023 a subnational analysis from the global burden of disease study 2023",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "International Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
+      "currentStatus": "Sent back for edits",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -20827,10 +20871,10 @@
         },
         {
           "journal": "International Orthopaedics",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
           "submittedDate": "2026-09-20T18:09:17.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -20845,6 +20889,19 @@
                 "messageId": "1a0c002171c63603",
                 "subject": "Track the status of your submission to International Orthopaedics",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-09-23T15:54:51.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check, requiring the author to add ethics and funding statements within 2 days.",
+              "manuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
+              "source": {
+                "threadId": "1a0cefa1a10f3707",
+                "messageId": "1a0cefa1a10f3707",
+                "subject": "Re: International Orthopaedics-Amendment required",
+                "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
               }
             }
           ]
@@ -21013,12 +21070,33 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-23T15:54:51.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "sent_back",
+          "manuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-25T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check, requiring the author to add ethics and funding statements within 2 days.",
+          "source": {
+            "threadId": "1a0cefa1a10f3707",
+            "messageId": "1a0cefa1a10f3707",
+            "subject": "Re: International Orthopaedics-Amendment required",
+            "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-04T12:04:40.000Z",
-      "updatedAt": "2026-09-20T18:09:17.000Z",
-      "deadline": null,
-      "deadlineSource": null
+      "updatedAt": "2026-09-23T15:54:51.000Z",
+      "deadline": "2026-09-25T18:29:59.999Z",
+      "deadlineSource": "stated"
     },
     {
       "id": "the-burden-of-mental-disorders-in-india-and-its-states-1990-2023-and-t",
