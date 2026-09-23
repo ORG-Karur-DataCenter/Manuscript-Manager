@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-23T03:04:37.000Z",
+      "reason": "unrelated",
+      "subject": "Editorial Manager username and password",
+      "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T04:31:37.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "[Cancers, IF 4.8] Invitation to Publish a Paper in Cancers",
+      "from": "Jenny Zhang <jenny.zhang@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T05:20:27.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Your Plan Paper in Microorganisms (IF 4.7 CiteScore 8.2)",
+      "from": "Microorganisms Editorial Office <microorganisms@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-23T00:05:58.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "What Extreme Athletes Teach Us About Sleep Deprivation",
@@ -2077,27 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
       "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T11:51:08.000Z",
-      "reason": "unrelated",
-      "subject": "[Journal of Minimally Invasive Spine Surgery & Technique] Registration",
-      "from": "JMISST <office@jmisst.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T12:26:05.000Z",
-      "reason": "unrelated",
-      "subject": "Manuscript Infiltrations AO Spine Degenerative Knowledge Forum",
-      "from": "Calogero Velluto <calogerovelluto@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T13:07:56.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Manuscript Infiltrations AO Spine Degenerative Knowledge Forum",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

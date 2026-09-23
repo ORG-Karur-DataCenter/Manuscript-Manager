@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T00:41:18.450Z",
+  "generatedAt": "2026-09-23T06:04:02.259Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -4208,6 +4208,19 @@
                 "subject": "[Biologics] Manuscript ID: biologics-4612427 - Submission Received",
                 "from": "Editorial Office <biologics@mdpi.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-23T01:44:10.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submission and asked the author to confirm co-authorship.",
+              "manuscriptNumber": "biologics-4612427",
+              "source": {
+                "threadId": "1a0cbef472c985e7",
+                "messageId": "1a0cbef472c985e7",
+                "subject": "[Biologics] Manuscript ID: biologics-4612427 - Co-Authorship Confirmation",
+                "from": "Biologics Editorial Office <biologics@mdpi.com>"
+              }
             }
           ]
         }
@@ -4331,10 +4344,27 @@
             "from": "Editorial Office <biologics@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-23T01:44:10.000Z",
+          "journal": "Biologics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "biologics-4612427",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submission and asked the author to confirm co-authorship.",
+          "source": {
+            "threadId": "1a0cbef472c985e7",
+            "messageId": "1a0cbef472c985e7",
+            "subject": "[Biologics] Manuscript ID: biologics-4612427 - Co-Authorship Confirmation",
+            "from": "Biologics Editorial Office <biologics@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-11T07:49:51.000Z",
-      "updatedAt": "2026-09-22T07:18:14.000Z"
+      "updatedAt": "2026-09-23T01:44:10.000Z"
     },
     {
       "id": "construct-design-and-the-prevention-of-rod-fracture-in-adult-spinal-de",
@@ -16341,15 +16371,15 @@
       "id": "ochondrial-dysfunction-in-knee-osteoarthritis-mechanisms-biomarkers-an",
       "title": "ochondrial Dysfunction in Knee Osteoarthritis: Mechanisms, Biomarkers, and Therapeutic Targets",
       "titleNormalized": "ochondrial dysfunction in knee osteoarthritis mechanisms biomarkers and therapeutic targets",
-      "bucket": "submissions",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": null,
-      "currentManuscriptNumber": null,
-      "currentStatus": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": "05395420",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -16362,8 +16392,8 @@
           "journal": "World Journal of Orthopedics",
           "manuscriptNumber": "05395420",
           "submittedDate": "2026-09-22T05:24:26.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -16377,6 +16407,19 @@
                 "threadId": "1a0c7929283724dc",
                 "messageId": "1a0c7929283724dc",
                 "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-23T05:48:31.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The submitted manuscript was rejected by the journal.",
+              "manuscriptNumber": "05395420",
+              "source": {
+                "threadId": "1a0cccefce700ec6",
+                "messageId": "1a0cccefce700ec6",
+                "subject": "Number ID: 05395420 World Journal of Orthopedics decline letter for the submitted manuscript title",
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
               }
             }
@@ -16417,10 +16460,27 @@
             "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-23T05:48:31.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "rejected",
+          "manuscriptNumber": "05395420",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The submitted manuscript was rejected by the journal.",
+          "source": {
+            "threadId": "1a0cccefce700ec6",
+            "messageId": "1a0cccefce700ec6",
+            "subject": "Number ID: 05395420 World Journal of Orthopedics decline letter for the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-22T07:24:11.000Z",
-      "updatedAt": "2026-09-22T07:24:11.000Z"
+      "updatedAt": "2026-09-23T05:48:31.000Z"
     },
     {
       "id": "orthobiologics-in-regenerative-orthopedics-a-scoping-review-of-current",
