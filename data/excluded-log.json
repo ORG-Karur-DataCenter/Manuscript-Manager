@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-23T04:48:54.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:01bf312653b9c4a4]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T06:13:30.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-43376] - [EMID:725ea1bad198a685]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T08:24:29.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ASP - [STI] Manuscript ID: STI026380043 - Review Request Reminder",
+      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T09:53:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "CA21110 NetwOArk Closing Conference online and reporting",
+      "from": "Corne Baatenburg de Jong <noreply@cost.eu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T10:15:59.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4500501 - Review Request Cancelled",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-23T03:04:37.000Z",
       "reason": "unrelated",
       "subject": "Editorial Manager username and password",
@@ -2063,41 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Follow up on review request for JOIO-D-26-01553R1 - [EMID:1ce683da2b395066]",
       "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-13T04:49:45.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Welcome to IOACON 2026 as an Abstract Reviewer",
-      "from": "IOACON 2026 <scientific@ioacon2026gujarat.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T17:32:35.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record team member confirmation",
-      "from": "PROSPERO Administrator <irss592@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T18:23:59.000Z",
-      "reason": "unrelated",
-      "subject": "Gowtham Multi-specialty Hospital Managing Director you may know",
-      "from": "LinkedIn <messages-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T17:06:24.000Z",
-      "reason": "unrelated",
-      "subject": "Why your work matters more than others",
-      "from": "Steven Kotler <sk@stevenkotler.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-12T14:27:04.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

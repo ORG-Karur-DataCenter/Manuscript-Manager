@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T06:04:02.259Z",
+  "generatedAt": "2026-09-23T11:46:55.583Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -10056,8 +10056,8 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Mammalian Genome",
-      "currentManuscriptNumber": "6ad56bbd-37ee-4d53-b6a9-8340ec4cb1f0",
-      "currentStatus": "Rejected",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -10350,6 +10350,19 @@
               "source": {
                 "threadId": "1a0b001a0c0a6501",
                 "messageId": "1a0b008309b60774",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-23T07:09:19.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and the submission is now being tracked.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0cd18f4d3a6588",
+                "messageId": "1a0cd18f4d3a6588",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -10666,10 +10679,27 @@
             "from": "Mammalian Genome <abinaya.manivel@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-23T07:09:19.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and the submission is now being tracked.",
+          "source": {
+            "threadId": "1a0cd18f4d3a6588",
+            "messageId": "1a0cd18f4d3a6588",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-09-20T14:35:44.000Z",
+      "updatedAt": "2026-09-23T07:09:19.000Z",
       "deadline": null,
       "deadlineSource": null,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
@@ -18908,6 +18938,49 @@
       ],
       "createdAt": "2026-03-09T13:22:36.000Z",
       "updatedAt": "2026-03-09T13:22:36.000Z"
+    },
+    {
+      "id": "selective-serotonin-reuptake-inhibitors-and-perioperative-bleeding-in-",
+      "title": "Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in Spine Surgery: A Narrative Review",
+      "titleNormalized": "selective serotonin reuptake inhibitors and perioperative bleeding in spine surgery a narrative review",
+      "bucket": "submissions",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Perioperative Bleeding Risk Associated with selective serotonin reuptake inhibitors (SSRIs) in Spinal Surgery: A Narrative Review\" (0.86). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": null,
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [],
+      "timeline": [
+        {
+          "timestamp": "2026-09-23T02:58:32.000Z",
+          "journal": "Journal of Clinical Neuroscience",
+          "eventType": "other",
+          "manuscriptNumber": "JOCN-D-26-03490",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The co-author is asked to confirm authorship for a submitted manuscript.",
+          "source": {
+            "threadId": "1a0cc335960f1c6a",
+            "messageId": "1a0cc335960f1c6a",
+            "subject": "Confirm co-authorship of submission to Journal of Clinical Neuroscience",
+            "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-23T02:58:32.000Z",
+      "updatedAt": "2026-09-23T02:58:32.000Z"
     },
     {
       "id": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie",
