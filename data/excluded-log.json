@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-23T16:55:03.000Z",
+      "reason": "unrelated",
+      "subject": "Need help writing your book? We’ve got you covered",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T14:00:43.000Z",
+      "reason": "unrelated",
+      "subject": "Apply now for our Global Spine Diploma Program 2027",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-23T21:02:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Spinal Column | SRS Newsletter 9.23.26",
+      "from": "SRS <info@srs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-23T17:11:12.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Reminder - New AJSM Webinar on September 30th",
@@ -2077,27 +2098,6 @@
       "reason": "unrelated",
       "subject": "New articles in my profile",
       "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T10:47:08.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Dear Sathish, Could Your Agriculture Research Reach a Wider Audience?",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T13:12:51.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Can AI help streamline orthopaedic triage in the ED?",
-      "from": "\"Lippincott® Orthopaedics\" <info@ovid.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T05:30:51.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Explore the Preliminary Program Online! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
-      "from": "AO Recon <aorecon@info.aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
