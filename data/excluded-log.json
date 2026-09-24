@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-24T19:08:07.000Z",
+      "reason": "unrelated",
+      "subject": "bmjment-2026-302923 – Help us improve our transfer suggestions",
+      "from": "Megan Barling <mbarling@bmj.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T12:00:28.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Artificial Intelligence in Healthcare",
+      "from": "Sulakshana Karkala <sulakshana.karkala@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T12:54:23.000Z",
+      "reason": "unrelated",
+      "subject": "🗓 FISRM BATCH 4 | CLASS : 3 on September 24, 2026 | Read Meeting Report",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T15:31:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Diagnostics, Volume 16, Issue 18 (September-2 2026) Table of Contents",
+      "from": "\"MDPI – Office of the Publisher\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T16:23:41.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID 05395420: Invitation to Submit an Original Research Manuscript to the World Journal of Experimental Medicine",
+      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-24T13:00:50.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Protecting children’s growing bones",
@@ -2063,41 +2098,6 @@
       "reason": "unrelated",
       "subject": "Updated Invitation: IHME GBD Brain Health Webinar Series (Asia Pacific)",
       "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T02:18:51.000Z",
-      "reason": "unrelated",
-      "subject": "Reg regenerative book series",
-      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T06:00:39.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One Reminder of Active Assignments - [EMID:d29f6dc561f78575]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T06:29:28.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "\"Stem Cells from Human Exfoliated Deciduous Teeth in Craniofacial Tissue...\" Peer review invitation",
-      "from": "\"Academia.edu\" <updates@academia-mail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T06:25:50.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "JDSIS (Scopus-indexed, ranked Q1-SJR): Invitation for Manuscript Submission",
-      "from": "jenny@jdsiseditorial.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T10:41:12.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Dear Sathish, Could Your Agriculture Research Reach a Wider Audience?",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
