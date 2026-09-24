@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-24T20:46:18.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "September 2026 Job Opportunities and Career Advice",
+      "from": "Physics Today Jobs <pt-jobs@aip-info.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T21:25:19.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cheery Friday Greetings from Barb Oakley!",
+      "from": "Deep Teaching Solutions <no-reply@m.send.coursera.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T14:06:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Clinical Outcomes Following Concomitant Arthroscopic Rotator Cuff Repair and Anterior Shoulder Stabilization",
+      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T20:28:56.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "J. Clin. Med., Volume 15, Issue 18 (September-2 2026) Table of Contents",
+      "from": "\"MDPI – Office of the Publisher\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T22:25:39.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-24T19:08:07.000Z",
       "reason": "unrelated",
       "subject": "bmjment-2026-302923 – Help us improve our transfer suggestions",
@@ -2063,41 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Latest news and upcoming events",
       "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T09:04:54.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Faculty Announcement Dr Roshan M Wade @ Bangalore Knee Conference",
-      "from": "BKC 2026 <bangalorekneeconf@250907063.mailchimpapp.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T09:08:16.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T09:33:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Citation Alert: Your work has been cited 1 time",
-      "from": "Scilit Citation Alert <alert@scilit.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T10:45:46.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Universidade São Judas Tadeu",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T01:39:15.000Z",
-      "reason": "unrelated",
-      "subject": "Updated Invitation: IHME GBD Brain Health Webinar Series (Asia Pacific)",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
