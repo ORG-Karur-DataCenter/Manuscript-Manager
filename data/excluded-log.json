@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-24T00:47:11.000Z",
+      "reason": "unrelated",
+      "subject": "AlliGatOr is published in The Lancet Global Health",
+      "from": "Alligator Study <alligator@globalsurg.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T05:30:41.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore the Preliminary Program Online! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
+      "from": "AO Recon <aorecon@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T07:33:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Call for Papers",
+      "from": "Giornale di Clinica Nefrologica e Dialisi <mailings@aboutscience.eu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T09:00:16.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Clinical and Radiographic Outcomes of C7-Preserving Versus Conventional Cervical Laminoplasty: A Systematic Review and Meta-analysis",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T10:03:09.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "TKA in the Lancet.",
+      "from": "OrthoEvidence <info@myorthoevidence.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-23T22:51:49.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "AIMI Updates: Upcoming Events, Recent Talks & More",
@@ -2063,41 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "Number ID 05395420 | Invitation to Submit an Original Research Manuscript to AIMI with a USD 600 Honorarium",
       "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T13:03:21.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Keeping humans in control of AI",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T06:31:46.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "UTTHAN T&F Champions continues with Module 2! Register now to be a Champion!",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T07:04:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Bestselling Paperbacks You Don't Want To Miss!",
-      "from": "Routledge Books <routledgebooks@email.routledge.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T07:14:54.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "2026-09-14 07:14:52 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T07:33:43.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, someone just recommended your data",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

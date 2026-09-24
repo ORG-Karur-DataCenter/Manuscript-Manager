@@ -1,7 +1,7 @@
 {
   "accounts": {
     "dhibinvikash1@gmail.com": {
-      "lastSyncedAt": "2026-09-24T04:58:24.626Z",
+      "lastSyncedAt": "2026-09-24T10:07:51.302Z",
       "seenIds": [
         "1a0103eff244d8fe",
         "1a01f47bc9dacb9b",
@@ -3211,7 +3211,11 @@
         "1a0cf31498b35086",
         "1a0d0fc0fec94ffe",
         "1a0d0cc91f015a02",
-        "1a0d0784655fe2e3"
+        "1a0d0784655fe2e3",
+        "1a0d2dadf814945d",
+        "1a0d26e710ea8671",
+        "1a0d2475cc620981",
+        "1a0d1d600b285d81"
       ],
       "importedAt": "2026-08-23T12:49:10.227Z",
       "failedAttempts": {
@@ -3220,21 +3224,8 @@
       "holding": false
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-09-24T00:47:11.000Z",
+      "lastSyncedAt": "2026-09-24T10:07:50.295Z",
       "seenIds": [
-        "19ec0d1e08424d2a",
-        "19ecc8bcf6ca9820",
-        "19ecd80a7974b4b0",
-        "19ed0686f1bba111",
-        "19ed7282c5d68472",
-        "19ef2c91c787831c",
-        "19ef38c12ecb4816",
-        "19ef75a2952bf673",
-        "19f00551bd339cc1",
-        "19f04dc88ab42419",
-        "19f04e405d2876fe",
-        "19f152414ad8c185",
-        "19f264284ff525ae",
         "19f2d043c0ceac11",
         "19f378c7193f3d04",
         "19f40a603707f1ac",
@@ -11221,7 +11212,20 @@
         "1a0d1877c2608185",
         "1a0d154bec7099f2",
         "1a0d13a19a26c089",
-        "1a0d0fd170f57c17"
+        "1a0d0fd170f57c17",
+        "1a0d2e0919db0ec2",
+        "1a0d2de8accbe823",
+        "1a0d2cc3847bad5d",
+        "1a0d2a4e48f22d77",
+        "1a0d2911b615267c",
+        "1a0d279205733874",
+        "1a0d256ca2ae8aa6",
+        "1a0d2556b3950be5",
+        "1a0d253389ae0ad6",
+        "1a0d251ac41797d2",
+        "1a0d2007830f3382",
+        "1a0d1e5045a85815",
+        "1a0d0e646cacad1c"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
@@ -11234,7 +11238,7 @@
         "19c5d94258ac2e1d": 1,
         "19c5d62bcf8377b7": 1
       },
-      "holding": true
+      "holding": false
     }
   }
 }
