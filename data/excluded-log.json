@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-23T22:51:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AIMI Updates: Upcoming Events, Recent Talks & More",
+      "from": "Stanford AIMI <aimicenter@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T04:19:05.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4581359 - Invitation to Review for JCM",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-23T16:55:03.000Z",
       "reason": "unrelated",
       "subject": "Need help writing your book? We’ve got you covered",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Sathish, someone just recommended your data",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T09:12:37.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-45442] - [EMID:c972b7a2ca43a6e7]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T09:15:11.000Z",
-      "reason": "unrelated",
-      "subject": "New articles in my profile",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
