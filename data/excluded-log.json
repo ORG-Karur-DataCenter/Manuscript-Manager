@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-24T13:00:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Protecting children’s growing bones",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T10:50:14.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a recent article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T12:01:14.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Knee Osteoarthritis Management",
+      "from": "\"Madhura RJ, Ph.D.\" <madhura.rj@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T12:18:06.000Z",
+      "reason": "unrelated",
+      "subject": "Why AI-Generated Scientific Figures Can Look Right—and Still Be Wrong",
+      "from": "Research Creative <Research.communication@letpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T14:05:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What Does a Nobel Laureate Think About Visual Science?",
+      "from": "JoVE Video <access@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T14:15:08.000Z",
+      "reason": "unrelated",
+      "subject": "AO Spine KF Degenerative September meetings notes,  actions and information",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-24T14:16:29.000Z",
+      "reason": "unrelated",
+      "subject": "AO Spine KF Degenerative September meetings notes,  actions and information",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-24T00:47:11.000Z",
       "reason": "unrelated",
       "subject": "AlliGatOr is published in The Lancet Global Health",
@@ -2049,55 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "Dear Sathish, Could Your Agriculture Research Reach a Wider Audience?",
       "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T23:42:26.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, someone just recommended your data",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T14:59:48.000Z",
-      "reason": "unrelated",
-      "subject": "⏸️ People building AI want to slow down, except one",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T17:14:26.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dear Dr. Sathish Muthu Happy Ganesh Chaturthi  to You and Family -Last  2 Day for abstract/ Contribution Submission",
-      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T09:13:00.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Breaking News: Former Tehelka editor Tarun Tejpal surrenders before Goa Court; sent to jail to serve 10-year sentence",
-      "from": "The Hindu <news@newsalertth.thehindu.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T07:24:51.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Harvard scanned her brain and saw this…",
-      "from": "Isha Offerings <isha.offerings@sadhguru.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T14:48:31.000Z",
-      "reason": "unrelated",
-      "subject": "Re: VERTEBRA has been accepted!",
-      "from": "Matteo Santin <M.Santin@brighton.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-14T18:01:09.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Number ID 05395420 | Invitation to Submit an Original Research Manuscript to AIMI with a USD 600 Honorarium",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
