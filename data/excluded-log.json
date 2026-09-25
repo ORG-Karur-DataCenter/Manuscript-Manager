@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-25T14:31:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Auto Extraction: Turn Hours of Manual Work into Seconds",
+      "from": "Rayyan <newsletter@rayyan.ai>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T14:55:40.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "💣 Go build your own Higgsfield",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T17:16:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "‘Doctor, Is This Normal?’",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T11:37:34.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a recent article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T15:50:15.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Auto Extraction: Turn Hours of Manual Work into Seconds",
+      "from": "Rayyan <newsletter@rayyan.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T17:06:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  Clinical Spine Surgery - Vol. 39, No. 8, October 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-25T13:00:20.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "How driverless cars became reality",
@@ -2057,48 +2099,6 @@
       "subject": "Reminder: OPEC Energy Review [email ref: SE-32-a]",
       "from": "Diana Khoury <onbehalfof@manuscriptcentral.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T03:44:20.000Z",
-      "reason": "unrelated",
-      "subject": "Your early access granted: GBD 2023 MCP Connector for Claude AI",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T04:25:59.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T04:37:14.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T04:39:42.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Re: Invitation to Review MS # 8696 Comparative clinical outcomes after intra-articular injection with adipose-Derived stromal vascular fraction versus Hyaluronic acid for the knee joint OA, a retrospective cohort study",
-      "from": "SQU Med J Oman <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T04:50:40.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:ee25fee34ad8f8bd]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T21:38:06.000Z",
-      "reason": "unrelated",
-      "subject": "Future-proof your healthcare career with new skills",
-      "from": "Duke University <no-reply@m.send.coursera.org>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }

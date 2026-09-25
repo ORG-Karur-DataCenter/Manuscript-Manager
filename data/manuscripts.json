@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T13:56:38.521Z",
+  "generatedAt": "2026-09-25T18:43:37.398Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -4444,15 +4444,15 @@
       "id": "construct-design-and-the-prevention-of-rod-fracture-in-adult-spinal-de",
       "title": "Construct Design and the Prevention of Rod Fracture in Adult Spinal Deformity Surgery: A Systematic Review and Meta-Analysis of Multi-Rod, Accessory/Satellite, and Rod-Material Strategies",
       "titleNormalized": "construct design and the prevention of rod fracture in adult spinal deformity surgery a systematic review and meta analysis of multi rod accessory satellite and rod material strategies",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Spine Deformity",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "SDEF-D-26-00741",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -4465,8 +4465,8 @@
           "journal": "Spine Deformity",
           "manuscriptNumber": "SDEF-D-26-00741",
           "submittedDate": "2026-09-20T15:43:32.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -4493,6 +4493,19 @@
                 "threadId": "1a0bf781a95edec1",
                 "messageId": "1a0bf7ca6b8324a4",
                 "subject": "SDEF: Your PDF Has Been Built",
+                "from": "Spine Deformity - Editorial Office <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-25T12:05:36.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected by the editor.",
+              "manuscriptNumber": "SDEF-D-26-00741",
+              "source": {
+                "threadId": "1a0d874ef7d5d759",
+                "messageId": "1a0d874ef7d5d759",
+                "subject": "Editor's decision on SDEF-D-26-00741 - [EMID:a5a19c7b9956ba39]",
                 "from": "Spine Deformity - Editorial Office <em@editorialmanager.com>"
               }
             }
@@ -4533,10 +4546,27 @@
             "from": "Spine Deformity - Editorial Office <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-25T12:05:36.000Z",
+          "journal": "Spine Deformity",
+          "eventType": "rejected",
+          "manuscriptNumber": "SDEF-D-26-00741",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected by the editor.",
+          "source": {
+            "threadId": "1a0d874ef7d5d759",
+            "messageId": "1a0d874ef7d5d759",
+            "subject": "Editor's decision on SDEF-D-26-00741 - [EMID:a5a19c7b9956ba39]",
+            "from": "Spine Deformity - Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-20T15:43:32.000Z",
-      "updatedAt": "2026-09-20T15:43:32.000Z"
+      "updatedAt": "2026-09-25T12:05:36.000Z"
     },
     {
       "id": "convergence-and-divergence-of-disease-burden-across-the-states-of-indi",
