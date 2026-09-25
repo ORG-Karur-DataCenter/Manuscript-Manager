@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-25T06:34:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Heredity Contents: Volume 135 Number 9",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T02:29:12.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4597111 - Review Request Reminder",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T03:55:29.000Z",
+      "reason": "unrelated",
+      "subject": "Web of Science Alert - Sathish Muthu Profile Citation Alert - 51 results from articles",
+      "from": "alerts-noreply@clarivate.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T04:48:55.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01697 - [EMID:9e5b4d49711ee126]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-24T20:34:09.000Z",
       "reason": "unrelated",
       "subject": "AO Spine Knowledge Forum Monthly Meetings Information",
@@ -2070,34 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T15:17:36.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record team member confirmation",
-      "from": "PROSPERO Administrator <irss593@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T15:50:43.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record confirmation",
-      "from": "PROSPERO Administrator <irss593@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T07:34:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "James Thomas published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T06:46:03.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, review this open access full-text we added to your article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
