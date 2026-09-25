@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T07:55:27.225Z",
+  "generatedAt": "2026-09-25T13:56:38.521Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1290,6 +1290,19 @@
                 "subject": "Global Spine Journal  GSJ-26-2001",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-25T10:37:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-2001",
+              "source": {
+                "threadId": "1a0d82485f5330ba",
+                "messageId": "1a0d82485f5330ba",
+                "subject": "Global Spine Journal  GSJ-26-2001",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
             }
           ]
         }
@@ -1311,10 +1324,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-25T10:37:46.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-2001",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a0d82485f5330ba",
+            "messageId": "1a0d82485f5330ba",
+            "subject": "Global Spine Journal  GSJ-26-2001",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-22T22:38:28.000Z",
-      "updatedAt": "2026-09-22T22:38:28.000Z"
+      "updatedAt": "2026-09-25T10:37:46.000Z"
     },
     {
       "id": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the",

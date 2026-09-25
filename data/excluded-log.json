@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-25T13:00:20.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "How driverless cars became reality",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T08:36:13.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "LAST CHANCE TO REGISTER YOUR HOSPITAL FOR SURGWEEK-2",
+      "from": "NIHR Global Surgery Unit <enquiry@globalsurg.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T09:02:04.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "World Journal of Surgical Oncology: Reminder of our invitation to review a manuscript",
+      "from": "World Journal of Surgical Oncology <peer-review@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T09:02:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Three Days Remain for the SICOT Kyoto OWC 2026",
+      "from": "SICOT <president@sicot.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T09:17:59.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[IOCMD2026] Sciforum-203846 Review request",
+      "from": "info@sciforum.net",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T10:00:42.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: Share your expertise: help shape how we assess surgical adequacy in DCM",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T10:02:38.000Z",
+      "reason": "unrelated",
+      "subject": "Your publication: Anterior Cervical Approaches for 2-Level Radiculopathy: An International Survey on Surgeon Preferences Regarding Anterior Cervical Discectomy Fusion, Cervical Disc Arthroplasty, and Cervical Hybrid Constructs",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T12:00:42.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Your invitation to join the GSC 2027 abstract reviewing team",
+      "from": "Global Spine Congress <gsc@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T13:39:51.000Z",
+      "reason": "unrelated",
+      "subject": "A researcher is following your updates on ResearchGate",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-25T06:34:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Heredity Contents: Volume 135 Number 9",
@@ -2036,69 +2099,6 @@
       "subject": "Future-proof your healthcare career with new skills",
       "from": "Duke University <no-reply@m.send.coursera.org>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T22:37:03.000Z",
-      "reason": "unrelated",
-      "subject": "Updates to our Terms of Service and Privacy Policy",
-      "from": "Dropbox <no-reply@notices.dropbox.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T23:00:28.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "NEW Episode of Your Case Is On Hold",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T10:03:50.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T21:00:29.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T13:06:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What’s hidden in wildfire smoke",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T15:50:42.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record confirmation",
-      "from": "PROSPERO Administrator <irss593@york.ac.uk>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T16:55:08.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Book author support: Free services, courses and AI tools",
-      "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T14:10:24.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T14:52:35.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
