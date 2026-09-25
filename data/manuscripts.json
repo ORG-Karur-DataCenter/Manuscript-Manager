@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T18:43:37.398Z",
+  "generatedAt": "2026-09-25T22:26:56.471Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -8672,6 +8672,78 @@
       ],
       "createdAt": "2026-04-02T22:06:14.000Z",
       "updatedAt": "2026-04-02T22:06:14.000Z"
+    },
+    {
+      "id": "global-regional-and-national-disease-burden-attributable-to-dietary-ri",
+      "title": "Global, regional, and national disease burden attributable to dietary risks among adults 25 years and older, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
+      "titleNormalized": "global regional and national disease burden attributable to dietary risks among adults 25 years and older 1990 2023 a systematic analysis for the global burden of disease study 2023",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision  requested",
+      "currentJournal": "The Lancet Public Health",
+      "currentManuscriptNumber": "IHME ID: 6115",
+      "currentStatus": "Revision requested",
+      "deadline": "2026-09-30T18:29:59.999Z",
+      "deadlineSource": "stated",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "The Lancet Public Health",
+          "manuscriptNumber": "IHME ID: 6115",
+          "submittedDate": "2026-09-25T20:02:59.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-25T20:02:59.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The author is asked to complete authorship forms for a revised manuscript being resubmitted to The Lancet Public Health, with a deadline of September 30, 2026.",
+              "manuscriptNumber": "IHME ID: 6115",
+              "source": {
+                "threadId": "1a0da29fe061c83b",
+                "messageId": "1a0da29fe061c83b",
+                "subject": "IHME: 6115 GBD 2023 Dietary Risks authorship due September 30",
+                "from": "GBD Secretariat <gbdsec@healthdata.org>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-25T20:02:59.000Z",
+          "journal": "The Lancet Public Health",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "IHME ID: 6115",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-09-30T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Wednesday, September 30, 2026"
+          },
+          "note": "The author is asked to complete authorship forms for a revised manuscript being resubmitted to The Lancet Public Health, with a deadline of September 30, 2026.",
+          "source": {
+            "threadId": "1a0da29fe061c83b",
+            "messageId": "1a0da29fe061c83b",
+            "subject": "IHME: 6115 GBD 2023 Dietary Risks authorship due September 30",
+            "from": "GBD Secretariat <gbdsec@healthdata.org>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-25T20:02:59.000Z",
+      "updatedAt": "2026-09-25T20:02:59.000Z"
     },
     {
       "id": "gut-microbiome-and-regenerative-medicine",

@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-24T10:08:54.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dauda Salihu Ph.D recommended this article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-25T14:31:55.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Auto Extraction: Turn Hours of Manual Work into Seconds",
@@ -2091,13 +2098,6 @@
       "reason": "unrelated",
       "subject": "Sathish, you were recently cited by an author from Jagiellonian University",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T03:09:10.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: OPEC Energy Review [email ref: SE-32-a]",
-      "from": "Diana Khoury <onbehalfof@manuscriptcentral.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
