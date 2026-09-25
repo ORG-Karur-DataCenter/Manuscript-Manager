@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-24T20:34:09.000Z",
+      "reason": "unrelated",
+      "subject": "AO Spine Knowledge Forum Monthly Meetings Information",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-25T01:05:09.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The September ESSKA Times - all the latest ESSKA news in your monthly newsletter!",
+      "from": "ESSKA Times <info@esska.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-24T20:46:18.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "September 2026 Job Opportunities and Career Advice",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Sathish, review this open access full-text we added to your article",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T07:57:33.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "ASP - [STI] Manuscript ID: STI026380043 -   Review Request",
-      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-15T08:02:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
