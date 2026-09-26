@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-26T17:17:08.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review Manuscript IPMT-2026-ST-0488 - Pain Management",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-26T16:55:08.000Z",
       "reason": "unrelated",
       "subject": "Enjoy your exclusive discount",
@@ -2088,13 +2095,6 @@
     },
     {
       "timestamp": "2026-09-16T12:42:11.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:42:42.000Z",
       "reason": "unrelated",
       "subject": "Abstract submission confirmation - GSC Congress 2027",
       "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
