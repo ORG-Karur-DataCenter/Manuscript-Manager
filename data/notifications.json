@@ -483,12 +483,14 @@
     "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a": {
       "number": 24,
       "title": "Amendment 1 day overdue — The burden of knee osteoarthritis in older adults in India and South…",
-      "due": "2026-09-25T18:29:59.999Z"
+      "due": "2026-09-25T18:29:59.999Z",
+      "closed": true
     },
     "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie": {
       "number": 25,
       "title": "Amendment 1 day overdue — Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Rev…",
-      "due": "2026-09-25T18:29:59.999Z"
+      "due": "2026-09-25T18:29:59.999Z",
+      "closed": true
     }
   }
 }

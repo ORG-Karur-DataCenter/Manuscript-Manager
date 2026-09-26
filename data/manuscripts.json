@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T01:38:47.221Z",
+  "generatedAt": "2026-09-26T07:51:14.398Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -19162,17 +19162,17 @@
       "id": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie",
       "title": "Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Review and Meta-analysis",
       "titleNormalized": "should c7 be preserved during cervical laminoplasty a systematic review and meta analysis",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Neurosurgical Review",
-      "currentManuscriptNumber": "882331d2-0847-405b-bfc2-a88771c559fb",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-09-25T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -19197,6 +19197,19 @@
               "source": {
                 "threadId": "1a0c4856683b4073",
                 "messageId": "1a0c4856683b4073",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-26T07:13:20.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0dc7ae12822604",
+                "messageId": "1a0dc8fb9b05654d",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -19296,10 +19309,27 @@
             "from": "Springer Nature Submissions <jenine.navarro@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-26T07:13:20.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a0dc7ae12822604",
+            "messageId": "1a0dc8fb9b05654d",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-21T15:28:13.000Z",
-      "updatedAt": "2026-09-23T15:53:44.000Z"
+      "updatedAt": "2026-09-26T07:13:20.000Z"
     },
     {
       "id": "should-spinal-ewing-s-sarcoma-be-managed-differently-from-extremity-di",
@@ -20809,14 +20839,14 @@
       "id": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
       "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
       "titleNormalized": "the burden of knee osteoarthritis in older adults in india and south asia 1990 2023 a subnational analysis from the global burden of disease study 2023",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "bucket": "in_review",
+      "needsReview": true,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "International Orthopaedics",
-      "currentManuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
-      "currentStatus": "Sent back for edits",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -21029,6 +21059,19 @@
               "source": {
                 "threadId": "1a0bff6339d80ad0",
                 "messageId": "1a0bff6339d80ad0",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-26T06:50:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and submitted to the journal.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0dc7ae12822604",
+                "messageId": "1a0dc7ae12822604",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -21257,12 +21300,30 @@
             "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-26T06:50:34.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and submitted to the journal.",
+          "source": {
+            "threadId": "1a0dc7ae12822604",
+            "messageId": "1a0dc7ae12822604",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-04T12:04:40.000Z",
-      "updatedAt": "2026-09-23T15:54:51.000Z",
-      "deadline": "2026-09-25T18:29:59.999Z",
-      "deadlineSource": "stated"
+      "updatedAt": "2026-09-26T06:50:34.000Z",
+      "deadline": null,
+      "deadlineSource": null,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with."
     },
     {
       "id": "the-burden-of-mental-disorders-in-india-and-its-states-1990-2023-and-t",

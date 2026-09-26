@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-26T02:58:32.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Medicine® Article MD-D-26-08968",
+      "from": "Medicine <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T04:40:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Citation Laureates 2026: the long road from insight to impact",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T05:00:40.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Hurry! Early-bird offer ends on Sept 30, 2026! AO Spine Course—Deformity: Advanced Techniques and Complex Cases (with Anatomical Specimen), Hong Kong | December 11-12, 2026",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T06:24:00.000Z",
+      "reason": "unrelated",
+      "subject": "You have an invitation",
+      "from": "Guru J <invitations@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T06:39:33.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for submitting authorship for the IHME ID: 6115 GBD 2023 Dietary Risks paper",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-25T15:46:24.000Z",
       "reason": "unrelated",
       "subject": "Journal recommendations for Construct Design and the Prevention of Rod Fracture in Adult Spinal Deformity Surgery: A Systematic Review and Meta-Analysis of Multi-Rod, Accessory/Satellite, and Rod-Material Strategies",
@@ -2063,41 +2098,6 @@
       "reason": "unrelated",
       "subject": "Fwd: Your early access granted: GBD 2023 MCP Connector for Claude AI",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T06:32:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Reviews Nephrology Contents: Volume 22 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T04:01:40.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "An Exclusive 35% Discount, Just for Authors ✏️",
-      "from": "Routledge Books <routledgebooks@email.routledge.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T06:09:55.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for The burden of knee osteoarthritis in older adults in India and South Asia, 1990–2023: a subnational analysis from the Global Burden of Disease Study 2023",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T06:29:28.000Z",
-      "reason": "unrelated",
-      "subject": "RE: Reg regenerative book series",
-      "from": "Raman Shukla <raman.shukla@springer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T07:44:50.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "JDSIS (Scopus-indexed, ranked Q1-SJR): Invitation for Manuscript Submission",
-      "from": "jenny@jdsiseditorial.com",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
