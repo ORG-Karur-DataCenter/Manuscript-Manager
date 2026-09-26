@@ -3252,12 +3252,8 @@
       "holding": true
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-09-25T15:46:24.000Z",
+      "lastSyncedAt": "2026-09-26T01:38:01.492Z",
       "seenIds": [
-        "19eb071e3f334d97",
-        "19eb0e7dea31c27f",
-        "19eb666087ef8f39",
-        "19eb689c27b66f42",
         "19eb68c88b930b03",
         "19eba01c17e76255",
         "19ebc44792a9862e",
@@ -11253,7 +11249,11 @@
         "1a0d85b464a6bea3",
         "1a0da29fe061c83b",
         "1a0da03a72664cad",
-        "1a0d2e3bd7a282e1"
+        "1a0d2e3bd7a282e1",
+        "1a0db433ed87b826",
+        "1a0db17901d5c29b",
+        "1a0dac44930e480d",
+        "1a0d93f159ec261f"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
@@ -11266,7 +11266,7 @@
         "19c5d94258ac2e1d": 1,
         "19c5d62bcf8377b7": 1
       },
-      "holding": true
+      "holding": false
     }
   }
 }

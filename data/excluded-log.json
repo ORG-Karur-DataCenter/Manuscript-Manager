@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-25T15:46:24.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Construct Design and the Prevention of Rod Fracture in Adult Spinal Deformity Surgery: A Systematic Review and Meta-Analysis of Multi-Rod, Accessory/Satellite, and Rod-Material Strategies",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T00:22:28.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 127961 for World Journal of Diabetes (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-24T10:08:54.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Dauda Salihu Ph.D recommended this article",
@@ -2084,20 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "JDSIS (Scopus-indexed, ranked Q1-SJR): Invitation for Manuscript Submission",
       "from": "jenny@jdsiseditorial.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T11:18:46.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
-      "from": "Julie Phukan <jphukan@bmj.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T11:23:02.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Jagiellonian University",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
