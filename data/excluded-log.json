@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-26T09:50:11.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T11:08:41.000Z",
+      "reason": "unrelated",
+      "subject": "Dr. Sathish Muthu- Global Scientific Invitation - Nomination Open",
+      "from": "Adviser SL <adviser@scientificlaurels.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T11:16:15.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Manuscript Infiltrations AO Spine Degenerative Knowledge Forum",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T11:55:28.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study: Status Update, Support on Data Collection & Milestone Recognition",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-26T12:05:27.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Title: Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-26T02:58:32.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Invitation to Review Medicine® Article MD-D-26-08968",
@@ -2063,41 +2098,6 @@
       "reason": "unrelated",
       "subject": "PROSPERO record confirmation",
       "from": "PROSPERO Administrator <irss590@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T14:14:29.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record team member confirmation",
-      "from": "PROSPERO Administrator <irss593@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T14:35:18.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record team member confirmation",
-      "from": "PROSPERO Administrator <irss590@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T14:57:08.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record confirmation",
-      "from": "PROSPERO Administrator <irss592@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T15:51:15.000Z",
-      "reason": "unrelated",
-      "subject": "Collaborate on High-Impact Research",
-      "from": "Sanjay Gupta <sanjaygupta@ieee.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T16:20:54.000Z",
-      "reason": "unrelated",
-      "subject": "Fwd: Your early access granted: GBD 2023 MCP Connector for Claude AI",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

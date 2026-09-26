@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T07:51:14.398Z",
+  "generatedAt": "2026-09-26T12:22:32.229Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1129,6 +1129,19 @@
                 "subject": "IntechOpen: Andrology - Current Progress and Clinical Challenges in Male Health",
                 "from": "Maja Bozicevic <maja.b@intechopen.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-26T06:25:49.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The author submitted proof corrections for their chapter, moving it towards final publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0dc6435190e00c",
+                "messageId": "1a0dc6435190e00c",
+                "subject": "IntechOpen - Thank you for Submitting your Proof Corrections - Andrology - Current Progress and Clinical Challenges in Male Health",
+                "from": "Maja Bozicevic <maja.b@info.intechopen.com>"
+              }
             }
           ]
         }
@@ -1150,10 +1163,27 @@
             "from": "Maja Bozicevic <maja.b@intechopen.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-26T06:25:49.000Z",
+          "journal": "IntechOpen",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author submitted proof corrections for their chapter, moving it towards final publication.",
+          "source": {
+            "threadId": "1a0dc6435190e00c",
+            "messageId": "1a0dc6435190e00c",
+            "subject": "IntechOpen - Thank you for Submitting your Proof Corrections - Andrology - Current Progress and Clinical Challenges in Male Health",
+            "from": "Maja Bozicevic <maja.b@info.intechopen.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-03T07:14:07.000Z",
-      "updatedAt": "2026-09-03T07:14:07.000Z"
+      "updatedAt": "2026-09-26T06:25:49.000Z"
     },
     {
       "id": "anterior-cervical-approaches-for-two-level-radiculopathy-an-internatio",
@@ -11303,17 +11333,17 @@
       "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
       "title": "Industry funding and outcome reporting in single-level cervical disc arthroplasty versus anterior cervical discectomy and fusion: a systematic review and meta-analysis of randomized controlled trials with funding- and device-stratified analyses",
       "titleNormalized": "industry funding and outcome reporting in single level cervical disc arthroplasty versus anterior cervical discectomy and fusion a systematic review and meta analysis of randomized controlled trials with funding and device stratified analyses",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-1886",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-10-06T18:29:59.999Z",
-      "deadlineSource": "assumed",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -11389,7 +11419,7 @@
           "manuscriptNumber": "GSJ-26-1886",
           "submittedDate": "2026-09-13T16:28:46.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -11416,6 +11446,19 @@
                 "threadId": "1a0ca309c601799c",
                 "messageId": "1a0ca309c601799c",
                 "subject": "Global Spine Journal - GSJ-26-1886 has been unsubmitted",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-26T08:20:18.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-1886",
+              "source": {
+                "threadId": "1a0dccd0459344d0",
+                "messageId": "1a0dccd0459344d0",
+                "subject": "Global Spine Journal  GSJ-26-1886",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
               }
             }
@@ -11528,10 +11571,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-26T08:20:18.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-1886",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a0dccd0459344d0",
+            "messageId": "1a0dccd0459344d0",
+            "subject": "Global Spine Journal  GSJ-26-1886",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-15T05:31:48.000Z",
-      "updatedAt": "2026-09-22T17:36:18.000Z"
+      "updatedAt": "2026-09-26T08:20:18.000Z"
     },
     {
       "id": "infrared-thermography-as-adjunctive-imaging-in-spine-surgery-evaluatin",
@@ -11895,8 +11955,8 @@
       "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 2 requested",
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00231R2",
       "currentStatus": "Revision submitted — Editor changes approved",
@@ -11911,7 +11971,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R2",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -12172,6 +12232,19 @@
                 "threadId": "1a0c553dec90ec8c",
                 "messageId": "1a0c553dec90ec8c",
                 "subject": "Thank you - [EMID:5f458e3f464e76ac]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-25T15:40:35.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 2,
+              "note": "The manuscript was sent back for revision, with a deadline of Oct 09 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R2",
+              "source": {
+                "threadId": "1a0d939e14eec0c5",
+                "messageId": "1a0d939e14eec0c5",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231R2) - [EMID:4d0e86a712cd8b6d]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -12549,12 +12622,33 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-25T15:40:35.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00231R2",
+          "label": "Revision requested",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-10-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 09 2026 11:59PM"
+          },
+          "note": "The manuscript was sent back for revision, with a deadline of Oct 09 2026.",
+          "source": {
+            "threadId": "1a0d939e14eec0c5",
+            "messageId": "1a0d939e14eec0c5",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231R2) - [EMID:4d0e86a712cd8b6d]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-09-21T18:56:35.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-09-25T15:40:35.000Z",
+      "deadline": "2026-10-09T18:29:59.999Z",
+      "deadlineSource": "stated",
       "overrides": {
         "bucket": "in_review",
         "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
@@ -14525,9 +14619,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Journal of Minimally Invasive Spine Surgery & Technique",
-      "currentManuscriptNumber": "20260177",
-      "currentStatus": "Submitted",
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -14612,10 +14706,10 @@
         },
         {
           "journal": "European Spine Journal",
-          "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6 v1.0",
+          "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6",
           "submittedDate": "2026-08-25T17:54:18.000Z",
-          "outcome": "active",
-          "status": "sent_back",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14643,6 +14737,19 @@
                 "messageId": "1a041a8003415e9a",
                 "subject": "Re: European Spine Journal-Amendment required",
                 "from": "Springer Nature Submissions <kavinaya.palraj@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-26T12:03:38.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected and not accepted for publication.",
+              "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6",
+              "source": {
+                "threadId": "1a0dd997a482df59",
+                "messageId": "1a0dd997a482df59",
+                "subject": "Decision on your submission to European Spine Journal",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
               }
             }
           ]
@@ -14883,10 +14990,27 @@
             "from": "JMISST <office@jmisst.org>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-26T12:03:38.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "9964d6ee-6e7e-4e1e-a1cb-767c123b5fd6",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected and not accepted for publication.",
+          "source": {
+            "threadId": "1a0dd997a482df59",
+            "messageId": "1a0dd997a482df59",
+            "subject": "Decision on your submission to European Spine Journal",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-19T18:53:15.000Z",
-      "updatedAt": "2026-09-20T20:40:59.000Z",
+      "updatedAt": "2026-09-26T12:03:38.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -22433,6 +22557,92 @@
       "updatedAt": "2026-09-22T11:53:49.000Z",
       "deadline": "2026-12-21T18:29:59.999Z",
       "deadlineSource": "stated"
+    },
+    {
+      "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea-2",
+      "title": "When do Bayesian age–period–cohort forecasts of Global Burden of Disease estimates outperform naïve baselines? An out-of-sample evaluation across four conditions, 31 Indian states and three forecast origins",
+      "titleNormalized": "when do bayesian age period cohort forecasts of global burden of disease estimates outperform naive baselines an out of sample evaluation across four conditions 31 indian states and three forecast origins",
+      "bucket": "submissions",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"When do Bayesian age-period-cohort forecasts of Global Burden of Disease estimates help, and when do they harm? An out-of-sample evaluation across four conditions and 31 Indian states\" (0.90). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": null,
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-09-26T08:21:13.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-26T08:21:13.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The recipient is notified that a manuscript they co-authored has been submitted and can be viewed.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0dccdec209f7a4",
+                "messageId": "1a0dccdec209f7a4",
+                "subject": "Action Recommended:  View  your submission to Journal of Evaluation in Clinical Practice",
+                "from": "Journal of Evaluation in Clinical Practice <no-reply@researchexchange.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-26T08:21:13.000Z",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The recipient is notified that a manuscript they co-authored has been submitted and can be viewed.",
+          "source": {
+            "threadId": "1a0dccdec209f7a4",
+            "messageId": "1a0dccdec209f7a4",
+            "subject": "Action Recommended:  View  your submission to Journal of Evaluation in Clinical Practice",
+            "from": "Journal of Evaluation in Clinical Practice <no-reply@researchexchange.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-26T08:21:14.000Z",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "eventType": "other",
+          "manuscriptNumber": null,
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The revised manuscript was successfully submitted and is now with the editorial office.",
+          "source": {
+            "threadId": "1a0dccde0fe1f085",
+            "messageId": "1a0dccde0fe1f085",
+            "subject": "Revised manuscript submitted to Journal of Evaluation in Clinical Practice",
+            "from": "Journal of Evaluation in Clinical Practice <no-reply@researchexchange.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-26T08:21:14.000Z",
+      "updatedAt": "2026-09-26T08:21:14.000Z"
     }
   ],
   "editedAt": "2026-09-16T19:36:12.297Z"
