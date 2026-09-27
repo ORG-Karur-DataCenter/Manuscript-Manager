@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-27T12:31:30.000Z",
+      "reason": "unrelated",
+      "subject": "Invitation to Participate in QS Academic Reputation Survey",
+      "from": "\"Ranking Survey(e)\" <Ranking-Surveys-e@kfupm.edu.sa>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-27T12:36:54.000Z",
+      "reason": "unrelated",
+      "subject": "Invitation to Participate in QS Academic Reputation Survey",
+      "from": "\"Ranking Survey(e)\" <Ranking-Surveys-e@kfupm.edu.sa>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-27T12:52:07.000Z",
+      "reason": "unrelated",
+      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
+      "from": "Christopher Martin <mart1865@umn.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-27T13:12:27.000Z",
+      "reason": "unrelated",
+      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
+      "from": "\"Cho, Samuel\" <Samuel.Cho@mountsinai.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-27T03:15:41.000Z",
       "reason": "unrelated",
       "subject": "AO Single Level ACDF Bracing Systematic Review Draft",
@@ -2071,34 +2099,6 @@
       "subject": "Fwd: Your early access granted: GBD 2023 MCP Connector for Claude AI",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:17:21.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:19:23.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:39:36.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:40:37.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

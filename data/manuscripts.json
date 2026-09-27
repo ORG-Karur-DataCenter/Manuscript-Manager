@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T08:17:03.765Z",
+  "generatedAt": "2026-09-27T14:06:43.823Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -8310,9 +8310,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Springer Nature",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentJournal": "MUSCULOSKELETAL SURGERY",
+      "currentManuscriptNumber": "68019ed9-7603-4bfc-b933-d92384da30cd",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -8406,6 +8406,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "MUSCULOSKELETAL SURGERY",
+          "manuscriptNumber": "68019ed9-7603-4bfc-b933-d92384da30cd",
+          "submittedDate": "2026-09-27T10:18:33.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-27T10:18:33.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected as low priority.",
+              "manuscriptNumber": "68019ed9-7603-4bfc-b933-d92384da30cd",
+              "source": {
+                "threadId": "1a0e25faa40bbf19",
+                "messageId": "1a0e25faa40bbf19",
+                "subject": "Decision on your submission to MUSCULOSKELETAL SURGERY",
+                "from": "MUSCULOSKELETAL SURGERY <sandhya.venkatesan@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -8472,11 +8496,30 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-27T10:18:33.000Z",
+          "journal": "MUSCULOSKELETAL SURGERY",
+          "eventType": "rejected",
+          "manuscriptNumber": "68019ed9-7603-4bfc-b933-d92384da30cd",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected as low priority.",
+          "source": {
+            "threadId": "1a0e25faa40bbf19",
+            "messageId": "1a0e25faa40bbf19",
+            "subject": "Decision on your submission to MUSCULOSKELETAL SURGERY",
+            "from": "MUSCULOSKELETAL SURGERY <sandhya.venkatesan@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T12:23:01.000Z",
-      "updatedAt": "2026-08-28T11:30:28.000Z",
-      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Frontiers in Public Health, Indian Journal of Orthopaedics — set the right one."
+      "updatedAt": "2026-09-27T10:18:33.000Z",
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Frontiers in Public Health, Indian Journal of Orthopaedics — set the right one.",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "fragility-fracture-risk-prediction-using-quantitative-magnetic-resonan",
@@ -10572,6 +10615,19 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-27T14:02:08.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0e32c5a650a194",
+                "messageId": "1a0e32c5a650a194",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
             }
           ]
         },
@@ -10902,10 +10958,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-27T14:02:08.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a0e32c5a650a194",
+            "messageId": "1a0e32c5a650a194",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-09-23T07:09:19.000Z",
+      "updatedAt": "2026-09-27T14:02:08.000Z",
       "deadline": null,
       "deadlineSource": null,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
