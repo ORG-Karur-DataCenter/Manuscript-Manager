@@ -1,7 +1,7 @@
 {
   "accounts": {
     "dhibinvikash1@gmail.com": {
-      "lastSyncedAt": "2026-09-26T22:55:41.235Z",
+      "lastSyncedAt": "2026-09-27T01:31:23.837Z",
       "seenIds": [
         "1a0103eff244d8fe",
         "1a01f47bc9dacb9b",
@@ -3266,10 +3266,8 @@
       "holding": false
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-09-26T22:55:40.893Z",
+      "lastSyncedAt": "2026-09-27T01:31:23.448Z",
       "seenIds": [
-        "19f1bc926264ed86",
-        "19f1bd0797dffacb",
         "19f1bd078cc3311b",
         "19f226e2f48e0605",
         "19f2315e72a29a2c",
@@ -11267,7 +11265,9 @@
         "1a0ddf290f2dbdfe",
         "1a0df196c189e2ce",
         "1a0deb8821293e31",
-        "1a0dfdef68f63223"
+        "1a0dfdef68f63223",
+        "1a0e0736c2759750",
+        "1a0e06f2fada9b55"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
