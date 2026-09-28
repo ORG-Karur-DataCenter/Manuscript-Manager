@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-27T23:01:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Webinar Invite- Connecting content to curriculum: Explore discipline-aligned ProQuest solutions",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-27T23:43:08.000Z",
+      "reason": "unrelated",
+      "subject": "Re: [External] Re: AO Single Level ACDF Bracing Systematic Review Draft",
+      "from": "\"Goh, Brian C\" <brian.goh@emory.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-27T21:50:29.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Regenerative Medicine - Invitation to Review Manuscript ID IRME-2026-ST-0248",
@@ -2084,20 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "[Life, IF 3.9] Invitations to submit to Special Issue “The Microbiome and Dysbiosis in Various Pathologies” ",
       "from": "Liana Lucaciu <liana.lucaciu@umfcluj.ro>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T17:47:49.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "AI for Materials - Featured Articles from Journal of Materials Informatics (IF 8.0, JCR Q1)",
-      "from": "Journal of Materials Informatics <GGO@webofscience-authorconnect.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T18:38:00.000Z",
-      "reason": "unrelated",
-      "subject": "Contact Information",
-      "from": "Kari Odland <kodland@umn.edu>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
