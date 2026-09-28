@@ -1,6 +1,90 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-28T14:18:32.000Z",
+      "reason": "unrelated",
+      "subject": "You have 2 new invitations",
+      "from": "LinkedIn <notifications-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T14:56:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "⛔ OpenAI hit pause again",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T15:05:57.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore the June Issue of Innovations",
+      "from": "Innovations Journal on behalf of Arthrex <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T05:49:09.000Z",
+      "reason": "unrelated",
+      "subject": "Re: [External] Re: AO Single Level ACDF Bracing Systematic Review Draft",
+      "from": "David Gendelberg <david.gendelberg@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T07:13:07.000Z",
+      "reason": "unrelated",
+      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
+      "from": "Vadim Byvaltsev <vadim75byvaltsev@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T07:23:41.000Z",
+      "reason": "unrelated",
+      "subject": "PDFs  papers",
+      "from": "Calogero Velluto <calogerovelluto@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T07:33:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Invitation: Build your scholarly communication skills in our upcoming UTTHAN session. Register now!",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T10:06:24.000Z",
+      "reason": "unrelated",
+      "subject": "Your publication: AO Spine Clinical Practice Recommendations: When to Operate in Lumbar Disc Herniation",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T12:01:00.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "More ways to publish with Medicine®",
+      "from": "\"Lippincott®\" <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T12:14:24.000Z",
+      "reason": "unrelated",
+      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
+      "from": "Mohamed Amin Soliman <msolim8@uwo.ca>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T14:38:38.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-28T15:16:10.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: RoB",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-28T02:04:32.000Z",
       "reason": "editorial_role_for_other_manuscript",
       "subject": "JOIO-D-26-01810 - New manuscript received",
@@ -2014,90 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Registration Is Now Open! AO Trauma/ AO Recon Course—Comprehensive Periprosthetic Fracture Management of the Hip and Knee Course with Anatomical Specimens, Yogyakarta, Indonesia | November 16-18, 2026",
       "from": "AO Foundation <news@communications.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T05:02:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your sleep timing may influence osteoarthritis risk ",
-      "from": "EMJ 6 at 6am <circulation@emjreviews.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T20:35:23.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Invitation - JoVE Researcher Innovation Award",
-      "from": "Benjamin Werth <benjamin.werth@jove.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T23:57:01.000Z",
-      "reason": "unrelated",
-      "subject": "Academic Peer Review Availability (PLOS ONE) - Faruk Danis, MD [Trauma & Acute Care Surgery]",
-      "from": "\"Faruk Danış\" <farukdanis@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T10:21:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Upcoming discussion on Resolving Inflammation or Driving Fibrosis: Immune Determinants of Muscle Regenerative Outcomes",
-      "from": "\"Federica Cirillo (Via Frontiersin)\" <cellbiology@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:09:13.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:16:50.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:41:31.000Z",
-      "reason": "unrelated",
-      "subject": "🗓 FISRM:,  BATCH: 3  | CLASS: 1 on September 16, 2026 | Read Meeting Report",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T14:56:58.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record confirmation",
-      "from": "PROSPERO Administrator <irss592@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T00:08:31.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Do Pilots, Flight Crew Have Higher Cancer Mortality Risk?",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T16:40:45.000Z",
-      "reason": "unrelated",
-      "subject": "🧠 ChatGPT's co-creator built AI that can't write",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T04:49:38.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-00960 - [EMID:d995e8c94c573438]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-16T12:06:40.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
