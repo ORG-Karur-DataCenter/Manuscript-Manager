@@ -1,6 +1,76 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-29T12:15:22.000Z",
+      "reason": "unrelated",
+      "subject": "Dhibin Vikash, did this researcher author this publication?",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T05:47:55.000Z",
+      "reason": "unrelated",
+      "subject": "SAGE Journal Author Survey",
+      "from": "SAGE Author Services <author.services@sagepub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T10:03:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T11:08:05.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dr. Muthu, under three weeks left: the Longevity Medicine Contest closes Oct 16.",
+      "from": "Cureus Journal of Medical Science <no-reply@journal.cureus.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T14:20:00.000Z",
+      "reason": "unrelated",
+      "subject": "👤 Someone at Kyoto City Hospital you may know",
+      "from": "LinkedIn <messages-noreply@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T14:58:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  Clinical Orthopaedics and Related Research® - Vol. 484, No. 10, October 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T16:12:36.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study-Mount Sinai",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T16:28:14.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, someone just recommended your data",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T19:11:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Focus issue on ECMO from World Journal of Emergency Medicine",
+      "from": "World Journal of Emergency Medicine <GGO@webofscience-authorconnect.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T20:18:51.000Z",
+      "reason": "unrelated",
+      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
+      "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-29T10:21:17.000Z",
       "reason": "unrelated",
       "subject": "James Thomas published an article",
@@ -2028,76 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Gene Therapy Contents: Volume 33 Number 5",
       "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T07:55:12.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Your Discount to Frontiers in Surgery (IF: 1.9, CiteScore 3.9)",
-      "from": "Frontiers In Surgery <surgery@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T08:56:45.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Number ID: 05395420 World Journal of Clinical Cases Article Quality Tracking-Peer Review for Volume 14 Issue 26 2026-09-16",
-      "from": "\"BPG Invitation (Ma LS)\" <invitation@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T10:00:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Abstract deadline closing in 3 days - submit your research for GSC 2027",
-      "from": "Global Spine Congress <gsc@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T11:08:53.000Z",
-      "reason": "unrelated",
-      "subject": "⏪ Pre-Read for your upcoming meeting: FISRM,   BATCH: 5   |   CLASS: INTRODUCTORY WELCOME CLASS on Fri, Sep 18 2026 @ 05:30PM IST",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T06:05:28.000Z",
-      "reason": "unrelated",
-      "subject": "Marrow Edition 8.5 | Clinical Edge is live now ✨",
-      "from": "Team Marrow <noreply@marrowmed.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T05:14:46.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-43796] - [EMID:0a65ce99f27c7815]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T23:42:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "GBD Collaborator Newsletter, September 2026 Issue",
-      "from": "GBD Collaborator Newsletter <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T00:17:09.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: OPEC Energy Review [email ref: SE-33-a]",
-      "from": "Diana Khoury <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T06:34:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Biomedical Engineering Contents: Volume 10 Number 9",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T21:22:49.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:130e3109b0ff3981]",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
