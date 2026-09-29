@@ -395,6 +395,23 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea|2026-10-06T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
+      "title": "When do Bayesian age–period–cohort forecasts of Global Burden of Disease estimates outperform naïve baselines? An out-of-sample evaluation across four conditions, 31 Indian states and three forecast origins",
+      "due": "2026-10-06T18:29:59.999Z",
+      "at": "2026-09-29T16:03:11.109Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -492,6 +509,11 @@
       "title": "Amendment 1 day overdue — Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Rev…",
       "due": "2026-09-25T18:29:59.999Z",
       "closed": true
+    },
+    "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea": {
+      "number": 26,
+      "title": "Amendment 7 days left — When do Bayesian age–period–cohort forecasts of Global Burden of Dise…",
+      "due": "2026-10-06T18:29:59.999Z"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T08:42:01.353Z",
+  "generatedAt": "2026-09-29T16:03:05.997Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -10338,9 +10338,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Mammalian Genome",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentJournal": "Scientific Reports",
+      "currentManuscriptNumber": "4822d080-3270-4a4f-9a84-b15ddef329ec",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -10712,6 +10712,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Scientific Reports",
+          "manuscriptNumber": "4822d080-3270-4a4f-9a84-b15ddef329ec",
+          "submittedDate": "2026-09-29T13:04:47.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-29T13:04:47.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after editorial assessment.",
+              "manuscriptNumber": "4822d080-3270-4a4f-9a84-b15ddef329ec",
+              "source": {
+                "threadId": "1a0ed448f7d392f3",
+                "messageId": "1a0ed448f7d392f3",
+                "subject": "Decision on your submission to Scientific Reports",
+                "from": "Scientific Reports <srep@nature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -11009,10 +11033,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-29T13:04:47.000Z",
+          "journal": "Scientific Reports",
+          "eventType": "rejected",
+          "manuscriptNumber": "4822d080-3270-4a4f-9a84-b15ddef329ec",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after editorial assessment.",
+          "source": {
+            "threadId": "1a0ed448f7d392f3",
+            "messageId": "1a0ed448f7d392f3",
+            "subject": "Decision on your submission to Scientific Reports",
+            "from": "Scientific Reports <srep@nature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-09-27T14:02:08.000Z",
+      "updatedAt": "2026-09-29T13:04:47.000Z",
       "deadline": null,
       "deadlineSource": null,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
@@ -22536,16 +22577,16 @@
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
-      "title": "When do Bayesian age-period-cohort forecasts of Global Burden of Disease estimates help, and when do they harm? An out-of-sample evaluation across four conditions and 31 Indian states",
-      "titleNormalized": "when do bayesian age period cohort forecasts of global burden of disease estimates help and when do they harm an out of sample evaluation across four conditions and 31 indian states",
-      "bucket": "revisions_pending",
+      "title": "When do Bayesian age–period–cohort forecasts of Global Burden of Disease estimates outperform naïve baselines? An out-of-sample evaluation across four conditions, 31 Indian states and three forecast origins",
+      "titleNormalized": "when do bayesian age period cohort forecasts of global burden of disease estimates outperform naive baselines an out of sample evaluation across four conditions 31 indian states and three forecast origins",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
+      "needsActionReason": "pre_review_edits",
       "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionLabel": "Amendments requested",
       "currentJournal": "Journal of Evaluation in Clinical Practice",
       "currentManuscriptNumber": "4623523",
-      "currentStatus": "Revision requested",
+      "currentStatus": "Sent back for edits",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -22557,7 +22598,7 @@
           "manuscriptNumber": "4623523",
           "submittedDate": "2026-08-17T10:52:38.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -22613,6 +22654,19 @@
                 "threadId": "1a0c8f71494fef9b",
                 "messageId": "1a0c8f71494fef9b",
                 "subject": "Major revision requested: 4623523",
+                "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>"
+              }
+            },
+            {
+              "timestamp": "2026-09-29T06:02:15.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned to draft so the author can address required corrections.",
+              "manuscriptNumber": "4623523",
+              "source": {
+                "threadId": "1a0ebc1b5483ebf2",
+                "messageId": "1a0ebc1b5483ebf2",
+                "subject": "Manuscript returned to draft: 4623523",
                 "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>"
               }
             }
@@ -22688,12 +22742,33 @@
             "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-29T06:02:15.000Z",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "eventType": "sent_back",
+          "manuscriptNumber": "4623523",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-06T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was returned to draft so the author can address required corrections.",
+          "source": {
+            "threadId": "1a0ebc1b5483ebf2",
+            "messageId": "1a0ebc1b5483ebf2",
+            "subject": "Manuscript returned to draft: 4623523",
+            "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T10:52:38.000Z",
-      "updatedAt": "2026-09-22T11:53:49.000Z",
-      "deadline": "2026-12-21T18:29:59.999Z",
-      "deadlineSource": "stated"
+      "updatedAt": "2026-09-29T06:02:15.000Z",
+      "deadline": "2026-10-06T18:29:59.999Z",
+      "deadlineSource": "assumed"
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea-2",
