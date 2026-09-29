@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-28T20:15:32.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Second Reminder: Invitation to review Manuscript IPMT-2026-ST-0488 - Pain Management",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T02:08:02.000Z",
+      "reason": "unrelated",
+      "subject": "An invitation to join SciVora — The 7 Senses of Research",
+      "from": "SciVora <support@scivora.io>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T05:03:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Vasculitis linked to higher heart and stroke risk ",
+      "from": "EMJ 6 at 6am <circulation@emjreviews.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T05:47:57.000Z",
+      "reason": "unrelated",
+      "subject": "SAGE Journal Author Survey",
+      "from": "SAGE Author Services <author.services@sagepub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T06:12:49.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One Reminder of Active Assignments - [EMID:3b236326cc79c320]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T06:54:36.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Your services on MD-D-26-08968 are no longer required",
+      "from": "Medicine <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T07:49:11.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "International Orthopaedics - ToC Alert",
+      "from": "Springer Alert <tocalert@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T08:02:16.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-29T00:22:44.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Invitation to Review Manuscript No. 128259 for World Journal of Translational Medicine (Reviewer’s Code: 05395420)",
@@ -2043,62 +2099,6 @@
       "subject": "Nature alert for 17th September 2026",
       "from": "Nature <alerts@nature.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T13:00:57.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New students begin their Stanford journey",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T13:12:21.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Supporters' eNews September 2026",
-      "from": "Cochrane <no-reply@cochrane.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T08:52:45.000Z",
-      "reason": "unrelated",
-      "subject": "Bhavik Bansal recommended this article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T09:53:17.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4597111 - Invitation to Review for JCM",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T10:03:38.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New in the New England Journal of Medicine.",
-      "from": "OrthoEvidence <info@myorthoevidence.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T11:08:18.000Z",
-      "reason": "unrelated",
-      "subject": "⏪ Pre-Read for your upcoming meeting: FISRM BATCH 4 | CLASS : 3 on Thu, Sep 17 2026 @ 05:30PM IST",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T12:46:31.000Z",
-      "reason": "unrelated",
-      "subject": "🗓 FISRM BATCH 4 | CLASS : 3 on September 17, 2026 | Read Meeting Report",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T13:08:53.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Supporters' eNews September 2026",
-      "from": "Cochrane <no-reply@cochrane.org>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
