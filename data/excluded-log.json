@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-29T00:22:44.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 128259 for World Journal of Translational Medicine (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-28T13:00:26.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Bringing elite sports medicine into everyday care",
@@ -2092,13 +2099,6 @@
       "subject": "Supporters' eNews September 2026",
       "from": "Cochrane <no-reply@cochrane.org>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-17T06:32:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Astronomy Contents: Volume 10 Number 9",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
