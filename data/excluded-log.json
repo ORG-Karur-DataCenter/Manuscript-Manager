@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-30T13:02:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Stanford chemist awarded MacArthur Fellowship",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T14:47:11.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The Future Of Pharma Reps: 5 Ways AI Will Transform Pharmaceutical Sales Representatives",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T16:20:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "⚡ OpenAI shipped 20 things and hid one.",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T12:15:53.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a recent article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T14:26:46.000Z",
+      "reason": "unrelated",
+      "subject": "Have you considered transferring your article?",
+      "from": "transfer@tandf.co.uk",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T15:27:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  JBJS Case Connector - Vol. 16, No. 3, July-September 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T17:05:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "David Gendelberg created the discussion GSJ Club is tomorrow night in Global Spine Journal Club Group",
+      "from": "\"myAO 2.0\" <no-reply@myao.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-30T04:52:51.000Z",
       "reason": "unrelated",
       "subject": "Thank you for submitting authorship for the IHME ID: 5410 GBD 2023 Global Ageing and NCDs paper",
@@ -2050,55 +2099,6 @@
       "subject": "What wearable data reveals about menstrual cycles",
       "from": "Stanford Report <noreply@stanford.edu>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T16:40:59.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1643",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T16:45:05.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T16:55:04.000Z",
-      "reason": "unrelated",
-      "subject": "Thank you for your trust. Enjoy 40% book discount",
-      "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T17:13:06.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Laughter Really Is The Best Medicine",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T09:00:35.000Z",
-      "reason": "unrelated",
-      "subject": "Thank you for your trust. Enjoy 40% book discount",
-      "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T13:09:31.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Draft PROSPERO registrations",
-      "from": "\"Massie, Harrison A\" <ham2@uab.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T14:02:06.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Draft PROSPERO registrations",
-      "from": "\"Massie, Harrison A\" <ham2@uab.edu>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

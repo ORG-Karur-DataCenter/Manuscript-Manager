@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T13:54:12.795Z",
+  "generatedAt": "2026-09-30T19:29:20.865Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6627,8 +6627,8 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Accountability in Research: Ethics, Integrity and Policy",
-      "currentManuscriptNumber": "261487012",
+      "currentJournal": "Ethics and Education",
+      "currentManuscriptNumber": "269213002",
       "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
@@ -6661,6 +6661,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Ethics and Education",
+          "manuscriptNumber": "269213002",
+          "submittedDate": "2026-09-30T15:37:16.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-30T15:37:16.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript.",
+              "manuscriptNumber": "269213002",
+              "source": {
+                "threadId": "1a0f2f685b4c01a1",
+                "messageId": "1a0f2f685b4c01a1",
+                "subject": "Submission received for Ethics and Education (Submission ID: 269213002)",
+                "from": "journalshelpdesk@taylorandfrancis.com"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -6680,10 +6704,27 @@
             "from": "journalshelpdesk@taylorandfrancis.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-30T15:37:16.000Z",
+          "journal": "Ethics and Education",
+          "eventType": "new_submission",
+          "manuscriptNumber": "269213002",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submitted manuscript.",
+          "source": {
+            "threadId": "1a0f2f685b4c01a1",
+            "messageId": "1a0f2f685b4c01a1",
+            "subject": "Submission received for Ethics and Education (Submission ID: 269213002)",
+            "from": "journalshelpdesk@taylorandfrancis.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-30T07:31:42.000Z",
-      "updatedAt": "2026-09-30T07:31:42.000Z"
+      "updatedAt": "2026-09-30T15:37:16.000Z"
     },
     {
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",
@@ -21209,14 +21250,14 @@
       "id": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
       "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
       "titleNormalized": "the burden of knee osteoarthritis in older adults in india and south asia 1990 2023 a subnational analysis from the global burden of disease study 2023",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": true,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "International Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
+      "currentStatus": "Sent back for edits",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -21482,6 +21523,19 @@
                 "subject": "Re: International Orthopaedics-Amendment required",
                 "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-09-30T18:00:23.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Technical check returned the manuscript to the author for required amendments before further processing.",
+              "manuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
+              "source": {
+                "threadId": "1a0cefa1a10f3707",
+                "messageId": "1a0f3798dc5ba1a1",
+                "subject": "Re: International Orthopaedics-Amendment required",
+                "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
+              }
             }
           ]
         }
@@ -21687,12 +21741,33 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-09-30T18:00:23.000Z",
+          "journal": "International Orthopaedics",
+          "eventType": "sent_back",
+          "manuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-02T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "Technical check returned the manuscript to the author for required amendments before further processing.",
+          "source": {
+            "threadId": "1a0cefa1a10f3707",
+            "messageId": "1a0f3798dc5ba1a1",
+            "subject": "Re: International Orthopaedics-Amendment required",
+            "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-04T12:04:40.000Z",
-      "updatedAt": "2026-09-26T06:50:34.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-09-30T18:00:23.000Z",
+      "deadline": "2026-10-02T18:29:59.999Z",
+      "deadlineSource": "stated",
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with."
     },
     {

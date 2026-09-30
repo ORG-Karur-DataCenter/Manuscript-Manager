@@ -412,6 +412,35 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a|2026-10-02T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
+      "at": "2026-09-30T19:29:27.332Z"
+    },
+    {
+      "key": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a|2026-10-02T18:29:59.999Z|t-1",
+      "kind": "superseded",
+      "manuscriptId": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
+      "at": "2026-09-30T19:29:27.332Z"
+    },
+    {
+      "key": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a|2026-10-02T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
+      "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
+      "due": "2026-10-02T18:29:59.999Z",
+      "at": "2026-09-30T19:29:27.332Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -435,7 +464,7 @@
     },
     "broad-spectrum-in-vitro-antimicrobial-activity-of-homologous-platelet-": {
       "number": 12,
-      "title": "Amendment 29 days overdue — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
+      "title": "Amendment 30 days overdue — Broad-Spectrum In-Vitro Antimicrobial Activity of Homologous Platelet…",
       "due": "2026-09-01T18:29:59.999Z"
     },
     "does-anatomy-outweigh-biology-in-cervical-spine-giant-cell-tumours-a-s": {
@@ -500,8 +529,8 @@
     },
     "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a": {
       "number": 24,
-      "title": "Amendment 1 day overdue — The burden of knee osteoarthritis in older adults in India and South…",
-      "due": "2026-09-25T18:29:59.999Z",
+      "title": "Amendment due tomorrow — The burden of knee osteoarthritis in older adults in India and South…",
+      "due": "2026-10-02T18:29:59.999Z",
       "closed": true
     },
     "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie": {
@@ -512,7 +541,7 @@
     },
     "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea": {
       "number": 26,
-      "title": "Amendment 6 days left — When do Bayesian age–period–cohort forecasts of Global Burden of Dise…",
+      "title": "Amendment 5 days left — When do Bayesian age–period–cohort forecasts of Global Burden of Dise…",
       "due": "2026-10-06T18:29:59.999Z"
     }
   }
