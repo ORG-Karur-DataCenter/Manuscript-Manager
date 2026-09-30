@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-30T00:10:16.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Exercise ‘Snacks’ May Be Stronger Medicine Than We Thought",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T20:06:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "In 2 Weeks! 2026 ISAKOS Knee Arthroplasty Forum",
+      "from": "ISAKOS <isakos@isakos.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-29T20:55:06.000Z",
+      "reason": "unrelated",
+      "subject": "IHME ID: 5410 GBD 2023 Ageing and NCDs authorship due October 6",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-29T12:15:22.000Z",
       "reason": "unrelated",
       "subject": "Dhibin Vikash, did this researcher author this publication?",
@@ -2078,27 +2099,6 @@
       "subject": "Re: Draft PROSPERO registrations",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T14:39:50.000Z",
-      "reason": "unrelated",
-      "subject": "AW: [EXTERNAL]Re: Systematic review, timing of chemoprophylaxis spine surgery [ Z1 UNGESICHERT ]",
-      "from": "\"Schnake, Klaus\" <Klaus.Schnake@waldkrankenhaus.de>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T14:44:27.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Contact Information",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T06:36:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Gene Therapy Contents: Volume 33 Number 5",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
