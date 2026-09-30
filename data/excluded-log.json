@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-30T07:10:27.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Dove Medical Press invites you to review a paper for Journal of Pain Research Submission ID: 646309",
+      "from": "Ms Lavanya Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T14:07:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Registration is Now Open for ISAKOS 2027!",
+      "from": "2027 ISAKOS Congress <isakos@isakos.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T22:46:04.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "jajs Manuscript for Peer-Review: jajs_89_26",
+      "from": "Journal of Arthroscopy and Joint Surgery <Donotreply_uniprr@wolterskluwer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T23:02:18.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your OrthoBuzz September Newsletter",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-30T13:02:32.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Stanford chemist awarded MacArthur Fellowship",
@@ -2071,34 +2099,6 @@
       "subject": "Re: avaisor Research on Use Case - Situation B, Next steps before Phase 2",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T05:50:15.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Request to Present your Precious Report",
-      "from": "\"JSUR 18.09.2026\" <contact@paperexplorereviews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T02:00:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "WATCH & LEARN with ESSKA!",
-      "from": "ESSKA Educational Newsletter <academy@esska.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T03:55:53.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Official Invitation: Invited Speaker - ICAMET 2026 - Hybrid Mode - RNS Institute of Technology, Bengaluru, Karnataka, INDIA (24–26 November 2026)",
-      "from": "ICAMET 2026 <contact@rpconfseries.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T13:00:28.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What wearable data reveals about menstrual cycles",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
