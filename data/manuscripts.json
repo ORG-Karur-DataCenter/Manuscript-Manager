@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T06:49:04.707Z",
+  "generatedAt": "2026-09-30T13:54:12.795Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6616,6 +6616,74 @@
       ],
       "createdAt": "2026-06-12T04:05:36.000Z",
       "updatedAt": "2026-06-13T11:50:38.000Z"
+    },
+    {
+      "id": "editorial-proximity-and-speed-of-acceptance-in-orthopaedic-and-spine-j",
+      "title": "Editorial proximity and speed of acceptance in orthopaedic and spine journals: a cross-sectional study of 27,128 articles in 26 journals",
+      "titleNormalized": "editorial proximity and speed of acceptance in orthopaedic and spine journals a cross sectional study of 27 128 articles in 26 journals",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Accountability in Research: Ethics, Integrity and Policy",
+      "currentManuscriptNumber": "261487012",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Accountability in Research: Ethics, Integrity and Policy",
+          "manuscriptNumber": "261487012",
+          "submittedDate": "2026-09-30T07:31:42.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-09-30T07:31:42.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript.",
+              "manuscriptNumber": "261487012",
+              "source": {
+                "threadId": "1a0f139f7c3cc60a",
+                "messageId": "1a0f139f7c3cc60a",
+                "subject": "Submission received for Accountability in Research: Ethics, Integrity and Policy (Submission ID: 261487012)",
+                "from": "journalshelpdesk@taylorandfrancis.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-09-30T07:31:42.000Z",
+          "journal": "Accountability in Research: Ethics, Integrity and Policy",
+          "eventType": "new_submission",
+          "manuscriptNumber": "261487012",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submitted manuscript.",
+          "source": {
+            "threadId": "1a0f139f7c3cc60a",
+            "messageId": "1a0f139f7c3cc60a",
+            "subject": "Submission received for Accountability in Research: Ethics, Integrity and Policy (Submission ID: 261487012)",
+            "from": "journalshelpdesk@taylorandfrancis.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-09-30T07:31:42.000Z",
+      "updatedAt": "2026-09-30T07:31:42.000Z"
     },
     {
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",

@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-30T04:52:51.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for submitting authorship for the IHME ID: 5410 GBD 2023 Global Ageing and NCDs paper",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T06:56:48.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to peer review a new submission - Manuscript ID WdrejP - Academia Biology",
+      "from": "\"Academia.edu\" <updates@academia-mail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T07:16:07.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review for Science Progress: Heterogeneous associations between Light Biological Age and Osteoporosis in older adults",
+      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T08:32:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Call for Papers - “Redox Control of Stem Cell Fate: From Niche Biology to Regenerative Medicine”",
+      "from": "Frontiers in Cell and Developmental Biology <cellbiology@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-09-30T12:42:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "COST Newsletter - September 2026",
+      "from": "COST Association <communications@cost.eu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-30T01:13:55.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "[JCM] Manuscript ID: jcm-4581359 - Review Request Reminder",
@@ -2063,41 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Draft PROSPERO registrations",
       "from": "\"Massie, Harrison A\" <ham2@uab.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T16:40:59.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1643",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T16:45:05.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1521",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T06:38:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Reviews Clinical Oncology Contents: Volume 23 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T14:39:05.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "☠️Claude was used to hack OpenAI",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-18T11:31:50.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "MOACON 2027 - FROM A THOUGHT… TO A BREAKTHROUGH!",
-      "from": "MOACON 2027 <projects@rnsevents.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
