@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T06:03:37.425Z",
+  "generatedAt": "2026-10-01T13:34:52.855Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -7723,7 +7723,7 @@
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionLabel": "Revision  requested",
       "currentJournal": "World Journal of Experimental Medicine",
       "currentManuscriptNumber": "126998",
       "currentStatus": "Revision requested",
@@ -7795,6 +7795,19 @@
                 "subject": "World Journal of Experimental Medicine Manuscript review of Manuscript NO: 126998",
                 "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-01T08:41:08.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The editor informs the author that the manuscript has been preliminarily accepted but requires revision, and asks the author to submit the revised manuscript.",
+              "manuscriptNumber": "126998",
+              "source": {
+                "threadId": "1a0f6a02202020fa",
+                "messageId": "1a0f6a02202020fa",
+                "subject": "Reminder to World Journal of Experimental Medicine Manuscript NO: 126998 – Manuscript status is “Revise”",
+                "from": "\"Bai, Shi-Rui (Baishideng)\" <s.r.bai@wjgnet.com>"
+              }
             }
           ]
         }
@@ -7865,10 +7878,27 @@
             "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-01T08:41:08.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "126998",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The editor informs the author that the manuscript has been preliminarily accepted but requires revision, and asks the author to submit the revised manuscript.",
+          "source": {
+            "threadId": "1a0f6a02202020fa",
+            "messageId": "1a0f6a02202020fa",
+            "subject": "Reminder to World Journal of Experimental Medicine Manuscript NO: 126998 – Manuscript status is “Revise”",
+            "from": "\"Bai, Shi-Rui (Baishideng)\" <s.r.bai@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-18T06:30:40.000Z",
-      "updatedAt": "2026-09-20T03:20:58.000Z",
+      "updatedAt": "2026-10-01T08:41:08.000Z",
       "deadline": null,
       "deadlineSource": null
     },

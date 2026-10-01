@@ -1,6 +1,118 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-01T06:16:29.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "PLOS One Registration",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T06:32:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Photonics Contents: Volume 20 Number 10",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T12:26:56.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "How Are Investors Using AI to Research Stocks?",
+      "from": "The Economic Times <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T13:03:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Stanford alum heads to space",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T04:22:59.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "[Stresses; CiteScore 10.0] - We Invite You to Submit a Manuscript",
+      "from": "Stresses Editorial Office <stresses@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T07:23:39.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Expert Review of Vaccines - Manuscript ID IPMT-2026-ST-0488",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T08:13:28.000Z",
+      "reason": "unrelated",
+      "subject": "SCOPE Study: Publication Plan for the Project",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T08:33:00.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Stars collected, doors opened, and fruits tasted",
+      "from": "ASReview <info@mailings.uu.nl>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T09:16:25.000Z",
+      "reason": "unrelated",
+      "subject": "Re: IntechOpen - CPC Final Notice 237451",
+      "from": "Dominik Samardzija <dominik@intechopen.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T10:14:36.000Z",
+      "reason": "unrelated",
+      "subject": "Auwal Adamu recommended this article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T10:37:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New Issue Online - eTOC for October-December 2026 issue",
+      "from": "\"Annals of the National Academy of Medical Sciences (India)\" <etoc@scientificscholar.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T11:22:27.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, an article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T11:32:17.000Z",
+      "reason": "unrelated",
+      "subject": "Manuscript status has changed.",
+      "from": "Indian Journal of Physiology and Pharmacology <no-reply@editorialassist.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T12:27:22.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[IOCMD2026] Sciforum-203846 Review request cancelled",
+      "from": "info@sciforum.net",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T12:38:28.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T13:01:19.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Submit your research Knowledge for IRJPMS Publication – Volume 9 Issue 6: 2026",
+      "from": "IRJPMS Editor <irjpms@yahoo.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-30T16:01:49.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Last call for papers in \"Resolving Inflammation or Driving Fibrosis: Immune Determinants of Muscle Regenerative Outcomes\"",
@@ -1986,118 +2098,6 @@
       "reason": "unrelated",
       "subject": "Funds / Securities Balance",
       "from": "BSE ALERTS <info@bseindia.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T06:54:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Introducing power packed Instruction Course Lectures (ICLs) - BKC 2026",
-      "from": "BKC 2026 <bangalorekneeconf@250907063.mailchimpapp.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T11:00:24.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, an article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T00:17:13.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Manuscript No. 128152 for World Journal of Gastrointestinal Endoscopy (Reviewer’s Code: 05395420)",
-      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T22:25:49.000Z",
-      "reason": "unrelated",
-      "subject": "Madhan Jeyaraman - new articles",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T23:02:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Suez Canal University × PaperLens — see the conference research",
-      "from": "\"Dr. Karim\" <karim@paperlens.science>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T18:50:30.000Z",
-      "reason": "unrelated",
-      "subject": "GSC 2027 affiliations",
-      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T20:15:58.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: GSC 2027 affiliations",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T16:40:59.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Manuscript ID [JMISST-26-0601] Letter of decision 1st - Reject and Resubmission",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T16:20:31.000Z",
-      "reason": "unrelated",
-      "subject": "Your paper \"Does progress in microfracture techniques…\" — a note from Magellan Longevity",
-      "from": "Gabriel Radu <gabriel@magellanlongevity.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T16:40:59.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Manuscript ID [JMISST-26-0601] Letter of decision 1st - Reject and Resubmission",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T11:20:21.000Z",
-      "reason": "unrelated",
-      "subject": "Re: avaisor Research on Use Case - Situation B, Next steps before Phase 2",
-      "from": "Yabin Wu <yabin.wu@avaisor.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T11:38:30.000Z",
-      "reason": "unrelated",
-      "subject": "Fw: [External] Submitting KFD abstracts to the 9th Saudi Spine society annual conference",
-      "from": "Waeel Hamouda <wohamouda@outlook.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T13:13:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New Issue Online - eTOC for July-September 2026 issue",
-      "from": "Indian Journal of Physiology and Pharmacology <etoc@scientificscholar.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T13:48:14.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Fw: [External] Submitting KFD abstracts to the 9th Saudi Spine society annual conference",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T13:59:27.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Invitation to Contribute to an Upcoming Issue in Scholastic Orthopaedics Journal",
-      "from": "<ortho@scholasticopenaccess.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T01:16:06.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Rare Lumbar Data",
-      "from": "Kari Odland <kodland@umn.edu>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
