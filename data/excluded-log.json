@@ -1,6 +1,125 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-01T07:33:07.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Yonsei Newsletter 2026. 9.",
+      "from": "Yonsei University via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T08:28:24.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "OPEC Energy Review - Manuscript ID OPEC-OA-25-0025 [email ref: SE-38-a]",
+      "from": "Masudbek Narzibekov <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T09:23:37.000Z",
+      "reason": "unrelated",
+      "subject": "Re: IntechOpen - CPC Final Notice 237451",
+      "from": "Mothishwaran B <mothishb@srmist.edu.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T12:24:35.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for submitting your authorship information for the IHME ID: 6168 GBD 2023 Global Falls paper",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T13:34:26.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: AO Degen study",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T13:36:34.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Invitation to participate in SCOPE study - reg",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T13:42:58.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Invitation to participate in SCOPE study - reg",
+      "from": "Sachin Mehta <sachin.mehta@einsteinmed.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T14:03:09.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "RE-Query on your article",
+      "from": "\"Journal of Dental Health & Oral Research\" <dentaloralhealth@athenaeumpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T14:07:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Arthroscopy of Femoroacetabular Impingement and Osteoarthritis: A Systematic Review",
+      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T14:29:28.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study: Publication Plan for the Project",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T14:35:10.000Z",
+      "reason": "unrelated",
+      "subject": "Your Research in the Spotlight- JOCR Video Feature",
+      "from": "\"Journal of .Orthopaedic Case Reports\" <editor.jocr@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T15:56:28.000Z",
+      "reason": "unrelated",
+      "subject": "GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T16:06:58.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
+      "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T16:09:11.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T16:28:00.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
+      "from": "\"Singh,Hardeep\" <hasingh@uchc.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T16:54:53.000Z",
+      "reason": "unrelated",
+      "subject": "R: [ESTERNA] Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
+      "from": "\"Vadalà Gianluca\" <G.Vadala@policlinicocampus.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T18:01:27.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
+      "from": "Rachel Bratescu <rbratescu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-01T06:16:29.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "PLOS One Registration",
@@ -1979,125 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: GSC Abstract Submission - Reg",
       "from": "\"Wang, Jeffrey\" <Jeffrey.Wang@med.usc.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T02:54:06.000Z",
-      "reason": "unrelated",
-      "subject": "Follow articles by Kuldeep Dhama",
-      "from": "Google Scholar Citations <scholarcitations-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T03:18:30.000Z",
-      "reason": "unrelated",
-      "subject": "Web of Science Alert - Sathish Muthu Profile Citation Alert - 192 results from articles",
-      "from": "alerts-noreply@clarivate.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T04:00:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Secure your seat! AO Spine Advanced Seminar—Deformity (Pediatrics and Adults), Ho Chi Minh City, Vietnam | October 3, 2026",
-      "from": "AO Spine <aospine@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T04:06:17.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4597111 - Reminder for Invitation to Review for JCM",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T05:23:57.000Z",
-      "reason": "unrelated",
-      "subject": "Cartilage - ScholarOne Manuscripts Password Request",
-      "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T05:25:06.000Z",
-      "reason": "unrelated",
-      "subject": "Cartilage - Account Modified in ScholarOne Manuscripts",
-      "from": "Cartilage <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T05:45:41.000Z",
-      "reason": "unrelated",
-      "subject": "Call for applications! AO Trauma Asia Pacific Regional Board Chairperson and AO Trauma Asia Pacific Research Committee Chairperson",
-      "from": "AO Trauma <aotrauma@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T23:32:07.000Z",
-      "reason": "unrelated",
-      "subject": "Re: MIS Facet Fusion survey: abstract for GSC 2027",
-      "from": "Ashish Diwan <a.diwan@unsw.edu.au>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T00:03:34.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T00:08:21.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Systematic review, timing of chemoprophylaxis spine surgery",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T00:14:42.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: MIS Facet Fusion survey: abstract for GSC 2027",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T20:47:31.000Z",
-      "reason": "unrelated",
-      "subject": "Editorial Manager Registration",
-      "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T19:56:50.000Z",
-      "reason": "unrelated",
-      "subject": "MIS Facet Fusion survey: abstract for GSC 2027",
-      "from": "David Gendelberg <gendelda@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T14:16:08.000Z",
-      "reason": "unrelated",
-      "subject": "You appeared in 8 searches this week",
-      "from": "LinkedIn <notifications-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T09:01:47.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to review a manuscript for World Journal of Surgical Oncology from Dr Pandey",
-      "from": "World Journal of Surgical Oncology <peer-review@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T03:24:12.000Z",
-      "reason": "unrelated",
-      "subject": "Proposal for Book Publication with Innovative Publication",
-      "from": "Chetan Malik <chetanmalik.isspl@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-20T06:43:45.000Z",
-      "reason": "unrelated",
-      "subject": "Funds / Securities Balance",
-      "from": "BSE ALERTS <info@bseindia.in>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
