@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-09-30T16:01:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Last call for papers in \"Resolving Inflammation or Driving Fibrosis: Immune Determinants of Muscle Regenerative Outcomes\"",
+      "from": "Barbara Pezzini <cellbiology@frontiersin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T02:56:53.000Z",
+      "reason": "unrelated",
+      "subject": "IHME ID: 6168 GBD 2023 Falls authorship due October 7",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T05:31:39.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your Research, Our Platform: Join the Global Agriculture and Food Science Community",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-09-30T07:10:27.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Dove Medical Press invites you to review a paper for Journal of Pain Research Submission ID: 646309",
@@ -2077,27 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: Rare Lumbar Data",
       "from": "Kari Odland <kodland@umn.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T07:57:17.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Original Research Articles – AJST",
-      "from": "mani <Editorajstpublication@12185603.brevosend.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T08:04:21.000Z",
-      "reason": "unrelated",
-      "subject": "Funds/Securities Balance",
-      "from": "nse_alerts@nse.co.in",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-19T10:58:16.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: avaisor Research on Use Case - Situation B, Next steps before Phase 2",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
