@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-01T20:47:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "September 2026 Job Opportunities and Career Advice",
+      "from": "Physics Today Jobs <pt-jobs@aip-info.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T15:40:18.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "See how Nobel Laureate John B. Gurdon brought biology research to life with JoVE",
+      "from": "JoVE Video <access@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T19:54:37.000Z",
+      "reason": "unrelated",
+      "subject": "RE: AO Degen study [External_Email]",
+      "from": "\"Sumal, Aman S *HS\" <ZWG8PS@uvahealth.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T20:43:38.000Z",
+      "reason": "unrelated",
+      "subject": "RE: AO Degen study [External_Email]",
+      "from": "\"Li, Xudong *HS\" <XL2N@uvahealth.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T20:59:05.000Z",
+      "reason": "unrelated",
+      "subject": "Factsheet for the month of October 2026",
+      "from": "Team quant Mutual <communication@quant.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-01T07:33:07.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Yonsei Newsletter 2026. 9.",
@@ -2063,41 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Fwd: Decision on submission to Journal of Clinical Neuroscience",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T09:28:46.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC Abstract Submission - Reg",
-      "from": "Vadim Byvaltsev <vadim75byvaltsev@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T10:00:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Good news: abstract deadline extended to October 8",
-      "from": "Global Spine Congress <gsc@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T12:37:23.000Z",
-      "reason": "unrelated",
-      "subject": "Your IPO application for National Stock Exchange is submitted",
-      "from": "Zerodha <noreply-ipo@qmailer.zerodha.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T13:51:04.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "ijc Manuscript for Peer-Review: ijc_625_26",
-      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T14:11:50.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC Abstract Submission - Reg",
-      "from": "\"Wang, Jeffrey\" <Jeffrey.Wang@med.usc.edu>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

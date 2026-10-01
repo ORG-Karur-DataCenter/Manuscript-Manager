@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T19:41:08.761Z",
+  "generatedAt": "2026-10-01T23:59:23.563Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -12076,15 +12076,15 @@
       "id": "intra-articular-versus-subchondral-leukocyte-poor-platelet-rich-plasma",
       "title": "Intra-Articular versus Subchondral Leukocyte-Poor Platelet-Rich Plasma Injections in Kellgren-Lawrence Grade 2–3 Knee Osteoarthritis: A Double-blinded, Randomized Controlled Trial",
       "titleNormalized": "intra articular versus subchondral leukocyte poor platelet rich plasma injections in kellgren lawrence grade 2 3 knee osteoarthritis a double blinded randomized controlled trial",
-      "bucket": "revisions_pending",
-      "needsReview": false,
-      "reviewReason": null,
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision  requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Journal of Orthopaedic Surgery and Research",
       "currentManuscriptNumber": null,
-      "currentStatus": "Revision requested",
+      "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -12116,6 +12116,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-01T19:42:43.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-01T19:42:43.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and the submission is acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0f7b3222a1f128",
+                "messageId": "1a0f8fd995f6ab64",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -12135,10 +12159,27 @@
             "from": "Journal of Orthopaedic Surgery and Research <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-01T19:42:43.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and the submission is acknowledged.",
+          "source": {
+            "threadId": "1a0f7b3222a1f128",
+            "messageId": "1a0f8fd995f6ab64",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-15T12:49:13.000Z",
-      "updatedAt": "2026-09-15T12:49:13.000Z"
+      "updatedAt": "2026-10-01T19:42:43.000Z"
     },
     {
       "id": "is-implant-removal-after-thoracolumbar-fracture-fixation-truly-necessa",
@@ -13987,6 +14028,74 @@
       "updatedAt": "2026-09-05T07:19:45.000Z",
       "deadline": null,
       "deadlineSource": null
+    },
+    {
+      "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
+      "title": "Laponite Nanocomposite Hydrogels for Bone Tissue Engineering: A Critical Review of Bioactivity and Translational Perspectives",
+      "titleNormalized": "laponite nanocomposite hydrogels for bone tissue engineering a critical review of bioactivity and translational perspectives",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Functional Biomaterials",
+      "currentManuscriptNumber": "jfb-4634669",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Functional Biomaterials",
+          "manuscriptNumber": "jfb-4634669",
+          "submittedDate": "2026-10-01T21:39:06.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-01T21:39:06.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and the journal confirmed its submission.",
+              "manuscriptNumber": "jfb-4634669",
+              "source": {
+                "threadId": "1a0f9682240a376c",
+                "messageId": "1a0f9682240a376c",
+                "subject": "[JFB] Manuscript ID: jfb-4634669 - Submission Received",
+                "from": "Editorial Office <jfb@mdpi.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-01T21:39:06.000Z",
+          "journal": "Journal of Functional Biomaterials",
+          "eventType": "new_submission",
+          "manuscriptNumber": "jfb-4634669",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and the journal confirmed its submission.",
+          "source": {
+            "threadId": "1a0f9682240a376c",
+            "messageId": "1a0f9682240a376c",
+            "subject": "[JFB] Manuscript ID: jfb-4634669 - Submission Received",
+            "from": "Editorial Office <jfb@mdpi.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-01T21:39:06.000Z",
+      "updatedAt": "2026-10-01T21:39:06.000Z"
     },
     {
       "id": "letter-to-the-editor-intradiscal-platelet-rich-plasma-for-discogenic-l",
@@ -21280,14 +21389,14 @@
       "id": "the-burden-of-knee-osteoarthritis-in-older-adults-in-india-and-south-a",
       "title": "The burden of knee osteoarthritis in older adults in India and South Asia, 1990-2023: a subnational analysis from the Global Burden of Disease Study 2023",
       "titleNormalized": "the burden of knee osteoarthritis in older adults in india and south asia 1990 2023 a subnational analysis from the global burden of disease study 2023",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": true,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "International Orthopaedics",
-      "currentManuscriptNumber": "20df4043-f06d-418c-a75c-4fc2fbbae15a",
-      "currentStatus": "Sent back for edits",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -21513,6 +21622,19 @@
               "source": {
                 "threadId": "1a0dc7ae12822604",
                 "messageId": "1a0dc7ae12822604",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-01T13:41:45.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0f7b3222a1f128",
+                "messageId": "1a0f7b3222a1f128",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -21792,12 +21914,29 @@
             "from": "Springer Nature Submissions <mariamerriejul.ladag@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-01T13:41:45.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a0f7b3222a1f128",
+            "messageId": "1a0f7b3222a1f128",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-04T12:04:40.000Z",
-      "updatedAt": "2026-09-30T18:00:23.000Z",
-      "deadline": "2026-10-02T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "updatedAt": "2026-10-01T13:41:45.000Z",
+      "deadline": null,
+      "deadlineSource": null,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with."
     },
     {
