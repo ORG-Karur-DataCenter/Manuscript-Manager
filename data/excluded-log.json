@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-01T12:46:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 01st October 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T11:08:41.000Z",
+      "reason": "unrelated",
+      "subject": "⏪ Pre-Read for your upcoming meeting: FISRM BATCH 4 | CLASS : 3 on Thu, Oct 01 2026 @ 05:30PM IST",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T00:23:21.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 128898 for World Journal of Stem Cells (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T01:53:58.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Dr. Sathish Muthu IOA Aadhar Verification 2nd Phase is Over , 3rd Phase Started .Happy Gandhi Jayanti",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T04:38:54.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "GLOBSURG <globsurg@cmcvellore.ac.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T04:44:37.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Follow-up on IEC Approval (Karur) – SurgWeek 2 Study",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-01T20:47:44.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "September 2026 Job Opportunities and Career Advice",
@@ -2056,48 +2098,6 @@
       "reason": "unrelated",
       "subject": "Abstract submission confirmation - GSC Congress 2027",
       "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T07:26:05.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "GSC Abstract Submission - Reg",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T07:26:46.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T07:34:41.000Z",
-      "reason": "unrelated",
-      "subject": "Delivery Status Notification (Failure)",
-      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T08:39:30.000Z",
-      "reason": "unrelated",
-      "subject": "Re: MIS Facet Fusion survey: abstract for GSC 2027",
-      "from": "\"Σωτήριος Βεράνης\" <veranissotiris@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T09:00:16.000Z",
-      "reason": "unrelated",
-      "subject": "A recommendation for Clinical and Radiographic Outcomes of C7-Preserving Versus Conventional Cervical Laminoplasty: A Systematic Review and Meta-analysis",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T09:09:13.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Decision on submission to Journal of Clinical Neuroscience",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
