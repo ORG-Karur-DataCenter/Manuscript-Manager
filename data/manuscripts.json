@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:49:19.133Z",
+  "generatedAt": "2026-10-02T18:33:46.251Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1380,14 +1380,14 @@
       "id": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the",
       "title": "AO Spine Clinical Practice Recommendations for Interbody Fusion at the Lumbo-Sacral Junction",
       "titleNormalized": "ao spine clinical practice recommendations for interbody fusion at the lumbo sacral junction",
-      "bucket": "published",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Global Spine Journal",
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "GSJ",
       "currentManuscriptNumber": null,
-      "currentStatus": "Published",
+      "currentStatus": "Sent back for edits",
       "doi": "10.1177/21925682261492226",
       "publicationLink": null,
       "authorAccounts": [
@@ -1482,6 +1482,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "GSJ",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-02T18:10:30.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-02T18:10:30.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The publisher flagged an authorship discrepancy and requires the authors to sign a change request form before the article can proceed to production.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0fdcf953415705",
+                "messageId": "1a0fdcf953415705",
+                "subject": "KF Degen GSJ KF Review article: heads up to please sign document",
+                "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -1567,12 +1591,33 @@
             "from": "licensing-payment@sagepub.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-02T18:10:30.000Z",
+          "journal": "GSJ",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-09T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The publisher flagged an authorship discrepancy and requires the authors to sign a change request form before the article can proceed to production.",
+          "source": {
+            "threadId": "1a0fdcf953415705",
+            "messageId": "1a0fdcf953415705",
+            "subject": "KF Degen GSJ KF Review article: heads up to please sign document",
+            "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-12T22:18:58.000Z",
-      "updatedAt": "2026-09-20T14:40:29.000Z",
-      "deadline": null,
-      "deadlineSource": null
+      "updatedAt": "2026-10-02T18:10:30.000Z",
+      "deadline": "2026-10-09T18:29:59.999Z",
+      "deadlineSource": "assumed"
     },
     {
       "id": "ao-spine-clinical-practice-recommendations-when-to-operate-in-lumbar-d",
@@ -16387,6 +16432,19 @@
                 "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:76dceb763dedcd1a]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-02T16:00:32.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 2,
+              "note": "The manuscript was sent back to the author for additional changes before further processing.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R2",
+              "source": {
+                "threadId": "1a0fd58868d06103",
+                "messageId": "1a0fd58868d06103",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:b0a646920a80b4ee]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
             }
           ]
         },
@@ -16764,10 +16822,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-02T16:00:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00213R2",
+          "label": "Sent back for edits",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-10-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "7 days from the email"
+          },
+          "note": "The manuscript was sent back to the author for additional changes before further processing.",
+          "source": {
+            "threadId": "1a0fd58868d06103",
+            "messageId": "1a0fd58868d06103",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:b0a646920a80b4ee]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-09-21T17:42:34.000Z",
+      "updatedAt": "2026-10-02T16:00:32.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

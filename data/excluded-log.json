@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-02T06:32:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Physics Contents: Volume 8 Number 10",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T13:00:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What it’s like to win a Nobel Prize",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T14:44:07.000Z",
+      "reason": "unrelated",
+      "subject": "🤝 How Claude and human split the work",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-01T16:02:55.000Z",
+      "reason": "unrelated",
+      "subject": "RE: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
+      "from": "\"Cho, Samuel\" <Samuel.Cho@mountsinai.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T14:01:32.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "RE-Reminder on your article",
+      "from": "Journal of Orthopaedic Science and Research <orthopaedicres@athenaeumpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T14:29:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🏆 All Papers solved & OSCE recalls top DNB / NEET-SS Exams with MentorExam Solved Papers”",
+      "from": "Mentorexam Foundation <mentorexam.com@5328873.brevosend.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T15:36:07.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Dove Medical Press Peer Review Invitation Reminder [ID: 646309]",
+      "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T15:45:07.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review Manuscript IRME-2026-ST-0248 - Regenerative Medicine",
+      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-02T06:34:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Cell Death & Differentiation Contents: Volume 33 Number 10",
@@ -2039,62 +2095,6 @@
     },
     {
       "timestamp": "2026-09-21T14:47:26.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T16:20:58.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC Abstract Submission - Reg",
-      "from": "Giovanni Barbanti Brodano <giovanni@barbantibrodano.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:32:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Energy Contents: Volume 11 Number 9",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T09:09:13.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Decision on submission to Journal of Clinical Neuroscience",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T13:04:57.000Z",
-      "reason": "unrelated",
-      "subject": "First real-time quantum jumps observed in sound",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:34:05.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:34:36.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:36:10.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:39:43.000Z",
       "reason": "unrelated",
       "subject": "Abstract submission confirmation - GSC Congress 2027",
       "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
