@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T18:33:46.251Z",
+  "generatedAt": "2026-10-02T23:01:56.672Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9190,6 +9190,74 @@
       "updatedAt": "2026-09-10T15:40:00.000Z"
     },
     {
+      "id": "gut-microbiota-penile-axis-in-erectile-dysfunction-mechanism-clinical-",
+      "title": "Gut Microbiota–Penile Axis in Erectile Dysfunction: Mechanism, Clinical Challenges and Future Perspectives",
+      "titleNormalized": "gut microbiota penile axis in erectile dysfunction mechanism clinical challenges and future perspectives",
+      "bucket": "published",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "IntechOpen",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Published",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": "https://www.intechopen.com/online-first/1267341",
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "IntechOpen",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-02T20:17:50.000Z",
+          "outcome": "published",
+          "status": "published",
+          "doi": null,
+          "publicationLink": "https://www.intechopen.com/online-first/1267341",
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-02T20:17:50.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The author's chapter has been published online first and is now publicly available with a DOI.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a0fe441bd52392f",
+                "messageId": "1a0fe441bd52392f",
+                "subject": "Dr. Sathish, your research is now published - start getting citations",
+                "from": "Maja Bozicevic <maja.b@info.intechopen.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-02T20:17:50.000Z",
+          "journal": "IntechOpen",
+          "eventType": "published",
+          "manuscriptNumber": null,
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's chapter has been published online first and is now publicly available with a DOI.",
+          "source": {
+            "threadId": "1a0fe441bd52392f",
+            "messageId": "1a0fe441bd52392f",
+            "subject": "Dr. Sathish, your research is now published - start getting citations",
+            "from": "Maja Bozicevic <maja.b@info.intechopen.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-02T20:17:50.000Z",
+      "updatedAt": "2026-10-02T20:17:50.000Z"
+    },
+    {
       "id": "higher-risk-comparable-recovery-the-impact-of-obesity-on-outcomes-afte",
       "title": "Higher Risk, Comparable Recovery: The Impact of Obesity on Outcomes after Lumbar Spine Surgery – A Systematic Review and Meta-Analysis",
       "titleNormalized": "higher risk comparable recovery the impact of obesity on outcomes after lumbar spine surgery a systematic review and meta analysis",
@@ -14150,6 +14218,19 @@
                 "subject": "[JFB] Manuscript ID: jfb-4634669 - Submission Received",
                 "from": "Editorial Office <jfb@mdpi.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-02T07:37:27.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of a new manuscript listing the recipient as co-author.",
+              "manuscriptNumber": "jfb-4634669",
+              "source": {
+                "threadId": "1a0fb8bf38eb7a7f",
+                "messageId": "1a0fb8bf38eb7a7f",
+                "subject": "[JFB] Manuscript ID: jfb-4634669 - Co-Authorship Confirmation",
+                "from": "JFB Editorial Office <jfb@mdpi.com>"
+              }
             }
           ]
         }
@@ -14171,10 +14252,27 @@
             "from": "Editorial Office <jfb@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-02T07:37:27.000Z",
+          "journal": "Journal of Functional Biomaterials",
+          "eventType": "new_submission",
+          "manuscriptNumber": "jfb-4634669",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of a new manuscript listing the recipient as co-author.",
+          "source": {
+            "threadId": "1a0fb8bf38eb7a7f",
+            "messageId": "1a0fb8bf38eb7a7f",
+            "subject": "[JFB] Manuscript ID: jfb-4634669 - Co-Authorship Confirmation",
+            "from": "JFB Editorial Office <jfb@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-01T21:39:06.000Z",
-      "updatedAt": "2026-10-01T21:39:06.000Z"
+      "updatedAt": "2026-10-02T07:37:27.000Z"
     },
     {
       "id": "letter-to-the-editor-intradiscal-platelet-rich-plasma-for-discogenic-l",
