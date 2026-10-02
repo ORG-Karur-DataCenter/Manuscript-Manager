@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-02T06:34:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cell Death & Differentiation Contents: Volume 33 Number 10",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T08:07:20.000Z",
+      "reason": "unrelated",
+      "subject": "Live Now | Marrow National INI-CET Mock",
+      "from": "Team Marrow <noreply@marrowmed.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T01:19:36.000Z",
+      "reason": "unrelated",
+      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
+      "from": "\"Buser, Zorica\" <Zorica.Buser@nyulangone.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T06:00:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore the Preliminary Program Online! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
+      "from": "AO Recon <aorecon@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-02T08:27:55.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Mental Health Problems in Traumatic Spinal Cord Injury Patients - An Umbrella Systematic Review",
+      "from": "drugalch@peerjournals.org",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-01T12:46:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature alert for 01st October 2026",
@@ -2060,41 +2095,6 @@
     },
     {
       "timestamp": "2026-09-21T06:39:43.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:40:14.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:41:16.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:41:49.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:42:50.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:43:22.000Z",
       "reason": "unrelated",
       "subject": "Abstract submission confirmation - GSC Congress 2027",
       "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",

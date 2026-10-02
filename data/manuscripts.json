@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T05:48:01.701Z",
+  "generatedAt": "2026-10-02T12:49:19.133Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -12575,6 +12575,19 @@
                 "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00231R2) - [EMID:4d0e86a712cd8b6d]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-02T05:55:41.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 2,
+              "note": "The journal reminded the author to submit the revised manuscript by Oct 09 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R2",
+              "source": {
+                "threadId": "1a0fb2ed900996c8",
+                "messageId": "1a0fb2ed900996c8",
+                "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00231R2) - [EMID:cdc86b7ba2b02814]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
             }
           ]
         }
@@ -12971,10 +12984,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-02T05:55:41.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00231R2",
+          "label": "Revision requested",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-10-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 09 2026 11:59PM"
+          },
+          "note": "The journal reminded the author to submit the revised manuscript by Oct 09 2026.",
+          "source": {
+            "threadId": "1a0fb2ed900996c8",
+            "messageId": "1a0fb2ed900996c8",
+            "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00231R2) - [EMID:cdc86b7ba2b02814]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-09-25T15:40:35.000Z",
+      "updatedAt": "2026-10-02T05:55:41.000Z",
       "deadline": "2026-10-09T18:29:59.999Z",
       "deadlineSource": "stated",
       "overrides": {
