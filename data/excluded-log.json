@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-02T17:13:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Hair-Loss Treatments: From Minoxidil to Transplant Surgery",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
       "timestamp": "2026-10-02T17:43:29.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "🔥 Blockbuster Workshops at CAC 2026 | Full House & Overwhelming Response!",
@@ -2091,13 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: GSC Abstract Submission - Reg",
       "from": "Zori Buser <buserzori@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T14:38:38.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
