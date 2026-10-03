@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-03T18:55:11.000Z",
+      "reason": "unrelated",
+      "subject": "Follow-Up: Spine Research Collaboration",
+      "from": "Harsh Desai <hhd@udel.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T20:08:08.000Z",
+      "reason": "unrelated",
+      "subject": "Fix your resume in 10 minutes (free checklist + the full playbook)",
+      "from": "The Build Log <mail@thebuildlog.site>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-03T12:06:46.000Z",
       "reason": "unrelated",
       "subject": "Dhibin Vikash, a recent article cited your research",
@@ -2083,20 +2097,6 @@
       "timestamp": "2026-09-22T04:05:04.000Z",
       "reason": "unrelated",
       "subject": "Soft Launch of Covers – Textbook of Regenerative Orthopaedics (2‑Volume Set)",
-      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T04:07:02.000Z",
-      "reason": "unrelated",
-      "subject": "Phased Submission of Chapters – Textbook of Regenerative Orthopaedics (2‑Volume Set)",
-      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T04:09:18.000Z",
-      "reason": "unrelated",
-      "subject": "Proposal for Publishing Regenerative Medicine Handbook Series – 9 Volumes",
       "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
