@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T08:15:27.371Z",
+  "generatedAt": "2026-10-03T13:31:47.179Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6005,14 +6005,14 @@
       "id": "does-obesity-really-worsen-outcomes-after-cervical-spine-surgery-or-is",
       "title": "Does Obesity really worsen Outcomes after Cervical Spine Surgery, or is there an Obesity Paradox? A Systematic Review & Meta-analysis",
       "titleNormalized": "does obesity really worsen outcomes after cervical spine surgery or is there an obesity paradox a systematic review meta analysis",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision  requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Clinical Spine Surgery",
-      "currentManuscriptNumber": "CSS-26-378",
-      "currentStatus": "Revision requested",
+      "currentManuscriptNumber": "CSS-26-378R1",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6086,10 +6086,10 @@
         },
         {
           "journal": "Clinical Spine Surgery",
-          "manuscriptNumber": "CSS-26-378",
+          "manuscriptNumber": "CSS-26-378R1",
           "submittedDate": "2026-06-21T16:30:33.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -6158,6 +6158,19 @@
                 "threadId": "1a0eb980b90ef829",
                 "messageId": "1a0eb980b90ef829",
                 "subject": "Revision Reminder CSS-26-378 is Due Soon",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-03T13:07:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": 1,
+              "note": "The revised manuscript was received and logged in the system.",
+              "manuscriptNumber": "CSS-26-378R1",
+              "source": {
+                "threadId": "1a101e07ecaed9f7",
+                "messageId": "1a101e07ecaed9f7",
+                "subject": "ClinSpineSurgery Revised Submission Confirmation",
                 "from": "Clinical Spine Surgery <em@editorialmanager.com>"
               }
             }
@@ -6298,12 +6311,29 @@
             "from": "Clinical Spine Surgery <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-03T13:07:32.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "new_submission",
+          "manuscriptNumber": "CSS-26-378R1",
+          "label": "Submitted",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "The revised manuscript was received and logged in the system.",
+          "source": {
+            "threadId": "1a101e07ecaed9f7",
+            "messageId": "1a101e07ecaed9f7",
+            "subject": "ClinSpineSurgery Revised Submission Confirmation",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-21T16:30:33.000Z",
-      "updatedAt": "2026-09-29T05:16:44.000Z",
-      "deadline": "2026-10-09T18:29:59.999Z",
-      "deadlineSource": "stated"
+      "updatedAt": "2026-10-03T13:07:32.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "does-obesity-reduce-the-value-of-spine-surgery-a-systematic-review-of-",

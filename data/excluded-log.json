@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-03T12:21:35.000Z",
+      "reason": "unrelated",
+      "subject": "This week in Claude Code: build your own mods, a wrap-up allowance, and more",
+      "from": "Lydia from Claude Code <no-reply@email.claude.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T13:11:22.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:b0a646920a80b4ee]",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T05:30:59.000Z",
+      "reason": "unrelated",
+      "subject": "Webinar Invitation: Cite Smart with AI",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T13:11:22.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:b0a646920a80b4ee]",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-03T03:54:35.000Z",
       "reason": "unrelated",
       "subject": "Reminder about Google's Terms of Service",
@@ -2071,34 +2099,6 @@
       "subject": "International Association for the Study of Pain - NEW ISSUE LIVE",
       "from": "\"Lippincott®\" <email@lww.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T22:25:39.000Z",
-      "reason": "unrelated",
-      "subject": "A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T22:49:31.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Don't Miss the 2026 ISAKOS Knee Arthroplasty Forum",
-      "from": "ISAKOS <isakos@isakos.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T14:55:40.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🧥 Huang says the doomers are bluffing",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T19:27:57.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:76dceb763dedcd1a]",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
