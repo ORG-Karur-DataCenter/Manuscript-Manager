@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-03T03:54:35.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder about Google's Terms of Service",
+      "from": "Google <google-noreply@google.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T04:01:51.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New articles in my profile",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T05:34:34.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to review manuscript PONE-D-26-40300 for PLOS One - Reminder - [EMID:d4b35cf326a4d679]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T02:16:36.000Z",
+      "reason": "unrelated",
+      "subject": "Your article has been published in [Indian Journal of Orthopaedics]",
+      "from": "\"科研猫\" <canyam@mail.vip.canyam.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T03:55:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New articles in my profile",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T04:47:47.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01697 - [EMID:da2307ba04df92bf]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T06:04:46.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "JoVE Peer Review (JoVE74734)",
+      "from": "JoVE Review <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-03T08:05:41.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study: Status Update, Support on Data Collection & Milestone Recognition",
+      "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-02T17:13:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Hair-Loss Treatments: From Minoxidil to Transplant Surgery",
@@ -2043,62 +2099,6 @@
       "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:76dceb763dedcd1a]",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T10:46:47.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from National Institute of Occupational Health and Poison Control, Chinese Center For Disease Control And Prevention",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T14:55:01.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC Abstract Submission - Reg",
-      "from": "\"Hsieh, Patrick\" <Patrick.Hsieh@med.usc.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T19:20:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Meet The JBJS Audio Narrators 🎧",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T19:27:57.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:76dceb763dedcd1a]",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T05:30:59.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Have you registered for the webinar: Smarter Research with Web of Science Research Assistant",
-      "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T06:35:08.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract submission confirmation - GSC Congress 2027",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T09:49:17.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Pain Management - Invitation to Review Manuscript ID IPMT-2026-ST-0488",
-      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-21T13:50:50.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC Abstract Submission - Reg",
-      "from": "Zori Buser <buserzori@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

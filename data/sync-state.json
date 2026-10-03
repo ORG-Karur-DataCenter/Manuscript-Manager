@@ -1,7 +1,7 @@
 {
   "accounts": {
     "dhibinvikash1@gmail.com": {
-      "lastSyncedAt": "2026-10-03T02:02:30.217Z",
+      "lastSyncedAt": "2026-10-03T08:15:27.371Z",
       "seenIds": [
         "1a0103eff244d8fe",
         "1a01f47bc9dacb9b",
@@ -3353,7 +3353,13 @@
         "1a0fcc220218943f",
         "1a0fcb3ef0d63c44",
         "1a0fb5034d93b24c",
-        "1a0fdae96d40e339"
+        "1a0fdae96d40e339",
+        "1a1007876b5631e3",
+        "1a1004a1075a334a",
+        "1a10041f7315b949",
+        "1a0ffeceb5cb0da1",
+        "1a0ffe6439f130a5",
+        "1a0ff9e9a18bd3bf"
       ],
       "importedAt": "2026-08-23T12:49:10.227Z",
       "failedAttempts": {
@@ -3362,21 +3368,8 @@
       "holding": false
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-10-03T02:02:28.299Z",
+      "lastSyncedAt": "2026-10-03T05:30:59.000Z",
       "seenIds": [
-        "19f643c308a075cb",
-        "19f65e56d81b7297",
-        "19f6603e2d87d68a",
-        "19f6615c51804f5a",
-        "19f66172f7ed1f77",
-        "19f67cd199d5e1ec",
-        "19f68a3c1bb1ae76",
-        "19f69ec3606e32d7",
-        "19f6c0b438a77d0a",
-        "19f6e196f5133c34",
-        "19f6ec9c479abfb3",
-        "19f6f62aa5ee0978",
-        "19f707215dd57267",
         "19f7075e29c597ba",
         "19f707889b8fd0f4",
         "19f707a48efc6833",
@@ -11363,7 +11356,20 @@
         "1a0fe09eea3308bc",
         "1a0fdb6ea3f2db56",
         "1a0fb8bf38eb7a7f",
-        "1a0ff6279781c960"
+        "1a0ff6279781c960",
+        "1a100ccb647cec60",
+        "1a100ca6ef4dfb13",
+        "1a100af92f728d91",
+        "1a1005d733fa6a33",
+        "1a10034bdb08fca1",
+        "1a1002633b0ef262",
+        "1a10024a063c0cd6",
+        "1a1002339d7fba5d",
+        "1a10016f77c3e66e",
+        "1a0ffeb615837faa",
+        "1a0ffe727be6b6f1",
+        "1a0ffe72699b6d08",
+        "1a0ff8c9ad52a9e8"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
@@ -11376,7 +11382,7 @@
         "19c5d94258ac2e1d": 1,
         "19c5d62bcf8377b7": 1
       },
-      "holding": false
+      "holding": true
     }
   }
 }
