@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T06:59:26.718Z",
+  "generatedAt": "2026-10-04T13:16:23.534Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -17368,15 +17368,15 @@
       "id": "ochondrial-dysfunction-in-knee-osteoarthritis-mechanisms-biomarkers-an",
       "title": "ochondrial Dysfunction in Knee Osteoarthritis: Mechanisms, Biomarkers, and Therapeutic Targets",
       "titleNormalized": "ochondrial dysfunction in knee osteoarthritis mechanisms biomarkers and therapeutic targets",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "World Journal of Orthopedics",
       "currentManuscriptNumber": "05395420",
-      "currentStatus": "Rejected",
+      "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -17417,6 +17417,30 @@
                 "threadId": "1a0cccefce700ec6",
                 "messageId": "1a0cccefce700ec6",
                 "subject": "Number ID: 05395420 World Journal of Orthopedics decline letter for the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": "05395420",
+          "submittedDate": "2026-10-04T07:27:10.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-04T07:27:10.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript and will inform the author of the decision within 5 working days.",
+              "manuscriptNumber": "05395420",
+              "source": {
+                "threadId": "1a105cf415c0cf49",
+                "messageId": "1a105cf415c0cf49",
+                "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
               }
             }
@@ -17474,10 +17498,27 @@
             "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-04T07:27:10.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "05395420",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submitted manuscript and will inform the author of the decision within 5 working days.",
+          "source": {
+            "threadId": "1a105cf415c0cf49",
+            "messageId": "1a105cf415c0cf49",
+            "subject": "Number ID: 05395420 World Journal of Orthopedics reply letter to confirm receipt of the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-22T07:24:11.000Z",
-      "updatedAt": "2026-09-23T05:48:31.000Z"
+      "updatedAt": "2026-10-04T07:27:10.000Z"
     },
     {
       "id": "orthobiologics-in-regenerative-orthopedics-a-scoping-review-of-current",
