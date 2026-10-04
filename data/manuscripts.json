@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T00:42:21.181Z",
+  "generatedAt": "2026-10-04T06:59:26.718Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -22873,7 +22873,7 @@
     },
     {
       "id": "thoracolumbar-pedicle-screws-misplacement-using-2d-computer-assisted-n",
-      "title": "Thoracolumbar Pedicle Screws Misplacement using 2D Computer-assisted navigation. A Systematic Review and Meta-Analysis with Reported Avoidance Techniques",
+      "title": "Thoracolumbar Pedicle Screws Misplacement using 2D Computer-assisted navigation. A Systematic Review and Meta-Analysis with Reported Avoidance Techniques.",
       "titleNormalized": "thoracolumbar pedicle screws misplacement using 2d computer assisted navigation a systematic review and meta analysis with reported avoidance techniques",
       "bucket": "in_review",
       "needsReview": false,
@@ -22881,8 +22881,8 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
-      "currentManuscriptNumber": "GSJ-26-0116.R1",
-      "currentStatus": "Under review",
+      "currentManuscriptNumber": "GSJ-26-0116.R3",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -22891,10 +22891,10 @@
       "submissions": [
         {
           "journal": "Global Spine Journal",
-          "manuscriptNumber": "GSJ-26-0116.R1",
+          "manuscriptNumber": "GSJ-26-0116.R3",
           "submittedDate": "2026-04-24T17:54:27.000Z",
           "outcome": "active",
-          "status": "under_review",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -22910,6 +22910,19 @@
                 "subject": "Global Spine Journal  GSJ-26-0116.R1",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T04:23:17.000Z",
+              "eventType": "new_submission",
+              "revisionRound": 3,
+              "note": "The revised manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-0116.R3",
+              "source": {
+                "threadId": "1a1052724b5c63af",
+                "messageId": "1a1052724b5c63af",
+                "subject": "Global Spine Journal  GSJ-26-0116.R3",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
               }
             }
           ]
@@ -22931,10 +22944,29 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-04T04:23:17.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-0116.R3",
+          "label": "Submitted",
+          "revisionRound": 3,
+          "deadline": null,
+          "note": "The revised manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a1052724b5c63af",
+            "messageId": "1a1052724b5c63af",
+            "subject": "Global Spine Journal  GSJ-26-0116.R3",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-04-24T17:54:27.000Z",
-      "updatedAt": "2026-04-24T17:54:27.000Z"
+      "updatedAt": "2026-10-04T04:23:17.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "translational-advances-in-musculoskeletal-gene-therapy-perspectives-fr",

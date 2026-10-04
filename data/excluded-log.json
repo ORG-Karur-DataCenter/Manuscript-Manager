@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-04T04:45:36.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow up on review request for JOIO-D-26-01697 - [EMID:77fc4a64d5899a33]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-03T22:23:18.000Z",
       "reason": "unrelated",
       "subject": "SEVERE HO and clinical outcome",
@@ -2088,13 +2095,6 @@
     },
     {
       "timestamp": "2026-09-22T01:29:23.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Applications Open: APOA–Vilex Foot & Ankle Fellowship 2027",
-      "from": "Asia Pacific Orthopaedic Association <admin@apoaonline.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T01:43:07.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Applications Open: APOA–Vilex Foot & Ankle Fellowship 2027",
       "from": "Asia Pacific Orthopaedic Association <admin@apoaonline.com>",
