@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T21:33:27.822Z",
+  "generatedAt": "2026-10-05T01:00:01.522Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6012,7 +6012,7 @@
       "actionLabel": null,
       "currentJournal": "Clinical Spine Surgery",
       "currentManuscriptNumber": "CSS-26-378R1",
-      "currentStatus": "Submitted",
+      "currentStatus": "Accepted (awaiting publication)",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6089,7 +6089,7 @@
           "manuscriptNumber": "CSS-26-378R1",
           "submittedDate": "2026-06-21T16:30:33.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "accepted",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -6171,6 +6171,19 @@
                 "threadId": "1a101e07ecaed9f7",
                 "messageId": "1a101e07ecaed9f7",
                 "subject": "ClinSpineSurgery Revised Submission Confirmation",
+                "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:44:29.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The author is requested to confirm contribution and sign the copyright agreement for their submitted paper.",
+              "manuscriptNumber": "CSS-26-378R1",
+              "source": {
+                "threadId": "1a1091714221828b",
+                "messageId": "1a1091714221828b",
+                "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery - [EMID:c8c8518567c1b62d]",
                 "from": "Clinical Spine Surgery <em@editorialmanager.com>"
               }
             }
@@ -6328,10 +6341,27 @@
             "from": "Clinical Spine Surgery <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-04T22:44:29.000Z",
+          "journal": "Clinical Spine Surgery",
+          "eventType": "accepted",
+          "manuscriptNumber": "CSS-26-378R1",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is requested to confirm contribution and sign the copyright agreement for their submitted paper.",
+          "source": {
+            "threadId": "1a1091714221828b",
+            "messageId": "1a1091714221828b",
+            "subject": "Verify your authorship and copyright for a submission to ClinSpineSurgery - [EMID:c8c8518567c1b62d]",
+            "from": "Clinical Spine Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-21T16:30:33.000Z",
-      "updatedAt": "2026-10-03T13:07:32.000Z",
+      "updatedAt": "2026-10-04T22:44:29.000Z",
       "deadline": null,
       "deadlineSource": null
     },

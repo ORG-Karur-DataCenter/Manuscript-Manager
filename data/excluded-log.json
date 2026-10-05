@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-04T23:44:29.000Z",
+      "reason": "unrelated",
+      "subject": "Important communication: 2026 Rare Lumbar Complications project: meeting dates",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-04T17:55:12.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Invitation to review Manuscript IRME-2026-ST-0248 - Regenerative Medicine",
@@ -2091,13 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Fwd: Major revision requested: 4623523",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T13:25:01.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Don't Miss the Latest in Orthopaedic Trauma Research",
-      "from": "Journal of Orthopaedic Trauma <lww@sci.scientific-direct.net>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
