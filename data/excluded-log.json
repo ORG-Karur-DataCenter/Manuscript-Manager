@@ -1,6 +1,90 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-05T13:46:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Top 5 News In Digital Health And Healthcare AI This Week",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T15:29:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore the June Issue of Innovations",
+      "from": "Innovations Journal on behalf of Arthrex <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T07:27:05.000Z",
+      "reason": "unrelated",
+      "subject": "Share your experience as an editor with Indian Journal of Orthopaedics",
+      "from": "\"​​Marc, Springer Nature\" <editorsupport@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T07:51:16.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "2026-10-05 07:51:13 RCA ID: 00000627 2026 Highlight Articles available for view",
+      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T10:28:14.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a new article cites your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T17:43:05.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ijc Manuscript for review: ijc_625_26 Your comments are awaited",
+      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T17:46:15.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "IOACON 2026 : Abstract Reviewer changes updated to your abstract assigned details",
+      "from": "IOACON 2026 <scientific@ioacon2026gujarat.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T17:46:38.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Welcome to IOACON 2026 as an Abstract Reviewer",
+      "from": "IOACON 2026 <scientific@ioacon2026gujarat.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T17:46:57.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Welcome to IOACON 2026 as an Abstract Reviewer",
+      "from": "IOACON 2026 <scientific@ioacon2026gujarat.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T19:52:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read these open access articles from the first issue of Bone and Bone Related Cancer Research",
+      "from": "\"Lippincott® Journals\" <lww@sci.scientific-direct.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T21:00:33.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T22:25:40.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-05T11:10:26.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "🚨🚨 Menlo Ventures on AI slowdown",
@@ -2015,90 +2099,6 @@
       "subject": "Editorial Manager username and password",
       "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T04:31:37.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "[Cancers, IF 4.8] Invitation to Publish a Paper in Cancers",
-      "from": "Jenny Zhang <jenny.zhang@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T05:20:27.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Your Plan Paper in Microorganisms (IF 4.7 CiteScore 8.2)",
-      "from": "Microorganisms Editorial Office <microorganisms@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T00:05:58.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What Extreme Athletes Teach Us About Sleep Deprivation",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T00:36:58.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: SPINE26-1301: Decision Letter",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T00:37:17.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Global Spine Journal - GSJ-26-1886 has been unsubmitted",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T00:36:58.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: SPINE26-1301: Decision Letter",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T00:37:17.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Global Spine Journal - GSJ-26-1886 has been unsubmitted",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T10:04:23.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Upcoming events",
-      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T15:33:43.000Z",
-      "reason": "unrelated",
-      "subject": "What the OSF Projects changes mean for your research",
-      "from": "Open Science Framework <contact@cos.io>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T21:26:44.000Z",
-      "reason": "unrelated",
-      "subject": "Important communication: 2026 Rare Lumbar Complications project",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T10:20:21.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish Muthu published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T15:16:07.000Z",
-      "reason": "unrelated",
-      "subject": "UCL Medical Physics & Biomedical Engineering recently posted",
-      "from": "LinkedIn <updates-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }

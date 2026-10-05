@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:13:32.777Z",
+  "generatedAt": "2026-10-05T22:48:46.909Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -12249,15 +12249,15 @@
       "id": "intra-articular-versus-subchondral-leukocyte-poor-platelet-rich-plasma",
       "title": "Intra-Articular versus Subchondral Leukocyte-Poor Platelet-Rich Plasma Injections in Kellgren-Lawrence Grade 2–3 Knee Osteoarthritis: A Double-blinded, Randomized Controlled Trial",
       "titleNormalized": "intra articular versus subchondral leukocyte poor platelet rich plasma injections in kellgren lawrence grade 2 3 knee osteoarthritis a double blinded randomized controlled trial",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision  requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Journal of Orthopaedic Surgery and Research",
       "currentManuscriptNumber": null,
-      "currentStatus": "Revision requested",
+      "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -12324,6 +12324,19 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-05T19:11:18.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and the submission was acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a10d7a45886c236",
+                "messageId": "1a10d7a45886c236",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
             }
           ]
         }
@@ -12379,10 +12392,27 @@
             "from": "Journal of Orthopaedic Surgery and Research <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-05T19:11:18.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and the submission was acknowledged.",
+          "source": {
+            "threadId": "1a10d7a45886c236",
+            "messageId": "1a10d7a45886c236",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-15T12:49:13.000Z",
-      "updatedAt": "2026-10-05T12:27:19.000Z"
+      "updatedAt": "2026-10-05T19:11:18.000Z"
     },
     {
       "id": "is-implant-removal-after-thoracolumbar-fracture-fixation-truly-necessa",
@@ -23226,17 +23256,17 @@
       "id": "validity-and-reliability-of-the-miss-inc-l-invasiveness-classification",
       "title": "Validity and Reliability of the MISS-INC (L) Invasiveness Classification: A Multicentre Study of 426 Lumbar Procedures",
       "titleNormalized": "validity and reliability of the miss inc l invasiveness classification a multicentre study of 426 lumbar procedures",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00301",
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentStatus": "Revision requested",
+      "deadline": "2026-10-26T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -23249,7 +23279,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00301",
           "submittedDate": "2026-09-02T14:45:34.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -23277,6 +23307,19 @@
                 "messageId": "1a06295337c88582",
                 "subject": "Co-authorship confirmation request (JBJSOA-D-26-00301) - [EMID:1c71d4ec3d8a6a2c]",
                 "from": "Sathish Muthu <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-05T18:11:29.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Reviewers raised concerns and asked the author to submit a revised manuscript by Oct 26 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00301",
+              "source": {
+                "threadId": "1a10d4381fe0008e",
+                "messageId": "1a10d4381fe0008e",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00301) - [EMID:405aebd01b04b85c]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
           ]
@@ -23316,10 +23359,31 @@
             "from": "Sathish Muthu <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-05T18:11:29.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00301",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-10-26T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 26 2026 11:59PM"
+          },
+          "note": "Reviewers raised concerns and asked the author to submit a revised manuscript by Oct 26 2026.",
+          "source": {
+            "threadId": "1a10d4381fe0008e",
+            "messageId": "1a10d4381fe0008e",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00301) - [EMID:405aebd01b04b85c]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-02T14:45:34.000Z",
-      "updatedAt": "2026-09-02T14:45:36.000Z"
+      "updatedAt": "2026-10-05T18:11:29.000Z"
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",

@@ -1,7 +1,7 @@
 {
   "accounts": {
     "dhibinvikash1@gmail.com": {
-      "lastSyncedAt": "2026-10-05T13:46:53.000Z",
+      "lastSyncedAt": "2026-10-05T22:48:46.909Z",
       "seenIds": [
         "1a0103eff244d8fe",
         "1a01f47bc9dacb9b",
@@ -3380,33 +3380,20 @@
         "1a10c31bf1b98040",
         "1a10bc25e4eb3cea",
         "1a10b8860e08087d",
-        "1a10afaaf6a6eae2"
+        "1a10afaaf6a6eae2",
+        "1a10d2c6b66aeab1",
+        "1a10cafacdd9300a",
+        "1a10c515ab894f9c"
       ],
       "importedAt": "2026-08-23T12:49:10.227Z",
       "failedAttempts": {
         "19e280c6f1ebd420": 1
       },
-      "holding": true
+      "holding": false
     },
     "drsathishmuthu@gmail.com": {
       "lastSyncedAt": "2026-10-05T05:46:21.000Z",
       "seenIds": [
-        "19ce555176ffb830",
-        "19ce5675c01e18c0",
-        "19cead306630c48b",
-        "19cead3d6af677b7",
-        "19ceadaf3de95b46",
-        "19cf58ef1008fc7d",
-        "19cf737d5fdf09a5",
-        "19cfae97ec12f62e",
-        "19d0b4cbe206d06a",
-        "19d14c28ff49191a",
-        "19d159278e5e2576",
-        "19d1604d308c77d5",
-        "19d168813a55b76d",
-        "19d1893089172332",
-        "19d1e4d8ef1e2c41",
-        "19d1ef7ae0a83aac",
         "19d1f75d5660ec75",
         "19d22f9a281bcfbf",
         "19d23bc7caec84ed",
@@ -11390,7 +11377,23 @@
         "1a10b03c0b1812bb",
         "1a10ae41e9e78f61",
         "1a10ae40d1f6d19f",
-        "1a109b2cd5418672"
+        "1a109b2cd5418672",
+        "1a10e2c353e70531",
+        "1a10dde5645a642c",
+        "1a10d9f94b73b64c",
+        "1a10d7a45886c236",
+        "1a10d4381fe0008e",
+        "1a10d3f7ebdec19b",
+        "1a10d2d269482f63",
+        "1a10d2d162e38e2a",
+        "1a10d2cce9ce52f1",
+        "1a10d2c7f7c6ef43",
+        "1a10d298bee0f04f",
+        "1a10d1c8ed2fd9b2",
+        "1a10cf0341c9d314",
+        "1a10b9b63601dac4",
+        "1a10b0bb5de0ebf4",
+        "1a10af58bb168890"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
