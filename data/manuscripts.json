@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T01:00:01.522Z",
+  "generatedAt": "2026-10-05T07:10:23.323Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -16405,8 +16405,8 @@
       "bucket": "needs_action",
       "needsReview": false,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
       "currentManuscriptNumber": "JBJSOA-D-26-00213R2",
       "currentStatus": "Returned to author — one citation fix outstanding",
@@ -16447,7 +16447,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00213R2",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -16601,6 +16601,32 @@
                 "threadId": "1a0fd58868d06103",
                 "messageId": "1a0fd58868d06103",
                 "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:b0a646920a80b4ee]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-05T06:19:37.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal built a PDF of the author's manuscript and requests approval before the submission is finalized.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a10aa1c2a513e49",
+                "messageId": "1a10ab7c42e35127",
+                "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-05T06:24:35.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The author approved editorial changes to their submission; the journal acknowledges the approval.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a10abc519fce796",
+                "messageId": "1a10abc519fce796",
+                "subject": "Thank you - [EMID:dd6ef03131a92673]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -17001,10 +17027,44 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-05T06:19:37.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal built a PDF of the author's manuscript and requests approval before the submission is finalized.",
+          "source": {
+            "threadId": "1a10aa1c2a513e49",
+            "messageId": "1a10ab7c42e35127",
+            "subject": "Your JBJS Open Access PDF Has Been Built",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-05T06:24:35.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": null,
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author approved editorial changes to their submission; the journal acknowledges the approval.",
+          "source": {
+            "threadId": "1a10abc519fce796",
+            "messageId": "1a10abc519fce796",
+            "subject": "Thank you - [EMID:dd6ef03131a92673]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-10-02T16:00:32.000Z",
+      "updatedAt": "2026-10-05T06:24:35.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

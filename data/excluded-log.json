@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-05T02:39:34.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI: Frontier AI slowdown a distraction, compute is the real constraint: early Anthropic backer Menlo Ventures",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T05:51:31.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "PLOS One REMINDER: Invitation to review PONE-D-26-40300 - [EMID:4b529f40ce129e1b]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T03:06:13.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID: 05395420 Acceptance of invitation to contribute manuscripts to the World Journal of Orthopedics",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T03:17:46.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Follow-Up: Spine Research Collaboration",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-04T23:44:29.000Z",
       "reason": "unrelated",
       "subject": "Important communication: 2026 Rare Lumbar Complications project: meeting dates",
@@ -2070,34 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "Number ID: 05395420 Sincerely invite Editorial Board Member/Peer Reviewer to write an Editorial article/Correspondence/Opinion Review on the in-press articles",
       "from": "\"BPG Invitation (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T11:01:01.000Z",
-      "reason": "unrelated",
-      "subject": "Doctor, live torque on a 7-inch screen",
-      "from": "Dentalkart <noreply@dentalkart.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T11:08:12.000Z",
-      "reason": "unrelated",
-      "subject": "Dr. Muthu, take our 5 minute survey on publishing, peer review, and AI in research",
-      "from": "Cureus Journal of Medical Science <no-reply@journal.cureus.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T11:35:26.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dr. Muthu, this month's sharpest reads for you",
-      "from": "Cureus Journal of Medical Science <no-reply@journal.cureus.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-22T12:29:27.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Major revision requested: 4623523",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
