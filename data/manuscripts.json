@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T22:48:46.909Z",
+  "generatedAt": "2026-10-06T03:05:42.503Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1380,14 +1380,14 @@
       "id": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the",
       "title": "AO Spine Clinical Practice Recommendations for Interbody Fusion at the Lumbo-Sacral Junction",
       "titleNormalized": "ao spine clinical practice recommendations for interbody fusion at the lumbo sacral junction",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "GSJ",
       "currentManuscriptNumber": null,
-      "currentStatus": "Sent back for edits",
+      "currentStatus": "Accepted (awaiting publication)",
       "doi": "10.1177/21925682261492226",
       "publicationLink": null,
       "authorAccounts": [
@@ -1488,7 +1488,7 @@
           "manuscriptNumber": null,
           "submittedDate": "2026-10-02T18:10:30.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "accepted",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -1503,6 +1503,19 @@
                 "messageId": "1a0fdcf953415705",
                 "subject": "KF Degen GSJ KF Review article: heads up to please sign document",
                 "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>"
+              }
+            },
+            {
+              "timestamp": "2026-10-05T05:46:21.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The publisher requested the author to sign an authorship change form to correct the author list before the article proceeds to publication.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a10a994e99acd46",
+                "messageId": "1a10a994e99acd46",
+                "subject": "Complete with Docusign: Authorship+Change+Request+Form+fillable+PDF_final.pdf",
+                "from": "AO DocuSign <ao@docusign.aofoundation.org>"
               }
             }
           ]
@@ -1612,12 +1625,29 @@
             "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-05T05:46:21.000Z",
+          "journal": "GSJ",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The publisher requested the author to sign an authorship change form to correct the author list before the article proceeds to publication.",
+          "source": {
+            "threadId": "1a10a994e99acd46",
+            "messageId": "1a10a994e99acd46",
+            "subject": "Complete with Docusign: Authorship+Change+Request+Form+fillable+PDF_final.pdf",
+            "from": "AO DocuSign <ao@docusign.aofoundation.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-12T22:18:58.000Z",
-      "updatedAt": "2026-10-02T18:10:30.000Z",
-      "deadline": "2026-10-09T18:29:59.999Z",
-      "deadlineSource": "assumed"
+      "updatedAt": "2026-10-05T05:46:21.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "ao-spine-clinical-practice-recommendations-when-to-operate-in-lumbar-d",
