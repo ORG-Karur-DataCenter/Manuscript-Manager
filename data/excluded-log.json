@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-06T19:16:09.000Z",
+      "reason": "unrelated",
+      "subject": "👤 Someone at The Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University you may know",
+      "from": "LinkedIn <messages-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T11:02:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Upcoming events",
+      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T13:42:00.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "IRJPMS:: Call for paper: Volume 9, Issue 6, 2026",
+      "from": "IRJPMS Editor <irjpms.journal@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T17:17:23.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T17:18:13.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Dove Medical Press Peer Review Invitation Closed [ID: 646309]",
+      "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-06T13:05:58.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Inside Karl Deisseroth’s Nobel day",
@@ -2064,41 +2099,6 @@
       "subject": "AlliGatOr is published in The Lancet Global Health",
       "from": "Alligator Study <alligator@globalsurg.org>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T05:30:41.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Explore the Preliminary Program Online! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
-      "from": "AO Recon <aorecon@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T07:33:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Papers",
-      "from": "Giornale di Clinica Nefrologica e Dialisi <mailings@aboutscience.eu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T09:00:16.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Clinical and Radiographic Outcomes of C7-Preserving Versus Conventional Cervical Laminoplasty: A Systematic Review and Meta-analysis",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T10:03:09.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "TKA in the Lancet.",
-      "from": "OrthoEvidence <info@myorthoevidence.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T22:51:49.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "AIMI Updates: Upcoming Events, Recent Talks & More",
-      "from": "Stanford AIMI <aimicenter@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
