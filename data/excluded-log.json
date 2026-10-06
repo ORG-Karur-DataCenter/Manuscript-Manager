@@ -1,6 +1,76 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-06T02:31:12.000Z",
+      "reason": "unrelated",
+      "subject": "Breaking News: Jeffrey Archer, best-selling U.K. author and politician, dies aged 86",
+      "from": "The Hindu <news@newsalertth.thehindu.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T06:36:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cell Research Contents: Volume 36 Number 10",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T08:58:38.000Z",
+      "reason": "unrelated",
+      "subject": "Naveen Jeyaraman published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T10:15:08.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Breaking News: Physics Nobel 2026 goes to Francis Halzen for  discovery of high-energy neutrinos of astrophysical origin",
+      "from": "The Hindu <news@newsalertth.thehindu.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T05:55:40.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One Reminder of Active Assignments - [EMID:95d2005ddd8fd76e]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T06:29:00.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle Study Protocol manuscript [PONE-D-26-45417] - [EMID:6596d41b7218a8fb]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T08:27:31.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Science Progress",
+      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T08:29:48.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Mini Review or Commentary Submission in Journal of Musculoskeletal Disorders and Translational Medicine",
+      "from": "Journal of Musculoskeletal Disorders and Translational Medicine <editor@musculoskeletaljournal.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T09:27:32.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-44851] - [EMID:4ad8062ece2670c4]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T10:20:29.000Z",
+      "reason": "unrelated",
+      "subject": "Establishing the Normal Reference Values of Plantar Pressure Metrics in South Asian Population and Evaluating the Impact of Increased Body Mass Index on Plantar Pressure Dynamics in Young Adults",
+      "from": "\"\\\"World Surgeons Congress\\\"\" <surgery@suntextmeeting.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-05T18:33:46.000Z",
       "reason": "unrelated",
       "subject": "IHMEID: 6118 GBD 2023 Global Mental disorders in youth comments due October 12",
@@ -2028,76 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "\"Citrus leaf essential oils as sustainable alternatives for the control of Tetranychus urticae with enhanced selectivity toward Neoseiulus californicus\" is ready to read",
       "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T13:00:53.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What teens say about online harms",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T14:24:27.000Z",
-      "reason": "unrelated",
-      "subject": "Raghu Mahajan commented on Pranav Pai’s post: A July 2026 report of the…",
-      "from": "Raghu Mahajan on LinkedIn <notifications-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T15:31:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "💸 Opus 5.5 beats Fable at half the price",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T06:19:00.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-43573] - [EMID:357a898ecc3d0a4c]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T12:17:17.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the latest  Spine - Vol. 51, No. 20, October 15, 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T15:01:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Joining our new Research Topic, led by Federica Cirillo and Marianna Cosentino",
-      "from": "Barbara Pezzini <cellbiology@frontiersin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T16:21:30.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Manuscript JOIO-D-26-01697  for review",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T04:48:54.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:01bf312653b9c4a4]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T06:13:30.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-43376] - [EMID:725ea1bad198a685]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T08:24:29.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "ASP - [STI] Manuscript ID: STI026380043 - Review Request Reminder",
-      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

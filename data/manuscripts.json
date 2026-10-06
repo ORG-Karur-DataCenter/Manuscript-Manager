@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T03:05:42.503Z",
+  "generatedAt": "2026-10-06T10:34:03.634Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6762,8 +6762,8 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Ethics and Education",
-      "currentManuscriptNumber": "269213002",
+      "currentJournal": "BMC Medical Ethics",
+      "currentManuscriptNumber": null,
       "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
@@ -6820,6 +6820,54 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-06T10:05:01.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-06T10:05:01.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a110ac7d4664b6e",
+                "messageId": "1a110ac7d4664b6e",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "BMC Medical Ethics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-06T10:18:29.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-06T10:18:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author’s manuscript was received and is now under consideration at BMC Medical Ethics.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a110b8d1a6cc418",
+                "messageId": "1a110b8d1a6cc418",
+                "subject": "Track the status of your submission to BMC Medical Ethics",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -6856,10 +6904,44 @@
             "from": "journalshelpdesk@taylorandfrancis.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-06T10:05:01.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a110ac7d4664b6e",
+            "messageId": "1a110ac7d4664b6e",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-06T10:18:29.000Z",
+          "journal": "BMC Medical Ethics",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author’s manuscript was received and is now under consideration at BMC Medical Ethics.",
+          "source": {
+            "threadId": "1a110b8d1a6cc418",
+            "messageId": "1a110b8d1a6cc418",
+            "subject": "Track the status of your submission to BMC Medical Ethics",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-30T07:31:42.000Z",
-      "updatedAt": "2026-09-30T15:37:16.000Z"
+      "updatedAt": "2026-10-06T10:18:29.000Z"
     },
     {
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",
@@ -12851,6 +12933,19 @@
                 "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00231R2) - [EMID:cdc86b7ba2b02814]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-06T05:49:29.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 2,
+              "note": "The journal requests the author to submit a revised manuscript by Oct 09 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R2",
+              "source": {
+                "threadId": "1a10fc29d8f60df3",
+                "messageId": "1a10fc29d8f60df3",
+                "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00231R2) - [EMID:80cbbcf8f75e2add]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
             }
           ]
         }
@@ -13268,10 +13363,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-06T05:49:29.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00231R2",
+          "label": "Revision requested",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-10-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 09 2026 11:59PM"
+          },
+          "note": "The journal requests the author to submit a revised manuscript by Oct 09 2026.",
+          "source": {
+            "threadId": "1a10fc29d8f60df3",
+            "messageId": "1a10fc29d8f60df3",
+            "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00231R2) - [EMID:80cbbcf8f75e2add]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-10-02T05:55:41.000Z",
+      "updatedAt": "2026-10-06T05:49:29.000Z",
       "deadline": "2026-10-09T18:29:59.999Z",
       "deadlineSource": "stated",
       "overrides": {
@@ -19966,6 +20082,74 @@
       ],
       "createdAt": "2026-05-06T01:15:11.000Z",
       "updatedAt": "2026-05-12T20:14:31.000Z"
+    },
+    {
+      "id": "references-that-do-not-exist-an-audit-of-1-1-million-citations-in-36-o",
+      "title": "References that do not exist: an audit of 1.1 million citations in 36 orthopaedic and spine journals, 2024–2026",
+      "titleNormalized": "references that do not exist an audit of 1 1 million citations in 36 orthopaedic and spine journals 2024 2026",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Indian Journal of Orthopaedics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Indian Journal of Orthopaedics",
+          "manuscriptNumber": "JOIO-D-26-01878",
+          "submittedDate": "2026-10-06T06:39:28.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-06T06:39:28.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author’s manuscript has been received and a dashboard is provided to track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a10ff04b19c171c",
+                "messageId": "1a10ff04b19c171c",
+                "subject": "Track the status of your submission to Indian Journal of Orthopaedics",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-06T06:39:28.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author’s manuscript has been received and a dashboard is provided to track its status.",
+          "source": {
+            "threadId": "1a10ff04b19c171c",
+            "messageId": "1a10ff04b19c171c",
+            "subject": "Track the status of your submission to Indian Journal of Orthopaedics",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-06T06:39:28.000Z",
+      "updatedAt": "2026-10-06T06:39:28.000Z"
     },
     {
       "id": "response-to-the-letter-to-the-editor-on-role-of-prophylactic-negative-",
