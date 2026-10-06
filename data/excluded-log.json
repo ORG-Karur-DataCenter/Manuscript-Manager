@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-06T13:05:58.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Inside Karl Deisseroth’s Nobel day",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-05T10:59:16.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Discover the Latest at CIMB (October 2026)",
+      "from": "CIMB Editorial Office <cimb@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T12:08:09.000Z",
+      "reason": "unrelated",
+      "subject": "Invitation for the Editorial Board Member in our Journal of Orthopedic Education",
+      "from": "Journal Author Support Red Flower Publication <author@rfppl.co.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T12:14:09.000Z",
+      "reason": "unrelated",
+      "subject": "[ORCID] Sathish Muthu you have new notifications",
+      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T13:23:01.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Mini Review or Commentary on your paper_Journal of Orthopedics and Orthopedic Surgery",
+      "from": "Journal of Orthopedics and Orthopedic Surgery <editor@orthojournal.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T13:45:18.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "IRJPMS:: Call for paper: Volume 9 Issue 6: 2026",
+      "from": "IRJPMS Editor <irjpms@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T16:24:50.000Z",
+      "reason": "unrelated",
+      "subject": "GSC 2027 – Incomplete Abstract Submission",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-06T02:31:12.000Z",
       "reason": "unrelated",
       "subject": "Breaking News: Jeffrey Archer, best-selling U.K. author and politician, dies aged 86",
@@ -2050,55 +2099,6 @@
       "subject": "AIMI Updates: Upcoming Events, Recent Talks & More",
       "from": "Stanford AIMI <aimicenter@stanford.edu>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T04:19:05.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4581359 - Invitation to Review for JCM",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T16:55:03.000Z",
-      "reason": "unrelated",
-      "subject": "Need help writing your book? We’ve got you covered",
-      "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T14:00:43.000Z",
-      "reason": "unrelated",
-      "subject": "Apply now for our Global Spine Diploma Program 2027",
-      "from": "AO Spine <aospine@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T21:02:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Spinal Column | SRS Newsletter 9.23.26",
-      "from": "SRS <info@srs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T17:11:12.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Reminder - New AJSM Webinar on September 30th",
-      "from": "\"Sage & AOSSM\" <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T18:24:43.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The Journal of Bone & Joint Surgery - NEW ISSUE LIVE",
-      "from": "\"Lippincott®\" <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-23T19:35:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "\"Citrus leaf essential oils as sustainable alternatives for the control of Tetranychus urticae with enhanced selectivity toward Neoseiulus californicus\" is ready to read",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T10:34:03.634Z",
+  "generatedAt": "2026-10-06T17:21:51.313Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -836,7 +836,7 @@
       "actionLabel": null,
       "currentJournal": "Meta-Radiology",
       "currentManuscriptNumber": "METRAD-D-26-00215",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -898,8 +898,8 @@
           "journal": "Meta-Radiology",
           "manuscriptNumber": "METRAD-D-26-00215",
           "submittedDate": "2026-08-20T13:06:29.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -967,6 +967,19 @@
                 "messageId": "1a02dd999917ffc9",
                 "subject": "Confirm co-authorship of submission to Meta-Radiology",
                 "from": "Meta-Radiology <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-06T15:16:32.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after review.",
+              "manuscriptNumber": "METRAD-D-26-00215",
+              "source": {
+                "threadId": "1a111c9b17c70aa9",
+                "messageId": "1a111c9c2b994c87",
+                "subject": "Decision on submission to Meta-Radiology",
+                "from": "Jun Liu <em@editorialmanager.com>"
               }
             }
           ]
@@ -1082,10 +1095,29 @@
             "from": "Meta-Radiology <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-06T15:16:32.000Z",
+          "journal": "Meta-Radiology",
+          "eventType": "rejected",
+          "manuscriptNumber": "METRAD-D-26-00215",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after review.",
+          "source": {
+            "threadId": "1a111c9b17c70aa9",
+            "messageId": "1a111c9c2b994c87",
+            "subject": "Decision on submission to Meta-Radiology",
+            "from": "Jun Liu <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-20T13:06:29.000Z",
-      "updatedAt": "2026-08-23T09:00:29.000Z"
+      "updatedAt": "2026-10-06T15:16:32.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "andrology-current-progress-and-clinical-challenges-in-male-health",
@@ -9428,6 +9460,116 @@
       ],
       "createdAt": "2026-10-02T20:17:50.000Z",
       "updatedAt": "2026-10-02T20:17:50.000Z"
+    },
+    {
+      "id": "hidden-clocks-a-census-of-manuscript-timeline-disclosure-in-5-188-medl",
+      "title": "Hidden clocks: a census of manuscript timeline disclosure in 5,188 MEDLINE journals and an audit of advertised review times in 36 orthopaedic journals",
+      "titleNormalized": "hidden clocks a census of manuscript timeline disclosure in 5 188 medline journals and an audit of advertised review times in 36 orthopaedic journals",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Scientometrics",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-06T13:44:28.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-06T13:44:28.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a110aca89ca7c18",
+                "messageId": "1a111757d6df8f96",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Scientometrics",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-06T13:54:23.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-06T13:54:23.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author received a submission acknowledgement for their manuscript to Scientometrics.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a1117e7911e9574",
+                "messageId": "1a1117e7911e9574",
+                "subject": "Track the status of your submission to Scientometrics",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-06T13:44:28.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and submitted.",
+          "source": {
+            "threadId": "1a110aca89ca7c18",
+            "messageId": "1a111757d6df8f96",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-06T13:54:23.000Z",
+          "journal": "Scientometrics",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author received a submission acknowledgement for their manuscript to Scientometrics.",
+          "source": {
+            "threadId": "1a1117e7911e9574",
+            "messageId": "1a1117e7911e9574",
+            "subject": "Track the status of your submission to Scientometrics",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-06T13:54:23.000Z",
+      "updatedAt": "2026-10-06T13:54:23.000Z"
     },
     {
       "id": "higher-risk-comparable-recovery-the-impact-of-obesity-on-outcomes-afte",
@@ -23939,6 +24081,115 @@
       ],
       "createdAt": "2026-09-26T08:21:14.000Z",
       "updatedAt": "2026-09-29T07:43:05.000Z"
+    },
+    {
+      "id": "who-writes-and-who-decides-geographic-representation-of-authors-and-ed",
+      "title": "Who writes and who decides: geographic representation of authors and editorial boards in 36 orthopaedic and spine journals",
+      "titleNormalized": "who writes and who decides geographic representation of authors and editorial boards in 36 orthopaedic and spine journals",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Globalization and Health",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-06T11:35:03.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-06T11:35:03.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and the submission is now recorded.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a110ac7d4664b6e",
+                "messageId": "1a110feea7ba544c",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Globalization and Health",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-06T11:40:36.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-06T11:40:36.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author received a submission acknowledgement and dashboard access for their manuscript.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a11103ff84a30b6",
+                "messageId": "1a11103ff84a30b6",
+                "subject": "Track the status of your submission to Globalization and Health",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-06T11:35:03.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and the submission is now recorded.",
+          "source": {
+            "threadId": "1a110ac7d4664b6e",
+            "messageId": "1a110feea7ba544c",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-06T11:40:36.000Z",
+          "journal": "Globalization and Health",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author received a submission acknowledgement and dashboard access for their manuscript.",
+          "source": {
+            "threadId": "1a11103ff84a30b6",
+            "messageId": "1a11103ff84a30b6",
+            "subject": "Track the status of your submission to Globalization and Health",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-06T11:40:36.000Z",
+      "updatedAt": "2026-10-06T11:40:36.000Z"
     }
   ],
   "editedAt": "2026-09-16T19:36:12.297Z"
