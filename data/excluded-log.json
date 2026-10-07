@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-07T00:07:14.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cycle Syncing Health Claims Prompt Experts to Urge Caution",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-06T22:28:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "NEW Episode of Your Case Is On Hold",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-06T19:16:09.000Z",
       "reason": "unrelated",
       "subject": "👤 Someone at The Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University you may know",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "AO Spine KF Degenerative September meetings notes,  actions and information",
       "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T14:16:29.000Z",
-      "reason": "unrelated",
-      "subject": "AO Spine KF Degenerative September meetings notes,  actions and information",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T00:47:11.000Z",
-      "reason": "unrelated",
-      "subject": "AlliGatOr is published in The Lancet Global Health",
-      "from": "Alligator Study <alligator@globalsurg.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
