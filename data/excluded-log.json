@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-07T17:46:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your October Issue Alert",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T19:21:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "\"Influence of temperature and prey density of Tetranychus urticae on the functional response of the predatory mite Neoseiulus cucumeris\" is ready to read",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-07T13:00:14.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Helping landowners adapt to saltwater intrusion",
@@ -2085,20 +2099,6 @@
       "subject": "AO Spine Knowledge Forum Monthly Meetings Information",
       "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T01:05:09.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The September ESSKA Times - all the latest ESSKA news in your monthly newsletter!",
-      "from": "ESSKA Times <info@esska.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T20:46:18.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "September 2026 Job Opportunities and Career Advice",
-      "from": "Physics Today Jobs <pt-jobs@aip-info.org>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
