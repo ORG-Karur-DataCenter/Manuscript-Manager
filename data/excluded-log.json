@@ -1,6 +1,83 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-07T13:00:14.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Helping landowners adapt to saltwater intrusion",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T15:25:12.000Z",
+      "reason": "unrelated",
+      "subject": "Vijay Tiwari reacted to this post: Excited to be joining the…",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T15:50:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🧮 OpenAI just broke the rules of math",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T03:03:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Official Invitation: Invited Speaker – Final Call – INNOST NANO 2026 | 26–28 October 2026 | GITAM, Jhajjar, Haryana, India",
+      "from": "INNOST NANO 2026 <contact@rpconfseries.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T06:30:42.000Z",
+      "reason": "unrelated",
+      "subject": "World Journal of Translational Medicine Authors Evaluation-Manuscript NO: 122119",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T09:46:48.000Z",
+      "reason": "unrelated",
+      "subject": "Explore 10 Lakh+ Articles and More with STM Digital Library",
+      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T10:19:31.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Edit invitation: Research Progress of Artificial Intelligence Combined with...",
+      "from": "Antonio from Frontiers <endocrinology.editorial.office@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T10:51:15.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  Spine - Vol. 51, No. 21, November 1, 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T11:16:58.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from Nankai University",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T13:42:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "IRJPMS:: Call for paper: Volume 9 Issue 6: 2026",
+      "from": "editor@irjpms.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T13:43:47.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "IRJPMS:: Inviting paper for Publication: Volume 9 Issue 7: 2026",
+      "from": "IRJPMS Editor <irjpms@yahoo.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-07T04:50:41.000Z",
       "reason": "editorial_role_for_other_manuscript",
       "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:5f3f74e52fb1d421]",
@@ -2022,83 +2099,6 @@
       "subject": "September 2026 Job Opportunities and Career Advice",
       "from": "Physics Today Jobs <pt-jobs@aip-info.org>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T21:25:19.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Cheery Friday Greetings from Barb Oakley!",
-      "from": "Deep Teaching Solutions <no-reply@m.send.coursera.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T14:06:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Clinical Outcomes Following Concomitant Arthroscopic Rotator Cuff Repair and Anterior Shoulder Stabilization",
-      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T20:28:56.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "J. Clin. Med., Volume 15, Issue 18 (September-2 2026) Table of Contents",
-      "from": "\"MDPI – Office of the Publisher\" <noreply@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T22:25:39.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T19:08:07.000Z",
-      "reason": "unrelated",
-      "subject": "bmjment-2026-302923 – Help us improve our transfer suggestions",
-      "from": "Megan Barling <mbarling@bmj.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T12:00:28.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Artificial Intelligence in Healthcare",
-      "from": "Sulakshana Karkala <sulakshana.karkala@jove.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T12:54:23.000Z",
-      "reason": "unrelated",
-      "subject": "🗓 FISRM BATCH 4 | CLASS : 3 on September 24, 2026 | Read Meeting Report",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T15:31:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Diagnostics, Volume 16, Issue 18 (September-2 2026) Table of Contents",
-      "from": "\"MDPI – Office of the Publisher\" <noreply@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T16:23:41.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Number ID 05395420: Invitation to Submit an Original Research Manuscript to the World Journal of Experimental Medicine",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T13:00:50.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Protecting children’s growing bones",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T10:50:14.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, a recent article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

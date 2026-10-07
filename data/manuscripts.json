@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T08:50:07.548Z",
+  "generatedAt": "2026-10-07T16:42:48.115Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6893,10 +6893,10 @@
         },
         {
           "journal": "BMC Medical Ethics",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
           "submittedDate": "2026-10-06T10:18:29.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -6911,6 +6911,19 @@
                 "messageId": "1a110b8d1a6cc418",
                 "subject": "Track the status of your submission to BMC Medical Ethics",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-10-07T06:06:00.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was sent back after technical check, requiring the author to address points and resubmit within 2 days.",
+              "manuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
+              "source": {
+                "threadId": "1a114f805cad968d",
+                "messageId": "1a114f805cad968d",
+                "subject": "Re: BMC Medical Ethics-Amendment required",
+                "from": "Springer Nature Submissions <bmcmedicalethics@biomedcentral.com>"
               }
             }
           ]
@@ -6982,6 +6995,27 @@
             "messageId": "1a110b8d1a6cc418",
             "subject": "Track the status of your submission to BMC Medical Ethics",
             "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-07T06:06:00.000Z",
+          "journal": "BMC Medical Ethics",
+          "eventType": "sent_back",
+          "manuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was sent back after technical check, requiring the author to address points and resubmit within 2 days.",
+          "source": {
+            "threadId": "1a114f805cad968d",
+            "messageId": "1a114f805cad968d",
+            "subject": "Re: BMC Medical Ethics-Amendment required",
+            "from": "Springer Nature Submissions <bmcmedicalethics@biomedcentral.com>"
           },
           "needsReview": false
         },
@@ -7490,6 +7524,19 @@
                 "subject": "Re: Query regarding JOA-D-26-01135R4",
                 "from": "Taylor Bowen <journalofarthroplasty@gmail.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-07T14:10:26.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The editor informs the author that a decision with final editing suggestions will be provided soon after the chief and developmental editors finish their edits.",
+              "manuscriptNumber": "JOA-D-26-01135R4",
+              "source": {
+                "threadId": "1a08c6c14881e82e",
+                "messageId": "1a116b38edb89152",
+                "subject": "Re: Query regarding JOA-D-26-01135R4",
+                "from": "Taylor Bowen <journalofarthroplasty@gmail.com>"
+              }
             }
           ]
         }
@@ -7511,10 +7558,27 @@
             "from": "Taylor Bowen <journalofarthroplasty@gmail.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-07T14:10:26.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "other",
+          "manuscriptNumber": "JOA-D-26-01135R4",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The editor informs the author that a decision with final editing suggestions will be provided soon after the chief and developmental editors finish their edits.",
+          "source": {
+            "threadId": "1a08c6c14881e82e",
+            "messageId": "1a116b38edb89152",
+            "subject": "Re: Query regarding JOA-D-26-01135R4",
+            "from": "Taylor Bowen <journalofarthroplasty@gmail.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-10T17:44:45.000Z",
-      "updatedAt": "2026-09-10T17:44:45.000Z"
+      "updatedAt": "2026-10-07T14:10:26.000Z"
     },
     {
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
@@ -24254,8 +24318,8 @@
       "title": "Who writes and who decides: geographic representation of authors and editorial boards in 36 orthopaedic and spine journals",
       "titleNormalized": "who writes and who decides geographic representation of authors and editorial boards in 36 orthopaedic and spine journals",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -24267,7 +24331,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -24291,15 +24356,28 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-07T12:20:13.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Your manuscript has been submitted and you can track its status via the provided link.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a11573cf9a166e8",
+                "messageId": "1a1164eb791b67ed",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
             }
           ]
         },
         {
           "journal": "Globalization and Health",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "0fe437bd-fa54-4454-b05e-5528fa65a8f4",
           "submittedDate": "2026-10-06T11:40:36.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -24314,6 +24392,19 @@
                 "messageId": "1a11103ff84a30b6",
                 "subject": "Track the status of your submission to Globalization and Health",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-10-07T12:00:41.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned to the author after technical check, requesting corrections within 2 days.",
+              "manuscriptNumber": "0fe437bd-fa54-4454-b05e-5528fa65a8f4",
+              "source": {
+                "threadId": "1a1163cfbfc55bfd",
+                "messageId": "1a1163cfbfc55bfd",
+                "subject": "Re: Globalization and Health-Amendment required",
+                "from": "Springer Nature Submissions <surendar.ananthasayanan@springernature.com>"
               }
             }
           ]
@@ -24353,10 +24444,48 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-07T12:00:41.000Z",
+          "journal": "Globalization and Health",
+          "eventType": "sent_back",
+          "manuscriptNumber": "0fe437bd-fa54-4454-b05e-5528fa65a8f4",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned to the author after technical check, requesting corrections within 2 days.",
+          "source": {
+            "threadId": "1a1163cfbfc55bfd",
+            "messageId": "1a1163cfbfc55bfd",
+            "subject": "Re: Globalization and Health-Amendment required",
+            "from": "Springer Nature Submissions <surendar.ananthasayanan@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-07T12:20:13.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your manuscript has been submitted and you can track its status via the provided link.",
+          "source": {
+            "threadId": "1a11573cf9a166e8",
+            "messageId": "1a1164eb791b67ed",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-06T11:40:36.000Z",
-      "updatedAt": "2026-10-06T11:40:36.000Z"
+      "updatedAt": "2026-10-07T12:20:13.000Z"
     }
   ],
   "editedAt": "2026-09-16T19:36:12.297Z"
