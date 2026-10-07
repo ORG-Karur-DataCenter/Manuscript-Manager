@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-07T04:50:41.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:5f3f74e52fb1d421]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T05:15:51.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Query regarding JOA-D-26-01135R4",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T05:20:15.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Asian Spine Journal - Decision on Manuscript ID ASJ-2025-0862.R1",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-07T08:02:39.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Expert Review of Vaccines - Manuscript ID IRME-2026-ST-0248",
+      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-07T00:07:14.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Cycle Syncing Health Claims Prompt Experts to Urge Caution",
@@ -2070,34 +2098,6 @@
       "reason": "unrelated",
       "subject": "Sathish, a recent article cited your research",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T12:01:14.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Knee Osteoarthritis Management",
-      "from": "\"Madhura RJ, Ph.D.\" <madhura.rj@jove.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T12:18:06.000Z",
-      "reason": "unrelated",
-      "subject": "Why AI-Generated Scientific Figures Can Look Right—and Still Be Wrong",
-      "from": "Research Creative <Research.communication@letpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T14:05:26.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What Does a Nobel Laureate Think About Visual Science?",
-      "from": "JoVE Video <access@jove.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T14:15:08.000Z",
-      "reason": "unrelated",
-      "subject": "AO Spine KF Degenerative September meetings notes,  actions and information",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

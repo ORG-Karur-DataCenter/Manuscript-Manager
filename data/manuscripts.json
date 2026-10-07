@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T01:36:38.761Z",
+  "generatedAt": "2026-10-07T08:50:07.548Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6789,8 +6789,8 @@
       "title": "Editorial proximity and speed of acceptance in orthopaedic and spine journals: a cross-sectional study of 27,128 articles in 26 journals",
       "titleNormalized": "editorial proximity and speed of acceptance in orthopaedic and spine journals a cross sectional study of 27 128 articles in 26 journals",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -6802,7 +6802,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -6871,6 +6872,19 @@
               "source": {
                 "threadId": "1a110ac7d4664b6e",
                 "messageId": "1a110ac7d4664b6e",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-07T08:21:05.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a11573cf9a166e8",
+                "messageId": "1a11573cf9a166e8",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -6970,10 +6984,27 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-07T08:21:05.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a11573cf9a166e8",
+            "messageId": "1a11573cf9a166e8",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-30T07:31:42.000Z",
-      "updatedAt": "2026-10-06T10:18:29.000Z"
+      "updatedAt": "2026-10-07T08:21:05.000Z"
     },
     {
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",
@@ -14585,6 +14616,74 @@
       "deadlineSource": null
     },
     {
+      "id": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa",
+      "title": "Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
+      "titleNormalized": "journal self citation and the two year impact factor window in orthopaedic and spine journals a cross sectional analysis of 790 827 references in 36 journals",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Informetrics",
+      "currentManuscriptNumber": "JOI-D-26-01098",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Informetrics",
+          "manuscriptNumber": "JOI-D-26-01098",
+          "submittedDate": "2026-10-07T04:46:41.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-07T04:46:41.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and assigned a manuscript number.",
+              "manuscriptNumber": "JOI-D-26-01098",
+              "source": {
+                "threadId": "1a114af66f0bb9f5",
+                "messageId": "1a114af66f0bb9f5",
+                "subject": "JOI-D-26-01098 - Confirming your submission to Journal of Informetrics",
+                "from": "Journal of Informetrics <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-07T04:46:41.000Z",
+          "journal": "Journal of Informetrics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JOI-D-26-01098",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and assigned a manuscript number.",
+          "source": {
+            "threadId": "1a114af66f0bb9f5",
+            "messageId": "1a114af66f0bb9f5",
+            "subject": "JOI-D-26-01098 - Confirming your submission to Journal of Informetrics",
+            "from": "Journal of Informetrics <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-07T04:46:41.000Z",
+      "updatedAt": "2026-10-07T04:46:41.000Z"
+    },
+    {
       "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
       "title": "Laponite Nanocomposite Hydrogels for Bone Tissue Engineering: A Critical Review of Bioactivity and Translational Perspectives",
       "titleNormalized": "laponite nanocomposite hydrogels for bone tissue engineering a critical review of bioactivity and translational perspectives",
@@ -16239,6 +16338,74 @@
       ],
       "createdAt": "2026-06-02T16:15:07.000Z",
       "updatedAt": "2026-06-02T16:15:07.000Z"
+    },
+    {
+      "id": "mitochondrial-dysfunction-in-knee-osteoarthritis-mechanisms-biomarkers",
+      "title": "Mitochondrial Dysfunction in Knee Osteoarthritis: Mechanisms, Biomarkers, and Therapeutic Targets",
+      "titleNormalized": "mitochondrial dysfunction in knee osteoarthritis mechanisms biomarkers and therapeutic targets",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"ochondrial Dysfunction in Knee Osteoarthritis: Mechanisms, Biomarkers, and Therapeutic Targets\" (0.99). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": "129506",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": "129506",
+          "submittedDate": "2026-10-07T06:26:56.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-07T06:26:56.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is awaiting initial editorial checks.",
+              "manuscriptNumber": "129506",
+              "source": {
+                "threadId": "1a1150b7a02aff4b",
+                "messageId": "1a1150b7a02aff4b",
+                "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 129506",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-07T06:26:56.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "129506",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is awaiting initial editorial checks.",
+          "source": {
+            "threadId": "1a1150b7a02aff4b",
+            "messageId": "1a1150b7a02aff4b",
+            "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 129506",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-07T06:26:56.000Z",
+      "updatedAt": "2026-10-07T06:26:56.000Z"
     },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
