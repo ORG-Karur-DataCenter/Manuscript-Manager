@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T02:01:21.693Z",
+  "generatedAt": "2026-10-08T09:06:55.494Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3812,14 +3812,14 @@
       "id": "comparative-physicochemical-biochemical-growth-factor-and-cytokine-cha",
       "title": "Comparative Physicochemical, Biochemical, Growth Factor and Cytokine Characterization of Platelet-Rich Plasma and Plasma Rich in Growth Factors (PRGF)",
       "titleNormalized": "comparative physicochemical biochemical growth factor and cytokine characterization of platelet rich plasma and plasma rich in growth factors prgf",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "World Journal of Experimental Medicine",
       "currentManuscriptNumber": "126815",
-      "currentStatus": "Revision requested",
+      "currentStatus": "Under review",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -3831,7 +3831,7 @@
           "manuscriptNumber": "126815",
           "submittedDate": "2026-08-24T04:13:17.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -3885,6 +3885,19 @@
                 "messageId": "1a0c7c8f6eaaabc5",
                 "subject": "Re: Re: Reminder to World Journal of Experimental Medicine Manuscript NO: 126815 – Manuscript status is “Revise”",
                 "from": "\"s.r.bai@wjgnet.com\" <s.r.bai@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-08T07:48:52.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The author’s revised manuscript was resubmitted and will be sent for full review.",
+              "manuscriptNumber": "126815",
+              "source": {
+                "threadId": "1a11a7c9cefdb6d7",
+                "messageId": "1a11a7c9cefdb6d7",
+                "subject": "World Journal of Experimental Medicine Manuscript NO: 126815 - Acknowledgement of revised manuscript",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
               }
             }
           ]
@@ -3960,10 +3973,27 @@
             "from": "\"s.r.bai@wjgnet.com\" <s.r.bai@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-08T07:48:52.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "under_review",
+          "manuscriptNumber": "126815",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author’s revised manuscript was resubmitted and will be sent for full review.",
+          "source": {
+            "threadId": "1a11a7c9cefdb6d7",
+            "messageId": "1a11a7c9cefdb6d7",
+            "subject": "World Journal of Experimental Medicine Manuscript NO: 126815 - Acknowledgement of revised manuscript",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-24T04:13:17.000Z",
-      "updatedAt": "2026-09-22T06:23:46.000Z",
+      "updatedAt": "2026-10-08T07:48:52.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -6788,17 +6818,17 @@
       "id": "editorial-proximity-and-speed-of-acceptance-in-orthopaedic-and-spine-j",
       "title": "Editorial proximity and speed of acceptance in orthopaedic and spine journals: a cross-sectional study of 27,128 articles in 26 journals",
       "titleNormalized": "editorial proximity and speed of acceptance in orthopaedic and spine journals a cross sectional study of 27 128 articles in 26 journals",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "BMC Medical Ethics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentManuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-10-10T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6925,6 +6955,19 @@
                 "subject": "Re: BMC Medical Ethics-Amendment required",
                 "from": "Springer Nature Submissions <bmcmedicalethics@biomedcentral.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-08T07:36:46.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "Technical check returned the manuscript to the author for corrections, with a 2‑day deadline to resubmit.",
+              "manuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
+              "source": {
+                "threadId": "1a114f805cad968d",
+                "messageId": "1a11a717d9c5be1c",
+                "subject": "Re: BMC Medical Ethics-Amendment required",
+                "from": "Springer Nature Submissions <bmcmedicalethics@biomedcentral.com>"
+              }
             }
           ]
         }
@@ -7035,10 +7078,31 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-08T07:36:46.000Z",
+          "journal": "BMC Medical Ethics",
+          "eventType": "sent_back",
+          "manuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-10T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "Technical check returned the manuscript to the author for corrections, with a 2‑day deadline to resubmit.",
+          "source": {
+            "threadId": "1a114f805cad968d",
+            "messageId": "1a11a717d9c5be1c",
+            "subject": "Re: BMC Medical Ethics-Amendment required",
+            "from": "Springer Nature Submissions <bmcmedicalethics@biomedcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-30T07:31:42.000Z",
-      "updatedAt": "2026-10-07T08:21:05.000Z"
+      "updatedAt": "2026-10-08T07:36:46.000Z"
     },
     {
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",

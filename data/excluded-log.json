@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-07T19:28:03.000Z",
+      "reason": "unrelated",
+      "subject": "Important Update: Declaration Required for US and Canada NRI Investments",
+      "from": "\"communication@quant.in\" <communication@quant.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T08:04:37.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Inside peer review: three Chief Editors on quality, openness and AI",
+      "from": "Frontiers Science News <communications@engage.frontiersin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T08:20:31.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Invitation to Participate: Delphi Study for the face validation of SELECTION-AI Methodological Framework",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T08:21:51.000Z",
+      "reason": "unrelated",
+      "subject": "One Academic Platform for Journals, E-Books, Theses & More",
+      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T08:33:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "October research, in focus 🔬",
+      "from": "Biomolecules and Biomedicine <office@biomolbiomed.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-07T04:29:41.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Navigating 20 AI Use Cases in Healthcare: From Hype to Evidence!",
@@ -2064,41 +2099,6 @@
       "subject": "[IOCMD2026] Sciforum-203846 Review request",
       "from": "info@sciforum.net",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T10:00:42.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: Share your expertise: help shape how we assess surgical adequacy in DCM",
-      "from": "AO Spine <aospine@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T10:02:38.000Z",
-      "reason": "unrelated",
-      "subject": "Your publication: Anterior Cervical Approaches for 2-Level Radiculopathy: An International Survey on Surgeon Preferences Regarding Anterior Cervical Discectomy Fusion, Cervical Disc Arthroplasty, and Cervical Hybrid Constructs",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T12:00:42.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Your invitation to join the GSC 2027 abstract reviewing team",
-      "from": "Global Spine Congress <gsc@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T13:39:51.000Z",
-      "reason": "unrelated",
-      "subject": "A researcher is following your updates on ResearchGate",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T06:34:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Heredity Contents: Volume 135 Number 9",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
