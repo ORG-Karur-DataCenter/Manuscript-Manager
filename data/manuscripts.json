@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T22:04:56.249Z",
+  "generatedAt": "2026-10-08T02:01:21.693Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -15765,7 +15765,7 @@
       "actionLabel": null,
       "currentJournal": "Journal of Minimally Invasive Spine Surgery & Technique",
       "currentManuscriptNumber": "JMISST-26-0607",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -15912,8 +15912,8 @@
           "journal": "Journal of Minimally Invasive Spine Surgery & Technique",
           "manuscriptNumber": "JMISST-26-0607",
           "submittedDate": "2026-09-12T20:30:35.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -15979,6 +15979,19 @@
                 "threadId": "1a0e98716995f27e",
                 "messageId": "1a0e98716995f27e",
                 "subject": "Completion of manuscript submission to Journal of Minimally Invasive Spine Surgery & Technique",
+                "from": "JMISST <office@jmisst.org>"
+              }
+            },
+            {
+              "timestamp": "2026-10-07T22:11:25.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after editorial assessment, though the journal noted a substantially revised version could be considered as a new submission.",
+              "manuscriptNumber": "JMISST-26-0607",
+              "source": {
+                "threadId": "1a1186be76dcb815",
+                "messageId": "1a1186be76dcb815",
+                "subject": "Manuscript ID [JMISST-26-0607] Letter of decision 1st - Reject",
                 "from": "JMISST <office@jmisst.org>"
               }
             }
@@ -16181,10 +16194,27 @@
             "from": "JMISST <office@jmisst.org>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-07T22:11:25.000Z",
+          "journal": "Journal of Minimally Invasive Spine Surgery & Technique",
+          "eventType": "rejected",
+          "manuscriptNumber": "JMISST-26-0607",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after editorial assessment, though the journal noted a substantially revised version could be considered as a new submission.",
+          "source": {
+            "threadId": "1a1186be76dcb815",
+            "messageId": "1a1186be76dcb815",
+            "subject": "Manuscript ID [JMISST-26-0607] Letter of decision 1st - Reject",
+            "from": "JMISST <office@jmisst.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-19T18:53:15.000Z",
-      "updatedAt": "2026-09-28T19:38:58.000Z",
+      "updatedAt": "2026-10-07T22:11:25.000Z",
       "deadline": null,
       "deadlineSource": null
     },
