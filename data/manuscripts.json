@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T09:06:55.494Z",
+  "generatedAt": "2026-10-08T16:39:51.926Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3083,14 +3083,14 @@
       "id": "car-t-cell-therapy-in-solid-musculoskeletal-tumours-implications-for-r",
       "title": "CAR-T Cell Therapy in Solid Musculoskeletal Tumours: Implications for Regenerative Orthopaedics - A Scoping Review",
       "titleNormalized": "car t cell therapy in solid musculoskeletal tumours implications for regenerative orthopaedics a scoping review",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "JBJS Open Access",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "JBJSOA-D-26-00117",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -3099,10 +3099,10 @@
       "submissions": [
         {
           "journal": "JBJS Open Access",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "JBJSOA-D-26-00117",
           "submittedDate": "2026-04-24T13:29:40.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -3118,6 +3118,19 @@
                 "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00117) - [EMID:bb4d57a4f043104d]",
                 "from": "JBJS Open Access <em@editorialmanager.com>",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-10-08T14:15:33.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after editorial and peer review.",
+              "manuscriptNumber": "JBJSOA-D-26-00117",
+              "source": {
+                "threadId": "1a11bde928acea63",
+                "messageId": "1a11bde928acea63",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00117) - [EMID:0b13b4e57127f0b8]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
           ]
@@ -3139,10 +3152,29 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-08T14:15:33.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "rejected",
+          "manuscriptNumber": "JBJSOA-D-26-00117",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after editorial and peer review.",
+          "source": {
+            "threadId": "1a11bde928acea63",
+            "messageId": "1a11bde928acea63",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00117) - [EMID:0b13b4e57127f0b8]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-04-24T13:29:40.000Z",
-      "updatedAt": "2026-04-24T13:29:40.000Z"
+      "updatedAt": "2026-10-08T14:15:33.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "chondrogenesis-of-peripheral-blood-derived-mesenchymal-stromal-cells",
@@ -6818,17 +6850,17 @@
       "id": "editorial-proximity-and-speed-of-acceptance-in-orthopaedic-and-spine-j",
       "title": "Editorial proximity and speed of acceptance in orthopaedic and spine journals: a cross-sectional study of 27,128 articles in 26 journals",
       "titleNormalized": "editorial proximity and speed of acceptance in orthopaedic and spine journals a cross sectional study of 27 128 articles in 26 journals",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "BMC Medical Ethics",
-      "currentManuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-10-10T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6915,6 +6947,19 @@
               "source": {
                 "threadId": "1a11573cf9a166e8",
                 "messageId": "1a11573cf9a166e8",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-08T08:10:42.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted, with a link to track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a11a908cac65920",
+                "messageId": "1a11a908cac65920",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -7099,10 +7144,27 @@
             "from": "Springer Nature Submissions <bmcmedicalethics@biomedcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-08T08:10:42.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and submitted, with a link to track its status.",
+          "source": {
+            "threadId": "1a11a908cac65920",
+            "messageId": "1a11a908cac65920",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-30T07:31:42.000Z",
-      "updatedAt": "2026-10-08T07:36:46.000Z"
+      "updatedAt": "2026-10-08T08:10:42.000Z"
     },
     {
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",
@@ -21473,7 +21535,7 @@
       "title": "Shoulder Imbalance in Adolescent Idiopathic Scoliosis: Where Are We Now? A Scoping Review of Current concepts and Future directions",
       "titleNormalized": "shoulder imbalance in adolescent idiopathic scoliosis where are we now a scoping review of current concepts and future directions",
       "bucket": "in_review",
-      "needsReview": false,
+      "needsReview": true,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -21535,6 +21597,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-08T10:27:18.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-08T10:27:18.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a11a908cac65920",
+                "messageId": "1a11b0d9afcf0e0d",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -21571,10 +21657,28 @@
             "from": "Spine Deformity - Editorial Office <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-08T10:27:18.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a11a908cac65920",
+            "messageId": "1a11b0d9afcf0e0d",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-29T06:16:05.000Z",
-      "updatedAt": "2026-09-22T17:49:30.000Z"
+      "updatedAt": "2026-10-08T10:27:18.000Z",
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with."
     },
     {
       "id": "spatial-multiomics-advances-in-osteoarthritis-from-molecular-landscape",

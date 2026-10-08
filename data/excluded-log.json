@@ -1,6 +1,90 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-08T11:10:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 08th October 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T11:27:41.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Breaking News: Nobel Prize in Literature goes to Canadian author Anne Carson",
+      "from": "The Hindu <news@newsalertth.thehindu.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T13:00:14.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Preparing students for sustainability careers",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T16:08:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "See what's shaping research conversations in your field",
+      "from": "Integrative Medicine Reports <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T06:15:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Just 3 days left to apply! Call for applications! AO Trauma Asia Pacific Regional Board Chairperson and AO Trauma Asia Pacific Research Committee Chairperson",
+      "from": "AO Trauma <aotrauma@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T10:25:51.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Special waiver for prompt submission: 70% OFF on APC",
+      "from": "Open Journal of Cancer Research and Oncology <cancer@laurinpublishers.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T10:45:28.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from University of Auckland",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T11:24:24.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Submissions Open - International Journal of Advanced Radiology & Imaging Science",
+      "from": "\"International Journal Radiology & Imaging Science\" <jadvanceradiologyimaging@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T12:05:18.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Celebrating the 2026 Nobel Laureates in Physiology and Medicine and JoVE Authors",
+      "from": "JoVE Video <access@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T12:29:01.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation to Publish a Complete Book",
+      "from": "Book Author Support- Red Flower Publications <books@rfppl.co.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T14:04:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cumulative Surgeon Volume Is Associated With Improved Outcomes Following Hip Arthroscopy",
+      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T16:13:36.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish Muthu, here's what's coming soon to Netflix",
+      "from": "Netflix <info@members.netflix.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-07T19:28:03.000Z",
       "reason": "unrelated",
       "subject": "Important Update: Declaration Required for US and Canada NRI Investments",
@@ -2014,90 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Invitation to Review Manuscript No. 127961 for World Journal of Diabetes (Reviewer’s Code: 05395420)",
       "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-24T10:08:54.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dauda Salihu Ph.D recommended this article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T14:31:55.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Auto Extraction: Turn Hours of Manual Work into Seconds",
-      "from": "Rayyan <newsletter@rayyan.ai>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T14:55:40.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "💣 Go build your own Higgsfield",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T17:16:31.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "‘Doctor, Is This Normal?’",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T11:37:34.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, a recent article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T15:50:15.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Auto Extraction: Turn Hours of Manual Work into Seconds",
-      "from": "Rayyan <newsletter@rayyan.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T17:06:23.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the latest  Clinical Spine Surgery - Vol. 39, No. 8, October 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T13:00:20.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "How driverless cars became reality",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T08:36:13.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "LAST CHANCE TO REGISTER YOUR HOSPITAL FOR SURGWEEK-2",
-      "from": "NIHR Global Surgery Unit <enquiry@globalsurg.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T09:02:04.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "World Journal of Surgical Oncology: Reminder of our invitation to review a manuscript",
-      "from": "World Journal of Surgical Oncology <peer-review@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T09:02:30.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Three Days Remain for the SICOT Kyoto OWC 2026",
-      "from": "SICOT <president@sicot.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-25T09:17:59.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[IOCMD2026] Sciforum-203846 Review request",
-      "from": "info@sciforum.net",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
