@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-09T17:17:57.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Sugar-Sweetened Beverages Tied to Gastric Cancer Risk",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T16:46:07.000Z",
+      "reason": "unrelated",
+      "subject": "IHMEID: 6118 GBD 2023 Global Mental disorders in youth comments due October 12",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-09T09:40:38.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Breaking News: Navanethem “Navi” Pillay wins Nobel Peace Prize 2026",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Invitation to Participate in QS Academic Reputation Survey",
       "from": "\"Ranking Survey(e)\" <Ranking-Surveys-e@kfupm.edu.sa>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T12:52:07.000Z",
-      "reason": "unrelated",
-      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "Christopher Martin <mart1865@umn.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T13:12:27.000Z",
-      "reason": "unrelated",
-      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "\"Cho, Samuel\" <Samuel.Cho@mountsinai.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
