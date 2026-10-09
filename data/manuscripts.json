@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T02:17:44.053Z",
+  "generatedAt": "2026-10-09T09:16:53.006Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -13309,6 +13309,19 @@
                 "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00231R2) - [EMID:80cbbcf8f75e2add]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-09T05:54:32.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 2,
+              "note": "The journal reminded the author to submit the revised manuscript by the specified deadline.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R2",
+              "source": {
+                "threadId": "1a11f3a4d2c8959a",
+                "messageId": "1a11f3a4d2c8959a",
+                "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00231R2) - [EMID:7b58788172af986e]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
             }
           ]
         }
@@ -13747,10 +13760,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-09T05:54:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00231R2",
+          "label": "Revision requested",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-10-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 09 2026 11:59PM"
+          },
+          "note": "The journal reminded the author to submit the revised manuscript by the specified deadline.",
+          "source": {
+            "threadId": "1a11f3a4d2c8959a",
+            "messageId": "1a11f3a4d2c8959a",
+            "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00231R2) - [EMID:7b58788172af986e]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-10-06T05:49:29.000Z",
+      "updatedAt": "2026-10-09T05:54:32.000Z",
       "deadline": "2026-10-09T18:29:59.999Z",
       "deadlineSource": "stated",
       "overrides": {

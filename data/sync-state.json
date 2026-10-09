@@ -1,7 +1,7 @@
 {
   "accounts": {
     "dhibinvikash1@gmail.com": {
-      "lastSyncedAt": "2026-10-09T02:17:44.053Z",
+      "lastSyncedAt": "2026-10-09T09:16:53.006Z",
       "seenIds": [
         "1a0103eff244d8fe",
         "1a01f47bc9dacb9b",
@@ -3448,7 +3448,15 @@
         "1a11a90ab5d7d72f",
         "1a11d176dc393672",
         "1a11dd433882727f",
-        "1a11dba9570c33ca"
+        "1a11dba9570c33ca",
+        "1a11fa9daf67d78f",
+        "1a11f90fdacb6f6d",
+        "1a11f828e1cabd82",
+        "1a11f623c0a0c92b",
+        "1a11f4eecf3cfb46",
+        "1a11f3a4d2c8959a",
+        "1a11ef67dd849a8d",
+        "1a11e8414bb99fc1"
       ],
       "importedAt": "2026-08-23T12:49:10.227Z",
       "failedAttempts": {
@@ -3457,31 +3465,8 @@
       "holding": false
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-10-08T10:00:41.000Z",
+      "lastSyncedAt": "2026-10-09T09:16:29.904Z",
       "seenIds": [
-        "19d2306d880f07b8",
-        "19d239f38805bf26",
-        "19d25785cbf491ea",
-        "19d259e9b233e449",
-        "19d25f36f8838caa",
-        "19d27ceb46ec0d7d",
-        "19d28ce378f3717a",
-        "19d28d41667804a6",
-        "19d2a48e71829a6c",
-        "19d2acaa8b1ea9ac",
-        "19d2b175e1657c47",
-        "19d2b9463caae274",
-        "19d2e7f3b8fee1d3",
-        "19d2ee7a93eb2649",
-        "19d2f7c21e097923",
-        "19d2fe9eb6aa545d",
-        "19d2feb59865ba76",
-        "19d32f07c0694f1e",
-        "19d3457aa87eadd0",
-        "19d3488b19d42a9d",
-        "19d34ffb510c7bea",
-        "19d3633f9e74b138",
-        "19d392260fc5b28d",
         "19d39eaa3c8167a3",
         "19d3ac9168f6b105",
         "19d3b61e5599883e",
@@ -11458,7 +11443,30 @@
         "1a11b15179dbfe55",
         "1a11dbc4f21ec156",
         "1a11dba848484553",
-        "1a11bda255b74ab5"
+        "1a11bda255b74ab5",
+        "1a11fc3173c709ae",
+        "1a11fb622a4ab854",
+        "1a11fab8c7de25af",
+        "1a11fa9da85d09c0",
+        "1a11fa3972991409",
+        "1a11f8d9b1d88104",
+        "1a11f8b758e95b98",
+        "1a11f82ad6536183",
+        "1a11f82777a0d80c",
+        "1a11f7b395c67829",
+        "1a11f78abb424c69",
+        "1a11f6b9cbc75291",
+        "1a11f556a5ddda2b",
+        "1a11f246c864e712",
+        "1a11f1b0f9fc42fd",
+        "1a11f04cf34ed703",
+        "1a11ef026ea39dd8",
+        "1a11ed9e838413ce",
+        "1a11ed7296410a14",
+        "1a11ed21675373f9",
+        "1a11ed1f8fd1d10b",
+        "1a11ec7621c60436",
+        "1a11af5679050e2d"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
@@ -11471,7 +11479,7 @@
         "19c5d94258ac2e1d": 1,
         "19c5d62bcf8377b7": 1
       },
-      "holding": true
+      "holding": false
     }
   }
 }

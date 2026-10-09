@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-09T04:40:28.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Career Guide In Digital Health And Healthcare AI",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-08T10:00:41.000Z",
+      "reason": "unrelated",
+      "subject": "Final reminder: Share your expertise on objective post-operative healing monitoring",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T03:49:05.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reviewer invitation expired for glucagon-like peptide-1 receptor agonists use in total joint arthroplasty: evidence weaknesses and methodological pitfalls in current systematic reviews",
+      "from": "Scholastica Notifications <notifications@email.scholasticahq.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T04:00:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The Countdown Is On! Explore the Latest Conference Program: AO Spine AP Regional Conference 2026",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T04:33:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Have you registered for the webinar: Redefine the research experience",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T05:30:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Registration Is Now Open! AO Trauma/ AO Recon Course—Comprehensive Periprosthetic Fracture Management of the Hip and Knee Course with Anatomical Specimens, Yogyakarta, Indonesia | November 16-18, 2026",
+      "from": "AO Foundation <news@communications.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T07:01:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New and future treatments for IgA nephropathy",
+      "from": "Giornale di Clinica Nefrologica e Dialisi <mailings@aboutscience.eu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T07:13:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Call for Abstracts – Parekh IFAS Advanced Foot & Ankle Meeting 2027",
+      "from": "\"Advanced Foot & Ankle Meeting\" <info@marundeshwara.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T08:09:52.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to peer review a new submission - Manuscript ID vD15oD - Academia Immunity and Disease",
+      "from": "\"Academia.edu\" <updates@academia-mail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-08T22:57:22.000Z",
       "reason": "unrelated",
       "subject": "Journal recommendations for Who writes and who decides: geographic representation of authors and editorial boards in 36 orthopaedic and spine journals",
@@ -2035,69 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Re: Manuscript Infiltrations AO Spine Degenerative Knowledge Forum",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T09:54:29.000Z",
-      "reason": "unrelated",
-      "subject": "🏅NEET-PG 2026 Toppers | Learn from their preparation journey",
-      "from": "Team Marrow <noreply@marrowmed.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T12:54:07.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Manuscript Infiltrations AO Spine Degenerative Knowledge Forum",
-      "from": "Calogero Velluto <calogerovelluto@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T09:50:11.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T11:08:41.000Z",
-      "reason": "unrelated",
-      "subject": "Dr. Sathish Muthu- Global Scientific Invitation - Nomination Open",
-      "from": "Adviser SL <adviser@scientificlaurels.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T11:16:15.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Manuscript Infiltrations AO Spine Degenerative Knowledge Forum",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T11:55:28.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "SCOPE Study: Status Update, Support on Data Collection & Milestone Recognition",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T12:05:27.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for Title: Minimally invasive lumbar spine surgery preserves functional recovery in obese patients despite greater operative burden: a systematic review and meta-analysis",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T02:58:32.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Medicine® Article MD-D-26-08968",
-      "from": "Medicine <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T04:40:44.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Citation Laureates 2026: the long road from insight to impact",
-      "from": "Clarivate <news@mail.discover.clarivate.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
