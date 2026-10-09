@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T09:16:53.006Z",
+  "generatedAt": "2026-10-09T16:22:38.972Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -16605,7 +16605,7 @@
       "actionLabel": null,
       "currentJournal": "World Journal of Orthopedics",
       "currentManuscriptNumber": "129506",
-      "currentStatus": "Submitted",
+      "currentStatus": "Under review",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -16619,7 +16619,7 @@
           "manuscriptNumber": "129506",
           "submittedDate": "2026-10-07T06:26:56.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -16633,6 +16633,19 @@
                 "threadId": "1a1150b7a02aff4b",
                 "messageId": "1a1150b7a02aff4b",
                 "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 129506",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-09T10:58:11.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
+              "manuscriptNumber": "129506",
+              "source": {
+                "threadId": "1a120507077f1ec0",
+                "messageId": "1a120507077f1ec0",
+                "subject": "World Journal of Orthopedics Manuscript No.: 129506 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
                 "from": "BPG Submission <submission@wjgnet.com>"
               }
             }
@@ -16656,10 +16669,27 @@
             "from": "BPG Submission <submission@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-09T10:58:11.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "under_review",
+          "manuscriptNumber": "129506",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
+          "source": {
+            "threadId": "1a120507077f1ec0",
+            "messageId": "1a120507077f1ec0",
+            "subject": "World Journal of Orthopedics Manuscript No.: 129506 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-07T06:26:56.000Z",
-      "updatedAt": "2026-10-07T06:26:56.000Z"
+      "updatedAt": "2026-10-09T10:58:11.000Z"
     },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",

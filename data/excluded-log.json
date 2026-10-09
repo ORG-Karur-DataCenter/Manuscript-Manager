@@ -1,6 +1,76 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-09T09:40:38.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Breaking News: Navanethem “Navi” Pillay wins Nobel Peace Prize 2026",
+      "from": "The Hindu <news@newsalertth.thehindu.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T13:02:37.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Stanford athletes to watch",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T15:30:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🥺 Claude got a bill of rights",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T10:00:52.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The September issue of Global Spine Journal has been published",
+      "from": "Global Spine Journal <gsj@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T10:19:37.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Manuscript Editing Invitation Reminder",
+      "from": "Frontiers in Endocrinology Editorial Office <endocrinology.editorial.office@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T10:42:01.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, an article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T11:38:37.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Medicine® Article MD-D-26-10661",
+      "from": "Medicine <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T12:01:34.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Reminder: Abstract Submission Deadline - 2027 Sports Conference in Athens, Greece",
+      "from": "Dr Nicholas Pappas <atiner@atiner-conferences.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T13:01:57.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New evidence, debates, and insights in orthopaedics",
+      "from": "\"Clinical Orthopaedics and Related Research®\" <info@ovid.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-09T13:42:47.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AI Is Scaling Research Fraud—How Publishers Are Fighting Back",
+      "from": "LetPub <Research.communication@letpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-09T04:40:28.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Career Guide In Digital Health And Healthcare AI",
@@ -2028,76 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
       "from": "\"Cho, Samuel\" <Samuel.Cho@mountsinai.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T03:15:41.000Z",
-      "reason": "unrelated",
-      "subject": "AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "\"Goh, Brian C\" <brian.goh@emory.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T05:56:49.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to Review Medicine® Article MD-D-26-08968",
-      "from": "Medicine <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T06:30:18.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T07:23:54.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Official - Invited Speaker Invitation | ICEMSET 2026 | Guru Jambheshwar University of Science and Technology, Hisar, Haryana, India (16–18 November 2026)",
-      "from": "ICEMSET 2026 <contact@rpconfseries.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T17:17:08.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review Manuscript IPMT-2026-ST-0488 - Pain Management",
-      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T16:55:08.000Z",
-      "reason": "unrelated",
-      "subject": "Enjoy your exclusive discount",
-      "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T13:40:45.000Z",
-      "reason": "unrelated",
-      "subject": "Re: SCOPE Study: Status Update, Support on Data Collection & Milestone Recognition",
-      "from": "Enrico Giordan <enrico.giordan@aulss2.veneto.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T14:17:19.000Z",
-      "reason": "unrelated",
-      "subject": "Re: SCOPE Study: Status Update, Support on Data Collection & Milestone Recognition",
-      "from": "\"命醫\" <lukespinewalker@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T14:30:39.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "RE-Query on your article",
-      "from": "Journal of Orthopaedic Science and Research <orthopaedicres@athenaeumpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T15:18:24.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Manuscript Infiltrations AO Spine Degenerative Knowledge Forum",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
