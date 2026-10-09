@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T22:10:09.241Z",
+  "generatedAt": "2026-10-09T02:17:44.053Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -17137,11 +17137,11 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "needs_action",
+      "bucket": "revisions_pending",
       "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 2 requested",
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
       "currentManuscriptNumber": "JBJSOA-D-26-00213R2",
       "currentStatus": "Returned to author — one citation fix outstanding",
@@ -17182,7 +17182,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00213R2",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -17362,6 +17362,19 @@
                 "threadId": "1a10abc519fce796",
                 "messageId": "1a10abc519fce796",
                 "subject": "Thank you - [EMID:dd6ef03131a92673]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-08T14:10:43.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 2,
+              "note": "The manuscript was sent back for revision with a deadline of Oct 22 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R2",
+              "source": {
+                "threadId": "1a11bda255b74ab5",
+                "messageId": "1a11bda255b74ab5",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00213R2) - [EMID:b5712cf9809b391d]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -17796,10 +17809,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-08T14:10:43.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00213R2",
+          "label": "Revision requested",
+          "revisionRound": 2,
+          "deadline": {
+            "due": "2026-10-22T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 22 2026 11:59PM"
+          },
+          "note": "The manuscript was sent back for revision with a deadline of Oct 22 2026.",
+          "source": {
+            "threadId": "1a11bda255b74ab5",
+            "messageId": "1a11bda255b74ab5",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00213R2) - [EMID:b5712cf9809b391d]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-10-05T06:24:35.000Z",
+      "updatedAt": "2026-10-08T14:10:43.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {
@@ -24522,8 +24556,8 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Globalization and Health",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "0fe437bd-fa54-4454-b05e-5528fa65a8f4",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -24574,8 +24608,8 @@
           "journal": "Globalization and Health",
           "manuscriptNumber": "0fe437bd-fa54-4454-b05e-5528fa65a8f4",
           "submittedDate": "2026-10-06T11:40:36.000Z",
-          "outcome": "active",
-          "status": "sent_back",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -24603,6 +24637,19 @@
                 "messageId": "1a1163cfbfc55bfd",
                 "subject": "Re: Globalization and Health-Amendment required",
                 "from": "Springer Nature Submissions <surendar.ananthasayanan@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-08T22:55:24.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected because it was out of scope for the journal.",
+              "manuscriptNumber": "0fe437bd-fa54-4454-b05e-5528fa65a8f4",
+              "source": {
+                "threadId": "1a11dba848484553",
+                "messageId": "1a11dba848484553",
+                "subject": "Decision on your submission to Globalization and Health",
+                "from": "Globalization and Health <surendar.ananthasayanan@springernature.com>"
               }
             }
           ]
@@ -24680,10 +24727,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-08T22:55:24.000Z",
+          "journal": "Globalization and Health",
+          "eventType": "rejected",
+          "manuscriptNumber": "0fe437bd-fa54-4454-b05e-5528fa65a8f4",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected because it was out of scope for the journal.",
+          "source": {
+            "threadId": "1a11dba848484553",
+            "messageId": "1a11dba848484553",
+            "subject": "Decision on your submission to Globalization and Health",
+            "from": "Globalization and Health <surendar.ananthasayanan@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-06T11:40:36.000Z",
-      "updatedAt": "2026-10-07T12:20:13.000Z"
+      "updatedAt": "2026-10-08T22:55:24.000Z"
     }
   ],
   "editedAt": "2026-09-16T19:36:12.297Z"

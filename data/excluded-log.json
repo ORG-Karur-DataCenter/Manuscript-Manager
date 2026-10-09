@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-08T22:57:22.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Who writes and who decides: geographic representation of authors and editorial boards in 36 orthopaedic and spine journals",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-08T10:35:28.000Z",
       "reason": "unrelated",
       "subject": "Yemane Leake recommended this article",
@@ -2091,13 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Citation Laureates 2026: the long road from insight to impact",
       "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-26T05:00:40.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Hurry! Early-bird offer ends on Sept 30, 2026! AO Spine Course—Deformity: Advanced Techniques and Complex Cases (with Anatomical Specimen), Hong Kong | December 11-12, 2026",
-      "from": "AO Spine <aospine@info.aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
