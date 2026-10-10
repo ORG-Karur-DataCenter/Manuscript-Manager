@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-10T10:24:32.000Z",
+      "reason": "unrelated",
+      "subject": "Re: AO Spine FOCUS Study (October Newsletter)",
+      "from": "Christopher Martin <mart1865@umn.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-10T10:56:35.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from Burdur Mehmet Akif Ersoy University",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-10T02:34:55.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "ET AI: China's new development plan includes AI safety goals",
@@ -2085,20 +2099,6 @@
       "subject": "[ORCID] DHIBIN VIKASH K P you have new notifications",
       "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T14:21:03.000Z",
-      "reason": "unrelated",
-      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "Dan Riew <kdr9004@med.cornell.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T15:57:12.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Reminder: You're invited to submit to Neural Plasticity",
-      "from": "Neural Plasticity <np.office@wiley.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
