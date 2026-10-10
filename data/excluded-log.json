@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-10T02:34:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI: China's new development plan includes AI safety goals",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-10T04:56:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Strengthen Your Institution’s Digital Academic Ecosystem | STM Digital Library",
+      "from": "STM Journals <subscriptions@mail.celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-10T07:07:02.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow-up: Invitation to Review for Science Progress",
+      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-09T17:17:57.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Sugar-Sweetened Beverages Tied to Gastric Cancer Risk",
@@ -2077,27 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Reminder: You're invited to submit to Neural Plasticity",
       "from": "Neural Plasticity <np.office@wiley.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T17:23:29.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Peer Review \"Modified Transparent Cap-Assisted Endoscopic Full-Thickness Resection for Gastric Submucosal Tumors​\" for JoVE (JoVE74734)",
-      "from": "JoVE Review <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T12:31:30.000Z",
-      "reason": "unrelated",
-      "subject": "Invitation to Participate in QS Academic Reputation Survey",
-      "from": "\"Ranking Survey(e)\" <Ranking-Surveys-e@kfupm.edu.sa>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T12:36:54.000Z",
-      "reason": "unrelated",
-      "subject": "Invitation to Participate in QS Academic Reputation Survey",
-      "from": "\"Ranking Survey(e)\" <Ranking-Surveys-e@kfupm.edu.sa>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
