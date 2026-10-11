@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T05:54:08.733Z",
+  "generatedAt": "2026-10-11T12:59:53.450Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -20309,12 +20309,12 @@
       "title": "Proximal Junctional Odontoid Fracture After Cervical Fusion: A Distinct Failure Mechanism at the Craniovertebral Junction",
       "titleNormalized": "proximal junctional odontoid fracture after cervical fusion a distinct failure mechanism at the craniovertebral junction",
       "bucket": "in_review",
-      "needsReview": false,
+      "needsReview": true,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision  requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": "91d23b37-2974-46cb-985f-da52032a8f8a",
+      "currentManuscriptNumber": null,
       "currentStatus": "Revision submitted",
       "doi": null,
       "publicationLink": null,
@@ -20399,6 +20399,30 @@
                 "messageId": "1a128e0804a562ab",
                 "subject": "European Spine Journal: Decision on your manuscript",
                 "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-11T06:33:26.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-11T06:33:26.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a129aa92574a4b7",
+                "messageId": "1a129aa92574a4b7",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
               }
             }
           ]
@@ -20489,12 +20513,29 @@
             "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-11T06:33:26.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and submitted.",
+          "source": {
+            "threadId": "1a129aa92574a4b7",
+            "messageId": "1a129aa92574a4b7",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-24T10:42:55.000Z",
-      "updatedAt": "2026-10-11T02:52:43.000Z",
-      "deadline": "2026-11-01T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "updatedAt": "2026-10-11T06:33:26.000Z",
+      "deadline": null,
+      "deadlineSource": null,
       "overrides": {
         "bucket": "in_review",
         "currentStatus": "Revision submitted",
@@ -20522,7 +20563,8 @@
           ]
         }
       ],
-      "notes": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; the submission email is in drsathishmuthu@gmail.com dated 30 Apr 2026. The sync sweeps that mailbox and that date, so why it never filed is still open."
+      "notes": "Revision submitted to European Spine Journal. Confirmed by the author on 1 Sep 2026; the submission email is in drsathishmuthu@gmail.com dated 30 Apr 2026. The sync sweeps that mailbox and that date, so why it never filed is still open.",
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with."
     },
     {
       "id": "quantifying-surgical-burden-of-degenerative-lumbar-spinal-procedures-t",
