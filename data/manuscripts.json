@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T12:59:53.450Z",
+  "generatedAt": "2026-10-11T18:10:06.210Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -1412,14 +1412,14 @@
       "id": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the",
       "title": "AO Spine Clinical Practice Recommendations for Interbody Fusion at the Lumbo-Sacral Junction",
       "titleNormalized": "ao spine clinical practice recommendations for interbody fusion at the lumbo sacral junction",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "GSJ",
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": null,
-      "currentStatus": "Accepted (awaiting publication)",
+      "currentStatus": "Sent back for edits",
       "doi": "10.1177/21925682261492226",
       "publicationLink": null,
       "authorAccounts": [
@@ -1551,6 +1551,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-11T15:09:04.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-11T15:09:04.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The publisher flagged an authorship discrepancy and requested the author to sign a change request form to proceed to production.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a12b82aaa954078",
+                "messageId": "1a12b82aaa954078",
+                "subject": "Completed: Complete with Docusign: Authorship+Change+Request+Form+fillable+PDF_final.pdf",
+                "from": "AO DocuSign <ao@docusign.aofoundation.org>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -1674,12 +1698,33 @@
             "from": "AO DocuSign <ao@docusign.aofoundation.org>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-11T15:09:04.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-25T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "14 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The publisher flagged an authorship discrepancy and requested the author to sign a change request form to proceed to production.",
+          "source": {
+            "threadId": "1a12b82aaa954078",
+            "messageId": "1a12b82aaa954078",
+            "subject": "Completed: Complete with Docusign: Authorship+Change+Request+Form+fillable+PDF_final.pdf",
+            "from": "AO DocuSign <ao@docusign.aofoundation.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-12T22:18:58.000Z",
-      "updatedAt": "2026-10-05T05:46:21.000Z",
-      "deadline": null,
-      "deadlineSource": null
+      "updatedAt": "2026-10-11T15:09:04.000Z",
+      "deadline": "2026-10-25T18:29:59.999Z",
+      "deadlineSource": "assumed"
     },
     {
       "id": "ao-spine-clinical-practice-recommendations-when-to-operate-in-lumbar-d",
@@ -17201,13 +17246,13 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "revisions_pending",
+      "bucket": "needs_action",
       "needsReview": false,
-      "needsActionReason": null,
+      "needsActionReason": "pre_review_edits",
       "actionFlag": true,
-      "actionLabel": "Revision 2 requested",
+      "actionLabel": "Amendments requested",
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
-      "currentManuscriptNumber": "JBJSOA-D-26-00213R2",
+      "currentManuscriptNumber": "isj_110_26",
       "currentStatus": "Returned to author — one citation fix outstanding",
       "doi": null,
       "publicationLink": null,
@@ -17526,6 +17571,19 @@
                 "threadId": "1a0a5fd7176d604f",
                 "messageId": "1a0a5fd7176d604f",
                 "subject": "isj - Request for Manuscript Withdrawal:isj_110_26",
+                "from": "Indian Spine Journal <editor@isjonline.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-11T14:04:05.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was withdrawn from the review process at the author's request.",
+              "manuscriptNumber": "isj_110_26",
+              "source": {
+                "threadId": "1a12b4725635725a",
+                "messageId": "1a12b4725635725a",
+                "subject": "isj - Manuscript withdrawn as per your request: isj_110_26",
                 "from": "Indian Spine Journal <editor@isjonline.com>"
               }
             }
@@ -17894,10 +17952,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-11T14:04:05.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "isj_110_26",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-18T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was withdrawn from the review process at the author's request.",
+          "source": {
+            "threadId": "1a12b4725635725a",
+            "messageId": "1a12b4725635725a",
+            "subject": "isj - Manuscript withdrawn as per your request: isj_110_26",
+            "from": "Indian Spine Journal <editor@isjonline.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-10-08T14:10:43.000Z",
+      "updatedAt": "2026-10-11T14:04:05.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

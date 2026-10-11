@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-11T14:16:07.000Z",
+      "reason": "unrelated",
+      "subject": "You have 1 new invitation",
+      "from": "LinkedIn <notifications-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-11T16:22:50.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Follow research related to Vibhu Krishnan Viswanathan's",
+      "from": "Google Scholar Citations <scholarcitations-noreply@google.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-11T13:58:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "7th Annual EOS Conference: 𝐑𝐞𝐠𝐢𝐬𝐭𝐞𝐫 𝐄𝐚𝐫𝐥𝐲. 𝐆𝐞𝐭 𝐌𝐨𝐫𝐞 𝐰𝐢𝐭𝐡 𝐄𝐎𝐒!",
+      "from": "\"'Info@purespot.org' via EOS\" <EOS@egypure.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-11T16:00:59.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Madhan Jeyaraman - new articles",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-11T17:02:15.000Z",
+      "reason": "unrelated",
+      "subject": "Authorship",
+      "from": "Christopher Martin <mart1865@umn.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-11T17:17:28.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Authorship",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-11T17:42:04.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ijc Manuscript for review: ijc_625_26 Your comments are awaited",
+      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-11T06:13:41.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Invitation to Review Medicine® Article MD-D-26-10661",
@@ -2049,55 +2098,6 @@
       "reason": "unrelated",
       "subject": "View Madhan Jeyaraman’s post and your next steps",
       "from": "LinkedIn <messages-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T03:14:01.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4581359 - Reminder for Invitation to Review for JCM",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T03:56:30.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Official Invitation: Invited Speaker – INNOST NANO 2026 - Hybrid Conference | 26–28 October 2026 | GITAM, Jhajjar, Haryana, India",
-      "from": "INNOST NANO 2026 <contact@rpconfseries.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T04:49:43.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01697 - [EMID:855055dd81078012]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T06:00:43.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Registration Is Now Open! AO Trauma/ AO Recon Course—Comprehensive Periprosthetic Fracture Management of the Hip and Knee Course with Anatomical Specimens, Yogyakarta, Indonesia | November 16-18, 2026",
-      "from": "AO Foundation <news@communications.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T06:44:37.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [External] Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "Xiaolong Chen <xiaolong.chen1@unsw.edu.au>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T06:56:50.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "\"Effect of BMP-9 Supplementation on Chondrogenic and Osteogenic Differentiation of...\" Peer review invitation",
-      "from": "\"Academia.edu\" <updates@academia-mail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-27T23:01:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Webinar Invite- Connecting content to curriculum: Explore discipline-aligned ProQuest solutions",
-      "from": "Clarivate <news@mail.discover.clarivate.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
