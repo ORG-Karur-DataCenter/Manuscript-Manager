@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:36:31.214Z",
+  "generatedAt": "2026-10-11T05:54:08.733Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -20311,10 +20311,10 @@
       "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision  requested",
       "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": null,
+      "currentManuscriptNumber": "91d23b37-2974-46cb-985f-da52032a8f8a",
       "currentStatus": "Revision submitted",
       "doi": null,
       "publicationLink": null,
@@ -20325,10 +20325,10 @@
       "submissions": [
         {
           "journal": "European Spine Journal",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "91d23b37-2974-46cb-985f-da52032a8f8a",
           "submittedDate": "2026-06-24T10:42:55.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -20386,6 +20386,19 @@
                 "subject": "European Spine Journal: Decision on 'Proximal Junctional Odontoid Fracture After Cervical Fusion'",
                 "from": "do-not-reply@springernature.com",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-10-11T02:52:43.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The editor requested a revision of the manuscript, with a deadline of 01 Nov 2026.",
+              "manuscriptNumber": "91d23b37-2974-46cb-985f-da52032a8f8a",
+              "source": {
+                "threadId": "1a128e0804a562ab",
+                "messageId": "1a128e0804a562ab",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
               }
             }
           ]
@@ -20455,12 +20468,33 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-11T02:52:43.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "91d23b37-2974-46cb-985f-da52032a8f8a",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-01T18:29:59.999Z",
+            "source": "stated",
+            "basis": "01 Nov 2026"
+          },
+          "note": "The editor requested a revision of the manuscript, with a deadline of 01 Nov 2026.",
+          "source": {
+            "threadId": "1a128e0804a562ab",
+            "messageId": "1a128e0804a562ab",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-24T10:42:55.000Z",
-      "updatedAt": "2026-07-03T04:50:21.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-10-11T02:52:43.000Z",
+      "deadline": "2026-11-01T18:29:59.999Z",
+      "deadlineSource": "stated",
       "overrides": {
         "bucket": "in_review",
         "currentStatus": "Revision submitted",
