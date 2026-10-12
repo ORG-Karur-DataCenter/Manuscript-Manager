@@ -1,6 +1,104 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-12T08:18:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Call for Submissions",
+      "from": "\"City & Community\" <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T14:00:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Robert E. Hall awarded Nobel Memorial Prize",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T14:38:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🕵️ Something new is hiding inside Opus 5.5",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T15:21:07.000Z",
+      "reason": "unrelated",
+      "subject": "Sri Priyadharsan Kannan - Software Engineer just posted something that might be of interest to you",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T07:33:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "UTTHAN invites you for the upcoming Publishing Ethics session. Sign up now!",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T09:45:55.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to peer review a new submission - Manuscript ID WnXXdj - Academia Immunity and Disease",
+      "from": "\"Academia.edu\" <updates@academia-mail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T10:25:53.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Dove Medical Press invites you to review a paper for Journal of Multidisciplinary Healthcare Submission ID: 661946",
+      "from": "Ms Lavanya Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T10:31:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Sathish, Give Your Research Greater Reach and Impact - Want to Know How? Join our upcoming webinar",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T12:49:13.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "ITR 2026",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T12:52:51.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Form 26AS 2026",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T13:31:43.000Z",
+      "reason": "unrelated",
+      "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T13:43:37.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for your comments on the IHME ID: 6118 - GBD 2023 Global Mental disorders in youth paper",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T14:00:49.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "RE-Follow-up on your article",
+      "from": "\"Clinical Immunology & Microbiology\" <clinimmunomicro@athenaeumpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T14:04:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "45th Oversea Orthopedic Meeting March 27 to April 3 2027 Dutch Caribbean Curaçao Island",
+      "from": "Jean-Louis ROUVILLAIN <jlrouvillain@jo-o.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-12T06:34:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Reviews Microbiology Contents: Volume 24 Number 11",
@@ -2000,104 +2098,6 @@
       "reason": "editorial_role_for_other_manuscript",
       "subject": "PLOS One Reminder of Active Assignments - [EMID:3b236326cc79c320]",
       "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T06:54:36.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Your services on MD-D-26-08968 are no longer required",
-      "from": "Medicine <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T07:49:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "International Orthopaedics - ToC Alert",
-      "from": "Springer Alert <tocalert@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T08:02:16.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T00:22:44.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Manuscript No. 128259 for World Journal of Translational Medicine (Reviewer’s Code: 05395420)",
-      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T13:00:26.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Bringing elite sports medicine into everyday care",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T20:20:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New articles in my profile",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T20:20:34.000Z",
-      "reason": "unrelated",
-      "subject": "Madhan Jeyaraman - new articles",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T14:18:32.000Z",
-      "reason": "unrelated",
-      "subject": "You have 2 new invitations",
-      "from": "LinkedIn <notifications-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T14:56:53.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "⛔ OpenAI hit pause again",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T15:05:57.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Explore the June Issue of Innovations",
-      "from": "Innovations Journal on behalf of Arthrex <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T05:49:09.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [External] Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "David Gendelberg <david.gendelberg@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T07:13:07.000Z",
-      "reason": "unrelated",
-      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "Vadim Byvaltsev <vadim75byvaltsev@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T07:23:41.000Z",
-      "reason": "unrelated",
-      "subject": "PDFs  papers",
-      "from": "Calogero Velluto <calogerovelluto@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T07:33:50.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Invitation: Build your scholarly communication skills in our upcoming UTTHAN session. Register now!",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

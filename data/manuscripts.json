@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T09:24:16.031Z",
+  "generatedAt": "2026-10-12T20:00:16.108Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -13066,10 +13066,10 @@
       "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "JBJS Open Access",
-      "currentManuscriptNumber": "JBJSOA-D-26-00231R2",
+      "currentManuscriptNumber": "JBJSOA-D-26-00231R3",
       "currentStatus": "Revision submitted — Editor changes approved",
       "doi": null,
       "publicationLink": null,
@@ -13082,7 +13082,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R3",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -13421,6 +13421,19 @@
                 "threadId": "1a12c6711abea718",
                 "messageId": "1a12c6711abea718",
                 "subject": "JBJS Open Access Resubmission Confirmation",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-12T17:01:35.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 3,
+              "note": "The revised manuscript was sent back to the author with instructions to address editorial queries regarding study counts and inconsistent data.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R3",
+              "source": {
+                "threadId": "1a13110264acfcd4",
+                "messageId": "1a13110264acfcd4",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R3) - [EMID:bc1c86be04443539]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -13916,12 +13929,33 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-12T17:01:35.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R3",
+          "label": "Sent back for edits",
+          "revisionRound": 3,
+          "deadline": {
+            "due": "2026-10-26T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "14 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The revised manuscript was sent back to the author with instructions to address editorial queries regarding study counts and inconsistent data.",
+          "source": {
+            "threadId": "1a13110264acfcd4",
+            "messageId": "1a13110264acfcd4",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R3) - [EMID:bc1c86be04443539]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-10-11T19:18:31.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-10-12T17:01:35.000Z",
+      "deadline": "2026-10-26T18:29:59.999Z",
+      "deadlineSource": "assumed",
       "overrides": {
         "bucket": "in_review",
         "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",
@@ -16830,15 +16864,15 @@
       "id": "mixed-reality-and-augmented-reality-in-complex-revision-shoulder-arthr",
       "title": "Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
       "titleNormalized": "mixed reality and augmented reality in complex revision shoulder arthroplasty head mounted displays for glenoid baseplate positioning",
-      "bucket": "submissions",
+      "bucket": "in_review",
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": null,
-      "currentManuscriptNumber": null,
-      "currentStatus": null,
+      "currentJournal": "Journal of Orthopedic Case Reports",
+      "currentManuscriptNumber": "11260",
+      "currentStatus": "Accepted (awaiting publication)",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -16852,7 +16886,7 @@
           "manuscriptNumber": "11260",
           "submittedDate": "2026-10-12T02:39:51.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -16866,6 +16900,32 @@
                 "threadId": "1a12dfb4a6457bc7",
                 "messageId": "1a12dfb4a6457bc7",
                 "subject": "11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+                "from": "Nutan Saroj <sarojnutan@gmail.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-12T13:49:06.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the revised manuscript.",
+              "manuscriptNumber": "11260",
+              "source": {
+                "threadId": "1a12dfb4a6457bc7",
+                "messageId": "1a1306001ada9d2a",
+                "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+                "from": "Nutan Saroj <sarojnutan@gmail.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-12T15:29:41.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The manuscript was accepted for publication and the journal requested final files and payment by 13 Oct 2026.",
+              "manuscriptNumber": "11260",
+              "source": {
+                "threadId": "1a12dfb4a6457bc7",
+                "messageId": "1a130bc250ba8d5c",
+                "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
                 "from": "Nutan Saroj <sarojnutan@gmail.com>"
               }
             }
@@ -16906,10 +16966,44 @@
             "from": "Nutan Saroj <sarojnutan@gmail.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-12T13:49:06.000Z",
+          "journal": "Journal of Orthopedic Case Reports",
+          "eventType": "new_submission",
+          "manuscriptNumber": "11260",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the revised manuscript.",
+          "source": {
+            "threadId": "1a12dfb4a6457bc7",
+            "messageId": "1a1306001ada9d2a",
+            "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+            "from": "Nutan Saroj <sarojnutan@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-12T15:29:41.000Z",
+          "journal": "Journal of Orthopedic Case Reports",
+          "eventType": "accepted",
+          "manuscriptNumber": "11260",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was accepted for publication and the journal requested final files and payment by 13 Oct 2026.",
+          "source": {
+            "threadId": "1a12dfb4a6457bc7",
+            "messageId": "1a130bc250ba8d5c",
+            "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+            "from": "Nutan Saroj <sarojnutan@gmail.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-12T09:04:09.000Z",
-      "updatedAt": "2026-10-12T09:04:09.000Z"
+      "updatedAt": "2026-10-12T15:29:41.000Z"
     },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
