@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-12T06:34:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Microbiology Contents: Volume 24 Number 11",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T06:06:35.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-49457] - [EMID:3f90c9b044105c83]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T07:45:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "2026-10-12 07:45:53 RCA ID: 00000627 2026 Highlight Articles available for view",
+      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T08:11:11.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reviewer’s Code: 05395420 - World Journal of Stem Cells Manuscript review-Manuscript NO: 128898 - a gentle reminder",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T09:00:16.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Clinical and Radiographic Outcomes of C7-Preserving Versus Conventional Cervical Laminoplasty: A Systematic Review and Meta-analysis",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T09:01:18.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Monthly breakdown: Orthopaedics",
+      "from": "\"Lippincott®\" <info@ovid.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-11T18:45:08.000Z",
       "reason": "unrelated",
       "subject": "Re: Authorship",
@@ -2056,48 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Invitation: Build your scholarly communication skills in our upcoming UTTHAN session. Register now!",
       "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T10:06:24.000Z",
-      "reason": "unrelated",
-      "subject": "Your publication: AO Spine Clinical Practice Recommendations: When to Operate in Lumbar Disc Herniation",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T12:01:00.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "More ways to publish with Medicine®",
-      "from": "\"Lippincott®\" <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T12:14:24.000Z",
-      "reason": "unrelated",
-      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "Mohamed Amin Soliman <msolim8@uwo.ca>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T14:38:38.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T15:16:10.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: RoB",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T02:04:32.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO-D-26-01810 - New manuscript received",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

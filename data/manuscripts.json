@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T01:22:24.241Z",
+  "generatedAt": "2026-10-12T09:24:16.031Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -16825,6 +16825,91 @@
       ],
       "createdAt": "2026-10-07T06:26:56.000Z",
       "updatedAt": "2026-10-09T10:58:11.000Z"
+    },
+    {
+      "id": "mixed-reality-and-augmented-reality-in-complex-revision-shoulder-arthr",
+      "title": "Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+      "titleNormalized": "mixed reality and augmented reality in complex revision shoulder arthroplasty head mounted displays for glenoid baseplate positioning",
+      "bucket": "submissions",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": null,
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Orthopedic Case Reports",
+          "manuscriptNumber": "11260",
+          "submittedDate": "2026-10-12T02:39:51.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-12T02:39:51.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The journal requested a revision of the manuscript and asked the author to highlight changes.",
+              "manuscriptNumber": "11260",
+              "source": {
+                "threadId": "1a12dfb4a6457bc7",
+                "messageId": "1a12dfb4a6457bc7",
+                "subject": "11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+                "from": "Nutan Saroj <sarojnutan@gmail.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-12T02:39:51.000Z",
+          "journal": "Journal of Orthopedic Case Reports",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "11260",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal requested a revision of the manuscript and asked the author to highlight changes.",
+          "source": {
+            "threadId": "1a12dfb4a6457bc7",
+            "messageId": "1a12dfb4a6457bc7",
+            "subject": "11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+            "from": "Nutan Saroj <sarojnutan@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-12T09:04:09.000Z",
+          "journal": "Journal of Orthopedic Case Reports",
+          "eventType": "other",
+          "manuscriptNumber": "11260",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal thanked the author for submitting a revised manuscript.",
+          "source": {
+            "threadId": "1a12dfb4a6457bc7",
+            "messageId": "1a12f5b1b30bb95a",
+            "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+            "from": "Nutan Saroj <sarojnutan@gmail.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-12T09:04:09.000Z",
+      "updatedAt": "2026-10-12T09:04:09.000Z"
     },
     {
       "id": "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo",
