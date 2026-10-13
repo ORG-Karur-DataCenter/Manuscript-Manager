@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T09:35:52.424Z",
+  "generatedAt": "2026-10-13T17:43:19.962Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -17621,7 +17621,7 @@
         },
         {
           "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00213R2",
+          "manuscriptNumber": "JBJSOA-D-26-00213R3",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
           "status": "new_submission",
@@ -17830,6 +17830,19 @@
                 "threadId": "1a1348d806ed1240",
                 "messageId": "1a1348d806ed1240",
                 "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-13T09:46:36.000Z",
+              "eventType": "other",
+              "revisionRound": 3,
+              "note": "The revised manuscript was received by the journal.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R3",
+              "source": {
+                "threadId": "1a134a8248eae73e",
+                "messageId": "1a134a8248eae73e",
+                "subject": "JBJS Open Access Resubmission Confirmation",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -18336,10 +18349,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-13T09:46:36.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": "JBJSOA-D-26-00213R3",
+          "label": "Update",
+          "revisionRound": 3,
+          "deadline": null,
+          "note": "The revised manuscript was received by the journal.",
+          "source": {
+            "threadId": "1a134a8248eae73e",
+            "messageId": "1a134a8248eae73e",
+            "subject": "JBJS Open Access Resubmission Confirmation",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-10-13T09:17:30.000Z",
+      "updatedAt": "2026-10-13T09:46:36.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

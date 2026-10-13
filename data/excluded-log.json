@@ -1,6 +1,90 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-13T10:15:47.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Asbjørn Hróbjartsson published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T13:01:34.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Revisiting a vanished village",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T07:15:27.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Manuscript preparation for publication",
+      "from": "\"Dr.ZAHRA KAZMI\" <dr.zahra@scholarlymanuscript.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T09:02:31.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T10:03:19.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T10:19:03.000Z",
+      "reason": "unrelated",
+      "subject": "AO Spine KF Degenerative Fall meeting reminder and proposed agenda",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T14:02:40.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "RE-Follow-up on your article",
+      "from": "Journal of Orthopaedic Science and Research <orthopaedicres@athenaeumpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T14:32:56.000Z",
+      "reason": "unrelated",
+      "subject": "👤 Someone at Gowtham Multi-specialty Hospital you may know",
+      "from": "Ajay Gowtham on LinkedIn <messages-noreply@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T15:40:05.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Regenerative Medicine - Invitation to Review Manuscript ID IRME-2026-ST-0333",
+      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T15:57:30.000Z",
+      "reason": "unrelated",
+      "subject": "Dr. Dr. Sathish Muthu| Your IOA Details & My Treasurer Candidature",
+      "from": "drsanjaychaturvedi@gmail.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T16:44:27.000Z",
+      "reason": "unrelated",
+      "subject": "Confirmed: Your October 16 – 18 trip, here’s your Airbnb receipt",
+      "from": "Airbnb <automated@airbnb.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T16:49:51.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
+      "from": "Julie Phukan <jphukan@bmj.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-13T02:37:22.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "ET AI: AI startup Sarvam in talks for $300 million topup; valuation may double to $3 billion",
@@ -2014,90 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Read the latest  Clinical Orthopaedics and Related Research® - Vol. 484, No. 10, October 2026",
       "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T16:12:36.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: SCOPE Study-Mount Sinai",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T16:28:14.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, someone just recommended your data",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T19:11:46.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Focus issue on ECMO from World Journal of Emergency Medicine",
-      "from": "World Journal of Emergency Medicine <GGO@webofscience-authorconnect.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T20:18:51.000Z",
-      "reason": "unrelated",
-      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
-      "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T10:21:17.000Z",
-      "reason": "unrelated",
-      "subject": "James Thomas published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T12:22:14.000Z",
-      "reason": "unrelated",
-      "subject": "Starts Tomorrow | Marrow National INI-CET Mock (FREE)",
-      "from": "Team Marrow <noreply@marrowmed.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T13:00:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Building the skills to power U.S. manufacturing",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T14:20:09.000Z",
-      "reason": "unrelated",
-      "subject": "You have 3 new invitations",
-      "from": "LinkedIn <notifications-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T08:51:43.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: [IOCMD2026] Sciforum-203846 Review request",
-      "from": "info@sciforum.net",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T10:58:37.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, a recent article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T11:19:10.000Z",
-      "reason": "unrelated",
-      "subject": "[ORCID] Sathish Muthu you have new notifications",
-      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T13:25:10.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: PDFs  papers",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
