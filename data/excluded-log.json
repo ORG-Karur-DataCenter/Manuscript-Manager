@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-13T02:37:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI: AI startup Sarvam in talks for $300 million topup; valuation may double to $3 billion",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T04:56:20.000Z",
+      "reason": "unrelated",
+      "subject": "Open Your Academic World — Register  on STM Digital Library",
+      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T05:04:19.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: RoB",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T05:30:41.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Have you registered for the webinar: Cite Smart with AI",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T06:08:38.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One Reminder of Active Assignments - [EMID:db0a6c8f499f07fe]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T06:53:20.000Z",
+      "reason": "unrelated",
+      "subject": "Funds / Securities Balance",
+      "from": "BSE ALERTS <info@bseindia.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T08:31:28.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reviewer’s Code: 05395420 - Manuscript peer review invitation for World Journal of Stem Cells Manuscript NO: 128898",
+      "from": "\"j.l.zhang@wjgnet.com\" <j.l.zhang@wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T08:46:24.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Reminder - [Cancers, IF 4.8] Invitation to Publish a Paper in Cancers",
+      "from": "Jenny Zhang <jenny.zhang@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-12T21:33:48.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Latest Issue from World Journal of Emergency Medicine",
@@ -2042,62 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Re: PDFs  papers",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T07:54:36.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "drsathishmuthu@gmail.com-EJMCCR",
-      "from": "Editor EJMCCR <info.editor@journalsera.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T13:53:18.000Z",
-      "reason": "unrelated",
-      "subject": "Funds / Securities Balance",
-      "from": "BSE ALERTS <info@bseindia.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T14:27:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New Issue Online - eTOC for October 2026 issue",
-      "from": "Indian Journal of Medical Research <etoc@scientificscholar.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T14:30:18.000Z",
-      "reason": "unrelated",
-      "subject": "RE: SCOPE Study-Mount Sinai",
-      "from": "\"Isleem, Ula\" <Ula.Isleem@mountsinai.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T15:16:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New Issue Online - eTOC for July-September 2026 issue",
-      "from": "Indian Journal of Medical Sciences <etoc@scientificscholar.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T15:43:31.000Z",
-      "reason": "unrelated",
-      "subject": "VS: SCOPE Study: Status Update, Support on Data Collection & Milestone Recognition",
-      "from": "Maria Auron <maria.r@windowslive.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-28T20:15:32.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Second Reminder: Invitation to review Manuscript IPMT-2026-ST-0488 - Pain Management",
-      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T02:08:02.000Z",
-      "reason": "unrelated",
-      "subject": "An invitation to join SciVora — The 7 Senses of Research",
-      "from": "SciVora <support@scivora.io>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
