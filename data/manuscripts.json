@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T20:00:16.108Z",
+  "generatedAt": "2026-10-13T02:05:18.059Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -15050,6 +15050,19 @@
                 "subject": "JOI-D-26-01098 - Confirming your submission to Journal of Informetrics",
                 "from": "Journal of Informetrics <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-13T01:24:29.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and assigned to an editor.",
+              "manuscriptNumber": "JOI-D-26-01098",
+              "source": {
+                "threadId": "1a132dc700e16450",
+                "messageId": "1a132dc700e16450",
+                "subject": "Confirming handling editor for submission to Journal of Informetrics",
+                "from": "Journal of Informetrics <em@editorialmanager.com>"
+              }
             }
           ]
         }
@@ -15071,10 +15084,27 @@
             "from": "Journal of Informetrics <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-13T01:24:29.000Z",
+          "journal": "Journal of Informetrics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JOI-D-26-01098",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and assigned to an editor.",
+          "source": {
+            "threadId": "1a132dc700e16450",
+            "messageId": "1a132dc700e16450",
+            "subject": "Confirming handling editor for submission to Journal of Informetrics",
+            "from": "Journal of Informetrics <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-07T04:46:41.000Z",
-      "updatedAt": "2026-10-07T04:46:41.000Z"
+      "updatedAt": "2026-10-13T01:24:29.000Z"
     },
     {
       "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
@@ -16886,7 +16916,7 @@
           "manuscriptNumber": "11260",
           "submittedDate": "2026-10-12T02:39:51.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -16900,6 +16930,19 @@
                 "threadId": "1a12dfb4a6457bc7",
                 "messageId": "1a12dfb4a6457bc7",
                 "subject": "11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+                "from": "Nutan Saroj <sarojnutan@gmail.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-12T13:16:23.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The editorial coordinator requests the author to correct the timeline and reshare the manuscript file.",
+              "manuscriptNumber": "11260",
+              "source": {
+                "threadId": "1a12dfb4a6457bc7",
+                "messageId": "1a130420d0672aaf",
+                "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
                 "from": "Nutan Saroj <sarojnutan@gmail.com>"
               }
             },
@@ -16962,6 +17005,27 @@
           "source": {
             "threadId": "1a12dfb4a6457bc7",
             "messageId": "1a12f5b1b30bb95a",
+            "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
+            "from": "Nutan Saroj <sarojnutan@gmail.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-12T13:16:23.000Z",
+          "journal": "Journal of Orthopedic Case Reports",
+          "eventType": "sent_back",
+          "manuscriptNumber": "11260",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-19T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The editorial coordinator requests the author to correct the timeline and reshare the manuscript file.",
+          "source": {
+            "threadId": "1a12dfb4a6457bc7",
+            "messageId": "1a130420d0672aaf",
             "subject": "Re: 11260: Mixed Reality and Augmented Reality in Complex Revision Shoulder Arthroplasty: Head-Mounted Displays for Glenoid Baseplate Positioning",
             "from": "Nutan Saroj <sarojnutan@gmail.com>"
           },

@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-12T21:33:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest Issue from World Journal of Emergency Medicine",
+      "from": "World Journal of Emergency Medicine <GGO@webofscience-authorconnect.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-12T22:25:40.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T02:02:58.000Z",
+      "reason": "unrelated",
+      "subject": "RE: RoB",
+      "from": "\"Juan Pablo Cabrera Cousiño\" <JUCABRERA@udec.cl>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-12T08:18:44.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Call for Submissions",
@@ -2077,27 +2098,6 @@
       "reason": "unrelated",
       "subject": "An invitation to join SciVora — The 7 Senses of Research",
       "from": "SciVora <support@scivora.io>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T05:03:01.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Vasculitis linked to higher heart and stroke risk ",
-      "from": "EMJ 6 at 6am <circulation@emjreviews.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T05:47:57.000Z",
-      "reason": "unrelated",
-      "subject": "SAGE Journal Author Survey",
-      "from": "SAGE Author Services <author.services@sagepub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T06:12:49.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One Reminder of Active Assignments - [EMID:3b236326cc79c320]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
