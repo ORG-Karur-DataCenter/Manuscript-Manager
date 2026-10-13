@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-13T20:40:24.000Z",
+      "reason": "unrelated",
+      "subject": "AI Transformation Consultant: Get Ahead on This Business-Critical Curve",
+      "from": "IBM <no-reply@m.send.coursera.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T09:37:13.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID: 05395420 World Journal of Clinical Cases Article Quality Tracking-Peer Review for Volume 14 Issue 27 2026-09-26",
+      "from": "\"BPG Invitation (Ma LS)\" <invitation@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T11:02:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T17:53:27.000Z",
+      "reason": "unrelated",
+      "subject": "Request for expedited institute activation – five-institute consortium proposal – Microbiome Call, Public Health and Nutrition Division (last date 15-10-2026)",
+      "from": "PC Lekha <dr.lekhapc@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-13T22:07:37.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New Issue: Journal of ISAKOS - October 2026 Volume 20",
+      "from": "ISAKOS <isakos@isakos.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-13T10:15:47.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Asbjørn Hróbjartsson published an article",
@@ -2064,41 +2099,6 @@
       "subject": "Dhibin Vikash, did this researcher author this publication?",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T05:47:55.000Z",
-      "reason": "unrelated",
-      "subject": "SAGE Journal Author Survey",
-      "from": "SAGE Author Services <author.services@sagepub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T10:03:01.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T11:08:05.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dr. Muthu, under three weeks left: the Longevity Medicine Contest closes Oct 16.",
-      "from": "Cureus Journal of Medical Science <no-reply@journal.cureus.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T14:20:00.000Z",
-      "reason": "unrelated",
-      "subject": "👤 Someone at Kyoto City Hospital you may know",
-      "from": "LinkedIn <messages-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T14:58:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the latest  Clinical Orthopaedics and Related Research® - Vol. 484, No. 10, October 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
