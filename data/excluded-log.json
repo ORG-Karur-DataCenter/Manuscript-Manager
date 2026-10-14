@@ -1,6 +1,83 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-14T13:03:12.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Searching for Alzheimer’s answers",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T02:34:26.000Z",
+      "reason": "unrelated",
+      "subject": "Reservation reminder - October 16, 2026",
+      "from": "Airbnb <automated@airbnb.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T06:08:31.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Request for expedited institute activation – five-institute consortium proposal – Microbiome Call, Public Health and Nutrition Division (last date 15-10-2026)",
+      "from": "EproMIS DBT <epromis.dbt@nic.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T07:41:02.000Z",
+      "reason": "unrelated",
+      "subject": "Dear Dr. Sathish Muthu IOA Aadhar Verification  3rd Phase will End on 28th October  .Happy Navratri. Attend -Engage and win \"Thar\" Reward for Academic",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T09:45:49.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to peer review a new submission - Manuscript ID WnXXdj - Academia Immunity and Disease",
+      "from": "\"Academia.edu\" <updates@academia-mail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T10:05:21.000Z",
+      "reason": "unrelated",
+      "subject": "Your publication: MiR 26a as a stage-dependent biomarker and therapeutic regulator of inflammation in knee osteoarthritis",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T12:00:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read, Learn, and Publish - Orthopaedics Journal Updates",
+      "from": "Medknow <email@medknow.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T12:20:34.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Upcoming Events 2027 - Department of Orthpaedics and Traumatology of the Medical University Innsbruck.",
+      "from": "unfallevent lki <lki.ot.event@tirol-kliniken.at>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T12:45:02.000Z",
+      "reason": "unrelated",
+      "subject": "🗓 FISRM:,  BATCH: 3  | CLASS: 1 on October 14, 2026 | Read Meeting Report",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T12:45:02.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: you are taking Class 2 · Structuring Manuscripts for High-Impact Journals on Wednesday, 14 October 2026",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T13:20:09.000Z",
+      "reason": "unrelated",
+      "subject": "Live now — join your class: Class 2 · Structuring Manuscripts for High-Impact Journals — 14 Oct, 6:50 PM",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-14T03:24:44.000Z",
       "reason": "unrelated",
       "subject": "A recommendation for Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
@@ -2022,83 +2099,6 @@
       "subject": "Stanford chemist awarded MacArthur Fellowship",
       "from": "Stanford Report <noreply@stanford.edu>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T14:47:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The Future Of Pharma Reps: 5 Ways AI Will Transform Pharmaceutical Sales Representatives",
-      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T16:20:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "⚡ OpenAI shipped 20 things and hid one.",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T12:15:53.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, a recent article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T14:26:46.000Z",
-      "reason": "unrelated",
-      "subject": "Have you considered transferring your article?",
-      "from": "transfer@tandf.co.uk",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T15:27:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the latest  JBJS Case Connector - Vol. 16, No. 3, July-September 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T17:05:46.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "David Gendelberg created the discussion GSJ Club is tomorrow night in Global Spine Journal Club Group",
-      "from": "\"myAO 2.0\" <no-reply@myao.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T04:52:51.000Z",
-      "reason": "unrelated",
-      "subject": "Thank you for submitting authorship for the IHME ID: 5410 GBD 2023 Global Ageing and NCDs paper",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T06:56:48.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to peer review a new submission - Manuscript ID WdrejP - Academia Biology",
-      "from": "\"Academia.edu\" <updates@academia-mail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T07:16:07.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review for Science Progress: Heterogeneous associations between Light Biological Age and Osteoporosis in older adults",
-      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T08:32:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Papers - “Redox Control of Stem Cell Fate: From Niche Biology to Regenerative Medicine”",
-      "from": "Frontiers in Cell and Developmental Biology <cellbiology@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T12:42:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "COST Newsletter - September 2026",
-      "from": "COST Association <communications@cost.eu>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
