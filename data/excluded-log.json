@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-14T03:24:44.000Z",
+      "reason": "unrelated",
+      "subject": "A recommendation for Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T04:15:50.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Diagnostic Accuracy of IONM - Umbrella Review",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T04:51:36.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:aed124d6e7c2565f]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T05:07:06.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Action Required: Ethics Approval Upload for SurgWeek-2 Study",
+      "from": "Globalsurg India <globalsurgindia@cmcludhiana.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T05:19:43.000Z",
+      "reason": "unrelated",
+      "subject": "New class scheduled: Class 2 · Structuring Manuscripts for High-Impact Journals — 14 Oct, 6:50 PM",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T06:40:03.000Z",
+      "reason": "unrelated",
+      "subject": "Gentle Reminder: Review Assignments and Availability",
+      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T07:39:51.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to review",
+      "from": "Editor <mia@office.cultechpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-14T00:08:29.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "US Cracks Down On Mail-Order Canadian Drugs: What To Know",
@@ -2049,55 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "COST Newsletter - September 2026",
       "from": "COST Association <communications@cost.eu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T01:13:55.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4581359 - Review Request Reminder",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T03:30:20.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Webinar Invitation: Redefine the research experience",
-      "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T04:54:57.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:06bcfe239e41d5ed]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T05:00:41.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for applications! AO Trauma Asia Pacific Regional Board Chairperson and AO Trauma Asia Pacific Research Committee Chairperson",
-      "from": "AO Trauma <aotrauma@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T05:17:28.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, someone just recommended your data",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T00:10:16.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Exercise ‘Snacks’ May Be Stronger Medicine Than We Thought",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T20:06:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "In 2 Weeks! 2026 ISAKOS Knee Arthroplasty Forum",
-      "from": "ISAKOS <isakos@isakos.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T01:56:54.354Z",
+  "generatedAt": "2026-10-14T07:48:54.422Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6575,7 +6575,7 @@
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-1103",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -6636,8 +6636,8 @@
           "journal": "Global Spine Journal",
           "manuscriptNumber": "GSJ-26-1103",
           "submittedDate": "2026-06-05T15:55:40.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -6666,6 +6666,19 @@
                 "messageId": "1a0970d6fce59c7c",
                 "subject": "Global Spine Journal  GSJ-26-1103",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-14T03:26:50.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The submitted manuscript was rejected after peer review.",
+              "manuscriptNumber": "GSJ-26-1103",
+              "source": {
+                "threadId": "1a13873053525418",
+                "messageId": "1a13873053525418",
+                "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1103",
+                "from": "Vibhu Krishnan <drvibu007@gmail.com>"
               }
             }
           ]
@@ -6736,10 +6749,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-14T03:26:50.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "GSJ-26-1103",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The submitted manuscript was rejected after peer review.",
+          "source": {
+            "threadId": "1a13873053525418",
+            "messageId": "1a13873053525418",
+            "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1103",
+            "from": "Vibhu Krishnan <drvibu007@gmail.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-05-31T03:41:59.000Z",
-      "updatedAt": "2026-09-12T19:17:14.000Z",
+      "updatedAt": "2026-10-14T03:26:50.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -15012,15 +15042,15 @@
       "id": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa",
       "title": "Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
       "titleNormalized": "journal self citation and the two year impact factor window in orthopaedic and spine journals a cross sectional analysis of 790 827 references in 36 journals",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Journal of Informetrics",
       "currentManuscriptNumber": "JOI-D-26-01098",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -15033,8 +15063,8 @@
           "journal": "Journal of Informetrics",
           "manuscriptNumber": "JOI-D-26-01098",
           "submittedDate": "2026-10-07T04:46:41.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -15061,6 +15091,19 @@
                 "threadId": "1a132dc700e16450",
                 "messageId": "1a132dc700e16450",
                 "subject": "Confirming handling editor for submission to Journal of Informetrics",
+                "from": "Journal of Informetrics <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-14T03:07:35.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was declined for publication.",
+              "manuscriptNumber": "JOI-D-26-01098",
+              "source": {
+                "threadId": "1a138613056a3f66",
+                "messageId": "1a138613056a3f66",
+                "subject": "Decision on submission to Journal of Informetrics",
                 "from": "Journal of Informetrics <em@editorialmanager.com>"
               }
             }
@@ -15101,10 +15144,27 @@
             "from": "Journal of Informetrics <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-14T03:07:35.000Z",
+          "journal": "Journal of Informetrics",
+          "eventType": "rejected",
+          "manuscriptNumber": "JOI-D-26-01098",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was declined for publication.",
+          "source": {
+            "threadId": "1a138613056a3f66",
+            "messageId": "1a138613056a3f66",
+            "subject": "Decision on submission to Journal of Informetrics",
+            "from": "Journal of Informetrics <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-07T04:46:41.000Z",
-      "updatedAt": "2026-10-13T01:24:29.000Z"
+      "updatedAt": "2026-10-14T03:07:35.000Z"
     },
     {
       "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
