@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-14T14:01:56.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Writing a research paper? Join me live in November!",
+      "from": "Writing in the Sciences <no-reply@t.send.coursera.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T16:01:24.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🪦 Claude broke Github",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T11:10:00.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, an article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T14:31:36.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: Share your experience as an editor with Indian Journal of Orthopaedics",
+      "from": "\"​​Marc, Springer Nature\" <editorsupport@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T14:42:11.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Dove Medical Press Peer Review Invitation Reminder [ID: 661946]",
+      "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T16:36:13.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Diagnostics, Volume 16, Issue 19 (October-1 2026) Table of Contents",
+      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-14T13:03:12.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Searching for Alzheimer’s answers",
@@ -2057,48 +2099,6 @@
       "subject": "IHME ID: 6168 GBD 2023 Falls authorship due October 7",
       "from": "GBD Secretariat <gbdsec@healthdata.org>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T05:31:39.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your Research, Our Platform: Join the Global Agriculture and Food Science Community",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T07:10:27.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Dove Medical Press invites you to review a paper for Journal of Pain Research Submission ID: 646309",
-      "from": "Ms Lavanya Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T14:07:55.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Registration is Now Open for ISAKOS 2027!",
-      "from": "2027 ISAKOS Congress <isakos@isakos.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T22:46:04.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "jajs Manuscript for Peer-Review: jajs_89_26",
-      "from": "Journal of Arthroscopy and Joint Surgery <Donotreply_uniprr@wolterskluwer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T23:02:18.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your OrthoBuzz September Newsletter",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-30T13:02:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Stanford chemist awarded MacArthur Fellowship",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
