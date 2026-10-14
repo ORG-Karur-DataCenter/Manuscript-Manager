@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-14T00:08:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "US Cracks Down On Mail-Order Canadian Drugs: What To Know",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-14T00:00:40.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "GBD Collaborator Newsletter, October 2026 Issue",
+      "from": "GBD Collaborator Newsletter <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-13T20:40:24.000Z",
       "reason": "unrelated",
       "subject": "AI Transformation Consultant: Get Ahead on This Business-Critical Curve",
@@ -2085,20 +2099,6 @@
       "subject": "In 2 Weeks! 2026 ISAKOS Knee Arthroplasty Forum",
       "from": "ISAKOS <isakos@isakos.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T20:55:06.000Z",
-      "reason": "unrelated",
-      "subject": "IHME ID: 5410 GBD 2023 Ageing and NCDs authorship due October 6",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-09-29T12:15:22.000Z",
-      "reason": "unrelated",
-      "subject": "Dhibin Vikash, did this researcher author this publication?",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
