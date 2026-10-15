@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T13:33:32.150Z",
+  "generatedAt": "2026-10-15T18:22:28.075Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6961,8 +6961,8 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "BMC Medical Ethics",
-      "currentManuscriptNumber": null,
+      "currentJournal": "Current Medicine Research and Practice",
+      "currentManuscriptNumber": "cmrp_201_26",
       "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
@@ -7120,6 +7120,43 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Current Medicine Research and Practice",
+          "manuscriptNumber": "cmrp_201_26",
+          "submittedDate": "2026-10-15T14:27:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-15T14:27:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and acknowledged; authors are asked to submit the copyright agreement within one week.",
+              "manuscriptNumber": "cmrp_201_26",
+              "source": {
+                "threadId": "1a13ff5a3f2ba9aa",
+                "messageId": "1a13ff5a3f2ba9aa",
+                "subject": "cmrp Author New Submission Acknowledgement letter: cmrp_201_26",
+                "from": "Current Medicine Research and Practice <editor.CMRE@journalonweb.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-15T14:27:04.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The recipient is added as a co‑author and requested to review and agree to the copyright form for the submitted article.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a13ff5b27ab5f5d",
+                "messageId": "1a13ff5b27ab5f5d",
+                "subject": "Copyright agreement",
+                "from": "Current Medicine Research and Practice <editor.CMRE@journalonweb.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -7266,10 +7303,44 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-15T14:27:04.000Z",
+          "journal": "Current Medicine Research and Practice",
+          "eventType": "new_submission",
+          "manuscriptNumber": "cmrp_201_26",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and acknowledged; authors are asked to submit the copyright agreement within one week.",
+          "source": {
+            "threadId": "1a13ff5a3f2ba9aa",
+            "messageId": "1a13ff5a3f2ba9aa",
+            "subject": "cmrp Author New Submission Acknowledgement letter: cmrp_201_26",
+            "from": "Current Medicine Research and Practice <editor.CMRE@journalonweb.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-15T14:27:04.000Z",
+          "journal": "Current Medicine Research and Practice",
+          "eventType": "other",
+          "manuscriptNumber": null,
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The recipient is added as a co‑author and requested to review and agree to the copyright form for the submitted article.",
+          "source": {
+            "threadId": "1a13ff5b27ab5f5d",
+            "messageId": "1a13ff5b27ab5f5d",
+            "subject": "Copyright agreement",
+            "from": "Current Medicine Research and Practice <editor.CMRE@journalonweb.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-30T07:31:42.000Z",
-      "updatedAt": "2026-10-08T08:10:42.000Z"
+      "updatedAt": "2026-10-15T14:27:04.000Z"
     },
     {
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",

@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-15T08:46:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "One Platform for Journals, E-Books, Theses & Research Discovery",
+      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T10:50:25.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, an article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T18:04:07.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "jajs Manuscript for review: jajs_89_26 Your comments are awaited",
+      "from": "Journal of Arthroscopy and Joint Surgery <Donotreply_uniprr@wolterskluwer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-15T06:32:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Reviews Nephrology Contents: Volume 22 Number 11",
@@ -2077,27 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Arthroscopy of Femoroacetabular Impingement and Osteoarthritis: A Systematic Review",
       "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T14:29:28.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: SCOPE Study: Publication Plan for the Project",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T14:35:10.000Z",
-      "reason": "unrelated",
-      "subject": "Your Research in the Spotlight- JOCR Video Feature",
-      "from": "\"Journal of .Orthopaedic Case Reports\" <editor.jocr@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T15:56:28.000Z",
-      "reason": "unrelated",
-      "subject": "GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
