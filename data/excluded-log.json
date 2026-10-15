@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-15T14:05:59.000Z",
+      "reason": "unrelated",
+      "subject": "🗓  FISRM,  BATCH: 2  |   CLASS: 16 on October 15, 2026 | Read Meeting Report",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T14:08:00.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Comparison of Arthroscopic Coracoacromial Ligament Degeneration Between Traumatic and Non-Traumatic Rotator Cuff Tears",
+      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T19:18:54.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Review and Meta-analysis",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T19:31:43.000Z",
+      "reason": "unrelated",
+      "subject": "Giuseppe Filardo - new articles",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-15T08:46:25.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "One Platform for Journals, E-Books, Theses & Research Discovery",
@@ -2070,34 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Re: AO Degen study",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T13:36:34.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Invitation to participate in SCOPE study - reg",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T13:42:58.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Invitation to participate in SCOPE study - reg",
-      "from": "Sachin Mehta <sachin.mehta@einsteinmed.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T14:03:09.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "RE-Query on your article",
-      "from": "\"Journal of Dental Health & Oral Research\" <dentaloralhealth@athenaeumpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T14:07:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Arthroscopy of Femoroacetabular Impingement and Osteoarthritis: A Systematic Review",
-      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
