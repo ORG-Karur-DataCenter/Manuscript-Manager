@@ -1,6 +1,97 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-15T06:32:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Reviews Nephrology Contents: Volume 22 Number 11",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T11:04:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Discover more about the Global Health Network Virtual Jamboree, explore new webinars and more",
+      "from": "The Global Health Network <info@community.theglobalhealthnetwork.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T12:44:18.000Z",
+      "reason": "unrelated",
+      "subject": "Dhibin Vikash, you were recently cited by an author from Maulana Azad National Urdu University",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T13:00:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Plans for Stanford’s campus hub move forward",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T09:05:28.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Mini Review or Commentary Submission in Journal of Musculoskeletal Disorders and Translational Medicine",
+      "from": "Journal of Musculoskeletal Disorders and Translational Medicine <editor@musculoskeletaljournal.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T09:06:42.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "JOCR Article 11523 for review",
+      "from": "Nutan Saroj <sarojnutan@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T09:19:00.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder — today: Class 13 · Journal Club Presentation by Dr Madhan Jeyaraman, 5:20 PM IST",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T09:20:36.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Obesity, Atrial Remodeling and the Emerging Role of Semaglutide in Atrial Fibrillation",
+      "from": "Baro-Buzz Weekly Digest <drkk@emedinews.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T09:55:28.000Z",
+      "reason": "unrelated",
+      "subject": "Karthikeyan. P. Iyengar recommended this article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T10:58:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Discover more about the Global Health Network Virtual Jamboree, explore new webinars and more",
+      "from": "The Global Health Network <info@community.theglobalhealthnetwork.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T11:17:28.000Z",
+      "reason": "unrelated",
+      "subject": "Starting in 30 minutes: Class 13 · Journal Club Presentation by Dr Madhan Jeyaraman",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T11:46:35.000Z",
+      "reason": "unrelated",
+      "subject": "Live now: Class 13 · Journal Club Presentation by Dr Madhan Jeyaraman",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T12:33:59.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Intra-operative outcomes with NM - Umbrella Review",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-15T06:32:04.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Aging Contents: Volume 6 Number 10",
@@ -2007,97 +2098,6 @@
       "reason": "unrelated",
       "subject": "GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
       "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T16:06:58.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T16:09:11.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T16:28:00.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "\"Singh,Hardeep\" <hasingh@uchc.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T16:54:53.000Z",
-      "reason": "unrelated",
-      "subject": "R: [ESTERNA] Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "\"Vadalà Gianluca\" <G.Vadala@policlinicocampus.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T18:01:27.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "Rachel Bratescu <rbratescu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T06:16:29.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "PLOS One Registration",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T06:32:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Photonics Contents: Volume 20 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T12:26:56.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "How Are Investors Using AI to Research Stocks?",
-      "from": "The Economic Times <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T13:03:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Stanford alum heads to space",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T04:22:59.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "[Stresses; CiteScore 10.0] - We Invite You to Submit a Manuscript",
-      "from": "Stresses Editorial Office <stresses@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T07:23:39.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Expert Review of Vaccines - Manuscript ID IPMT-2026-ST-0488",
-      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T08:13:28.000Z",
-      "reason": "unrelated",
-      "subject": "SCOPE Study: Publication Plan for the Project",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T08:33:00.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Stars collected, doors opened, and fruits tasted",
-      "from": "ASReview <info@mailings.uu.nl>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
