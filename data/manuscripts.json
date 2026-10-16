@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T01:25:35.166Z",
+  "generatedAt": "2026-10-16T07:17:47.965Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -15292,6 +15292,19 @@
                 "subject": "[JFB] Manuscript ID: jfb-4634669 - Co-Authorship Confirmation",
                 "from": "JFB Editorial Office <jfb@mdpi.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-16T05:01:55.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal acknowledges receipt of the submitted manuscript and confirms the APC details.",
+              "manuscriptNumber": "jfb-4634669",
+              "source": {
+                "threadId": "1a1431697f977052",
+                "messageId": "1a1431697f977052",
+                "subject": "[JFB] Manuscript ID: jfb-4634669 - Article Processing Charge Confirmation",
+                "from": "JFB Editorial Office <jfb@mdpi.com>"
+              }
             }
           ]
         }
@@ -15330,10 +15343,27 @@
             "from": "JFB Editorial Office <jfb@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-16T05:01:55.000Z",
+          "journal": "Journal of Functional Biomaterials",
+          "eventType": "new_submission",
+          "manuscriptNumber": "jfb-4634669",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal acknowledges receipt of the submitted manuscript and confirms the APC details.",
+          "source": {
+            "threadId": "1a1431697f977052",
+            "messageId": "1a1431697f977052",
+            "subject": "[JFB] Manuscript ID: jfb-4634669 - Article Processing Charge Confirmation",
+            "from": "JFB Editorial Office <jfb@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-01T21:39:06.000Z",
-      "updatedAt": "2026-10-02T07:37:27.000Z"
+      "updatedAt": "2026-10-16T05:01:55.000Z"
     },
     {
       "id": "letter-to-the-editor-intradiscal-platelet-rich-plasma-for-discogenic-l",
