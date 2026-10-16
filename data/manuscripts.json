@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T12:33:46.128Z",
+  "generatedAt": "2026-10-16T17:31:06.060Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -11301,9 +11301,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Scientific Reports",
-      "currentManuscriptNumber": "4822d080-3270-4a4f-9a84-b15ddef329ec",
-      "currentStatus": "Rejected",
+      "currentJournal": "Cells",
+      "currentManuscriptNumber": "cells-4664892",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -11699,6 +11699,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Cells",
+          "manuscriptNumber": "cells-4664892",
+          "submittedDate": "2026-10-16T07:57:09.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-16T07:57:09.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and the journal acknowledges receipt.",
+              "manuscriptNumber": "cells-4664892",
+              "source": {
+                "threadId": "1a143b705b6094f3",
+                "messageId": "1a143b705b6094f3",
+                "subject": "[Cells] Manuscript ID: cells-4664892 - Submission Received",
+                "from": "Editorial Office <cells@mdpi.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -12013,10 +12037,27 @@
             "from": "Scientific Reports <srep@nature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-16T07:57:09.000Z",
+          "journal": "Cells",
+          "eventType": "new_submission",
+          "manuscriptNumber": "cells-4664892",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and the journal acknowledges receipt.",
+          "source": {
+            "threadId": "1a143b705b6094f3",
+            "messageId": "1a143b705b6094f3",
+            "subject": "[Cells] Manuscript ID: cells-4664892 - Submission Received",
+            "from": "Editorial Office <cells@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-09-29T13:04:47.000Z",
+      "updatedAt": "2026-10-16T07:57:09.000Z",
       "deadline": null,
       "deadlineSource": null,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
@@ -17746,7 +17787,7 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
-      "currentManuscriptNumber": "JBJSOA-D-26-00213R2",
+      "currentManuscriptNumber": "JBJSOA-D-26-00213R3",
       "currentStatus": "Returned to author — one citation fix outstanding",
       "doi": null,
       "publicationLink": null,
@@ -17785,7 +17826,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00213R3",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "accepted",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -18004,6 +18045,19 @@
                 "threadId": "1a134a8248eae73e",
                 "messageId": "1a134a8248eae73e",
                 "subject": "JBJS Open Access Resubmission Confirmation",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-16T14:04:36.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Manuscript accepted and moving to production; author must complete license and pay open access charges before publication.",
+              "manuscriptNumber": "JBJSOA-D-26-00213R3",
+              "source": {
+                "threadId": "1a145076c17af980",
+                "messageId": "1a145076c17af980",
+                "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00213R3) - [EMID:a90678a86607cfff]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -18527,10 +18581,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-16T14:04:36.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "accepted",
+          "manuscriptNumber": "JBJSOA-D-26-00213R3",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Manuscript accepted and moving to production; author must complete license and pay open access charges before publication.",
+          "source": {
+            "threadId": "1a145076c17af980",
+            "messageId": "1a145076c17af980",
+            "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00213R3) - [EMID:a90678a86607cfff]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-10-13T09:46:36.000Z",
+      "updatedAt": "2026-10-16T14:04:36.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-16T17:06:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "💰 Anthropic wants the biggest IPO in history",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-16T14:03:11.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "RE-Follow-up acknowledgment",
+      "from": "\"Journal of Clinical Immunology & Microbiology\" <clinimmunomicro@athenaeumpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-16T14:33:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "IAACON 2026 | Robotics. Kinematics. Innovation. | 23–25 October, Ahmedabad",
+      "from": "IAACON 2026 <info@iaacon2026.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-16T16:22:16.000Z",
+      "reason": "unrelated",
+      "subject": "Dr. Sathish, discover over 1,000 papers and a global research community",
+      "from": "Paperlens Team <team@paperlens.science>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-16T11:42:24.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "🚨🚨 Figma boss on AI slowdown calls",
@@ -2070,34 +2098,6 @@
       "reason": "unrelated",
       "subject": "Live Now | Marrow National INI-CET Mock",
       "from": "Team Marrow <noreply@marrowmed.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T01:19:36.000Z",
-      "reason": "unrelated",
-      "subject": "Re: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "\"Buser, Zorica\" <Zorica.Buser@nyulangone.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T06:00:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Explore the Preliminary Program Online! AO Recon Course—Complex Total Hip and Knee Arthroplasty, Kuala Lumpur, Malaysia | October 10-11, 2026",
-      "from": "AO Recon <aorecon@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T08:27:55.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Mental Health Problems in Traumatic Spinal Cord Injury Patients - An Umbrella Systematic Review",
-      "from": "drugalch@peerjournals.org",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T12:46:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature alert for 01st October 2026",
-      "from": "Nature <alerts@nature.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
