@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-16T13:00:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What makes a good life",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-16T17:22:13.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Phenobarbital Matches Diazepam for Alcohol Withdrawal",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-16T20:34:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Danielle Lieberman created the discussion Read the September Issue of GSJ! in Global Spine Journal Club Group",
+      "from": "\"myAO 2.0\" <no-reply@myao.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-16T17:06:45.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "💰 Anthropic wants the biggest IPO in history",
@@ -2078,27 +2099,6 @@
       "subject": "Dove Medical Press Peer Review Invitation Reminder [ID: 646309]",
       "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T15:45:07.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review Manuscript IRME-2026-ST-0248 - Regenerative Medicine",
-      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T06:34:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Cell Death & Differentiation Contents: Volume 33 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T08:07:20.000Z",
-      "reason": "unrelated",
-      "subject": "Live Now | Marrow National INI-CET Mock",
-      "from": "Team Marrow <noreply@marrowmed.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }

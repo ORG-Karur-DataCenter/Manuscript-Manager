@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T17:31:06.060Z",
+  "generatedAt": "2026-10-16T21:17:09.513Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -17789,7 +17789,7 @@
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
       "currentManuscriptNumber": "JBJSOA-D-26-00213R3",
       "currentStatus": "Returned to author — one citation fix outstanding",
-      "doi": null,
+      "doi": "10.2106/JBJS.OA.26.00213",
       "publicationLink": null,
       "authorAccounts": [
         "Sathish Muthu",
@@ -17823,11 +17823,11 @@
         },
         {
           "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00213R3",
+          "manuscriptNumber": "JBJSOA-D-26-00213",
           "submittedDate": "2026-07-08T09:31:35.000Z",
           "outcome": "active",
           "status": "accepted",
-          "doi": null,
+          "doi": "10.2106/JBJS.OA.26.00213",
           "publicationLink": null,
           "statusHistory": [
             {
@@ -18046,6 +18046,19 @@
                 "messageId": "1a134a8248eae73e",
                 "subject": "JBJS Open Access Resubmission Confirmation",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-16T14:04:30.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The manuscript was accepted for publication and the author is asked to complete the open access request.",
+              "manuscriptNumber": "JBJSOA-D-26-00213",
+              "source": {
+                "threadId": "1a1450755481b26a",
+                "messageId": "1a1450755481b26a",
+                "subject": "Please Complete Your Open Access Article Publication Request",
+                "from": "no-reply@email.copyright.com"
               }
             },
             {
@@ -18579,6 +18592,23 @@
             "messageId": "1a134a8248eae73e",
             "subject": "JBJS Open Access Resubmission Confirmation",
             "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-16T14:04:30.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "accepted",
+          "manuscriptNumber": "JBJSOA-D-26-00213",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was accepted for publication and the author is asked to complete the open access request.",
+          "source": {
+            "threadId": "1a1450755481b26a",
+            "messageId": "1a1450755481b26a",
+            "subject": "Please Complete Your Open Access Article Publication Request",
+            "from": "no-reply@email.copyright.com"
           },
           "needsReview": false
         },
