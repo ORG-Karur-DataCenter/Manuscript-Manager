@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-15T22:32:35.000Z",
+      "reason": "unrelated",
+      "subject": "Congratulations – Accepted for Presentation at WCAMSIR 2027 -\"Influence of Bisphosphonates on the Bone Healing Biology and Clinical Outcomes in Acute Fractures: A Systematic Review of Literature\"",
+      "from": "Reichel Golden <goldenreichel48@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-15T23:04:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Share Your Insights: Global Survey on Research Funding Impacts",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-15T14:05:59.000Z",
       "reason": "unrelated",
       "subject": "🗓  FISRM,  BATCH: 2  |   CLASS: 16 on October 15, 2026 | Read Meeting Report",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Re: IntechOpen - CPC Final Notice 237451",
       "from": "Mothishwaran B <mothishb@srmist.edu.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T12:24:35.000Z",
-      "reason": "unrelated",
-      "subject": "Thank you for submitting your authorship information for the IHME ID: 6168 GBD 2023 Global Falls paper",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T13:34:26.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: AO Degen study",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
