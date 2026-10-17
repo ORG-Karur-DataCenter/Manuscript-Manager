@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:34:52.550Z",
+  "generatedAt": "2026-10-17T09:29:24.760Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -6961,9 +6961,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Current Medicine Research and Practice",
-      "currentManuscriptNumber": "cmrp_201_26",
-      "currentStatus": "Submitted",
+      "currentJournal": "BMC Medical Ethics",
+      "currentManuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -7075,8 +7075,8 @@
           "journal": "BMC Medical Ethics",
           "manuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
           "submittedDate": "2026-10-06T10:18:29.000Z",
-          "outcome": "active",
-          "status": "sent_back",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -7117,6 +7117,19 @@
                 "messageId": "1a11a717d9c5be1c",
                 "subject": "Re: BMC Medical Ethics-Amendment required",
                 "from": "Springer Nature Submissions <bmcmedicalethics@biomedcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-17T06:25:54.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected as out of scope for BMC Medical Ethics.",
+              "manuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
+              "source": {
+                "threadId": "1a14889d28cc6447",
+                "messageId": "1a14889d28cc6447",
+                "subject": "Decision on your submission to BMC Medical Ethics",
+                "from": "BMC Medical Ethics <bmcmedicalethics@biomedcentral.com>"
               }
             }
           ]
@@ -7337,10 +7350,27 @@
             "from": "Current Medicine Research and Practice <editor.CMRE@journalonweb.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-17T06:25:54.000Z",
+          "journal": "BMC Medical Ethics",
+          "eventType": "rejected",
+          "manuscriptNumber": "2150e5d0-11bf-4ed5-aa74-83ed93696623",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected as out of scope for BMC Medical Ethics.",
+          "source": {
+            "threadId": "1a14889d28cc6447",
+            "messageId": "1a14889d28cc6447",
+            "subject": "Decision on your submission to BMC Medical Ethics",
+            "from": "BMC Medical Ethics <bmcmedicalethics@biomedcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-30T07:31:42.000Z",
-      "updatedAt": "2026-10-15T14:27:04.000Z"
+      "updatedAt": "2026-10-17T06:25:54.000Z"
     },
     {
       "id": "engineered-exosomes-and-small-extracellular-vesicles-sevs-for-knee-ost",
@@ -11296,14 +11326,14 @@
       "id": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
       "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
       "titleNormalized": "identification of therapeutic targets and gene expression profiling to unravel the underlying mechanisms and their comprehensive role in intervertebral disc degeneration",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": true,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "Cells",
       "currentManuscriptNumber": "cells-4664892",
-      "currentStatus": "Submitted",
+      "currentStatus": "Sent back for edits",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -11705,7 +11735,7 @@
           "manuscriptNumber": "cells-4664892",
           "submittedDate": "2026-10-16T07:57:09.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -11720,6 +11750,19 @@
                 "messageId": "1a143b705b6094f3",
                 "subject": "[Cells] Manuscript ID: cells-4664892 - Submission Received",
                 "from": "Editorial Office <cells@mdpi.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-17T07:41:47.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The editor asks the authors to add in vitro cell experiments because the manuscript lacks experimental validation.",
+              "manuscriptNumber": "cells-4664892",
+              "source": {
+                "threadId": "1a148cf4cccf71fd",
+                "messageId": "1a148cf4cccf71fd",
+                "subject": "[Cells] Manuscript ID: cells-4664892 - Additional Experiment Required",
+                "from": "Cells Editorial Office <cells@mdpi.com>"
               }
             }
           ]
@@ -12054,12 +12097,33 @@
             "from": "Editorial Office <cells@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-17T07:41:47.000Z",
+          "journal": "Cells",
+          "eventType": "sent_back",
+          "manuscriptNumber": "cells-4664892",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-10-27T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "10 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The editor asks the authors to add in vitro cell experiments because the manuscript lacks experimental validation.",
+          "source": {
+            "threadId": "1a148cf4cccf71fd",
+            "messageId": "1a148cf4cccf71fd",
+            "subject": "[Cells] Manuscript ID: cells-4664892 - Additional Experiment Required",
+            "from": "Cells Editorial Office <cells@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-10-16T07:57:09.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-10-17T07:41:47.000Z",
+      "deadline": "2026-10-27T18:29:59.999Z",
+      "deadlineSource": "assumed",
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
     },
     {

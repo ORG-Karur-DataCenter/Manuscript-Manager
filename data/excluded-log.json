@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-17T04:48:37.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-25-00892R2 - [EMID:2b6611ec85adb361]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T04:48:37.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-25-00892R2 - [EMID:d6771db336461440]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T06:09:31.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Your services on MD-D-26-10661 are no longer required",
+      "from": "Medicine <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T06:24:13.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Submit Manuscript in SCOPUS and EMBASE Journal for Upcoming October 2026 Issue",
+      "from": "IP Innovative Publication <info@ipinnovative.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T06:27:48.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Editorial proximity and speed of acceptance in orthopaedic and spine journals: a cross-sectional study of 27,128 articles in 26 journals",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T06:31:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Register Now for Expert Guidance on Publishing in the Age of AI.",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T07:15:58.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4597111 - Review Request Cancelled",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-17T03:24:44.000Z",
       "reason": "unrelated",
       "subject": "Reminder: A recommendation for Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
@@ -2050,55 +2099,6 @@
       "subject": "Hair-Loss Treatments: From Minoxidil to Transplant Surgery",
       "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T17:43:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🔥 Blockbuster Workshops at CAC 2026 | Full House & Overwhelming Response!",
-      "from": "\"U.P. ARTHROPLASTY SOCIETY\" <uparthroplasty@4108235.brevosend.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T06:32:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Reviews Physics Contents: Volume 8 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T13:00:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What it’s like to win a Nobel Prize",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T14:44:07.000Z",
-      "reason": "unrelated",
-      "subject": "🤝 How Claude and human split the work",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-01T16:02:55.000Z",
-      "reason": "unrelated",
-      "subject": "RE: GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "\"Cho, Samuel\" <Samuel.Cho@mountsinai.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T14:01:32.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "RE-Reminder on your article",
-      "from": "Journal of Orthopaedic Science and Research <orthopaedicres@athenaeumpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T14:29:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🏆 All Papers solved & OSCE recalls top DNB / NEET-SS Exams with MentorExam Solved Papers”",
-      "from": "Mentorexam Foundation <mentorexam.com@5328873.brevosend.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
