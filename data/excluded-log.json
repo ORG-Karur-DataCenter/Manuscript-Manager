@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-17T03:24:44.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-16T13:00:25.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "What makes a good life",
@@ -2091,13 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "🏆 All Papers solved & OSCE recalls top DNB / NEET-SS Exams with MentorExam Solved Papers”",
       "from": "Mentorexam Foundation <mentorexam.com@5328873.brevosend.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T15:36:07.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Dove Medical Press Peer Review Invitation Reminder [ID: 646309]",
-      "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
