@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-17T13:55:26.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Manuscript UIVS-2026-0227 - Journal of Investigative Surgery",
+      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-17T12:37:33.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Your work deserves expert recognition",
@@ -2092,13 +2099,6 @@
       "subject": "Invitation to review manuscript PONE-D-26-40300 for PLOS One - Reminder - [EMID:d4b35cf326a4d679]",
       "from": "PLOS ONE <em@editorialmanager.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T02:16:36.000Z",
-      "reason": "unrelated",
-      "subject": "Your article has been published in [Indian Journal of Orthopaedics]",
-      "from": "\"科研猫\" <canyam@mail.vip.canyam.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
