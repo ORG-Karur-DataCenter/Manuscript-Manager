@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-17T12:37:33.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your work deserves expert recognition",
+      "from": "\"Journal of Orthopaedics, Trauma and Rehabilitation\" <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T09:48:59.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Call for Papers: Submit your research to JOMDOS (ISSN: 3062-3545)",
+      "from": "FIRAT OZAN <firatozan9@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T11:21:44.000Z",
+      "reason": "unrelated",
+      "subject": "Funds / Securities Balance",
+      "from": "BSE ALERTS <info@bseindia.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T11:58:55.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation for the Manuscript for the journal - Journal of Orthopedic Education (JOE)",
+      "from": "Journal Author Support Red Flower Publication <author@rfppl.co.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-17T12:54:11.000Z",
+      "reason": "unrelated",
+      "subject": "Invitation for the Editorial Board Member in the Journal – “Journal of Orthopedic Education (JOE) ”",
+      "from": "Journal Author Support Red Flower Publication <author@rfppl.co.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-17T04:48:37.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-25-00892R2 - [EMID:2b6611ec85adb361]",
@@ -2064,41 +2099,6 @@
       "subject": "Your article has been published in [Indian Journal of Orthopaedics]",
       "from": "\"科研猫\" <canyam@mail.vip.canyam.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T03:55:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New articles in my profile",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T04:47:47.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-26-01697 - [EMID:da2307ba04df92bf]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T06:04:46.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "JoVE Peer Review (JoVE74734)",
-      "from": "JoVE Review <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T08:05:41.000Z",
-      "reason": "unrelated",
-      "subject": "Re: SCOPE Study: Status Update, Support on Data Collection & Milestone Recognition",
-      "from": "\"Stipe Ćorluka\" <stipe@corluka.hr>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-02T17:13:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Hair-Loss Treatments: From Minoxidil to Transplant Surgery",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
