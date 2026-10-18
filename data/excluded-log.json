@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-18T10:55:10.000Z",
+      "reason": "unrelated",
+      "subject": "[RE][Cells] Manuscript ID: cells-4664892 - Additional Experiment Required",
+      "from": "\"간가다란 프라카시\" <prakashg@knu.ac.kr>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-18T11:10:41.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from Chulalongkorn University",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-17T17:39:05.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "ijc Manuscript for review: ijc_625_26 Your comments are awaited",
@@ -2085,20 +2099,6 @@
       "subject": "Fwd: Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00213R2) - [EMID:b0a646920a80b4ee]",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T03:54:35.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder about Google's Terms of Service",
-      "from": "Google <google-noreply@google.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T04:01:51.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New articles in my profile",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
