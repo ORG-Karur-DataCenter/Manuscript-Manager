@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-18T16:57:34.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Reviewer Accepts Assignment for JOIO-D-25-00892R2 - [EMID:c8f27caa71937ebd]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-18T17:01:35.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "One review complete JOIO-D-25-00892R2",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-18T14:16:08.000Z",
       "reason": "unrelated",
       "subject": "You have 1 new invitation",
@@ -2085,20 +2099,6 @@
       "subject": "Dhibin Vikash, a recent article cited your research",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T10:45:35.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from KLE Academy of Higher Education and Research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T16:40:14.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Global Spine Journal - Decision on Manuscript ID GSJ-26-1643",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

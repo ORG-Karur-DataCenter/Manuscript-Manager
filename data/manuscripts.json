@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T14:40:41.090Z",
+  "generatedAt": "2026-10-18T18:10:24.761Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -19356,8 +19356,8 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": null,
+      "currentJournal": "Frontiers in Surgery",
+      "currentManuscriptNumber": "2033540",
       "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
@@ -19719,6 +19719,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Frontiers in Surgery",
+          "manuscriptNumber": "2033540",
+          "submittedDate": "2026-10-18T15:36:16.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-18T15:36:16.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Frontiers in Surgery confirmed receipt of the manuscript submission, currently undergoing initial validation checks.",
+              "manuscriptNumber": "2033540",
+              "source": {
+                "threadId": "1a14fa8116a067c5",
+                "messageId": "1a14fa8116a067c5",
+                "subject": "Your manuscript is submitted (ID 2033540) ",
+                "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -19978,10 +20002,27 @@
             "from": "Journal of Orthopaedic Surgery and Research <jonlauren.rendon@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-18T15:36:16.000Z",
+          "journal": "Frontiers in Surgery",
+          "eventType": "new_submission",
+          "manuscriptNumber": "2033540",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Frontiers in Surgery confirmed receipt of the manuscript submission, currently undergoing initial validation checks.",
+          "source": {
+            "threadId": "1a14fa8116a067c5",
+            "messageId": "1a14fa8116a067c5",
+            "subject": "Your manuscript is submitted (ID 2033540) ",
+            "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-11T11:38:31.000Z",
-      "updatedAt": "2026-09-01T12:19:24.000Z",
+      "updatedAt": "2026-10-18T15:36:16.000Z",
       "deadline": null,
       "deadlineSource": null
     },
