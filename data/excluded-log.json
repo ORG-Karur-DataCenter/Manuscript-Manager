@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-18T21:12:08.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Dove Medical Press Peer Review Invitation Closed [ID: 661946]",
+      "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-18T22:23:58.000Z",
+      "reason": "unrelated",
+      "subject": "Inviting you to please contribute a chapter",
+      "from": "Resmi Rajalekshmi <rrajalekshmi@westernu.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-18T18:30:43.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Give Your Research Greater Reach and Impact - Want to Know How?",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Reminder about Google's Terms of Service",
       "from": "Google <google-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T23:20:27.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [External] GSC 2027 Yokohama — AO MISS classification pre-course: proposal review",
-      "from": "\"Yoon, Tim\" <styoon@emory.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T18:55:11.000Z",
-      "reason": "unrelated",
-      "subject": "Follow-Up: Spine Research Collaboration",
-      "from": "Harsh Desai <hhd@udel.edu>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
