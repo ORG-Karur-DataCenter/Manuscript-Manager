@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-18T18:30:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Give Your Research Greater Reach and Impact - Want to Know How?",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-18T20:04:06.000Z",
+      "reason": "unrelated",
+      "subject": "IONM 1 manuscript",
+      "from": "Vibhu Krishnan <drvibu007@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-18T16:57:34.000Z",
       "reason": "editorial_role_for_other_manuscript",
       "subject": "Reviewer Accepts Assignment for JOIO-D-25-00892R2 - [EMID:c8f27caa71937ebd]",
@@ -2085,20 +2099,6 @@
       "subject": "Follow-Up: Spine Research Collaboration",
       "from": "Harsh Desai <hhd@udel.edu>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T20:08:08.000Z",
-      "reason": "unrelated",
-      "subject": "Fix your resume in 10 minutes (free checklist + the full playbook)",
-      "from": "The Build Log <mail@thebuildlog.site>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T12:06:46.000Z",
-      "reason": "unrelated",
-      "subject": "Dhibin Vikash, a recent article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
