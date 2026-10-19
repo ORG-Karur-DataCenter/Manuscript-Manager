@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-19T14:41:33.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Manuscript UIVS-2026-0227 - Journal of Investigative Surgery",
+      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T17:44:09.000Z",
+      "reason": "unrelated",
+      "subject": "Re: AO Spine FOCUS Study (October Newsletter)",
+      "from": "Philip Louie <louie.philip@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-19T13:05:27.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Understanding everyday chemical exposures",
@@ -2084,20 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Final reminder, closing in a few days: submit your abstract for GSC 2027",
       "from": "Global Spine Congress <gsc@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T12:48:29.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Follow-Up: Spine Research Collaboration",
-      "from": "Harsh Desai <hhd@udel.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T13:13:46.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Follow-Up: Spine Research Collaboration",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
