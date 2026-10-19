@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-19T07:24:22.000Z",
+      "reason": "unrelated",
+      "subject": "Cheery Greetings from Barb Oakley!",
+      "from": "Deep Teaching Solutions <no-reply@m.send.coursera.org>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T04:48:45.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Reviewer un-invited for JOIO-D-25-00892R2 - [EMID:672fd9fda11c273e]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T04:56:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore E-Journals & E-Books in One Academic Platform | STM Digital Library",
+      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T05:31:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "UTTHAN invites you for the upcoming Publishing Ethics session. Sign up now!",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T05:52:44.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ASP - [STI] Manuscript ID: STI026410052 - Review Request Reminder",
+      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T07:56:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "2026-10-19 07:56:19 RCA ID: 00000627 2026 Highlight Articles available for view",
+      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T09:04:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Announcing the Nov 2026 edition of Web of Science Training & Certification Program",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-18T23:45:01.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "[HP-26-100] Manuscript is sent to another reviewer.",
@@ -2049,55 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Re: Follow-Up: Spine Research Collaboration",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-04T23:44:29.000Z",
-      "reason": "unrelated",
-      "subject": "Important communication: 2026 Rare Lumbar Complications project: meeting dates",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-04T17:55:12.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review Manuscript IRME-2026-ST-0248 - Regenerative Medicine",
-      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-04T17:10:51.000Z",
-      "reason": "unrelated",
-      "subject": "[ORCID] DHIBIN VIKASH K P you have new notifications",
-      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-04T07:45:17.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "European Spine Journal - ToC Alert",
-      "from": "Springer Alert <tocalert@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-04T10:49:47.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Jashore University of Science and Technology",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-04T12:05:24.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Science Progress",
-      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-04T12:50:02.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "IRJPMS:: Inviting paper for Publication: Volume 9 Issue 6: 2026",
-      "from": "IRJPMS Editor <irjpms.journal@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

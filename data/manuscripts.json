@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T04:49:06.584Z",
+  "generatedAt": "2026-10-19T10:53:25.400Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -19422,7 +19422,7 @@
       "actionLabel": null,
       "currentJournal": "Frontiers in Surgery",
       "currentManuscriptNumber": "2033540",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -19788,8 +19788,8 @@
           "journal": "Frontiers in Surgery",
           "manuscriptNumber": "2033540",
           "submittedDate": "2026-10-18T15:36:16.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -19803,6 +19803,19 @@
                 "threadId": "1a14fa8116a067c5",
                 "messageId": "1a14fa8116a067c5",
                 "subject": "Your manuscript is submitted (ID 2033540) ",
+                "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>"
+              }
+            },
+            {
+              "timestamp": "2026-10-19T09:19:42.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The submitted manuscript was rejected by the journal.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a15375aaa3d0c2f",
+                "messageId": "1a15375aaa3d0c2f",
+                "subject": "Decision on your manuscript",
                 "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>"
               }
             }
@@ -20083,10 +20096,27 @@
             "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-19T09:19:42.000Z",
+          "journal": "Frontiers in Surgery",
+          "eventType": "rejected",
+          "manuscriptNumber": null,
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The submitted manuscript was rejected by the journal.",
+          "source": {
+            "threadId": "1a15375aaa3d0c2f",
+            "messageId": "1a15375aaa3d0c2f",
+            "subject": "Decision on your manuscript",
+            "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-11T11:38:31.000Z",
-      "updatedAt": "2026-10-18T15:36:16.000Z",
+      "updatedAt": "2026-10-19T09:19:42.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -25187,7 +25217,7 @@
       "actionFlag": true,
       "actionLabel": "Revision 1 requested",
       "currentJournal": "JBJS Open Access",
-      "currentManuscriptNumber": "JBJSOA-D-26-00301",
+      "currentManuscriptNumber": "JBJSOA-D-26-00301R1",
       "currentStatus": "Revision requested",
       "deadline": "2026-10-26T18:29:59.999Z",
       "deadlineSource": "stated",
@@ -25200,7 +25230,7 @@
       "submissions": [
         {
           "journal": "JBJS Open Access",
-          "manuscriptNumber": "JBJSOA-D-26-00301",
+          "manuscriptNumber": "JBJSOA-D-26-00301R1",
           "submittedDate": "2026-09-02T14:45:34.000Z",
           "outcome": "active",
           "status": "revision_requested",
@@ -25243,6 +25273,19 @@
                 "threadId": "1a10d4381fe0008e",
                 "messageId": "1a10d4381fe0008e",
                 "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00301) - [EMID:405aebd01b04b85c]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-19T05:56:43.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The journal requests the author submit a revised manuscript by Oct 26 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00301R1",
+              "source": {
+                "threadId": "1a152bbd4daba974",
+                "messageId": "1a152bbd4daba974",
+                "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:8fad396826327dba]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -25304,10 +25347,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-19T05:56:43.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00301R1",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-10-26T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 26 2026 11:59PM"
+          },
+          "note": "The journal requests the author submit a revised manuscript by Oct 26 2026.",
+          "source": {
+            "threadId": "1a152bbd4daba974",
+            "messageId": "1a152bbd4daba974",
+            "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:8fad396826327dba]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-02T14:45:34.000Z",
-      "updatedAt": "2026-10-05T18:11:29.000Z"
+      "updatedAt": "2026-10-19T05:56:43.000Z"
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
