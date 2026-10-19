@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T23:18:06.336Z",
+  "generatedAt": "2026-10-19T04:49:06.584Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -7818,17 +7818,17 @@
       "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop-2",
       "title": "Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)",
       "titleNormalized": "evaluating large language models for patient facing total knee arthroplasty information in knee osteoarthritis development and application of the composite clinical reliability score ccrs",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": true,
       "reviewReason": "Title closely resembles \"Comparative Clinical Reliability of Large Language Models in Patient-Facing Information on Platelet-Rich Plasma for Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\" (0.94). Confirm these are different papers.",
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 4 requested",
       "currentJournal": "The Journal of Arthroplasty",
       "currentManuscriptNumber": "JOA-D-26-01135R4",
-      "currentStatus": "Under review",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentStatus": "Revision requested",
+      "deadline": "2026-10-28T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -7840,7 +7840,7 @@
           "manuscriptNumber": "JOA-D-26-01135R4",
           "submittedDate": "2026-09-10T17:44:45.000Z",
           "outcome": "active",
-          "status": "under_review",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -7868,6 +7868,19 @@
                 "messageId": "1a116b38edb89152",
                 "subject": "Re: Query regarding JOA-D-26-01135R4",
                 "from": "Taylor Bowen <journalofarthroplasty@gmail.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-19T03:13:32.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 4,
+              "note": "The journal requested a revision of the manuscript, with a deadline of Oct 28, 2026.",
+              "manuscriptNumber": "JOA-D-26-01135R4",
+              "source": {
+                "threadId": "1a1522683823ce88",
+                "messageId": "1a1522683823ce88",
+                "subject": "Decision on JOA-D-26-01135R4",
+                "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
               }
             }
           ]
@@ -7907,10 +7920,31 @@
             "from": "Taylor Bowen <journalofarthroplasty@gmail.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-19T03:13:32.000Z",
+          "journal": "The Journal Of Arthroplasty",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JOA-D-26-01135R4",
+          "label": "Revision requested",
+          "revisionRound": 4,
+          "deadline": {
+            "due": "2026-10-28T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 28, 2026"
+          },
+          "note": "The journal requested a revision of the manuscript, with a deadline of Oct 28, 2026.",
+          "source": {
+            "threadId": "1a1522683823ce88",
+            "messageId": "1a1522683823ce88",
+            "subject": "Decision on JOA-D-26-01135R4",
+            "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-10T17:44:45.000Z",
-      "updatedAt": "2026-10-07T14:10:26.000Z"
+      "updatedAt": "2026-10-19T03:13:32.000Z"
     },
     {
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
@@ -13012,8 +13046,8 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Journal of Orthopaedic Surgery and Research",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "9b30a235-dcd4-486a-9d52-7be1dc751e17",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -13024,10 +13058,10 @@
       "submissions": [
         {
           "journal": "Journal of Orthopaedic Surgery and Research",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "9b30a235-dcd4-486a-9d52-7be1dc751e17",
           "submittedDate": "2026-09-15T12:49:13.000Z",
-          "outcome": "active",
-          "status": "revision_requested",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -13055,6 +13089,19 @@
                 "messageId": "1a10c086930f3da8",
                 "subject": "Journal of Orthopaedic Surgery and Research: Decision on \"Intra-Articular versus Subchondral Leukocyte-Poor Platelet-Rich Plasma Injections in Kellgren-Lawrence Grade 2–3 Knee Osteoarthritis: A Double-blinded, Randomized Controlled Trial\"",
                 "from": "Journal of Orthopaedic Surgery and Research <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-18T23:45:53.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected for publication following editorial assessment.",
+              "manuscriptNumber": "9b30a235-dcd4-486a-9d52-7be1dc751e17",
+              "source": {
+                "threadId": "1a151685651679bc",
+                "messageId": "1a151685651679bc",
+                "subject": "Decision on your submission to Journal of Orthopaedic Surgery and Research",
+                "from": "Journal of Orthopaedic Surgery and Research <jonlauren.rendon@springernature.com>"
               }
             }
           ]
@@ -13165,10 +13212,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-18T23:45:53.000Z",
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "eventType": "rejected",
+          "manuscriptNumber": "9b30a235-dcd4-486a-9d52-7be1dc751e17",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected for publication following editorial assessment.",
+          "source": {
+            "threadId": "1a151685651679bc",
+            "messageId": "1a151685651679bc",
+            "subject": "Decision on your submission to Journal of Orthopaedic Surgery and Research",
+            "from": "Journal of Orthopaedic Surgery and Research <jonlauren.rendon@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-15T12:49:13.000Z",
-      "updatedAt": "2026-10-05T19:11:18.000Z"
+      "updatedAt": "2026-10-18T23:45:53.000Z"
     },
     {
       "id": "is-implant-removal-after-thoracolumbar-fracture-fixation-truly-necessa",

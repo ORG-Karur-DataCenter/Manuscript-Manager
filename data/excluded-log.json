@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-18T23:45:01.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[HP-26-100] Manuscript is sent to another reviewer.",
+      "from": "\"Hip & Pelvis\" <journal@hipandpelvis.or.kr>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T02:13:01.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T02:40:30.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Inviting you to please contribute a chapter",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-18T21:12:08.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Dove Medical Press Peer Review Invitation Closed [ID: 661946]",
@@ -2077,27 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "IRJPMS:: Inviting paper for Publication: Volume 9 Issue 6: 2026",
       "from": "IRJPMS Editor <irjpms.journal@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-04T04:45:36.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Follow up on review request for JOIO-D-26-01697 - [EMID:77fc4a64d5899a33]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T22:23:18.000Z",
-      "reason": "unrelated",
-      "subject": "SEVERE HO and clinical outcome",
-      "from": "Vibhu Krishnan <drvibu007@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-03T22:25:37.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder about Google's Terms of Service",
-      "from": "Google <google-noreply@google.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
