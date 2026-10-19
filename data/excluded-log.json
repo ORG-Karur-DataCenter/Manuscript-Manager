@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-19T13:05:27.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Understanding everyday chemical exposures",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T14:17:10.000Z",
+      "reason": "unrelated",
+      "subject": "Top 5 News In Digital Health And Healthcare AI This Week",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T16:32:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🔓 Claude cracked a 26-year-old NSA mystery",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T11:31:37.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4609131 - Invitation to Review for JCM",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T11:51:15.000Z",
+      "reason": "unrelated",
+      "subject": "Invitation for the Editorial Board Member in the Journal – “Journal of Orthopedic Education (JOE) ”",
+      "from": "Journal Author Support Red Flower Publication <author@rfppl.co.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T14:46:55.000Z",
+      "reason": "unrelated",
+      "subject": "Re: AO Single Level ACDF Bracing Systematic Review Draft",
+      "from": "Luca Ambrosio <luc.ambros@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-19T15:50:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Updated deadlines for this joint genetics conference.",
+      "from": "The Keystone Symposia Team <keystonesymposia@keystonesymposia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-19T07:24:22.000Z",
       "reason": "unrelated",
       "subject": "Cheery Greetings from Barb Oakley!",
@@ -2046,55 +2095,6 @@
     },
     {
       "timestamp": "2026-10-05T13:13:46.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Follow-Up: Spine Research Collaboration",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T13:19:27.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Follow-Up: Spine Research Collaboration",
-      "from": "Harsh Desai <hhd@udel.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T13:31:30.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Follow-Up: Spine Research Collaboration",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T15:11:36.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Orthopedic Reviews would like you to review: 'glucagon-like peptide-1 receptor agonists use in total joint arthroplasty: evidence weaknesses and methodological pitfalls in current systematic reviews'",
-      "from": "Editor OpenMedicalPublishing <notifications@email.scholasticahq.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T02:39:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "ET AI: Frontier AI slowdown a distraction, compute is the real constraint: early Anthropic backer Menlo Ventures",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T05:51:31.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "PLOS One REMINDER: Invitation to review PONE-D-26-40300 - [EMID:4b529f40ce129e1b]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T03:06:13.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Number ID: 05395420 Acceptance of invitation to contribute manuscripts to the World Journal of Orthopedics",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T03:17:46.000Z",
       "reason": "forwarded_between_us",
       "subject": "Re: Follow-Up: Spine Research Collaboration",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
