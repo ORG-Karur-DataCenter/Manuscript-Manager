@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T13:40:04.206Z",
+  "generatedAt": "2026-10-20T18:35:45.653Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -25055,7 +25055,7 @@
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-0116.R3",
-      "currentStatus": "Submitted",
+      "currentStatus": "Accepted (awaiting publication)",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -25067,7 +25067,7 @@
           "manuscriptNumber": "GSJ-26-0116.R3",
           "submittedDate": "2026-04-24T17:54:27.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "accepted",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -25095,6 +25095,19 @@
                 "threadId": "1a1052724b5c63af",
                 "messageId": "1a1052724b5c63af",
                 "subject": "Global Spine Journal  GSJ-26-0116.R3",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-20T18:08:37.000Z",
+              "eventType": "accepted",
+              "revisionRound": 3,
+              "note": "The manuscript has been accepted and is moving to production; the author must complete open access procedures and return proofs.",
+              "manuscriptNumber": "GSJ-26-0116.R3",
+              "source": {
+                "threadId": "1a15a804754cdef4",
+                "messageId": "1a15a8052a8d418a",
+                "subject": "Global Spine Journal Next steps for your article (GSJ-26-0116.R3)",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
               }
             }
@@ -25134,10 +25147,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-20T18:08:37.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "manuscriptNumber": "GSJ-26-0116.R3",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": 3,
+          "deadline": null,
+          "note": "The manuscript has been accepted and is moving to production; the author must complete open access procedures and return proofs.",
+          "source": {
+            "threadId": "1a15a804754cdef4",
+            "messageId": "1a15a8052a8d418a",
+            "subject": "Global Spine Journal Next steps for your article (GSJ-26-0116.R3)",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-04-24T17:54:27.000Z",
-      "updatedAt": "2026-10-04T04:23:17.000Z",
+      "updatedAt": "2026-10-20T18:08:37.000Z",
       "deadline": null,
       "deadlineSource": null
     },
