@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-20T10:28:21.000Z",
+      "reason": "unrelated",
+      "subject": "Resources to support your research",
+      "from": "Sage Author Support <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T08:13:58.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: JOCR Article 11523 for review",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T08:40:20.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Re: JOCR Article 11523 for review",
+      "from": "Nutan Saroj <sarojnutan@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T08:55:18.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for Hidden clocks: a census of manuscript timeline disclosure in 5,188 MEDLINE journals and an audit of advertised review times in 36 orthopaedic journals",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T10:03:28.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Upcoming events",
+      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T12:11:01.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Agentic Artificial Intelligence Framework for Systematic Reviews",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T12:29:41.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO-D-26-01334 - New manuscript received",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T13:12:37.000Z",
+      "reason": "unrelated",
+      "subject": "BMJ Best Practice: please do not use AI tools for your work on topic updates, new topics, or peer review",
+      "from": "Gemma Spink <gspink@bmj.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-20T06:09:35.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Follow Up-Re: [Osteology] Manuscript ID: osteology-1406345 - Declined for Publication",
@@ -2042,62 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Read these open access articles from the first issue of Bone and Bone Related Cancer Research",
       "from": "\"Lippincott® Journals\" <lww@sci.scientific-direct.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T21:00:33.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T22:25:40.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T11:10:26.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🚨🚨 Menlo Ventures on AI slowdown",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T14:05:05.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Karl Deisseroth awarded Nobel Prize",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T14:45:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🧩 CLaude code now has mods",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T01:34:34.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-48840] - [EMID:abc71e9f8e52ef41]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T07:08:04.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reviewer Assignments and Timely Reviews",
-      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T07:42:34.000Z",
-      "reason": "unrelated",
-      "subject": "RE: Reg regenerative book series",
-      "from": "Satvinder Kaur <satvinder.kaur@springernature.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

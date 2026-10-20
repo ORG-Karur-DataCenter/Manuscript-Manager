@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T07:41:33.427Z",
+  "generatedAt": "2026-10-20T13:40:04.206Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9933,8 +9933,8 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Scientometrics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "8263f122-f518-455e-af79-f264a5b2ae77",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -9970,10 +9970,10 @@
         },
         {
           "journal": "Scientometrics",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "8263f122-f518-455e-af79-f264a5b2ae77",
           "submittedDate": "2026-10-06T13:54:23.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -9988,6 +9988,19 @@
                 "messageId": "1a1117e7911e9574",
                 "subject": "Track the status of your submission to Scientometrics",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-10-20T08:53:21.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected for publication in Scientometrics.",
+              "manuscriptNumber": "8263f122-f518-455e-af79-f264a5b2ae77",
+              "source": {
+                "threadId": "1a15883e71f8c71e",
+                "messageId": "1a15883e71f8c71e",
+                "subject": "Decision on your submission to Scientometrics",
+                "from": "Scientometrics <jeevitha.a@springernature.com>"
               }
             }
           ]
@@ -10027,10 +10040,27 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-20T08:53:21.000Z",
+          "journal": "Scientometrics",
+          "eventType": "rejected",
+          "manuscriptNumber": "8263f122-f518-455e-af79-f264a5b2ae77",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected for publication in Scientometrics.",
+          "source": {
+            "threadId": "1a15883e71f8c71e",
+            "messageId": "1a15883e71f8c71e",
+            "subject": "Decision on your submission to Scientometrics",
+            "from": "Scientometrics <jeevitha.a@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-06T13:54:23.000Z",
-      "updatedAt": "2026-10-06T13:54:23.000Z"
+      "updatedAt": "2026-10-20T08:53:21.000Z"
     },
     {
       "id": "higher-risk-comparable-recovery-the-impact-of-obesity-on-outcomes-afte",
