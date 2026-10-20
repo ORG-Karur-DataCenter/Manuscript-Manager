@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-20T10:49:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dr. Muthu, know your AI choices under Cureus’s new AI policy",
+      "from": "Cureus Journal of Medical Science <no-reply@journal.cureus.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T13:46:11.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Get Published in Lippincott Nursing Journals – Submit Now!",
+      "from": "Lippincott Nursing Journals <lww@sci.scientific-direct.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-20T13:04:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Reunion Homecoming highlights",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "IHMEID: 6118 GBD 2023 Global Mental disorders in youth comments due October 12",
       "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T02:37:59.000Z",
-      "reason": "unrelated",
-      "subject": "Bill for your Airtel Wi-Fi 0432417056983_wifi - October'26",
-      "from": "ebill@airtel.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T02:59:08.000Z",
-      "reason": "unrelated",
-      "subject": "ESSKA is bringing even more science to our community!",
-      "from": "ESSKA Membership <membership@esska.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
