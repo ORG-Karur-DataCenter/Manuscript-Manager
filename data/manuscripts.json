@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T01:52:17.485Z",
+  "generatedAt": "2026-10-20T07:41:33.427Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -18201,6 +18201,19 @@
                 "subject": "JBJS Open Access Editorial Decision (JBJSOA-D-26-00213R3) - [EMID:a90678a86607cfff]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-20T05:48:09.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The author is reminded to complete the open access publication request for their accepted manuscript",
+              "manuscriptNumber": "JBJSOA-D-26-00213",
+              "source": {
+                "threadId": "1a157da582a73d4e",
+                "messageId": "1a157da582a73d4e",
+                "subject": "Reminder: Please Complete Your Open Access Article Publication Request",
+                "from": "no-reply@email.copyright.com"
+              }
             }
           ]
         },
@@ -18756,10 +18769,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-20T05:48:09.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": "JBJSOA-D-26-00213",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is reminded to complete the open access publication request for their accepted manuscript",
+          "source": {
+            "threadId": "1a157da582a73d4e",
+            "messageId": "1a157da582a73d4e",
+            "subject": "Reminder: Please Complete Your Open Access Article Publication Request",
+            "from": "no-reply@email.copyright.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-10-16T14:04:36.000Z",
+      "updatedAt": "2026-10-20T05:48:09.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {

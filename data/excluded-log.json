@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-20T06:09:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Follow Up-Re: [Osteology] Manuscript ID: osteology-1406345 - Declined for Publication",
+      "from": "Osteology Editorial Office <osteology@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T06:18:41.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One Reminder of Active Assignments - [EMID:9c60fadf565b3480]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T06:26:31.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[OBM Neurobiology] Manuscript ID: obm-neurobiology-4546 - Peer Review Request",
+      "from": "\"LIDSEN Publishing Inc.丨The Open Access Publisher\" <lily.liu@lidsen.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-19T14:41:33.000Z",
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Manuscript UIVS-2026-0227 - Journal of Investigative Surgery",
@@ -2077,27 +2098,6 @@
       "reason": "unrelated",
       "subject": "RE: Reg regenerative book series",
       "from": "Satvinder Kaur <satvinder.kaur@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T07:56:50.000Z",
-      "reason": "unrelated",
-      "subject": "Register Free or Upgrade STM Digital Library — Access Starts from ₹7,990*",
-      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T09:00:16.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Clinical and Radiographic Outcomes of C7-Preserving Versus Conventional Cervical Laminoplasty: A Systematic Review and Meta-analysis",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T10:00:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Final reminder, closing in a few days: submit your abstract for GSC 2027",
-      "from": "Global Spine Congress <gsc@info.aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
