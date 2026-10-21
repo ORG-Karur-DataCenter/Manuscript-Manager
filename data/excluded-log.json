@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-21T15:53:05.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🦂 Claude designed 318,484 proteins in 64 hours",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T11:10:53.000Z",
+      "reason": "unrelated",
+      "subject": "⏪ Pre-Read for your upcoming meeting: FISRM:,  BATCH: 3  | CLASS: 1 on Wed, Oct 21 2026 @ 05:30PM IST",
+      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T17:56:58.000Z",
+      "reason": "unrelated",
+      "subject": "IOACON 2026 – Abstract Selection for Free Podium Paper Presentation",
+      "from": "IOACON 2026 <scientific@ioacon2026gujarat.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-21T06:34:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Human Behaviour Contents: Volume 10 Number 10",
@@ -2077,27 +2098,6 @@
       "reason": "unrelated",
       "subject": "Sathish, you were recently cited by an author from Nankai University",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T13:42:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "IRJPMS:: Call for paper: Volume 9 Issue 6: 2026",
-      "from": "editor@irjpms.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T13:43:47.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "IRJPMS:: Inviting paper for Publication: Volume 9 Issue 7: 2026",
-      "from": "IRJPMS Editor <irjpms@yahoo.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T04:50:41.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:5f3f74e52fb1d421]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
