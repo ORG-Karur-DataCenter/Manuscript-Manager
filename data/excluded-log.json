@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-21T13:04:00.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "How students learn to listen across differences",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T04:51:48.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:7839020ec5bfccb5]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T09:11:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "[Last call for webinar]: Redefine the research experience",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T10:02:45.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Shape the Next Issue With Your Research | MAR Trauma & Orthopedics",
+      "from": "jessica <marorthopedics.jessica@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T10:32:53.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: your publication: Anterior Cervical Approaches for 2-Level Radiculopathy: An International Survey on Surgeon Preferences Regarding Anterior Cervical Discectomy Fusion, Cervical Disc Arthroplasty, and Cervical Hybrid Constructs",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T11:10:27.000Z",
+      "reason": "unrelated",
+      "subject": "Live now — join your class: Class 30 · JOURNAL CLUB PRESENTATION — 21 Oct, 5:20 PM",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T11:19:39.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: you are taking Class 30 · JOURNAL CLUB PRESENTATION on Wednesday, 21 October 2026",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T11:33:11.000Z",
+      "reason": "unrelated",
+      "subject": "Live now — join your class: Class 30 · JOURNAL CLUB PRESENTATION — 21 Oct, 5:20 PM",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-21T02:33:14.000Z",
       "reason": "unrelated",
       "subject": "ET AI: AI startup ASI valued at $3 billion in latest funding round",
@@ -2043,62 +2099,6 @@
       "subject": "Cycle Syncing Health Claims Prompt Experts to Urge Caution",
       "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T22:28:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "NEW Episode of Your Case Is On Hold",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T19:16:09.000Z",
-      "reason": "unrelated",
-      "subject": "👤 Someone at The Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University you may know",
-      "from": "LinkedIn <messages-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T11:02:22.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Upcoming events",
-      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T13:42:00.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "IRJPMS:: Call for paper: Volume 9, Issue 6, 2026",
-      "from": "IRJPMS Editor <irjpms.journal@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T17:17:23.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T17:18:13.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Dove Medical Press Peer Review Invitation Closed [ID: 646309]",
-      "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T13:05:58.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Inside Karl Deisseroth’s Nobel day",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T10:59:16.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Discover the Latest at CIMB (October 2026)",
-      "from": "CIMB Editorial Office <cimb@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
