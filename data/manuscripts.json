@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T13:55:07.670Z",
+  "generatedAt": "2026-10-21T18:43:45.379Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -21922,15 +21922,15 @@
       "id": "references-that-do-not-exist-an-audit-of-1-1-million-citations-in-36-o",
       "title": "References that do not exist: an audit of 1.1 million citations in 36 orthopaedic and spine journals, 2024–2026",
       "titleNormalized": "references that do not exist an audit of 1 1 million citations in 36 orthopaedic and spine journals 2024 2026",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "JOIO-D-26-01878",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -21943,8 +21943,8 @@
           "journal": "Indian Journal of Orthopaedics",
           "manuscriptNumber": "JOIO-D-26-01878",
           "submittedDate": "2026-10-06T06:39:28.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -21959,6 +21959,19 @@
                 "messageId": "1a10ff04b19c171c",
                 "subject": "Track the status of your submission to Indian Journal of Orthopaedics",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-10-21T18:06:31.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after peer review.",
+              "manuscriptNumber": "JOIO-D-26-01878",
+              "source": {
+                "threadId": "1a15fa4b0a28c2a4",
+                "messageId": "1a15fa4b0a28c2a4",
+                "subject": "Your Submission JOIO-D-26-01878 - [EMID:dd369a2febe3ae60]",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>"
               }
             }
           ]
@@ -21981,10 +21994,27 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-21T18:06:31.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "rejected",
+          "manuscriptNumber": "JOIO-D-26-01878",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after peer review.",
+          "source": {
+            "threadId": "1a15fa4b0a28c2a4",
+            "messageId": "1a15fa4b0a28c2a4",
+            "subject": "Your Submission JOIO-D-26-01878 - [EMID:dd369a2febe3ae60]",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-06T06:39:28.000Z",
-      "updatedAt": "2026-10-06T06:39:28.000Z"
+      "updatedAt": "2026-10-21T18:06:31.000Z"
     },
     {
       "id": "response-to-the-letter-to-the-editor-on-role-of-prophylactic-negative-",
