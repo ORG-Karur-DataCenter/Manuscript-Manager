@@ -1,6 +1,90 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-21T02:33:14.000Z",
+      "reason": "unrelated",
+      "subject": "ET AI: AI startup ASI valued at $3 billion in latest funding round",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T11:49:12.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Madhan Jeyaraman published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T06:32:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Energy Contents: Volume 11 Number 10",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T03:42:29.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Affiliation update - reg",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T03:54:35.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Request to handle manuscript PONE-D-25-55200R2 - [EMID:2b1ac8f9ce7216ec]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T05:49:45.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ASP - [STI] Manuscript ID: STI026410052 - Review Request Reminder",
+      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T05:51:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Search E-Journals, E-Books from One Place | STM Digital Library",
+      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T06:20:57.000Z",
+      "reason": "unrelated",
+      "subject": "ONOS APC Application form #1511 submitted",
+      "from": "ONOS NoReply <noreply-inf1@mail.inflibnet.ac.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T06:20:57.000Z",
+      "reason": "unrelated",
+      "subject": "ONOS APC Application form #1511 submitted by SATHISH MUTHU",
+      "from": "ONOS NoReply <noreply-inf1@mail.inflibnet.ac.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T06:22:32.000Z",
+      "reason": "unrelated",
+      "subject": "Status of ONOS APC Application form #1511 submitted by SATHISH MUTHU",
+      "from": "ONOS NoReply <noreply-inf1@mail.inflibnet.ac.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T06:32:14.000Z",
+      "reason": "unrelated",
+      "subject": "Your RightsLink® Invoice for Wolters Kluwer Health, LLC APC600881474",
+      "from": "no-reply@email.copyright.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T06:35:53.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4609131 - Reminder for Invitation to Review for JCM",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-21T00:08:06.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Early Alzheimer’s Biomarker Test Results Guide Clinical Care",
@@ -2014,90 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Discover the Latest at CIMB (October 2026)",
       "from": "CIMB Editorial Office <cimb@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T12:08:09.000Z",
-      "reason": "unrelated",
-      "subject": "Invitation for the Editorial Board Member in our Journal of Orthopedic Education",
-      "from": "Journal Author Support Red Flower Publication <author@rfppl.co.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T12:14:09.000Z",
-      "reason": "unrelated",
-      "subject": "[ORCID] Sathish Muthu you have new notifications",
-      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T13:23:01.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Mini Review or Commentary on your paper_Journal of Orthopedics and Orthopedic Surgery",
-      "from": "Journal of Orthopedics and Orthopedic Surgery <editor@orthojournal.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T13:45:18.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "IRJPMS:: Call for paper: Volume 9 Issue 6: 2026",
-      "from": "IRJPMS Editor <irjpms@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T16:24:50.000Z",
-      "reason": "unrelated",
-      "subject": "GSC 2027 – Incomplete Abstract Submission",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T02:31:12.000Z",
-      "reason": "unrelated",
-      "subject": "Breaking News: Jeffrey Archer, best-selling U.K. author and politician, dies aged 86",
-      "from": "The Hindu <news@newsalertth.thehindu.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T06:36:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Cell Research Contents: Volume 36 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T08:58:38.000Z",
-      "reason": "unrelated",
-      "subject": "Naveen Jeyaraman published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T10:15:08.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Breaking News: Physics Nobel 2026 goes to Francis Halzen for  discovery of high-energy neutrinos of astrophysical origin",
-      "from": "The Hindu <news@newsalertth.thehindu.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T05:55:40.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One Reminder of Active Assignments - [EMID:95d2005ddd8fd76e]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T06:29:00.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle Study Protocol manuscript [PONE-D-26-45417] - [EMID:6596d41b7218a8fb]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T08:27:31.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Science Progress",
-      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

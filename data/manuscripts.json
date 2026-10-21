@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T01:40:09.529Z",
+  "generatedAt": "2026-10-21T07:53:07.807Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -7945,6 +7945,115 @@
       ],
       "createdAt": "2026-09-10T17:44:45.000Z",
       "updatedAt": "2026-10-19T03:13:32.000Z"
+    },
+    {
+      "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop-3",
+      "title": "Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score",
+      "titleNormalized": "evaluating large language models for patient facing total knee arthroplasty information in knee osteoarthritis development and application of the composite clinical reliability score",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\" (0.99). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Arthroplasty",
+      "currentManuscriptNumber": "JOA-D-26-01135R5",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "The Journal of Arthroplasty",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-21T04:43:41.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-21T04:43:41.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is requested to approve the PDF of their manuscript before the submission process can be completed.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a15cc5ae7581252",
+                "messageId": "1a15cc5ae7581252",
+                "subject": "The PDF of your article has been built and requires approval",
+                "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Arthroplasty",
+          "manuscriptNumber": "JOA-D-26-01135R5",
+          "submittedDate": "2026-10-21T04:52:35.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-21T04:52:35.000Z",
+              "eventType": "new_submission",
+              "revisionRound": 5,
+              "note": "The revised manuscript was received and logged in the system.",
+              "manuscriptNumber": "JOA-D-26-01135R5",
+              "source": {
+                "threadId": "1a15ccdd6be94e3d",
+                "messageId": "1a15ccdd6be94e3d",
+                "subject": "Submission Confirmation for JOA-D-26-01135R5",
+                "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-21T04:43:41.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is requested to approve the PDF of their manuscript before the submission process can be completed.",
+          "source": {
+            "threadId": "1a15cc5ae7581252",
+            "messageId": "1a15cc5ae7581252",
+            "subject": "The PDF of your article has been built and requires approval",
+            "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-21T04:52:35.000Z",
+          "journal": "Journal of Arthroplasty",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JOA-D-26-01135R5",
+          "label": "Submitted",
+          "revisionRound": 5,
+          "deadline": null,
+          "note": "The revised manuscript was received and logged in the system.",
+          "source": {
+            "threadId": "1a15ccdd6be94e3d",
+            "messageId": "1a15ccdd6be94e3d",
+            "subject": "Submission Confirmation for JOA-D-26-01135R5",
+            "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-21T04:52:35.000Z",
+      "updatedAt": "2026-10-21T04:52:35.000Z"
     },
     {
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
@@ -17939,13 +18048,13 @@
       "id": "national-and-subnational-burden-of-low-back-pain-in-india-1990-2023-a-",
       "title": "National and subnational burden of low back pain in India, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
       "titleNormalized": "national and subnational burden of low back pain in india 1990 2023 a systematic analysis for the global burden of disease study 2023",
-      "bucket": "in_review",
+      "bucket": "published",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "JBJS Open Access (also with Indian Spine Journal)",
-      "currentManuscriptNumber": "JBJSOA-D-26-00213R3",
+      "currentManuscriptNumber": "JBJSOA-D-26-00213",
       "currentStatus": "Returned to author — one citation fix outstanding",
       "doi": "10.2106/JBJS.OA.26.00213",
       "publicationLink": null,
@@ -17983,8 +18092,8 @@
           "journal": "JBJS Open Access",
           "manuscriptNumber": "JBJSOA-D-26-00213",
           "submittedDate": "2026-07-08T09:31:35.000Z",
-          "outcome": "active",
-          "status": "accepted",
+          "outcome": "published",
+          "status": "published",
           "doi": "10.2106/JBJS.OA.26.00213",
           "publicationLink": null,
           "statusHistory": [
@@ -18242,6 +18351,19 @@
                 "threadId": "1a157da582a73d4e",
                 "messageId": "1a157da582a73d4e",
                 "subject": "Reminder: Please Complete Your Open Access Article Publication Request",
+                "from": "no-reply@email.copyright.com"
+              }
+            },
+            {
+              "timestamp": "2026-10-21T05:49:52.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Order confirmed for publishing the manuscript, indicating it is now being published in JBJS Open Access.",
+              "manuscriptNumber": "JBJSOA-D-26-00213",
+              "source": {
+                "threadId": "1a15d0244740ae0b",
+                "messageId": "1a15d0244740ae0b",
+                "subject": "Thank you for placing your order.",
                 "from": "no-reply@email.copyright.com"
               }
             }
@@ -18816,10 +18938,27 @@
             "from": "no-reply@email.copyright.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-21T05:49:52.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "published",
+          "manuscriptNumber": "JBJSOA-D-26-00213",
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Order confirmed for publishing the manuscript, indicating it is now being published in JBJS Open Access.",
+          "source": {
+            "threadId": "1a15d0244740ae0b",
+            "messageId": "1a15d0244740ae0b",
+            "subject": "Thank you for placing your order.",
+            "from": "no-reply@email.copyright.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-23T10:35:04.000Z",
-      "updatedAt": "2026-10-20T05:48:09.000Z",
+      "updatedAt": "2026-10-21T05:49:52.000Z",
       "deadline": "2026-08-19T18:29:59.999Z",
       "deadlineSource": null,
       "overrides": {
@@ -25048,15 +25187,15 @@
       "id": "thoracolumbar-pedicle-screws-misplacement-using-2d-computer-assisted-n",
       "title": "Thoracolumbar Pedicle Screws Misplacement using 2D Computer-assisted navigation. A Systematic Review and Meta-Analysis with Reported Avoidance Techniques.",
       "titleNormalized": "thoracolumbar pedicle screws misplacement using 2d computer assisted navigation a systematic review and meta analysis with reported avoidance techniques",
-      "bucket": "in_review",
+      "bucket": "published",
       "needsReview": false,
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-0116.R3",
-      "currentStatus": "Accepted (awaiting publication)",
-      "doi": null,
+      "currentStatus": "Published",
+      "doi": "10.1177/21925682261503576",
       "publicationLink": null,
       "authorAccounts": [
         "Sathish Muthu"
@@ -25066,9 +25205,9 @@
           "journal": "Global Spine Journal",
           "manuscriptNumber": "GSJ-26-0116.R3",
           "submittedDate": "2026-04-24T17:54:27.000Z",
-          "outcome": "active",
-          "status": "accepted",
-          "doi": null,
+          "outcome": "published",
+          "status": "published",
+          "doi": "10.1177/21925682261503576",
           "publicationLink": null,
           "statusHistory": [
             {
@@ -25109,6 +25248,43 @@
                 "messageId": "1a15a8052a8d418a",
                 "subject": "Global Spine Journal Next steps for your article (GSJ-26-0116.R3)",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-21T03:03:02.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The paper has been licensed for open‑access publication in Global Spine Journal and will be published with the given DOI.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a15c698a3f5beee",
+                "messageId": "1a15c698a3f5beee",
+                "subject": "License chosen for your article in Global Spine Journal",
+                "from": "licensing-payment@sagepub.com"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-0116.R3",
+          "submittedDate": "2026-10-21T02:54:55.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": "10.1177/21925682261503576",
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-21T02:54:55.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The manuscript has been accepted and the author is asked to choose an Open Access license before publication.",
+              "manuscriptNumber": "GSJ-26-0116.R3",
+              "source": {
+                "threadId": "1a15c621cb40481b",
+                "messageId": "1a15c621cb40481b",
+                "subject": "Complete the Open Access process for your article 10.1177/21925682261503576 now",
+                "from": "licensing-payment@sagepub.com"
               }
             }
           ]
@@ -25164,10 +25340,44 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-21T02:54:55.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "accepted",
+          "manuscriptNumber": "GSJ-26-0116.R3",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been accepted and the author is asked to choose an Open Access license before publication.",
+          "source": {
+            "threadId": "1a15c621cb40481b",
+            "messageId": "1a15c621cb40481b",
+            "subject": "Complete the Open Access process for your article 10.1177/21925682261503576 now",
+            "from": "licensing-payment@sagepub.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-21T03:03:02.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "published",
+          "manuscriptNumber": null,
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The paper has been licensed for open‑access publication in Global Spine Journal and will be published with the given DOI.",
+          "source": {
+            "threadId": "1a15c698a3f5beee",
+            "messageId": "1a15c698a3f5beee",
+            "subject": "License chosen for your article in Global Spine Journal",
+            "from": "licensing-payment@sagepub.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-04-24T17:54:27.000Z",
-      "updatedAt": "2026-10-20T18:08:37.000Z",
+      "updatedAt": "2026-10-21T03:03:02.000Z",
       "deadline": null,
       "deadlineSource": null
     },
