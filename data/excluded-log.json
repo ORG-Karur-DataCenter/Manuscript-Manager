@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-21T00:08:06.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Early Alzheimer’s Biomarker Test Results Guide Clinical Care",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-20T23:21:09.000Z",
+      "reason": "unrelated",
+      "subject": "RE: Invitation to Participate: Delphi Study for the face validation of SELECTION-AI Methodological Framework",
+      "from": "Ana Maria Barragan Gonzalez <ana.barragan@urosario.edu.co>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T00:01:07.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "World Journal of Stem Cells Manuscript NO: 128898 - Manuscript review canceled",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-21T00:04:54.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 129671 for World Journal of Virology (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-20T10:49:42.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Dr. Muthu, know your AI choices under Cureus’s new AI policy",
@@ -2070,34 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Science Progress",
       "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T08:29:48.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Mini Review or Commentary Submission in Journal of Musculoskeletal Disorders and Translational Medicine",
-      "from": "Journal of Musculoskeletal Disorders and Translational Medicine <editor@musculoskeletaljournal.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T09:27:32.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-44851] - [EMID:4ad8062ece2670c4]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-06T10:20:29.000Z",
-      "reason": "unrelated",
-      "subject": "Establishing the Normal Reference Values of Plantar Pressure Metrics in South Asian Population and Evaluating the Impact of Increased Body Mass Index on Plantar Pressure Dynamics in Young Adults",
-      "from": "\"\\\"World Surgeons Congress\\\"\" <surgery@suntextmeeting.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-05T18:33:46.000Z",
-      "reason": "unrelated",
-      "subject": "IHMEID: 6118 GBD 2023 Global Mental disorders in youth comments due October 12",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
