@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T07:40:03.591Z",
+  "generatedAt": "2026-10-22T13:52:09.517Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -7818,17 +7818,17 @@
       "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop-2",
       "title": "Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)",
       "titleNormalized": "evaluating large language models for patient facing total knee arthroplasty information in knee osteoarthritis development and application of the composite clinical reliability score ccrs",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": true,
       "reviewReason": "Title closely resembles \"Comparative Clinical Reliability of Large Language Models in Patient-Facing Information on Platelet-Rich Plasma for Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\" (0.94). Confirm these are different papers.",
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision 4 requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "The Journal of Arthroplasty",
-      "currentManuscriptNumber": "JOA-D-26-01135R4",
-      "currentStatus": "Revision requested",
-      "deadline": "2026-10-28T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": "JOA-D-26-01135R5",
+      "currentStatus": "Accepted (awaiting publication)",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -7837,10 +7837,10 @@
       "submissions": [
         {
           "journal": "The Journal of Arthroplasty",
-          "manuscriptNumber": "JOA-D-26-01135R4",
+          "manuscriptNumber": "JOA-D-26-01135R5",
           "submittedDate": "2026-09-10T17:44:45.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "accepted",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -7880,6 +7880,19 @@
                 "threadId": "1a1522683823ce88",
                 "messageId": "1a1522683823ce88",
                 "subject": "Decision on JOA-D-26-01135R4",
+                "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-22T12:12:32.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The manuscript was accepted for publication in The Journal of Arthroplasty.",
+              "manuscriptNumber": "JOA-D-26-01135R5",
+              "source": {
+                "threadId": "1a16386f8f9ff2fb",
+                "messageId": "1a16386f8f9ff2fb",
+                "subject": "Decision on Your JOA Submission: JOA-D-26-01135R5",
                 "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
               }
             }
@@ -7941,10 +7954,27 @@
             "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-22T12:12:32.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "accepted",
+          "manuscriptNumber": "JOA-D-26-01135R5",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was accepted for publication in The Journal of Arthroplasty.",
+          "source": {
+            "threadId": "1a16386f8f9ff2fb",
+            "messageId": "1a16386f8f9ff2fb",
+            "subject": "Decision on Your JOA Submission: JOA-D-26-01135R5",
+            "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-10T17:44:45.000Z",
-      "updatedAt": "2026-10-19T03:13:32.000Z"
+      "updatedAt": "2026-10-22T12:12:32.000Z"
     },
     {
       "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop-3",
@@ -17316,6 +17346,19 @@
                 "subject": "World Journal of Orthopedics Manuscript No.: 129506 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
                 "from": "BPG Submission <submission@wjgnet.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-22T13:35:01.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "A reviewer has completed their review of the author's manuscript, indicating it remains under review.",
+              "manuscriptNumber": "129506",
+              "source": {
+                "threadId": "1a163d28f6d1db3d",
+                "messageId": "1a163d28f6d1db3d",
+                "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 129506",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
             }
           ]
         }
@@ -17354,10 +17397,27 @@
             "from": "BPG Submission <submission@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-22T13:35:01.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "under_review",
+          "manuscriptNumber": "129506",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "A reviewer has completed their review of the author's manuscript, indicating it remains under review.",
+          "source": {
+            "threadId": "1a163d28f6d1db3d",
+            "messageId": "1a163d28f6d1db3d",
+            "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 129506",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-07T06:26:56.000Z",
-      "updatedAt": "2026-10-09T10:58:11.000Z"
+      "updatedAt": "2026-10-22T13:35:01.000Z"
     },
     {
       "id": "mixed-reality-and-augmented-reality-in-complex-revision-shoulder-arthr",

@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-22T13:01:10.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "A Stanford football player’s joy in giving back",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T11:54:55.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review for INQUIRY: The relationship between friends’ negative attitudes toward spinal cord injury or disorder (SCI/D) and the mental health and well-being of individuals with SCI/D",
+      "from": "INQUIRY <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-22T05:41:14.000Z",
       "reason": "predatory_solicitation",
       "subject": "Mini Review or Commentary Submission in Journal of Artificial Intelligence in Health and Medicine",
@@ -2084,20 +2098,6 @@
       "reason": "unrelated",
       "subject": "Explore 10 Lakh+ Articles and More with STM Digital Library",
       "from": "STM Digital Library <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T10:19:31.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "Edit invitation: Research Progress of Artificial Intelligence Combined with...",
-      "from": "Antonio from Frontiers <endocrinology.editorial.office@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T10:51:15.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read the latest  Spine - Vol. 51, No. 21, November 1, 2026",
-      "from": "Lippincott Journals eTOC <email@lww.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
