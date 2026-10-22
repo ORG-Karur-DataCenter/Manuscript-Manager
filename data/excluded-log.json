@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-22T05:41:14.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Mini Review or Commentary Submission in Journal of Artificial Intelligence in Health and Medicine",
+      "from": "Journal of Artificial Intelligence in Health and Medicine <editor@jaihm.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-21T15:53:05.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "🦂 Claude designed 318,484 proteins in 64 hours",
@@ -2091,13 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Read the latest  Spine - Vol. 51, No. 21, November 1, 2026",
       "from": "Lippincott Journals eTOC <email@lww.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T11:16:58.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Nankai University",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
