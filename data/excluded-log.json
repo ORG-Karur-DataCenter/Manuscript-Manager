@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-22T05:02:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Vesicon 2026: What 500+ researchers asked us",
+      "from": "Exonova Instruments <info@exonovainstruments.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T14:09:52.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Arthroscopic Surgery Versus Sham Surgery for Femoroacetabular Impingement Syndrome and/or Labral Tears: A Double-Blind Randomized Controlled Pilot Trial",
+      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T14:22:58.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, an article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T16:05:30.000Z",
+      "reason": "unrelated",
+      "subject": "Madhan Jeyaraman - new articles",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T17:56:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "International Association for the Study of Pain - NEW ISSUE LIVE",
+      "from": "\"Lippincott®\" <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-22T13:01:10.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "A Stanford football player’s joy in giving back",
@@ -2064,41 +2099,6 @@
       "subject": "Helping landowners adapt to saltwater intrusion",
       "from": "Stanford Report <noreply@stanford.edu>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T15:25:12.000Z",
-      "reason": "unrelated",
-      "subject": "Vijay Tiwari reacted to this post: Excited to be joining the…",
-      "from": "LinkedIn <updates-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T15:50:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🧮 OpenAI just broke the rules of math",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T03:03:22.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Official Invitation: Invited Speaker – Final Call – INNOST NANO 2026 | 26–28 October 2026 | GITAM, Jhajjar, Haryana, India",
-      "from": "INNOST NANO 2026 <contact@rpconfseries.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T06:30:42.000Z",
-      "reason": "unrelated",
-      "subject": "World Journal of Translational Medicine Authors Evaluation-Manuscript NO: 122119",
-      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T09:46:48.000Z",
-      "reason": "unrelated",
-      "subject": "Explore 10 Lakh+ Articles and More with STM Digital Library",
-      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
