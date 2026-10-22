@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-22T14:29:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Now accepting submissions",
+      "from": "\"American Orthopaedic Society for Sports Medicine (AOSSM)\" <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T14:05:20.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Meet JoVE at SfN 2026 in Washington, D.C.",
+      "from": "Danielle King <danielle.king@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T18:45:12.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Final reminder: You're invited to submit to our special issue - Neural Plasticity in Neurotrauma and Repair",
+      "from": "Neural Plasticity <np.office@wiley.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T18:57:01.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Pain Management - Invitation to Review Manuscript ID IPMT-2026-ST-0478",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T19:05:33.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder topic presentation: AO Spine KF Degenerative Fall meeting",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-22T05:02:55.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Vesicon 2026: What 500+ researchers asked us",
@@ -2064,41 +2099,6 @@
       "subject": "Invitation to Participate: Delphi Study for the face validation of SELECTION-AI Methodological Framework",
       "from": "Ana Maria Barragan Gonzalez <ana.barragan@urosario.edu.co>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T23:43:57.000Z",
-      "reason": "unrelated",
-      "subject": "Funds / Securities Balance",
-      "from": "BSE ALERTS <info@bseindia.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T01:47:44.000Z",
-      "reason": "unrelated",
-      "subject": "Proposal for Publishing National Orthobiologics Guidelines – IOACON 2026, Ahmedabad",
-      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T17:46:31.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your October Issue Alert",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T19:21:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "\"Influence of temperature and prey density of Tetranychus urticae on the functional response of the predatory mite Neoseiulus cucumeris\" is ready to read",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T13:00:14.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Helping landowners adapt to saltwater intrusion",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }

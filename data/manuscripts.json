@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T18:38:51.836Z",
+  "generatedAt": "2026-10-22T22:25:34.804Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -22170,6 +22170,78 @@
       ],
       "createdAt": "2026-03-11T19:08:41.000Z",
       "updatedAt": "2026-03-11T19:08:41.000Z"
+    },
+    {
+      "id": "role-of-extracellular-matrix-remodeling-in-diabetic-wound-healing",
+      "title": "Role of extracellular matrix remodeling in diabetic wound healing",
+      "titleNormalized": "role of extracellular matrix remodeling in diabetic wound healing",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
+      "currentJournal": "Diabetic Foot Ulcer: Molecular Mechanisms and Translational Strategies",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Revision requested",
+      "deadline": "2026-11-02T18:29:59.999Z",
+      "deadlineSource": "stated",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Diabetic Foot Ulcer: Molecular Mechanisms and Translational Strategies",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-22T19:51:48.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-22T19:51:48.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The reviewer requested a revision and the author must upload the revised manuscript within 10 days.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a1652b851b83d3d",
+                "messageId": "1a1652b851b83d3d",
+                "subject": "Diabetic Foot Ulcer: Molecular Mechanisms and Translational Strategies – Contribution: Role of extracellular matrix remodeling in diabetic wound healing",
+                "from": "\"Sent on behalf of Dr. Vikrant Rai\" <meteor.info@springer.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-22T19:51:48.000Z",
+          "journal": "Diabetic Foot Ulcer: Molecular Mechanisms and Translational Strategies",
+          "eventType": "revision_requested",
+          "manuscriptNumber": null,
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-11-02T18:29:59.999Z",
+            "source": "stated",
+            "basis": "10 days from the email"
+          },
+          "note": "The reviewer requested a revision and the author must upload the revised manuscript within 10 days.",
+          "source": {
+            "threadId": "1a1652b851b83d3d",
+            "messageId": "1a1652b851b83d3d",
+            "subject": "Diabetic Foot Ulcer: Molecular Mechanisms and Translational Strategies – Contribution: Role of extracellular matrix remodeling in diabetic wound healing",
+            "from": "\"Sent on behalf of Dr. Vikrant Rai\" <meteor.info@springer.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-22T19:51:48.000Z",
+      "updatedAt": "2026-10-22T19:51:48.000Z"
     },
     {
       "id": "sclerostin-inhibition-and-bone-anabolism-mapping-evidence-from-romosoz",
