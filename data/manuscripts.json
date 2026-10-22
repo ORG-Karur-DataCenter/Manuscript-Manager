@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:25:01.320Z",
+  "generatedAt": "2026-10-22T01:36:11.006Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -23368,14 +23368,14 @@
       "id": "substance-use-as-a-neglected-mental-health-priority-after-spinal-cord-",
       "title": "Substance use as a neglected mental health priority after spinal cord injury (SCI): a systematic review and meta-analysis of prevalence, psychosocial burden, and implications for integrated mental health services",
       "titleNormalized": "substance use as a neglected mental health priority after spinal cord injury sci a systematic review and meta analysis of prevalence psychosocial burden and implications for integrated mental health services",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Topics in Spinal Cord Injury Rehabilitation",
-      "currentManuscriptNumber": "SCIJOURNAL-D-26-00087R1",
-      "currentStatus": "Revision requested",
+      "currentManuscriptNumber": "SCIJOURNAL-D-26-00087R2",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -23409,10 +23409,10 @@
         },
         {
           "journal": "Topics in Spinal Cord Injury Rehabilitation",
-          "manuscriptNumber": "SCIJOURNAL-D-26-00087R1",
+          "manuscriptNumber": "SCIJOURNAL-D-26-00087R2",
           "submittedDate": "2026-09-01T19:30:34.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -23479,6 +23479,19 @@
                 "messageId": "1a15e67138d72bcb",
                 "subject": "RE: TSCIR / Your Submission",
                 "from": "Monica A Perez <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-22T01:26:34.000Z",
+              "eventType": "new_submission",
+              "revisionRound": 2,
+              "note": "The journal confirmed receipt of the author's revised manuscript.",
+              "manuscriptNumber": "SCIJOURNAL-D-26-00087R2",
+              "source": {
+                "threadId": "1a1613795dbeaae9",
+                "messageId": "1a1613795dbeaae9",
+                "subject": "RE: TSCIR / Submission Confirmation",
+                "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
               }
             }
           ]
@@ -23593,12 +23606,29 @@
             "from": "Monica A Perez <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-22T01:26:34.000Z",
+          "journal": "Topics in Spinal Cord Injury Rehabilitation",
+          "eventType": "new_submission",
+          "manuscriptNumber": "SCIJOURNAL-D-26-00087R2",
+          "label": "Submitted",
+          "revisionRound": 2,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the author's revised manuscript.",
+          "source": {
+            "threadId": "1a1613795dbeaae9",
+            "messageId": "1a1613795dbeaae9",
+            "subject": "RE: TSCIR / Submission Confirmation",
+            "from": "Topics in Spinal Cord Injury Rehabilitation <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-19T13:41:31.000Z",
-      "updatedAt": "2026-10-21T12:19:32.000Z",
-      "deadline": "2026-11-11T18:29:59.999Z",
-      "deadlineSource": "stated"
+      "updatedAt": "2026-10-22T01:26:34.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "systematic-review-and-meta-analysis-on-vitamin-c-in-musculoskeletal-di",
