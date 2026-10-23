@@ -555,6 +555,40 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the|2026-10-25T18:29:59.999Z|t-1",
+      "kind": "t-1",
+      "manuscriptId": "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the",
+      "title": "AO Spine Clinical Practice Recommendations for Interbody Fusion at the Lumbo-Sacral Junction",
+      "due": "2026-10-25T18:29:59.999Z",
+      "at": "2026-10-23T18:34:26.579Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "identification-of-therapeutic-targets-and-gene-expression-profiling-to|2026-10-27T18:29:59.999Z|t-3",
+      "kind": "t-3",
+      "manuscriptId": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
+      "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
+      "due": "2026-10-27T18:29:59.999Z",
+      "at": "2026-10-23T18:34:29.948Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -656,12 +690,12 @@
     },
     "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea": {
       "number": 26,
-      "title": "Amendment 17 days overdue — When do Bayesian age–period–cohort forecasts of Global Burden of Dise…",
+      "title": "Amendment 18 days overdue — When do Bayesian age–period–cohort forecasts of Global Burden of Dise…",
       "due": "2026-10-06T18:29:59.999Z"
     },
     "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the": {
       "number": 27,
-      "title": "Amendment 2 days left — AO Spine Clinical Practice Recommendations for Interbody Fusion at th…",
+      "title": "Amendment due tomorrow — AO Spine Clinical Practice Recommendations for Interbody Fusion at th…",
       "due": "2026-10-25T18:29:59.999Z",
       "closed": true
     },
@@ -673,7 +707,7 @@
     },
     "identification-of-therapeutic-targets-and-gene-expression-profiling-to": {
       "number": 29,
-      "title": "Amendment 4 days left — Identification of Therapeutic Targets and Gene Expression Profiling t…",
+      "title": "Amendment 3 days left — Identification of Therapeutic Targets and Gene Expression Profiling t…",
       "due": "2026-10-27T18:29:59.999Z"
     }
   }
