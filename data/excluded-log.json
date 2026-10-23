@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-23T13:00:48.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🏦 AI agents are inside US bank accounts",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T13:05:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Bringing bleached corals back to health",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T04:00:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Celebrating 10 Years of JISAKOS!",
+      "from": "ISAKOS <isakos@isakos.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T08:41:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What Are You Researching Today? | STM Digital Library",
+      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T10:48:29.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to peer review a new submission - Manuscript ID 4E55z6 - Academia Medicine and Health",
+      "from": "\"Academia.edu\" <updates@academia-mail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T12:00:42.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Artificial Intelligence in Healthcare",
+      "from": "Sulakshana Karkala <sulakshana.karkala@jove.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T12:46:02.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Request for correct Invoice",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T13:17:36.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "GSC 2027 - Abstract Review – Deadline: November 8, 2026",
+      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-22T12:28:52.000Z",
       "reason": "unrelated",
       "subject": "Saddam Kanaan recommended this article",
@@ -2042,62 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Just 3 days left to apply! Call for applications! AO Trauma Asia Pacific Regional Board Chairperson and AO Trauma Asia Pacific Research Committee Chairperson",
       "from": "AO Trauma <aotrauma@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T10:25:51.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Special waiver for prompt submission: 70% OFF on APC",
-      "from": "Open Journal of Cancer Research and Oncology <cancer@laurinpublishers.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T10:45:28.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from University of Auckland",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T11:24:24.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Submissions Open - International Journal of Advanced Radiology & Imaging Science",
-      "from": "\"International Journal Radiology & Imaging Science\" <jadvanceradiologyimaging@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T12:05:18.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Celebrating the 2026 Nobel Laureates in Physiology and Medicine and JoVE Authors",
-      "from": "JoVE Video <access@jove.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T12:29:01.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Invitation to Publish a Complete Book",
-      "from": "Book Author Support- Red Flower Publications <books@rfppl.co.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T14:04:31.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Cumulative Surgeon Volume Is Associated With Improved Outcomes Following Hip Arthroscopy",
-      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T16:13:36.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish Muthu, here's what's coming soon to Netflix",
-      "from": "Netflix <info@members.netflix.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T19:28:03.000Z",
-      "reason": "unrelated",
-      "subject": "Important Update: Declaration Required for US and Canada NRI Investments",
-      "from": "\"communication@quant.in\" <communication@quant.in>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
