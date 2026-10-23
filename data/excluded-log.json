@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-22T14:45:53.000Z",
+      "reason": "unrelated",
+      "subject": "Your next grant abroad? Understanding the opportunity and the competition",
+      "from": "LetPub <Research.communication@letpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-22T22:24:00.000Z",
+      "reason": "unrelated",
+      "subject": "👤 Someone at Meenakshi Academy of Higher Education and Research (MAHER) you may know",
+      "from": "Sridhar Chitathoor on LinkedIn <messages-noreply@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-22T14:29:43.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Now accepting submissions",
@@ -2084,20 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "October research, in focus 🔬",
       "from": "Biomolecules and Biomedicine <office@biomolbiomed.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T04:29:41.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Navigating 20 AI Use Cases in Healthcare: From Hype to Evidence!",
-      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-07T22:58:06.000Z",
-      "reason": "unrelated",
-      "subject": "Invitation to Participate: Delphi Study for the face validation of SELECTION-AI Methodological Framework",
-      "from": "Ana Maria Barragan Gonzalez <ana.barragan@urosario.edu.co>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
