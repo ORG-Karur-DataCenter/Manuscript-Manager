@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T01:34:21.764Z",
+  "generatedAt": "2026-10-23T07:42:37.500Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -22175,17 +22175,17 @@
       "id": "role-of-extracellular-matrix-remodeling-in-diabetic-wound-healing",
       "title": "Role of extracellular matrix remodeling in diabetic wound healing",
       "titleNormalized": "role of extracellular matrix remodeling in diabetic wound healing",
-      "bucket": "revisions_pending",
-      "needsReview": false,
-      "reviewReason": null,
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Diabetic Foot Ulcer: Molecular Mechanisms and Translational Strategies",
       "currentManuscriptNumber": null,
-      "currentStatus": "Revision requested",
-      "deadline": "2026-11-02T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -22215,6 +22215,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-23T05:31:08.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-23T05:31:08.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and will be checked before review",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a1673dd8e540e78",
+                "messageId": "1a1673dd8e540e78",
+                "subject": "Diabetic Foot Ulcer: Molecular Mechanisms and Translational Strategies – Submission Confirmation Email: Role of extracellular matrix remodeling in diabetic wound healing",
+                "from": "Albert Ebinesh <albert.ebinesh@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -22238,10 +22262,27 @@
             "from": "\"Sent on behalf of Dr. Vikrant Rai\" <meteor.info@springer.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-23T05:31:08.000Z",
+          "journal": "Springer",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and will be checked before review",
+          "source": {
+            "threadId": "1a1673dd8e540e78",
+            "messageId": "1a1673dd8e540e78",
+            "subject": "Diabetic Foot Ulcer: Molecular Mechanisms and Translational Strategies – Submission Confirmation Email: Role of extracellular matrix remodeling in diabetic wound healing",
+            "from": "Albert Ebinesh <albert.ebinesh@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-22T19:51:48.000Z",
-      "updatedAt": "2026-10-22T19:51:48.000Z"
+      "updatedAt": "2026-10-23T05:31:08.000Z"
     },
     {
       "id": "sclerostin-inhibition-and-bone-anabolism-mapping-evidence-from-romosoz",
@@ -25814,6 +25855,19 @@
                 "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:8fad396826327dba]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-23T05:47:51.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The journal reminded the author to submit a revised manuscript by Oct 26 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00301R1",
+              "source": {
+                "threadId": "1a1674d286767a6f",
+                "messageId": "1a1674d286767a6f",
+                "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:e9bbf77916d5d554]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
             }
           ]
         }
@@ -25894,10 +25948,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-23T05:47:51.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00301R1",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-10-26T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 26 2026 11:59PM"
+          },
+          "note": "The journal reminded the author to submit a revised manuscript by Oct 26 2026.",
+          "source": {
+            "threadId": "1a1674d286767a6f",
+            "messageId": "1a1674d286767a6f",
+            "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:e9bbf77916d5d554]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-02T14:45:34.000Z",
-      "updatedAt": "2026-10-19T05:56:43.000Z"
+      "updatedAt": "2026-10-23T05:47:51.000Z"
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",

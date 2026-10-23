@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-22T12:28:52.000Z",
+      "reason": "unrelated",
+      "subject": "Saddam Kanaan recommended this article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T05:40:46.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T05:55:04.000Z",
+      "reason": "unrelated",
+      "subject": "Request for Timely Completion of Manuscript Reviews",
+      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T06:22:52.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-52202] - [EMID:6cc1c09ca0fc8cae]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-22T14:45:53.000Z",
       "reason": "unrelated",
       "subject": "Your next grant abroad? Understanding the opportunity and the competition",
@@ -2070,34 +2098,6 @@
       "reason": "unrelated",
       "subject": "Important Update: Declaration Required for US and Canada NRI Investments",
       "from": "\"communication@quant.in\" <communication@quant.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T08:04:37.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Inside peer review: three Chief Editors on quality, openness and AI",
-      "from": "Frontiers Science News <communications@engage.frontiersin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T08:20:31.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Invitation to Participate: Delphi Study for the face validation of SELECTION-AI Methodological Framework",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T08:21:51.000Z",
-      "reason": "unrelated",
-      "subject": "One Academic Platform for Journals, E-Books, Theses & More",
-      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T08:33:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "October research, in focus 🔬",
-      "from": "Biomolecules and Biomedicine <office@biomolbiomed.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
