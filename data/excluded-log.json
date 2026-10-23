@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-23T09:30:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 23rd October 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T08:38:57.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4609131 - Review Request Reminder",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T13:44:54.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "[ONOS] Updated List of Journals for APC Support under ONOS",
+      "from": "ONOS NoReply <noreply-inf1@mail.inflibnet.ac.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T17:01:12.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Infiltrations Manuscript",
+      "from": "Andreas Demetriades <andreas.demetriades@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-23T19:21:20.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Invitation to Global Spine Congress 2027",
+      "from": "AO Foundation <noreply@mail.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-23T17:28:11.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Why Did We Stop Examining Our Patients?",
@@ -2063,41 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Have you registered for the webinar: Redefine the research experience",
       "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T05:30:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Registration Is Now Open! AO Trauma/ AO Recon Course—Comprehensive Periprosthetic Fracture Management of the Hip and Knee Course with Anatomical Specimens, Yogyakarta, Indonesia | November 16-18, 2026",
-      "from": "AO Foundation <news@communications.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T07:01:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New and future treatments for IgA nephropathy",
-      "from": "Giornale di Clinica Nefrologica e Dialisi <mailings@aboutscience.eu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T07:13:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Abstracts – Parekh IFAS Advanced Foot & Ankle Meeting 2027",
-      "from": "\"Advanced Foot & Ankle Meeting\" <info@marundeshwara.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T08:09:52.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to peer review a new submission - Manuscript ID vD15oD - Academia Immunity and Disease",
-      "from": "\"Academia.edu\" <updates@academia-mail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-08T22:57:22.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for Who writes and who decides: geographic representation of authors and editorial boards in 36 orthopaedic and spine journals",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
