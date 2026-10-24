@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-24T07:49:34.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-44599] - [EMID:318d67a89a0c4790]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-24T09:09:41.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation to Publish a Complete Book",
+      "from": "Book Author Support- Red Flower Publications <books@rfppl.co.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-24T09:52:50.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Expert Review of Vaccines - Manuscript ID IRME-2026-ST-0333",
+      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-24T10:41:13.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow-up: Invitation to Review for Journal of Investigative Surgery - Manuscript ID: UIVS-2026-0227",
+      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-24T10:50:02.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from Alexandria University",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-24T01:30:00.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "IOACON 2026 – Happy Hour Participation Details Submission",
@@ -2064,41 +2099,6 @@
       "subject": "🥺 Claude got a bill of rights",
       "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T10:00:52.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "The September issue of Global Spine Journal has been published",
-      "from": "Global Spine Journal <gsj@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T10:19:37.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "Manuscript Editing Invitation Reminder",
-      "from": "Frontiers in Endocrinology Editorial Office <endocrinology.editorial.office@frontiersin.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T10:42:01.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, an article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T11:38:37.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Medicine® Article MD-D-26-10661",
-      "from": "Medicine <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T12:01:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Reminder: Abstract Submission Deadline - 2027 Sports Conference in Athens, Greece",
-      "from": "Dr Nicholas Pappas <atiner@atiner-conferences.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
