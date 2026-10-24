@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-24T19:50:46.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AI Hopes and Fears: Mykel Kochenderfer",
+      "from": "\"Stanford Institute for Human-Centered Artificial Intelligence (HAI) via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-24T18:15:17.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE study",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-24T13:27:14.000Z",
       "reason": "forwarded_between_us",
       "subject": "Re: JOCR Article 11523 for review",
@@ -2085,20 +2099,6 @@
       "subject": "IHMEID: 6118 GBD 2023 Global Mental disorders in youth comments due October 12",
       "from": "GBD Secretariat <gbdsec@healthdata.org>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T09:40:38.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Breaking News: Navanethem “Navi” Pillay wins Nobel Peace Prize 2026",
-      "from": "The Hindu <news@newsalertth.thehindu.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T13:02:37.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Stanford athletes to watch",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
