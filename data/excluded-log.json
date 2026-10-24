@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-24T13:27:14.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: JOCR Article 11523 for review",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-24T07:49:34.000Z",
       "reason": "editorial_role_for_other_manuscript",
       "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-44599] - [EMID:318d67a89a0c4790]",
@@ -2091,13 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Stanford athletes to watch",
       "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T15:30:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🥺 Claude got a bill of rights",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
       "account": "dhibinvikash1@gmail.com"
     }
   ]
