@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-24T01:30:00.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "IOACON 2026 – Happy Hour Participation Details Submission",
+      "from": "ioacon 2026 <ioacon2026gujarat@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-24T02:00:11.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "WATCH & LEARN with ESSKA!",
+      "from": "ESSKA Educational Newsletter <academy@esska.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-24T04:30:56.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Webinar Invitation: Build Technology and Business Skills with OHE",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-23T20:20:51.000Z",
       "reason": "unrelated",
       "subject": "You can’t find happiness",
@@ -2078,27 +2099,6 @@
       "subject": "Reminder: Abstract Submission Deadline - 2027 Sports Conference in Athens, Greece",
       "from": "Dr Nicholas Pappas <atiner@atiner-conferences.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T13:01:57.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New evidence, debates, and insights in orthopaedics",
-      "from": "\"Clinical Orthopaedics and Related Research®\" <info@ovid.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T13:42:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "AI Is Scaling Research Fraud—How Publishers Are Fighting Back",
-      "from": "LetPub <Research.communication@letpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-09T04:40:28.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Career Guide In Digital Health And Healthcare AI",
-      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
