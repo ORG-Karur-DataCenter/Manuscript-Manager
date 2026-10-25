@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:53:41.232Z",
+  "generatedAt": "2026-10-25T14:25:07.101Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -5750,7 +5750,7 @@
       "actionLabel": null,
       "currentJournal": "Journal of Craniovertebral Junction and Spine",
       "currentManuscriptNumber": "jcvjs_246_26",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -5964,8 +5964,8 @@
           "journal": "Journal of Craniovertebral Junction and Spine",
           "manuscriptNumber": "jcvjs_246_26",
           "submittedDate": "2026-09-12T19:49:08.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -5979,6 +5979,19 @@
                 "threadId": "1a0972aa5ff432fe",
                 "messageId": "1a0972aa5ff432fe",
                 "subject": "jcvjs Author New Submission Acknowledgement letter: jcvjs_246_26",
+                "from": "Journal of Craniovertebral Junction and Spine <editor@jcvjs.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-25T10:46:03.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected.",
+              "manuscriptNumber": "jcvjs_246_26",
+              "source": {
+                "threadId": "1a172aae23bb3aa2",
+                "messageId": "1a172aae23bb3aa2",
+                "subject": "jcvjs Decision on your article:jcvjs_246_26",
                 "from": "Journal of Craniovertebral Junction and Spine <editor@jcvjs.com>"
               }
             }
@@ -6163,10 +6176,27 @@
             "from": "Journal of Craniovertebral Junction and Spine <editor@jcvjs.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-25T10:46:03.000Z",
+          "journal": "Journal of Craniovertebral Junction and Spine",
+          "eventType": "rejected",
+          "manuscriptNumber": "jcvjs_246_26",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected.",
+          "source": {
+            "threadId": "1a172aae23bb3aa2",
+            "messageId": "1a172aae23bb3aa2",
+            "subject": "jcvjs Decision on your article:jcvjs_246_26",
+            "from": "Journal of Craniovertebral Junction and Spine <editor@jcvjs.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-20T12:38:16.000Z",
-      "updatedAt": "2026-09-12T19:49:08.000Z",
+      "updatedAt": "2026-10-25T10:46:03.000Z",
       "deadline": null,
       "deadlineSource": null
     },

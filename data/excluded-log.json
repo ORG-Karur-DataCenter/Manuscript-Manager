@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-25T12:55:29.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, you were recently cited by an author from King Edward Medical University",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-25T04:51:24.000Z",
       "reason": "forwarded_between_us",
       "subject": "Re: SCOPE Study - Site Induction",
@@ -2092,13 +2099,6 @@
       "subject": "ET AI: China's new development plan includes AI safety goals",
       "from": "ET AI <newsletter@economictimesnews.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-10T04:56:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Strengthen Your Institution’s Digital Academic Ecosystem | STM Digital Library",
-      "from": "STM Journals <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
