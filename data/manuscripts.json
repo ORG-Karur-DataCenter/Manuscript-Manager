@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T04:49:37.840Z",
+  "generatedAt": "2026-10-25T09:53:41.232Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -15841,8 +15841,8 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Irish Journal of Medical Science",
-      "currentManuscriptNumber": "IJMS-D-26-03223",
+      "currentJournal": "World Journal of Clinical Cases",
+      "currentManuscriptNumber": "05395420",
       "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
@@ -15874,6 +15874,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "World Journal of Clinical Cases",
+          "manuscriptNumber": "05395420",
+          "submittedDate": "2026-10-25T05:05:25.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-25T05:05:25.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the author's submitted manuscript title and proposal.",
+              "manuscriptNumber": "05395420",
+              "source": {
+                "threadId": "1a17173069308205",
+                "messageId": "1a17173069308205",
+                "subject": "Number ID: 05395420 World Journal of Clinical Cases reply letter to confirm receipt of the submitted manuscript title",
+                "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -15892,10 +15916,29 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-25T05:05:25.000Z",
+          "journal": "World Journal of Clinical Cases",
+          "eventType": "new_submission",
+          "manuscriptNumber": "05395420",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the author's submitted manuscript title and proposal.",
+          "source": {
+            "threadId": "1a17173069308205",
+            "messageId": "1a17173069308205",
+            "subject": "Number ID: 05395420 World Journal of Clinical Cases reply letter to confirm receipt of the submitted manuscript title",
+            "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-21T05:51:45.000Z",
-      "updatedAt": "2026-08-21T05:51:45.000Z"
+      "updatedAt": "2026-10-25T05:05:25.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "management-and-prevention-of-iatrogenic-ipsilateral-femoral-neck-fract",
