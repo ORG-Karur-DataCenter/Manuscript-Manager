@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-25T16:55:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature Conferences and Research Seminars: Accelerating scientific progress",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-25T19:34:52.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-25T20:33:30.000Z",
+      "reason": "unrelated",
+      "subject": "Accepted: Spine Research Collaboration @ Mon Oct 26, 2026 7pm - 7:30pm (IST) (drsathishmuthu@gmail.com)",
+      "from": "Harsh Desai <hhd@udel.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-25T14:35:40.000Z",
       "reason": "predatory_solicitation",
       "subject": "Surgery | Ready to publish?",
@@ -2077,27 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "ijc Manuscript for review: ijc_625_26 Your comments are awaited",
       "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-11T06:13:41.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to Review Medicine® Article MD-D-26-10661",
-      "from": "Medicine <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-11T12:23:59.000Z",
-      "reason": "unrelated",
-      "subject": "View Amit Jain, MD MBA’s post and your next steps",
-      "from": "LinkedIn <messages-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-10T15:58:14.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🌍 MEET OUR INTERNATIONAL FACULTY | RAC 2026",
-      "from": "\"RAC 2026 : Revision Arthroplasty Conference\" <info@rac2026.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
