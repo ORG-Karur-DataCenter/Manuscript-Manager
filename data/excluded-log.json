@@ -1,6 +1,27 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-25T14:35:40.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Surgery | Ready to publish?",
+      "from": "Journal of International Medical Research <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-25T15:19:24.000Z",
+      "reason": "unrelated",
+      "subject": "Re: IONM Evidence based Recommendations",
+      "from": "Vibhu Krishnan <drvibu007@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-25T18:04:33.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Review invitation: Depression after Traumatic Brain Injury: A Structured...",
+      "from": "\"Pierluigi Zoccolotti (Via FrontiersIn)\" <noreply@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-25T12:55:29.000Z",
       "reason": "unrelated",
       "subject": "Sathish, you were recently cited by an author from King Edward Medical University",
@@ -2078,27 +2099,6 @@
       "subject": "🌍 MEET OUR INTERNATIONAL FACULTY | RAC 2026",
       "from": "\"RAC 2026 : Revision Arthroplasty Conference\" <info@rac2026.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-10T10:24:32.000Z",
-      "reason": "unrelated",
-      "subject": "Re: AO Spine FOCUS Study (October Newsletter)",
-      "from": "Christopher Martin <mart1865@umn.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-10T10:56:35.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Burdur Mehmet Akif Ersoy University",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-10T02:34:55.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "ET AI: China's new development plan includes AI safety goals",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
