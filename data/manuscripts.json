@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T06:24:04.400Z",
+  "generatedAt": "2026-10-26T14:30:14.331Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -8010,29 +8010,30 @@
       "id": "evaluating-large-language-models-for-patient-facing-total-knee-arthrop-3",
       "title": "Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score",
       "titleNormalized": "evaluating large language models for patient facing total knee arthroplasty information in knee osteoarthritis development and application of the composite clinical reliability score",
-      "bucket": "in_review",
+      "bucket": "published",
       "needsReview": true,
       "reviewReason": "Title closely resembles \"Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score (CCRS)\" (0.99). Confirm these are different papers.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Journal of Arthroplasty",
-      "currentManuscriptNumber": "JOA-D-26-01135R5",
-      "currentStatus": "Submitted",
+      "currentJournal": "The Journal of Arthroplasty",
+      "currentManuscriptNumber": "YARTH62989",
+      "currentStatus": "Published",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
           "journal": "The Journal of Arthroplasty",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "YARTH62989",
           "submittedDate": "2026-10-21T04:43:41.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "published",
+          "status": "published",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -8047,6 +8048,19 @@
                 "messageId": "1a15cc5ae7581252",
                 "subject": "The PDF of your article has been built and requires approval",
                 "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-26T13:25:29.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "The author's article has been accepted and published, with the rights and access form completed.",
+              "manuscriptNumber": "YARTH62989",
+              "source": {
+                "threadId": "1a178633649da4b0",
+                "messageId": "1a178633649da4b0",
+                "subject": "Rights and Access form Completed form for your article [YARTH_62989]",
+                "from": "Elsevier - Author Forms <oasupport@elsevier.com>"
               }
             }
           ]
@@ -8071,6 +8085,30 @@
                 "messageId": "1a15ccdd6be94e3d",
                 "subject": "Submission Confirmation for JOA-D-26-01135R5",
                 "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Elsevier",
+          "manuscriptNumber": "YARTH62989",
+          "submittedDate": "2026-10-26T13:25:20.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-26T13:25:20.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The author's article has been accepted and the publishing agreement has been completed.",
+              "manuscriptNumber": "YARTH62989",
+              "source": {
+                "threadId": "1a17863129588daa",
+                "messageId": "1a17863129588daa",
+                "subject": "Publishing Agreement completed for your article [YARTH_62989]",
+                "from": "Elsevier - Author Forms <Article_Status@elsevier.com>"
               }
             }
           ]
@@ -8110,10 +8148,44 @@
             "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-26T13:25:20.000Z",
+          "journal": "Elsevier",
+          "eventType": "accepted",
+          "manuscriptNumber": "YARTH62989",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's article has been accepted and the publishing agreement has been completed.",
+          "source": {
+            "threadId": "1a17863129588daa",
+            "messageId": "1a17863129588daa",
+            "subject": "Publishing Agreement completed for your article [YARTH_62989]",
+            "from": "Elsevier - Author Forms <Article_Status@elsevier.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-26T13:25:29.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "published",
+          "manuscriptNumber": "YARTH62989",
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's article has been accepted and published, with the rights and access form completed.",
+          "source": {
+            "threadId": "1a178633649da4b0",
+            "messageId": "1a178633649da4b0",
+            "subject": "Rights and Access form Completed form for your article [YARTH_62989]",
+            "from": "Elsevier - Author Forms <oasupport@elsevier.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-21T04:52:35.000Z",
-      "updatedAt": "2026-10-21T04:52:35.000Z"
+      "updatedAt": "2026-10-26T13:25:29.000Z"
     },
     {
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
@@ -25918,13 +25990,13 @@
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision 1 requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00301R1",
       "currentStatus": "Revision requested",
-      "deadline": "2026-10-26T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -26016,6 +26088,19 @@
                 "threadId": "1a176c10a574019b",
                 "messageId": "1a176c10a574019b",
                 "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:755762cd1078d455]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-26T13:10:40.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The journal extended the submission deadline for the author's manuscript to Nov 02 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00301R1",
+              "source": {
+                "threadId": "1a17855a2614dfba",
+                "messageId": "1a17855a2614dfba",
+                "subject": "Extension for JBJS Open Access Manuscript (JBJSOA-D-26-00301R1)",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -26140,10 +26225,27 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-26T13:10:40.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": "JBJSOA-D-26-00301R1",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal extended the submission deadline for the author's manuscript to Nov 02 2026.",
+          "source": {
+            "threadId": "1a17855a2614dfba",
+            "messageId": "1a17855a2614dfba",
+            "subject": "Extension for JBJS Open Access Manuscript (JBJSOA-D-26-00301R1)",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-02T14:45:34.000Z",
-      "updatedAt": "2026-10-26T05:48:44.000Z"
+      "updatedAt": "2026-10-26T13:10:40.000Z"
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
