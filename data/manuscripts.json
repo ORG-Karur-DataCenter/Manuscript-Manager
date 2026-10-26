@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:25:53.745Z",
+  "generatedAt": "2026-10-26T06:24:04.400Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -26005,6 +26005,19 @@
                 "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:e9bbf77916d5d554]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-26T05:48:44.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The journal reminded the author that a revised manuscript is due by Oct 26 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00301R1",
+              "source": {
+                "threadId": "1a176c10a574019b",
+                "messageId": "1a176c10a574019b",
+                "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:755762cd1078d455]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
             }
           ]
         }
@@ -26106,10 +26119,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-26T05:48:44.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00301R1",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-10-26T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Oct 26 2026 11:59PM"
+          },
+          "note": "The journal reminded the author that a revised manuscript is due by Oct 26 2026.",
+          "source": {
+            "threadId": "1a176c10a574019b",
+            "messageId": "1a176c10a574019b",
+            "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:755762cd1078d455]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-02T14:45:34.000Z",
-      "updatedAt": "2026-10-23T05:47:51.000Z"
+      "updatedAt": "2026-10-26T05:48:44.000Z"
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
