@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T14:30:14.331Z",
+  "generatedAt": "2026-10-26T20:41:03.655Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -8090,6 +8090,30 @@
           ]
         },
         {
+          "journal": "The Journal of Arthroplasty",
+          "manuscriptNumber": "YARTH_JOA-D-26-01135",
+          "submittedDate": "2026-10-26T12:44:25.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-26T12:44:25.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The author's accepted article is now in production and they are asked to complete author forms.",
+              "manuscriptNumber": "YARTH_JOA-D-26-01135",
+              "source": {
+                "threadId": "1a1783fc07b6524d",
+                "messageId": "1a1783fc07b6524d",
+                "subject": "IMPORTANT PLEASE TAKE ACTION, Production has begun on your article [YARTH_62989] in The Journal of Arthroplasty",
+                "from": "g.karnan@elsevier.com"
+              }
+            }
+          ]
+        },
+        {
           "journal": "Elsevier",
           "manuscriptNumber": "YARTH62989",
           "submittedDate": "2026-10-26T13:25:20.000Z",
@@ -8146,6 +8170,23 @@
             "messageId": "1a15ccdd6be94e3d",
             "subject": "Submission Confirmation for JOA-D-26-01135R5",
             "from": "The Journal Of Arthroplasty <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-26T12:44:25.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "accepted",
+          "manuscriptNumber": "YARTH_JOA-D-26-01135",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's accepted article is now in production and they are asked to complete author forms.",
+          "source": {
+            "threadId": "1a1783fc07b6524d",
+            "messageId": "1a1783fc07b6524d",
+            "subject": "IMPORTANT PLEASE TAKE ACTION, Production has begun on your article [YARTH_62989] in The Journal of Arthroplasty",
+            "from": "g.karnan@elsevier.com"
           },
           "needsReview": false
         },
