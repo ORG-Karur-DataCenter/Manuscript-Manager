@@ -1,6 +1,13 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-26T00:08:53.000Z",
+      "reason": "unrelated",
+      "subject": "Number ID: 05395420 Acceptance of invitation to contribute manuscripts to the World Journal of Clinical Cases",
+      "from": "BPG Editorial Office <editorialoffice@wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-25T16:55:23.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Nature Conferences and Research Seminars: Accelerating scientific progress",
@@ -2091,13 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Re: Authorship",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-11T17:42:04.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "ijc Manuscript for review: ijc_625_26 Your comments are awaited",
-      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
