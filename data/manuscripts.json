@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T13:32:31.108Z",
+  "generatedAt": "2026-10-27T19:35:00.777Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -10085,6 +10085,19 @@
                 "subject": "Re: Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
                 "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-27T13:20:00.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "Permissions have been cleared and the manuscript is now moving to plagiarism checking",
+              "manuscriptNumber": "89610755",
+              "source": {
+                "threadId": "19ee60d233f7db1d",
+                "messageId": "1a17d8499c7a19de",
+                "subject": "Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+                "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+              }
             }
           ]
         }
@@ -10165,10 +10178,27 @@
             "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T13:20:00.000Z",
+          "journal": "Springer Nature",
+          "eventType": "other",
+          "manuscriptNumber": "89610755",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Permissions have been cleared and the manuscript is now moving to plagiarism checking",
+          "source": {
+            "threadId": "19ee60d233f7db1d",
+            "messageId": "1a17d8499c7a19de",
+            "subject": "Your springer book_89610755_Jeyaraman_Gut Microbiome & Regenerative Medicine_697636_Queries to the Author",
+            "from": "Neeraja Padmanabhan <neeraja.padmanabhan@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-09T12:51:02.000Z",
-      "updatedAt": "2026-09-10T15:40:00.000Z"
+      "updatedAt": "2026-10-27T13:20:00.000Z"
     },
     {
       "id": "gut-microbiota-penile-axis-in-erectile-dysfunction-mechanism-clinical-",

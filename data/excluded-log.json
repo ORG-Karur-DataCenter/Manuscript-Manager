@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-27T06:47:34.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-52905] - [EMID:36b83937cb86f6dd]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T13:21:57.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New Issue Online - eTOC for November 2026 issue",
+      "from": "Indian Journal of Medical Research <etoc@scientificscholar.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T13:46:32.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Just Published: What's New in Orthopaedics",
+      "from": "\"Clinical Orthopaedics and Related Research®\" <lww@sci.scientific-direct.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T13:51:09.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Informatics for Health and Social Care - Invitation to Review Manuscript ID IHSC-2026-1901",
+      "from": "Informatics for Health and Social Care <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T14:26:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "SPINEsim Case Lab #3 Registration link - Back on Tour : Targeted Minimally Invasive Surgery",
+      "from": "William Dore <William.Dore@mdsim.health>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T17:59:06.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Global Spine Journal - Decision on Manuscript ID GSJ-26-1103",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T18:24:00.000Z",
+      "reason": "unrelated",
+      "subject": "I want to connect",
+      "from": "Danielle Lieberman-Kieval <invitations@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T18:24:16.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Request to review Manuscript \"ANAMS_232_2026\"",
+      "from": "\"Annals of the National Academy of Medical Sciences (India)\" <no-reply@editorialassist.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-27T12:20:50.000Z",
       "reason": "unrelated",
       "subject": "Dhibin Vikash, did this researcher author this publication?",
@@ -2042,62 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "GBD Collaborator Newsletter, October 2026 Issue",
       "from": "GBD Collaborator Newsletter <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T20:40:24.000Z",
-      "reason": "unrelated",
-      "subject": "AI Transformation Consultant: Get Ahead on This Business-Critical Curve",
-      "from": "IBM <no-reply@m.send.coursera.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T09:37:13.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Number ID: 05395420 World Journal of Clinical Cases Article Quality Tracking-Peer Review for Volume 14 Issue 27 2026-09-26",
-      "from": "\"BPG Invitation (Ma LS)\" <invitation@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T11:02:44.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T17:53:27.000Z",
-      "reason": "unrelated",
-      "subject": "Request for expedited institute activation – five-institute consortium proposal – Microbiome Call, Public Health and Nutrition Division (last date 15-10-2026)",
-      "from": "PC Lekha <dr.lekhapc@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T22:07:37.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New Issue: Journal of ISAKOS - October 2026 Volume 20",
-      "from": "ISAKOS <isakos@isakos.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T10:15:47.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Asbjørn Hróbjartsson published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T13:01:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Revisiting a vanished village",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T07:15:27.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Manuscript preparation for publication",
-      "from": "\"Dr.ZAHRA KAZMI\" <dr.zahra@scholarlymanuscript.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
