@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-27T00:37:17.000Z",
+      "reason": "unrelated",
+      "subject": "Research Ethics - Account Created in ScholarOne Manuscripts",
+      "from": "Research Ethics <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T01:02:48.000Z",
+      "reason": "unrelated",
+      "subject": "IHME ID: 6241 GBD 2023 Global Total Diabetes comments due Nov 2",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T01:25:52.000Z",
+      "reason": "unrelated",
+      "subject": "[JFB] Manuscript ID: jfb-4634669 - Reviewer Comments on Language and Figures",
+      "from": "authorservices@mdpi.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T04:13:35.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4581359 - Review Request Cancelled",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T04:25:17.000Z",
+      "reason": "unrelated",
+      "subject": "Funds / Securities Balance",
+      "from": "BSE ALERTS <info@bseindia.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T05:31:11.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "[Last Call for Webinar] : Cite Smart with AI",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T06:06:44.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One Reminder of Active Assignments - [EMID:a39c62051bd91aad]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-26T15:33:10.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Top 5 News In Digital Health And Healthcare AI This Week",
@@ -2050,55 +2099,6 @@
       "subject": "Funds / Securities Balance",
       "from": "BSE ALERTS <info@bseindia.in>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T08:31:28.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reviewer’s Code: 05395420 - Manuscript peer review invitation for World Journal of Stem Cells Manuscript NO: 128898",
-      "from": "\"j.l.zhang@wjgnet.com\" <j.l.zhang@wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T08:46:24.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Reminder - [Cancers, IF 4.8] Invitation to Publish a Paper in Cancers",
-      "from": "Jenny Zhang <jenny.zhang@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-12T21:33:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest Issue from World Journal of Emergency Medicine",
-      "from": "World Journal of Emergency Medicine <GGO@webofscience-authorconnect.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-12T22:25:40.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Naïve baselines outperform Bayesian age–period–cohort forecasts of Global Burden of Disease estimates: an out-of-sample evaluation of low back pain in India",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T02:02:58.000Z",
-      "reason": "unrelated",
-      "subject": "RE: RoB",
-      "from": "\"Juan Pablo Cabrera Cousiño\" <JUCABRERA@udec.cl>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-12T08:18:44.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Submissions",
-      "from": "\"City & Community\" <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-12T14:00:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Robert E. Hall awarded Nobel Memorial Prize",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }

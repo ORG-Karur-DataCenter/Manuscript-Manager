@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T00:32:57.054Z",
+  "generatedAt": "2026-10-27T06:28:05.580Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -11709,8 +11709,8 @@
       "bucket": "needs_action",
       "needsReview": true,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Cells",
       "currentManuscriptNumber": "cells-4664892",
       "currentStatus": "Sent back for edits",
@@ -11816,7 +11816,7 @@
           "journal": "Stem Cell Research & Therapy",
           "manuscriptNumber": null,
           "submittedDate": "2026-05-17T09:44:15.000Z",
-          "outcome": "active",
+          "outcome": "transferred",
           "status": "sent_back",
           "doi": null,
           "publicationLink": null,
@@ -11880,7 +11880,7 @@
           "journal": "Cell and Tissue Research",
           "manuscriptNumber": null,
           "submittedDate": "2026-07-15T13:09:21.000Z",
-          "outcome": "active",
+          "outcome": "transferred",
           "status": "sent_back",
           "doi": null,
           "publicationLink": null,
@@ -11905,7 +11905,7 @@
           "journal": "Cartilage",
           "manuscriptNumber": "CART-26-0147",
           "submittedDate": "2026-07-22T17:30:17.000Z",
-          "outcome": "active",
+          "outcome": "transferred",
           "status": "new_submission",
           "doi": null,
           "publicationLink": null,
@@ -11979,7 +11979,7 @@
           "journal": "Springer Nature",
           "manuscriptNumber": null,
           "submittedDate": "2026-09-16T07:50:37.000Z",
-          "outcome": "active",
+          "outcome": "transferred",
           "status": "new_submission",
           "doi": null,
           "publicationLink": null,
@@ -12114,7 +12114,7 @@
           "journal": "Cells",
           "manuscriptNumber": "cells-4664892",
           "submittedDate": "2026-10-16T07:57:09.000Z",
-          "outcome": "active",
+          "outcome": "transferred",
           "status": "sent_back",
           "doi": null,
           "publicationLink": null,
@@ -12143,6 +12143,54 @@
                 "messageId": "1a148cf4cccf71fd",
                 "subject": "[Cells] Manuscript ID: cells-4664892 - Additional Experiment Required",
                 "from": "Cells Editorial Office <cells@mdpi.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "CIMB",
+          "manuscriptNumber": "cimb-4664892",
+          "submittedDate": "2026-10-27T01:44:36.000Z",
+          "outcome": "active",
+          "status": "transferred",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-27T01:44:36.000Z",
+              "eventType": "transferred",
+              "revisionRound": null,
+              "note": "Your manuscript was transferred from Cells to CIMB and will be processed by the CIMB editorial team.",
+              "manuscriptNumber": "cimb-4664892",
+              "source": {
+                "threadId": "1a17b07e4df46acc",
+                "messageId": "1a17b07e4df46acc",
+                "subject": "Successful Transfer of Your Manuscript cells-4664892 to CIMB cimb-4664892",
+                "from": "cells@mdpi.com"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Current Issues in Molecular Biology",
+          "manuscriptNumber": "cimb-4664892",
+          "submittedDate": "2026-10-27T02:56:54.000Z",
+          "outcome": "transferred",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-27T02:56:54.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of a new manuscript and requested the co-author to confirm authorship.",
+              "manuscriptNumber": "cimb-4664892",
+              "source": {
+                "threadId": "1a17b4a1790c0aed",
+                "messageId": "1a17b4a1790c0aed",
+                "subject": "[CIMB] Manuscript ID: cimb-4664892 - Co-Authorship Confirmation",
+                "from": "CIMB Editorial Office <cimb@mdpi.com>"
               }
             }
           ]
@@ -12498,12 +12546,63 @@
             "from": "Cells Editorial Office <cells@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T01:44:36.000Z",
+          "journal": "CIMB",
+          "eventType": "transferred",
+          "manuscriptNumber": "cimb-4664892",
+          "label": "Transferred to another journal",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your manuscript was transferred from Cells to CIMB and will be processed by the CIMB editorial team.",
+          "source": {
+            "threadId": "1a17b07e4df46acc",
+            "messageId": "1a17b07e4df46acc",
+            "subject": "Successful Transfer of Your Manuscript cells-4664892 to CIMB cimb-4664892",
+            "from": "cells@mdpi.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T02:56:54.000Z",
+          "journal": "Current Issues in Molecular Biology",
+          "eventType": "new_submission",
+          "manuscriptNumber": "cimb-4664892",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of a new manuscript and requested the co-author to confirm authorship.",
+          "source": {
+            "threadId": "1a17b4a1790c0aed",
+            "messageId": "1a17b4a1790c0aed",
+            "subject": "[CIMB] Manuscript ID: cimb-4664892 - Co-Authorship Confirmation",
+            "from": "CIMB Editorial Office <cimb@mdpi.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T03:01:01.000Z",
+          "journal": "CIMB",
+          "eventType": "other",
+          "manuscriptNumber": "cimb-4664892",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was transferred to a Special Issue, with no change to its handling or review timeline.",
+          "source": {
+            "threadId": "1a17b4dd8ca16b7b",
+            "messageId": "1a17b4dd8ca16b7b",
+            "subject": "[CIMB] Manuscript ID: cimb-4664892 - Will Process Your Manuscript in Special Issue",
+            "from": "CIMB Editorial Office <cimb@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-10-17T07:41:47.000Z",
-      "deadline": "2026-10-27T18:29:59.999Z",
-      "deadlineSource": "assumed",
+      "updatedAt": "2026-10-27T03:01:01.000Z",
+      "deadline": null,
+      "deadlineSource": null,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
     },
     {
@@ -15786,17 +15885,17 @@
       "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
       "title": "Laponite Nanocomposite Hydrogels for Bone Tissue Engineering: A Critical Review of Bioactivity and Translational Perspectives",
       "titleNormalized": "laponite nanocomposite hydrogels for bone tissue engineering a critical review of bioactivity and translational perspectives",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision  requested",
       "currentJournal": "Journal of Functional Biomaterials",
       "currentManuscriptNumber": "jfb-4634669",
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentStatus": "Revision requested",
+      "deadline": "2026-11-04T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -15808,7 +15907,7 @@
           "manuscriptNumber": "jfb-4634669",
           "submittedDate": "2026-10-01T21:39:06.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -15848,6 +15947,19 @@
                 "threadId": "1a1431697f977052",
                 "messageId": "1a1431697f977052",
                 "subject": "[JFB] Manuscript ID: jfb-4634669 - Article Processing Charge Confirmation",
+                "from": "JFB Editorial Office <jfb@mdpi.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-27T01:25:52.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The manuscript was returned with major revision requests and the author must submit a revised version within 8 days (by 4 November).",
+              "manuscriptNumber": "jfb-4634669",
+              "source": {
+                "threadId": "1a17af6bcb6d3b8f",
+                "messageId": "1a17af6bcb6d3b8f",
+                "subject": "[JFB] Manuscript ID: jfb-4634669 - Major Revision (Due Date 4 November)",
                 "from": "JFB Editorial Office <jfb@mdpi.com>"
               }
             }
@@ -15905,10 +16017,31 @@
             "from": "JFB Editorial Office <jfb@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T01:25:52.000Z",
+          "journal": "Journal of Functional Biomaterials",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "jfb-4634669",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-04T18:29:59.999Z",
+            "source": "stated",
+            "basis": "4 November"
+          },
+          "note": "The manuscript was returned with major revision requests and the author must submit a revised version within 8 days (by 4 November).",
+          "source": {
+            "threadId": "1a17af6bcb6d3b8f",
+            "messageId": "1a17af6bcb6d3b8f",
+            "subject": "[JFB] Manuscript ID: jfb-4634669 - Major Revision (Due Date 4 November)",
+            "from": "JFB Editorial Office <jfb@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-01T21:39:06.000Z",
-      "updatedAt": "2026-10-16T05:01:55.000Z"
+      "updatedAt": "2026-10-27T01:25:52.000Z"
     },
     {
       "id": "letter-to-the-editor-intradiscal-platelet-rich-plasma-for-discogenic-l",

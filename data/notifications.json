@@ -742,7 +742,8 @@
     "identification-of-therapeutic-targets-and-gene-expression-profiling-to": {
       "number": 29,
       "title": "Amendment due today — Identification of Therapeutic Targets and Gene Expression Profiling t…",
-      "due": "2026-10-27T18:29:59.999Z"
+      "due": "2026-10-27T18:29:59.999Z",
+      "closed": true
     }
   }
 }
