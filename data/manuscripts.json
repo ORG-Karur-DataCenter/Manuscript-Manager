@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T19:35:00.777Z",
+  "generatedAt": "2026-10-27T23:53:11.798Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -4083,8 +4083,8 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "The Spine Journal",
-      "currentManuscriptNumber": null,
+      "currentJournal": "Journal of Neurosurgery: Spine",
+      "currentManuscriptNumber": "SPINE26-1052",
       "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
@@ -4116,6 +4116,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Journal of Neurosurgery: Spine",
+          "manuscriptNumber": "SPINE26-1052",
+          "submittedDate": "2026-10-27T21:58:11.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-27T21:58:11.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Your manuscript was successfully submitted and received by the journal.",
+              "manuscriptNumber": "SPINE26-1052",
+              "source": {
+                "threadId": "1a17f5ef75696429",
+                "messageId": "1a17f5ef75696429",
+                "subject": "Your Journal of Neurosurgery: Spine submission - SPINE26-1052",
+                "from": "jnsspine@msubmit.net"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -4134,10 +4158,29 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T21:58:11.000Z",
+          "journal": "Journal of Neurosurgery: Spine",
+          "eventType": "new_submission",
+          "manuscriptNumber": "SPINE26-1052",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your manuscript was successfully submitted and received by the journal.",
+          "source": {
+            "threadId": "1a17f5ef75696429",
+            "messageId": "1a17f5ef75696429",
+            "subject": "Your Journal of Neurosurgery: Spine submission - SPINE26-1052",
+            "from": "jnsspine@msubmit.net"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-04-02T11:13:31.000Z",
-      "updatedAt": "2026-04-02T11:13:31.000Z"
+      "updatedAt": "2026-10-27T21:58:11.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "complication-mitigation-in-robot-assisted-spine-surgery-a-narrative-re",

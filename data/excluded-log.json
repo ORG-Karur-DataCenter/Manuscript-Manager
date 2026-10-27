@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-27T20:17:28.000Z",
+      "reason": "unrelated",
+      "subject": "You have a new registration draft",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T13:31:16.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for your comments on the IHME ID: 6241 - GBD 2023 Global Total Diabetes paper",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T20:36:04.000Z",
+      "reason": "unrelated",
+      "subject": "Pending Embargo - Admin Notification",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T21:00:25.000Z",
+      "reason": "unrelated",
+      "subject": "Pending Embargo - Admin Notification",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T21:16:01.000Z",
+      "reason": "unrelated",
+      "subject": "Pending Embargo - Admin Notification",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T21:33:22.000Z",
+      "reason": "unrelated",
+      "subject": "Pending Embargo - Admin Notification",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T22:05:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "\"Illustrated catalogue of the type Asteroidea in the Natural History Museum, London. Part II. Valvatacea: Paxillosida.\" is ready to read",
+      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-27T06:47:34.000Z",
       "reason": "editorial_role_for_other_manuscript",
       "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-52905] - [EMID:36b83937cb86f6dd]",
@@ -2049,55 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Diagnostic Accuracy of IONM - Umbrella Review",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T04:51:36.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:aed124d6e7c2565f]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T05:07:06.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Action Required: Ethics Approval Upload for SurgWeek-2 Study",
-      "from": "Globalsurg India <globalsurgindia@cmcludhiana.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T05:19:43.000Z",
-      "reason": "unrelated",
-      "subject": "New class scheduled: Class 2 · Structuring Manuscripts for High-Impact Journals — 14 Oct, 6:50 PM",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T06:40:03.000Z",
-      "reason": "unrelated",
-      "subject": "Gentle Reminder: Review Assignments and Availability",
-      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T07:39:51.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to review",
-      "from": "Editor <mia@office.cultechpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T00:08:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "US Cracks Down On Mail-Order Canadian Drugs: What To Know",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T00:00:40.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "GBD Collaborator Newsletter, October 2026 Issue",
-      "from": "GBD Collaborator Newsletter <gbdsec@healthdata.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
