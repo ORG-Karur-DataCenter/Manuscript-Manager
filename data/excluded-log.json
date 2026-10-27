@@ -1,6 +1,111 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-27T12:20:50.000Z",
+      "reason": "unrelated",
+      "subject": "Dhibin Vikash, did this researcher author this publication?",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T13:04:29.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What DNA reveals about Hawaii’s settlement",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-26T16:24:00.000Z",
+      "reason": "unrelated",
+      "subject": "I want to connect",
+      "from": "Paras Gautam <invitations@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T01:15:32.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-50240] - [EMID:02a1f4a01b6d7950]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T07:29:56.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🟠RFCSR | Academic Scientific Community Update",
+      "from": "\"Dr. Christine Thomas\" <christine.thomas@rfcsr.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T09:02:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T10:50:53.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a recent article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T11:02:42.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Latest news and upcoming events",
+      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T11:34:06.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T11:53:59.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: JOCR Article 11523 for review",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T12:04:32.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Re: JOCR Article 11523 for review",
+      "from": "Nutan Saroj <sarojnutan@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T12:15:37.000Z",
+      "reason": "unrelated",
+      "subject": "You have a new registration draft.",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T00:12:54.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 127704 for World Journal of Gastroenterology (Reviewer’s Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T13:06:18.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Invitation to Collaborate with JARMAI",
+      "from": "assistant editor <AE@timewellpress.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T13:05:24.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "IRJPMS:: Inviting paper for Publication: Volume 9 Issue 6: 2026",
+      "from": "IRJPMS Editor <irjpms@yahoo.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-27T00:37:17.000Z",
       "reason": "unrelated",
       "subject": "Research Ethics - Account Created in ScholarOne Manuscripts",
@@ -1993,111 +2098,6 @@
       "reason": "predatory_solicitation",
       "subject": "Manuscript preparation for publication",
       "from": "\"Dr.ZAHRA KAZMI\" <dr.zahra@scholarlymanuscript.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T09:02:31.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Recon - Latest news and upcoming events <aorecon@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T10:03:19.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T10:19:03.000Z",
-      "reason": "unrelated",
-      "subject": "AO Spine KF Degenerative Fall meeting reminder and proposed agenda",
-      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T14:02:40.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "RE-Follow-up on your article",
-      "from": "Journal of Orthopaedic Science and Research <orthopaedicres@athenaeumpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T14:32:56.000Z",
-      "reason": "unrelated",
-      "subject": "👤 Someone at Gowtham Multi-specialty Hospital you may know",
-      "from": "Ajay Gowtham on LinkedIn <messages-noreply@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T15:40:05.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Regenerative Medicine - Invitation to Review Manuscript ID IRME-2026-ST-0333",
-      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T15:57:30.000Z",
-      "reason": "unrelated",
-      "subject": "Dr. Dr. Sathish Muthu| Your IOA Details & My Treasurer Candidature",
-      "from": "drsanjaychaturvedi@gmail.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T16:44:27.000Z",
-      "reason": "unrelated",
-      "subject": "Confirmed: Your October 16 – 18 trip, here’s your Airbnb receipt",
-      "from": "Airbnb <automated@airbnb.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T16:49:51.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Clavicle Fracture topic for BMJ Best Practice",
-      "from": "Julie Phukan <jphukan@bmj.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T02:37:22.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "ET AI: AI startup Sarvam in talks for $300 million topup; valuation may double to $3 billion",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T04:56:20.000Z",
-      "reason": "unrelated",
-      "subject": "Open Your Academic World — Register  on STM Digital Library",
-      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T05:04:19.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: RoB",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T05:30:41.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Have you registered for the webinar: Cite Smart with AI",
-      "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T06:08:38.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One Reminder of Active Assignments - [EMID:db0a6c8f499f07fe]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-13T06:53:20.000Z",
-      "reason": "unrelated",
-      "subject": "Funds / Securities Balance",
-      "from": "BSE ALERTS <info@bseindia.in>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T06:28:05.580Z",
+  "generatedAt": "2026-10-27T13:32:31.108Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -10248,9 +10248,9 @@
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Scientometrics",
-      "currentManuscriptNumber": "8263f122-f518-455e-af79-f264a5b2ae77",
-      "currentStatus": "Rejected",
+      "currentJournal": "Humanities and Social Sciences Communications",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -10278,6 +10278,19 @@
               "source": {
                 "threadId": "1a110aca89ca7c18",
                 "messageId": "1a111757d6df8f96",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-27T13:06:24.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgment was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a17d78188aa74e7",
+                "messageId": "1a17d78188aa74e7",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -10317,6 +10330,30 @@
                 "messageId": "1a15883e71f8c71e",
                 "subject": "Decision on your submission to Scientometrics",
                 "from": "Scientometrics <jeevitha.a@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Humanities and Social Sciences Communications",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-27T13:10:51.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-27T13:10:51.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author’s manuscript was received and a dashboard for tracking its status was provided.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a17d7c2b48facb2",
+                "messageId": "1a17d7c2b48facb2",
+                "subject": "Track the status of your submission to Humanities and Social Sciences Communications",
+                "from": "info@researchsquare.com"
               }
             }
           ]
@@ -10373,10 +10410,44 @@
             "from": "Scientometrics <jeevitha.a@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T13:06:24.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgment was sent.",
+          "source": {
+            "threadId": "1a17d78188aa74e7",
+            "messageId": "1a17d78188aa74e7",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T13:10:51.000Z",
+          "journal": "Humanities and Social Sciences Communications",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author’s manuscript was received and a dashboard for tracking its status was provided.",
+          "source": {
+            "threadId": "1a17d7c2b48facb2",
+            "messageId": "1a17d7c2b48facb2",
+            "subject": "Track the status of your submission to Humanities and Social Sciences Communications",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-06T13:54:23.000Z",
-      "updatedAt": "2026-10-20T08:53:21.000Z"
+      "updatedAt": "2026-10-27T13:10:51.000Z"
     },
     {
       "id": "higher-risk-comparable-recovery-the-impact-of-obesity-on-outcomes-afte",
@@ -11709,10 +11780,10 @@
       "bucket": "needs_action",
       "needsReview": true,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": "Cells",
-      "currentManuscriptNumber": "cells-4664892",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "CIMB",
+      "currentManuscriptNumber": "cimb-4664892",
       "currentStatus": "Sent back for edits",
       "doi": null,
       "publicationLink": null,
@@ -12152,7 +12223,7 @@
           "manuscriptNumber": "cimb-4664892",
           "submittedDate": "2026-10-27T01:44:36.000Z",
           "outcome": "active",
-          "status": "transferred",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -12167,6 +12238,19 @@
                 "messageId": "1a17b07e4df46acc",
                 "subject": "Successful Transfer of Your Manuscript cells-4664892 to CIMB cimb-4664892",
                 "from": "cells@mdpi.com"
+              }
+            },
+            {
+              "timestamp": "2026-10-27T06:23:28.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The editor requests revisions to the submitted manuscript before it can continue in the review process.",
+              "manuscriptNumber": "cimb-4664892",
+              "source": {
+                "threadId": "1a17c07b3124ba8a",
+                "messageId": "1a17c07b3124ba8a",
+                "subject": "Need Your Attention-cimb-4664892-Please modify in the attachment",
+                "from": "\"qingru.cheng\" <qingru.cheng@mdpi.com>"
               }
             }
           ]
@@ -12597,12 +12681,33 @@
             "from": "CIMB Editorial Office <cimb@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T06:23:28.000Z",
+          "journal": "CIMB",
+          "eventType": "sent_back",
+          "manuscriptNumber": "cimb-4664892",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-03T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The editor requests revisions to the submitted manuscript before it can continue in the review process.",
+          "source": {
+            "threadId": "1a17c07b3124ba8a",
+            "messageId": "1a17c07b3124ba8a",
+            "subject": "Need Your Attention-cimb-4664892-Please modify in the attachment",
+            "from": "\"qingru.cheng\" <qingru.cheng@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-10-27T03:01:01.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-10-27T06:23:28.000Z",
+      "deadline": "2026-11-03T18:29:59.999Z",
+      "deadlineSource": "assumed",
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
     },
     {
@@ -15757,21 +15862,22 @@
       "id": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa",
       "title": "Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
       "titleNormalized": "journal self citation and the two year impact factor window in orthopaedic and spine journals a cross sectional analysis of 790 827 references in 36 journals",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": "rejected_needs_resubmission",
+      "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
-      "currentJournal": "Journal of Informetrics",
-      "currentManuscriptNumber": "JOI-D-26-01098",
-      "currentStatus": "Rejected",
+      "currentJournal": "Research Ethics",
+      "currentManuscriptNumber": "RE-26-0328",
+      "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -15820,6 +15926,30 @@
                 "messageId": "1a138613056a3f66",
                 "subject": "Decision on submission to Journal of Informetrics",
                 "from": "Journal of Informetrics <em@editorialmanager.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Research Ethics",
+          "manuscriptNumber": "RE-26-0328",
+          "submittedDate": "2026-10-27T13:04:03.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-27T13:04:03.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "RE-26-0328",
+              "source": {
+                "threadId": "1a17d760210a2123",
+                "messageId": "1a17d760210a2123",
+                "subject": "Research Ethics  RE-26-0328",
+                "from": "Research Ethics <onbehalfof@manuscriptcentral.com>"
               }
             }
           ]
@@ -15876,10 +16006,27 @@
             "from": "Journal of Informetrics <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-27T13:04:03.000Z",
+          "journal": "Research Ethics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "RE-26-0328",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a17d760210a2123",
+            "messageId": "1a17d760210a2123",
+            "subject": "Research Ethics  RE-26-0328",
+            "from": "Research Ethics <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-07T04:46:41.000Z",
-      "updatedAt": "2026-10-14T03:07:35.000Z"
+      "updatedAt": "2026-10-27T13:04:03.000Z"
     },
     {
       "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
