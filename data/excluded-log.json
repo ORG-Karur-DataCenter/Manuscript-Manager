@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-28T21:20:18.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "💊 Claude cut a cancer therapy by 70%",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T09:30:41.000Z",
+      "reason": "unrelated",
+      "subject": "Limited seats available: Global Spine Diploma Program 2027",
+      "from": "AO Spine <aospine@info.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T19:01:03.000Z",
+      "reason": "unrelated",
+      "subject": "Take Our Survey to Share Insights on Research Funding",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T19:47:42.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID: 05395420 | Invitation to Submit a Clinical Neurology Manuscript to the World Journal of Clinical Cases",
+      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T20:52:09.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID 05395420 | Invitation to Submit a Manuscript on Orthopedics to World Journal of Clinical Cases",
+      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T21:01:12.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Spinal Column | SRS Newsletter 10.28.26",
+      "from": "SRS <info@srs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-28T06:31:42.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Invitation: Build your scholarly communication skills in our upcoming UTTHAN session. Register now!",
@@ -2056,48 +2098,6 @@
       "reason": "unrelated",
       "subject": "Karthikeyan. P. Iyengar recommended this article",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T10:58:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Discover more about the Global Health Network Virtual Jamboree, explore new webinars and more",
-      "from": "The Global Health Network <info@community.theglobalhealthnetwork.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T11:17:28.000Z",
-      "reason": "unrelated",
-      "subject": "Starting in 30 minutes: Class 13 · Journal Club Presentation by Dr Madhan Jeyaraman",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T11:46:35.000Z",
-      "reason": "unrelated",
-      "subject": "Live now: Class 13 · Journal Club Presentation by Dr Madhan Jeyaraman",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T12:33:59.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Intra-operative outcomes with NM - Umbrella Review",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T06:32:04.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Aging Contents: Volume 6 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T01:46:57.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Publish your Manuscript - Scholastic Orthopaedics Journal",
-      "from": "<Ortho@scholasticopenaccess.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

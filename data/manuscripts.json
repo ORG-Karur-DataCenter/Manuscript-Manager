@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:57:54.842Z",
+  "generatedAt": "2026-10-28T23:18:29.121Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -16040,15 +16040,15 @@
       "id": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa",
       "title": "Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
       "titleNormalized": "journal self citation and the two year impact factor window in orthopaedic and spine journals a cross sectional analysis of 790 827 references in 36 journals",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Research Ethics",
       "currentManuscriptNumber": "RE-26-0328",
-      "currentStatus": "Submitted",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -16112,8 +16112,8 @@
           "journal": "Research Ethics",
           "manuscriptNumber": "RE-26-0328",
           "submittedDate": "2026-10-27T13:04:03.000Z",
-          "outcome": "active",
-          "status": "new_submission",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -16127,6 +16127,19 @@
                 "threadId": "1a17d760210a2123",
                 "messageId": "1a17d760210a2123",
                 "subject": "Research Ethics  RE-26-0328",
+                "from": "Research Ethics <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-28T02:23:54.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected and the author was advised to find another journal.",
+              "manuscriptNumber": "RE-26-0328",
+              "source": {
+                "threadId": "1a1805239dfd9824",
+                "messageId": "1a1805239dfd9824",
+                "subject": "Decision on Manuscript ID RE-26-0328 - Research Ethics",
                 "from": "Research Ethics <onbehalfof@manuscriptcentral.com>"
               }
             }
@@ -16201,10 +16214,27 @@
             "from": "Research Ethics <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-28T02:23:54.000Z",
+          "journal": "Research Ethics",
+          "eventType": "rejected",
+          "manuscriptNumber": "RE-26-0328",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected and the author was advised to find another journal.",
+          "source": {
+            "threadId": "1a1805239dfd9824",
+            "messageId": "1a1805239dfd9824",
+            "subject": "Decision on Manuscript ID RE-26-0328 - Research Ethics",
+            "from": "Research Ethics <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-07T04:46:41.000Z",
-      "updatedAt": "2026-10-27T13:04:03.000Z"
+      "updatedAt": "2026-10-28T02:23:54.000Z"
     },
     {
       "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
