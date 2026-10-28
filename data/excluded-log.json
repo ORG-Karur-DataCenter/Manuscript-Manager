@@ -1,6 +1,111 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-28T09:47:22.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish Muthu published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T13:02:59.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Stanford Research Park celebrates 75 years",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T06:03:23.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Rethinking knee osteoarthritis care across the lifespan",
+      "from": "EMJ 6 at 6am <circulation@emjreviews.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T06:04:47.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Decision on Manuscript ID RE-26-0328 - Research Ethics",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T07:03:17.000Z",
+      "reason": "unrelated",
+      "subject": "Shoulder and elbow teaching for your fellows",
+      "from": "PM Diplomas Admissions <diplomas@getpmdiplomas.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T08:01:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Call for Papers",
+      "from": "Giornale di Clinica Nefrologica e Dialisi <mailings@aboutscience.eu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T08:19:28.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "[JCM] Manuscript ID: jcm-4609131 - Review Request Cancelled",
+      "from": "JCM Editorial Office <jcm@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T08:35:35.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: INQUIRY Invitation to Review",
+      "from": "INQUIRY <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T09:40:13.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "7th Annual EOS Conference: Abstracts Deadline Oct 31",
+      "from": "\"'Info@purespot.org' via EOS\" <EOS@egypure.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T10:34:06.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: your publication: Retraction notice to \"Bracing NK cell based therapy to relegate pulmonary inflammation in COVID-19\" [Heliyon 7 (2021) e07635]",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T11:17:20.000Z",
+      "reason": "unrelated",
+      "subject": "Starting in 30 minutes: Class 31 · JOURNAL CLUB PRESENTATION by Dr Madhan Jeyaraman, Dr Naveen Jeyaraman",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T11:50:05.000Z",
+      "reason": "unrelated",
+      "subject": "Live now: Class 31 · JOURNAL CLUB PRESENTATION by Dr Madhan Jeyaraman, Dr Naveen Jeyaraman",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T11:57:21.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Annals of Medicine (Elevate) - Invitation to Review Manuscript ID IANN-2026-7595",
+      "from": "\"Annals of Medicine (Elevate)\" <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T12:43:18.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "With Reference to Does the Choice of Chemoprophylaxis Affect the Prevention of Deep Vein Thrombosis in Lumbar Fusion Surgery? A Systematic Review of the Literature",
+      "from": "\"Dr. Mara Sterling\" <ljmhr@londonjournalspress.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T12:51:59.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Need Your Attention-cimb-4664892-Please modify in the attachment",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-28T00:12:49.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Study Suggests Walking as a Tonic to Ward Off AMD",
@@ -1993,111 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Journal of Investigative Surgery - Invitation to Review Manuscript ID UIVS-2026-0227",
       "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T21:01:55.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Spinal Column | SRS Newsletter",
-      "from": "SRS <info@srs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T21:32:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "J. Clin. Med., Volume 15, Issue 19 (October-1 2026) Table of Contents",
-      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T14:01:56.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Writing a research paper? Join me live in November!",
-      "from": "Writing in the Sciences <no-reply@t.send.coursera.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T16:01:24.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🪦 Claude broke Github",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T11:10:00.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, an article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T14:31:36.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: Share your experience as an editor with Indian Journal of Orthopaedics",
-      "from": "\"​​Marc, Springer Nature\" <editorsupport@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T14:42:11.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Dove Medical Press Peer Review Invitation Reminder [ID: 661946]",
-      "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T16:36:13.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Diagnostics, Volume 16, Issue 19 (October-1 2026) Table of Contents",
-      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T13:03:12.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Searching for Alzheimer’s answers",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T02:34:26.000Z",
-      "reason": "unrelated",
-      "subject": "Reservation reminder - October 16, 2026",
-      "from": "Airbnb <automated@airbnb.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T06:08:31.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Request for expedited institute activation – five-institute consortium proposal – Microbiome Call, Public Health and Nutrition Division (last date 15-10-2026)",
-      "from": "EproMIS DBT <epromis.dbt@nic.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T07:41:02.000Z",
-      "reason": "unrelated",
-      "subject": "Dear Dr. Sathish Muthu IOA Aadhar Verification  3rd Phase will End on 28th October  .Happy Navratri. Attend -Engage and win \"Thar\" Reward for Academic",
-      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T09:45:49.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to peer review a new submission - Manuscript ID WnXXdj - Academia Immunity and Disease",
-      "from": "\"Academia.edu\" <updates@academia-mail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T10:05:21.000Z",
-      "reason": "unrelated",
-      "subject": "Your publication: MiR 26a as a stage-dependent biomarker and therapeutic regulator of inflammation in knee osteoarthritis",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T12:00:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Read, Learn, and Publish - Orthopaedics Journal Updates",
-      "from": "Medknow <email@medknow.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

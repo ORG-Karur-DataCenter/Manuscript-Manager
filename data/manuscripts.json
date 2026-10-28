@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T05:56:26.536Z",
+  "generatedAt": "2026-10-28T13:14:58.156Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -11883,8 +11883,8 @@
       "bucket": "needs_action",
       "needsReview": true,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "CIMB",
       "currentManuscriptNumber": "cimb-4664892",
       "currentStatus": "Sent back for edits",
@@ -12379,6 +12379,43 @@
                 "subject": "[CIMB] Manuscript ID: cimb-4664892 - Co-Authorship Confirmation",
                 "from": "CIMB Editorial Office <cimb@mdpi.com>"
               }
+            },
+            {
+              "timestamp": "2026-10-28T08:30:09.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The manuscript has been assigned to an assistant editor for further processing.",
+              "manuscriptNumber": "cimb-4664892",
+              "source": {
+                "threadId": "1a181a18bc00b574",
+                "messageId": "1a181a18bc00b574",
+                "subject": "[CIMB] Manuscript ID: cimb-4664892 - Assistant Editor Assigned",
+                "from": "Qingru Cheng <qingru.cheng@mdpi.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "MDPI",
+          "manuscriptNumber": "cimb-4664892",
+          "submittedDate": "2026-10-28T08:20:15.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-28T08:20:15.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned for correction before review, with a request to submit a revised version promptly.",
+              "manuscriptNumber": "cimb-4664892",
+              "source": {
+                "threadId": "1a181a93e12c98bd",
+                "messageId": "1a181a93e12c98bd",
+                "subject": "Urgent Attention-cimb-4664892-Please modify in the attachment（please reply as soon as possible）",
+                "from": "\"qingru.cheng\" <qingru.cheng@mdpi.com>"
+              }
             }
           ]
         }
@@ -12805,12 +12842,50 @@
             "from": "\"qingru.cheng\" <qingru.cheng@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-28T08:20:15.000Z",
+          "journal": "MDPI",
+          "eventType": "sent_back",
+          "manuscriptNumber": "cimb-4664892",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-04T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was returned for correction before review, with a request to submit a revised version promptly.",
+          "source": {
+            "threadId": "1a181a93e12c98bd",
+            "messageId": "1a181a93e12c98bd",
+            "subject": "Urgent Attention-cimb-4664892-Please modify in the attachment（please reply as soon as possible）",
+            "from": "\"qingru.cheng\" <qingru.cheng@mdpi.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-28T08:30:09.000Z",
+          "journal": "Current Issues in Molecular Biology",
+          "eventType": "other",
+          "manuscriptNumber": "cimb-4664892",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been assigned to an assistant editor for further processing.",
+          "source": {
+            "threadId": "1a181a18bc00b574",
+            "messageId": "1a181a18bc00b574",
+            "subject": "[CIMB] Manuscript ID: cimb-4664892 - Assistant Editor Assigned",
+            "from": "Qingru Cheng <qingru.cheng@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-10-27T06:23:28.000Z",
-      "deadline": "2026-11-03T18:29:59.999Z",
-      "deadlineSource": "assumed",
+      "updatedAt": "2026-10-28T08:30:09.000Z",
+      "deadline": null,
+      "deadlineSource": null,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
     },
     {
