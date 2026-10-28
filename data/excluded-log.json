@@ -1,6 +1,48 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-28T00:12:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Study Suggests Walking as a Tonic to Ward Off AMD",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T03:49:06.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "AI Agents In Healthcare: What To Expect?",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-27T20:57:56.000Z",
+      "reason": "unrelated",
+      "subject": "David Gendelberg created the discussion What would make you change your approach at L5–S1? in Global Spine Journal Club Group",
+      "from": "\"myAO 2.0\" <no-reply@myao.aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T02:30:08.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder — today: Class 31 · JOURNAL CLUB PRESENTATION by Dr Madhan Jeyaraman, Dr Naveen Jeyaraman, 5:25 PM IST",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T03:24:44.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder: A recommendation for Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
+      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-28T04:50:29.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:1b753c857f7dadf8]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-27T20:17:28.000Z",
       "reason": "unrelated",
       "subject": "You have a new registration draft",
@@ -2056,48 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Read, Learn, and Publish - Orthopaedics Journal Updates",
       "from": "Medknow <email@medknow.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T12:20:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Upcoming Events 2027 - Department of Orthpaedics and Traumatology of the Medical University Innsbruck.",
-      "from": "unfallevent lki <lki.ot.event@tirol-kliniken.at>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T12:45:02.000Z",
-      "reason": "unrelated",
-      "subject": "🗓 FISRM:,  BATCH: 3  | CLASS: 1 on October 14, 2026 | Read Meeting Report",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T12:45:02.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: you are taking Class 2 · Structuring Manuscripts for High-Impact Journals on Wednesday, 14 October 2026",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T13:20:09.000Z",
-      "reason": "unrelated",
-      "subject": "Live now — join your class: Class 2 · Structuring Manuscripts for High-Impact Journals — 14 Oct, 6:50 PM",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T03:24:44.000Z",
-      "reason": "unrelated",
-      "subject": "A recommendation for Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-14T04:15:50.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Diagnostic Accuracy of IONM - Umbrella Review",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

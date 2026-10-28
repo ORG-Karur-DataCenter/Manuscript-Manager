@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T23:53:11.798Z",
+  "generatedAt": "2026-10-28T05:56:26.536Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -9008,16 +9008,16 @@
       "id": "failure-to-restore-native-roussouly-sagittal-alignment-and-risk-of-adj",
       "title": "Failure to Restore Native Roussouly Sagittal Alignment and Risk of Adjacent Segment Degeneration after L4–L5 Lumbar Fusion",
       "titleNormalized": "failure to restore native roussouly sagittal alignment and risk of adjacent segment degeneration after l4 l5 lumbar fusion",
-      "bucket": "revisions_pending",
+      "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": true,
-      "actionLabel": "Revision  requested",
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Indian Spine Journal",
       "currentManuscriptNumber": "isj_133_26",
-      "currentStatus": "Revision requested",
-      "deadline": "2026-11-22T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentStatus": "Under review",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -9053,7 +9053,7 @@
           "manuscriptNumber": "isj_133_26",
           "submittedDate": "2026-09-02T23:15:05.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -9093,6 +9093,19 @@
                 "threadId": "1a17118ffe857ee1",
                 "messageId": "1a17118ffe857ee1",
                 "subject": "isj Manuscript for revision: isj_133_26",
+                "from": "Indian Spine Journal <editor@isjonline.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-28T05:40:04.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The revised manuscript was received and will be re-evaluated for a final decision.",
+              "manuscriptNumber": "isj_133_26",
+              "source": {
+                "threadId": "1a18105d2a8430f3",
+                "messageId": "1a18105d2a8430f3",
+                "subject": "isj Manuscript Revision Completed Acknowledgement letter: isj_133_26",
                 "from": "Indian Spine Journal <editor@isjonline.com>"
               }
             }
@@ -9171,10 +9184,27 @@
             "from": "Indian Spine Journal <editor@isjonline.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-28T05:40:04.000Z",
+          "journal": "Indian Spine Journal",
+          "eventType": "under_review",
+          "manuscriptNumber": "isj_133_26",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The revised manuscript was received and will be re-evaluated for a final decision.",
+          "source": {
+            "threadId": "1a18105d2a8430f3",
+            "messageId": "1a18105d2a8430f3",
+            "subject": "isj Manuscript Revision Completed Acknowledgement letter: isj_133_26",
+            "from": "Indian Spine Journal <editor@isjonline.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-31T19:16:55.000Z",
-      "updatedAt": "2026-10-25T03:27:05.000Z"
+      "updatedAt": "2026-10-28T05:40:04.000Z"
     },
     {
       "id": "ferroptosis-in-osteoarthritis-a-novel-mechanism-of-chondrocyte-death",
