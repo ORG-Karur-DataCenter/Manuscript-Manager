@@ -640,6 +640,29 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa|2026-10-31T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa",
+      "at": "2026-10-29T10:13:12.473Z"
+    },
+    {
+      "key": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa|2026-10-31T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa",
+      "title": "Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
+      "due": "2026-10-31T18:29:59.999Z",
+      "at": "2026-10-29T10:13:12.473Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -761,6 +784,11 @@
       "title": "Amendment 6 days left — Identification of Therapeutic Targets and Gene Expression Profiling t…",
       "due": "2026-11-03T18:29:59.999Z",
       "closed": true
+    },
+    "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa": {
+      "number": 30,
+      "title": "Amendment 2 days left — Journal self-citation and the two-year Impact Factor window in orthop…",
+      "due": "2026-10-31T18:29:59.999Z"
     }
   }
 }

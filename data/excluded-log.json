@@ -1,6 +1,69 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-29T03:53:24.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "[Cells, IF 6.0, CiteScore 11.4 (Q1)] Invitation to Publish a Feature Paper in Cells",
+      "from": "Pearl Feng <pearl.feng@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T04:33:24.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for submitting authorship for the IHME ID: 6097-GBD 2023 Smoking Burden paper",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T06:04:17.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Expression of Interest: Chapter 1 – Frontiers in Extracellular Vesicle Imaging (Elsevier)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T06:11:01.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T06:50:22.000Z",
+      "reason": "unrelated",
+      "subject": "Gangadaran_Frontiers in Extracellular Vesicle Imaging: Introducing Elsa.",
+      "from": "Elsa <elsa@notification.elsevier.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T07:02:45.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "[Biomedicines, Citescore 7.8] Invitation to Publish a Paper in Biomedicines",
+      "from": "biomedicines <biomedicines@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T08:03:51.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Shall we retract the submission?",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T08:17:00.000Z",
+      "reason": "unrelated",
+      "subject": "AW: Shall we retract the submission?",
+      "from": "Kohler Adrian <Adrian.Kohler@balgrist.ch>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T09:25:31.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Need Your Attention-cimb-4664892-Please modify in the attachment",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-28T15:02:26.000Z",
       "reason": "unrelated",
       "subject": "Your Web of Science author record corrections have been submitted",
@@ -2035,69 +2098,6 @@
       "reason": "unrelated",
       "subject": "Journal recommendations for Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Review and Meta-analysis",
       "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T19:31:43.000Z",
-      "reason": "unrelated",
-      "subject": "Giuseppe Filardo - new articles",
-      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T08:46:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "One Platform for Journals, E-Books, Theses & Research Discovery",
-      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T10:50:25.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, an article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T18:04:07.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "jajs Manuscript for review: jajs_89_26 Your comments are awaited",
-      "from": "Journal of Arthroscopy and Joint Surgery <Donotreply_uniprr@wolterskluwer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T06:32:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Reviews Nephrology Contents: Volume 22 Number 11",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T11:04:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Discover more about the Global Health Network Virtual Jamboree, explore new webinars and more",
-      "from": "The Global Health Network <info@community.theglobalhealthnetwork.org>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T12:44:18.000Z",
-      "reason": "unrelated",
-      "subject": "Dhibin Vikash, you were recently cited by an author from Maulana Azad National Urdu University",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T13:00:30.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Plans for Stanford’s campus hub move forward",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T09:05:28.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Mini Review or Commentary Submission in Journal of Musculoskeletal Disorders and Translational Medicine",
-      "from": "Journal of Musculoskeletal Disorders and Translational Medicine <editor@musculoskeletaljournal.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
