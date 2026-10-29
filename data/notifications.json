@@ -663,6 +663,23 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "identification-of-therapeutic-targets-and-gene-expression-profiling-to|2026-11-05T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
+      "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
+      "due": "2026-11-05T18:29:59.999Z",
+      "at": "2026-10-29T17:07:48.046Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -781,8 +798,8 @@
     },
     "identification-of-therapeutic-targets-and-gene-expression-profiling-to": {
       "number": 29,
-      "title": "Amendment 6 days left — Identification of Therapeutic Targets and Gene Expression Profiling t…",
-      "due": "2026-11-03T18:29:59.999Z",
+      "title": "Amendment 7 days left — Identification of Therapeutic Targets and Gene Expression Profiling t…",
+      "due": "2026-11-05T18:29:59.999Z",
       "closed": true
     },
     "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T10:13:07.471Z",
+  "generatedAt": "2026-10-29T17:07:42.819Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3503,6 +3503,74 @@
       ],
       "createdAt": "2026-09-20T16:12:34.000Z",
       "updatedAt": "2026-09-21T08:41:32.000Z"
+    },
+    {
+      "id": "comments-on-global-and-regional-patterns-of-drug-resistance-and-treatm",
+      "title": "Comments on 'Global and Regional Patterns of Drug Resistance and Treatment Regimens in Spinal Tuberculosis: A Systematic Review and Meta-Analysis'",
+      "titleNormalized": "comments on global and regional patterns of drug resistance and treatment regimens in spinal tuberculosis a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Global Spine Journal",
+      "currentManuscriptNumber": "GSJ-26-2291",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Global Spine Journal",
+          "manuscriptNumber": "GSJ-26-2291",
+          "submittedDate": "2026-10-29T16:42:18.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-29T16:42:18.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "GSJ-26-2291",
+              "source": {
+                "threadId": "1a1888a7b601dc7a",
+                "messageId": "1a1888a7b601dc7a",
+                "subject": "Global Spine Journal  GSJ-26-2291",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-29T16:42:18.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "GSJ-26-2291",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a1888a7b601dc7a",
+            "messageId": "1a1888a7b601dc7a",
+            "subject": "Global Spine Journal  GSJ-26-2291",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-29T16:42:18.000Z",
+      "updatedAt": "2026-10-29T16:42:18.000Z"
     },
     {
       "id": "comparative-efficacy-and-safety-of-osteobiologics-in-posterior-lumbar-",
@@ -8153,6 +8221,19 @@
                 "subject": "IMPORTANT PLEASE TAKE ACTION, Production has begun on your article [YARTH_62989] in The Journal of Arthroplasty",
                 "from": "g.karnan@elsevier.com"
               }
+            },
+            {
+              "timestamp": "2026-10-29T12:53:58.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The publisher requests the author’s decision on paying for color illustrations for the upcoming article.",
+              "manuscriptNumber": "YARTH_JOA-D-26-01135",
+              "source": {
+                "threadId": "1a18895e3de953cd",
+                "messageId": "1a18895e3de953cd",
+                "subject": "Color figures in your article [YARTH_62989] in The Journal of Arthroplasty",
+                "from": "g.karnan@elsevier.com"
+              }
             }
           ]
         },
@@ -8266,10 +8347,27 @@
             "from": "Elsevier - Author Forms <oasupport@elsevier.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-29T12:53:58.000Z",
+          "journal": "The Journal of Arthroplasty",
+          "eventType": "other",
+          "manuscriptNumber": "YARTH_JOA-D-26-01135",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The publisher requests the author’s decision on paying for color illustrations for the upcoming article.",
+          "source": {
+            "threadId": "1a18895e3de953cd",
+            "messageId": "1a18895e3de953cd",
+            "subject": "Color figures in your article [YARTH_62989] in The Journal of Arthroplasty",
+            "from": "g.karnan@elsevier.com"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-21T04:52:35.000Z",
-      "updatedAt": "2026-10-26T13:25:29.000Z"
+      "updatedAt": "2026-10-29T12:53:58.000Z"
     },
     {
       "id": "evaluating-the-efficacy-of-intra-articular-bone-marrow-aspirate-concen",
@@ -11883,8 +11981,8 @@
       "bucket": "needs_action",
       "needsReview": true,
       "needsActionReason": "pre_review_edits",
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "CIMB",
       "currentManuscriptNumber": "cimb-4664892",
       "currentStatus": "Sent back for edits",
@@ -12353,6 +12451,19 @@
                 "threadId": "1a17c07b3124ba8a",
                 "messageId": "1a17c07b3124ba8a",
                 "subject": "Need Your Attention-cimb-4664892-Please modify in the attachment",
+                "from": "\"qingru.cheng\" <qingru.cheng@mdpi.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-29T08:17:53.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The editor returned the manuscript for correction of ethical statements before peer review.",
+              "manuscriptNumber": "cimb-4664892",
+              "source": {
+                "threadId": "1a17c07b3124ba8a",
+                "messageId": "1a186c3cd8870800",
+                "subject": "Re: Need Your Attention-cimb-4664892-Please modify in the attachment",
                 "from": "\"qingru.cheng\" <qingru.cheng@mdpi.com>"
               }
             }
@@ -12880,12 +12991,33 @@
             "from": "Qingru Cheng <qingru.cheng@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-29T08:17:53.000Z",
+          "journal": "CIMB",
+          "eventType": "sent_back",
+          "manuscriptNumber": "cimb-4664892",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-05T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The editor returned the manuscript for correction of ethical statements before peer review.",
+          "source": {
+            "threadId": "1a17c07b3124ba8a",
+            "messageId": "1a186c3cd8870800",
+            "subject": "Re: Need Your Attention-cimb-4664892-Please modify in the attachment",
+            "from": "\"qingru.cheng\" <qingru.cheng@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-07-14T15:04:57.000Z",
-      "updatedAt": "2026-10-28T08:30:09.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-10-29T08:17:53.000Z",
+      "deadline": "2026-11-05T18:29:59.999Z",
+      "deadlineSource": "assumed",
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Biomarker Research, European Spine Journal, Stem Cell Research & Therapy, Cell and Tissue Research, Cartilage, Stem Cell Reviews and Reports — set the right one."
     },
     {
@@ -17424,6 +17556,74 @@
       ],
       "createdAt": "2026-09-07T06:49:01.000Z",
       "updatedAt": "2026-09-07T06:49:01.000Z"
+    },
+    {
+      "id": "microrna-based-therapeutics-in-osteoarthritis",
+      "title": "MicroRNA-Based Therapeutics in Osteoarthritis",
+      "titleNormalized": "microrna based therapeutics in osteoarthritis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Orthopedics",
+      "currentManuscriptNumber": "130321",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Orthopedics",
+          "manuscriptNumber": "130321",
+          "submittedDate": "2026-10-29T12:46:39.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-29T12:46:39.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is awaiting editorial checks.",
+              "manuscriptNumber": "130321",
+              "source": {
+                "threadId": "1a187b30ccc845ee",
+                "messageId": "1a187b30ccc845ee",
+                "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 130321",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-10-29T12:46:39.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "130321",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is awaiting editorial checks.",
+          "source": {
+            "threadId": "1a187b30ccc845ee",
+            "messageId": "1a187b30ccc845ee",
+            "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 130321",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-10-29T12:46:39.000Z",
+      "updatedAt": "2026-10-29T12:46:39.000Z"
     },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",

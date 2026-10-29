@@ -1,6 +1,90 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-29T09:26:15.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read high-impact articles",
+      "from": "\"Journal of Cerebral Blood Flow & Metabolism\" <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T11:10:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 29th October 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T13:01:53.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The science behind El Niño",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T15:09:13.000Z",
+      "reason": "unrelated",
+      "subject": "The hard thing about hard things",
+      "from": "Steven Kotler <sk@stevenkotler.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T07:12:26.000Z",
+      "reason": "unrelated",
+      "subject": "Invitation to join the Editorial Board of AI Med",
+      "from": "aimed@ai-press.org",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T10:22:25.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Shall we retract the submission?",
+      "from": "Andreas Demetriades <andreas.demetriades@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T12:25:13.000Z",
+      "reason": "unrelated",
+      "subject": "Re: IntechOpen - CPC Final Notice - final reminder",
+      "from": "Dominik Samardzija <dominik@intechopen.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T12:30:39.000Z",
+      "reason": "unrelated",
+      "subject": "How to Read a Medtech Press Release",
+      "from": "Prof Mohamed Imam <profimam@substack.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T13:27:59.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Reg: Follow-up for Article Submission Request ",
+      "from": "Clinical Trials Journal <clinical.journal@wmjournals.info>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T14:04:54.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Functional Outcomes After Anterior Cruciate Ligament Reconstruction: Lysholm Score Analysis",
+      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T14:06:31.000Z",
+      "reason": "unrelated",
+      "subject": "Your Web of Science author record corrections have been accepted",
+      "from": "authorrecordfeedback@clarivate.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T14:53:35.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Get Published in Lippincott Nursing Journals – Submit Now!",
+      "from": "Lippincott Nursing Journals <lww@sci.scientific-direct.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-29T03:53:24.000Z",
       "reason": "predatory_solicitation",
       "subject": "[Cells, IF 6.0, CiteScore 11.4 (Q1)] Invitation to Publish a Feature Paper in Cells",
@@ -2014,90 +2098,6 @@
       "reason": "unrelated",
       "subject": "Sathish, an article cited your research",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T02:55:49.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "ET AI: I’ll believe it when I see it: Figma boss on AI restraint calls",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T06:36:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Structural & Molecular Biology Contents: Volume 33 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T03:30:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Submissions – Nephrology Research",
-      "from": "Editorial Office <editorial@mails.sciconxjournals.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T05:00:41.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Registration Is Now Open! AO Trauma/ AO Recon Course—Comprehensive Periprosthetic Fracture Management of the Hip and Knee Course with Anatomical Specimens, Yogyakarta, Indonesia | November 16-18, 2026",
-      "from": "AO Foundation <news@communications.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T05:42:45.000Z",
-      "reason": "unrelated",
-      "subject": "[ORCID] Sathish Muthu you have new notifications",
-      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T05:55:14.000Z",
-      "reason": "unrelated",
-      "subject": "Dr Sanjay Jain VP Candidate. Seeking Your Trust, Vote and Support",
-      "from": "Dr Sanjay Jain <drsanjayjain9@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T06:28:45.000Z",
-      "reason": "unrelated",
-      "subject": "Funds/Securities Balance",
-      "from": "nse_alerts@nse.co.in",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T22:32:35.000Z",
-      "reason": "unrelated",
-      "subject": "Congratulations – Accepted for Presentation at WCAMSIR 2027 -\"Influence of Bisphosphonates on the Bone Healing Biology and Clinical Outcomes in Acute Fractures: A Systematic Review of Literature\"",
-      "from": "Reichel Golden <goldenreichel48@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T23:04:21.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Share Your Insights: Global Survey on Research Funding Impacts",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T14:05:59.000Z",
-      "reason": "unrelated",
-      "subject": "🗓  FISRM,  BATCH: 2  |   CLASS: 16 on October 15, 2026 | Read Meeting Report",
-      "from": "AGATHISHA ACADEMY via Read AI <executiveassistant@e.read.ai>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T14:08:00.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Comparison of Arthroscopic Coracoacromial Ligament Degeneration Between Traumatic and Non-Traumatic Rotator Cuff Tears",
-      "from": "ISAKOS Digital Digest <ISAKOS@newsletter.multibriefs.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-15T19:18:54.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for Should C7 Be Preserved During Cervical Laminoplasty? A Systematic Review and Meta-analysis",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
