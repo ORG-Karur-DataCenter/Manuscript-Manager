@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-29T11:08:06.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, a recent article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T14:20:01.000Z",
+      "reason": "unrelated",
+      "subject": "👤 Someone at H P Ghosh Hospital you may know",
+      "from": "\"Dr. Amitava Biswas on LinkedIn\" <messages-noreply@linkedin.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T16:29:09.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Official Invitation – Invited Speaker | ICEMSET-2026 | GJUST – A State Govt University, Hisar, Haryana, India | 16–18 November 2026 |",
+      "from": "ICEMSET 2026 <contact@rpconfseries.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T17:19:16.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  Spine - Vol. 51, No. 22, November 15, 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-29T17:44:06.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "ijc Manuscript for review: ijc_625_26 Your comments are awaited",
+      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-29T09:26:15.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Read high-impact articles",
@@ -2064,41 +2099,6 @@
       "subject": "🚨🚨 Figma boss on AI slowdown calls",
       "from": "ET AI <newsletter@economictimesnews.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T05:31:49.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Register Now for Expert Guidance on Publishing in the Age of AI.",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T08:12:05.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reviewer’s Code: 05395420 - World Journal of Stem Cells Manuscript review-Manuscript NO: 128898 - a gentle reminder",
-      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T08:51:38.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "ASP - [STI] Manuscript ID: STI026410052 -   Review Request",
-      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T09:00:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Limited seats available: Global Spine Diploma Program 2027",
-      "from": "AO Spine <aospine@info.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T10:58:23.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, an article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
