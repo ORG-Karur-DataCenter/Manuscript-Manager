@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-30T03:05:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Dear Dr. Sathish Muthu Inside:  for Young Surgeons -IOACON2026",
+      "from": "Dr Navin Thakkar- President IOA <presidenttaskforces@ioaindia.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T05:01:43.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Wrist X-ray research prototype — possible clinical collaboration",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T05:11:54.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Call for Papers — Journal of Polymer & Composites (Web of Science ESCI) · 10% festive APC offer",
+      "from": "Amit Rai <amit.rai@celnet.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T05:41:44.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "November 2026 edition of Web of Science Training & Certification Program",
+      "from": "Clarivate <news@mail.discover.clarivate.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T05:50:51.000Z",
+      "reason": "unrelated",
+      "subject": "Submission: 69074496-e69c-47da-a736-5788717af1a3",
+      "from": "\"Dünki Alexandro\" <Alexandro.Duenki@balgrist.ch>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T06:03:25.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: INQUIRY Invitation to Review",
+      "from": "INQUIRY <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T06:25:48.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Medicine® Article MD-D-26-08893",
+      "from": "Medicine <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T08:00:11.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "The October ESSKA Times - all the latest ESSKA news in your monthly newsletter!",
+      "from": "ESSKA Times <info@esska.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-29T13:23:07.000Z",
       "reason": "unrelated",
       "subject": "Re: IntechOpen - CPC Final Notice - final reminder",
@@ -2042,62 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Your services on MD-D-26-10661 are no longer required",
       "from": "Medicine <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T06:24:13.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Submit Manuscript in SCOPUS and EMBASE Journal for Upcoming October 2026 Issue",
-      "from": "IP Innovative Publication <info@ipinnovative.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T06:27:48.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for Editorial proximity and speed of acceptance in orthopaedic and spine journals: a cross-sectional study of 27,128 articles in 26 journals",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T06:31:45.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Register Now for Expert Guidance on Publishing in the Age of AI.",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T07:15:58.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4597111 - Review Request Cancelled",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T03:24:44.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T13:00:25.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What makes a good life",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T17:22:13.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Phenobarbital Matches Diazepam for Alcohol Withdrawal",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-16T20:34:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Danielle Lieberman created the discussion Read the September Issue of GSJ! in Global Spine Journal Club Group",
-      "from": "\"myAO 2.0\" <no-reply@myao.aofoundation.org>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

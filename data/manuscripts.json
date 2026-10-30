@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T02:02:19.409Z",
+  "generatedAt": "2026-10-30T08:50:25.109Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -16279,7 +16279,7 @@
         },
         {
           "journal": "European Journal of Orthopaedic Surgery & Traumatology",
-          "manuscriptNumber": "6830e865-9958-4931-9522-ac23ee4ff916",
+          "manuscriptNumber": "6830e865-9958-4931-9522-ac23ee4ff916 v1.0",
           "submittedDate": "2026-10-29T01:39:44.000Z",
           "outcome": "active",
           "status": "sent_back",
@@ -16310,6 +16310,19 @@
                 "messageId": "1a1863dfcc472428",
                 "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
                 "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-30T00:16:09.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check, requesting amendments within 2 days.",
+              "manuscriptNumber": "6830e865-9958-4931-9522-ac23ee4ff916 v1.0",
+              "source": {
+                "threadId": "1a1863dfcc472428",
+                "messageId": "1a18a2a261407d95",
+                "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
+                "from": "Harsh Desai <hhd@udel.edu>"
               }
             }
           ]
@@ -16460,6 +16473,27 @@
             "messageId": "1a1863dfcc472428",
             "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
             "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-30T00:16:09.000Z",
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "eventType": "sent_back",
+          "manuscriptNumber": "6830e865-9958-4931-9522-ac23ee4ff916 v1.0",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-01T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check, requesting amendments within 2 days.",
+          "source": {
+            "threadId": "1a1863dfcc472428",
+            "messageId": "1a18a2a261407d95",
+            "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
+            "from": "Harsh Desai <hhd@udel.edu>"
           },
           "needsReview": false
         },
@@ -17610,7 +17644,7 @@
       "actionLabel": null,
       "currentJournal": "World Journal of Orthopedics",
       "currentManuscriptNumber": "130321",
-      "currentStatus": "Submitted",
+      "currentStatus": "Under review",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -17624,7 +17658,7 @@
           "manuscriptNumber": "130321",
           "submittedDate": "2026-10-29T12:46:39.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -17638,6 +17672,19 @@
                 "threadId": "1a187b30ccc845ee",
                 "messageId": "1a187b30ccc845ee",
                 "subject": "World Journal of Orthopedics - Receipt of Manuscript No.: 130321",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-30T07:58:19.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript passed technical preliminary review and is moving to editorial triage or external peer review.",
+              "manuscriptNumber": "130321",
+              "source": {
+                "threadId": "1a18bd1362200fda",
+                "messageId": "1a18bd1362200fda",
+                "subject": "World Journal of Orthopedics Manuscript No.: 130321 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
                 "from": "BPG Submission <submission@wjgnet.com>"
               }
             }
@@ -17661,10 +17708,27 @@
             "from": "BPG Submission <submission@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-30T07:58:19.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "under_review",
+          "manuscriptNumber": "130321",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript passed technical preliminary review and is moving to editorial triage or external peer review.",
+          "source": {
+            "threadId": "1a18bd1362200fda",
+            "messageId": "1a18bd1362200fda",
+            "subject": "World Journal of Orthopedics Manuscript No.: 130321 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-29T12:46:39.000Z",
-      "updatedAt": "2026-10-29T12:46:39.000Z"
+      "updatedAt": "2026-10-30T07:58:19.000Z"
     },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
@@ -26835,13 +26899,13 @@
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00301R1",
       "currentStatus": "Revision requested",
-      "deadline": null,
-      "deadlineSource": null,
+      "deadline": "2026-11-02T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -26946,6 +27010,19 @@
                 "threadId": "1a17855a2614dfba",
                 "messageId": "1a17855a2614dfba",
                 "subject": "Extension for JBJS Open Access Manuscript (JBJSOA-D-26-00301R1)",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-30T05:45:39.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The journal requests a revised manuscript by Nov 2, 2026.",
+              "manuscriptNumber": "JBJSOA-D-26-00301R1",
+              "source": {
+                "threadId": "1a18b57a63709c04",
+                "messageId": "1a18b57a63709c04",
+                "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:81949e267f24d671]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -27087,10 +27164,31 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-30T05:45:39.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JBJSOA-D-26-00301R1",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-11-02T18:29:59.999Z",
+            "source": "stated",
+            "basis": "Nov 02 2026 11:59PM"
+          },
+          "note": "The journal requests a revised manuscript by Nov 2, 2026.",
+          "source": {
+            "threadId": "1a18b57a63709c04",
+            "messageId": "1a18b57a63709c04",
+            "subject": "JBJS Open Access Revision Reminder (JBJSOA-D-26-00301R1) - [EMID:81949e267f24d671]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-02T14:45:34.000Z",
-      "updatedAt": "2026-10-26T13:10:40.000Z"
+      "updatedAt": "2026-10-30T05:45:39.000Z"
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
