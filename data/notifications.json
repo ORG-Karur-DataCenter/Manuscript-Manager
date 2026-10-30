@@ -822,7 +822,8 @@
     "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa": {
       "number": 30,
       "title": "Amendment due tomorrow — Journal self-citation and the two-year Impact Factor window in orthop…",
-      "due": "2026-10-31T18:29:59.999Z"
+      "due": "2026-10-31T18:29:59.999Z",
+      "closed": true
     }
   }
 }

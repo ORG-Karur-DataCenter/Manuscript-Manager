@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T21:54:32.500Z",
+  "generatedAt": "2026-10-30T02:02:19.409Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -16172,17 +16172,17 @@
       "id": "journal-self-citation-and-the-two-year-impact-factor-window-in-orthopa",
       "title": "Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
       "titleNormalized": "journal self citation and the two year impact factor window in orthopaedic and spine journals a cross sectional analysis of 790 827 references in 36 journals",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "European Journal of Orthopaedic Surgery & Traumatology",
-      "currentManuscriptNumber": "6830e865-9958-4931-9522-ac23ee4ff916",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-10-31T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -16313,6 +16313,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-10-30T00:17:07.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-10-30T00:17:07.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a18a2adf0fdeb97",
+                "messageId": "1a18a2adf0fdeb97",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -16438,10 +16462,27 @@
             "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-30T00:17:07.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a18a2adf0fdeb97",
+            "messageId": "1a18a2adf0fdeb97",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-07T04:46:41.000Z",
-      "updatedAt": "2026-10-29T05:59:30.000Z"
+      "updatedAt": "2026-10-30T00:17:07.000Z"
     },
     {
       "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
