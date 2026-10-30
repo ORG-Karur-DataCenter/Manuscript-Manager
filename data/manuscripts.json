@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T16:12:57.127Z",
+  "generatedAt": "2026-10-30T21:00:04.294Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -13325,10 +13325,10 @@
       "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 3 requested",
       "currentJournal": "Indian Journal of Orthopaedics",
-      "currentManuscriptNumber": "JOIO-D-25-00513R2",
+      "currentManuscriptNumber": "JOIO-D-25-00513R3",
       "currentStatus": "Revision submitted",
       "doi": null,
       "publicationLink": null,
@@ -13338,7 +13338,7 @@
       "submissions": [
         {
           "journal": "Indian Journal of Orthopaedics",
-          "manuscriptNumber": "JOIO-D-25-00513R2",
+          "manuscriptNumber": "JOIO-D-25-00513R3",
           "submittedDate": "2026-04-22T14:39:37.000Z",
           "outcome": "active",
           "status": "revision_requested",
@@ -13385,6 +13385,19 @@
                 "subject": "Major Revisions requested JOIO-D-25-00513R2",
                 "from": "JOIO Editorial Office <em@editorialmanager.com>",
                 "via": "offline-import"
+              }
+            },
+            {
+              "timestamp": "2026-10-30T16:37:33.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 3,
+              "note": "The editor requested major revisions and asked the author to submit a revised manuscript by 25 Nov 2026.",
+              "manuscriptNumber": "JOIO-D-25-00513R3",
+              "source": {
+                "threadId": "1a18dac7b8a88ada",
+                "messageId": "1a18dac7b8a88ada",
+                "subject": "Major Revisions requested JOIO-D-25-00513R3",
+                "from": "JOIO Editorial Office <em@editorialmanager.com>"
               }
             }
           ]
@@ -13438,12 +13451,33 @@
             "via": "offline-import"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-30T16:37:33.000Z",
+          "journal": "Indian Journal of Orthopaedics",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "JOIO-D-25-00513R3",
+          "label": "Revision requested",
+          "revisionRound": 3,
+          "deadline": {
+            "due": "2026-11-25T18:29:59.999Z",
+            "source": "stated",
+            "basis": "25 Nov 2026"
+          },
+          "note": "The editor requested major revisions and asked the author to submit a revised manuscript by 25 Nov 2026.",
+          "source": {
+            "threadId": "1a18dac7b8a88ada",
+            "messageId": "1a18dac7b8a88ada",
+            "subject": "Major Revisions requested JOIO-D-25-00513R3",
+            "from": "JOIO Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-04-22T14:39:37.000Z",
-      "updatedAt": "2026-04-26T05:18:33.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-10-30T16:37:33.000Z",
+      "deadline": "2026-11-25T18:29:59.999Z",
+      "deadlineSource": "stated",
       "overrides": {
         "bucket": "in_review",
         "currentStatus": "Revision submitted",

@@ -1,6 +1,55 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-30T16:59:41.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Four Futures For AI In Medical Diagnostics",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T17:36:51.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New HTN Guidelines Recommend Two General Treatment Groups",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T10:13:49.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Cochrane ECPN November 2026 Newsletter",
+      "from": "Cochrane <No-reply@cochrane.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T15:03:52.000Z",
+      "reason": "unrelated",
+      "subject": "[ORCID] Sathish Muthu you have new notifications",
+      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T16:37:45.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Your OrthoBuzz October Newsletter",
+      "from": "JBJS <info@jbjs.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T18:07:07.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Second Reminder: Invitation to review Manuscript IPMT-2026-ST-0478 - Pain Management",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T18:15:16.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review Manuscript IRME-2026-ST-0331 - Regenerative Medicine",
+      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-30T02:51:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "ET AI - OpenAI CEO Sam Altman sees AI-led software overhaul amid PHP security concerns",
@@ -2049,55 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Dove Medical Press Peer Review Invitation Closed [ID: 661946]",
       "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T22:23:58.000Z",
-      "reason": "unrelated",
-      "subject": "Inviting you to please contribute a chapter",
-      "from": "Resmi Rajalekshmi <rrajalekshmi@westernu.edu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T18:30:43.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Give Your Research Greater Reach and Impact - Want to Know How?",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T20:04:06.000Z",
-      "reason": "unrelated",
-      "subject": "IONM 1 manuscript",
-      "from": "Vibhu Krishnan <drvibu007@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T16:57:34.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "Reviewer Accepts Assignment for JOIO-D-25-00892R2 - [EMID:c8f27caa71937ebd]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T17:01:35.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "One review complete JOIO-D-25-00892R2",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T14:16:08.000Z",
-      "reason": "unrelated",
-      "subject": "You have 1 new invitation",
-      "from": "LinkedIn <notifications-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T13:17:31.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review Manuscript IRME-2026-ST-0333 - Regenerative Medicine",
-      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
