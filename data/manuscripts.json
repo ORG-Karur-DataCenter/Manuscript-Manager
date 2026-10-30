@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T08:50:25.109Z",
+  "generatedAt": "2026-10-30T16:12:57.127Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -4488,17 +4488,17 @@
       "id": "comprehensive-characterization-of-injectable-platelet-rich-fibrin-i-pr",
       "title": "Comprehensive Characterization of Injectable Platelet-Rich Fibrin (i-PRF): Cellular, Biochemical, Architectural, Rheological, and Release-Kinetic Profiling of Ten Independent Preparations",
       "titleNormalized": "comprehensive characterization of injectable platelet rich fibrin i prf cellular biochemical architectural rheological and release kinetic profiling of ten independent preparations",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal. This paper has been at: Stem Cell Reviews and Reports — set the right one.",
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
       "currentJournal": "Biologics",
       "currentManuscriptNumber": "biologics-4612427",
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentStatus": "Revision requested",
+      "deadline": "2026-11-09T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -4621,7 +4621,7 @@
           "manuscriptNumber": "biologics-4612427",
           "submittedDate": "2026-09-22T07:18:14.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -4648,6 +4648,19 @@
                 "threadId": "1a0cbef472c985e7",
                 "messageId": "1a0cbef472c985e7",
                 "subject": "[Biologics] Manuscript ID: biologics-4612427 - Co-Authorship Confirmation",
+                "from": "Biologics Editorial Office <biologics@mdpi.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-30T12:49:23.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "The manuscript received major revision decision; authors must submit a revised version within 10 days.",
+              "manuscriptNumber": "biologics-4612427",
+              "source": {
+                "threadId": "1a18cdb992abc653",
+                "messageId": "1a18cdb992abc653",
+                "subject": "[Biologics] Manuscript ID: biologics-4612427 - Major Revision",
                 "from": "Biologics Editorial Office <biologics@mdpi.com>"
               }
             }
@@ -4790,10 +4803,31 @@
             "from": "Biologics Editorial Office <biologics@mdpi.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-30T12:49:23.000Z",
+          "journal": "Biologics",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "biologics-4612427",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-11-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "10 days from the email"
+          },
+          "note": "The manuscript received major revision decision; authors must submit a revised version within 10 days.",
+          "source": {
+            "threadId": "1a18cdb992abc653",
+            "messageId": "1a18cdb992abc653",
+            "subject": "[Biologics] Manuscript ID: biologics-4612427 - Major Revision",
+            "from": "Biologics Editorial Office <biologics@mdpi.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-11T07:49:51.000Z",
-      "updatedAt": "2026-09-23T01:44:10.000Z"
+      "updatedAt": "2026-10-30T12:49:23.000Z"
     },
     {
       "id": "construct-design-and-the-prevention-of-rod-fracture-in-adult-spinal-de",
@@ -13443,15 +13477,15 @@
       "id": "industry-funding-and-outcome-reporting-in-single-level-cervical-disc-a",
       "title": "Industry funding and outcome reporting in single-level cervical disc arthroplasty versus anterior cervical discectomy and fusion: a systematic review and meta-analysis of randomized controlled trials with funding- and device-stratified analyses",
       "titleNormalized": "industry funding and outcome reporting in single level cervical disc arthroplasty versus anterior cervical discectomy and fusion a systematic review and meta analysis of randomized controlled trials with funding and device stratified analyses",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "reviewReason": null,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision 1 requested",
       "currentJournal": "Global Spine Journal",
       "currentManuscriptNumber": "GSJ-26-1886",
-      "currentStatus": "Submitted",
+      "currentStatus": "Revision requested",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -13529,7 +13563,7 @@
           "manuscriptNumber": "GSJ-26-1886",
           "submittedDate": "2026-09-13T16:28:46.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -13569,6 +13603,19 @@
                 "threadId": "1a0dccd0459344d0",
                 "messageId": "1a0dccd0459344d0",
                 "subject": "Global Spine Journal  GSJ-26-1886",
+                "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-30T14:43:09.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": 1,
+              "note": "Reviewers recommended major revisions and the author is asked to submit a revised manuscript.",
+              "manuscriptNumber": "GSJ-26-1886",
+              "source": {
+                "threadId": "1a18d43bcfce47e4",
+                "messageId": "1a18d43bcfce47e4",
+                "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1886",
                 "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
               }
             }
@@ -13698,10 +13745,27 @@
             "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-30T14:43:09.000Z",
+          "journal": "Global Spine Journal",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "GSJ-26-1886",
+          "label": "Revision requested",
+          "revisionRound": 1,
+          "deadline": null,
+          "note": "Reviewers recommended major revisions and the author is asked to submit a revised manuscript.",
+          "source": {
+            "threadId": "1a18d43bcfce47e4",
+            "messageId": "1a18d43bcfce47e4",
+            "subject": "Global Spine Journal - Decision on Manuscript ID GSJ-26-1886",
+            "from": "Global Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-15T05:31:48.000Z",
-      "updatedAt": "2026-09-26T08:20:18.000Z"
+      "updatedAt": "2026-10-30T14:43:09.000Z"
     },
     {
       "id": "infrared-thermography-as-adjunctive-imaging-in-spine-surgery-evaluatin",
@@ -14196,8 +14260,8 @@
       "bucket": "in_review",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "JBJS Open Access",
       "currentManuscriptNumber": "JBJSOA-D-26-00231R3",
       "currentStatus": "Revision submitted — Editor changes approved",
@@ -14212,7 +14276,7 @@
           "manuscriptNumber": "JBJSOA-D-26-00231R3",
           "submittedDate": "2026-08-28T15:10:08.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -14577,6 +14641,19 @@
                 "threadId": "1a1690371742c706",
                 "messageId": "1a1690371742c706",
                 "subject": "Your JBJS Open Access PDF Has Been Built",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-10-30T15:04:38.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 3,
+              "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+              "manuscriptNumber": "JBJSOA-D-26-00231R3",
+              "source": {
+                "threadId": "1a18d57906045010",
+                "messageId": "1a18d57906045010",
+                "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R3) - [EMID:0f202a4bffbd6bbf]",
                 "from": "JBJS Open Access <em@editorialmanager.com>"
               }
             }
@@ -15110,12 +15187,33 @@
             "from": "JBJS Open Access <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-10-30T15:04:38.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JBJSOA-D-26-00231R3",
+          "label": "Sent back for edits",
+          "revisionRound": 3,
+          "deadline": {
+            "due": "2026-11-13T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "14 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The revised manuscript was sent back to the author for additional changes before further processing.",
+          "source": {
+            "threadId": "1a18d57906045010",
+            "messageId": "1a18d57906045010",
+            "subject": "Revised JBJS Open Access Submission Return to Author (JBJSOA-D-26-00231R3) - [EMID:0f202a4bffbd6bbf]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-28T15:10:08.000Z",
-      "updatedAt": "2026-10-23T13:46:30.000Z",
-      "deadline": null,
-      "deadlineSource": null,
+      "updatedAt": "2026-10-30T15:04:38.000Z",
+      "deadline": "2026-11-13T18:29:59.999Z",
+      "deadlineSource": "assumed",
       "overrides": {
         "bucket": "in_review",
         "notes": "Amendment completed 30 Aug 2026: the revised PDF was built and the Editor's changes approved (JBJS Open Access, EMID 3c716ed78c3c36b4). Cleared by hand because the confirmation email was fetched but not yet classified — the free-tier classifier quota was spent.",

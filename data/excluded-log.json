@@ -1,6 +1,104 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-30T02:51:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI - OpenAI CEO Sam Altman sees AI-led software overhaul amid PHP security concerns",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T13:00:15.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "How mental health and cancer survival intersect",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T06:20:51.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle Study Protocol manuscript [PONE-D-26-46851] - [EMID:ec4a26708168524c]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T09:15:41.000Z",
+      "reason": "unrelated",
+      "subject": "Base Expense Ratio (BER) of ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan - Growth",
+      "from": "ICICI PRUDENTIAL AMC <donotreplytoICICIMF@camsonline.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T09:59:42.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Re: Kindly Submit Your Most Valuable Paper",
+      "from": "Journal of Medical Images and Medical Education Research <contact.medicalimages@onlinemks.info>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T10:03:46.000Z",
+      "reason": "unrelated",
+      "subject": "Your publication: AO Spine Clinical Practice Recommendations for Interbody Fusion at the Lumbo-Sacral Junction",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T10:26:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Vincenzo Denaro published an article",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T10:54:13.000Z",
+      "reason": "unrelated",
+      "subject": "Sathish, an article cited your research",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T12:00:57.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read, Learn, and Publish - Pediatric Journal Updates",
+      "from": "Medknow <email@medknow.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T12:43:21.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Follow Up With Reference to Does the Choice of Chemoprophylaxis Affect the Prevention of Deep Vein Thrombosis in Lumbar Fusion Surgery? A Systematic Review of the Literature",
+      "from": "\"Dr. Mara Sterling\" <ljmhr@londonjournalspress.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T12:49:23.000Z",
+      "reason": "unrelated",
+      "subject": "[Biologics] Manuscript ID: biologics-4612427 - Reviewer Comments on Language and Figures",
+      "from": "authorservices@mdpi.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T14:24:01.000Z",
+      "reason": "unrelated",
+      "subject": "Transfer Not Completed",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T15:14:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  Clinical Orthopaedics and Related Research® - Vol. 484, No. 11, November 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T15:26:21.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Read the latest  Clinical Spine Surgery - Vol. 39, No. 9, November 2026",
+      "from": "Lippincott Journals eTOC <email@lww.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-30T03:05:43.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Dear Dr. Sathish Muthu Inside:  for Young Surgeons -IOACON2026",
@@ -2000,104 +2098,6 @@
       "reason": "peer_review_invitation_for_other_manuscript",
       "subject": "Reminder: Invitation to review Manuscript IRME-2026-ST-0333 - Regenerative Medicine",
       "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T14:15:30.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "RE-Article acknowledgment",
-      "from": "Journal of Orthopaedic Science and Research <orthopaedic@athenaeumpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T14:35:21.000Z",
-      "reason": "unrelated",
-      "subject": "Re: RoB",
-      "from": "Luca Ambrosio <luc.ambros@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T10:55:10.000Z",
-      "reason": "unrelated",
-      "subject": "[RE][Cells] Manuscript ID: cells-4664892 - Additional Experiment Required",
-      "from": "\"간가다란 프라카시\" <prakashg@knu.ac.kr>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T11:10:41.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, you were recently cited by an author from Chulalongkorn University",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T17:39:05.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "ijc Manuscript for review: ijc_625_26 Your comments are awaited",
-      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T13:55:26.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Manuscript UIVS-2026-0227 - Journal of Investigative Surgery",
-      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T12:37:33.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Your work deserves expert recognition",
-      "from": "\"Journal of Orthopaedics, Trauma and Rehabilitation\" <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T09:48:59.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Papers: Submit your research to JOMDOS (ISSN: 3062-3545)",
-      "from": "FIRAT OZAN <firatozan9@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T11:21:44.000Z",
-      "reason": "unrelated",
-      "subject": "Funds / Securities Balance",
-      "from": "BSE ALERTS <info@bseindia.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T11:58:55.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Invitation for the Manuscript for the journal - Journal of Orthopedic Education (JOE)",
-      "from": "Journal Author Support Red Flower Publication <author@rfppl.co.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T12:54:11.000Z",
-      "reason": "unrelated",
-      "subject": "Invitation for the Editorial Board Member in the Journal – “Journal of Orthopedic Education (JOE) ”",
-      "from": "Journal Author Support Red Flower Publication <author@rfppl.co.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T04:48:37.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-25-00892R2 - [EMID:2b6611ec85adb361]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T04:48:37.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "Reminder: Invitation to review a manuscript for Indian Journal of Orthopaedics - JOIO-D-25-00892R2 - [EMID:d6771db336461440]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-17T06:09:31.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Your services on MD-D-26-10661 are no longer required",
-      "from": "Medicine <em@editorialmanager.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

@@ -697,6 +697,23 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste|2026-11-13T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
+      "due": "2026-11-13T18:29:59.999Z",
+      "at": "2026-10-30T16:13:02.630Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -738,8 +755,8 @@
     },
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
-      "title": "Amendment 3 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
-      "due": "2026-10-26T18:29:59.999Z",
+      "title": "Amendment 14 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "due": "2026-11-13T18:29:59.999Z",
       "closed": true
     },
     "naive-baselines-outperform-bayesian-age-period-cohort-forecasts-of-glo": {
