@@ -1,6 +1,34 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-10-30T12:50:06.000Z",
+      "reason": "unrelated",
+      "subject": "Dhibin Vikash, you were recently cited by an author from Northwestern University",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T22:27:20.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "📈 Anthropic shares are trading now",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-30T16:11:26.000Z",
+      "reason": "unrelated",
+      "subject": "Asian Paints Limited – Communication regarding (TDS) Tax Deduction at Source on dividend",
+      "from": "asianpaints.update@in.mpms.mufg.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-10-31T00:24:43.000Z",
+      "reason": "unrelated",
+      "subject": "5409-GBD2023: Ageing and Inequality paper - authorship due November 6",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-10-30T16:59:41.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Four Futures For AI In Medical Diagnostics",
@@ -2070,34 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "Announcing the Nov 2026 edition of Web of Science Training & Certification Program",
       "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T23:45:01.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[HP-26-100] Manuscript is sent to another reviewer.",
-      "from": "\"Hip & Pelvis\" <journal@hipandpelvis.or.kr>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-19T02:13:01.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-19T02:40:30.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Inviting you to please contribute a chapter",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-18T21:12:08.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Dove Medical Press Peer Review Invitation Closed [ID: 661946]",
-      "from": "Ms Ravichandran <Lavanya.Ravichandran@taylorandfrancis.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
