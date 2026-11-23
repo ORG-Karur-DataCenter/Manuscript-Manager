@@ -714,6 +714,64 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "identification-of-therapeutic-targets-and-gene-expression-profiling-to|2026-11-05T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
+      "at": "2026-11-23T13:17:26.758Z"
+    },
+    {
+      "key": "identification-of-therapeutic-targets-and-gene-expression-profiling-to|2026-11-05T18:29:59.999Z|t-1",
+      "kind": "superseded",
+      "manuscriptId": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
+      "at": "2026-11-23T13:17:26.758Z"
+    },
+    {
+      "key": "identification-of-therapeutic-targets-and-gene-expression-profiling-to|2026-11-05T18:29:59.999Z|overdue",
+      "kind": "overdue",
+      "manuscriptId": "identification-of-therapeutic-targets-and-gene-expression-profiling-to",
+      "title": "Identification of Therapeutic Targets and Gene Expression Profiling to Unravel the Underlying Mechanisms and their Comprehensive Role in Intervertebral Disc Degeneration",
+      "due": "2026-11-05T18:29:59.999Z",
+      "at": "2026-11-23T13:17:26.758Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste|2026-11-13T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "at": "2026-11-23T13:17:29.287Z"
+    },
+    {
+      "key": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste|2026-11-13T18:29:59.999Z|t-1",
+      "kind": "superseded",
+      "manuscriptId": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "at": "2026-11-23T13:17:29.287Z"
+    },
+    {
+      "key": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste|2026-11-13T18:29:59.999Z|overdue",
+      "kind": "overdue",
+      "manuscriptId": "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste",
+      "title": "Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Systematic Review and Meta-Analysis of Spine Surgery Outcomes",
+      "due": "2026-11-13T18:29:59.999Z",
+      "at": "2026-11-23T13:17:29.287Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -755,7 +813,7 @@
     },
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
-      "title": "Amendment 13 days left — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "title": "Amendment 10 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
       "due": "2026-11-13T18:29:59.999Z",
       "closed": true
     },
@@ -816,11 +874,12 @@
     "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea": {
       "number": 26,
       "title": "Amendment 25 days overdue — When do Bayesian age–period–cohort forecasts of Global Burden of Dise…",
-      "due": "2026-10-06T18:29:59.999Z"
+      "due": "2026-10-06T18:29:59.999Z",
+      "closed": true
     },
     "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the": {
       "number": 27,
-      "title": "Amendment 6 days overdue — AO Spine Clinical Practice Recommendations for Interbody Fusion at th…",
+      "title": "Amendment 29 days overdue — AO Spine Clinical Practice Recommendations for Interbody Fusion at th…",
       "due": "2026-10-25T18:29:59.999Z",
       "closed": true
     },
@@ -832,7 +891,7 @@
     },
     "identification-of-therapeutic-targets-and-gene-expression-profiling-to": {
       "number": 29,
-      "title": "Amendment 5 days left — Identification of Therapeutic Targets and Gene Expression Profiling t…",
+      "title": "Amendment 18 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
       "due": "2026-11-05T18:29:59.999Z",
       "closed": true
     },
