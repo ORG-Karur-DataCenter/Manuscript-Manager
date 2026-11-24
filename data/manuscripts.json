@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T13:17:19.580Z",
+  "generatedAt": "2026-11-24T01:08:39.546Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3659,6 +3659,184 @@
       "updatedAt": "2026-09-21T08:41:32.000Z"
     },
     {
+      "id": "clustering-exposure-and-adherence-three-reasons-for-caution-in-dose-re",
+      "title": "Clustering, exposure and adherence: three reasons for caution in dose recommendations for neuromuscular training. Comment on Gu et al",
+      "titleNormalized": "clustering exposure and adherence three reasons for caution in dose recommendations for neuromuscular training comment on gu et al",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Sports Medicine - Open",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Sports Medicine - Open",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-23T14:33:33.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-23T14:33:33.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is asked to approve the generated PDF to complete the submission of their manuscript.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a208ce377f25d10",
+                "messageId": "1a208d394114fc91",
+                "subject": "Your PDF for your Sports Medicine - Open submission has been created",
+                "from": "Sports Medicine - Open Editorial Office <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-23T14:33:33.000Z",
+          "journal": "Sports Medicine - Open",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is asked to approve the generated PDF to complete the submission of their manuscript.",
+          "source": {
+            "threadId": "1a208ce377f25d10",
+            "messageId": "1a208d394114fc91",
+            "subject": "Your PDF for your Sports Medicine - Open submission has been created",
+            "from": "Sports Medicine - Open Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-23T14:33:33.000Z",
+      "updatedAt": "2026-11-23T14:33:33.000Z"
+    },
+    {
+      "id": "comment-on-robotic-assisted-total-knee-arthroplasty-demonstrates-super",
+      "title": "Comment on \"Robotic-assisted total knee arthroplasty demonstrates superior early functional outcomes compared with conventional total knee arthroplasty: a quasi-randomised controlled trial\"",
+      "titleNormalized": "comment on robotic assisted total knee arthroplasty demonstrates superior early functional outcomes compared with conventional total knee arthroplasty a quasi randomised controlled trial",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Orthopaedics and Traumatology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-23T13:38:54.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-23T13:38:54.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author's manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a2082ee0262ad8f",
+                "messageId": "1a208a18f4622cdb",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Orthopaedics and Traumatology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-23T14:05:14.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-23T14:05:14.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author's manuscript has been received and a tracking dashboard is provided.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a208b9acd02f8c6",
+                "messageId": "1a208b9acd02f8c6",
+                "subject": "Track the status of your submission to Journal of Orthopaedics and Traumatology",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-23T13:38:54.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a2082ee0262ad8f",
+            "messageId": "1a208a18f4622cdb",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-23T14:05:14.000Z",
+          "journal": "Journal of Orthopaedics and Traumatology",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's manuscript has been received and a tracking dashboard is provided.",
+          "source": {
+            "threadId": "1a208b9acd02f8c6",
+            "messageId": "1a208b9acd02f8c6",
+            "subject": "Track the status of your submission to Journal of Orthopaedics and Traumatology",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-23T14:05:14.000Z",
+      "updatedAt": "2026-11-23T14:05:14.000Z"
+    },
+    {
       "id": "comments-on-global-and-regional-patterns-of-drug-resistance-and-treatm",
       "title": "Comments on 'Global and Regional Patterns of Drug Resistance and Treatment Regimens in Spinal Tuberculosis: A Systematic Review and Meta-Analysis'",
       "titleNormalized": "comments on global and regional patterns of drug resistance and treatment regimens in spinal tuberculosis a systematic review and meta analysis",
@@ -5250,6 +5428,74 @@
         "Convergence and divergence of disease burden across the states of India, 1990-2023: a robustness-tested analysis of ten conditions spanning the epidemiological transition"
       ],
       "editedAt": "2026-09-03T18:02:35.635Z"
+    },
+    {
+      "id": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m",
+      "title": "Cortical breach of S2 alar-iliac (S2AI) screws: a systematic review and meta-analysis of incidence, patterns, countermeasures, and a proposed unified breach classification",
+      "titleNormalized": "cortical breach of s2 alar iliac s2ai screws a systematic review and meta analysis of incidence patterns countermeasures and a proposed unified breach classification",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"How Safe Are S2 Alar-Iliac Screws? A Systematic Review and Meta-analysis of Cortical Breach, Prevention Strategies, and a Proposed Unified Breach Classification\" (0.85). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-22T07:48:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-22T07:48:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author's manuscript has been received and the submission status can be tracked via the provided link.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a201b8ca8274ea1",
+                "messageId": "1a20239ff2671c38",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-22T07:48:04.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's manuscript has been received and the submission status can be tracked via the provided link.",
+          "source": {
+            "threadId": "1a201b8ca8274ea1",
+            "messageId": "1a20239ff2671c38",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-22T07:48:04.000Z",
+      "updatedAt": "2026-11-22T07:48:04.000Z"
     },
     {
       "id": "cross-talk-between-gut-microbiota-and-the-development-of-alzheimer-s-d",
@@ -9176,6 +9422,74 @@
       "updatedAt": "2026-11-23T08:09:12.000Z"
     },
     {
+      "id": "extent-of-tumour-removal-vertebral-level-and-denosumab-use-in-giant-ce-2",
+      "title": "Extent of tumour removal, vertebral level and denosumab use in giant cell tumour of the cervical spine: a systematic review with individual patient data synthesis",
+      "titleNormalized": "extent of tumour removal vertebral level and denosumab use in giant cell tumour of the cervical spine a systematic review with individual patient data synthesis",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-22T05:26:56.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-22T05:26:56.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted, with a link to track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a201b8ca8274ea1",
+                "messageId": "1a201b8ca8274ea1",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-22T05:26:56.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and submitted, with a link to track its status.",
+          "source": {
+            "threadId": "1a201b8ca8274ea1",
+            "messageId": "1a201b8ca8274ea1",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-22T05:26:56.000Z",
+      "updatedAt": "2026-11-22T05:26:56.000Z"
+    },
+    {
       "id": "factor-xiiia-controls-fibrin-ultrastructure-and-protein-release-in-inj",
       "title": "Factor XIIIa Controls Fibrin Ultrastructure and Protein Release in Injectable Platelet-Rich Fibrin: A Mechanistic In-Vitro Study",
       "titleNormalized": "factor xiiia controls fibrin ultrastructure and protein release in injectable platelet rich fibrin a mechanistic in vitro study",
@@ -9697,6 +10011,78 @@
       ],
       "createdAt": "2026-08-28T18:41:49.000Z",
       "updatedAt": "2026-08-28T18:41:49.000Z"
+    },
+    {
+      "id": "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur",
+      "title": "Fibular intramedullary nailing versus plate fixation for ankle fractures stratified by patient risk and nail design: a systematic review and meta-analysis",
+      "titleNormalized": "fibular intramedullary nailing versus plate fixation for ankle fractures stratified by patient risk and nail design a systematic review and meta analysis",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Foot and Ankle Surgery",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-30T18:29:59.999Z",
+      "deadlineSource": "assumed",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Foot and Ankle Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-23T15:22:34.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-23T15:22:34.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The journal requests the author to correct the abstract and resubmit the manuscript before it proceeds to peer review.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20900769fe90c1",
+                "messageId": "1a20900769fe90c1",
+                "subject": "Your submission",
+                "from": "Foot and Ankle Surgery <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-23T15:22:34.000Z",
+          "journal": "Foot and Ankle Surgery",
+          "eventType": "sent_back",
+          "manuscriptNumber": null,
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-30T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The journal requests the author to correct the abstract and resubmit the manuscript before it proceeds to peer review.",
+          "source": {
+            "threadId": "1a20900769fe90c1",
+            "messageId": "1a20900769fe90c1",
+            "subject": "Your submission",
+            "from": "Foot and Ankle Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-23T15:22:34.000Z",
+      "updatedAt": "2026-11-23T15:22:34.000Z"
     },
     {
       "id": "filgotinib-jyseleca-in-orthopaedic-rheumatological-conditions-a-narrat",
@@ -18153,6 +18539,19 @@
                 "subject": "World Journal of Orthopedics Manuscript No.: 130321 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
                 "from": "BPG Submission <submission@wjgnet.com>"
               }
+            },
+            {
+              "timestamp": "2026-11-23T20:02:20.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "World Journal of Orthopedics informed the authors that one peer reviewer has completed their review of the manuscript.",
+              "manuscriptNumber": "130321",
+              "source": {
+                "threadId": "1a20a009e778eff3",
+                "messageId": "1a20a009e778eff3",
+                "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 130321",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
             }
           ]
         }
@@ -18191,10 +18590,27 @@
             "from": "BPG Submission <submission@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-23T20:02:20.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "under_review",
+          "manuscriptNumber": "130321",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "World Journal of Orthopedics informed the authors that one peer reviewer has completed their review of the manuscript.",
+          "source": {
+            "threadId": "1a20a009e778eff3",
+            "messageId": "1a20a009e778eff3",
+            "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 130321",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-10-29T12:46:39.000Z",
-      "updatedAt": "2026-10-30T07:58:19.000Z"
+      "updatedAt": "2026-11-23T20:02:20.000Z"
     },
     {
       "id": "minimally-invasive-lumbar-spine-surgery-preserves-functional-recovery-",
@@ -22689,6 +23105,74 @@
       "updatedAt": "2026-08-26T06:58:48.000Z"
     },
     {
+      "id": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
+      "title": "Predicting mesenchymal stromal cell potency needs more donors before it guides release criteria: matters arising from South et al.",
+      "titleNormalized": "predicting mesenchymal stromal cell potency needs more donors before it guides release criteria matters arising from south et al",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-23T14:14:07.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-23T14:14:07.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a2082edea34166e",
+                "messageId": "1a208c1cd15cb566",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-23T14:14:07.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a2082edea34166e",
+            "messageId": "1a208c1cd15cb566",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-23T14:14:07.000Z",
+      "updatedAt": "2026-11-23T14:14:07.000Z"
+    },
+    {
       "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
       "title": "Preparation of Bone Marrow Aspirate Concentrate (BMAC): A Standardized Clinical Protocol for Wound Regeneration",
       "titleNormalized": "preparation of bone marrow aspirate concentrate bmac a standardized clinical protocol for wound regeneration",
@@ -27106,6 +27590,74 @@
       "updatedAt": "2026-08-26T06:50:40.000Z"
     },
     {
+      "id": "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage",
+      "title": "The missing joint environment in prognostic research on knee cartilage repair: matters arising from Han et al.",
+      "titleNormalized": "the missing joint environment in prognostic research on knee cartilage repair matters arising from han et al",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Knee Surgery & Related Research",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Knee Surgery & Related Research",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-23T14:12:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-23T14:12:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author's manuscript has been received and a tracking dashboard is provided.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a208bfe88d3e854",
+                "messageId": "1a208bfe88d3e854",
+                "subject": "Track the status of your submission to Knee Surgery & Related Research",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-23T14:12:04.000Z",
+          "journal": "Knee Surgery & Related Research",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's manuscript has been received and a tracking dashboard is provided.",
+          "source": {
+            "threadId": "1a208bfe88d3e854",
+            "messageId": "1a208bfe88d3e854",
+            "subject": "Track the status of your submission to Knee Surgery & Related Research",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-23T14:12:04.000Z",
+      "updatedAt": "2026-11-23T14:12:04.000Z"
+    },
+    {
       "id": "the-statistical-fragility-of-trials-comparing-decompression-alone-to-d",
       "title": "The Statistical Fragility of Trials Comparing Decompression Alone to Decompression with Spinal Fusion in Lumbar Spondylolisthesis",
       "titleNormalized": "the statistical fragility of trials comparing decompression alone to decompression with spinal fusion in lumbar spondylolisthesis",
@@ -27796,18 +28348,19 @@
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea",
       "title": "When do Bayesian age–period–cohort forecasts of Global Burden of Disease estimates outperform naïve baselines? An out-of-sample evaluation across four conditions, 31 Indian states and three forecast origins",
       "titleNormalized": "when do bayesian age period cohort forecasts of global burden of disease estimates outperform naive baselines an out of sample evaluation across four conditions 31 indian states and three forecast origins",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Journal of Evaluation in Clinical Practice",
       "currentManuscriptNumber": "4623523",
-      "currentStatus": "Sent back for edits",
+      "currentStatus": "Submitted",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -27815,7 +28368,7 @@
           "manuscriptNumber": "4623523",
           "submittedDate": "2026-08-17T10:52:38.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -27885,6 +28438,19 @@
                 "messageId": "1a0ebc1b5483ebf2",
                 "subject": "Manuscript returned to draft: 4623523",
                 "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-22T15:38:25.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is informed they are a co‑author of a newly submitted manuscript and can view the submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a203e8ad439508b",
+                "messageId": "1a203e8ad439508b",
+                "subject": "Action Recommended:  View  your submission to Journal of Evaluation in Clinical Practice",
+                "from": "Journal of Evaluation in Clinical Practice <no-reply@researchexchange.com>"
               }
             }
           ]
@@ -27980,12 +28546,29 @@
             "from": "Journal of Evaluation in Clinical Practice <jecpoffice@wiley.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-22T15:38:25.000Z",
+          "journal": "Journal of Evaluation in Clinical Practice",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is informed they are a co‑author of a newly submitted manuscript and can view the submission.",
+          "source": {
+            "threadId": "1a203e8ad439508b",
+            "messageId": "1a203e8ad439508b",
+            "subject": "Action Recommended:  View  your submission to Journal of Evaluation in Clinical Practice",
+            "from": "Journal of Evaluation in Clinical Practice <no-reply@researchexchange.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T10:52:38.000Z",
-      "updatedAt": "2026-09-29T06:02:15.000Z",
-      "deadline": "2026-10-06T18:29:59.999Z",
-      "deadlineSource": "assumed"
+      "updatedAt": "2026-11-22T15:38:25.000Z",
+      "deadline": null,
+      "deadlineSource": null
     },
     {
       "id": "when-do-bayesian-age-period-cohort-forecasts-of-global-burden-of-disea-2",

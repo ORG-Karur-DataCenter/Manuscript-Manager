@@ -772,6 +772,23 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur|2026-11-30T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur",
+      "title": "Fibular intramedullary nailing versus plate fixation for ankle fractures stratified by patient risk and nail design: a systematic review and meta-analysis",
+      "due": "2026-11-30T18:29:59.999Z",
+      "at": "2026-11-24T01:08:46.777Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -813,7 +830,7 @@
     },
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
-      "title": "Amendment 10 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "title": "Amendment 11 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
       "due": "2026-11-13T18:29:59.999Z",
       "closed": true
     },
@@ -879,7 +896,7 @@
     },
     "ao-spine-clinical-practice-recommendations-for-interbody-fusion-at-the": {
       "number": 27,
-      "title": "Amendment 29 days overdue — AO Spine Clinical Practice Recommendations for Interbody Fusion at th…",
+      "title": "Amendment 30 days overdue — AO Spine Clinical Practice Recommendations for Interbody Fusion at th…",
       "due": "2026-10-25T18:29:59.999Z",
       "closed": true
     },
@@ -891,7 +908,7 @@
     },
     "identification-of-therapeutic-targets-and-gene-expression-profiling-to": {
       "number": 29,
-      "title": "Amendment 18 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
+      "title": "Amendment 19 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
       "due": "2026-11-05T18:29:59.999Z",
       "closed": true
     },
@@ -900,6 +917,11 @@
       "title": "Amendment due tomorrow — Journal self-citation and the two-year Impact Factor window in orthop…",
       "due": "2026-10-31T18:29:59.999Z",
       "closed": true
+    },
+    "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur": {
+      "number": 31,
+      "title": "Amendment 6 days left — Fibular intramedullary nailing versus plate fixation for ankle fractu…",
+      "due": "2026-11-30T18:29:59.999Z"
     }
   }
 }

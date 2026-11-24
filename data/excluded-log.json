@@ -1,6 +1,237 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-23T14:01:51.000Z",
+      "reason": "unrelated",
+      "subject": "Stanford is bowl bound after Big Game win",
+      "from": "Stanford Report <noreply@stanford.edu>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T15:23:05.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What’s Trending in Neurology – November 2026",
+      "from": "Sage Neurology <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T15:23:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "What’s Trending in Neurology – November 2026",
+      "from": "Sage Neurology <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T19:53:20.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "40 Health Trends for 2027, Apple's New AI Study, and the Rise of Healthcare Agents",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T23:51:54.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "👑 Jensen Huang is back as NVIDIA CEO",
+      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T00:35:47.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Next step for your lumbar avatar: three cases",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:57:07.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:57:47.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study – Data validation and clarifications for Reva Spine Centre (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:58:04.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study – Data validation and clarifications for Naresuan University (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:58:13.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study – Data validation and clarifications for Montefiore Einstein (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:58:21.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study – Data validation and clarifications for Middle East Private Hospital (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:58:28.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study – Data validation and clarifications for King's College Hospital (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:58:32.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study – Data validation and clarifications for Irkutsk State Medical University (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:58:37.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "SCOPE Study – Data validation and clarifications for Xuanwu Hospital (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:58:46.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study: Status Update, Support on Data Collection & Milestone Recognition",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T07:45:45.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Data validation and clarifications for Xuanwu Hospital (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T13:22:27.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "IRJPMS:: Inviting paper for Publication: Volume 9 Issue 6: 2026",
+      "from": "IRJPMS Editor <irjpms@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T13:58:35.000Z",
+      "reason": "unrelated",
+      "subject": "Registration Welcome Notification for Sports Medicine - Open",
+      "from": "Sports Medicine - Open Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T14:09:26.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Data validation and clarifications for Montefiore Einstein (revised data sheet v2)",
+      "from": "Sachin Mehta <sachin.mehta@einsteinmed.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T14:12:50.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T14:38:05.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Data validation and clarifications for Montefiore Einstein (revised data sheet v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T14:52:55.000Z",
+      "reason": "unrelated",
+      "subject": "Number ID: 05395420 Sincerely invite Editorial Board Member/Peer Reviewer to write an Editorial article/Correspondence/Opinion Review on the in-press articles",
+      "from": "\"BPG Invitation (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T15:16:40.000Z",
+      "reason": "unrelated",
+      "subject": "Tell us about your submission to European Spine Journal",
+      "from": "\"Chloe O'Donnell, Springer Nature\" <donotreply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T15:17:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "[Diagnostics] Highly Cited Papers on Clinical Laboratory Medicine",
+      "from": "Diagnostics Editorial Office <diagnostics@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T16:21:39.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Science Progress",
+      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T16:25:53.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Data validation and clarifications for Montefiore Einstein (revised data sheet v2)",
+      "from": "Sachin Mehta <sachin.mehta@einsteinmed.edu>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T19:02:37.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Prashanth JV Rao <prashanthdr@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T19:18:18.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Samuel Cho <samuelkcho@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T22:00:24.000Z",
+      "reason": "unrelated",
+      "subject": "Nomination for Membership",
+      "from": "Sigma Xi <membership@sigmaxi.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T22:49:45.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Data validation and clarifications for Middle East Private Hospital (revised data sheet v2)",
+      "from": "Ghazwan Hasan <dr.bayaty@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T23:56:08.000Z",
+      "reason": "unrelated",
+      "subject": "IHMEID: 5195 GBD 2023 Global Vaccine Extended EPI authorship due December 4",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T00:17:58.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T00:32:49.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Past Due Invoice APC600881474 Account 3002491701 Payment Request",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-22T11:55:01.000Z",
       "reason": "unrelated",
       "subject": "ET AI - Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
@@ -1868,237 +2099,6 @@
       "subject": "Status of ONOS APC Application form #1511 submitted by SATHISH MUTHU",
       "from": "ONOS NoReply <noreply-inf1@mail.inflibnet.ac.in>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T06:32:14.000Z",
-      "reason": "unrelated",
-      "subject": "Your RightsLink® Invoice for Wolters Kluwer Health, LLC APC600881474",
-      "from": "no-reply@email.copyright.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T06:35:53.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4609131 - Reminder for Invitation to Review for JCM",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T00:08:06.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Early Alzheimer’s Biomarker Test Results Guide Clinical Care",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T23:21:09.000Z",
-      "reason": "unrelated",
-      "subject": "RE: Invitation to Participate: Delphi Study for the face validation of SELECTION-AI Methodological Framework",
-      "from": "Ana Maria Barragan Gonzalez <ana.barragan@urosario.edu.co>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T00:01:07.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "World Journal of Stem Cells Manuscript NO: 128898 - Manuscript review canceled",
-      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T00:04:54.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Manuscript No. 129671 for World Journal of Virology (Reviewer’s Code: 05395420)",
-      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T10:49:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Dr. Muthu, know your AI choices under Cureus’s new AI policy",
-      "from": "Cureus Journal of Medical Science <no-reply@journal.cureus.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T13:46:11.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Get Published in Lippincott Nursing Journals – Submit Now!",
-      "from": "Lippincott Nursing Journals <lww@sci.scientific-direct.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T13:04:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Reunion Homecoming highlights",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T14:15:59.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "IONM Signal Interpretation - Umbrella Review",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T14:23:12.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "IONM Evidence based Recommendations",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T15:03:26.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "2027 Abstract Competition",
-      "from": "Vivian Davis <vivian.davis@gladdensociety.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T15:22:45.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract Review : IOACON 2026",
-      "from": "IOACON 2026 <scientific@ioacon2026gujarat.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T15:33:09.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "NEW Episode of Your Case Is On Hold",
-      "from": "JBJS <info@jbjs.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T16:21:07.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review Manuscript IRME-2026-ST-0333 - Regenerative Medicine",
-      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T16:56:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "[Cells, IF 6.0] Invitation to Contribute to the Special Issue: Advances and Breakthroughs in Stem Cell Research: 2nd Edition",
-      "from": "Hemant Mishra <hemantkmishra@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T17:50:05.000Z",
-      "reason": "unrelated",
-      "subject": "Abstract Review : IOACON 2026",
-      "from": "IOACON 2026 <scientific@ioacon2026gujarat.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T18:02:19.000Z",
-      "reason": "unrelated",
-      "subject": "Re: [RE][Biologics] Manuscript ID: biologics-4612427 - Further Information Required",
-      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T10:28:21.000Z",
-      "reason": "unrelated",
-      "subject": "Resources to support your research",
-      "from": "Sage Author Support <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T08:13:58.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: JOCR Article 11523 for review",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T08:40:20.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "Re: JOCR Article 11523 for review",
-      "from": "Nutan Saroj <sarojnutan@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T08:55:18.000Z",
-      "reason": "unrelated",
-      "subject": "Journal recommendations for Hidden clocks: a census of manuscript timeline disclosure in 5,188 MEDLINE journals and an audit of advertised review times in 36 orthopaedic journals",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T10:03:28.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Upcoming events",
-      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T12:11:01.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Agentic Artificial Intelligence Framework for Systematic Reviews",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T12:29:41.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO-D-26-01334 - New manuscript received",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T13:12:37.000Z",
-      "reason": "unrelated",
-      "subject": "BMJ Best Practice: please do not use AI tools for your work on topic updates, new topics, or peer review",
-      "from": "Gemma Spink <gspink@bmj.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T06:09:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Follow Up-Re: [Osteology] Manuscript ID: osteology-1406345 - Declined for Publication",
-      "from": "Osteology Editorial Office <osteology@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T06:18:41.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One Reminder of Active Assignments - [EMID:9c60fadf565b3480]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T06:26:31.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[OBM Neurobiology] Manuscript ID: obm-neurobiology-4546 - Peer Review Request",
-      "from": "\"LIDSEN Publishing Inc.丨The Open Access Publisher\" <lily.liu@lidsen.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-19T14:41:33.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Manuscript UIVS-2026-0227 - Journal of Investigative Surgery",
-      "from": "Journal of Investigative Surgery <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-19T17:44:09.000Z",
-      "reason": "unrelated",
-      "subject": "Re: AO Spine FOCUS Study (October Newsletter)",
-      "from": "Philip Louie <louie.philip@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-19T13:05:27.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Understanding everyday chemical exposures",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-19T14:17:10.000Z",
-      "reason": "unrelated",
-      "subject": "Top 5 News In Digital Health And Healthcare AI This Week",
-      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
