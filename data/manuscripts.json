@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T11:16:25.057Z",
+  "generatedAt": "2026-11-24T21:31:57.506Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -386,17 +386,17 @@
       "id": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea",
       "title": "A Mechanism-based Approach to Complex Proximal Radius Fractures: A Treatment Algorithm and Descriptive Case Series",
       "titleNormalized": "a mechanism based approach to complex proximal radius fractures a treatment algorithm and descriptive case series",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "European Journal of Orthopaedic Surgery & Traumatology",
-      "currentManuscriptNumber": "bf3e1669-b7c4-45b6-89d0-bc707dc234f4",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-11-26T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -422,6 +422,19 @@
               "source": {
                 "threadId": "1a2082ee0262ad8f",
                 "messageId": "1a2082ee0262ad8f",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-24T11:59:26.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6662dd030ef",
+                "messageId": "1a20d6cd7d9ceabd",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -508,10 +521,27 @@
             "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T11:59:26.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a20d6662dd030ef",
+            "messageId": "1a20d6cd7d9ceabd",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T11:42:14.000Z",
-      "updatedAt": "2026-11-24T07:14:12.000Z"
+      "updatedAt": "2026-11-24T11:59:26.000Z"
     },
     {
       "id": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea-2",
@@ -3561,6 +3591,142 @@
       "updatedAt": "2026-11-23T12:17:27.000Z"
     },
     {
+      "id": "chondral-or-osteochondral-defect-depth-animal-maturity-and-comparators",
+      "title": "Chondral or osteochondral?Defect depth, animal maturity and comparators in preclinical studies of 3D-bioprinted cartilage repair",
+      "titleNormalized": "chondral or osteochondral defect depth animal maturity and comparators in preclinical studies of 3d bioprinted cartilage repair",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Orthopaedic Translation",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Orthopaedic Translation",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T14:36:46.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T14:36:46.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal confirmed receipt of the submitted manuscript.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20dfce07001180",
+                "messageId": "1a20dfce07001180",
+                "subject": "Confirming submission to Journal of Orthopaedic Translation",
+                "from": "Journal of Orthopaedic Translation <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T14:36:46.000Z",
+          "journal": "Journal of Orthopaedic Translation",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal confirmed receipt of the submitted manuscript.",
+          "source": {
+            "threadId": "1a20dfce07001180",
+            "messageId": "1a20dfce07001180",
+            "subject": "Confirming submission to Journal of Orthopaedic Translation",
+            "from": "Journal of Orthopaedic Translation <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T14:36:46.000Z",
+      "updatedAt": "2026-11-24T14:36:46.000Z"
+    },
+    {
+      "id": "chondral-or-osteochondral-defect-depth-animal-maturity-and-comparators-2",
+      "title": "Chondral or osteochondral?Defect depth, animal maturity and comparators in preclinical studies of 3D-bioprinted cartilage repair. Comment on Rodríguez-Cendal et al.",
+      "titleNormalized": "chondral or osteochondral defect depth animal maturity and comparators in preclinical studies of 3d bioprinted cartilage repair comment on rodriguez cendal et al",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Chondral or osteochondral?Defect depth, animal maturity and comparators in preclinical studies of 3D-bioprinted cartilage repair\" (0.92). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Orthopaedic Translation",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Orthopaedic Translation",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T14:36:47.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T14:36:47.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The co‑author is asked to confirm their authorship on a newly submitted manuscript.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20dfce6f4be6b5",
+                "messageId": "1a20dfce6f4be6b5",
+                "subject": "Confirm co-authorship of submission to Journal of Orthopaedic Translation",
+                "from": "Journal of Orthopaedic Translation <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T14:36:47.000Z",
+          "journal": "Journal of Orthopaedic Translation",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The co‑author is asked to confirm their authorship on a newly submitted manuscript.",
+          "source": {
+            "threadId": "1a20dfce6f4be6b5",
+            "messageId": "1a20dfce6f4be6b5",
+            "subject": "Confirm co-authorship of submission to Journal of Orthopaedic Translation",
+            "from": "Journal of Orthopaedic Translation <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T14:36:47.000Z",
+      "updatedAt": "2026-11-24T14:36:47.000Z"
+    },
+    {
       "id": "chondrogenesis-of-peripheral-blood-derived-mesenchymal-stromal-cells",
       "title": "Chondrogenesis of Peripheral Blood-derived Mesenchymal Stromal Cells",
       "titleNormalized": "chondrogenesis of peripheral blood derived mesenchymal stromal cells",
@@ -3910,6 +4076,74 @@
       ],
       "createdAt": "2026-11-23T14:33:33.000Z",
       "updatedAt": "2026-11-23T14:33:33.000Z"
+    },
+    {
+      "id": "comment-on-anterior-only-stabilization-of-traumatic-subaxial-cervical-",
+      "title": "Comment on “Anterior-Only Stabilization of Traumatic Subaxial Cervical Spine Injuries: Why Constructs Fail and Why Most Survive—A Systematic Review”",
+      "titleNormalized": "comment on anterior only stabilization of traumatic subaxial cervical spine injuries why constructs fail and why most survive a systematic review",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "GSJ",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Accepted (awaiting publication)",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "GSJ",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T12:23:42.000Z",
+          "outcome": "active",
+          "status": "accepted",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T12:23:42.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "The article is being finalized and no further amendments are possible.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d830e3a36f48",
+                "messageId": "1a20d830e3a36f48",
+                "subject": "Corrections received - [GSJ_1513089]-SAGE",
+                "from": "no-reply@proofcentral.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T12:23:42.000Z",
+          "journal": "GSJ",
+          "eventType": "accepted",
+          "manuscriptNumber": null,
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The article is being finalized and no further amendments are possible.",
+          "source": {
+            "threadId": "1a20d830e3a36f48",
+            "messageId": "1a20d830e3a36f48",
+            "subject": "Corrections received - [GSJ_1513089]-SAGE",
+            "from": "no-reply@proofcentral.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T12:23:42.000Z",
+      "updatedAt": "2026-11-24T12:23:42.000Z"
     },
     {
       "id": "comment-on-robotic-assisted-total-knee-arthroplasty-demonstrates-super",
@@ -4798,6 +5032,115 @@
       "deadlineSource": null
     },
     {
+      "id": "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome",
+      "title": "Compartment-specific joint space width and knee osteoarthritis outcomes: measurement, alignment and the limits of mediation. Comment on Jung et al.",
+      "titleNormalized": "compartment specific joint space width and knee osteoarthritis outcomes measurement alignment and the limits of mediation comment on jung et al",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Arthritis Research & Therapy",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T12:52:25.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T12:52:25.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted, confirming the submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6654d9c5811",
+                "messageId": "1a20d9d5c7668672",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Arthritis Research & Therapy",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T13:09:05.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T13:09:05.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author received a submission acknowledgement and a link to a dashboard to track the manuscript under consideration.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20dac9d170f6fa",
+                "messageId": "1a20dac9d170f6fa",
+                "subject": "Track the status of your submission to Arthritis Research & Therapy",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T12:52:25.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and submitted, confirming the submission.",
+          "source": {
+            "threadId": "1a20d6654d9c5811",
+            "messageId": "1a20d9d5c7668672",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T13:09:05.000Z",
+          "journal": "Arthritis Research & Therapy",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author received a submission acknowledgement and a link to a dashboard to track the manuscript under consideration.",
+          "source": {
+            "threadId": "1a20dac9d170f6fa",
+            "messageId": "1a20dac9d170f6fa",
+            "subject": "Track the status of your submission to Arthritis Research & Therapy",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T13:09:05.000Z",
+      "updatedAt": "2026-11-24T13:09:05.000Z"
+    },
+    {
       "id": "complication-mitigation-in-robot-assisted-spine-surgery-a-narrative-re",
       "title": "Complication Mitigation in Robot-Assisted Spine Surgery: A Narrative Review",
       "titleNormalized": "complication mitigation in robot assisted spine surgery a narrative review",
@@ -5648,17 +5991,17 @@
       "id": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m",
       "title": "Cortical breach of S2 alar-iliac (S2AI) screws: a systematic review and meta-analysis of incidence, patterns, countermeasures, and a proposed unified breach classification",
       "titleNormalized": "cortical breach of s2 alar iliac s2ai screws a systematic review and meta analysis of incidence patterns countermeasures and a proposed unified breach classification",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": true,
       "reviewReason": "Title closely resembles \"How Safe Are S2 Alar-Iliac Screws? A Systematic Review and Meta-analysis of Cortical Breach, Prevention Strategies, and a Proposed Unified Breach Classification\" (0.85). Confirm these are different papers.",
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Journal of Orthopaedic Surgery and Research",
-      "currentManuscriptNumber": "f6a8f45c-37bd-4afb-ac18-21e8f32bfd8a",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-11-26T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -5684,6 +6027,19 @@
               "source": {
                 "threadId": "1a201b8ca8274ea1",
                 "messageId": "1a20239ff2671c38",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-24T11:52:23.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and the submission is now being tracked.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6662dd030ef",
+                "messageId": "1a20d6662dd030ef",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -5753,10 +6109,27 @@
             "from": "Springer Nature Submissions <jonlauren.rendon@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T11:52:23.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and the submission is now being tracked.",
+          "source": {
+            "threadId": "1a20d6662dd030ef",
+            "messageId": "1a20d6662dd030ef",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-22T07:48:04.000Z",
-      "updatedAt": "2026-11-24T06:40:51.000Z"
+      "updatedAt": "2026-11-24T11:52:23.000Z"
     },
     {
       "id": "cross-talk-between-gut-microbiota-and-the-development-of-alzheimer-s-d",
@@ -10277,17 +10650,17 @@
       "id": "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur",
       "title": "Fibular intramedullary nailing versus plate fixation for ankle fractures stratified by patient risk and nail design: a systematic review and meta-analysis",
       "titleNormalized": "fibular intramedullary nailing versus plate fixation for ankle fractures stratified by patient risk and nail design a systematic review and meta analysis",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Foot and Ankle Surgery",
       "currentManuscriptNumber": null,
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-11-30T18:29:59.999Z",
-      "deadlineSource": "assumed",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -10299,7 +10672,7 @@
           "manuscriptNumber": null,
           "submittedDate": "2026-11-23T15:22:34.000Z",
           "outcome": "active",
-          "status": "sent_back",
+          "status": "new_submission",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -10313,6 +10686,19 @@
                 "threadId": "1a20900769fe90c1",
                 "messageId": "1a20900769fe90c1",
                 "subject": "Your submission",
+                "from": "Foot and Ankle Surgery <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-24T12:50:35.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author is asked to approve the PDF to finalize the manuscript submission.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d935ee20a748",
+                "messageId": "1a20d9bac9e29db8",
+                "subject": "Your PDF has been built and requires approval",
                 "from": "Foot and Ankle Surgery <em@editorialmanager.com>"
               }
             }
@@ -10340,10 +10726,27 @@
             "from": "Foot and Ankle Surgery <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T12:50:35.000Z",
+          "journal": "Foot and Ankle Surgery",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is asked to approve the PDF to finalize the manuscript submission.",
+          "source": {
+            "threadId": "1a20d935ee20a748",
+            "messageId": "1a20d9bac9e29db8",
+            "subject": "Your PDF has been built and requires approval",
+            "from": "Foot and Ankle Surgery <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T15:22:34.000Z",
-      "updatedAt": "2026-11-23T15:22:34.000Z"
+      "updatedAt": "2026-11-24T12:50:35.000Z"
     },
     {
       "id": "filgotinib-jyseleca-in-orthopaedic-rheumatological-conditions-a-narrat",
@@ -17794,6 +18197,74 @@
       "updatedAt": "2026-10-27T01:25:52.000Z"
     },
     {
+      "id": "large-language-models-for-parents-of-children-with-flexible-flatfoot-w",
+      "title": "Large language models for parents of children with flexible flatfoot: when raters cannot agree, accuracy is unmeasured rather than equal",
+      "titleNormalized": "large language models for parents of children with flexible flatfoot when raters cannot agree accuracy is unmeasured rather than equal",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Children's Orthopaedics",
+      "currentManuscriptNumber": "JCO-2026-0285",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Children's Orthopaedics",
+          "manuscriptNumber": "JCO-2026-0285",
+          "submittedDate": "2026-11-24T17:59:24.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T17:59:24.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under initial editorial consideration.",
+              "manuscriptNumber": "JCO-2026-0285",
+              "source": {
+                "threadId": "1a20eb667b8dd0dd",
+                "messageId": "1a20eb667b8dd0dd",
+                "subject": "Journal of Children's Orthopaedics - Manuscript ID JCO-2026-0285 has been successfully submitted",
+                "from": "Neha Gambhir <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T17:59:24.000Z",
+          "journal": "Journal of Children's Orthopaedics",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JCO-2026-0285",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under initial editorial consideration.",
+          "source": {
+            "threadId": "1a20eb667b8dd0dd",
+            "messageId": "1a20eb667b8dd0dd",
+            "subject": "Journal of Children's Orthopaedics - Manuscript ID JCO-2026-0285 has been successfully submitted",
+            "from": "Neha Gambhir <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T17:59:24.000Z",
+      "updatedAt": "2026-11-24T17:59:24.000Z"
+    },
+    {
       "id": "letter-to-the-editor-intradiscal-platelet-rich-plasma-for-discogenic-l",
       "title": "Letter to the Editor: Intradiscal platelet-rich plasma for discogenic low back pain - promise or premature adoption?",
       "titleNormalized": "letter to the editor intradiscal platelet rich plasma for discogenic low back pain promise or premature adoption",
@@ -17965,6 +18436,116 @@
       "updatedAt": "2026-10-25T05:05:25.000Z",
       "deadline": null,
       "deadlineSource": null
+    },
+    {
+      "id": "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel",
+      "title": "Low-dose olanzapine for postoperative nausea: a comparator below guideline prophylaxis and an endpoint altered by rescue treatment. Comment on Prueksaritanond et al.",
+      "titleNormalized": "low dose olanzapine for postoperative nausea a comparator below guideline prophylaxis and an endpoint altered by rescue treatment comment on prueksaritanond et al",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Patient Safety in Surgery",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T13:04:58.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T13:04:58.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and the submission was acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6662dd030ef",
+                "messageId": "1a20da8dbaaeaf97",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Patient Safety in Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T13:13:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T13:13:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author received a submission acknowledgement for their manuscript to Patient Safety in Surgery.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20db0402a122cc",
+                "messageId": "1a20db0402a122cc",
+                "subject": "Track the status of your submission to Patient Safety in Surgery",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T13:04:58.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and the submission was acknowledged.",
+          "source": {
+            "threadId": "1a20d6662dd030ef",
+            "messageId": "1a20da8dbaaeaf97",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T13:13:04.000Z",
+          "journal": "Patient Safety in Surgery",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author received a submission acknowledgement for their manuscript to Patient Safety in Surgery.",
+          "source": {
+            "threadId": "1a20db0402a122cc",
+            "messageId": "1a20db0402a122cc",
+            "subject": "Track the status of your submission to Patient Safety in Surgery",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T13:13:04.000Z",
+      "updatedAt": "2026-11-24T13:13:04.000Z"
     },
     {
       "id": "management-and-prevention-of-iatrogenic-ipsilateral-femoral-neck-fract",
@@ -23437,17 +24018,17 @@
       "id": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
       "title": "Predicting mesenchymal stromal cell potency needs more donors before it guides release criteria: matters arising from South et al.",
       "titleNormalized": "predicting mesenchymal stromal cell potency needs more donors before it guides release criteria matters arising from south et al",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Stem Cell Research & Therapy",
-      "currentManuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-11-26T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -23472,6 +24053,19 @@
               "source": {
                 "threadId": "1a2082edea34166e",
                 "messageId": "1a208c1cd15cb566",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-24T12:30:25.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and the submission is now recorded.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6654d9c5811",
+                "messageId": "1a20d8938b59bbac",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -23571,10 +24165,27 @@
             "from": "Springer Nature Submissions <monisha.sivakumar@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T12:30:25.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and the submission is now recorded.",
+          "source": {
+            "threadId": "1a20d6654d9c5811",
+            "messageId": "1a20d8938b59bbac",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T14:14:07.000Z",
-      "updatedAt": "2026-11-24T08:11:17.000Z"
+      "updatedAt": "2026-11-24T12:30:25.000Z"
     },
     {
       "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
@@ -24354,6 +24965,183 @@
       ],
       "createdAt": "2026-07-05T03:55:36.000Z",
       "updatedAt": "2026-07-20T20:32:54.000Z"
+    },
+    {
+      "id": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla",
+      "title": "REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and the limits of causal language. Comment on Jia et al.",
+      "titleNormalized": "reboa and mortality in traumatic haemorrhagic shock confounding overlapping registries and the limits of causal language comment on jia et al",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Emergency Surgery",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T18:01:13.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T18:01:13.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted, with a link to track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6654d9c5811",
+                "messageId": "1a20eb812b071053",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "World Journal of Emergency Surgery",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T18:10:03.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T18:10:03.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author's manuscript was received and a dashboard is provided to track its peer‑review progress.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20ec0273599175",
+                "messageId": "1a20ec0273599175",
+                "subject": "Track the status of your submission to World Journal of Emergency Surgery",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T18:01:13.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and submitted, with a link to track its status.",
+          "source": {
+            "threadId": "1a20d6654d9c5811",
+            "messageId": "1a20eb812b071053",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T18:10:03.000Z",
+          "journal": "World Journal of Emergency Surgery",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's manuscript was received and a dashboard is provided to track its peer‑review progress.",
+          "source": {
+            "threadId": "1a20ec0273599175",
+            "messageId": "1a20ec0273599175",
+            "subject": "Track the status of your submission to World Journal of Emergency Surgery",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T18:10:03.000Z",
+      "updatedAt": "2026-11-24T18:10:03.000Z"
+    },
+    {
+      "id": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla-2",
+      "title": "REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and causal language. Comment on Jia et al.",
+      "titleNormalized": "reboa and mortality in traumatic haemorrhagic shock confounding overlapping registries and causal language comment on jia et al",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and the limits of causal language. Comment on Jia et al.\" (0.96). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Biological Chemistry",
+      "currentManuscriptNumber": "131438",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Biological Chemistry",
+          "manuscriptNumber": "131438",
+          "submittedDate": "2026-11-24T16:48:27.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T16:48:27.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and receipt acknowledged.",
+              "manuscriptNumber": "131438",
+              "source": {
+                "threadId": "1a20e7576f217eeb",
+                "messageId": "1a20e7576f217eeb",
+                "subject": "World Journal of Biological Chemistry - Receipt of Manuscript No.: 131438",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T16:48:27.000Z",
+          "journal": "World Journal of Biological Chemistry",
+          "eventType": "new_submission",
+          "manuscriptNumber": "131438",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and receipt acknowledged.",
+          "source": {
+            "threadId": "1a20e7576f217eeb",
+            "messageId": "1a20e7576f217eeb",
+            "subject": "World Journal of Biological Chemistry - Receipt of Manuscript No.: 131438",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T16:48:27.000Z",
+      "updatedAt": "2026-11-24T16:48:27.000Z"
     },
     {
       "id": "recommendations-of-the-international-consensus-meeting-icm-2025-on-spi",
@@ -28084,17 +28872,17 @@
       "id": "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage",
       "title": "The missing joint environment in prognostic research on knee cartilage repair: matters arising from Han et al.",
       "titleNormalized": "the missing joint environment in prognostic research on knee cartilage repair matters arising from han et al",
-      "bucket": "needs_action",
-      "needsReview": false,
-      "reviewReason": null,
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "Knee Surgery & Related Research",
-      "currentManuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-11-26T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -28134,6 +28922,30 @@
                 "messageId": "1a20cbe3a091b2e2",
                 "subject": "Re: Knee Surgery & Related Research-Amendment required",
                 "from": "Springer Nature Submissions <paolo.aragones@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T12:28:04.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T12:28:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6654d9c5811",
+                "messageId": "1a20d8711b4eac45",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
               }
             }
           ]
@@ -28177,10 +28989,27 @@
             "from": "Springer Nature Submissions <paolo.aragones@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T12:28:04.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and submitted.",
+          "source": {
+            "threadId": "1a20d6654d9c5811",
+            "messageId": "1a20d8711b4eac45",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T14:12:04.000Z",
-      "updatedAt": "2026-11-24T08:48:41.000Z"
+      "updatedAt": "2026-11-24T12:28:04.000Z"
     },
     {
       "id": "the-statistical-fragility-of-trials-comparing-decompression-alone-to-d",

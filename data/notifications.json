@@ -956,7 +956,7 @@
     },
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
-      "title": "Amendment 11 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "title": "Amendment 12 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
       "due": "2026-11-13T18:29:59.999Z",
       "closed": true
     },
@@ -1034,7 +1034,7 @@
     },
     "identification-of-therapeutic-targets-and-gene-expression-profiling-to": {
       "number": 29,
-      "title": "Amendment 19 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
+      "title": "Amendment 20 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
       "due": "2026-11-05T18:29:59.999Z",
       "closed": true
     },
@@ -1047,36 +1047,41 @@
     "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur": {
       "number": 31,
       "title": "Amendment 6 days left — Fibular intramedullary nailing versus plate fixation for ankle fractu…",
-      "due": "2026-11-30T18:29:59.999Z"
+      "due": "2026-11-30T18:29:59.999Z",
+      "closed": true
     },
     "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea": {
       "number": 32,
       "title": "Amendment 2 days left — A Mechanism-based Approach to Complex Proximal Radius Fractures: A Tr…",
-      "due": "2026-11-26T18:29:59.999Z"
+      "due": "2026-11-26T18:29:59.999Z",
+      "closed": true
     },
     "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m": {
       "number": 33,
       "title": "Amendment 2 days left — Cortical breach of S2 alar-iliac (S2AI) screws: a systematic review a…",
-      "due": "2026-11-26T18:29:59.999Z"
+      "due": "2026-11-26T18:29:59.999Z",
+      "closed": true
     },
     "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i": {
       "number": 34,
       "title": "Amendment 2 days left — Predicting mesenchymal stromal cell potency needs more donors before…",
-      "due": "2026-11-26T18:29:59.999Z"
+      "due": "2026-11-26T18:29:59.999Z",
+      "closed": true
     },
     "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage": {
       "number": 35,
       "title": "Amendment 2 days left — The missing joint environment in prognostic research on knee cartilag…",
-      "due": "2026-11-26T18:29:59.999Z"
+      "due": "2026-11-26T18:29:59.999Z",
+      "closed": true
     },
     "antinuclear-antibody-positivity-in-rheumatoid-arthritis-tracks-anti-ci": {
       "number": 36,
-      "title": "Amendment 7 days left — Antinuclear antibody positivity in rheumatoid arthritis tracks anti-c…",
+      "title": "Amendment 6 days left — Antinuclear antibody positivity in rheumatoid arthritis tracks anti-c…",
       "due": "2026-12-01T18:29:59.999Z"
     },
     "selective-serotonin-reuptake-inhibitors-and-perioperative-bleeding-in-": {
       "number": 37,
-      "title": "Amendment 7 days left — Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in…",
+      "title": "Amendment 6 days left — Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in…",
       "due": "2026-12-01T18:29:59.999Z"
     }
   }
