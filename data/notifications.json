@@ -789,6 +789,132 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea|2026-11-26T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea",
+      "at": "2026-11-24T11:16:34.045Z"
+    },
+    {
+      "key": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea|2026-11-26T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea",
+      "title": "A Mechanism-based Approach to Complex Proximal Radius Fractures: A Treatment Algorithm and Descriptive Case Series",
+      "due": "2026-11-26T18:29:59.999Z",
+      "at": "2026-11-24T11:16:34.045Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m|2026-11-26T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m",
+      "at": "2026-11-24T11:16:37.211Z"
+    },
+    {
+      "key": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m|2026-11-26T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m",
+      "title": "Cortical breach of S2 alar-iliac (S2AI) screws: a systematic review and meta-analysis of incidence, patterns, countermeasures, and a proposed unified breach classification",
+      "due": "2026-11-26T18:29:59.999Z",
+      "at": "2026-11-24T11:16:37.211Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i|2026-11-26T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
+      "at": "2026-11-24T11:16:40.384Z"
+    },
+    {
+      "key": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i|2026-11-26T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
+      "title": "Predicting mesenchymal stromal cell potency needs more donors before it guides release criteria: matters arising from South et al.",
+      "due": "2026-11-26T18:29:59.999Z",
+      "at": "2026-11-24T11:16:40.384Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage|2026-11-26T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage",
+      "at": "2026-11-24T11:16:43.523Z"
+    },
+    {
+      "key": "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage|2026-11-26T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage",
+      "title": "The missing joint environment in prognostic research on knee cartilage repair: matters arising from Han et al.",
+      "due": "2026-11-26T18:29:59.999Z",
+      "at": "2026-11-24T11:16:43.523Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "antinuclear-antibody-positivity-in-rheumatoid-arthritis-tracks-anti-ci|2026-12-01T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "antinuclear-antibody-positivity-in-rheumatoid-arthritis-tracks-anti-ci",
+      "title": "Antinuclear antibody positivity in rheumatoid arthritis tracks anti-citrullinated protein antibody status rather than rheumatoid factor: a serotype-stratified cross-sectional study",
+      "due": "2026-12-01T18:29:59.999Z",
+      "at": "2026-11-24T11:16:46.649Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "selective-serotonin-reuptake-inhibitors-and-perioperative-bleeding-in-|2026-12-01T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "selective-serotonin-reuptake-inhibitors-and-perioperative-bleeding-in-",
+      "title": "Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in Spine Surgery: A Narrative Review",
+      "due": "2026-12-01T18:29:59.999Z",
+      "at": "2026-11-24T11:16:49.727Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -922,6 +1048,36 @@
       "number": 31,
       "title": "Amendment 6 days left — Fibular intramedullary nailing versus plate fixation for ankle fractu…",
       "due": "2026-11-30T18:29:59.999Z"
+    },
+    "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea": {
+      "number": 32,
+      "title": "Amendment 2 days left — A Mechanism-based Approach to Complex Proximal Radius Fractures: A Tr…",
+      "due": "2026-11-26T18:29:59.999Z"
+    },
+    "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m": {
+      "number": 33,
+      "title": "Amendment 2 days left — Cortical breach of S2 alar-iliac (S2AI) screws: a systematic review a…",
+      "due": "2026-11-26T18:29:59.999Z"
+    },
+    "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i": {
+      "number": 34,
+      "title": "Amendment 2 days left — Predicting mesenchymal stromal cell potency needs more donors before…",
+      "due": "2026-11-26T18:29:59.999Z"
+    },
+    "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage": {
+      "number": 35,
+      "title": "Amendment 2 days left — The missing joint environment in prognostic research on knee cartilag…",
+      "due": "2026-11-26T18:29:59.999Z"
+    },
+    "antinuclear-antibody-positivity-in-rheumatoid-arthritis-tracks-anti-ci": {
+      "number": 36,
+      "title": "Amendment 7 days left — Antinuclear antibody positivity in rheumatoid arthritis tracks anti-c…",
+      "due": "2026-12-01T18:29:59.999Z"
+    },
+    "selective-serotonin-reuptake-inhibitors-and-perioperative-bleeding-in-": {
+      "number": 37,
+      "title": "Amendment 7 days left — Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in…",
+      "due": "2026-12-01T18:29:59.999Z"
     }
   }
 }

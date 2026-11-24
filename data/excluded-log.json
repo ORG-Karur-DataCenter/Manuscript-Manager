@@ -1,6 +1,97 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-24T06:34:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "npj Microgravity Contents: 24 Nov 2026",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T10:22:29.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Thank you for placing your order.",
+      "from": "Dhibin Vikash K P <dhibinvikash1@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T10:23:07.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Your RightsLink® Invoice for Wolters Kluwer Health, LLC APC600894688",
+      "from": "Dhibin Vikash K P <dhibinvikash1@gmail.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T09:50:02.000Z",
+      "reason": "unrelated",
+      "subject": "Re: [JFB] Manuscript ID: jfb-4634669; Check Published Version & Provide Summary for Promotion",
+      "from": "Sharun Khan <sharunk@hst.aau.dk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T11:07:58.000Z",
+      "reason": "unrelated",
+      "subject": "Journal of Children's Orthopaedics - Account Created in ScholarOne Manuscripts",
+      "from": "Neha Gambhir <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T14:34:20.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID: 05395420 Sincerely invite Editorial Board Member/Peer Reviewer to write an Editorial article/Correspondence/Opinion Review on the in-press articles",
+      "from": "\"BPG Invitation (Wang JL)\" <invitation.wangjl@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T04:40:35.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Request to handle manuscript PONE-D-26-48894 - [EMID:b71ac6e05f0a06d2]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T08:03:40.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-57813] - [EMID:d6e33ae14ab05f6b]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T08:14:46.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T09:00:18.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Expert Review of Vaccines - Manuscript ID IPMT-2026-ST-0553",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T09:46:45.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Final Reminder for Article Submission: Journal of Digital Health Records, Medical AI and Informatics Systems.",
+      "from": "George Matthews <george@premiersciencenetwork.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T10:22:29.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Thank you for placing your order.",
+      "from": "Dhibin Vikash K P <dhibinvikash1@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T10:23:07.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Your RightsLink® Invoice for Wolters Kluwer Health, LLC APC600894688",
+      "from": "Dhibin Vikash K P <dhibinvikash1@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-23T14:01:51.000Z",
       "reason": "unrelated",
       "subject": "Stanford is bowl bound after Big Game win",
@@ -2007,97 +2098,6 @@
       "reason": "unrelated",
       "subject": "Reminder: your publication: Anterior Cervical Approaches for 2-Level Radiculopathy: An International Survey on Surgeon Preferences Regarding Anterior Cervical Discectomy Fusion, Cervical Disc Arthroplasty, and Cervical Hybrid Constructs",
       "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T11:10:27.000Z",
-      "reason": "unrelated",
-      "subject": "Live now — join your class: Class 30 · JOURNAL CLUB PRESENTATION — 21 Oct, 5:20 PM",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T11:19:39.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: you are taking Class 30 · JOURNAL CLUB PRESENTATION on Wednesday, 21 October 2026",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T11:33:11.000Z",
-      "reason": "unrelated",
-      "subject": "Live now — join your class: Class 30 · JOURNAL CLUB PRESENTATION — 21 Oct, 5:20 PM",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T02:33:14.000Z",
-      "reason": "unrelated",
-      "subject": "ET AI: AI startup ASI valued at $3 billion in latest funding round",
-      "from": "ET AI <newsletter@economictimesnews.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-20T11:49:12.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Madhan Jeyaraman published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T06:32:03.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Energy Contents: Volume 11 Number 10",
-      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T03:42:29.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Affiliation update - reg",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T03:54:35.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Request to handle manuscript PONE-D-25-55200R2 - [EMID:2b1ac8f9ce7216ec]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T05:49:45.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "ASP - [STI] Manuscript ID: STI026410052 - Review Request Reminder",
-      "from": "STI Editorial Office <sti@surgicaltechnology.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T05:51:30.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Search E-Journals, E-Books from One Place | STM Digital Library",
-      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T06:20:57.000Z",
-      "reason": "unrelated",
-      "subject": "ONOS APC Application form #1511 submitted",
-      "from": "ONOS NoReply <noreply-inf1@mail.inflibnet.ac.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T06:20:57.000Z",
-      "reason": "unrelated",
-      "subject": "ONOS APC Application form #1511 submitted by SATHISH MUTHU",
-      "from": "ONOS NoReply <noreply-inf1@mail.inflibnet.ac.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-21T06:22:32.000Z",
-      "reason": "unrelated",
-      "subject": "Status of ONOS APC Application form #1511 submitted by SATHISH MUTHU",
-      "from": "ONOS NoReply <noreply-inf1@mail.inflibnet.ac.in>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

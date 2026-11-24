@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T01:08:39.546Z",
+  "generatedAt": "2026-11-24T11:16:25.057Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -386,17 +386,17 @@
       "id": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea",
       "title": "A Mechanism-based Approach to Complex Proximal Radius Fractures: A Treatment Algorithm and Descriptive Case Series",
       "titleNormalized": "a mechanism based approach to complex proximal radius fractures a treatment algorithm and descriptive case series",
-      "bucket": "submissions",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": null,
-      "currentManuscriptNumber": null,
-      "currentStatus": null,
-      "deadline": null,
-      "deadlineSource": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "European Journal of Orthopaedic Surgery & Traumatology",
+      "currentManuscriptNumber": "bf3e1669-b7c4-45b6-89d0-bc707dc234f4",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-26T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -424,6 +424,30 @@
                 "messageId": "1a2082ee0262ad8f",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "manuscriptNumber": "bf3e1669-b7c4-45b6-89d0-bc707dc234f4",
+          "submittedDate": "2026-11-24T07:14:12.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T07:14:12.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned to the author after technical check, requesting specific amendments within 2 days.",
+              "manuscriptNumber": "bf3e1669-b7c4-45b6-89d0-bc707dc234f4",
+              "source": {
+                "threadId": "1a20c67b7214a77d",
+                "messageId": "1a20c67b7214a77d",
+                "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
+                "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
               }
             }
           ]
@@ -463,10 +487,99 @@
             "from": "noreply@springernature.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T07:14:12.000Z",
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "eventType": "sent_back",
+          "manuscriptNumber": "bf3e1669-b7c4-45b6-89d0-bc707dc234f4",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-26T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned to the author after technical check, requesting specific amendments within 2 days.",
+          "source": {
+            "threadId": "1a20c67b7214a77d",
+            "messageId": "1a20c67b7214a77d",
+            "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
+            "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T11:42:14.000Z",
-      "updatedAt": "2026-11-23T11:42:14.000Z"
+      "updatedAt": "2026-11-24T07:14:12.000Z"
+    },
+    {
+      "id": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea-2",
+      "title": "A Mechanism-based Approach to Complex Proximal Radius Fractures: A Treatment...",
+      "titleNormalized": "a mechanism based approach to complex proximal radius fractures a treatment",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"A Mechanism-based Approach to Complex Proximal Radius Fractures: A Treatment Algorithm and Descriptive Case Series\" (0.85). Confirm these are different papers.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Journal of Orthopaedic Surgery & Traumatology",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T08:14:25.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T08:14:25.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author received a submission acknowledgement for their manuscript.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20c9e5ec0d6f55",
+                "messageId": "1a20c9ed48c84a91",
+                "subject": "Your manuscript is submitted. Here's what happens next.",
+                "from": "Springer Nature <springernature@research.springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T08:14:25.000Z",
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author received a submission acknowledgement for their manuscript.",
+          "source": {
+            "threadId": "1a20c9e5ec0d6f55",
+            "messageId": "1a20c9ed48c84a91",
+            "subject": "Your manuscript is submitted. Here's what happens next.",
+            "from": "Springer Nature <springernature@research.springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T08:14:25.000Z",
+      "updatedAt": "2026-11-24T08:14:25.000Z"
     },
     {
       "id": "a-review-on-multifunctional-properties-and-processing-of-bioceramics-f",
@@ -1395,6 +1508,78 @@
       ],
       "createdAt": "2026-08-27T20:48:52.000Z",
       "updatedAt": "2026-08-28T03:26:40.000Z"
+    },
+    {
+      "id": "antinuclear-antibody-positivity-in-rheumatoid-arthritis-tracks-anti-ci",
+      "title": "Antinuclear antibody positivity in rheumatoid arthritis tracks anti-citrullinated protein antibody status rather than rheumatoid factor: a serotype-stratified cross-sectional study",
+      "titleNormalized": "antinuclear antibody positivity in rheumatoid arthritis tracks anti citrullinated protein antibody status rather than rheumatoid factor a serotype stratified cross sectional study",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Journal of Clinical Laboratory Analysis",
+      "currentManuscriptNumber": "JCLA-26-01177",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-12-01T18:29:59.999Z",
+      "deadlineSource": "assumed",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Clinical Laboratory Analysis",
+          "manuscriptNumber": "JCLA-26-01177",
+          "submittedDate": "2026-11-24T10:54:11.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T10:54:11.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned to draft so the author can address required corrections before further consideration.",
+              "manuscriptNumber": "JCLA-26-01177",
+              "source": {
+                "threadId": "1a20d311ce160047",
+                "messageId": "1a20d311ce160047",
+                "subject": "Manuscript returned to draft: JCLA-26-01177",
+                "from": "Journal of Clinical Laboratory Analysis <jcla.eo@wiley.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T10:54:11.000Z",
+          "journal": "Journal of Clinical Laboratory Analysis",
+          "eventType": "sent_back",
+          "manuscriptNumber": "JCLA-26-01177",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-12-01T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was returned to draft so the author can address required corrections before further consideration.",
+          "source": {
+            "threadId": "1a20d311ce160047",
+            "messageId": "1a20d311ce160047",
+            "subject": "Manuscript returned to draft: JCLA-26-01177",
+            "from": "Journal of Clinical Laboratory Analysis <jcla.eo@wiley.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T10:54:11.000Z",
+      "updatedAt": "2026-11-24T10:54:11.000Z"
     },
     {
       "id": "ao-eans-eurospine-clinical-practice-guidelines-on-the-use-of-pharmacol",
@@ -4296,7 +4481,7 @@
       "actionLabel": null,
       "currentJournal": "World Journal of Experimental Medicine",
       "currentManuscriptNumber": "126815",
-      "currentStatus": "Under review",
+      "currentStatus": "Accepted (awaiting publication)",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -4308,7 +4493,7 @@
           "manuscriptNumber": "126815",
           "submittedDate": "2026-08-24T04:13:17.000Z",
           "outcome": "active",
-          "status": "under_review",
+          "status": "accepted",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -4375,6 +4560,19 @@
                 "messageId": "1a11a7c9cefdb6d7",
                 "subject": "World Journal of Experimental Medicine Manuscript NO: 126815 - Acknowledgement of revised manuscript",
                 "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-24T09:30:47.000Z",
+              "eventType": "accepted",
+              "revisionRound": null,
+              "note": "Your manuscript was accepted for publication in World Journal of Experimental Medicine.",
+              "manuscriptNumber": "126815",
+              "source": {
+                "threadId": "1a20ce4d3af352ae",
+                "messageId": "1a20ce4d3af352ae",
+                "subject": "Acceptance of Manuscript No: 126815 for Publication in World Journal of Experimental Medicine",
+                "from": "BPG Publication Fee <publicationfee@wjgnet.com>"
               }
             }
           ]
@@ -4467,10 +4665,27 @@
             "from": "BPG Editorial Office <editorialoffice@wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T09:30:47.000Z",
+          "journal": "World Journal of Experimental Medicine",
+          "eventType": "accepted",
+          "manuscriptNumber": "126815",
+          "label": "Accepted (awaiting publication)",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your manuscript was accepted for publication in World Journal of Experimental Medicine.",
+          "source": {
+            "threadId": "1a20ce4d3af352ae",
+            "messageId": "1a20ce4d3af352ae",
+            "subject": "Acceptance of Manuscript No: 126815 for Publication in World Journal of Experimental Medicine",
+            "from": "BPG Publication Fee <publicationfee@wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-24T04:13:17.000Z",
-      "updatedAt": "2026-10-08T07:48:52.000Z",
+      "updatedAt": "2026-11-24T09:30:47.000Z",
       "deadline": null,
       "deadlineSource": null
     },
@@ -5433,21 +5648,22 @@
       "id": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m",
       "title": "Cortical breach of S2 alar-iliac (S2AI) screws: a systematic review and meta-analysis of incidence, patterns, countermeasures, and a proposed unified breach classification",
       "titleNormalized": "cortical breach of s2 alar iliac s2ai screws a systematic review and meta analysis of incidence patterns countermeasures and a proposed unified breach classification",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": true,
       "reviewReason": "Title closely resembles \"How Safe Are S2 Alar-Iliac Screws? A Systematic Review and Meta-analysis of Cortical Breach, Prevention Strategies, and a Proposed Unified Breach Classification\" (0.85). Confirm these are different papers.",
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": null,
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Journal of Orthopaedic Surgery and Research",
+      "currentManuscriptNumber": "f6a8f45c-37bd-4afb-ac18-21e8f32bfd8a",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-26T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
         {
@@ -5473,6 +5689,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "manuscriptNumber": "f6a8f45c-37bd-4afb-ac18-21e8f32bfd8a",
+          "submittedDate": "2026-11-24T06:40:51.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T06:40:51.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check, requesting the author to make corrections within 2 days.",
+              "manuscriptNumber": "f6a8f45c-37bd-4afb-ac18-21e8f32bfd8a",
+              "source": {
+                "threadId": "1a20c492f5efaed6",
+                "messageId": "1a20c492f5efaed6",
+                "subject": "Re: Journal of Orthopaedic Surgery and Research-Amendment required",
+                "from": "Springer Nature Submissions <jonlauren.rendon@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -5492,10 +5732,31 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T06:40:51.000Z",
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "eventType": "sent_back",
+          "manuscriptNumber": "f6a8f45c-37bd-4afb-ac18-21e8f32bfd8a",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-26T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check, requesting the author to make corrections within 2 days.",
+          "source": {
+            "threadId": "1a20c492f5efaed6",
+            "messageId": "1a20c492f5efaed6",
+            "subject": "Re: Journal of Orthopaedic Surgery and Research-Amendment required",
+            "from": "Springer Nature Submissions <jonlauren.rendon@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-22T07:48:04.000Z",
-      "updatedAt": "2026-11-22T07:48:04.000Z"
+      "updatedAt": "2026-11-24T06:40:51.000Z"
     },
     {
       "id": "cross-talk-between-gut-microbiota-and-the-development-of-alzheimer-s-d",
@@ -21301,6 +21562,74 @@
       "updatedAt": "2026-03-26T00:50:09.000Z"
     },
     {
+      "id": "obesity-and-outcomes-after-minimally-invasive-lumbar-spine-surgery-a-s",
+      "title": "Obesity and outcomes after minimally invasive lumbar spine surgery: a systematic review and meta-analysis",
+      "titleNormalized": "obesity and outcomes after minimally invasive lumbar spine surgery a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Obesity",
+      "currentManuscriptNumber": "JOBE-26-00332",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Obesity",
+          "manuscriptNumber": "JOBE-26-00332",
+          "submittedDate": "2026-11-24T06:58:13.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T06:58:13.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The journal acknowledges receipt of the submitted manuscript and provides APC information.",
+              "manuscriptNumber": "JOBE-26-00332",
+              "source": {
+                "threadId": "1a20c5912028bd4d",
+                "messageId": "1a20c5912028bd4d",
+                "subject": "Open access article publication charge, Manuscript ID: JOBE-26-00332",
+                "from": "cs-openaccess@wiley.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T06:58:13.000Z",
+          "journal": "Journal of Obesity",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JOBE-26-00332",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The journal acknowledges receipt of the submitted manuscript and provides APC information.",
+          "source": {
+            "threadId": "1a20c5912028bd4d",
+            "messageId": "1a20c5912028bd4d",
+            "subject": "Open access article publication charge, Manuscript ID: JOBE-26-00332",
+            "from": "cs-openaccess@wiley.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T06:58:13.000Z",
+      "updatedAt": "2026-11-24T06:58:13.000Z"
+    },
+    {
       "id": "obstructive-sleep-apnea-and-spine-surgery-implications-for-spinal-path",
       "title": "Obstructive Sleep Apnea and Spine Surgery: Implications for Spinal Pathology and Perioperative Outcomes — A Systematic Review and Meta-analysis",
       "titleNormalized": "obstructive sleep apnea and spine surgery implications for spinal pathology and perioperative outcomes a systematic review and meta analysis",
@@ -23108,17 +23437,17 @@
       "id": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
       "title": "Predicting mesenchymal stromal cell potency needs more donors before it guides release criteria: matters arising from South et al.",
       "titleNormalized": "predicting mesenchymal stromal cell potency needs more donors before it guides release criteria matters arising from south et al",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": null,
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Stem Cell Research & Therapy",
+      "currentManuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-26T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -23148,6 +23477,43 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Stem Cell Research & Therapy",
+          "manuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
+          "submittedDate": "2026-11-24T08:11:17.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-23T14:25:43.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and is now under consideration, with a tracking dashboard provided.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a208cc69f929376",
+                "messageId": "1a208cc69f929376",
+                "subject": "Track the status of your submission to Stem Cell Research & Therapy",
+                "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-11-24T08:11:17.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check, requiring author corrections before it can proceed.",
+              "manuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
+              "source": {
+                "threadId": "1a20c9bfda8bdb12",
+                "messageId": "1a20c9bfda8bdb12",
+                "subject": "Re: Stem Cell Research & Therapy-Amendment required",
+                "from": "Springer Nature Submissions <monisha.sivakumar@springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -23167,10 +23533,48 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-23T14:25:43.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and is now under consideration, with a tracking dashboard provided.",
+          "source": {
+            "threadId": "1a208cc69f929376",
+            "messageId": "1a208cc69f929376",
+            "subject": "Track the status of your submission to Stem Cell Research & Therapy",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T08:11:17.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "sent_back",
+          "manuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-26T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check, requiring author corrections before it can proceed.",
+          "source": {
+            "threadId": "1a20c9bfda8bdb12",
+            "messageId": "1a20c9bfda8bdb12",
+            "subject": "Re: Stem Cell Research & Therapy-Amendment required",
+            "from": "Springer Nature Submissions <monisha.sivakumar@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T14:14:07.000Z",
-      "updatedAt": "2026-11-23T14:14:07.000Z"
+      "updatedAt": "2026-11-24T08:11:17.000Z"
     },
     {
       "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
@@ -24149,14 +24553,14 @@
       "title": "Reoperation and severity-graded complications after three-level hybrid...",
       "titleNormalized": "reoperation and severity graded complications after three level hybrid",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "European Spine Journal",
       "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentStatus": "Under review",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -24188,6 +24592,30 @@
               }
             }
           ]
+        },
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-24T08:13:00.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T08:13:00.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "Your manuscript has entered the peer review stage.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20c9d8b8656c5d",
+                "messageId": "1a20c9d8b8656c5d",
+                "subject": "A quick update while your manuscript is being reviewed",
+                "from": "Springer Nature <springernature@research.springernature.com>"
+              }
+            }
+          ]
         }
       ],
       "timeline": [
@@ -24207,10 +24635,27 @@
             "from": "Springer Nature <springernature@research.springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T08:13:00.000Z",
+          "journal": "Springer Nature",
+          "eventType": "under_review",
+          "manuscriptNumber": null,
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your manuscript has entered the peer review stage.",
+          "source": {
+            "threadId": "1a20c9d8b8656c5d",
+            "messageId": "1a20c9d8b8656c5d",
+            "subject": "A quick update while your manuscript is being reviewed",
+            "from": "Springer Nature <springernature@research.springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-22T09:10:38.000Z",
-      "updatedAt": "2026-11-22T09:10:38.000Z"
+      "updatedAt": "2026-11-24T08:13:00.000Z"
     },
     {
       "id": "response-to-the-letter-to-the-editor-on-role-of-prophylactic-negative-",
@@ -24489,23 +24934,48 @@
       "id": "selective-serotonin-reuptake-inhibitors-and-perioperative-bleeding-in-",
       "title": "Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in Spine Surgery: A Narrative Review",
       "titleNormalized": "selective serotonin reuptake inhibitors and perioperative bleeding in spine surgery a narrative review",
-      "bucket": "submissions",
+      "bucket": "needs_action",
       "needsReview": true,
       "reviewReason": "Title closely resembles \"Perioperative Bleeding Risk Associated with selective serotonin reuptake inhibitors (SSRIs) in Spinal Surgery: A Narrative Review\" (0.86). Confirm these are different papers.",
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
-      "currentJournal": null,
-      "currentManuscriptNumber": null,
-      "currentStatus": null,
-      "deadline": null,
-      "deadlineSource": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Spine Surgery and Related Research",
+      "currentManuscriptNumber": "SSRR-2026-0618-RA",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-12-01T18:29:59.999Z",
+      "deadlineSource": "assumed",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
         "Sathish Muthu"
       ],
-      "submissions": [],
+      "submissions": [
+        {
+          "journal": "Spine Surgery and Related Research",
+          "manuscriptNumber": "SSRR-2026-0618-RA",
+          "submittedDate": "2026-11-24T03:05:12.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T03:05:12.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was unsubmitted and returned to the author for corrections before resubmission.",
+              "manuscriptNumber": "SSRR-2026-0618-RA",
+              "source": {
+                "threadId": "1a20b83be0208350",
+                "messageId": "1a20b83be0208350",
+                "subject": "Spine Surgery and Related Research - SSRR-2026-0618-RA has been unsubmitted",
+                "from": "Spine Surgery and Related Research <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
       "timeline": [
         {
           "timestamp": "2026-09-23T02:58:32.000Z",
@@ -24523,10 +24993,31 @@
             "from": "Journal of Clinical Neuroscience <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T03:05:12.000Z",
+          "journal": "Spine Surgery and Related Research",
+          "eventType": "sent_back",
+          "manuscriptNumber": "SSRR-2026-0618-RA",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-12-01T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was unsubmitted and returned to the author for corrections before resubmission.",
+          "source": {
+            "threadId": "1a20b83be0208350",
+            "messageId": "1a20b83be0208350",
+            "subject": "Spine Surgery and Related Research - SSRR-2026-0618-RA has been unsubmitted",
+            "from": "Spine Surgery and Related Research <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-09-23T02:58:32.000Z",
-      "updatedAt": "2026-09-23T02:58:32.000Z"
+      "updatedAt": "2026-11-24T03:05:12.000Z"
     },
     {
       "id": "severe-heterotopic-ossification-motion-loss-and-adjacent-segment-degen",
@@ -27593,17 +28084,17 @@
       "id": "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage",
       "title": "The missing joint environment in prognostic research on knee cartilage repair: matters arising from Han et al.",
       "titleNormalized": "the missing joint environment in prognostic research on knee cartilage repair matters arising from han et al",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "Knee Surgery & Related Research",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentManuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-26T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -27612,10 +28103,10 @@
       "submissions": [
         {
           "journal": "Knee Surgery & Related Research",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
           "submittedDate": "2026-11-23T14:12:04.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -27630,6 +28121,19 @@
                 "messageId": "1a208bfe88d3e854",
                 "subject": "Track the status of your submission to Knee Surgery & Related Research",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-11-24T08:48:41.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned to the author after technical check, requesting specific amendments within 2 days.",
+              "manuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
+              "source": {
+                "threadId": "1a20cbe3a091b2e2",
+                "messageId": "1a20cbe3a091b2e2",
+                "subject": "Re: Knee Surgery & Related Research-Amendment required",
+                "from": "Springer Nature Submissions <paolo.aragones@springernature.com>"
               }
             }
           ]
@@ -27652,10 +28156,31 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-24T08:48:41.000Z",
+          "journal": "Knee Surgery & Related Research",
+          "eventType": "sent_back",
+          "manuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-26T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned to the author after technical check, requesting specific amendments within 2 days.",
+          "source": {
+            "threadId": "1a20cbe3a091b2e2",
+            "messageId": "1a20cbe3a091b2e2",
+            "subject": "Re: Knee Surgery & Related Research-Amendment required",
+            "from": "Springer Nature Submissions <paolo.aragones@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T14:12:04.000Z",
-      "updatedAt": "2026-11-23T14:12:04.000Z"
+      "updatedAt": "2026-11-24T08:48:41.000Z"
     },
     {
       "id": "the-statistical-fragility-of-trials-comparing-decompression-alone-to-d",
@@ -28946,10 +29471,23 @@
           "manuscriptNumber": "131320",
           "submittedDate": "2026-11-23T12:18:22.000Z",
           "outcome": "active",
-          "status": "revision_requested",
+          "status": "under_review",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
+            {
+              "timestamp": "2026-11-23T08:01:21.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
+              "manuscriptNumber": "131320",
+              "source": {
+                "threadId": "1a2076c8b94d0fb1",
+                "messageId": "1a2076c8b94d0fb1",
+                "subject": "World Journal of Biological Chemistry Manuscript No.: 131320 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+                "from": "BPG Submission <submission@wjgnet.com>"
+              }
+            },
             {
               "timestamp": "2026-11-23T12:18:22.000Z",
               "eventType": "revision_requested",
@@ -28967,6 +29505,23 @@
         }
       ],
       "timeline": [
+        {
+          "timestamp": "2026-11-23T08:01:21.000Z",
+          "journal": "World Journal of Biological Chemistry",
+          "eventType": "under_review",
+          "manuscriptNumber": "131320",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript passed technical preliminary review and will proceed to editorial triage or external peer review.",
+          "source": {
+            "threadId": "1a2076c8b94d0fb1",
+            "messageId": "1a2076c8b94d0fb1",
+            "subject": "World Journal of Biological Chemistry Manuscript No.: 131320 has passed the technical preliminary review by the Assistant Editor and will proceed to editorial triage or external peer review",
+            "from": "BPG Submission <submission@wjgnet.com>"
+          },
+          "needsReview": false
+        },
         {
           "timestamp": "2026-11-23T12:18:22.000Z",
           "journal": "World Journal of Biological Chemistry",
