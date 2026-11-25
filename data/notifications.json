@@ -938,6 +938,29 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i|2026-11-27T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
+      "at": "2026-11-25T15:52:44.951Z"
+    },
+    {
+      "key": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i|2026-11-27T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
+      "title": "Predicting mesenchymal stromal cell potency needs more donors before it guides release criteria: matters arising from South et al.",
+      "due": "2026-11-27T18:29:59.999Z",
+      "at": "2026-11-25T15:52:44.951Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {

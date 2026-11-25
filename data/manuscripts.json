@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T05:07:18.537Z",
+  "generatedAt": "2026-11-25T15:52:37.094Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -438,6 +438,19 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-11-25T12:32:03.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6662dd030ef",
+                "messageId": "1a212b113cafb180",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
             }
           ]
         },
@@ -538,10 +551,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T12:32:03.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a20d6662dd030ef",
+            "messageId": "1a212b113cafb180",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T11:42:14.000Z",
-      "updatedAt": "2026-11-24T11:59:26.000Z"
+      "updatedAt": "2026-11-25T12:32:03.000Z"
     },
     {
       "id": "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea-2",
@@ -18205,6 +18235,74 @@
       "updatedAt": "2026-11-23T12:24:32.000Z"
     },
     {
+      "id": "laminoplasty-versus-fusion-for-cervical-ossification-of-the-posterior-",
+      "title": "Laminoplasty Versus Fusion for Cervical Ossification of the Posterior Longitudinal Ligament: A Systematic Review and Meta-Analysis With Fusion-Type Subgroups",
+      "titleNormalized": "laminoplasty versus fusion for cervical ossification of the posterior longitudinal ligament a systematic review and meta analysis with fusion type subgroups",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Asian Spine Journal",
+      "currentManuscriptNumber": "ASJ-2026-1098",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-1098",
+          "submittedDate": "2026-11-25T09:13:00.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T09:13:00.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "Your co-authored manuscript was submitted and an account was created for you to track its status.",
+              "manuscriptNumber": "ASJ-2026-1098",
+              "source": {
+                "threadId": "1a211fad5a42fdbb",
+                "messageId": "1a211fad5a42fdbb",
+                "subject": "Asian Spine Journal - Account Created in ScholarOne Manuscripts",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T09:13:00.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "ASJ-2026-1098",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your co-authored manuscript was submitted and an account was created for you to track its status.",
+          "source": {
+            "threadId": "1a211fad5a42fdbb",
+            "messageId": "1a211fad5a42fdbb",
+            "subject": "Asian Spine Journal - Account Created in ScholarOne Manuscripts",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T09:13:00.000Z",
+      "updatedAt": "2026-11-25T09:13:00.000Z"
+    },
+    {
       "id": "laponite-nanocomposite-hydrogels-for-bone-tissue-engineering-a-critica",
       "title": "Laponite Nanocomposite Hydrogels for Bone Tissue Engineering: A Critical Review of Bioactivity and Translational Perspectives",
       "titleNormalized": "laponite nanocomposite hydrogels for bone tissue engineering a critical review of bioactivity and translational perspectives",
@@ -18612,8 +18710,8 @@
       "title": "Low-dose olanzapine for postoperative nausea: a comparator below guideline prophylaxis and an endpoint altered by rescue treatment. Comment on Prueksaritanond et al.",
       "titleNormalized": "low dose olanzapine for postoperative nausea a comparator below guideline prophylaxis and an endpoint altered by rescue treatment comment on prueksaritanond et al",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -18647,6 +18745,19 @@
               "source": {
                 "threadId": "1a20d6662dd030ef",
                 "messageId": "1a20da8dbaaeaf97",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-25T12:32:04.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been submitted and the author can track its status via the provided link.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6654d9c5811",
+                "messageId": "1a212b1179d50ada",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -18712,10 +18823,27 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T12:32:04.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been submitted and the author can track its status via the provided link.",
+          "source": {
+            "threadId": "1a20d6654d9c5811",
+            "messageId": "1a212b1179d50ada",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-24T13:13:04.000Z",
-      "updatedAt": "2026-11-24T13:13:04.000Z"
+      "updatedAt": "2026-11-25T12:32:04.000Z"
     },
     {
       "id": "management-and-prevention-of-iatrogenic-ipsilateral-femoral-neck-fract",
@@ -24188,17 +24316,17 @@
       "id": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
       "title": "Predicting mesenchymal stromal cell potency needs more donors before it guides release criteria: matters arising from South et al.",
       "titleNormalized": "predicting mesenchymal stromal cell potency needs more donors before it guides release criteria matters arising from south et al",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "Stem Cell Research & Therapy",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentManuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-27T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -24247,7 +24375,7 @@
           "manuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
           "submittedDate": "2026-11-24T08:11:17.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -24273,6 +24401,19 @@
               "source": {
                 "threadId": "1a20c9bfda8bdb12",
                 "messageId": "1a20c9bfda8bdb12",
+                "subject": "Re: Stem Cell Research & Therapy-Amendment required",
+                "from": "Springer Nature Submissions <monisha.sivakumar@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-25T11:53:43.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check and the author must address the issues within 2 days.",
+              "manuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
+              "source": {
+                "threadId": "1a20c9bfda8bdb12",
+                "messageId": "1a2128dffa44410c",
                 "subject": "Re: Stem Cell Research & Therapy-Amendment required",
                 "from": "Springer Nature Submissions <monisha.sivakumar@springernature.com>"
               }
@@ -24352,10 +24493,31 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T11:53:43.000Z",
+          "journal": "Stem Cell Research & Therapy",
+          "eventType": "sent_back",
+          "manuscriptNumber": "3774167a-3728-4bde-8b81-81d626f94bd1",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-27T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check and the author must address the issues within 2 days.",
+          "source": {
+            "threadId": "1a20c9bfda8bdb12",
+            "messageId": "1a2128dffa44410c",
+            "subject": "Re: Stem Cell Research & Therapy-Amendment required",
+            "from": "Springer Nature Submissions <monisha.sivakumar@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T14:14:07.000Z",
-      "updatedAt": "2026-11-24T12:30:25.000Z"
+      "updatedAt": "2026-11-25T11:53:43.000Z"
     },
     {
       "id": "preparation-of-bone-marrow-aspirate-concentrate-bmac-a-standardized-cl",
@@ -26043,6 +26205,115 @@
       "updatedAt": "2026-11-24T03:05:12.000Z"
     },
     {
+      "id": "severe-heterotopic-ossification-abolishes-segmental-motion-after-cervi",
+      "title": "Severe Heterotopic Ossification Abolishes Segmental Motion After Cervical Disc Arthroplasty, but the Adjacent-Segment Consequence Remains Unproven: A Systematic Review and Meta-analysis",
+      "titleNormalized": "severe heterotopic ossification abolishes segmental motion after cervical disc arthroplasty but the adjacent segment consequence remains unproven a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Orthopaedic Surgery and Research",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-25T13:05:22.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T13:05:22.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and submitted, with a link to track its status.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6654d9c5811",
+                "messageId": "1a212cf92a3b3f37",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            }
+          ]
+        },
+        {
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-25T13:12:52.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T13:12:52.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The author's manuscript has been received and is under consideration, with a tracking dashboard provided.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a212d66f602f1b3",
+                "messageId": "1a212d66f602f1b3",
+                "subject": "Track the status of your submission to Journal of Orthopaedic Surgery and Research",
+                "from": "info@researchsquare.com"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T13:05:22.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and submitted, with a link to track its status.",
+          "source": {
+            "threadId": "1a20d6654d9c5811",
+            "messageId": "1a212cf92a3b3f37",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T13:12:52.000Z",
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author's manuscript has been received and is under consideration, with a tracking dashboard provided.",
+          "source": {
+            "threadId": "1a212d66f602f1b3",
+            "messageId": "1a212d66f602f1b3",
+            "subject": "Track the status of your submission to Journal of Orthopaedic Surgery and Research",
+            "from": "info@researchsquare.com"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T13:12:52.000Z",
+      "updatedAt": "2026-11-25T13:12:52.000Z"
+    },
+    {
       "id": "severe-heterotopic-ossification-motion-loss-and-adjacent-segment-degen",
       "title": "Severe Heterotopic Ossification, Motion Loss and Adjacent Segment Degeneration...",
       "titleNormalized": "severe heterotopic ossification motion loss and adjacent segment degeneration",
@@ -26109,6 +26380,74 @@
       ],
       "createdAt": "2026-11-22T09:10:39.000Z",
       "updatedAt": "2026-11-22T09:10:39.000Z"
+    },
+    {
+      "id": "severe-heterotopic-ossification-motion-loss-and-adjacent-segment-degen-2",
+      "title": "Severe Heterotopic Ossification, Motion Loss and Adjacent Segment Degeneration After Cervical Disc Arthroplasty: A Systematic Review and Meta-analysis",
+      "titleNormalized": "severe heterotopic ossification motion loss and adjacent segment degeneration after cervical disc arthroplasty a systematic review and meta analysis",
+      "bucket": "needs_action",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Severe Heterotopic Ossification Abolishes Segmental Motion After Cervical Disc Arthroplasty, but the Adjacent-Segment Consequence Remains Unproven: A Systematic Review and Meta-analysis\" (0.85). Confirm these are different papers.",
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": "818d71ea-0241-4807-a18a-db470032f016",
+      "currentStatus": "Rejected",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": "818d71ea-0241-4807-a18a-db470032f016",
+          "submittedDate": "2026-11-25T07:10:01.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T07:10:01.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected for publication in European Spine Journal.",
+              "manuscriptNumber": "818d71ea-0241-4807-a18a-db470032f016",
+              "source": {
+                "threadId": "1a2118a3f3b8a798",
+                "messageId": "1a2118a3f3b8a798",
+                "subject": "Decision on your submission to European Spine Journal",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T07:10:01.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "rejected",
+          "manuscriptNumber": "818d71ea-0241-4807-a18a-db470032f016",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected for publication in European Spine Journal.",
+          "source": {
+            "threadId": "1a2118a3f3b8a798",
+            "messageId": "1a2118a3f3b8a798",
+            "subject": "Decision on your submission to European Spine Journal",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T07:10:01.000Z",
+      "updatedAt": "2026-11-25T07:10:01.000Z"
     },
     {
       "id": "should-c7-be-preserved-during-cervical-laminoplasty-a-systematic-revie",
