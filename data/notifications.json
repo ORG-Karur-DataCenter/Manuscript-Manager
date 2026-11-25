@@ -915,6 +915,29 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2|2026-11-27T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2",
+      "at": "2026-11-25T05:07:23.288Z"
+    },
+    {
+      "key": "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2|2026-11-27T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2",
+      "title": "Compartment-specific joint space width and knee osteoarthritis outcomes: measurement, alignment and the limits of mediation",
+      "due": "2026-11-27T18:29:59.999Z",
+      "at": "2026-11-25T05:07:23.288Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -1083,6 +1106,11 @@
       "number": 37,
       "title": "Amendment 6 days left — Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in…",
       "due": "2026-12-01T18:29:59.999Z"
+    },
+    "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2": {
+      "number": 38,
+      "title": "Amendment 2 days left — Compartment-specific joint space width and knee osteoarthritis outcom…",
+      "due": "2026-11-27T18:29:59.999Z"
     }
   }
 }

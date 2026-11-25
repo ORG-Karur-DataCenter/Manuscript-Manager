@@ -1,6 +1,118 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-24T11:46:06.000Z",
+      "reason": "unrelated",
+      "subject": "Dhibin Vikash, did this researcher author this publication?",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T03:56:47.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to review",
+      "from": "Editor <zoe@office.cultechpub.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T05:16:15.000Z",
+      "reason": "unrelated",
+      "subject": "RE: Phased Submission of Chapters – Textbook of Regenerative Orthopaedics (2‑Volume Set)",
+      "from": "\"Vishwakarma, Ravi\" <Ravi.Vishwakarma@wolterskluwer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T05:30:53.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Phased Submission of Chapters – Textbook of Regenerative Orthopaedics (2‑Volume Set)",
+      "from": "Jeyaraman Madhan <madhanjeyaraman@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T05:14:50.000Z",
+      "reason": "unrelated",
+      "subject": "Digital library access for your students & faculty",
+      "from": "Shubhaarti Digital Library <subscriptions@journals.shubhaarti.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:44:31.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Reviewer Declines Assignment for JOIO-D-26-01566 - [EMID:12fe9a222c8143f0]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T06:58:04.000Z",
+      "reason": "unrelated",
+      "subject": "Automatic reply: [External] SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T07:45:22.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Data validation and clarifications for Xuanwu Hospital (revised data sheet v2)",
+      "from": "Xiaolong Chen <xiaolong.chen1@unsw.edu.au>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T07:05:18.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Borriwat Santipas <borriwat.san@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T07:16:29.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One Reminder of Active Assignments - [EMID:8c8b366bbbd4e2d9]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T08:18:51.000Z",
+      "reason": "unrelated",
+      "subject": "Thank you for submitting your authorship information for the IHME ID: 5195 GBD 2023 Global Vaccines Extended EPI paper",
+      "from": "GBD Secretariat <gbdsec@healthdata.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T09:09:29.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID 05395420 | Invitation to Submit an Original Research Manuscript to AIMI with a USD 600 Honorarium",
+      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T17:57:48.000Z",
+      "reason": "unrelated",
+      "subject": "Pending Registration - Admin Notification",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T02:29:05.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Review invitation: Dynamic Biopsychosocial Vulnerability in Older Adults...",
+      "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T03:44:40.000Z",
+      "reason": "unrelated",
+      "subject": "New class scheduled: Class 34 · Journal club presentation — 25 Nov, 5:30 PM",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T04:18:06.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Interview and Profile of Dr. Sathish Muthu Icon Surgeons - Orthopaedic 2026",
+      "from": "hemanth@tiimagazine.com",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-23T15:33:15.000Z",
       "reason": "unrelated",
       "subject": "Haridhra S. - Master Thesis Project posted: I am happy to share that I have completed my MSc in Computational Modeling and…",
@@ -1987,118 +2099,6 @@
       "subject": "Why Did We Stop Examining Our Patients?",
       "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T09:30:43.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Don't Let Your Veterinary Sciences Research go Unnoticed- Submit today",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T11:20:07.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Nature Conferences and Research Seminars: Accelerating scientific progress",
-      "from": "Springer Nature <springernature@research.springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T14:46:27.000Z",
-      "reason": "unrelated",
-      "subject": "[ORCID] Sathish Muthu you have new notifications",
-      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T14:46:38.000Z",
-      "reason": "unrelated",
-      "subject": "Infiltrations Manuscript",
-      "from": "Calogero Velluto <calogerovelluto@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T16:21:53.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Infiltrations Manuscript",
-      "from": "Andreas Demetriades <andreas.demetriades@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T16:57:20.000Z",
-      "reason": "unrelated",
-      "subject": "Re: Infiltrations Manuscript",
-      "from": "Laura Scaramuzzo <scaramuzzolaura@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T17:42:03.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "ijc Manuscript for review: ijc_625_26 Your comments are awaited",
-      "from": "Indian Journal of Cancer <editor@indianjcancer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T18:10:07.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "jajs Manuscript for review: jajs_89_26 Your comments are awaited",
-      "from": "Journal of Arthroscopy and Joint Surgery <Donotreply_uniprr@wolterskluwer.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T13:00:48.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🏦 AI agents are inside US bank accounts",
-      "from": "GenAI Works via LinkedIn <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T13:05:21.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Bringing bleached corals back to health",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T04:00:30.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Celebrating 10 Years of JISAKOS!",
-      "from": "ISAKOS <isakos@isakos.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T08:41:55.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What Are You Researching Today? | STM Digital Library",
-      "from": "STM Digital Library <subscriptions@mail.celnet.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T10:48:29.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to peer review a new submission - Manuscript ID 4E55z6 - Academia Medicine and Health",
-      "from": "\"Academia.edu\" <updates@academia-mail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T12:00:42.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Artificial Intelligence in Healthcare",
-      "from": "Sulakshana Karkala <sulakshana.karkala@jove.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T12:46:02.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Request for correct Invoice",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-23T13:17:36.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "GSC 2027 - Abstract Review – Deadline: November 8, 2026",
-      "from": "\"abstractgsc@oic.it\" <abstractgsc@oic.it>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

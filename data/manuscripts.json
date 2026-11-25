@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T21:31:57.506Z",
+  "generatedAt": "2026-11-25T05:07:18.537Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -5036,8 +5036,8 @@
       "title": "Compartment-specific joint space width and knee osteoarthritis outcomes: measurement, alignment and the limits of mediation. Comment on Jung et al.",
       "titleNormalized": "compartment specific joint space width and knee osteoarthritis outcomes measurement alignment and the limits of mediation comment on jung et al",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -5070,6 +5070,19 @@
               "source": {
                 "threadId": "1a20d6654d9c5811",
                 "messageId": "1a20d9d5c7668672",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-25T04:01:32.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been submitted and the author can track its status via the provided link.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6654d9c5811",
+                "messageId": "1a210ddb1e163025",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -5135,10 +5148,99 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T04:01:32.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been submitted and the author can track its status via the provided link.",
+          "source": {
+            "threadId": "1a20d6654d9c5811",
+            "messageId": "1a210ddb1e163025",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-24T13:09:05.000Z",
-      "updatedAt": "2026-11-24T13:09:05.000Z"
+      "updatedAt": "2026-11-25T04:01:32.000Z"
+    },
+    {
+      "id": "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2",
+      "title": "Compartment-specific joint space width and knee osteoarthritis outcomes: measurement, alignment and the limits of mediation",
+      "titleNormalized": "compartment specific joint space width and knee osteoarthritis outcomes measurement alignment and the limits of mediation",
+      "bucket": "needs_action",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Compartment-specific joint space width and knee osteoarthritis outcomes: measurement, alignment and the limits of mediation. Comment on Jung et al.\" (0.95). Confirm these are different papers.",
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Arthritis Research & Therapy",
+      "currentManuscriptNumber": "71a64e20-5711-40ab-811b-2ceb4b26d278",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-27T18:29:59.999Z",
+      "deadlineSource": "stated",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Arthritis Research & Therapy",
+          "manuscriptNumber": "71a64e20-5711-40ab-811b-2ceb4b26d278",
+          "submittedDate": "2026-11-25T01:02:21.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T01:02:21.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check and the author is asked to make amendments within 2 days.",
+              "manuscriptNumber": "71a64e20-5711-40ab-811b-2ceb4b26d278",
+              "source": {
+                "threadId": "1a21039a481048f9",
+                "messageId": "1a21039a481048f9",
+                "subject": "Re: Arthritis Research & Therapy-Amendment required",
+                "from": "Springer Nature Submissions <arlene.pura@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T01:02:21.000Z",
+          "journal": "Arthritis Research & Therapy",
+          "eventType": "sent_back",
+          "manuscriptNumber": "71a64e20-5711-40ab-811b-2ceb4b26d278",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-27T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check and the author is asked to make amendments within 2 days.",
+          "source": {
+            "threadId": "1a21039a481048f9",
+            "messageId": "1a21039a481048f9",
+            "subject": "Re: Arthritis Research & Therapy-Amendment required",
+            "from": "Springer Nature Submissions <arlene.pura@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T01:02:21.000Z",
+      "updatedAt": "2026-11-25T01:02:21.000Z"
     },
     {
       "id": "complication-mitigation-in-robot-assisted-spine-surgery-a-narrative-re",
@@ -6236,6 +6338,74 @@
       ],
       "createdAt": "2026-06-07T12:32:32.000Z",
       "updatedAt": "2026-06-07T12:32:32.000Z"
+    },
+    {
+      "id": "culture-serum-and-dosing-limit-claims-of-greater-potency-in-bioreactor",
+      "title": "Culture serum and dosing limit claims of greater potency in bioreactor placental MSC vesicles",
+      "titleNormalized": "culture serum and dosing limit claims of greater potency in bioreactor placental msc vesicles",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Regenerative Medicine",
+      "currentManuscriptNumber": "266707181",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Regenerative Medicine",
+          "manuscriptNumber": "266707181",
+          "submittedDate": "2026-11-24T13:41:05.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-24T13:41:05.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and a submission acknowledgement was sent.",
+              "manuscriptNumber": "266707181",
+              "source": {
+                "threadId": "1a20dc9e727eec4e",
+                "messageId": "1a20dc9e727eec4e",
+                "subject": "Submission received for Regenerative Medicine (Submission ID: 266707181)",
+                "from": "IRME@tandf.co.uk"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-24T13:41:05.000Z",
+          "journal": "Regenerative Medicine",
+          "eventType": "new_submission",
+          "manuscriptNumber": "266707181",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and a submission acknowledgement was sent.",
+          "source": {
+            "threadId": "1a20dc9e727eec4e",
+            "messageId": "1a20dc9e727eec4e",
+            "subject": "Submission received for Regenerative Medicine (Submission ID: 266707181)",
+            "from": "IRME@tandf.co.uk"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-24T13:41:05.000Z",
+      "updatedAt": "2026-11-24T13:41:05.000Z"
     },
     {
       "id": "current-progress-and-clinical-challenges-in-male-health",
@@ -24971,8 +25141,8 @@
       "title": "REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and the limits of causal language. Comment on Jia et al.",
       "titleNormalized": "reboa and mortality in traumatic haemorrhagic shock confounding overlapping registries and the limits of causal language comment on jia et al",
       "bucket": "in_review",
-      "needsReview": false,
-      "reviewReason": null,
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
       "needsActionReason": null,
       "actionFlag": false,
       "actionLabel": null,
@@ -24984,7 +25154,8 @@
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Sathish Muthu"
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
       ],
       "submissions": [
         {
@@ -25008,15 +25179,28 @@
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-11-25T05:00:27.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was submitted and the submission was acknowledged.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a20d6662dd030ef",
+                "messageId": "1a211139e325dfec",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
             }
           ]
         },
         {
           "journal": "World Journal of Emergency Surgery",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "cc8d3af6-3f6a-466f-89d7-85f0db671b2d",
           "submittedDate": "2026-11-24T18:10:03.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -25031,6 +25215,19 @@
                 "messageId": "1a20ec0273599175",
                 "subject": "Track the status of your submission to World Journal of Emergency Surgery",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-11-25T04:26:04.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check, requiring the author to address metadata issues and resubmit within 2 days.",
+              "manuscriptNumber": "cc8d3af6-3f6a-466f-89d7-85f0db671b2d",
+              "source": {
+                "threadId": "1a210f425e9c8625",
+                "messageId": "1a210f425e9c8625",
+                "subject": "Re: World Journal of Emergency Surgery-Amendment required",
+                "from": "Springer Nature Submissions <sanderphilip.libangyaneza@springernature.com>"
               }
             }
           ]
@@ -25070,10 +25267,48 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T04:26:04.000Z",
+          "journal": "World Journal of Emergency Surgery",
+          "eventType": "sent_back",
+          "manuscriptNumber": "cc8d3af6-3f6a-466f-89d7-85f0db671b2d",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-27T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check, requiring the author to address metadata issues and resubmit within 2 days.",
+          "source": {
+            "threadId": "1a210f425e9c8625",
+            "messageId": "1a210f425e9c8625",
+            "subject": "Re: World Journal of Emergency Surgery-Amendment required",
+            "from": "Springer Nature Submissions <sanderphilip.libangyaneza@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T05:00:27.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was submitted and the submission was acknowledged.",
+          "source": {
+            "threadId": "1a20d6662dd030ef",
+            "messageId": "1a211139e325dfec",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-24T18:10:03.000Z",
-      "updatedAt": "2026-11-24T18:10:03.000Z"
+      "updatedAt": "2026-11-25T05:00:27.000Z"
     },
     {
       "id": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla-2",
