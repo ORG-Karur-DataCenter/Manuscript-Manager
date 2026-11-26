@@ -1,6 +1,76 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-25T21:33:17.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "10 Ways Technology is Changing Healthcare",
+      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T05:51:57.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:a80cfa09e122136c]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T06:10:11.000Z",
+      "reason": "unrelated",
+      "subject": "RE: Required confirmation on account holder name for Bank Details Form Sathish Muthu 1000186780 UK BPO",
+      "from": "EUSSC MDM <EUSSC-MDM@informa.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T06:49:08.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "Number ID: 05395420 World Journal of Clinical Cases Article Quality Tracking-Peer Review for Volume 14 Issue 29 2026-11-26",
+      "from": "\"BPG Invitation (Ma LS)\" <invitation@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T07:17:49.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for The missing joint environment in prognostic research on knee cartilage repair: matters arising from Han et al.",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T07:28:40.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle Study Protocol manuscript [PONE-D-26-57755] - [EMID:1692049979b47e37]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T15:03:17.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Checking in on IRB submission and next steps",
+      "from": "Enrico Giordan <enrico.giordan@aulss2.veneto.it>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T17:24:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Diagnostics, Volume 16, Issue 22 (November-2 2026) Table of Contents",
+      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T21:28:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "J. Clin. Med., Volume 15, Issue 22 (November-2 2026) Table of Contents",
+      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T23:56:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "J. Funct. Biomater., Volume 17, Issue 11 (November 2026) Table of Contents",
+      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-25T01:10:13.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "N-of-1: The Data Were There. No One Was Watching.",
@@ -2029,76 +2099,6 @@
       "subject": "RE: Resources to support your research",
       "from": "Sage Author Support <info@email.sagepub.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T13:03:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Seeking new ways to treat ALS",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T05:33:56.000Z",
-      "reason": "unrelated",
-      "subject": "*** Low Priced -- Medical Journals — Institutional Print Subscription Proposal -- 60 Embase (Elsevier) Title Accepted medical & allied-health journals",
-      "from": "Library Connect <souvik@libraryconnect.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T06:30:41.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Registration Is Now Open! AO Trauma/ AO Recon Course—Comprehensive Periprosthetic Fracture Management of the Hip and Knee Course with Anatomical Specimens, Yogyakarta, Indonesia | November 16-18, 2026",
-      "from": "AO Foundation <news@communications.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T08:26:29.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Clinical Trial- Invitation to handle manuscript [PONE-D-26-49360] - [EMID:6826e2992f1788fa]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T09:25:03.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "KYC Documents",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T09:29:36.000Z",
-      "reason": "unrelated",
-      "subject": "Get Unlimited ESSKA Academy Access – Become an ESSKA Member!",
-      "from": "ESSKA Membership <membership@esska.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T09:38:05.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "KYC Documents",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T12:12:34.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New Issue Online - eTOC for September 2026 issue",
-      "from": "Journal of Orthopaedics <etoc@scientificscholar.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T14:02:09.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "RE-Follow-up on your article",
-      "from": "\"Journal of Dental Health & Oral Research\" <oraldentalhealth@athenaeumpub.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T14:15:27.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "RE-Article acknowledgement",
-      "from": "Journal of Dermatology Research <dermatology@athenaeumpub.com>",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }

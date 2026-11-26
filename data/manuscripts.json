@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T15:52:37.094Z",
+  "generatedAt": "2026-11-26T00:46:23.442Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -475,6 +475,19 @@
                 "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
                 "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
               }
+            },
+            {
+              "timestamp": "2026-11-25T06:39:18.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned to the author after a technical check, requesting revisions within 2 days.",
+              "manuscriptNumber": "bf3e1669-b7c4-45b6-89d0-bc707dc234f4",
+              "source": {
+                "threadId": "1a20c67b7214a77d",
+                "messageId": "1a2116e20ee59f2a",
+                "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
+                "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
+              }
             }
           ]
         }
@@ -549,6 +562,27 @@
             "messageId": "1a20d6cd7d9ceabd",
             "subject": "Track the status of your manuscript",
             "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T06:39:18.000Z",
+          "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+          "eventType": "sent_back",
+          "manuscriptNumber": "bf3e1669-b7c4-45b6-89d0-bc707dc234f4",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-27T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned to the author after a technical check, requesting revisions within 2 days.",
+          "source": {
+            "threadId": "1a20c67b7214a77d",
+            "messageId": "1a2116e20ee59f2a",
+            "subject": "Re: European Journal of Orthopaedic Surgery & Traumatology-Amendment required",
+            "from": "Springer Nature Submissions <masroorahmed.sharfudeen@springernature.com>"
           },
           "needsReview": false
         },
@@ -2276,14 +2310,14 @@
       "id": "apprehensions-of-orthopaedic-surgeons-regarding-the-use-of-orthobiolog",
       "title": "Apprehensions of Orthopaedic Surgeons Regarding the Use of Orthobiologics: A Cross-Sectional Survey Study",
       "titleNormalized": "apprehensions of orthopaedic surgeons regarding the use of orthobiologics a cross sectional survey study",
-      "bucket": "in_review",
+      "bucket": "revisions_pending",
       "needsReview": false,
       "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "actionFlag": true,
+      "actionLabel": "Revision  requested",
       "currentJournal": "Frontiers in Surgery",
       "currentManuscriptNumber": "1970299",
-      "currentStatus": "Transferred to another journal",
+      "currentStatus": "Revision requested",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -2334,7 +2368,7 @@
           "manuscriptNumber": "1970299",
           "submittedDate": "2026-09-18T16:23:38.000Z",
           "outcome": "active",
-          "status": "transferred",
+          "status": "revision_requested",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -2349,6 +2383,19 @@
                 "messageId": "1a0b554a73837b7b",
                 "subject": "Your manuscript’s transfer is complete (ID 1970299) ",
                 "from": "Frontiers in Medicine Editorial Office <medicine.editorial.office@frontiersin.org>"
+              }
+            },
+            {
+              "timestamp": "2026-11-25T18:49:31.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The deadline for the author to respond to reviewer comments was extended to 2 December 2026.",
+              "manuscriptNumber": "1970299",
+              "source": {
+                "threadId": "1a2140aa8ee141d2",
+                "messageId": "1a2140aa8ee141d2",
+                "subject": "Review response deadline extended (ID 1970299) ",
+                "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>"
               }
             }
           ]
@@ -2403,12 +2450,33 @@
             "from": "Frontiers in Medicine Editorial Office <medicine.editorial.office@frontiersin.org>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T18:49:31.000Z",
+          "journal": "Frontiers in Surgery",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "1970299",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-12-02T18:29:59.999Z",
+            "source": "stated",
+            "basis": "02 December 2026"
+          },
+          "note": "The deadline for the author to respond to reviewer comments was extended to 2 December 2026.",
+          "source": {
+            "threadId": "1a2140aa8ee141d2",
+            "messageId": "1a2140aa8ee141d2",
+            "subject": "Review response deadline extended (ID 1970299) ",
+            "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-17T11:01:11.000Z",
-      "updatedAt": "2026-09-18T16:23:38.000Z",
-      "deadline": null,
-      "deadlineSource": null
+      "updatedAt": "2026-11-25T18:49:31.000Z",
+      "deadline": "2026-12-02T18:29:59.999Z",
+      "deadlineSource": "stated"
     },
     {
       "id": "are-current-management-strategies-adequate-for-metastatic-sarcoma-of-t",
@@ -7580,6 +7648,108 @@
       "deadlineSource": null
     },
     {
+      "id": "does-losing-lordosis-mean-worse-outcomes-after-cervical-laminoplasty-d",
+      "title": "Does Losing Lordosis Mean Worse Outcomes After Cervical Laminoplasty? Distinguishing Angular Loss From Kyphotic Conversion: A Systematic Review and Meta-analysis",
+      "titleNormalized": "does losing lordosis mean worse outcomes after cervical laminoplasty distinguishing angular loss from kyphotic conversion a systematic review and meta analysis",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Asian Spine Journal",
+      "currentManuscriptNumber": "ASJ-2026-1040",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Asian Spine Journal",
+          "manuscriptNumber": "ASJ-2026-1040",
+          "submittedDate": "2026-11-25T07:16:57.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T05:09:13.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was unsubmitted and returned to the author for completing required forms and reference formatting before resubmission.",
+              "manuscriptNumber": "ASJ-2026-1040",
+              "source": {
+                "threadId": "1a2111ba2d86d0be",
+                "messageId": "1a2111ba2d86d0be",
+                "subject": "Asian Spine Journal - ASJ-2026-1040 has been unsubmitted",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-25T07:16:57.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was successfully submitted and is now under consideration.",
+              "manuscriptNumber": "ASJ-2026-1040",
+              "source": {
+                "threadId": "1a2119095a987a0d",
+                "messageId": "1a2119095a987a0d",
+                "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-1040",
+                "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T05:09:13.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "sent_back",
+          "manuscriptNumber": "ASJ-2026-1040",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-12-02T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The manuscript was unsubmitted and returned to the author for completing required forms and reference formatting before resubmission.",
+          "source": {
+            "threadId": "1a2111ba2d86d0be",
+            "messageId": "1a2111ba2d86d0be",
+            "subject": "Asian Spine Journal - ASJ-2026-1040 has been unsubmitted",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T07:16:57.000Z",
+          "journal": "Asian Spine Journal",
+          "eventType": "new_submission",
+          "manuscriptNumber": "ASJ-2026-1040",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was successfully submitted and is now under consideration.",
+          "source": {
+            "threadId": "1a2119095a987a0d",
+            "messageId": "1a2119095a987a0d",
+            "subject": "Asian Spine Journal - Manuscript ID ASJ-2026-1040",
+            "from": "Asian Spine Journal <onbehalfof@manuscriptcentral.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T07:16:57.000Z",
+      "updatedAt": "2026-11-25T07:16:57.000Z"
+    },
+    {
       "id": "does-obesity-really-worsen-outcomes-after-cervical-spine-surgery-or-is",
       "title": "Does Obesity really worsen Outcomes after Cervical Spine Surgery, or is there an Obesity Paradox? A Systematic Review & Meta-analysis",
       "titleNormalized": "does obesity really worsen outcomes after cervical spine surgery or is there an obesity paradox a systematic review meta analysis",
@@ -11629,6 +11799,74 @@
       "updatedAt": "2026-04-20T08:05:39.000Z"
     },
     {
+      "id": "generative-ai-and-large-language-models-in-orthopaedic-clinical-decisi",
+      "title": "Generative AI and Large Language Models in Orthopaedic Clinical Decision Support and Patient Triage",
+      "titleNormalized": "generative ai and large language models in orthopaedic clinical decision support and patient triage",
+      "bucket": "needs_action",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": "rejected_needs_resubmission",
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Journal of Orthopaedic Surgery and Research",
+      "currentManuscriptNumber": "c3adde61-08e7-4e45-be73-91567cf1cb92",
+      "currentStatus": "Rejected",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "manuscriptNumber": "c3adde61-08e7-4e45-be73-91567cf1cb92",
+          "submittedDate": "2026-11-25T05:20:55.000Z",
+          "outcome": "rejected",
+          "status": "rejected",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T05:20:55.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected after review.",
+              "manuscriptNumber": "c3adde61-08e7-4e45-be73-91567cf1cb92",
+              "source": {
+                "threadId": "1a21126600e0cec3",
+                "messageId": "1a21126600e0cec3",
+                "subject": "Decision on your submission to Journal of Orthopaedic Surgery and Research",
+                "from": "Journal of Orthopaedic Surgery and Research <jonlauren.rendon@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T05:20:55.000Z",
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "eventType": "rejected",
+          "manuscriptNumber": "c3adde61-08e7-4e45-be73-91567cf1cb92",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected after review.",
+          "source": {
+            "threadId": "1a21126600e0cec3",
+            "messageId": "1a21126600e0cec3",
+            "subject": "Decision on your submission to Journal of Orthopaedic Surgery and Research",
+            "from": "Journal of Orthopaedic Surgery and Research <jonlauren.rendon@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T05:20:55.000Z",
+      "updatedAt": "2026-11-25T05:20:55.000Z"
+    },
+    {
       "id": "genipin-crosslinked-gelatin-pva-hydrogels-loaded-with-hydroxytyrosol-f",
       "title": "Genipin-Crosslinked Gelatin/PVA Hydrogels Loaded with Hydroxytyrosol for Cartilage Tissue Engineering: Fabrication, Characterization, and Chondrocyte Biocompatibility",
       "titleNormalized": "genipin crosslinked gelatin pva hydrogels loaded with hydroxytyrosol for cartilage tissue engineering fabrication characterization and chondrocyte biocompatibility",
@@ -14691,6 +14929,74 @@
       ],
       "createdAt": "2026-07-03T08:00:38.000Z",
       "updatedAt": "2026-07-03T08:00:38.000Z"
+    },
+    {
+      "id": "ilizarov-compression-arthrodesis-for-neglected-tuberculous-arthritis-o",
+      "title": "Ilizarov Compression Arthrodesis for Neglected Tuberculous Arthritis of the Knee With Triple Deformity: A Case Report",
+      "titleNormalized": "ilizarov compression arthrodesis for neglected tuberculous arthritis of the knee with triple deformity a case report",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "Cureus Journal of Medical Science",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Cureus Journal of Medical Science",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-25T18:31:09.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T18:31:09.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The recipient is notified that they have been listed as a co-author on a manuscript submitted to Cureus and asked to confirm or reject authorship.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a213f9da27c847f",
+                "messageId": "1a213f9da27c847f",
+                "subject": "Dr. Muthu, you've been listed as co-author of an article manuscript submitted to Cureus.",
+                "from": "Cureus <no-reply@cureus.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T18:31:09.000Z",
+          "journal": "Cureus Journal of Medical Science",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The recipient is notified that they have been listed as a co-author on a manuscript submitted to Cureus and asked to confirm or reject authorship.",
+          "source": {
+            "threadId": "1a213f9da27c847f",
+            "messageId": "1a213f9da27c847f",
+            "subject": "Dr. Muthu, you've been listed as co-author of an article manuscript submitted to Cureus.",
+            "from": "Cureus <no-reply@cureus.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T18:31:09.000Z",
+      "updatedAt": "2026-11-25T18:31:09.000Z"
     },
     {
       "id": "incidence-chronology-and-risk-factors-of-rod-fracture-following-adult-",
@@ -18598,6 +18904,78 @@
       "updatedAt": "2026-07-14T05:50:33.000Z"
     },
     {
+      "id": "letter-to-the-editor-regarding-early-spine-surgery-is-associated-with-",
+      "title": "Letter to the Editor Regarding \"Early spine surgery is associated with better outcomes in patients with a thoracic spinal cord injury: national database retrospective analysis\"",
+      "titleNormalized": "letter to the editor regarding early spine surgery is associated with better outcomes in patients with a thoracic spinal cord injury national database retrospective analysis",
+      "bucket": "revisions_pending",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": true,
+      "actionLabel": "Revision  requested",
+      "currentJournal": "European Spine Journal",
+      "currentManuscriptNumber": "463e97b2-7e8d-48c5-8284-3a431d290ffc",
+      "currentStatus": "Revision requested",
+      "deadline": "2026-12-09T18:29:59.999Z",
+      "deadlineSource": "stated",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "European Spine Journal",
+          "manuscriptNumber": "463e97b2-7e8d-48c5-8284-3a431d290ffc",
+          "submittedDate": "2026-11-25T18:05:52.000Z",
+          "outcome": "active",
+          "status": "revision_requested",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T18:05:52.000Z",
+              "eventType": "revision_requested",
+              "revisionRound": null,
+              "note": "The journal requested revisions to the author's Letter to the Editor by 09 Dec 2026.",
+              "manuscriptNumber": "463e97b2-7e8d-48c5-8284-3a431d290ffc",
+              "source": {
+                "threadId": "1a213e2af42820e2",
+                "messageId": "1a213e2af42820e2",
+                "subject": "European Spine Journal: Decision on your manuscript",
+                "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T18:05:52.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "revision_requested",
+          "manuscriptNumber": "463e97b2-7e8d-48c5-8284-3a431d290ffc",
+          "label": "Revision requested",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-12-09T18:29:59.999Z",
+            "source": "stated",
+            "basis": "09 Dec 2026"
+          },
+          "note": "The journal requested revisions to the author's Letter to the Editor by 09 Dec 2026.",
+          "source": {
+            "threadId": "1a213e2af42820e2",
+            "messageId": "1a213e2af42820e2",
+            "subject": "European Spine Journal: Decision on your manuscript",
+            "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T18:05:52.000Z",
+      "updatedAt": "2026-11-25T18:05:52.000Z"
+    },
+    {
       "id": "leukocyte-poor-versus-leukocyte-rich-platelet-rich-plasma-for-discogen",
       "title": "Leukocyte-Poor versus Leukocyte-Rich Platelet-Rich Plasma for Discogenic Lumbar Disc Disease: A unicentric, double-blinded, randomized controlled trial",
       "titleNormalized": "leukocyte poor versus leukocyte rich platelet rich plasma for discogenic lumbar disc disease a unicentric double blinded randomized controlled trial",
@@ -18844,6 +19222,78 @@
       ],
       "createdAt": "2026-11-24T13:13:04.000Z",
       "updatedAt": "2026-11-25T12:32:04.000Z"
+    },
+    {
+      "id": "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2",
+      "title": "Low-dose olanzapine for postoperative nausea: a comparator below guideline prophylaxis and an endpoint altered by rescue treatment",
+      "titleNormalized": "low dose olanzapine for postoperative nausea a comparator below guideline prophylaxis and an endpoint altered by rescue treatment",
+      "bucket": "needs_action",
+      "needsReview": true,
+      "reviewReason": "Title closely resembles \"Low-dose olanzapine for postoperative nausea: a comparator below guideline prophylaxis and an endpoint altered by rescue treatment. Comment on Prueksaritanond et al.\" (0.94). Confirm these are different papers.",
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
+      "currentJournal": "Patient Safety in Surgery",
+      "currentManuscriptNumber": "93974000-27cd-4d3d-89fa-e200d1564000",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-27T18:29:59.999Z",
+      "deadlineSource": "stated",
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "Patient Safety in Surgery",
+          "manuscriptNumber": "93974000-27cd-4d3d-89fa-e200d1564000",
+          "submittedDate": "2026-11-25T11:26:32.000Z",
+          "outcome": "active",
+          "status": "sent_back",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T11:26:32.000Z",
+              "eventType": "sent_back",
+              "revisionRound": 1,
+              "note": "The manuscript was returned after technical check and the author is asked to make corrections within 2 days.",
+              "manuscriptNumber": "93974000-27cd-4d3d-89fa-e200d1564000",
+              "source": {
+                "threadId": "1a212751dcaa035e",
+                "messageId": "1a212751dcaa035e",
+                "subject": "Re: Patient Safety in Surgery-Amendment required",
+                "from": "Springer Nature Submissions <sneha.anand@springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T11:26:32.000Z",
+          "journal": "Patient Safety in Surgery",
+          "eventType": "sent_back",
+          "manuscriptNumber": "93974000-27cd-4d3d-89fa-e200d1564000",
+          "label": "Sent back for edits",
+          "revisionRound": 1,
+          "deadline": {
+            "due": "2026-11-27T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check and the author is asked to make corrections within 2 days.",
+          "source": {
+            "threadId": "1a212751dcaa035e",
+            "messageId": "1a212751dcaa035e",
+            "subject": "Re: Patient Safety in Surgery-Amendment required",
+            "from": "Springer Nature Submissions <sneha.anand@springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T11:26:32.000Z",
+      "updatedAt": "2026-11-25T11:26:32.000Z"
     },
     {
       "id": "management-and-prevention-of-iatrogenic-ipsilateral-femoral-neck-fract",
@@ -29453,8 +29903,8 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Knee Surgery & Related Research",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
+      "currentManuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
+      "currentStatus": "Rejected",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
@@ -29467,8 +29917,8 @@
           "journal": "Knee Surgery & Related Research",
           "manuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
           "submittedDate": "2026-11-23T14:12:04.000Z",
-          "outcome": "active",
-          "status": "sent_back",
+          "outcome": "rejected",
+          "status": "rejected",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -29496,6 +29946,19 @@
                 "messageId": "1a20cbe3a091b2e2",
                 "subject": "Re: Knee Surgery & Related Research-Amendment required",
                 "from": "Springer Nature Submissions <paolo.aragones@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-25T07:15:58.000Z",
+              "eventType": "rejected",
+              "revisionRound": null,
+              "note": "The manuscript was rejected without external peer review.",
+              "manuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
+              "source": {
+                "threadId": "1a2118fafbdf2b41",
+                "messageId": "1a2118fafbdf2b41",
+                "subject": "Decision on your submission to Knee Surgery & Related Research",
+                "from": "\"Knee Surgery & Related Research\" <paolo.aragones@springernature.com>"
               }
             }
           ]
@@ -29580,10 +30043,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T07:15:58.000Z",
+          "journal": "Knee Surgery & Related Research",
+          "eventType": "rejected",
+          "manuscriptNumber": "f84dcc34-fa80-4211-9bd3-16c2ec150ec0",
+          "label": "Rejected",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was rejected without external peer review.",
+          "source": {
+            "threadId": "1a2118fafbdf2b41",
+            "messageId": "1a2118fafbdf2b41",
+            "subject": "Decision on your submission to Knee Surgery & Related Research",
+            "from": "\"Knee Surgery & Related Research\" <paolo.aragones@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-23T14:12:04.000Z",
-      "updatedAt": "2026-11-24T12:28:04.000Z"
+      "updatedAt": "2026-11-25T07:15:58.000Z"
     },
     {
       "id": "the-statistical-fragility-of-trials-comparing-decompression-alone-to-d",

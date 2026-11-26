@@ -961,6 +961,69 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2|2026-11-27T18:29:59.999Z|t-1",
+      "kind": "t-1",
+      "manuscriptId": "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2",
+      "title": "Compartment-specific joint space width and knee osteoarthritis outcomes: measurement, alignment and the limits of mediation",
+      "due": "2026-11-27T18:29:59.999Z",
+      "at": "2026-11-26T00:46:34.777Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2|2026-11-27T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2",
+      "at": "2026-11-26T00:46:38.032Z"
+    },
+    {
+      "key": "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2|2026-11-27T18:29:59.999Z|t-1",
+      "kind": "superseded",
+      "manuscriptId": "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2",
+      "at": "2026-11-26T00:46:38.032Z"
+    },
+    {
+      "key": "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2|2026-11-27T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2",
+      "title": "Low-dose olanzapine for postoperative nausea: a comparator below guideline prophylaxis and an endpoint altered by rescue treatment",
+      "due": "2026-11-27T18:29:59.999Z",
+      "at": "2026-11-26T00:46:38.032Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i|2026-11-27T18:29:59.999Z|t-1",
+      "kind": "t-1",
+      "manuscriptId": "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i",
+      "title": "Predicting mesenchymal stromal cell potency needs more donors before it guides release criteria: matters arising from South et al.",
+      "due": "2026-11-27T18:29:59.999Z",
+      "at": "2026-11-26T00:46:40.701Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -1002,7 +1065,7 @@
     },
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
-      "title": "Amendment 12 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "title": "Amendment 13 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
       "due": "2026-11-13T18:29:59.999Z",
       "closed": true
     },
@@ -1080,7 +1143,7 @@
     },
     "identification-of-therapeutic-targets-and-gene-expression-profiling-to": {
       "number": 29,
-      "title": "Amendment 20 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
+      "title": "Amendment 21 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
       "due": "2026-11-05T18:29:59.999Z",
       "closed": true
     },
@@ -1110,8 +1173,8 @@
     },
     "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i": {
       "number": 34,
-      "title": "Amendment 2 days left — Predicting mesenchymal stromal cell potency needs more donors before…",
-      "due": "2026-11-26T18:29:59.999Z",
+      "title": "Amendment due tomorrow — Predicting mesenchymal stromal cell potency needs more donors before…",
+      "due": "2026-11-27T18:29:59.999Z",
       "closed": true
     },
     "the-missing-joint-environment-in-prognostic-research-on-knee-cartilage": {
@@ -1122,17 +1185,22 @@
     },
     "antinuclear-antibody-positivity-in-rheumatoid-arthritis-tracks-anti-ci": {
       "number": 36,
-      "title": "Amendment 6 days left — Antinuclear antibody positivity in rheumatoid arthritis tracks anti-c…",
+      "title": "Amendment 5 days left — Antinuclear antibody positivity in rheumatoid arthritis tracks anti-c…",
       "due": "2026-12-01T18:29:59.999Z"
     },
     "selective-serotonin-reuptake-inhibitors-and-perioperative-bleeding-in-": {
       "number": 37,
-      "title": "Amendment 6 days left — Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in…",
+      "title": "Amendment 5 days left — Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in…",
       "due": "2026-12-01T18:29:59.999Z"
     },
     "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2": {
       "number": 38,
-      "title": "Amendment 2 days left — Compartment-specific joint space width and knee osteoarthritis outcom…",
+      "title": "Amendment due tomorrow — Compartment-specific joint space width and knee osteoarthritis outcom…",
+      "due": "2026-11-27T18:29:59.999Z"
+    },
+    "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2": {
+      "number": 39,
+      "title": "Amendment due tomorrow — Low-dose olanzapine for postoperative nausea: a comparator below guid…",
       "due": "2026-11-27T18:29:59.999Z"
     }
   }
