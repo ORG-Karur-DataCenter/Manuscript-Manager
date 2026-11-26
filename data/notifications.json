@@ -1024,6 +1024,52 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla|2026-11-28T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla",
+      "at": "2026-11-26T09:51:01.986Z"
+    },
+    {
+      "key": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla|2026-11-28T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla",
+      "title": "REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and the limits of causal language. Comment on Jia et al.",
+      "due": "2026-11-28T18:29:59.999Z",
+      "at": "2026-11-26T09:51:01.986Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "severe-heterotopic-ossification-abolishes-segmental-motion-after-cervi|2026-11-28T18:29:59.999Z|t-3",
+      "kind": "superseded",
+      "manuscriptId": "severe-heterotopic-ossification-abolishes-segmental-motion-after-cervi",
+      "at": "2026-11-26T09:51:05.165Z"
+    },
+    {
+      "key": "severe-heterotopic-ossification-abolishes-segmental-motion-after-cervi|2026-11-28T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "severe-heterotopic-ossification-abolishes-segmental-motion-after-cervi",
+      "title": "Severe Heterotopic Ossification Abolishes Segmental Motion After Cervical Disc Arthroplasty, but the Adjacent-Segment Consequence Remains Unproven: A Systematic Review and Meta-analysis",
+      "due": "2026-11-28T18:29:59.999Z",
+      "at": "2026-11-26T09:51:05.165Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -1202,6 +1248,16 @@
       "number": 39,
       "title": "Amendment due tomorrow — Low-dose olanzapine for postoperative nausea: a comparator below guid…",
       "due": "2026-11-27T18:29:59.999Z"
+    },
+    "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla": {
+      "number": 40,
+      "title": "Amendment 2 days left — REBOA and mortality in traumatic haemorrhagic shock: confounding, ove…",
+      "due": "2026-11-28T18:29:59.999Z"
+    },
+    "severe-heterotopic-ossification-abolishes-segmental-motion-after-cervi": {
+      "number": 41,
+      "title": "Amendment 2 days left — Severe Heterotopic Ossification Abolishes Segmental Motion After Cerv…",
+      "due": "2026-11-28T18:29:59.999Z"
     }
   }
 }

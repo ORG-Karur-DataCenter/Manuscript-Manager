@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T00:46:23.442Z",
+  "generatedAt": "2026-11-26T09:50:55.083Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -3767,19 +3767,20 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "Journal of Orthopaedic Translation",
-      "currentManuscriptNumber": null,
+      "currentManuscriptNumber": "JOTr-D-26-02229",
       "currentStatus": "Submitted",
       "deadline": null,
       "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
-        "Dhibin Vikash Kolarpatti Ponnusamy"
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Sathish Muthu"
       ],
       "submissions": [
         {
           "journal": "Journal of Orthopaedic Translation",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "JOTr-D-26-02229",
           "submittedDate": "2026-11-24T14:36:47.000Z",
           "outcome": "active",
           "status": "new_submission",
@@ -3796,6 +3797,19 @@
                 "threadId": "1a20dfce6f4be6b5",
                 "messageId": "1a20dfce6f4be6b5",
                 "subject": "Confirm co-authorship of submission to Journal of Orthopaedic Translation",
+                "from": "Journal of Orthopaedic Translation <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-25T02:21:35.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received, assigned a number, and is now with the handling editor for initial assessment.",
+              "manuscriptNumber": "JOTr-D-26-02229",
+              "source": {
+                "threadId": "1a210822a4198c7a",
+                "messageId": "1a210822a4198c7a",
+                "subject": "Submission to Journal of Orthopaedic Translation - manuscript number",
                 "from": "Journal of Orthopaedic Translation <em@editorialmanager.com>"
               }
             }
@@ -3819,10 +3833,27 @@
             "from": "Journal of Orthopaedic Translation <em@editorialmanager.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-25T02:21:35.000Z",
+          "journal": "Journal of Orthopaedic Translation",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JOTr-D-26-02229",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received, assigned a number, and is now with the handling editor for initial assessment.",
+          "source": {
+            "threadId": "1a210822a4198c7a",
+            "messageId": "1a210822a4198c7a",
+            "subject": "Submission to Journal of Orthopaedic Translation - manuscript number",
+            "from": "Journal of Orthopaedic Translation <em@editorialmanager.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-24T14:36:47.000Z",
-      "updatedAt": "2026-11-24T14:36:47.000Z"
+      "updatedAt": "2026-11-25T02:21:35.000Z"
     },
     {
       "id": "chondrogenesis-of-peripheral-blood-derived-mesenchymal-stromal-cells",
@@ -6186,6 +6217,74 @@
         "Convergence and divergence of disease burden across the states of India, 1990-2023: a robustness-tested analysis of ten conditions spanning the epidemiological transition"
       ],
       "editedAt": "2026-09-03T18:02:35.635Z"
+    },
+    {
+      "id": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and",
+      "title": "Cortical breach of S2 alar-iliac (S2AI) screws: a systematic review and...",
+      "titleNormalized": "cortical breach of s2 alar iliac s2ai screws a systematic review and",
+      "bucket": "in_review",
+      "needsReview": true,
+      "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": null,
+      "currentManuscriptNumber": null,
+      "currentStatus": "Under review",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "Springer Nature",
+          "manuscriptNumber": null,
+          "submittedDate": "2026-11-26T08:15:49.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-26T08:15:49.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "The manuscript has moved into the peer review phase.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a216ecd4a5aa0b7",
+                "messageId": "1a216ecd4a5aa0b7",
+                "subject": "A quick update while your manuscript is being reviewed",
+                "from": "Springer Nature <springernature@research.springernature.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-26T08:15:49.000Z",
+          "journal": "Springer Nature",
+          "eventType": "under_review",
+          "manuscriptNumber": null,
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has moved into the peer review phase.",
+          "source": {
+            "threadId": "1a216ecd4a5aa0b7",
+            "messageId": "1a216ecd4a5aa0b7",
+            "subject": "A quick update while your manuscript is being reviewed",
+            "from": "Springer Nature <springernature@research.springernature.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-26T08:15:49.000Z",
+      "updatedAt": "2026-11-26T08:15:49.000Z"
     },
     {
       "id": "cortical-breach-of-s2-alar-iliac-s2ai-screws-a-systematic-review-and-m",
@@ -25752,17 +25851,17 @@
       "id": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla",
       "title": "REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and the limits of causal language. Comment on Jia et al.",
       "titleNormalized": "reboa and mortality in traumatic haemorrhagic shock confounding overlapping registries and the limits of causal language comment on jia et al",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "World Journal of Emergency Surgery",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentManuscriptNumber": "cc8d3af6-3f6a-466f-89d7-85f0db671b2d",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-28T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -25838,6 +25937,19 @@
               "source": {
                 "threadId": "1a210f425e9c8625",
                 "messageId": "1a210f425e9c8625",
+                "subject": "Re: World Journal of Emergency Surgery-Amendment required",
+                "from": "Springer Nature Submissions <sanderphilip.libangyaneza@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-26T01:30:30.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after technical check and the author is asked to make amendments and resubmit within 2 days.",
+              "manuscriptNumber": "cc8d3af6-3f6a-466f-89d7-85f0db671b2d",
+              "source": {
+                "threadId": "1a210f425e9c8625",
+                "messageId": "1a21579c654f568b",
                 "subject": "Re: World Journal of Emergency Surgery-Amendment required",
                 "from": "Springer Nature Submissions <sanderphilip.libangyaneza@springernature.com>"
               }
@@ -25917,10 +26029,31 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-26T01:30:30.000Z",
+          "journal": "World Journal of Emergency Surgery",
+          "eventType": "sent_back",
+          "manuscriptNumber": "cc8d3af6-3f6a-466f-89d7-85f0db671b2d",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-28T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after technical check and the author is asked to make amendments and resubmit within 2 days.",
+          "source": {
+            "threadId": "1a210f425e9c8625",
+            "messageId": "1a21579c654f568b",
+            "subject": "Re: World Journal of Emergency Surgery-Amendment required",
+            "from": "Springer Nature Submissions <sanderphilip.libangyaneza@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-24T18:10:03.000Z",
-      "updatedAt": "2026-11-25T05:00:27.000Z"
+      "updatedAt": "2026-11-26T01:30:30.000Z"
     },
     {
       "id": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla-2",
@@ -26658,17 +26791,17 @@
       "id": "severe-heterotopic-ossification-abolishes-segmental-motion-after-cervi",
       "title": "Severe Heterotopic Ossification Abolishes Segmental Motion After Cervical Disc Arthroplasty, but the Adjacent-Segment Consequence Remains Unproven: A Systematic Review and Meta-analysis",
       "titleNormalized": "severe heterotopic ossification abolishes segmental motion after cervical disc arthroplasty but the adjacent segment consequence remains unproven a systematic review and meta analysis",
-      "bucket": "in_review",
+      "bucket": "needs_action",
       "needsReview": false,
       "reviewReason": null,
-      "needsActionReason": null,
-      "actionFlag": false,
-      "actionLabel": null,
+      "needsActionReason": "pre_review_edits",
+      "actionFlag": true,
+      "actionLabel": "Amendments requested",
       "currentJournal": "Journal of Orthopaedic Surgery and Research",
-      "currentManuscriptNumber": null,
-      "currentStatus": "Submitted",
-      "deadline": null,
-      "deadlineSource": null,
+      "currentManuscriptNumber": "97e34f53-8697-4638-b297-960cd50c3d79",
+      "currentStatus": "Sent back for edits",
+      "deadline": "2026-11-28T18:29:59.999Z",
+      "deadlineSource": "stated",
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -26701,10 +26834,10 @@
         },
         {
           "journal": "Journal of Orthopaedic Surgery and Research",
-          "manuscriptNumber": null,
+          "manuscriptNumber": "97e34f53-8697-4638-b297-960cd50c3d79",
           "submittedDate": "2026-11-25T13:12:52.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -26719,6 +26852,19 @@
                 "messageId": "1a212d66f602f1b3",
                 "subject": "Track the status of your submission to Journal of Orthopaedic Surgery and Research",
                 "from": "info@researchsquare.com"
+              }
+            },
+            {
+              "timestamp": "2026-11-26T05:24:27.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The manuscript was returned after a technical check, requesting corrections within 2 days.",
+              "manuscriptNumber": "97e34f53-8697-4638-b297-960cd50c3d79",
+              "source": {
+                "threadId": "1a2164ff5d34ec1d",
+                "messageId": "1a2164ff5d34ec1d",
+                "subject": "Re: Journal of Orthopaedic Surgery and Research-Amendment required",
+                "from": "Springer Nature Submissions <jonlauren.rendon@springernature.com>"
               }
             }
           ]
@@ -26758,10 +26904,31 @@
             "from": "info@researchsquare.com"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-26T05:24:27.000Z",
+          "journal": "Journal of Orthopaedic Surgery and Research",
+          "eventType": "sent_back",
+          "manuscriptNumber": "97e34f53-8697-4638-b297-960cd50c3d79",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-11-28T18:29:59.999Z",
+            "source": "stated",
+            "basis": "2 days from the email"
+          },
+          "note": "The manuscript was returned after a technical check, requesting corrections within 2 days.",
+          "source": {
+            "threadId": "1a2164ff5d34ec1d",
+            "messageId": "1a2164ff5d34ec1d",
+            "subject": "Re: Journal of Orthopaedic Surgery and Research-Amendment required",
+            "from": "Springer Nature Submissions <jonlauren.rendon@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-25T13:12:52.000Z",
-      "updatedAt": "2026-11-25T13:12:52.000Z"
+      "updatedAt": "2026-11-26T05:24:27.000Z"
     },
     {
       "id": "severe-heterotopic-ossification-motion-loss-and-adjacent-segment-degen",
@@ -31327,6 +31494,74 @@
       ],
       "createdAt": "2026-10-06T11:40:36.000Z",
       "updatedAt": "2026-10-08T22:55:24.000Z"
+    },
+    {
+      "id": "whole-genome-sequencing-in-osteoarthritis-genetic-variants-and-pathway",
+      "title": "Whole-genome sequencing in osteoarthritis: Genetic variants and pathways driving disease progression",
+      "titleNormalized": "whole genome sequencing in osteoarthritis genetic variants and pathways driving disease progression",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "World Journal of Biological Chemistry",
+      "currentManuscriptNumber": "131279",
+      "currentStatus": "Under review",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu"
+      ],
+      "submissions": [
+        {
+          "journal": "World Journal of Biological Chemistry",
+          "manuscriptNumber": "131279",
+          "submittedDate": "2026-11-25T07:21:24.000Z",
+          "outcome": "active",
+          "status": "under_review",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-25T07:21:24.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "A reviewer has completed their review of the submitted manuscript.",
+              "manuscriptNumber": "131279",
+              "source": {
+                "threadId": "1a21194aaf7e96c1",
+                "messageId": "1a21194aaf7e96c1",
+                "subject": "World Journal of Biological Chemistry Manuscript review of Manuscript NO: 131279",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-25T07:21:24.000Z",
+          "journal": "World Journal of Biological Chemistry",
+          "eventType": "under_review",
+          "manuscriptNumber": "131279",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "A reviewer has completed their review of the submitted manuscript.",
+          "source": {
+            "threadId": "1a21194aaf7e96c1",
+            "messageId": "1a21194aaf7e96c1",
+            "subject": "World Journal of Biological Chemistry Manuscript review of Manuscript NO: 131279",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-25T07:21:24.000Z",
+      "updatedAt": "2026-11-25T07:21:24.000Z"
     },
     {
       "id": "whole-genome-sequencing-in-regenerative-orthopaedics-guiding-stem-cell",

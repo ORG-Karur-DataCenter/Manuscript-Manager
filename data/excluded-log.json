@@ -1,6 +1,125 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-26T06:32:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "npj Systems Biology and Applications Contents: 26 Nov 2026",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T09:10:02.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Nature alert for 26th November 2026",
+      "from": "Nature <alerts@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T03:45:41.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 128167 for World Journal of Stem Cells (Reviewer Code: 05395420)",
+      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T04:45:36.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Reviewer Declines Assignment for JOIO-D-26-01575 - [EMID:ec8c0dfa9b15c7d6]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-24T03:14:18.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Status update request and revised Data Collection Sheet (v2)",
+      "from": "Professor Jason Cheung <cheungjp@hku.hk>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T04:13:30.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: BMJ Open",
+      "from": "BMJ Open <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T01:38:48.000Z",
+      "reason": "unrelated",
+      "subject": "Giuseppe Filardo - new articles",
+      "from": "Google Scholar Alerts <scholaralerts-noreply@google.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T02:30:08.000Z",
+      "reason": "unrelated",
+      "subject": "Reminder — today: Class 18 · Journal club presentation by Dr Madhan Jeyaraman, 5:30 PM IST",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T02:32:28.000Z",
+      "reason": "unrelated",
+      "subject": "Fwd: SCOPE Study – Checking in on IRB submission and next steps",
+      "from": "\"Luke Kim 命醫\" <lukespinewalker@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T02:41:07.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Invitation to review Manuscript IPMT-2026-ST-0312.R1 - Pain Management",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T02:41:43.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Curr. Issues Mol. Biol., Volume 48, Issue 11 (November 2026) Table of Contents",
+      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T06:02:44.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Reviewer Declines Assignment for JOIO-D-26-01624 - [EMID:1ffb54052058e9e9]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T06:18:48.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Exploration of Musculoskeletal Diseases - Invitation to review EMD-2026-00049",
+      "from": "ARES System <review@aressystem.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T06:29:56.000Z",
+      "reason": "unrelated",
+      "subject": "Only 2 days left to vote – How to cast your vote in the IOA Elections 2026",
+      "from": "\"Prof. Arun Kumar Sharma\" <dashingorthopedician@270084863.mailchimpapp.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T07:13:57.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: Fwd: SCOPE Study – Checking in on IRB submission and next steps",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T07:14:25.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Checking in on IRB submission and next steps",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T08:44:44.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Follow-up: Invitation to Review for BMJ Open",
+      "from": "BMJ Open <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-25T21:33:17.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "10 Ways Technology is Changing Healthcare",
@@ -1980,125 +2099,6 @@
       "subject": "IRJPMS:: Inviting paper for Publication: Volume 9 Issue 6: 2026",
       "from": "IRJPMS Editor <irjpms@yahoo.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T00:37:17.000Z",
-      "reason": "unrelated",
-      "subject": "Research Ethics - Account Created in ScholarOne Manuscripts",
-      "from": "Research Ethics <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T01:02:48.000Z",
-      "reason": "unrelated",
-      "subject": "IHME ID: 6241 GBD 2023 Global Total Diabetes comments due Nov 2",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T01:25:52.000Z",
-      "reason": "unrelated",
-      "subject": "[JFB] Manuscript ID: jfb-4634669 - Reviewer Comments on Language and Figures",
-      "from": "authorservices@mdpi.com",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T04:13:35.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4581359 - Review Request Cancelled",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T04:25:17.000Z",
-      "reason": "unrelated",
-      "subject": "Funds / Securities Balance",
-      "from": "BSE ALERTS <info@bseindia.in>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T05:31:11.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "[Last Call for Webinar] : Cite Smart with AI",
-      "from": "Clarivate <news@mail.discover.clarivate.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T06:06:44.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One Reminder of Active Assignments - [EMID:a39c62051bd91aad]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T15:33:10.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Top 5 News In Digital Health And Healthcare AI This Week",
-      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T11:09:09.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, an article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T17:16:01.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Regenerative Medicine - Invitation to Review Manuscript ID IRME-2026-ST-0331",
-      "from": "Regenerative Medicine <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T21:45:35.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "J. Clin. Med., Volume 15, Issue 20 (October-2 2026) Table of Contents",
-      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T11:44:17.000Z",
-      "reason": "unrelated",
-      "subject": "RE: Resources to support your research",
-      "from": "Sage Author Support <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T08:06:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "2026-10-26 08:06:29 RCA ID: 00000627 2026 Highlight Articles available for view",
-      "from": "RCA Subscribe <subscribe@rca.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T14:12:15.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "RE: Would you like to Contribute to our Special Issue “Basic Science and Clinical Perspectives on Scar Formation and Regenerative Healing”?",
-      "from": "Thea <Thea@par-journal.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T17:04:57.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Diagnostics, Volume 16, Issue 20 (October-2 2026) Table of Contents",
-      "from": "\"Publisher's Office\" <noreply@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T20:29:08.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: Invitation to review Manuscript IPMT-2026-ST-0478 - Pain Management",
-      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T11:44:17.000Z",
-      "reason": "unrelated",
-      "subject": "RE: Resources to support your research",
-      "from": "Sage Author Support <info@email.sagepub.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }
