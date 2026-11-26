@@ -1,6 +1,153 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-26T10:08:25.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Sharun Khan published a chapter",
+      "from": "ResearchGate <no-reply@researchgatemail.net>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T15:05:35.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore the September Issue of Innovations",
+      "from": "Innovations Journal on behalf of Arthrex <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T15:06:01.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore the September Issue of Innovations",
+      "from": "Innovations Journal on behalf of Arthrex <info@email.sagepub.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-23T05:34:10.000Z",
+      "reason": "unrelated",
+      "subject": "RE: Phased Submission of Chapters – Textbook of Regenerative Orthopaedics (2‑Volume Set)",
+      "from": "\"Vishwakarma, Ravi\" <Ravi.Vishwakarma@wolterskluwer.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-25T19:43:05.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Reminder: Science Progress",
+      "from": "Science Progress <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T03:42:37.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Checking in on IRB submission and next steps",
+      "from": "Win Boonsirikamchai <winbas23@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T06:27:45.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Reviewer Declines Assignment for JOIO-D-26-01199 - [EMID:c4effd5fc056d6d4]",
+      "from": "JOIO Editorial Office <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T10:21:21.000Z",
+      "reason": "unrelated",
+      "subject": "Re: SCOPE Study – Checking in on IRB submission and next steps",
+      "from": "Siravich Suvithayasiri <brightkeng3@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:16:56.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Manuscript returned to draft: JCLA-26-01177",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:18:24.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Journal of Orthopaedic Surgery and Research-Amendment required",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:18:52.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: SMOA Submission needs your approval - [EMID:22c03cef29dac5f8]",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:19:21.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: World Journal of Emergency Surgery-Amendment required",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:25:55.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "🦵 Happening Tomorrow! SICOT PIONEER × APKS | UKR Controversies in Focus",
+      "from": "Asia Pacific Orthopaedic Association <admin@apoaonline.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:29:35.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Checking in on IRB submission and next steps",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:32:30.000Z",
+      "reason": "unrelated",
+      "subject": "Starting in 30 minutes: Class 18 · Journal club presentation by Dr Madhan Jeyaraman",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:42:43.000Z",
+      "reason": "unrelated",
+      "subject": "FEMUR Paediatrics: SICOT's first global multicentre study needs your help - Deadline: 30 November 2026",
+      "from": "SICOT <hq@sicot.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T11:50:25.000Z",
+      "reason": "unrelated",
+      "subject": "Live now: Class 18 · Journal club presentation by Dr Madhan Jeyaraman",
+      "from": "Agathisha AISRM <education@agathisha.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T12:26:52.000Z",
+      "reason": "unrelated",
+      "subject": "REMINDER: KF Degen FOCUS prospective study: site selection survey (deadline December 3)",
+      "from": "Nicola Di Marzio <nicola.dimarzio@aofoundation.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T13:16:53.000Z",
+      "reason": "predatory_solicitation",
+      "subject": "drsathishmuthu –query regarding your recent research work: Indian Journal of Applied Research",
+      "from": "\"Dr, Brajendra Kumar\" <brajendra.kumar@ijsr.internationaljournalofscientificresearch.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T13:41:49.000Z",
+      "reason": "unrelated",
+      "subject": "Re: Updates on ONOS APC Application form #1511 submitted by SATHISH MUTHU",
+      "from": "APC Support <apcsupport@onos.gov.in>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T15:08:07.000Z",
+      "reason": "unrelated",
+      "subject": "SCOPE Study – Update from Clínica Portoazul Auna and IRB Submission",
+      "from": "Maria Camila Pedraza Ciro <mc.pedrazaciromc@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-26T06:32:02.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "npj Systems Biology and Applications Contents: 26 Nov 2026",
@@ -1951,153 +2098,6 @@
       "reason": "newsletter_or_cfp",
       "subject": "New Issue Online - eTOC for November 2026 issue",
       "from": "Indian Journal of Medical Research <etoc@scientificscholar.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T13:46:32.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Just Published: What's New in Orthopaedics",
-      "from": "\"Clinical Orthopaedics and Related Research®\" <lww@sci.scientific-direct.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T13:51:09.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Informatics for Health and Social Care - Invitation to Review Manuscript ID IHSC-2026-1901",
-      "from": "Informatics for Health and Social Care <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T14:26:44.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "SPINEsim Case Lab #3 Registration link - Back on Tour : Targeted Minimally Invasive Surgery",
-      "from": "William Dore <William.Dore@mdsim.health>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T17:59:06.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Global Spine Journal - Decision on Manuscript ID GSJ-26-1103",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T18:24:00.000Z",
-      "reason": "unrelated",
-      "subject": "I want to connect",
-      "from": "Danielle Lieberman-Kieval <invitations@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T18:24:16.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Request to review Manuscript \"ANAMS_232_2026\"",
-      "from": "\"Annals of the National Academy of Medical Sciences (India)\" <no-reply@editorialassist.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T12:20:50.000Z",
-      "reason": "unrelated",
-      "subject": "Dhibin Vikash, did this researcher author this publication?",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T13:04:29.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "What DNA reveals about Hawaii’s settlement",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-26T16:24:00.000Z",
-      "reason": "unrelated",
-      "subject": "I want to connect",
-      "from": "Paras Gautam <invitations@linkedin.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T01:15:32.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-50240] - [EMID:02a1f4a01b6d7950]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T07:29:56.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "🟠RFCSR | Academic Scientific Community Update",
-      "from": "\"Dr. Christine Thomas\" <christine.thomas@rfcsr.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T09:02:21.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Spine - Latest news and upcoming events <aospine@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T10:50:53.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish, a recent article cited your research",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T11:02:42.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Latest news and upcoming events",
-      "from": "AO Trauma - Latest news and upcoming events <aotrauma@news.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T11:34:06.000Z",
-      "reason": "unrelated",
-      "subject": "Transfer Not Completed",
-      "from": "Springer Nature <do-not-reply@springernature.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T11:53:59.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: JOCR Article 11523 for review",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T12:04:32.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "Re: JOCR Article 11523 for review",
-      "from": "Nutan Saroj <sarojnutan@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T12:15:37.000Z",
-      "reason": "unrelated",
-      "subject": "You have a new registration draft.",
-      "from": "openscienceframework-noreply@osf.io",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T00:12:54.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Invitation to Review Manuscript No. 127704 for World Journal of Gastroenterology (Reviewer’s Code: 05395420)",
-      "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T13:06:18.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Invitation to Collaborate with JARMAI",
-      "from": "assistant editor <AE@timewellpress.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T13:05:24.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "IRJPMS:: Inviting paper for Publication: Volume 9 Issue 6: 2026",
-      "from": "IRJPMS Editor <irjpms@yahoo.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

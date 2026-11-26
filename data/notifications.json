@@ -1070,6 +1070,40 @@
           "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
         }
       ]
+    },
+    {
+      "key": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla|2026-11-28T18:29:59.999Z|t-1",
+      "kind": "t-1",
+      "manuscriptId": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla",
+      "title": "REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and the limits of causal language. Comment on Jia et al.",
+      "due": "2026-11-28T18:29:59.999Z",
+      "at": "2026-11-26T19:55:17.105Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
+    },
+    {
+      "key": "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur|2026-12-03T18:29:59.999Z|new",
+      "kind": "new",
+      "manuscriptId": "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur",
+      "title": "Fibular intramedullary nailing versus plate fixation for ankle fractures stratified by patient risk and nail design: a systematic review and meta-analysis",
+      "due": "2026-12-03T18:29:59.999Z",
+      "at": "2026-11-26T19:55:19.563Z",
+      "to": [
+        "Dr Sathish"
+      ],
+      "failed": [
+        {
+          "name": "Dhibin",
+          "error": "Meta returned 400: {\"error\":{\"message\":\"(#131030) Recipient phone number not in allowed list\",\"code\":131030,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Recipient phone number not in a — Dhibin's number is not on the test number's recipient list. Add and verify it under WhatsApp -> API Setup -> To."
+        }
+      ]
     }
   ],
   "issues": {
@@ -1111,7 +1145,7 @@
     },
     "is-morbid-obesity-a-risk-factor-or-simply-a-surgical-challenge-a-syste": {
       "number": 15,
-      "title": "Amendment 13 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
+      "title": "Amendment 14 days overdue — Is Morbid Obesity a Risk Factor or Simply a Surgical Challenge? A Sys…",
       "due": "2026-11-13T18:29:59.999Z",
       "closed": true
     },
@@ -1189,7 +1223,7 @@
     },
     "identification-of-therapeutic-targets-and-gene-expression-profiling-to": {
       "number": 29,
-      "title": "Amendment 21 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
+      "title": "Amendment 22 days overdue — Identification of Therapeutic Targets and Gene Expression Profiling t…",
       "due": "2026-11-05T18:29:59.999Z",
       "closed": true
     },
@@ -1202,7 +1236,7 @@
     "fibular-intramedullary-nailing-versus-plate-fixation-for-ankle-fractur": {
       "number": 31,
       "title": "Amendment 6 days left — Fibular intramedullary nailing versus plate fixation for ankle fractu…",
-      "due": "2026-11-30T18:29:59.999Z",
+      "due": "2026-12-03T18:29:59.999Z",
       "closed": true
     },
     "a-mechanism-based-approach-to-complex-proximal-radius-fractures-a-trea": {
@@ -1219,7 +1253,7 @@
     },
     "predicting-mesenchymal-stromal-cell-potency-needs-more-donors-before-i": {
       "number": 34,
-      "title": "Amendment due tomorrow — Predicting mesenchymal stromal cell potency needs more donors before…",
+      "title": "Amendment due today — Predicting mesenchymal stromal cell potency needs more donors before…",
       "due": "2026-11-27T18:29:59.999Z",
       "closed": true
     },
@@ -1232,32 +1266,35 @@
     "antinuclear-antibody-positivity-in-rheumatoid-arthritis-tracks-anti-ci": {
       "number": 36,
       "title": "Amendment 5 days left — Antinuclear antibody positivity in rheumatoid arthritis tracks anti-c…",
-      "due": "2026-12-01T18:29:59.999Z"
+      "due": "2026-12-01T18:29:59.999Z",
+      "closed": true
     },
     "selective-serotonin-reuptake-inhibitors-and-perioperative-bleeding-in-": {
       "number": 37,
-      "title": "Amendment 5 days left — Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in…",
+      "title": "Amendment 4 days left — Selective Serotonin Reuptake Inhibitors and Perioperative Bleeding in…",
       "due": "2026-12-01T18:29:59.999Z"
     },
     "compartment-specific-joint-space-width-and-knee-osteoarthritis-outcome-2": {
       "number": 38,
-      "title": "Amendment due tomorrow — Compartment-specific joint space width and knee osteoarthritis outcom…",
+      "title": "Amendment due today — Compartment-specific joint space width and knee osteoarthritis outcom…",
       "due": "2026-11-27T18:29:59.999Z"
     },
     "low-dose-olanzapine-for-postoperative-nausea-a-comparator-below-guidel-2": {
       "number": 39,
       "title": "Amendment due tomorrow — Low-dose olanzapine for postoperative nausea: a comparator below guid…",
-      "due": "2026-11-27T18:29:59.999Z"
+      "due": "2026-11-27T18:29:59.999Z",
+      "closed": true
     },
     "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla": {
       "number": 40,
-      "title": "Amendment 2 days left — REBOA and mortality in traumatic haemorrhagic shock: confounding, ove…",
+      "title": "Amendment due tomorrow — REBOA and mortality in traumatic haemorrhagic shock: confounding, ove…",
       "due": "2026-11-28T18:29:59.999Z"
     },
     "severe-heterotopic-ossification-abolishes-segmental-motion-after-cervi": {
       "number": 41,
       "title": "Amendment 2 days left — Severe Heterotopic Ossification Abolishes Segmental Motion After Cerv…",
-      "due": "2026-11-28T18:29:59.999Z"
+      "due": "2026-11-28T18:29:59.999Z",
+      "closed": true
     }
   }
 }
