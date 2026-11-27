@@ -1,6 +1,62 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-27T06:34:03.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "npj Quantum Materials Contents: 27 Nov 2026",
+      "from": "Nature Portfolio eAlerts <ealert@nature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T08:13:26.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Explore your Open Access publishing options",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T12:05:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI - China's humanoid robot investment set to accelerate, selective commercial use expected in 2027: Morgan Stanley",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T14:33:41.000Z",
+      "reason": "unrelated",
+      "subject": "RE: Required confirmation on account holder name for Bank Details Form Sathish Muthu 1000186780 UK BPO",
+      "from": "EUSSC MDM <EUSSC-MDM@informa.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T07:26:04.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Clinical Trial- Invitation to handle manuscript [PONE-D-26-55916] - [EMID:2832829deade09d2]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T11:39:55.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: European Spine Journal-Amendment required",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T11:40:07.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: SMOA-D-26-01429 - Manuscript Sent Back",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T11:40:25.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Fwd: Your submission",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-25T07:14:58.000Z",
       "reason": "editorial_role_for_other_manuscript",
       "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-55475] - [EMID:7db98e59c7908430]",
@@ -2043,62 +2099,6 @@
       "subject": "AI Agents In Healthcare: What To Expect?",
       "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
       "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T20:57:56.000Z",
-      "reason": "unrelated",
-      "subject": "David Gendelberg created the discussion What would make you change your approach at L5–S1? in Global Spine Journal Club Group",
-      "from": "\"myAO 2.0\" <no-reply@myao.aofoundation.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T02:30:08.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder — today: Class 31 · JOURNAL CLUB PRESENTATION by Dr Madhan Jeyaraman, Dr Naveen Jeyaraman, 5:25 PM IST",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T03:24:44.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: A recommendation for Journal self-citation and the two-year Impact Factor window in orthopaedic and spine journals: a cross-sectional analysis of 790,827 references in 36 journals",
-      "from": "Elsevier transfer your manuscript service <no-reply@submissions.elsevier.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T04:50:29.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "JOIO - Weekly Overview Of Your Assignments (Sathish Muthu) - [EMID:1b753c857f7dadf8]",
-      "from": "JOIO Editorial Office <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T20:17:28.000Z",
-      "reason": "unrelated",
-      "subject": "You have a new registration draft",
-      "from": "openscienceframework-noreply@osf.io",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T13:31:16.000Z",
-      "reason": "unrelated",
-      "subject": "Thank you for your comments on the IHME ID: 6241 - GBD 2023 Global Total Diabetes paper",
-      "from": "GBD Secretariat <gbdsec@healthdata.org>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T20:36:04.000Z",
-      "reason": "unrelated",
-      "subject": "Pending Embargo - Admin Notification",
-      "from": "openscienceframework-noreply@osf.io",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T21:00:25.000Z",
-      "reason": "unrelated",
-      "subject": "Pending Embargo - Admin Notification",
-      "from": "openscienceframework-noreply@osf.io",
-      "account": "drsathishmuthu@gmail.com"
     }
   ]
 }
