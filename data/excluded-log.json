@@ -1,6 +1,132 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-27T08:12:02.000Z",
+      "reason": "unrelated",
+      "subject": "Your research may still be a strong fit",
+      "from": "Springer Nature <springernature@research.springernature.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T12:59:47.000Z",
+      "reason": "unrelated",
+      "subject": "You have a new registration draft",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T15:27:04.000Z",
+      "reason": "unrelated",
+      "subject": "Koita Foundation just posted something that might be of interest to you",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T18:27:04.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "Making Body Composition Part of Routine Medical Care",
+      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T06:11:18.000Z",
+      "reason": "unrelated",
+      "subject": "Journal recommendations for REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and the limits of causal language. Comment on Jia et al",
+      "from": "Springer Nature <do-not-reply@springernature.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T09:41:08.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "Edit invitation: Operationalizing Enhanced Recovery in Hip and Knee...",
+      "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T12:55:55.000Z",
+      "reason": "unrelated",
+      "subject": "You have a new registration draft.",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T13:07:00.000Z",
+      "reason": "unrelated",
+      "subject": "You have a new registration draft.",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T13:07:01.000Z",
+      "reason": "unrelated",
+      "subject": "You have a new registration draft.",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T13:10:54.000Z",
+      "reason": "unrelated",
+      "subject": "Pending Registration - Admin Notification",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T13:33:21.000Z",
+      "reason": "unrelated",
+      "subject": "Pending Registration - Admin Notification",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T13:34:40.000Z",
+      "reason": "unrelated",
+      "subject": "Pending Registration - Admin Notification",
+      "from": "openscienceframework-noreply@osf.io",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T13:49:22.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "SICOT-J CALL FOR APPLICATIONS - Section Editors",
+      "from": "SICOT <hq@sicot.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T14:00:00.000Z",
+      "reason": "unrelated",
+      "subject": "Fwd: latest manuscript version",
+      "from": "\"stjepan ivandić\" <stjepanivandic@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T14:47:12.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Second Reminder: Invitation to review Manuscript IPMT-2026-ST-0312.R1 - Pain Management",
+      "from": "Pain Management <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T15:04:30.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "New Issue Online - eTOC for October-December 2026 issue",
+      "from": "Indian Journal of Physiology and Pharmacology <etoc@scientificscholar.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T15:08:57.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: latest manuscript version",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T15:25:07.000Z",
+      "reason": "unrelated",
+      "subject": "[ORCID] Sathish Muthu you have new notifications",
+      "from": "ORCID - Do not reply <DoNotReply@notify.orcid.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-27T06:34:03.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "npj Quantum Materials Contents: 27 Nov 2026",
@@ -1973,132 +2099,6 @@
       "subject": "Number ID: 05395420 | Invitation to Submit a Clinical Neurology Manuscript to the World Journal of Clinical Cases",
       "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
       "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T18:27:46.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Number ID: 05395420 | Invitation to Submit a Clinical Neurology Manuscript to the World Journal of Clinical Cases",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T09:47:22.000Z",
-      "reason": "unrelated",
-      "subject": "Sathish Muthu published an article",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T13:02:59.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Stanford Research Park celebrates 75 years",
-      "from": "Stanford Report <noreply@stanford.edu>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T06:03:23.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Rethinking knee osteoarthritis care across the lifespan",
-      "from": "EMJ 6 at 6am <circulation@emjreviews.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T06:04:47.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Fwd: Decision on Manuscript ID RE-26-0328 - Research Ethics",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T07:03:17.000Z",
-      "reason": "unrelated",
-      "subject": "Shoulder and elbow teaching for your fellows",
-      "from": "PM Diplomas Admissions <diplomas@getpmdiplomas.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T08:01:43.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Call for Papers",
-      "from": "Giornale di Clinica Nefrologica e Dialisi <mailings@aboutscience.eu>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T08:19:28.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "[JCM] Manuscript ID: jcm-4609131 - Review Request Cancelled",
-      "from": "JCM Editorial Office <jcm@mdpi.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T08:35:35.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Reminder: INQUIRY Invitation to Review",
-      "from": "INQUIRY <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T09:40:13.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "7th Annual EOS Conference: Abstracts Deadline Oct 31",
-      "from": "\"'Info@purespot.org' via EOS\" <EOS@egypure.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T10:34:06.000Z",
-      "reason": "unrelated",
-      "subject": "Reminder: your publication: Retraction notice to \"Bracing NK cell based therapy to relegate pulmonary inflammation in COVID-19\" [Heliyon 7 (2021) e07635]",
-      "from": "ResearchGate <no-reply@researchgatemail.net>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T11:17:20.000Z",
-      "reason": "unrelated",
-      "subject": "Starting in 30 minutes: Class 31 · JOURNAL CLUB PRESENTATION by Dr Madhan Jeyaraman, Dr Naveen Jeyaraman",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T11:50:05.000Z",
-      "reason": "unrelated",
-      "subject": "Live now: Class 31 · JOURNAL CLUB PRESENTATION by Dr Madhan Jeyaraman, Dr Naveen Jeyaraman",
-      "from": "Agathisha AISRM <education@agathisha.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T11:57:21.000Z",
-      "reason": "peer_review_invitation_for_other_manuscript",
-      "subject": "Annals of Medicine (Elevate) - Invitation to Review Manuscript ID IANN-2026-7595",
-      "from": "\"Annals of Medicine (Elevate)\" <onbehalfof@manuscriptcentral.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T12:43:18.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "With Reference to Does the Choice of Chemoprophylaxis Affect the Prevention of Deep Vein Thrombosis in Lumbar Fusion Surgery? A Systematic Review of the Literature",
-      "from": "\"Dr. Mara Sterling\" <ljmhr@londonjournalspress.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T12:51:59.000Z",
-      "reason": "forwarded_between_us",
-      "subject": "Re: Need Your Attention-cimb-4664892-Please modify in the attachment",
-      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T00:12:49.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "Study Suggests Walking as a Tonic to Ward Off AMD",
-      "from": "Medscape Family Medicine <Medscape_Family_Medicine@mail.medscape.com>",
-      "account": "dhibinvikash1@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T03:49:06.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "AI Agents In Healthcare: What To Expect?",
-      "from": "\"Bertalan Meskó, MD, PhD via LinkedIn\" <newsletters-noreply@linkedin.com>",
-      "account": "dhibinvikash1@gmail.com"
     }
   ]
 }

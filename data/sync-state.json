@@ -1,7 +1,7 @@
 {
   "accounts": {
     "dhibinvikash1@gmail.com": {
-      "lastSyncedAt": "2026-11-27T08:12:02.000Z",
+      "lastSyncedAt": "2026-11-27T09:10:10.000Z",
       "seenIds": [
         "1a0103eff244d8fe",
         "1a01f47bc9dacb9b",
@@ -3869,7 +3869,14 @@
         "1a21bdd2edf017ac",
         "1a21bb627eb3616e",
         "1a21b9f79c316d67",
-        "1a2185516fb16937"
+        "1a2185516fb16937",
+        "1a21e6fcd33f43bb",
+        "1a21e4574c526576",
+        "1a21d9e1bd9180c9",
+        "1a21d8db6034721a",
+        "1a21d7ba7488e691",
+        "1a21d1732f05e405",
+        "1a21c0fbdd29c8ab"
       ],
       "importedAt": "2026-08-23T12:49:10.227Z",
       "failedAttempts": {
@@ -3878,28 +3885,8 @@
       "holding": true
     },
     "drsathishmuthu@gmail.com": {
-      "lastSyncedAt": "2026-11-27T06:11:18.000Z",
+      "lastSyncedAt": "2026-11-27T22:07:15.786Z",
       "seenIds": [
-        "19f446c907bbadd3",
-        "19f4465d71c68cc5",
-        "19f4450c934f88ba",
-        "19f443795c0d4fb3",
-        "19f43c063b6feaeb",
-        "19f43a0458454357",
-        "19f4319e5769d77a",
-        "19f4293e7f0fb262",
-        "19f427b03b5bd4d1",
-        "19f424eaa4984368",
-        "19f421dda2072ca9",
-        "19f421c3f81ec3dc",
-        "19f420bf97ad962a",
-        "19f41e5d66428348",
-        "19f41d914b2dec46",
-        "19f41a8ed968b45e",
-        "19f417f527c6fbc1",
-        "19f4163358c272df",
-        "19f41605bd6cbfb8",
-        "19f415ffeb655eb5",
         "19f4148ff12d787d",
         "19f410f9f9e5fd07",
         "19f40e39588bf8d3",
@@ -11879,7 +11866,27 @@
         "1a21b7eeb2247f6f",
         "1a21b7c606b34de4",
         "1a21b44413ef9b06",
-        "1a21847222b3bc6d"
+        "1a21847222b3bc6d",
+        "1a21ed37ae2169d9",
+        "1a21e4676c4edb66",
+        "1a21d9c3b99130f1",
+        "1a21d8d6c8cd6f3c",
+        "1a21d8b7654a859c",
+        "1a21d89b05c53c8a",
+        "1a21d7ba19fb3cdd",
+        "1a21d7ab70e2ba96",
+        "1a21d79849dfca3b",
+        "1a21d65c10c7c48c",
+        "1a21d4ee6f084950",
+        "1a21d44c262d3683",
+        "1a21d37225de032d",
+        "1a21d35ead07914e",
+        "1a21d215ecfc4d95",
+        "1a21d1dd1e502246",
+        "1a21d1dc95583165",
+        "1a21d13a62dc4ffe",
+        "1a21c614e73d8ea5",
+        "1a21ba132e40d835"
       ],
       "importedAt": "2026-08-23T12:50:23.421Z",
       "failedAttempts": {
@@ -11892,7 +11899,7 @@
         "19c5d94258ac2e1d": 1,
         "19c5d62bcf8377b7": 1
       },
-      "holding": true
+      "holding": false
     }
   }
 }

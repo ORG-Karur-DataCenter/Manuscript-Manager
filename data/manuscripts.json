@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T12:43:53.411Z",
+  "generatedAt": "2026-11-27T22:11:34.203Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -780,6 +780,105 @@
       ],
       "createdAt": "2026-06-12T02:16:39.000Z",
       "updatedAt": "2026-06-12T02:16:39.000Z"
+    },
+    {
+      "id": "access-surgeon-versus-spine-surgeon-exposure-in-anterior-lumbar-interb",
+      "title": "Access Surgeon Versus Spine Surgeon Exposure in Anterior Lumbar Interbody Fusion: A Systematic Review and Meta-Analysis of Comparative Studies",
+      "titleNormalized": "access surgeon versus spine surgeon exposure in anterior lumbar interbody fusion a systematic review and meta analysis of comparative studies",
+      "bucket": "in_review",
+      "needsReview": false,
+      "reviewReason": null,
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
+      "currentJournal": "JBJS Open Access",
+      "currentManuscriptNumber": "JBJSOA-D-26-00435",
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
+      "doi": null,
+      "publicationLink": null,
+      "authorAccounts": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy"
+      ],
+      "submissions": [
+        {
+          "journal": "JBJS Open Access",
+          "manuscriptNumber": "JBJSOA-D-26-00435",
+          "submittedDate": "2026-11-27T14:49:30.000Z",
+          "outcome": "active",
+          "status": "new_submission",
+          "doi": null,
+          "publicationLink": null,
+          "statusHistory": [
+            {
+              "timestamp": "2026-11-27T14:49:30.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript was received and assigned a tracking number, confirming submission.",
+              "manuscriptNumber": "JBJSOA-D-26-00435",
+              "source": {
+                "threadId": "1a21d7ba19fb3cdd",
+                "messageId": "1a21d7ba19fb3cdd",
+                "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00435) - [EMID:9863b0268666ac58]",
+                "from": "JBJS Open Access <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-27T14:49:32.000Z",
+              "eventType": "other",
+              "revisionRound": null,
+              "note": "The author is requested to verify their co-authorship for a manuscript submitted to JBJS Open Access.",
+              "manuscriptNumber": "JBJSOA-D-26-00435",
+              "source": {
+                "threadId": "1a21d7ba7488e691",
+                "messageId": "1a21d7ba7488e691",
+                "subject": "Co-authorship confirmation request (JBJSOA-D-26-00435) - [EMID:8ac77f8553454abb]",
+                "from": "Sathish Muthu <em@editorialmanager.com>"
+              }
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "timestamp": "2026-11-27T14:49:30.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "new_submission",
+          "manuscriptNumber": "JBJSOA-D-26-00435",
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript was received and assigned a tracking number, confirming submission.",
+          "source": {
+            "threadId": "1a21d7ba19fb3cdd",
+            "messageId": "1a21d7ba19fb3cdd",
+            "subject": "JBJS Open Access Manuscript Submission Confirmation (JBJSOA-D-26-00435) - [EMID:9863b0268666ac58]",
+            "from": "JBJS Open Access <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-27T14:49:32.000Z",
+          "journal": "JBJS Open Access",
+          "eventType": "other",
+          "manuscriptNumber": "JBJSOA-D-26-00435",
+          "label": "Update",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The author is requested to verify their co-authorship for a manuscript submitted to JBJS Open Access.",
+          "source": {
+            "threadId": "1a21d7ba7488e691",
+            "messageId": "1a21d7ba7488e691",
+            "subject": "Co-authorship confirmation request (JBJSOA-D-26-00435) - [EMID:8ac77f8553454abb]",
+            "from": "Sathish Muthu <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        }
+      ],
+      "createdAt": "2026-11-27T14:49:30.000Z",
+      "updatedAt": "2026-11-27T14:49:32.000Z"
     },
     {
       "id": "adoption-of-mibo-guidelines-in-orthobiologics-practice-a-framework-for",
