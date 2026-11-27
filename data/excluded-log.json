@@ -1,6 +1,41 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-25T07:14:58.000Z",
+      "reason": "editorial_role_for_other_manuscript",
+      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-55475] - [EMID:7db98e59c7908430]",
+      "from": "PLOS ONE <em@editorialmanager.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-26T23:21:17.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Review Invitation Reminder: Health Informatics Journal - HIJ-26-0730",
+      "from": "Health Informatics Journal <onbehalfof@manuscriptcentral.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T00:18:04.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Following up on IRB approval",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T00:24:52.000Z",
+      "reason": "forwarded_between_us",
+      "subject": "Re: SCOPE Study – Update from Clínica Portoazul Auna and IRB Submission",
+      "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-27T02:29:05.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Is this article of interest to you (ID 2038441)?",
+      "from": "Frontiers in Surgery Editorial Office <surgery.editorial.office@frontiersin.org>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-26T10:08:25.000Z",
       "reason": "newsletter_or_cfp",
       "subject": "Sharun Khan published a chapter",
@@ -2063,41 +2098,6 @@
       "reason": "unrelated",
       "subject": "Pending Embargo - Admin Notification",
       "from": "openscienceframework-noreply@osf.io",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T21:16:01.000Z",
-      "reason": "unrelated",
-      "subject": "Pending Embargo - Admin Notification",
-      "from": "openscienceframework-noreply@osf.io",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T21:33:22.000Z",
-      "reason": "unrelated",
-      "subject": "Pending Embargo - Admin Notification",
-      "from": "openscienceframework-noreply@osf.io",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T22:05:02.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "\"Illustrated catalogue of the type Asteroidea in the Natural History Museum, London. Part II. Valvatacea: Paxillosida.\" is ready to read",
-      "from": "\"Taylor & Francis\" <taylorandfrancis@email.taylorandfrancis.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T06:47:34.000Z",
-      "reason": "editorial_role_for_other_manuscript",
-      "subject": "PLOS One: Invitation to handle manuscript [PONE-D-26-52905] - [EMID:36b83937cb86f6dd]",
-      "from": "PLOS ONE <em@editorialmanager.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-27T13:21:57.000Z",
-      "reason": "newsletter_or_cfp",
-      "subject": "New Issue Online - eTOC for November 2026 issue",
-      "from": "Indian Journal of Medical Research <etoc@scientificscholar.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]

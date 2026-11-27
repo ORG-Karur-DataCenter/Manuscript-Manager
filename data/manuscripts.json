@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T19:55:02.777Z",
+  "generatedAt": "2026-11-27T02:59:35.505Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -4191,10 +4191,10 @@
       "submissions": [
         {
           "journal": "Sports Medicine - Open",
-          "manuscriptNumber": "SMOA-D-26-01429",
+          "manuscriptNumber": "22c03cef29dac5f8",
           "submittedDate": "2026-11-23T14:33:33.000Z",
           "outcome": "active",
-          "status": "new_submission",
+          "status": "sent_back",
           "doi": null,
           "publicationLink": null,
           "statusHistory": [
@@ -4208,6 +4208,19 @@
                 "threadId": "1a208ce377f25d10",
                 "messageId": "1a208d394114fc91",
                 "subject": "Your PDF for your Sports Medicine - Open submission has been created",
+                "from": "Sports Medicine - Open Editorial Office <em@editorialmanager.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-26T05:47:29.000Z",
+              "eventType": "sent_back",
+              "revisionRound": null,
+              "note": "The author is asked to approve the submission to complete the submission process.",
+              "manuscriptNumber": "22c03cef29dac5f8",
+              "source": {
+                "threadId": "1a21665084d90dd8",
+                "messageId": "1a21665084d90dd8",
+                "subject": "SMOA Submission needs your approval - [EMID:22c03cef29dac5f8]",
                 "from": "Sports Medicine - Open Editorial Office <em@editorialmanager.com>"
               }
             },
@@ -4265,6 +4278,27 @@
             "threadId": "1a208ce377f25d10",
             "messageId": "1a208d394114fc91",
             "subject": "Your PDF for your Sports Medicine - Open submission has been created",
+            "from": "Sports Medicine - Open Editorial Office <em@editorialmanager.com>"
+          },
+          "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-26T05:47:29.000Z",
+          "journal": "Sports Medicine - Open",
+          "eventType": "sent_back",
+          "manuscriptNumber": "22c03cef29dac5f8",
+          "label": "Sent back for edits",
+          "revisionRound": null,
+          "deadline": {
+            "due": "2026-12-03T18:29:59.999Z",
+            "source": "assumed",
+            "basis": "7 days — this journal's usual window, not stated in the email"
+          },
+          "note": "The author is asked to approve the submission to complete the submission process.",
+          "source": {
+            "threadId": "1a21665084d90dd8",
+            "messageId": "1a21665084d90dd8",
+            "subject": "SMOA Submission needs your approval - [EMID:22c03cef29dac5f8]",
             "from": "Sports Medicine - Open Editorial Office <em@editorialmanager.com>"
           },
           "needsReview": false
@@ -26091,17 +26125,17 @@
       "id": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla",
       "title": "REBOA and mortality in traumatic haemorrhagic shock: confounding, overlapping registries and the limits of causal language. Comment on Jia et al.",
       "titleNormalized": "reboa and mortality in traumatic haemorrhagic shock confounding overlapping registries and the limits of causal language comment on jia et al",
-      "bucket": "needs_action",
+      "bucket": "in_review",
       "needsReview": true,
       "reviewReason": "\"Springer Nature\" is a publisher, not a journal — set the journal this paper is actually with.",
-      "needsActionReason": "pre_review_edits",
-      "actionFlag": true,
-      "actionLabel": "Amendments requested",
+      "needsActionReason": null,
+      "actionFlag": false,
+      "actionLabel": null,
       "currentJournal": "World Journal of Emergency Surgery",
-      "currentManuscriptNumber": "cc8d3af6-3f6a-466f-89d7-85f0db671b2d",
-      "currentStatus": "Sent back for edits",
-      "deadline": "2026-11-28T18:29:59.999Z",
-      "deadlineSource": "stated",
+      "currentManuscriptNumber": null,
+      "currentStatus": "Submitted",
+      "deadline": null,
+      "deadlineSource": null,
       "doi": null,
       "publicationLink": null,
       "authorAccounts": [
@@ -26140,6 +26174,19 @@
               "source": {
                 "threadId": "1a20d6662dd030ef",
                 "messageId": "1a211139e325dfec",
+                "subject": "Track the status of your manuscript",
+                "from": "Springer Nature <do-not-reply@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-26T12:05:18.000Z",
+              "eventType": "new_submission",
+              "revisionRound": null,
+              "note": "The manuscript has been received and the submission is being tracked",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a217bef179cdc20",
+                "messageId": "1a217bef179cdc20",
                 "subject": "Track the status of your manuscript",
                 "from": "Springer Nature <do-not-reply@springernature.com>"
               }
@@ -26290,10 +26337,27 @@
             "from": "Springer Nature Submissions <sanderphilip.libangyaneza@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-26T12:05:18.000Z",
+          "journal": "Springer Nature",
+          "eventType": "new_submission",
+          "manuscriptNumber": null,
+          "label": "Submitted",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "The manuscript has been received and the submission is being tracked",
+          "source": {
+            "threadId": "1a217bef179cdc20",
+            "messageId": "1a217bef179cdc20",
+            "subject": "Track the status of your manuscript",
+            "from": "Springer Nature <do-not-reply@springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-11-24T18:10:03.000Z",
-      "updatedAt": "2026-11-26T01:30:30.000Z"
+      "updatedAt": "2026-11-26T12:05:18.000Z"
     },
     {
       "id": "reboa-and-mortality-in-traumatic-haemorrhagic-shock-confounding-overla-2",
@@ -30898,6 +30962,19 @@
                 "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 127389",
                 "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
               }
+            },
+            {
+              "timestamp": "2026-11-26T12:37:50.000Z",
+              "eventType": "under_review",
+              "revisionRound": null,
+              "note": "A reviewer has completed their review of the author's manuscript.",
+              "manuscriptNumber": "127389",
+              "source": {
+                "threadId": "1a217eacef6c737d",
+                "messageId": "1a217eacef6c737d",
+                "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 127389",
+                "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+              }
             }
           ]
         }
@@ -30951,10 +31028,27 @@
             "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-26T12:37:50.000Z",
+          "journal": "World Journal of Orthopedics",
+          "eventType": "under_review",
+          "manuscriptNumber": "127389",
+          "label": "Under review",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "A reviewer has completed their review of the author's manuscript.",
+          "source": {
+            "threadId": "1a217eacef6c737d",
+            "messageId": "1a217eacef6c737d",
+            "subject": "World Journal of Orthopedics Manuscript review of Manuscript NO: 127389",
+            "from": "Baishideng_PeerReview <bpg.peer.review@service.wjgnet.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-08-27T13:24:40.000Z",
-      "updatedAt": "2026-10-14T15:21:33.000Z",
+      "updatedAt": "2026-11-26T12:37:50.000Z",
       "deadline": null,
       "deadlineSource": null
     },
