@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T22:11:34.203Z",
+  "generatedAt": "2026-11-28T03:58:56.568Z",
   "manuscripts": [
     {
       "id": "a-locally-executed-agentic-ai-framework-for-deduplication-screening-an",
@@ -26102,10 +26102,10 @@
       "actionFlag": false,
       "actionLabel": null,
       "currentJournal": "European Spine Journal",
-      "currentManuscriptNumber": null,
+      "currentManuscriptNumber": "91d23b37-2974-46cb-985f-da52032a8f8a",
       "currentStatus": "Revision submitted",
       "doi": null,
-      "publicationLink": null,
+      "publicationLink": "https://rdcu.be/P4nU3BPZihca",
       "authorAccounts": [
         "Dhibin Vikash Kolarpatti Ponnusamy",
         "Sathish Muthu"
@@ -26115,10 +26115,10 @@
           "journal": "European Spine Journal",
           "manuscriptNumber": "91d23b37-2974-46cb-985f-da52032a8f8a",
           "submittedDate": "2026-06-24T10:42:55.000Z",
-          "outcome": "active",
-          "status": "revision_requested",
+          "outcome": "published",
+          "status": "published",
           "doi": null,
-          "publicationLink": null,
+          "publicationLink": "https://rdcu.be/P4nU3BPZihca",
           "statusHistory": [
             {
               "timestamp": "2026-06-24T10:42:55.000Z",
@@ -26187,6 +26187,19 @@
                 "messageId": "1a128e0804a562ab",
                 "subject": "European Spine Journal: Decision on your manuscript",
                 "from": "European Spine Journal <kavinaya.palraj@springernature.com>"
+              }
+            },
+            {
+              "timestamp": "2026-11-28T02:04:30.000Z",
+              "eventType": "published",
+              "revisionRound": null,
+              "note": "Your article has been published online in European Spine Journal.",
+              "manuscriptNumber": null,
+              "source": {
+                "threadId": "1a21fe59ce6dcdc4",
+                "messageId": "1a21fe59ce6dcdc4",
+                "subject": "Sharing Information for \"Proximal junctional odontoid fracture after cervical fusion: a distinct failure mechanism at the craniovertebral junction\"",
+                "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>"
               }
             }
           ]
@@ -26318,10 +26331,27 @@
             "from": "Springer Nature <do-not-reply@springernature.com>"
           },
           "needsReview": false
+        },
+        {
+          "timestamp": "2026-11-28T02:04:30.000Z",
+          "journal": "European Spine Journal",
+          "eventType": "published",
+          "manuscriptNumber": null,
+          "label": "Published",
+          "revisionRound": null,
+          "deadline": null,
+          "note": "Your article has been published online in European Spine Journal.",
+          "source": {
+            "threadId": "1a21fe59ce6dcdc4",
+            "messageId": "1a21fe59ce6dcdc4",
+            "subject": "Sharing Information for \"Proximal junctional odontoid fracture after cervical fusion: a distinct failure mechanism at the craniovertebral junction\"",
+            "from": "Springer Nature Sharing <no-reply@email.authors.springernature.com>"
+          },
+          "needsReview": false
         }
       ],
       "createdAt": "2026-06-24T10:42:55.000Z",
-      "updatedAt": "2026-10-11T06:33:26.000Z",
+      "updatedAt": "2026-11-28T02:04:30.000Z",
       "deadline": null,
       "deadlineSource": null,
       "overrides": {

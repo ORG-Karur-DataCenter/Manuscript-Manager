@@ -1,6 +1,20 @@
 {
   "excluded": [
     {
+      "timestamp": "2026-11-28T02:24:59.000Z",
+      "reason": "newsletter_or_cfp",
+      "subject": "ET AI - HSBC restructures India GCC operations amid AI-driven overhaul",
+      "from": "ET AI <newsletter@economictimesnews.com>",
+      "account": "dhibinvikash1@gmail.com"
+    },
+    {
+      "timestamp": "2026-11-28T00:13:24.000Z",
+      "reason": "peer_review_invitation_for_other_manuscript",
+      "subject": "Invitation to Review Manuscript No. 130970 for World Journal of Gastrointestinal Endoscopy (Reviewer Code: 05395420)",
+      "from": "Baishideng_Peer_Review <bpg.peer.review@wjgnet.com>",
+      "account": "drsathishmuthu@gmail.com"
+    },
+    {
       "timestamp": "2026-11-27T08:12:02.000Z",
       "reason": "unrelated",
       "subject": "Your research may still be a strong fit",
@@ -2084,20 +2098,6 @@
       "reason": "forwarded_between_us",
       "subject": "Re: Urgent Attention-cimb-4664892-Please modify in the attachment（please reply as soon as possible）",
       "from": "Dr Sathish Muthu <drsathishmuthu@gmail.com>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T13:57:54.000Z",
-      "reason": "unrelated",
-      "subject": "PROSPERO record confirmation",
-      "from": "PROSPERO Administrator <irss583@york.ac.uk>",
-      "account": "drsathishmuthu@gmail.com"
-    },
-    {
-      "timestamp": "2026-10-28T18:09:15.000Z",
-      "reason": "predatory_solicitation",
-      "subject": "Number ID: 05395420 | Invitation to Submit a Clinical Neurology Manuscript to the World Journal of Clinical Cases",
-      "from": "\"BPG Invitation (Fan JR)\" <invitation.fanjr@service.wjgnet.com>",
       "account": "drsathishmuthu@gmail.com"
     }
   ]
